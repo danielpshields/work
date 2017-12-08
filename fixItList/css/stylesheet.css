@@ -9,3 +9,7 @@
 .red {
   color: red;
 }
+
+p, li {
+  line-height: 1.5;
+}
