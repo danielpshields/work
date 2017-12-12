@@ -1,10 +1,7 @@
-
-
 .container {
   max-width: 800px;
   margin: auto;
 }
-
 
 .red {
   color: red;
@@ -12,4 +9,18 @@
 
 p, li {
   line-height: 1.5;
+}
+
+.about p, .about li {
+  font-size: 19px;
+}
+
+.about h3 {
+  font-size: 21px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border: 1px solid #d0d0d0;
 }
