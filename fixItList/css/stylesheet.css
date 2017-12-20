@@ -23,4 +23,5 @@ img {
   display: block;
   margin: auto;
   border: 1px solid #d0d0d0;
+  max-width: 100%;
 }
