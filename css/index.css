@@ -1,14 +1,15 @@
 article {
   float: left;
   padding-right: 5px;
+  margin-left: 10px;
 }
 
 .lonesomeNote  {
   width: 34%;
 }
 
-article {
-  margin-left: 10px;
+.library {
+  margin-top: 5px;
 }
 
 li {
