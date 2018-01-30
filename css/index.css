@@ -1,0 +1,13 @@
+article {
+  float: left;
+  padding-right: 5px;
+}
+
+.lonesomeNote  {
+  width: 30%;
+}
+
+li {
+  line-height: 1.6;
+  font-size: 22px;
+}
