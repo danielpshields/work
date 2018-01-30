@@ -4,7 +4,11 @@ article {
 }
 
 .lonesomeNote  {
-  width: 30%;
+  width: 34%;
+}
+
+article {
+  margin-left: 10px;
 }
 
 li {
