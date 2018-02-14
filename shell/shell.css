@@ -1,0 +1,53 @@
+
+      #utility-links {
+      	margin-top: -24px;
+      	overflow: visible;
+      }
+      #utility-links #menu-item-1854 a {
+      	text-indent: -9999em;
+      	background: url('http://sites.clas.ufl.edu/geog/files/give_geography.png') scroll no-repeat 0 0 transparent;
+      	width: 234px;
+      	height: 52px;
+      	display: block;
+      }
+      #header-actionitem {
+      	padding-right: 26px;
+      }
+      .page-id-2918 .slideshow_container {
+      	margin-left: 200px;
+      }
+      #header-actionitem:after {
+      	content: " ";
+      	background: url('http://sites.clas.ufl.edu/geog/files/header-action-arrow-trans.png') scroll no-repeat 0 0 transparent;
+      	height: 17px;
+      	width: 19px;
+      	display: block;
+      	position: absolute;
+      	right: 2px;
+      	top: 4px;
+      }
+      a#header-actionitem:hover {
+      	background-image: url('http://sites.clas.ufl.edu/geog/files/bg-custom-button-light.jpg');
+      }
+      #primary-nav a {
+      	padding-left: 26px;
+      	padding-right: 26px;
+      }
+      body.parent-pageid-2 #sitebar-nav .page-item-384 .children {
+      	display: none;
+      }
+      article a {
+      	font-weight: bold;
+      }
+      #featured-widget-left #slideshow-reel, #featured-widget-left #slideshow-reel .slide {
+      	height: 290px;
+      }
+      article table a {
+      	text-decoration: underline;
+      }
+
+#menu-item-8785 {
+  background: orange;
+  margin-top: 30px;
+  z-index: 1000;
+}
