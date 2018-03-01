@@ -8,6 +8,10 @@ article {
   width: 34%;
 }
 
+.lonesomeNote h4 {
+  font-style: italic;
+}
+
 .library {
   margin-top: 5px;
 }
