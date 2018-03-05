@@ -40,3 +40,8 @@ img {
   padding-bottom: 10px;
   margin-bottom: 30px;
 }
+
+table, tr, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
