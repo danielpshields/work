@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>180316 ARIA tags</title>
+  </head>
+  <body>
+    <h1>ARIA tags</h1>
+
+    <ul>
+      <li>ARIA attributes are designed to be interpreted automatically by the browser and translated to the operating system's native accessibility APIs</li>
+      <li>When ARIA is present, assistive technologies are able to recognize and interact with custom JavaScript controls in the same way that they do with desktop equivalents</li>
+      <li role="menuitemcheckbox" aria-checked="true">Sort by Last Modified</li>
+    </ul>
+
+    <!-- aria aria aria -->
+    <!-- aria aria aria -->
+    <!-- aria aria aria -->
+
+
+    <div class="ariaHold"><!-- ariaClose -->
+    <ul>
+     	<li role="menuitemcheckbox" aria-checked="true">Sort by Last Modified</li>
+     	<button aria-label="Close" onclick="myDialog.close()">X</button>
+    </ul>
+    <hr />
+    <div role="applicaton" aria-labelledby="calendar" aria-describedby="info">
+        <h1 id="calendar">Calendar</h1>
+        <p id="info">This calendar shows the game schedule for the Boston Red Sox.</p>
+        <div role="grid">...</div>
+    </div>
+    <hr />
+    </div><!-- ariaClose -->
+
+    <!-- aria aria aria -->
+    <!-- aria aria aria -->
+    <!-- aria aria aria -->
+
+
+
+  </body>
+</html>
