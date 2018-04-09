@@ -1,0 +1,65 @@
+.container {
+  border-bottom: 1px solid black;
+}
+
+#web {
+  border-top: 1px solid #a0a0a0;
+  border-bottom: 1px solid #a0a0a0;
+}
+
+.sites h3, .cD h2, .clasStructureInCD h2 {
+  text-align: center;
+}
+
+.roles {
+  width: 100%;
+  background: #c0c0c0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid gray;
+  padding-top: 5px;
+}
+
+.cD {
+  width: 31.5%;
+  margin-left: 10px;
+  float: left;
+  background: white;
+}
+
+.cD h3, .clasStructureInCD h3 {
+  text-align: center;
+}
+
+.rolesList {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.clasStructureInCD {
+  width: 31%;
+  margin-left: 10px;
+  float: left;
+  background: none;
+  padding-top: 0;
+}
+
+.CLASIT, .CLASCOM {
+  background: white;
+  float: left;
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+
+.users {
+  border-top: 1px solid #a0a0a0;
+  margin-top: 15px;
+}
+
+/* ------ this is real ------ */
+
+.adminSchematicDiv {
+  width: 50%;
+  float: left;
+}

@@ -1,0 +1,78 @@
+table, tr, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.coursesAndSections, .semesters, .instructorsAndDepartments {
+  float: left;
+  width: 33.2%;
+}
+
+.tables table {
+  width:  75%;
+}
+
+.tableSpace {margin-bottom: 15px;}
+
+.tables {
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
+.keys {
+  width: 29.5%;
+  background: none;
+  float: left;
+}
+
+.keys ul {
+  margin-top: 0;
+}
+
+.keyTable {
+  float: left;
+  width: 40%;
+  margin-left: 0px;
+}
+
+.courses li {
+  font-size: 18px;
+}
+
+.syllabus {
+  float: left;
+  margin-left: 30px;
+}
+
+.syllabus a {
+  color: blue;
+}
+
+.foxSite {
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+
+
+.foxTitle {
+  float: left;
+  width: 31%;
+}
+
+.foxTitle h2 {
+  width: 100%;
+}
+
+.foxContent {
+  width: 65%;
+  float: right;
+}
+
+.foxBabySite {
+  width: 250px;
+  height: 150px;
+  border: 1px solid black;
+  /* float: left; */
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
