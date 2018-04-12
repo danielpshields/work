@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    ARIA attributes are still stripped. Allow ARIA Attributes worked well, no other tags were stripped when first installed.
+      <ul>
+        <li>alexcatalano: tested, aria's remain</li>
+        <li>humanities: immediately loaded visual composer -- and the wrong page -- it loaded a page with joseph hernandez instead of my accessibility test site</li>
+        <li>humanities-grant: hoping over to see what's up</li>
+      </ul>
+
+    possibly related to the tag stripping issue:
+
+      the <a href="">humanities test site</a> immediately loads Visual Editor on "update" or "publish."
+      the <a href="">humanities-grant test site</a> does not.
+
+    Was something else installed since April 5 that would possibly conflict with it and/or TinyMCE?
+
+      <ul>
+        <li>alexcatalano:
+          <div class="arias">
+            <p aria-readonly="true" aria-readonly="true" aria-placeholder="test">aria test graph random string</p>
+              <figure role="img" aria-labelledby="fish-caption" aria-atomic="true">
+                 <pre>
+                 o           .'`/
+                   '      /  (
+                 O    .-'` ` `'-._      .')
+                    _/ (o)        '.  .' /
+                    )       )))     ><  <
+                    `\  |_\      _.'  '. \
+                      '-._  _ .-'       '.)
+                          `\__\
+                 </pre>
+                 <figcaption id="fish-caption">
+                  Joan G. Stark, "<cite>fish</cite>".
+                  October 1997. ASCII on electrons. 28×8.
+                 </figcaption>
+              </figure>
+
+              <table>
+                <tr>
+                  <th>table head</th>
+                  <th>col2</th>
+                </tr>
+                <tr>
+                  <td colspan="2"  aria-colspan="2">table row</td>
+                </tr>
+              </table>
+          </div><!-- arias -->
+        </li>
+      </ul>
+
+      <?php $allowed_tags = wp_kses_allowed_html( $context ); ?>
+
+      array(74) {
+        ['address'] => array(4) {
+          ['class'] => bool(true)
+          ['id']    => bool(true)
+          ['style'] => bool(true)
+          ['title'] => bool(true)
+        }
+      }
+
+      array(int) {
+        ['allowed'] => array(4) {
+          ['exception1'] => bool(true)
+          ['exception2'] => bool(true)
+          ['exception3'] => bool(true)
+        }
+
+
+
+      <h3>Rachel's Code</h3>
+
+
+      <div class="rachel">
+        <form aria-checked="true">
+          <input name="radio" value="" aria-checked="true" />
+        </form>
+        <p><a title="CLAS-IT" href="https://it.clas.ufl.edu/" aria-atomic="false" aria-label="test" aria-details="det" aria-checked="true">CLAS-IT</a></p>
+
+        <div class="arias">
+          <p aria-readonly="true" aria-readonly="true" aria-placeholder="test">aria test graph random string</p>
+            <figure role="img" aria-labelledby="fish-caption" aria-atomic="true">
+               <pre>
+               o           .'`/
+                 '      /  (
+               O    .-'` ` `'-._      .')
+                  _/ (o)        '.  .' /
+                  )       )))     ><  <
+                  `\  |_\      _.'  '. \
+                    '-._  _ .-'       '.)
+                        `\__\
+               </pre>
+               <figcaption>Joan G. Stark, "<cite>fish</cite>"</figcaption>
+            </figure>
+
+            <table>
+              <tr><th>table head</th><th>col2</th></tr>
+              <tr>
+                <td colspan="2"  aria-colspan="2">table row</td>
+              </tr>
+            </table>
+        </div>
+
+        <form aria-checked="true">
+          <input name="radio" value="" aria-checked="true" />
+        </form>
+        <p><a title="CLAS-IT" href="https://it.clas.ufl.edu/" aria-atomic="false" aria-label="test" aria-details="det" aria-checked="true">CLAS-IT</a></p>
+
+        <p>rachel  rachel  rachel</p>
+      </div><!-- end Rachel aria -->
+
+
+
+      </pre>
+
+  </body>
+</html>
