@@ -1,3 +1,14 @@
+.container {
+  background: none;
+  max-width: none;
+  width: 750px;
+}
+h3, h4 {
+  font-size: 22px;
+}
+h5 {
+  font-size: 19px;
+}
 article {
   float: left;
   padding-right: 5px;
@@ -5,7 +16,9 @@ article {
 }
 
 .lonesomeNote  {
-  width: 34%;
+  width: 37%;
+  margin-left: 85px;
+  background: none;
 }
 
 .lonesomeNote h4 {
@@ -13,18 +26,17 @@ article {
 }
 
 .library {
-  margin-top: 5px;
+  /* width: 50%; */
+  background: none;
+  margin-top: 15px;
+  margin-left: 0;
+}
+
+.library h3 {
+  font-size: 20px;
 }
 
 li {
   line-height: 1.6;
   font-size: 22px;
-}
-
-h3, h4 {
-  font-size: 22px;
-}
-
-h5 {
-  font-size: 19px;
 }

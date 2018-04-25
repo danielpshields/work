@@ -50,3 +50,39 @@ table, tr, th, td {
   border: 1px solid black;
   padding: 5px;
 }
+
+footer {
+  border-top: 1px dashed #d0d0d0;
+  margin-top: 25px;
+  padding-top: 0px;
+  margin-bottom: 25px;
+  padding-bottom: 30px;
+  background: none;
+}
+
+footer ul {
+  background: none;
+  padding: 0;
+  width: 203px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+footer li {
+  float: left;
+  list-style: none;
+  background: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}
+
+footer p {
+  float: left;
+  background: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 3px;
+}
