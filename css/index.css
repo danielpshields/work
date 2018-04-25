@@ -16,8 +16,8 @@ article {
 }
 
 .lonesomeNote  {
-  width: 37%;
-  margin-left: 85px;
+  width: 36%;
+  margin-left: 105px;
   background: none;
 }
 
@@ -28,7 +28,7 @@ article {
 .library {
   /* width: 50%; */
   background: none;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 0;
 }
 
