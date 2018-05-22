@@ -1,0 +1,10 @@
+.page {
+  width: 700px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+#jobDescription li {
+  line-height: 1.8;
+  font-size: 20px;
+}
