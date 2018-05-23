@@ -1,8 +1,18 @@
-  body {
-    max-width: 750px;
-    margin: auto;
-  }
-  footer {
-    border-top: 1px solid #d0d0d0;
-    margin-top: 20px;
-  }
+body {
+  max-width: 750px;
+  margin: auto;
+}
+
+#sketch_homepage {
+  width: 500px;
+  border: 1px solid black;
+}
+
+li {
+  line-height: 1.5;
+}
+
+footer {
+  border-top: 1px solid #d0d0d0;
+  margin-top: 20px;
+}
