@@ -4,13 +4,22 @@
 }
 
 body {
+  margin: auto;
+}
+
+.container {
   max-width: 750px;
   margin: auto;
 }
 
+
+header {
+  border-bottom: 1px dashed #186818;
+}
+
 #shortHead {
-  margin-bottom: 10px;
-  background: red;
+  /* margin-bottom: 10px; */
+  background: #FA4616;
   width: 50px;
   /* border: 1px solid red; */
 }
@@ -19,7 +28,7 @@ h1 {
   font-size: 24px;
   float: left;
   margin-top: 10px;
-  background: blue;
+  background: #0021A5;
   color: white;
   border: 1px solid blue;
   padding-right: 5px;
@@ -29,22 +38,76 @@ h1 {
 header ul {
   float: left;
   list-style: none;
-  margin-top: 15px;
-  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+h1 a, header li a {
+  color: white;
+  text-decoration: none;
 }
 
 #sketch_homepage {
   width: 500px;
   border: 1px solid black;
+  float: left;
 }
+
+nav {
+  float: left;
+  width: 245px;
+  border: 1px solid gray;
+}
+
+nav ul {
+  margin-left: 25px;
+}
+
 
 li {
   line-height: 1.5;
 }
 
+.things, .fixList {
+  border: 1px solid black;
+}
+
+.advisingMainNavBar {
+  width: 90%;
+  margin: auto;
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.advisingMainNavBar h2 {
+  width: 750px;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.advisingSection {
+  width: 19%;
+  float: left;
+  border-top: 1px solid #d0d0d0;
+  margin-left: .8%;
+  padding-top: 10px;
+}
+
+.notes img {
+  width: 49%;
+  float: left;
+}
+
 footer {
   border-top: 1px solid #d0d0d0;
   margin-top: 20px;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+
+footer p {
+  text-align: center;
 }
 
 .clear {
