@@ -1,6 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   max-width: 750px;
   margin: auto;
+}
+
+#shortHead {
+  margin-bottom: 10px;
+  background: red;
+  width: 50px;
+  /* border: 1px solid red; */
+}
+
+h1 {
+  font-size: 24px;
+  float: left;
+  margin-top: 10px;
+  background: blue;
+  color: white;
+  border: 1px solid blue;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+header ul {
+  float: left;
+  list-style: none;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
 #sketch_homepage {
@@ -15,4 +45,8 @@ li {
 footer {
   border-top: 1px solid #d0d0d0;
   margin-top: 20px;
+}
+
+.clear {
+  clear: both;
 }
