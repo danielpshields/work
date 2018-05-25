@@ -8,10 +8,14 @@ body {
 }
 
 .container {
-  max-width: 750px;
+  max-width: 980px;
   margin: auto;
 }
 
+p, li {
+  font-size: 21px;
+  line-height: 1.5;
+}
 
 header {
   border-bottom: 1px dashed #186818;
@@ -20,27 +24,28 @@ header {
 #shortHead {
   /* margin-bottom: 10px; */
   background: #FA4616;
-  width: 50px;
+  width: 60px;
   float: left;
-  /* border: 1px solid red; */
+  /* border: 1px solid red; this ORANGE */
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 29px;
   float: left;
   margin-top: 10px;
   background: #0021A5;
   color: white;
   border: 1px solid blue;
-  padding-right: 5px;
-  padding-bottom: 5px;
+  padding: 1px 7px 5px 5px;
+  font-weight: 600;
 }
 
 #shortHead ul {
   float: left;
   list-style: none;
+  margin-top: 3px;
   margin-bottom: 15px;
-  margin-left: 5px;
+  margin-left: 6px;
 }
 h1 a, #shortHead li a {
   color: white;
@@ -50,7 +55,7 @@ h1 a, #shortHead li a {
 #navListRightOfLogo {
   float: left;
   background: white;
-  margin-left: 53px;
+  margin-left: 65px;
   margin-top: 16px;
   list-style: none;
 }
@@ -131,7 +136,7 @@ li {
 
 #advisingBar {
   padding: 5px 0 15px;
-  background: #333;
+  background: #242424;
 }
 
 
@@ -153,17 +158,21 @@ li {
   width: 750px;
 }
 
-.notes img {
-  width: 100%;
+.fullImage img {
+  width: 975px;
   display: block;
   margin: auto;
-  border: 1px solid black;
+  border: 10px solid #e0e0e0;
+  border-radius: 5px;
 }
 
 .treetree {
-  border-top: 1px dashed #c0c0c0;
-  padding-top: 15px;
+  border-top: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
+  border-left: 5px solid #e0e0e0;
+  border-right: 5px solid #e0e0e0;
   margin-top: 20px;
+  padding: 15px;
 }
 
 footer {
