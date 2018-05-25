@@ -18,7 +18,9 @@ p, li {
 }
 
 header {
-  border-bottom: 1px dashed #186818;
+  border-bottom: 1px solid #d0d0d0;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 #shortHead {
@@ -87,9 +89,31 @@ nav {
   border: 1px solid gray;
 }
 
-ul {
-  margin-left: 25px;
+ul, ol {
+  margin-left: 30px;
 }
+
+h2 {
+  margin: 15px 0 20px 0;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h3, h4 {
+  margin: 15px 0 5px 0;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+  color: #222;
+}
+
 
 nav ul {
   margin-left: 25px;
@@ -100,8 +124,15 @@ li {
   line-height: 1.5;
 }
 
+.report {
+  padding-bottom: 35px;
+  padding-top: 10px;
+}
+
 .fixList {
   border: 1px solid #b0b0b0;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .taskSection  {
@@ -111,11 +142,18 @@ li {
   float: left;
 }
 
+.taskSection h2 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
 .processTier {
   width: 30%;
   float: left;
   background: white;
-  border: 1px solid #0021A5;
+  border: 1px dashed blue;
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 
 .advising {
@@ -165,6 +203,12 @@ li {
   border: 10px solid #e0e0e0;
   border-radius: 5px;
 }
+
+.spit {
+  margin-top: 10px;
+}
+
+#email {margin-bottom: 15px;}
 
 .treetree {
   border-top: 1px solid #c0c0c0;
