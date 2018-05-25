@@ -220,11 +220,26 @@
               </ul>
             </ul>
 
-            switch images: http://alexcatalano.com/image/170114_juniperCamp.html
+            <img id="chessPines" onclick="changeChessPines()" src="../../../image/email_plain.png" />
+
+            <script>
+
+             function changeChessPines() {
+
+               var image = document.getElementById('chessPines');
+
+               if (image.src.match("email_edited.png")) {
+                 image.src = "../../../image/email_plain.png";
+               } else {
+                 image.src = "../../../image/email_edited.png";
+               }
+             }
+
+            </script>
 
 
-            <img src="../../../image/email_plain.png" alt="">
-            <img src="../../../image/email_edited.png" alt="">
+            <!-- <img src="../../../image/email_plain.png" alt=""> -->
+            <!-- <img src="../../../image/email_edited.png" alt=""> -->
 
             <div class="clear"></div>
           </div><!-- notes -->
