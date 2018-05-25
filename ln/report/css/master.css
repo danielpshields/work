@@ -21,6 +21,7 @@ header {
   /* margin-bottom: 10px; */
   background: #FA4616;
   width: 50px;
+  float: left;
   /* border: 1px solid red; */
 }
 
@@ -35,15 +36,38 @@ h1 {
   padding-bottom: 5px;
 }
 
-header ul {
+#shortHead ul {
   float: left;
   list-style: none;
   margin-bottom: 15px;
   margin-left: 5px;
 }
-h1 a, header li a {
+h1 a, #shortHead li a {
   color: white;
   text-decoration: none;
+}
+
+#navListRightOfLogo {
+  float: left;
+  background: white;
+  margin-left: 53px;
+  margin-top: 16px;
+  list-style: none;
+}
+
+#navListRightOfLogo li {
+  float: left;
+  /* width: 50px; */
+  margin-right: 15px;
+}
+
+#navListRightOfLogo a {
+  color: #0021A5;
+  text-decoration: none;
+}
+
+#navListRightOfLogo a:hover {
+  color: #FA4616;
 }
 
 #sketch_homepage {
@@ -58,6 +82,10 @@ nav {
   border: 1px solid gray;
 }
 
+ul {
+  margin-left: 25px;
+}
+
 nav ul {
   margin-left: 25px;
 }
@@ -67,38 +95,75 @@ li {
   line-height: 1.5;
 }
 
-.things, .fixList {
-  border: 1px solid black;
+.fixList {
+  border: 1px solid #b0b0b0;
 }
 
-.advisingMainNavBar {
-  width: 90%;
+.taskSection  {
+  padding-left: 20px;
+  padding-right: 30px;
+  width: 60%;
+  float: left;
+}
+
+.processTier {
+  width: 30%;
+  float: left;
+  background: white;
+  border: 1px solid #0021A5;
+}
+
+.advising {
+  width: 80%;
+  min-width: 750px;
   margin: auto;
   border-bottom: 1px solid #d0d0d0;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
 
-.advisingMainNavBar h2 {
+.advising h2 {
   width: 750px;
   margin: auto;
   margin-bottom: 15px;
   margin-top: 10px;
 }
 
+#advisingBar {
+  padding: 5px 0 15px;
+  background: #333;
+}
+
+
 .advisingSection {
-  width: 19%;
+  width: 18%;
   float: left;
-  border-top: 1px solid #d0d0d0;
-  margin-left: .8%;
-  padding-top: 10px;
+  border-top: 1px solid #e0e0e0;
+  background: white;
+  margin-left: .82%;
+  padding: .5%;
+}
+
+.advisingQuestions {
+  margin: auto;
+  border-top: 1px dashed #d0d0d0;
+  padding-top: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 750px;
 }
 
 .notes img {
   width: 100%;
   display: block;
   margin: auto;
-  border: 4px solid black;
+  border: 1px solid black;
+}
+
+.treetree {
+  border-top: 1px dashed #c0c0c0;
+  padding-top: 15px;
+  margin-top: 20px;
 }
 
 footer {
