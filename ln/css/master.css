@@ -8,6 +8,7 @@ body {
 }
 
 .container {
+  width: 100%;
   max-width: 980px;
   margin: auto;
 }
@@ -78,15 +79,51 @@ h1 a, #shortHead li a {
 }
 
 #sketch_homepage {
-  width: 500px;
-  border: 1px solid black;
+  width: 59%;
   float: left;
+  border: 1px solid black;
+}
+
+.report {
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 35px;
+  padding-left: 5px;
+
 }
 
 nav {
   float: left;
-  width: 245px;
+  width: 40%;
   border: 1px solid gray;
+}
+
+.contactID {
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 15px;
+}
+
+#subnav { /* ul */
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  width: 90%;
+  margin: auto;
+  min-width: 300px;
+}
+
+#subnav li {
+  float: left;
+  width: 33.28%;
+  text-align: center;
+  list-style: none;
+}
+
+.tasks {
+  border-top: 1px solid #d0d0d0;
+  margin-top: 6px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 ul, ol {
@@ -94,7 +131,7 @@ ul, ol {
 }
 
 h2 {
-  margin: 15px 0 20px 0;
+  margin: 13px 0 20px 0;
 }
 
 h3 {
@@ -133,10 +170,6 @@ li {
   margin-bottom: 10px;
 }
 
-.report {
-  padding-bottom: 35px;
-  padding-top: 10px;
-}
 
 .fixList {
   border: 1px solid #b0b0b0;
@@ -166,7 +199,7 @@ li {
 }
 
 .advising {
-  width: 80%;
+  width: 100%;
   min-width: 750px;
   margin: auto;
   border-bottom: 1px solid #d0d0d0;
@@ -188,11 +221,12 @@ li {
 
 
 .advisingSection {
-  width: 18%;
+  width: 31%;
   float: left;
+  margin-top: 8px;
   border-top: 1px solid #e0e0e0;
   background: white;
-  margin-left: .82%;
+  margin-left: 1%;
   padding: .5%;
 }
 
