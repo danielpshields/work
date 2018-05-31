@@ -8,6 +8,7 @@ body {
 }
 
 .container {
+  width: 100%;
   max-width: 980px;
   margin: auto;
 }
@@ -77,15 +78,15 @@ h1 a, #shortHead li a {
   color: #FA4616;
 }
 
-#sketch_homepage {
-  width: 500px;
+#sketch_homepage { /* img */
+  width: 49%;
   border: 1px solid black;
   float: left;
 }
 
 nav {
   float: left;
-  width: 245px;
+  width: 50%;
   border: 1px solid gray;
 }
 
