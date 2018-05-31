@@ -78,16 +78,26 @@ h1 a, #shortHead li a {
   color: #FA4616;
 }
 
-#sketch_homepage { /* img */
+ .imageDocsMenu {
   width: 49%;
-  border: 1px solid black;
   float: left;
 }
+
+#sketch_homepage {
+  width: 100%;
+  border: 1px solid black;
+}
+
 
 nav {
   float: left;
   width: 50%;
   border: 1px solid gray;
+}
+
+.contactID {
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 15px;
 }
 
 ul, ol {
@@ -167,7 +177,7 @@ li {
 }
 
 .advising {
-  width: 80%;
+  width: 100%;
   min-width: 750px;
   margin: auto;
   border-bottom: 1px solid #d0d0d0;
@@ -189,11 +199,12 @@ li {
 
 
 .advisingSection {
-  width: 18%;
+  width: 31%;
   float: left;
+  margin-top: 8px;
   border-top: 1px solid #e0e0e0;
   background: white;
-  margin-left: .82%;
+  margin-left: 1%;
   padding: .5%;
 }
 
