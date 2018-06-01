@@ -207,16 +207,11 @@ li {
   margin-bottom: 15px;
 }
 
-.advising h2 {
-  width: 750px;
-  margin: auto;
-  margin-bottom: 15px;
-  margin-top: 10px;
-}
-
 #advisingBar {
   padding: 5px 0 15px;
   background: #242424;
+  border: 4px solid #d6ba06;
+  border: 4px solid #ceb721;
 }
 
 
