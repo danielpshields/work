@@ -84,6 +84,11 @@ h1 a, #shortHead li a {
   border: 1px solid black;
 }
 
+#curr {
+  font-family: monospace, monospace;
+  line-height: 1.8;
+}
+
 .report {
   padding-top: 5px;
   padding-right: 15px;
