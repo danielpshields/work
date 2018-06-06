@@ -241,6 +241,12 @@ li {
   padding: .5%;
 }
 
+.advisingSection h3 {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 25px;
+}
+
 .advisingQuestions {
   margin: auto;
   border-top: 1px dashed #d0d0d0;
@@ -286,6 +292,10 @@ footer {
 }
 
 footer p {
+  text-align: center;
+}
+
+.center {
   text-align: center;
 }
 
