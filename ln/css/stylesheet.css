@@ -1,80 +1,95 @@
-
-
-.about p, .about li {
-  font-size: 19px;
+.holdShortHeader {
+  float: left;
+  background: white;
+  width: 112px;
 }
 
-.about h3 {
-  font-size: 21px;
-}
-
-.contact p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.day {
-  border-bottom: 1px dashed gray;
-  padding-bottom: 35px;
-  margin-bottom: 40px;
-}
-
-
-#sites img {
-  width: 30px;
-  margin: 0;
-  padding: 0;
-}
-
-#sites li {
-  line-height: 1.8;
-}
-
-
-#shortHead {
-  /* margin-bottom: 10px; */
+#navShortHeader {
+  /* orange  */
   background: #FA4616;
   width: 60px;
   float: left;
-  /* border: 1px solid red; this ORANGE */
 }
 
-
-
-#shortHead ul {
+#navShortHeader ul {
   float: left;
   list-style: none;
   margin-top: 3px;
   margin-bottom: 15px;
   margin-left: 6px;
+  width: 30%;
 }
-h1 a, #shortHead li a {
+
+#eert {
+  float: left;
+  width: 20%;
+  margin-top: 66px;
+  list-style: none;
+  margin-left: 8px;
+  padding-left: 0;
+}
+
+#eert li {font-size: 10px;}
+
+#eert a {
+  text-decoration: none;
+  color: black;
+}
+
+
+h1 a, #navShortHeader li a {
   color: white;
   text-decoration: none;
 }
 
-#navListRightOfLogo {
+
+.holdLinksHeader {
+  /* background: blue; */
   float: left;
-  background: white;
-  margin-left: 65px;
-  margin-top: 16px;
-  list-style: none;
 }
 
-#navListRightOfLogo li {
-  float: left;
-  /* width: 50px; */
-  margin-right: 15px;
+.holdLinksHeader ul {
+  margin-left: 15px;
 }
 
-#navListRightOfLogo a {
+
+.holdLinksHeader a {
   color: #0021A5;
   text-decoration: none;
 }
 
-#navListRightOfLogo a:hover {
+#navLindex {
+  /* background: green; */
+  float: left;
+  margin-top: 16px;
+  list-style: none;
+}
+
+#navLindex li {
+  float: left;
+  margin-right: 15px;
+}
+
+
+.holdLinksHeader a:hover {
   color: #FA4616;
 }
+
+#navAdminLinks {
+  /* background: red; */
+  clear: left;
+  float: left;
+}
+
+#navAdminLinks li {
+  list-style: none;
+  float: left;
+  margin-right: 15px;
+  font-size: 17px;
+}
+
+/* sketch homepage */
+/* sketch homepage */
 
 #sketch_homepage {
   width: 58%;
@@ -85,7 +100,6 @@ h1 a, #shortHead li a {
 .contactID li {
   line-height: 1.8;
 }
-
 
 .address {
   font-style: italic;
@@ -102,7 +116,6 @@ h1 a, #shortHead li a {
   padding-left: 5px;
 
 }
-
 
 .contactID {
   border-bottom: 1px solid #d0d0d0;
@@ -136,8 +149,6 @@ h1 a, #shortHead li a {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-
 
 .fixList {
   border: 1px solid #b0b0b0;
@@ -181,7 +192,6 @@ h1 a, #shortHead li a {
   border: 4px solid #d6ba06;
   border: 4px solid #ceb721;
 }
-
 
 .advisingSection {
   width: 31%;
@@ -240,4 +250,25 @@ h1 a, #shortHead li a {
   border-top: 1px solid #444;
   margin-top: 25px;
   padding-top: 15px;
+}
+
+/* former styles  */
+
+.about p, .about li {
+  font-size: 19px;
+}
+
+.about h3 {
+  font-size: 21px;
+}
+
+.contact p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.day {
+  border-bottom: 1px dashed gray;
+  padding-bottom: 35px;
+  margin-bottom: 40px;
 }
