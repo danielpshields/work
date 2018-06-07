@@ -1,20 +1,4 @@
-* {
-  /* font-family: monospace, monospace;
-  font-size: 18px; */
-}
 
-.container {
-  max-width: 650px;
-  margin: auto;
-}
-
-.red {
-  color: red;
-}
-
-p, li {
-  line-height: 1.5;
-}
 
 .about p, .about li {
   font-size: 19px;
@@ -24,20 +8,9 @@ p, li {
   font-size: 21px;
 }
 
-img {
-  display: block;
-  margin: auto;
-  border: 1px solid #d0d0d0;
-  max-width: 100%;
-}
-
 .contact p {
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.clear {
-  clear: both;
 }
 
 .day {
@@ -46,47 +19,225 @@ img {
   margin-bottom: 40px;
 }
 
-table, tr, th, td {
-  border: 1px solid black;
-  padding: 5px;
-}
 
-.darkBlue {
-  color: #2a579e;
-}
-
-footer {
-  border-top: 1px dashed #d0d0d0;
-  margin-top: 25px;
-  padding-top: 0px;
-  margin-bottom: 25px;
-  padding-bottom: 30px;
-  background: none;
-}
-
-footer ul {
-  background: none;
+#sites img {
+  width: 30px;
+  margin: 0;
   padding: 0;
-  width: 203px;
-  margin: auto;
-  margin-top: 15px;
 }
 
-footer li {
+#sites li {
+  line-height: 1.8;
+}
+
+
+#shortHead {
+  /* margin-bottom: 10px; */
+  background: #FA4616;
+  width: 60px;
+  float: left;
+  /* border: 1px solid red; this ORANGE */
+}
+
+
+
+#shortHead ul {
   float: left;
   list-style: none;
-  background: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  width: 100px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  margin-left: 6px;
+}
+h1 a, #shortHead li a {
+  color: white;
+  text-decoration: none;
 }
 
-footer p {
+#navListRightOfLogo {
   float: left;
-  background: none;
-  text-align: center;
+  background: white;
+  margin-left: 65px;
+  margin-top: 16px;
+  list-style: none;
+}
+
+#navListRightOfLogo li {
+  float: left;
+  /* width: 50px; */
+  margin-right: 15px;
+}
+
+#navListRightOfLogo a {
+  color: #0021A5;
+  text-decoration: none;
+}
+
+#navListRightOfLogo a:hover {
+  color: #FA4616;
+}
+
+#sketch_homepage {
+  width: 58%;
+  float: left;
+  border: 1px solid black;
+}
+
+.contactID li {
+  line-height: 1.8;
+}
+
+
+.address {
+  font-style: italic;
+  padding-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #888;
+}
+
+.report {
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 35px;
+  padding-left: 5px;
+
+}
+
+
+.contactID {
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 15px;
+}
+
+#subnav { /* ul */
   margin: 0;
   padding: 0;
-  width: 3px;
+  line-height: normal;
+  width: 90%;
+  margin: auto;
+  min-width: 300px;
+}
+
+#subnav li {
+  float: left;
+  width: 33.28%;
+  text-align: center;
+  list-style: none;
+}
+
+.tasks {
+  border-top: 1px solid #d0d0d0;
+  margin-top: 6px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#outsideHire {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.fixList {
+  border: 1px solid #b0b0b0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.taskSection  {
+  padding-left: 20px;
+  padding-right: 30px;
+  width: 60%;
+  float: left;
+}
+
+.taskSection h2 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.processTier {
+  width: 30%;
+  float: left;
+  background: white;
+  border: 1px dashed blue;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.advising {
+  width: 100%;
+  min-width: 750px;
+  margin: auto;
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+#advisingBar {
+  padding: 5px 0 15px;
+  background: #242424;
+  border: 4px solid #d6ba06;
+  border: 4px solid #ceb721;
+}
+
+
+.advisingSection {
+  width: 31%;
+  float: left;
+  margin-top: 8px;
+  border-top: 1px solid #e0e0e0;
+  background: white;
+  margin-left: 1%;
+  padding: .5%;
+}
+
+.advisingSection h3 {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 25px;
+}
+
+.advisingQuestions {
+  margin: auto;
+  border-top: 1px dashed #d0d0d0;
+  padding-top: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 750px;
+}
+
+.fullImage img {
+  width: 975px;
+  display: block;
+  margin: auto;
+  border: 10px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.spit {
+  margin-top: 10px;
+}
+
+#email {margin-bottom: 15px;}
+
+.treetree {
+  border-top: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
+  border-left: 5px solid #e0e0e0;
+  border-right: 5px solid #e0e0e0;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+#grabs {
+  border-top: 1px dashed gray;
+  padding-top: 15px;
+}
+
+.divider {
+  border-top: 1px solid #444;
+  margin-top: 25px;
+  padding-top: 15px;
 }
