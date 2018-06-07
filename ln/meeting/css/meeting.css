@@ -1,0 +1,12 @@
+.UFO {
+  border-top: 1px solid black;
+  margin-top: 30px;
+  padding-top: 15px;
+}
+
+.UFO img {
+  width: 50%;
+  border: 2px solid #999;
+  border-radius: 5px;
+  margin-top: 20px;
+}
