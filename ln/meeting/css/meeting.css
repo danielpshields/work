@@ -10,3 +10,7 @@
   border-radius: 5px;
   margin-top: 20px;
 }
+
+ul {
+  border: 1px dashed #a0a0a0;
+}
