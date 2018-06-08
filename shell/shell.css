@@ -1,23 +1,7 @@
-* {margin: 0; padding: 0;}
-
-.container {
-  width: 500px;
-  margin: auto;
-  border: 1px solid red;
-}
-
-.left {
-  float: left;
-  width: 30%;
-  border: 1px solid gray;
-}
-
-.right {
-  float: left;
-  width: 30%;
-  border: 1px solid gray;
-}
-
-.clear {
-  clear: both;
+img {
+    display: inline;
+    margin-right: 8px;
+    border: 1px solid gold;
+    border-radius: 5px;
+    width: 100px;
 }
