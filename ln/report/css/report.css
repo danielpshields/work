@@ -1,0 +1,24 @@
+#artHeader {
+  width: 100%;
+  background: black;
+  border: 5px solid #333;
+}
+
+#paintings {
+  width: 17.8%;
+  float: left;
+}
+
+#paintings img {
+  width: 100%;
+  display: block;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#search {
+  float: left;
+  width: 81.3%;
+  padding-top: 4px;
+  border-left: 4px solid black;
+}
