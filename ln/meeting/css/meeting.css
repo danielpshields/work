@@ -1,3 +1,23 @@
+#generalSection {
+  border: 3px solid red;
+  border-radius: 5px;
+}
+
+#phpbSection {
+  border: 3px solid green;
+  border-radius: 5px;
+}
+
+#ufoSection {
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+
+#spitSection {
+  border: 3px solid gold;
+  border-radius: 5px;
+}
+
 .UFO {
   border-top: 1px solid black;
   margin-top: 30px;
@@ -11,6 +31,32 @@
   margin-top: 20px;
 }
 
-ul {
-  border: 1px dashed #a0a0a0;
+h2 {
+  border-top: 1px solid black;
+}
+
+.manual {
+  border: 1px solid black;
+  width: 50%;
+  float: right;
+}
+
+.manual h2 {
+  border-top: none;
+  border-bottom: 1px solid black;
+}
+
+#schematicTable {
+  margin-bottom: 25px;
+}
+
+.locationImage {
+  width: 99%;
+  display: block;
+  margin: auto;
+  border: 1px solid gray;
+}
+
+.hold {
+  border-top: 1px dashed black;
 }

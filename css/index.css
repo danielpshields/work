@@ -43,3 +43,16 @@
   padding: 0;
   margin-left: 30px;
 }
+
+h4 {
+  margin-bottom: 20px;
+}
+
+h5 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+ul li {
+  line-height: 1.7;
+}
