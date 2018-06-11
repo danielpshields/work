@@ -60,3 +60,8 @@ h2 {
 .hold {
   border-top: 1px dashed black;
 }
+
+#tickets, #tools {
+  width: 50%;
+  float: left;
+}
