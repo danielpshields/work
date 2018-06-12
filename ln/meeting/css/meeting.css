@@ -1,3 +1,18 @@
+h2 {
+  border-top: 1px solid black;
+}
+
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-weight: 900;
+  color: #333;
+  font-size: 20px;
+}
+
 #generalSection {
   border: 3px solid red;
   border-radius: 5px;
@@ -6,16 +21,19 @@
 #phpbSection {
   border: 3px solid green;
   border-radius: 5px;
+  margin-top: 15px;
 }
 
 #ufoSection {
   border: 3px solid blue;
   border-radius: 5px;
+  margin-top: 15px;
 }
 
 #spitSection {
   border: 3px solid gold;
   border-radius: 5px;
+  margin-top: 15px;
 }
 
 .UFO {
@@ -31,9 +49,6 @@
   margin-top: 20px;
 }
 
-h2 {
-  border-top: 1px solid black;
-}
 
 .manual {
   border: 1px solid black;
@@ -59,6 +74,10 @@ h2 {
 
 .hold {
   border-top: 1px dashed black;
+}
+
+.tiny {
+  font-size: 15px;
 }
 
 #tickets, #tools {
