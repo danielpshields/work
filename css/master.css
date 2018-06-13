@@ -11,6 +11,7 @@ body {
   width: 100%;
   max-width: 980px;
   margin: auto;
+  background: white;
 }
 
 header {
@@ -135,7 +136,6 @@ footer li {
 }
 
 footer p {
-  float: left;
   background: none;
   text-align: center;
   margin: 0;

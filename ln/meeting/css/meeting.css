@@ -1,10 +1,10 @@
+
 h2 {
   border-top: 1px solid black;
 }
 
-
 h3 {
-  font-size: 28px;
+  font-size: 40px;
   color: #000;
 }
 
@@ -17,19 +17,49 @@ h4 {
 #generalSection {
   border: 3px solid red;
   border-radius: 5px;
-  margin-top: 25px;
+  float: left;
+  /* margin-top: 25px; */
+  margin-bottom: 30px;
+  width: 550px;
+}
+
+
+.tiers {
+  float: left;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.tiers h2 {
+  font-size: 90px;
+  background: black;
+  color: white;
+  margin-top: 0;
+  padding-left: 15px;
+}
+.tiers h3 {
+  background: black;
+  color: white;
+  margin-top: 0;
+  padding-left: 15px;
 }
 
 #phpbSection {
   border: 3px solid green;
   border-radius: 5px;
   margin-top: 15px;
+  width: 49%;
+  float: left;
 }
 
 #ufoSection {
   border: 3px solid blue;
   border-radius: 5px;
   margin-top: 15px;
+  width: 49%;
+  float: left;
 }
 
 #spitSection {
@@ -38,48 +68,25 @@ h4 {
   margin-top: 15px;
 }
 
-.UFO {
+img {
+  width: 30%;
+}
+
+.manual img {
+  width: 100%;
+}
+
+section {
+  height: 816.38px;
+  width: 507.41px;
+  border: 1px solid black;
+}
+
+#lineBreaker {
   border-top: 1px solid black;
-  margin-top: 30px;
   padding-top: 15px;
-}
-
-.UFO img {
-  width: 50%;
-  border: 2px solid #999;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-
-.tiers h2, .tiers h3 {
-  color: white;
-  background: black;
-}
-
-#schematicTable {
-  margin-bottom: 25px;
-}
-
-.locationImage {
-  width: 99%;
-  display: block;
-  margin: auto;
-  border: 1px solid gray;
-}
-
-.hold {
-  border-top: 1px dashed black;
 }
 
 .tiny {
   font-size: 15px;
-}
-
-/* .giant {
-  font-size: 90px;
-} */
-
-#tickets, #tools {
-  width: 50%;
-  float: left;
 }
