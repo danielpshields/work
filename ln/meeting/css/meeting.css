@@ -113,8 +113,39 @@ section {
   padding-top: 15px;
 }
 
+#stats {
+  font-family: monospace, monospace;
+  border-top: 1px dashed #c0c0c0;
+  padding-top: 25px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+#stats p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#frequency td {
+  text-align: center;
+}
+
 .tiny {
   font-size: 15px;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+
+.purple {
+  color: #551A8B;
 }
 
 .happy {
