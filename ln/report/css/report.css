@@ -27,6 +27,27 @@ img {
   border-left: 4px solid black;
 }
 
+.reportItemsShell {
+  border-top: 1px solid black;
+  margin-top: 25px;
+  padding-top: 15px;
+  float: left;
+}
+
+
+.ticketInputSectionShell {
+  float: left;
+}
+
+form {
+  border: 1px solid black;
+  height: 300px;
+}
+
+#submit {
+  float: right;
+}
+
 .thumbnail {
   width: 300px;
 }
@@ -39,11 +60,6 @@ img {
   display: block;
 }
 
-.report {
-  border-top: 1px solid black;
-  margin-top: 25px;
-  padding-top: 15px;
-}
 
 .orange {
   color: #FA4616;
