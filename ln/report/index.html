@@ -66,7 +66,7 @@
         <li><a href="https://ufbats.atlassian.net/servicedesk/customer/portals" target="_blank">bats</a></li>
       </ul>
 
-      <div class="reportItemsShell">
+      <div id="reportItemsShell">
         <h2>GitHub: "<a href="https://github.com/lonesomepi/aacShare" target="_blank"><span class="orange">aacShare</span></a>"</h2>
 
         <h3>Lobby Wait</h3>
@@ -85,17 +85,102 @@
         </ul>
       </div><!-- report -->
 
-      <div class="ticketInputSectionShell">
-        <p>one day, a system</p>
-        <form class="" action="index.html" method="post">
-          <input type="text" name="" value=""><br>
-          <input type="text" name="" value=""><br>
-          <input id="submit" type="submit" name="submit" value="submit">
-          <div class="clear"></div>
-        </form>
+      <div id="ticketInputSectionShell">
+        <p>lonesomenote: a system</p>
+        <div class="ticket" id="start">
+          <form class="" action="index.html" method="post">
+            open: <input required type="time" name="open" value=""><br>
+            type: <input type="text" name="type" value=""><br>
+            dept: <input type="text" name="dept" value=""><br>
+            pers: <input type="text" name="person" value=""><br>
+            desc: <input type="text" name="description" value=""><br>
+            <input id="submit" type="submit" name="submit" value="submit">
+          </form>
+        </div>
 
 
-      </div>
+        <p class="center blue">>> makes an ID >></p>
+
+
+        <div class="ticket" id="idNo">
+          identification number: <input type="text" name="ID" value="18061401"><br>
+        </div>
+
+        <table>
+          <tr>
+            <th>id</th>
+          </tr>
+          <tr>
+            <td><b>18061401</b></td>
+          </tr>
+        </table>
+
+
+
+        <div class="ticket" id="">
+          close: <input type="time" name="close" value=""><br>
+        </div>
+
+        <p>type [department, person] description (#id, time)</p>
+        <table>
+          <tr>
+            <th>open</th>
+            <th>type</th>
+            <th>dept</th>
+            <th>person</th>
+            <th>description</th>
+            <th>ID</th>
+            <th>close</th>
+          </tr>
+          <!--
+           <tr>
+            <td></td>
+            <td></td>
+            <td class="green"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+           </tr>
+        -->
+
+
+        <tr>
+         <td>11:44 a.m.</td>
+         <td>media</td>
+         <td class="green">phpb</td>
+         <td>bobbi</td>
+         <td>image resize (header image)</td>
+         <td>18053001</td>
+         <td>noon</td>
+        </tr>
+
+          <tr>
+            <td>2:29 p.m</td>
+            <td>edit</td>
+            <td class="green">phpb</td>
+            <td>bobbi</td>
+            <td>change content: “Alabama Vet Med” => “Auburn University CVM”</td>
+            <td>18061301</td>
+            <td>2:34 p.m.</td>
+          </tr>
+
+          <tr>
+           <td>3 p.m.</td>
+           <td>meeting</td>
+           <td class="blue">UFO</td>
+           <td>team</td>
+           <td>overview of what's happening</td>
+           <td>18060001</td>
+           <td>4 p.m.</td>
+         </tr>
+
+
+        </table>
+
+        <img class="dataThumb" src="../image/data/180614_10.png" alt="">
+
+      </div><!-- end ticket shell -->
 
       <div class="clear"></div>
 
