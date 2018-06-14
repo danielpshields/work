@@ -156,50 +156,6 @@
       <li>C) Print</li>
       </ul>
       </div>
-
-        <table>
-          <tr>
-            <th>code</th>
-            <th>title</th>
-            <th>office</th>
-            <th>hex</th>
-          </tr>
-
-          <tr>
-            <td>"om"</td>
-            <td>Office Manager</td>
-            <td>&nbsp;</td>
-            <td><!-- example of possible use -->om_190101_001</td>
-          </tr>
-
-          <tr>
-            <td>"ga"</td>
-            <td>Graduate Assistant</td>
-            <td>&nbsp;</td>
-            <td>ga_section_area_team</td>
-          </tr>
-
-          <tr>
-            <td>"lt"</td>
-            <td>Leadership Team</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-          </tr>
-
-          <tr>
-            <td>"it"</td>
-            <td>Information Technology</td>
-            <td>1031</td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-            <td><s>Lecturers | Beyond 120</s></td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-          </tr>
-        </table>
-
       </section>
 
     </div><!-- end general section -->
@@ -282,7 +238,7 @@
 
     <div id="stats">
 
-      <p>b b [ , ] text (#, time) </p>
+      <p>type [department, person] description (#id, time) </p>
 
       <table>
         <tr>
@@ -339,7 +295,7 @@
         </tr>
       </table>
 
-      <table>
+      <table class="statsTable" id="">
         <tr>
           <th>type</th>
           <th>total</th>
@@ -353,8 +309,53 @@
           <td>1</td>
         </tr>
       </table>
+      <div class="clear"></div>
 
-    </div>
+      <table>
+        <tr>
+          <th>code</th>
+          <th>title</th>
+          <th>office</th>
+          <th>hex</th>
+        </tr>
+
+        <tr>
+          <td>"om"</td>
+          <td>Office Manager</td>
+          <td>&nbsp;</td>
+          <td><!-- example of possible use -->om_190101_001</td>
+        </tr>
+
+        <tr>
+          <td>"ga"</td>
+          <td>Graduate Assistant</td>
+          <td>&nbsp;</td>
+          <td>ga_section_area_team</td>
+        </tr>
+
+        <tr>
+          <td>"lt"</td>
+          <td>Leadership Team</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+          <td>"it"</td>
+          <td>Information Technology</td>
+          <td>1031</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><s>Lecturers | Beyond 120</s></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+
+
+    </div><!-- stats -->
 
 
           <div id="phpbSection">
