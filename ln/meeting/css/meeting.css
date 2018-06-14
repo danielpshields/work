@@ -14,9 +14,18 @@ h4 {
   font-size: 20px;
 }
 
+.slugLede {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 section {
-  background: black;
-  border: 1px solid white;
+  border-bottom: 1px solid #a0a0a0;
+  padding-bottom: 30px;
+  margin-bottom: 28px;
+
 }
 
 .department {
@@ -58,7 +67,6 @@ section {
   border: 3px solid #edbf07;
   border-radius: 5px;
   margin-left: 15px;
-  background: #888;
   /* border: 3px solid #fcca05; */
 }
 
