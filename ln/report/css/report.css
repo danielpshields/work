@@ -46,29 +46,68 @@ img {
 #ticketInputSectionShell {
   float: left;
   width: 600px;
-  height: 800px;
   border: 2px solid gray;
   margin-left: 5px;
   font-family: monospace, monospace;
 }
 
 .ticket {
-  border: 1px solid red;
-  width: 280px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  width: 40%;
+}
+
+#start {
+  float: left;
+}
+
+#churn {
+  text-align: center;
+  color: darkBlue;
+  width: 50px;
+  margin-left: 15px;
+  margin-right: 25px;
+  float: left;
+}
+
+#idNo {
+  float: left;
+  border: 1px solid #999;
+  width: 250px;
+  font-size: 18px;
+  border-radius: 3px;
+  text-align: center;
 }
 
 #submit {
-  font-size: 50px;
-  color: blue;
+  font-size: 16px;
+  color: #333;
   background: white;
-  border: 1px solid yellow;
+  border: 1px solid darkblue;
   font-family: monospace;
 }
 
+#close {
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.dataSection {
+  width: 48%;
+  float: left;
+}
+
 .dataThumb {
-  width: 150px;
+  width: 95%;
   margin-top: 10px;
   margin-left: 15px;
+}
+
+.slugLede {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .thumbnail {
