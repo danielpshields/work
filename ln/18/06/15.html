@@ -28,6 +28,27 @@
           <li>entered gCalendar dates for corr_</li>
           <li>[LN] opened Friday (180615, 9:33 a.m.)</li>
           <li>[meeting=>report] (10:41 p.m.)</li>
+          <li>dan meeting (11:25 a.m.)</li>
+          <li>fucking <b>apache configuration</a></li>
+              <ol>
+                  <li>cd /etc/apache2/users</li>
+                  <li>sudo nano alexcatalano.conf</li>
+                  <ul>
+                      <li><i>pretty sure this is left alone</i></li>
+                  </ul>
+                  <li>sudo chmod 644 alexcatalano.conf</li>
+                  <li>sudo apache restart</li>
+              </ol>
+              <ol>
+                  <li>cd /etc/apache2</li>
+                  <li>sudo nano httpd.conf</li>
+                  <li>"control" + "w": search for "userdir" //uncomment that line</li>
+                  <li>"control" + "w": search for "httpd-userdir" //uncomment that line</li>
+                  <li>exit</li>
+                  <li>sudo nano extra/httpd-userdir.conf</li>
+                  <li>uncomment "Include private/etc/..."</li>
+              </ol>
+
         </ul>
       </div>
       <div class="">
