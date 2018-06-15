@@ -105,16 +105,11 @@
         <p id="churn"><i>>>> makes an ID >></i></p>
 
 
-        <p id="idNo"><u>identification number</u><br>"18061401"</p>
+        <p id="idNo"><u><b>identification number</b></u><br>"18061501"</p>
 
         <div class="clear"></div>
 
-        <div class="ticket" id="close">
-          close: <input type="time" name="close" value="">
-          <input type="submit" name="" value="submit"> <br>
-        </div>
-
-        <table>
+        <table id="openStatusTable">
           <tr>
             <th>open</th>
             <th>type</th>
@@ -124,23 +119,42 @@
             <th>ID</th>
             <th>close</th>
           </tr>
-          <!--
-           <tr>
-            <td></td>
-            <td></td>
-            <td class="green"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-           </tr>
-        -->
-
 
         <tr>
          <td>11:44 a.m.</td>
          <td>media</td>
-         <td class="green">phpb</td>
+         <td style="color: #88bc5a;">phpb</td>
+         <td>bobbi</td>
+         <td>image resize (header image)</td>
+         <td>18053001</td>
+         <td>
+          &nbsp;
+         </td>
+        </tr>
+
+      </table>
+
+
+        <div class="ticket" id="close">
+          close: <input type="time" name="close" value="">
+          <input type="submit" name="" value="submit">
+        </div>
+
+        <table id="ticketAssigned">
+          <tr>
+            <th>open</th>
+            <th>type</th>
+            <th>dept</th>
+            <th>person</th>
+            <th>description</th>
+            <th>ID</th>
+            <th>close</th>
+          </tr>
+
+        <tr>
+         <td>11:44 a.m.</td>
+         <td>media</td>
+         <td class="green">PHPB</td>
          <td>bobbi</td>
          <td>image resize (header image)</td>
          <td>18053001</td>
@@ -150,7 +164,7 @@
           <tr>
             <td>2:29 p.m</td>
             <td>edit</td>
-            <td class="green">phpb</td>
+            <td class="green">PHPB</td>
             <td>bobbi</td>
             <td>change content: “Alabama Vet Med” => “Auburn University CVM”</td>
             <td>18061301</td>
@@ -175,7 +189,6 @@
         </div>
         <div class="dataSection">
           <img class="dataThumb" src="../image/data/180614_11.png" alt="">
-        
         </div>
       </div><!-- end ticket shell -->
 

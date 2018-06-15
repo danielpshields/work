@@ -46,8 +46,10 @@ img {
 #ticketInputSectionShell {
   float: left;
   width: 600px;
-  border: 2px solid gray;
+  border: 2px solid #999;
   margin-left: 5px;
+  padding: 5px;
+  padding-bottom: 15px;
   font-family: monospace, monospace;
 }
 
@@ -59,6 +61,21 @@ img {
 
 #start {
   float: left;
+  padding: 15px 5px 15px 10px;
+  margin-left: 12px;
+}
+
+#submit {
+  font-size: 16px;
+  color: #333;
+  background: white;
+  border: 2px solid #2a579e;
+  border-radius: 5px;
+  font-family: monospace;
+  margin-top: 10px;
+  padding: 5px;
+  float: right;
+  margin-right: 15px;
 }
 
 #churn {
@@ -73,24 +90,37 @@ img {
 #idNo {
   float: left;
   border: 1px solid #999;
-  width: 250px;
+  width: 225px;
   font-size: 18px;
   border-radius: 3px;
   text-align: center;
+  margin-top: 5px;
+  margin-right: 5px;
 }
 
-#submit {
-  font-size: 16px;
-  color: #333;
-  background: white;
-  border: 1px solid darkblue;
-  font-family: monospace;
+#openStatusTable {
+  margin-top: 15px;
+}
+
+#openStatusTable, #openStatusTable tr, #openStatusTable th, #openStatusTable td  {
+  border: 1px solid #999;
+}
+
+#openStatusTable tr {
+  color: #777;
 }
 
 #close {
-  margin: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 15px auto;
+  padding: 5px;
+  border-top: 2px solid #81d680;
+  border-right: 2px solid #d35852;
+  border-bottom: 2px solid #ead141;
+  border-left: 2px solid #7296e5;
+}
+
+#ticketAssigned {
+  margin-bottom: 10px;
 }
 
 .dataSection {
