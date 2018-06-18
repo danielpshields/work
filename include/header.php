@@ -37,9 +37,9 @@
             <li>|</li>
             <li><a href="<?php echo $path; ?>ln/report/index.php">Report</a></li>
             <li>|</li>
-            <li><a href="<?php echo $path; ?>index.php">index</a></li>
-            <li>|</li>
             <li><a href="<?php echo $path; ?>ln/index.php">Lindex</a></li>
+            <li>|</li>
+            <li><a href="<?php echo $path; ?>index.php">index</a></li>
           </ul>
 
           <ul id="navAdminLinks">

@@ -1,0 +1,107 @@
+#headerSlug {
+  color: purple;
+  font-size: 33px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  margin-left: 0;
+}
+#artHeader {
+  width: 100%;
+  background: black;
+  border: 5px solid #333;
+}#paintings {
+  width: 17.8%;
+  float: left;
+}#paintings img {
+  width: 100%;
+  display: block;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#page {
+  float: left;
+  width: 81.4%;
+  padding-top: 0;
+  border: 3px solid gold;
+  background: white;
+}
+
+#queryHead {
+  border: 1px dashed gold;
+  background: black;
+  width: 100%;
+}
+
+#searchSection {
+  /* border: 1px dashed red; */
+  background: black;
+  width: 71%;
+  margin: auto;
+  padding: 10px 0 15px 0;
+}
+
+#search {
+  width: 80%;
+  background: black;
+  color: #31bf3c;
+  padding: 5px;
+  padding-left: 8px;
+  margin: auto;
+  font-size: 20px;
+}
+
+#submit {
+  background: black;
+  color: #0cf71f;
+  color: #31bf3c;
+  padding: 7px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.searchItems {background: white;}
+
+#popular {
+  float: left;
+  width: 30%;
+}
+
+#giveup {
+  border-top: 1px solid #777;
+}
+
+#trending {
+  float: left;
+  width: 69%;
+}
+
+.homeSlugLink {
+  border: 1px solid black;
+}
+
+.homeSlugLink img {
+  width: 55px;
+  height: 55px;
+  float: left;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+
+.homeSlugLink ul {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  list-style: none;
+}
+
+#trending p {
+  color: #737373;
+}
+
+::placeholder {
+  color: #31bf3c;
+}
