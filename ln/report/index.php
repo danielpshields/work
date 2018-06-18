@@ -22,7 +22,11 @@
       </ul>
 
       <div id="reportItemsShell">
+      
         <h2>GitHub: "<a href="https://github.com/lonesomepi/aacShare" target="_blank"><span class="orange">aacShare</span></a>"</h2>
+
+        <h3>Query</h3>
+        <img class="thumbnail" src="../../image/notes/180600/180618_00.PNG" alt="">
 
         <h3>Lobby Wait</h3>
         <img class="thumbnail" src="../../image/notes/180600/180612_02.PNG" alt="">
@@ -38,7 +42,10 @@
         <ul>
           <li><a href="https://www.advising.ufl.edu/advising/staff/" target="_blank">https://www.advising.ufl.edu/advising/staff/</a></li>
         </ul>
-      </div><!-- report -->
+
+
+      </div><!-- report item shell -->
+      <!-- end report -->
 
       <div id="ticketInputSectionShell">
         <p>backend</p>

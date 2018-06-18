@@ -70,8 +70,15 @@
 
       </div>
       <div class="clear"></div>
-
-    </div><!-- end query section -->
+    </div><!-- end page -->
+    <ul>
+      <li style="float: left; color: blue; margin-left: 25px; text-decoration: underline; list-style: none;">aac</li>
+      <li style="float: left; color: blue; margin-left: 25px; text-decoration: underline; list-style: none;">PHPB</li>
+      <li style="float: left; color: blue; margin-left: 25px; text-decoration: underline; list-style: none;">UFO</li>
+      <li style="float: left; color: blue; margin-left: 25px; text-decoration: underline; list-style: none;">#</li>
+      <li style="float: left; color: blue; margin-left: 25px; text-decoration: underline; list-style: none;">#</li>
+      <div class="clear"></div>
+    </ul>
     <div class="clear"></div>
   </div>
 <?php require_once("../../include/footer.php"); ?>
