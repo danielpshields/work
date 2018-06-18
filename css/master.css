@@ -114,7 +114,10 @@ footer {
   padding-top: 15px;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  background: none;
+}
+
+footer p {
+  text-align: center;
 }
 
 footer ul {
@@ -135,13 +138,6 @@ footer li {
   width: 100px;
 }
 
-footer p {
-  background: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  width: 3px;
-}
 
 .monospace {
   font-family: monospace, monospace;

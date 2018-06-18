@@ -1,55 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
-    <meta charset="utf-8">
-    <title>Lonesome Note</title>
-    <link rel="icon" type="image/png" href="image/picon.png">
-    <link rel="stylesheet" href="../css/master.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="stylesheet" href="css/lindex.css">
-  </head>
-  <body>
-    <div class="container">
-
-      <header>
-
-        <div class="holdShortHeader">
-          <div id="navShortHeader">
-            <h1><a href="../index.html">Lindex</a></h1>
-            <ul>
-              <li><a href="../tree.html">Tree</a></li>
-            </ul>
-          </div>
-          <ul id="eert">
-            <li><a href="#">eerT</a></li>
-          </ul>
-          <div class="clear"></div>
-        </div><!-- hold left header -->
-
-        <div class="holdLinksHeader">
-
-          <ul id="navLindex">
-            <li><a href="meeting/index.html">Meeting</a></li>
-            <li>|</li>
-            <li><a href="report/index.html">Report</a></li>
-            <li>|</li>
-            <li><a href="index.html">Lindex</a></li>
-            <li>|</li>
-            <li><a href="../index.html">index</a></li>
-          </ul>
-
-          <ul id="navAdminLinks">
-            <li><a href="http://www.clas.ufl.edu/prehealthpostbac/">PHPB</a></li>
-            <li>|</li>
-            <li><a href="https://www.advising.ufl.edu/uf-online/">UFO</a></li>
-            <li>|</li>
-            <li><a href="https://www.advising.ufl.edu/">Advising</a></li>
-          </ul>
-          <div class="clear"></div>
-        </div>
-        <div class="clear"></div>
-      </header>
+<?php
+  $path = "../"; $specialpath = "../";
+  require_once("{$path}include/header.php");
+  ?>
 
       <img id="sketch_homepage" src="../image/notes/180600/180605_03.png" alt="">
       <!-- <img id="sketch_homepage" src="image/18/05/05.jpg" alt=""> -->
@@ -59,9 +11,7 @@
           <h2>Alex Catalano</h2>
 
           <ul class="monospace">
-            <li><a href="https://www.advising.ufl.edu/" target="_blank">Advising</a></li>
-            <li><a href="https://www.advising.ufl.edu/uf-online/" target="_blank">UFOnline</a></li>
-            <li><a href="http://www.clas.ufl.edu/prehealthpostbac/" target="_blank">PreHealth</a></li>
+            <li><a href="../fixlist/query/index.php">Query</a></li>
           </ul>
 
         </div>
@@ -381,7 +331,7 @@
 
           </div> <!-- end treetree -->
 
-
+          <div class="clear"></div>
           <footer>
             <p>end.</p>
           </footer>
