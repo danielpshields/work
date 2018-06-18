@@ -1,6 +1,8 @@
 <?php
  $path = "../../";
- require_once("../../include/header_ii.php");
+ $title = "query";
+ $stylesheet = $title;
+ require_once("../../include/header.php");
 ?>
 
   <h2>Query</h2>

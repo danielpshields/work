@@ -1,5 +1,7 @@
 <?php
-  $path = ""; $specialpath = "ln/";
+  $path = "";
+  $title = "index";
+  $stylesheet = $title;
   require_once("{$path}include/header.php");
 ?>
       <article class="lonesomeNote">

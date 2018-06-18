@@ -1,60 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="icon" type="image/png" href="../image/picon.png">
-    <title>Work | Meeting</title>
-    <link rel="stylesheet" href="../../css/master.css">
-    <link rel="stylesheet" href="../css/stylesheet.css">
-    <link rel="stylesheet" href="css/meeting.css">
-  </head>
-  <body>
-    <div class="container">
-      <header>
-
-        <div class="holdShortHeader">
-          <div id="navShortHeader">
-            <h1><a href="../index.html">Meeting</a></h1>
-            <ul>
-              <li><a href="../../tree.html">Tree</a></li>
-            </ul>
-          </div>
-          <ul id="eert">
-            <li><a href="#">eerT</a></li>
-          </ul>
-          <div class="clear"></div>
-        </div><!-- hold left header -->
-
-        <div class="holdLinksHeader">
-
-          <ul id="navLindex">
-            <li><a href="index.html">Meeting</a></li>
-            <li>|</li>
-            <li><a href="../report/index.html">Report</a></li>
-            <li>|</li>
-            <li><a href="../index.html">Lindex</a></li>
-            <li>|</li>
-            <li><a href="../../index.html">index</a></li>
-          </ul>
-
-          <ul id="navAdminLinks">
-            <li><a href="http://www.clas.ufl.edu/prehealthpostbac/">PHPB</a></li>
-            <li>|</li>
-            <li><a href="https://www.advising.ufl.edu/uf-online/">UFO</a></li>
-            <li>|</li>
-            <li><a href="https://www.advising.ufl.edu/">Advising</a></li>
-          </ul>
-          <div class="clear"></div>
-        </div>
-        <div class="clear"></div>
-      </header>
-
-
-      <!-- general -->
-      <!-- general -->
-      <!-- general -->
-      <!-- general -->
-
+<?php
+  $path = "../../";
+  $title = "meeting";
+  $stylesheet = $title;
+  require_once("{$path}include/header.php");
+?>
 
 
       <p class="slugLede"><b>Communicate</b> What are the academic opportunities we provide?</p>

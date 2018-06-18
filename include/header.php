@@ -1,13 +1,16 @@
+<?php
+  require_once("{$path}include/functions.php");
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
     <meta charset="utf-8">
-    <title>Work | Index</title>
+    <title>Work | <?php echo $title; ?></title>
     <link rel="icon" type="image/png" href="<?php echo $path; ?>ln/image/picon.png">
     <link rel="stylesheet" href="<?php echo $path; ?>css/master.css">
     <link rel="stylesheet" href="<?php echo $path; ?>ln/css/stylesheet.css">
-    <link rel="stylesheet" href="<?php echo $path; ?>css/index.css">
+    <link rel="stylesheet" href="css/<?php echo $stylesheet; ?>.css">
   </head>
   <body>
     <div class="container">
@@ -16,7 +19,7 @@
 
         <div class="holdShortHeader">
           <div id="navShortHeader">
-            <h1><a href="<?php echo $specialpath; ?>index.php">index</a></h1>
+            <h1><a href="<?php echo $shortpath . $ln; ?>index.php"><?php echo $h1 ; ?></a></h1>
             <ul>
               <li><a href="<?php echo $path; ?>tree.html">Tree</a></li>
             </ul>
@@ -34,9 +37,9 @@
             <li>|</li>
             <li><a href="<?php echo $path; ?>ln/report/index.php">Report</a></li>
             <li>|</li>
-            <li><a href="<?php echo $path; ?>ln/index.php">Lindex</a></li>
-            <li>|</li>
             <li><a href="<?php echo $path; ?>index.php">index</a></li>
+            <li>|</li>
+            <li><a href="<?php echo $path; ?>ln/index.php">Lindex</a></li>
           </ul>
 
           <ul id="navAdminLinks">

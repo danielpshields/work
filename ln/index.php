@@ -1,7 +1,9 @@
 <?php
-  $path = "../"; $specialpath = "../";
+  $path = "../";
+  $title = "lindex";
+  $stylesheet = $title;
   require_once("{$path}include/header.php");
-  ?>
+?>
 
       <img id="sketch_homepage" src="../image/notes/180600/180605_03.png" alt="">
       <!-- <img id="sketch_homepage" src="image/18/05/05.jpg" alt=""> -->
