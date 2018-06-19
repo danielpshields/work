@@ -5,6 +5,11 @@
  require_once("{$path}include/header.php");
 ?><h2 class="headerSlug">manual</h2>
 
+<h2>Mission Statement</h2>
+<p>The Academic Advising Center provides accurate and timely information, developmental advising, and outreach services for students, faculty, and staff to retain and graduate students in programs consistent with students' intellectual abilities, academic interests, and professional objectives.</p>
+
+
+
   <section>
 
     <h3>Protected (Shib)</h3>
@@ -14,6 +19,7 @@
     </ul>
     <h4>Permissions</h4>
     <ul>
+      <li><a href="https://www.advising.ufl.edu/evaluation/results" target="_blank">Evaluation results for individual advising session</a></li>
       <li class="manualnewnav-right-border" target="_blank"><a href="http://student.ufl.edu/cgi-bin/eaglec?MDASTRAN=wat-wait" target="_blank">Wait List</a></li>
     </ul>
   </section>
@@ -21,6 +27,22 @@
   <section>
     <h3>Handbook</h3>
     <li><a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=1" target="_blank">Academic Dishonesty (in the Handbook)</a></li>
+  </section>
+
+
+  <section>
+    <h3>Advisors</h3>
+  </section>
+
+  <section>
+    <h3>Developer</h3>
+  </section>
+
+  <section>
+    <h3>Department</h3>
+    <ul>
+      <li>how to work the video room</li>
+    </ul>
   </section>
 
 
@@ -102,188 +124,143 @@
       </ul>
 
 
+      <ul>
+          <li><a href="https://www.advising.ufl.edu/manual/Ecochangemajors.shtml" target="_blank">Eco Change of Majors</a></li>
+          <h3>Email</h3>
+          <ul>
+      			<li><a class="indent" href="https://www.advising.ufl.edu/manual/addmailbox.pdf" target="_blank">Add a Mailbox in Outlook</a> (PDF, 494 KB)</li>
+      			<li><a class="indent" href="https://www.advising.ufl.edu/manual/Emailadvising.pdf" target="_blank">Advising </a> (PDF, 300 KB)</li>
+      			<li><a class="indent" href="https://www.advising.ufl.edu/manual/EmailMergeInstructions.pdf" target="_blank">Mail Merge Instructions</a> (PDF, 333 KB)</li>
+      			<li><a class="indent" href="https://www.advising.ufl.edu/manual/previewadjust.html" target="_blank">Preview Adjust Email Instructions</a></li>
+  		    </ul>
+          <ul>
 
+          </ul>
 
+      <li><a href="http://www.sfa.ufl.edu/isis/HoursExtension.pdf" target="_blank">Employment Petition</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/enrollment.html" target="_blank">Enrollment Figures</a></li>
+  		<li><a href="http://www.advising.ufl.edu/manual/printenv.cgi" target="_blank">Environmental Vars</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/criteria608advisor.htm" target="_blank">Evaluation (criteria for advisor (Assistant In) Promotion </a></li>
+      <li><a href="https://www.advising.ufl.edu/evaluation/evalexample.cgi" target="_blank">Evaluation (completed by student online) individual advising session</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/evalemail.pdf" target="_blank">Evaluation Email Example</a></li> (sent to AAC walk-ins weekly)
+      <li><a href="https://www.advising.ufl.edu/manual/peer_evaluation.PDF" target="_blank">Evaluation Form (Peer)</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/prepdatainput.php" target="_blank">Exploratory Preview Prep Data (accessible for any team)</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/exploratoryUT3audit.html" target="_blank">Exploratory UT3 Audits</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/exploratoryworksheets.html" target="_blank">Exploratory Worksheets</a></li>
+    </ul>
 
-
-          <a name="E" target="_blank"></a>
-          <h4>E</h4>
-
-          <p><a href="#top" target="_blank">top</a></p>
-  <p>
-          <a href="/manual/Ecochangemajors.shtml" target="_blank">Eco Change of Majors</a>
-          <a name="email" target="_blank">Email</a></p>
-  		<ul class="manualhomeindent" target="_blank">
-  			<li><a class="indent" href="addmailbox.pdf" target="_blank">Add a Mailbox in Outlook</a> (PDF, 494 KB)</li>
-  			<li><a class="indent" href="Emailadvising.pdf" target="_blank">Advising </a> (PDF, 300 KB)</li>
-  			<li><a class="indent" href="EmailMergeInstructions.pdf" target="_blank">Mail Merge Instructions</a> (PDF, 333 KB)</li>
-  			<li><a class="indent" href="previewadjust.html" target="_blank">Preview Adjust Email Instructions</a></li>
+    <ul>
+      <li><a href="http://www.registrar.ufl.edu/ferpa.html" target="_blank">FERPA (Buckley Amendment)</a></li>
+  		<li><a href="http://www.sfa.ufl.edu/contact-sfa/" target="_blank">Financial Aid Contacts</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/academicprogress.html" target="_blank">Financial Aid: Academic Progress</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=4" target="_blank">Flex Time (Handbook)</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/CorrespondenceGuidelines.pdf" target="_blank">Flexible Learning</a></li> (PDF, 212 KB)
+      <li><a href="https://www.advising.ufl.edu/manual/flexiblelearning.html" target="_blank">Flexible Learning Guidelines</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/sus.html" target="_blank">Florida's State University System</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/football.html" target="_blank">Football Ticket Memo</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/ForeignLanguage.shtml" target="_blank">Foreign Language-Advising Tips<a/>
+  		<li><a name="https://www.advising.ufl.edu/manual/foreign" target="_blank">Foreign Languages and Literatures Majors</a></li>
+  		<ul>
+  			<li><a class="indent" href="https://www.advising.ufl.edu/manual/FLLCriticalConcentration.pdf" target="_blank">Critical Concentration Info</a> (PDF, 17KB)</li>
+  			<li><a class="indent" href="https://www.advising.ufl.edu/manual/DualLanguagesSpecialization.pdf" target="_blank">Dual Languages Specialization</a> (PDF, 21 KB)</li>
   		</ul>
-          <p><a href="http://www.sfa.ufl.edu/isis/HoursExtension.pdf" target="_blank">Employment Petition</a>
-  		<a href="enrollment.html" target="_blank">Enrollment Figures</a>
-  		<a href="http://www.advising.ufl.edu/manual/printenv.cgi" target="_blank">Environmental Vars</a>
-  		<a href="criteria608advisor.htm" target="_blank">Evaluation (criteria for advisor (Assistant In) Promotion </a>
-          <a href="../evaluation/evalexample.cgi" target="_blank">Evaluation (completed by student online) individual advising session</a>
-  		<a href="evalemail.pdf" target="_blank">Evaluation Email Example</a> (sent to AAC walk-ins weekly)
-  		<a href="../evaluation/results" target="_blank">Evaluation results for individual advising session</a>
-          <a href="peer_evaluation.PDF" target="_blank">Evaluation Form (Peer)</a>
-  		<a href="prepdatainput.php" target="_blank">Exploratory Preview Prep Data (accessible for any team)</a>
-  		<a href="exploratoryUT3audit.html" target="_blank">Exploratory UT3 Audits</a>
-  		<a href="exploratoryworksheets.html" target="_blank">Exploratory Worksheets</a></p>
+      <li><a href="https://www.advising.ufl.edu/manual/forms.pdf" target="_blank">Forms&mdash;What To Do with Different Forms?</a> (PDF, 387 KB)</li>
+  		<li><a href="https://www.advising.ufl.edu/manual/FreshStart.shtml" target="_blank">Fresh Start</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=5" target="_blank">Front Desk/Lobby Expectations</a></p></li>
+    </ul>
 
-          <a name="F" target="_blank"></a>
-  		<h4>F</h4>
-  		<p><a href="#top" target="_blank">top</a></p>
-  		<p>
 
-          <a href="http://www.registrar.ufl.edu/ferpa.html" target="_blank">FERPA (Buckley Amendment)</a>
-  		<a href="http://www.sfa.ufl.edu/contact-sfa/" target="_blank">Financial Aid Contacts</a>
-  		<a href="academicprogress.html" target="_blank">Financial Aid: Academic Progress</a>
-  		<a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=4" target="_blank">Flex Time (Handbook)</a>
-  		<a href="CorrespondenceGuidelines.pdf" target="_blank">Flexible Learning</a> (PDF, 212 KB)
-  		<a name="flexible" target="_blank"></a><a href="flexiblelearning.html" target="_blank">Flexible Learning Guidelines</a>
-  		<a href="sus.html" target="_blank">Florida's State University System</a>
-  		<a href="football.html" target="_blank">Football Ticket Memo</a>
-          <a href="ForeignLanguage.shtml" target="_blank">Foreign Language-Advising Tips<a/>
-  		 <a name="foreign" target="_blank">Foreign Languages and Literatures Majors</a>
-  		<ul class="manualhomeindent" target="_blank">
-  			<li><a class="indent" href="FLLCriticalConcentration.pdf" target="_blank">Critical Concentration Info</a> (PDF, 17KB)</li>
-  			<li><a class="indent" href="DualLanguagesSpecialization.pdf" target="_blank">Dual Languages Specialization</a> (PDF, 21 KB)</li>
+    <ul>
+      <li><a href="https://www.advising.ufl.edu/manual/goodlifetransfer.html" target="_blank">Good Life and Transfer Students</a></li>
+      <li><a href="http://warrington.ufl.edu/undergraduate/advising/calculator.asp" target="_blank">GPA Calculator interactive</a> (<span class="red">Broken</span>)</li>
+      <li><a href="https://www.advising.ufl.edu/manual/allrequirementsmet.shtml" target="_blank">Grad List Instructions</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/Graduation.pdf" target="_blank">Graduation Advising Info</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/CLASTimelyGraduation.pdf" target="_blank">Graduation - CLAS Timely Graduation Policy</a> (PDF, 318 KB></li>
+      <li><a href="http://www.registrar.ufl.edu/commencement" target="_blank">Graduation Info on Registrar's Site</a></li>
+      <li><a href="http://identity.ufl.edu/" target="_blank">Graphics (UF Graphic Policy)</a></li>
+    </ul>
+
+
+    <ul>
+  		<li><a href="https://www.advising.ufl.edu/manual/handbook.pdf" target="_blank">Handbook, AAC</a> (PDF, 452 KB)</li>
+  		<li><a href="https://www.advising.ufl.edu/manual/roles.html" target="_blank">Headcount, Access to</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/historytracking.html" target="_blank">History Tracking GPA Change</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/housing.pdf" target="_blank">Housing Letter</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/HSAA.html" target="_blank">HS/AA-Advising Tips</a></li>
+    </ul>
+
+    <ul>
+  		<li><a href="https://www.advising.ufl.edu/manual/roles.html" target="_blank">Identity Management</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/i-grade.PDF" target="_blank">Incomplete Grades (form)</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/I-grades.html" target="_blank">Incomplete Grades (policy)</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/IAPetitions.html" target="_blank">Innovation Academy: Petitions</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/PetitionsLeavingIA.html" target="_blank">Innovation Academy Petition to Change to Non-IA Major</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/INTmajreqs.pdf" target="_blank">International Studies (INT) Major Requirements</a> (PDF, 415 KB)</li>
+  		<li><a href="https://www.advising.ufl.edu/manual/IUF1000.html" target="_blank">IUF1000 Policy</a></li>
+    </ul>
+
+    <ul>
+      <li><a href="https://www.advising.ufl.edu/manual/latedegreeapp.pdf" target="_blank">Late Degree Application</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=5" target="_blank">Lateness</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=5" target="_blank">Leave</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/advisorletterassignments.pdf" target="_blank">Letter Assignments for Advisors</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/AACletterhead.dotx" target="_blank"><i>Letterhead</i></a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/liaisons.php" target="_blank">Liaison, Advisor Listing</a></p></li>
+    </ul>
+
+    <ul>
+      <li><a href="https://www.advising.ufl.edu/manual/majorcodes.html" target="_blank">Major &amp; College Codes</a></li>
+      <li><a href="http://www.advising.ufl.edu/headcount" target="_blank">Major Counts</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/majorsoverunder.shtml" target="_blank">Majors, Over/Underenrolled</a></li>
+	    <li><a href="https://www.advising.ufl.edu/manual/roles.html" target="_blank">Manual, Access to</a></li>
+      <li><a href="http://campusmap.ufl.edu/" target="_blank">Map (Campus)</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/maxcred.html" target="_blank"> Maximum Credit</a></li>
+		  <li><a href="https://care.dso.ufl.edu/medical-withdrawal-process/" target="_blank">Medical Drops and Withdrawals</a></li>
+      <li><a href="http://www.psu.edu/dus/mentor/" target="_blank">Mentor (Academic Advising Journal)</a></li>
+	    <li><a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=6" target="_blank">Merit Pay (Handbook)</a></li>
+    	<li><a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=7" target="_blank">Merit Pay Guidelines (Handbook)</a></li>
+      <li><a href="https://microcell.ifas.ufl.edu/media/microcellifasufledu/pdf/forms/Closed-Section-Request-Form-for-Microbiology-Majors-only.pdf" target="_blank">Microbiology - Closed Section Request Form</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/minors.html" target="_blank">Minor Codes</a></li>
+      <li><a href="http://www.advising.ufl.edu/headcount" target="_blank">Minor Counts</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/minors.pdf" target="_blank">Minor application process</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/Similarmajorsandminors.pdf" target="_blank">Minors, Inherently Similar</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/mission.pdf" target="_blank">Mission Statement</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/CLAS_degrees_majors.PDF" target="_blank">CLAS Degrees Majors</a> (<span class="red">Broken</span>)</li>
+    </ul>
+
+    <ul>
+  		<li><a href="https://www.advising.ufl.edu/manual/NERDC.shtml" target="_blank">NERDC</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/NoCreditingCourses.html" target="_blank">No-Crediting Courses</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/nondegree.html" target="_blank">Non-Degree Registration</a></li>
+    </ul>
+
+  		<ul>
+        <li><a href="https://www.advising.ufl.edu/manual/outlook.html" target="_blank">Outlook Tips</a></li>
+  		  <li><a href="http://www.registrar.ufl.edu/pdf/transient.pdf" target="_blank">Out-of-State Transient Form</a></li>
   		</ul>
-  <p>     <a href="forms.pdf" target="_blank">Forms&mdash;What To Do with Different Forms?</a> (PDF, 387 KB)
-  		<a href="FreshStart.shtml" target="_blank">Fresh Start</a>
-  		<a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=5" target="_blank">Front Desk/Lobby Expectations</a></p>
 
+      <ul>
+        <li><a href="https://www.advising.ufl.edu/manual/PaCEStudentsinUFO.pdf" target="_blank">PaCE Students in UFO</a>, (PDF, 71 KB)</li>
+        <li><a href="https://www.advising.ufl.edu/manual/petitionsguidelines.pdf" target="_blank">Petitions</a> (College Guidelines) (PDF, 24KB)</li>
+        <li><a href="https://www.advising.ufl.edu/manual/phones.PDF" target="_blank">Phone Advising Protocol</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/roster.php" target="_blank">Phone Numbers</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/phpinfo.php" target="_blank">PHP info</a></li>
+        <li><a href="https://teachingcenter.ufl.edu/sat2.html" target="_blank"> Placement Test (SAT II)</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/posthumouspolicy.pdf" target="_blank">Posthumous Degree Policy</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/PresentationRoom.pdf" target="_blank">Presentation Room Video</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/presidentshonorroll.html" target="_blank">President's Honor Roll</a></li>
+        <li><a href="http://www.advising.ufl.edu/preview" target="_blank">Preview Advisor Application</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/preview_phone.html" target="_blank">Preview: Key Phone Numbers</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/prepdatainput.php" target="_blank">Preview Prep Data</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/ProbationProcedures.pdf" target="_blank">Probation Procedures</a> (PDF, 183 KB)</li>
+        <li><a href="https://www.advising.ufl.edu/manual/NavigatingtheSwampProgram.pptx" target="_blank"><i>Progress Program</i></a> (PDF, 1.1 MB)</li>
+        <li><a href="https://www.advising.ufl.edu/manual/ProjectList.pdf" target="_blank"><b>Project List - Fall 2017</b></a> (PDF, 162 KB)</li>
+        <li><a href="https://www.advising.ufl.edu/manual/PromotionCriteria.pdf" target="_blank">Promotion Criteria for Professional Advisors</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/protocols.pdf" target="_blank">Protocols for Advising in AAC</a> (PDF, 22 KB)</li>
+        <li><a href="https://www.advising.ufl.edu/manual/psymajors.html" target="_blank">Psychology Majors</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/PSYTrackingTransition.pdf" target="_blank">Psychology Tracking Transition&mdash;Fall 2014</a> (PDF, 284 KB)</p></li>
+      </ul>
 
-          <a name="G" target="_blank"></a><h4>G</h4>
-          <p><a href="#top" target="_blank">top</a></p>
-  		<p>
-
-          <a href="goodlifetransfer.html" target="_blank">Good Life and Transfer Students</a>
-  		<a href="http://warrington.ufl.edu/undergraduate/advising/calculator.asp" target="_blank">GPA Calculator interactive</a>
-          <a href="allrequirementsmet.shtml" target="_blank">Grad List Instructions</a>
-          <a href="Graduation.pdf" target="_blank">Graduation Advising Info</a>
-          <a href="CLASTimelyGraduation.pdf" target="_blank">Graduation - CLAS Timely Graduation Policy</a> (PDF, 318 KB)
-  		<a href="http://www.registrar.ufl.edu/commencement" target="_blank">Graduation Info on Registrar's Site</a>
-  		<a href="http://identity.ufl.edu/" target="_blank">Graphics (UF Graphic Policy)</a>
-
-
-  		  <a name="H" target="_blank"></a>
-          <h4>H</h4>
-  		<p><a href="#top" target="_blank">top</a></p>
-          <p>
-  		<a href="handbook.pdf" target="_blank">Handbook, AAC</a> (PDF, 452 KB)
-  		<a href="roles.html" target="_blank">Headcount, Access to</a>
-  		<a href="historytracking.html" target="_blank">History Tracking GPA Change</a>
-  		<a href="housing.pdf" target="_blank">Housing Letter</a>
-          <a href="HSAA.html" target="_blank">HS/AA-Advising Tips</a>
-
-
-
-  		</p>
-
-         <a name="I" target="_blank"></a>
-  	   <h4>I</h4>
-  	   <p><a href="#top" target="_blank">top</a></p>
-  	   <p>
-  		<a href="roles.html" target="_blank">Identity Management</a>
-  		<a href="/manual/i-grade.PDF" target="_blank">Incomplete Grades (form)</a>
-          <a href="I-grades.html" target="_blank">Incomplete Grades (policy)</a>
-  		<a href="IAPetitions.html" target="_blank">Innovation Academy: Petitions</a>
-  		<a href="PetitionsLeavingIA.html" target="_blank">Innovation Academy Petition to Change to Non-IA Major</a>
-          <a href="INTmajreqs.pdf" target="_blank">International Studies (INT) Major Requirements</a> (PDF, 415 KB)
-  		<a href="IUF1000.html" target="_blank">IUF1000 Policy</a></p>
-
-          <a name="J" target="_blank"></a>
-          <h4>J</h4>
-  		<p><a href="#top" target="_blank">top</a></p>
-
-  		<a name="K" target="_blank"></a>
-  		<h4>K</h4>
-  		<p><a href="#top" target="_blank">top</a></p>
-
-          <a name="L" target="_blank"></a>
-  		<h4>L</h4>
-  		<p><a href="#top" target="_blank">top</a></p>
-         <p>
-  		<a href="latedegreeapp.pdf" target="_blank">Late Degree Application</a>
-  		<a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=5" target="_blank">Lateness</a>
-  				<a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=5" target="_blank">Leave</a>
-  		<a href="advisorletterassignments.pdf" target="_blank">Letter Assignments for Advisors</a>
-  		<a href="AACletterhead.dotx" target="_blank">Letterhead</a>
-          <a href="liaisons.php" target="_blank">Liaison, Advisor Listing</a></p>
-
-          <a name="M" target="_blank"></a>
-  		<h4>M</h4>
-  		<p><a href="#top" target="_blank">top</a></p>
-          <p>
-          <a href="majorcodes.html" target="_blank">Major &amp; College Codes</a>
-          <a href="http://www.advising.ufl.edu/headcount" target="_blank">Major Counts</a>
-          <a href="majorsoverunder.shtml" target="_blank">Majors, Over/Underenrolled</a>
-  		<a href="roles.html" target="_blank">Manual, Access to</a>
-          <a href="http://campusmap.ufl.edu/" target="_blank">Map (Campus)</a>
-          <a href="maxcred.html" target="_blank"> Maximum Credit</a>
-   		<a href="https://care.dso.ufl.edu/medical-withdrawal-process/" target="_blank">Medical Drops and Withdrawals</a>
-          <a href="http://www.psu.edu/dus/mentor/" target="_blank">Mentor (Academic Advising Journal)</a>
-  		<a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=6" target="_blank">Merit Pay (Handbook)</a>
-  		<a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=7" target="_blank">Merit Pay Guidelines (Handbook)</a>
-          <a href="https://microcell.ifas.ufl.edu/media/microcellifasufledu/pdf/forms/Closed-Section-Request-Form-for-Microbiology-Majors-only.pdf" target="_blank">Microbiology - Closed Section Request Form</a>
-          <a href="minors.html" target="_blank">Minor Codes</a>
-          <a href="http://www.advising.ufl.edu/headcount" target="_blank">Minor Counts</a>
-          <a href="minors.pdf" target="_blank">Minor application process</a>
-          <a href="Similarmajorsandminors.pdf" target="_blank">Minors, Inherently Similar</a>
-          <a href="mission.pdf" target="_blank">Mission Statement</a>
-          <a href="CLAS_degrees_majors.PDF" target="_blank"></a>
-          </p>
-
-          <a name="N" target="_blank"></a>
-  		<h4>N</h4>
-  		<p><a href="#top" target="_blank">top</a></p>
-  		<p>
-  		<a href="NERDC.shtml" target="_blank">NERDC</a>
-  		<a href="NoCreditingCourses.html" target="_blank">No-Crediting Courses</a>
-  		<a href="nondegree.html" target="_blank">Non-Degree Registration</a>
-  		</p>
-
-  		<h4 id="O" target="_blank">O</h4>
-  		<p><a href="outlook.html" target="_blank">Outlook Tips</a>
-  		<a href="http://www.registrar.ufl.edu/pdf/transient.pdf" target="_blank">Out of State Transient Form</a>
-  		</p>
-
-
-
-
-
-
-  		<h4 id="P" target="_blank">P</h4>
-          <p><a href="#top" target="_blank">top</a></p>
-          <p>
-          <a href="PaCEStudentsinUFO.pdf" target="_blank">PaCE Students in UFO</a>, (PDF, 71 KB)
-          <a href="petitionsguidelines.pdf" target="_blank">Petitions</a> (College Guidelines) (PDF, 24KB)
-          <a href="phones.PDF" target="_blank">Phone Advising Protocol</a>
-          <a href="roster.php" target="_blank">Phone Numbers</a>
-  		<a href="phpinfo.php" target="_blank">PHP info</a>
-          <a href="https://teachingcenter.ufl.edu/sat2.html" target="_blank"> Placement Test (SAT II)</a>
-          <a href="posthumouspolicy.pdf" target="_blank">Posthumous Degree Policy</a>
-  		<a href="PresentationRoom.pdf" target="_blank">Presentation Room Video</a>
-  		<a href="presidentshonorroll.html" target="_blank">President's Honor Roll</a>
-  		<a href="http://www.advising.ufl.edu/preview" target="_blank">Preview Advisor Application</a>
-  		<a href="preview_phone.html" target="_blank">Preview: Key Phone Numbers</a>
-          <a href="prepdatainput.php" target="_blank">Preview Prep Data</a>
-          <a href="ProbationProcedures.pdf" target="_blank">Probation Procedures</a> (PDF, 183 KB)
-  		<a href="NavigatingtheSwampProgram.pptx" target="_blank">Progress Program</a> (PDF, 1.1 MB)
-          <a href="ProjectList.pdf" target="_blank">Project List - Fall 2017</a> (PDF, 162 KB)
-          <a href="PromotionCriteria.pdf" target="_blank">Promotion Criteria for Professional Advisors</a>
-  		<a href="protocols.pdf" target="_blank">Protocols for Advising in AAC</a> (PDF, 22 KB)
-          <a href="psymajors.html" target="_blank">Psychology Majors</a>
-  		<a href="PSYTrackingTransition.pdf" target="_blank">Psychology Tracking Transition&mdash;Fall 2014</a> (PDF, 284 KB)</p>
-
-  		<a name="Q" target="_blank"></a>
-          <h4>Q</h4>
-  		<p><a href="#top" target="_blank">top</a></p>
-
-          <a name="R" target="_blank"></a>
-  		<h4>R</h4>
   		<p><a href="#top" target="_blank">top</a></p>
           <p>
           <a href="readmitdates.html" target="_blank">Readmission Deadlines</a>
