@@ -19,6 +19,7 @@
     </ul>
     <h4>Permissions</h4>
     <ul>
+      <li><a href="http://www.student.ufl.edu/cgi-bin/eaglec?MDASTRAN=wat-myview" target="_blank">Search for a Specific Person You Saw</a> by Date</li>
       <li><a href="https://www.advising.ufl.edu/evaluation/results" target="_blank">Evaluation results for individual advising session</a></li>
       <li class="manualnewnav-right-border" target="_blank"><a href="http://student.ufl.edu/cgi-bin/eaglec?MDASTRAN=wat-wait" target="_blank">Wait List</a></li>
     </ul>
@@ -261,50 +262,45 @@
         <li><a href="https://www.advising.ufl.edu/manual/PSYTrackingTransition.pdf" target="_blank">Psychology Tracking Transition&mdash;Fall 2014</a> (PDF, 284 KB)</p></li>
       </ul>
 
-  		<p><a href="#top" target="_blank">top</a></p>
-          <p>
-          <a href="readmitdates.html" target="_blank">Readmission Deadlines</a>
-          <a href="readmissionpolicy.html" target="_blank">Readmission Guidelines, Below 2.0</a>
-          <a href="above2.shtml" target="_blank">Readmission Guidelines, Above 2.0</a>
-          <a href="withdrawalfee.html" target="_blank">Reinstatement of courses</a>
-          <a href="residency.html" target="_blank">Residency Requirement</a>
-  		<a href="roles.html" target="_blank">Roles Assigned by Identity Management</a>
-  		<a href="RoomReservation.shtml" target="_blank">Room Reservations</a>
-          <a href="roster.php" target="_blank">Roster (AAC Advisors &amp; Staff)</a>
-          <a href="routes.html" target="_blank">Routing List (AAC)</a></p>
+  	   <ul>
+         <li><a href="https://www.advising.ufl.edu/manual/readmitdates.html" target="_blank">Readmission Deadlines</a></li>
+         <li><a href="https://www.advising.ufl.edu/manual/readmissionpolicy.html" target="_blank">Readmission Guidelines, Below 2.0</a></li>
+         <li><a href="https://www.advising.ufl.edu/manual/above2.shtml" target="_blank">Readmission Guidelines, Above 2.0</a></li>
+         <li><a href="https://www.advising.ufl.edu/manual/withdrawalfee.html" target="_blank">Reinstatement of courses</a></li>
+         <li><a href="https://www.advising.ufl.edu/manual/residency.html" target="_blank">Residency Requirement</a></li>
+         <li><a href="https://www.advising.ufl.edu/manual/roles.html" target="_blank">Roles Assigned by Identity Management</a></li>
+         <li><a href="https://www.advising.ufl.edu/manual/RoomReservation.shtml" target="_blank">Room Reservations</a></li>
+         <li><a href="https://www.advising.ufl.edu/manual/roster.php" target="_blank">Roster (AAC Advisors &amp; Staff)</a> <i>appears twice</i></li>
+         <li><a href="https://www.advising.ufl.edu/manual/routes.html" target="_blank">Routing List (AAC)</a> <i>list serve description</i></li>
+       </ul>
 
-  		<a name="S" target="_blank"></a>
-  		<h4>S</h4>
-          <p><a href="#top" target="_blank">top</a></p>
-          <p>
-  		<a href="SASSUserCalendar.pdf" target="_blank">SASS User Calendar</a>, Spring 2018 (PDF, 59 KB)
-          <a href="http://www.sfa.ufl.edu/search/" target="_blank">Scholarship UF web site</a>
-          <a href="screens.html" target="_blank">Screens (Advisor Screens)</a>
-  		<a href="screenshot.html" target="_blank">Screenshots: How to Create</a>
-          <a href="http://www.student.ufl.edu/cgi-bin/eaglec?MDASTRAN=wat-myview" target="_blank">Search for a Specific Person You Saw</a> by Date
-          <a href="protocols.html" target="_blank">Seeing Students: AAC Protocol</a>
-  		<a href="ServiceIndicators.xlsx" target="_blank">Service Indicators</a>
-  		<a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=2" target="_blank">Sexual Harassment Policy/Workshops (Handbook)</a>
-          <a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=8" target="_blank">Sick Leave (Handbook)</a>
-  		<a href="SIDA_Steps.pdf" target="_blank">SIDA Instructions</a>
-  		<a href="Similarmajorsandminors.pdf" target="_blank">Similar Majors/Minors</a> (PDF, 305 KB)
-  		<a href="SimilarMajorsDoubleMajorsDualDegrees.pdf" target="_blank">Similar Majors Double Majors and Dual Degrees</a> (PDF, 86 KB)
-          <a href="socialmedia.html" target="_blank">Social Media</a>
-          <a href="http://spanishandportuguese.ufl.edu/undergraduate-programs/informacion-para-los-estudiantes-bilingues/" target="_blank">Spanish Advising for Bilingual students</a>
-  		<a href="SpecialProgramCodes.pdf" target="_blank">Special Program Codes</a>
-          <a href="sus.html" target="_blank">State University System (SUS)</a>
-          <a href="studentassistants.pdf" target="_blank">Student Assistants: Fall 2017</a>
-  		<a href="studyabroadadvising.pdf" target="_blank">Study Abroad forms - how to process</a> (PDF, 512 KB)
-  		<a href="https://counseling.ufl.edu/outreach/suicide/" target="_blank">Suicide Prevention website</a>
-  		<a href="SumEnrollReqWaiver.html" target="_blank">Summer Enrollment: Petitioning for a Summer Enrollment Requirement Waiver</a>
-  		<a href="summerrequirement.pdf" target="_blank">Summer Requirement Clarification</a>
-  			<ul class="manualhomeindent" target="_blank">
+       <ul>
+        <li><a href="https://www.advising.ufl.edu/manual/SASSUserCalendar.pdf" target="_blank">SASS User Calendar</a>, Spring 2018 (PDF, 59 KB)</li>
+        <li><a href="http://www.sfa.ufl.edu/search/" target="_blank">Scholarship UF web site</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/screens.html" target="_blank">Screens (Advisor Screens)</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/screenshot.html" target="_blank">Screenshots: How to Create</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/protocols.html" target="_blank">Seeing Students: AAC Protocol</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/ServiceIndicators.xlsx" target="_blank"><i>Service Indicators</i></a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=2" target="_blank">Sexual Harassment Policy/Workshops (Handbook)</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=8" target="_blank">Sick Leave (Handbook)</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/SIDA_Steps.pdf" target="_blank">SIDA Instructions</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/Similarmajorsandminors.pdf" target="_blank">Similar Majors/Minors</a> (PDF, 305 KB)</li>
+        <li><a href="https://www.advising.ufl.edu/manual/SimilarMajorsDoubleMajorsDualDegrees.pdf" target="_blank">Similar Majors Double Majors and Dual Degrees</a> (PDF, 86 KB)</li>
+        <li><a href="https://www.advising.ufl.edu/manual/socialmedia.html" target="_blank">Social Media</a></li>
+        <li><a href="http://spanishandportuguese.ufl.edu/undergraduate-programs/informacion-para-los-estudiantes-bilingues/" target="_blank">Spanish Advising for Bilingual students</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/SpecialProgramCodes.pdf" target="_blank">Special Program Codes</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/sus.html" target="_blank">State University System (SUS)</a> <i>New College is wrong</i></li>
+        <li><a href="https://www.advising.ufl.edu/manual/studentassistants.pdf" target="_blank">Student Assistants: Fall 2017</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/studyabroadadvising.pdf" target="_blank">Study Abroad forms - how to process</a> (PDF, 512 KB)</li>
+        <li><a href="https://counseling.ufl.edu/outreach/suicide/" target="_blank">Suicide Prevention website</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/SumEnrollReqWaiver.html" target="_blank">Summer Enrollment: Petitioning for a Summer Enrollment Requirement Waiver</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/summerrequirement.pdf" target="_blank">Summer Requirement Clarification</a></li>
+  			<ul>
   				<li><a href="http://aa.ufl.edu/media/aaufledu/policies/Summer-Term-Enrollment-Policy.pdf" target="_blank">Summer Requirement</a>, from the Provost's Office</li>
   			</ul>
-  		<p>
-  		<a href="request.pdf" target="_blank">Supply Request Form</a>
-          <a href="SustainabilityStudiesAdvising.pdf" target="_blank">Sustainability Studies Advising (PDF, 337 KB)</a>
-  		</p>
+    		<li><a href="https://www.advising.ufl.edu/manual/request.pdf" target="_blank">Supply Request Form</a></li>
+        <li><a href="SustainabilityStudiesAdvising.pdf" target="_blank">Sustainability Studies Advising (PDF, 337 KB)</a></li>
+    </ul>
 
             <a name="T" target="_blank"></a>
           <h4>T</h4>
