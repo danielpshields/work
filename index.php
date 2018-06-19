@@ -10,6 +10,7 @@
         <h4>June</h4>
         <h5>Week 5</h5>
         <ul>
+          <li><a href="ln/18/06/19.html">180619</a></li>
           <li><a href="ln/18/06/18.html">180618</a></li>
         </ul>
 
