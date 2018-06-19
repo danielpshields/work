@@ -1,7 +1,8 @@
-#headerSlug {
-  color: purple;
+.headerSlug {
+  color: #21094c;
+  color: #280d56;
   font-size: 33px;
-  font-family: sans-serif;
+  font-family: monospace;
   text-align: center;
 }
 
@@ -83,11 +84,15 @@ img {
   border: 1px solid black;
 }
 
+#ticket {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .homeSlugLink img {
   width: 55px;
   height: 55px;
   float: left;
-  border: 3px solid blue;
   border-radius: 5px;
 }
 

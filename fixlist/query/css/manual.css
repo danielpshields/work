@@ -1,0 +1,19 @@
+.headerSlug {
+  color: #163970;
+  font-size: 33px;
+  font-family: monospace;
+  text-align: center;
+}
+
+section {
+  border: 1px dashed black;
+  margin-bottom: 25px;
+}
+
+
+ul {
+  margin-bottom: 25px;
+}
+section ul {
+  margin-bottom: 0;
+}

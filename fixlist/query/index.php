@@ -5,7 +5,7 @@
  require_once("../../include/header.php");
 ?>
 
-  <h2 id="headerSlug">Query</h2>
+  <h2 class="headerSlug">query</h2>
 
   <div id="artHeader">
     <div id="paintings">
@@ -29,19 +29,17 @@
           <li>Item 01</li>
           <li>Item 02</li>
           <li>Item 03</li>
-          <li>rondo</li>
-          <li>randu</li>
+          <li><a href="#">WAI</a></li>
         </ul>
         <ul id="giveup">
-          <li><a href="#" title="contents complete index">Give Up</a></li>
+          <li><a href="manual.php" title="contents complete index">Give Up</a></li>
         </ul>
-
       </div>
 
       <div class="searchItems" id="trending">
         <h2>Home Slug</h2>
         <div class="homeSlugLink">
-          <img src="" alt="icon">
+          <img src="image/info.png" alt="icon">
           <div class="linkAndDescription">
             <ul>
               <li><a href="#">Advising Questions</a></li>
@@ -49,8 +47,17 @@
             <p>A brief description of the link and has max-char-length</p>
           </div>
         </div>
+        <div id="ticket" class="homeSlugLink">
+          <img src="image/ticket.png" alt="icon">
+          <div class="linkAndDescription">
+            <ul>
+              <li><a href="#">Submit a Ticket</a></li>
+            </ul>
+            <p>A brief description of the link and has max-char-length</p>
+          </div>
+        </div><!-- last home slug link -->
         <div class="homeSlugLink">
-          <img src="" alt="icon">
+          <img src="image/itsupport.jpg" alt="icon">
           <div class="linkAndDescription">
             <ul>
               <li><a href="#">IT Support</a></li>
@@ -58,15 +65,6 @@
             <p>A brief description of the link and has max-char-length</p>
           </div>
         </div>
-        <div class="homeSlugLink">
-          <img src="" alt="icon">
-          <div class="linkAndDescription">
-            <ul>
-              <li><a href="#">major <b>section</b> link no. 03</a></li>
-            </ul>
-            <p>A brief description of the link and has max-char-length</p>
-          </div>
-        </div><!-- last home slug link -->
 
       </div>
       <div class="clear"></div>
