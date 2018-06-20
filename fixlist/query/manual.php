@@ -346,38 +346,37 @@
     <ul>
   		<li><a href="https://care.dso.ufl.edu/medical-withdrawal-process/" target="_blank">Withdrawals, Medical</a></li>
   		<li><a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=10" target="_blank">Walk-in Shifts</a></li>
-  		<li><a href="webauth.html" target="_blank">Web Authoring for Advising Web Space</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/webauth.html" target="_blank">Web Authoring for Advising Web Space</a> (<i>this is for web development</i>)</li>
   		<li><a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=11" target="_blank">Work Hours</a></li>
       <li><a href="http://www.sfa.ufl.edu/isis/empl-0011-10-08.pdf" target="_blank">Work Petition</a></li>
-  		<li><a href="writingmath.html" target="_blank">Writing/Math Requirement Transcript Coding</a></li>
-  		<li><a href="writingfortheweb.html" target="_blank">Writing for the Web</a></li>
-  		<li><a href="writingrequirementpetition.html" target="_blank">Writing Requirement Petition</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/writingmath.html" target="_blank">Writing/Math Requirement Transcript Coding</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/writingfortheweb.html" target="_blank">Writing for the Web</a> (<i>this is for web development</i>)</li>
+  		<li><a href="https://www.advising.ufl.edu/manual/writingrequirementpetition.html" target="_blank">Writing Requirement Petition</a></li>
     </ul>
 
-  	<a name="X" target="_blank"><a/>
-  	<h4>X</h4>
-  	<p><a href="prepdatainput.php" target="_blank">XPloratory Preview Prep Data</a></p>
+    <ul>
+      <li><a href="https://www.advising.ufl.edu/manual/prepdatainput.php" target="_blank">XPloratory Preview Prep Data</a></li>
+    </ul>
 
   </div>
-  <script language="javascript" src="/java/search.js" target="_blank"></script>
-  <div id="footer" target="_blank">
-  		<ul>
-  		    <li>&copy; <a title="University of Florida" href="http://www.ufl.edu/" target="_blank">University
-  		    of Florida</a><a title="University of Florida" id="footerHome" href="http://www.ufl.edu/" target="_blank"><span></span></a>, Gainesville, FL 32611; (352) 392-1521. Updated: June 13, 2018</li>
-  	      </ul>
+
+      <p>&copy; <a title="University of Florida" href="http://www.ufl.edu/" target="_blank">University of Florida</a> <br> Gainesville, FL 32611 <br> (352) 392-1521</p>
+
+
+
   		<h3>General Site Information</h3>
-  	<ul>
-  			<li><a href="http://www.ufadvising.ufl.edu/" target="_blank">University Advising</a></li>
-  			<li><a href="http://www.dso.ufl.edu" target="_blank">Dean of Students</a></li>
-  			<li><a href="http://www.ufl.edu/disability/" target="_blank">Disability Services</a></li>
-  			<li><a href="http://my.ufl.edu" target="_blank">myUFL</a></li>
-  			<li><a href="http://www.privacy.ufl.edu/privacystatement.html" target="_blank">Privacy Policy</a></li>
-  			<li><a href="https://www.advising.ufl.edu/manual/" target="_blank">AAC Manual</a> </li>
-  			<li><a href="mailto:danshields@ufl.edu?subject=Website%20question" target="_blank">Contact Webmaster</a></li>
-  			<li>This page uses Google Analytics (<a href="http://www.google.com/intl/en_ALL/privacypolicy.html" target="_blank">Google Privacy Policy</a>)</li>
-  	</ul>
+    	<ul>
+    			<li><a href="http://www.ufadvising.ufl.edu/" target="_blank">University Advising</a></li>
+    			<li><a href="http://www.dso.ufl.edu" target="_blank">Dean of Students</a></li>
+    			<li><a href="http://www.ufl.edu/disability/" target="_blank">Disability Services</a></li>
+    			<li><a href="http://my.ufl.edu" target="_blank">myUFL</a></li>
+    			<li><a href="http://www.privacy.ufl.edu/privacystatement.html" target="_blank">Privacy Policy</a></li>
+    			<li><a href="https://www.advising.ufl.edu/manual/" target="_blank">AAC Manual</a> </li>
+    			<li>This page uses Google Analytics (<a href="http://www.google.com/intl/en_ALL/privacypolicy.html" target="_blank">Google Privacy Policy</a>)</li>
+    	</ul>
   	</div>
 
+    <li><a href="mailto:danshields@ufl.edu?subject=Website%20question" target="_blank">Contact Webmaster</a></li>
 
 
 <?php include_once("{$path}include/footer.php"); ?>
