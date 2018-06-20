@@ -22,6 +22,7 @@
       <li><a href="http://www.student.ufl.edu/cgi-bin/eaglec?MDASTRAN=wat-myview" target="_blank">Search for a Specific Person You Saw</a> by Date</li>
       <li><a href="https://www.advising.ufl.edu/evaluation/results" target="_blank">Evaluation results for individual advising session</a></li>
       <li class="manualnewnav-right-border" target="_blank"><a href="http://student.ufl.edu/cgi-bin/eaglec?MDASTRAN=wat-wait" target="_blank">Wait List</a></li>
+      <li><a href="http://www.student.ufl.edu/cgi-bin/eaglec?MDASTRAN=wat-wait" target="_blank">Wait List</a></li>
     </ul>
   </section>
 
@@ -33,6 +34,11 @@
 
   <section>
     <h3>Advisors</h3>
+    <div class="">
+      <section>
+        <h4>Transfer</h4>
+      </section>
+    </div>
   </section>
 
   <section>
@@ -40,7 +46,7 @@
   </section>
 
   <section>
-    <h3>Department</h3>
+    <h3>Department/Admin</h3>
     <ul>
       <li>how to work the video room</li>
     </ul>
@@ -290,7 +296,7 @@
         <li><a href="http://spanishandportuguese.ufl.edu/undergraduate-programs/informacion-para-los-estudiantes-bilingues/" target="_blank">Spanish Advising for Bilingual students</a></li>
         <li><a href="https://www.advising.ufl.edu/manual/SpecialProgramCodes.pdf" target="_blank">Special Program Codes</a></li>
         <li><a href="https://www.advising.ufl.edu/manual/sus.html" target="_blank">State University System (SUS)</a> <i>New College is wrong</i></li>
-        <li><a href="https://www.advising.ufl.edu/manual/studentassistants.pdf" target="_blank">Student Assistants: Fall 2017</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/studentassistants.pdf" target="_blank">Student Assistants: Fall 2017</a> (<i>outdated</i>)</li>
         <li><a href="https://www.advising.ufl.edu/manual/studyabroadadvising.pdf" target="_blank">Study Abroad forms - how to process</a> (PDF, 512 KB)</li>
         <li><a href="https://counseling.ufl.edu/outreach/suicide/" target="_blank">Suicide Prevention website</a></li>
         <li><a href="https://www.advising.ufl.edu/manual/SumEnrollReqWaiver.html" target="_blank">Summer Enrollment: Petitioning for a Summer Enrollment Requirement Waiver</a></li>
@@ -299,85 +305,59 @@
   				<li><a href="http://aa.ufl.edu/media/aaufledu/policies/Summer-Term-Enrollment-Policy.pdf" target="_blank">Summer Requirement</a>, from the Provost's Office</li>
   			</ul>
     		<li><a href="https://www.advising.ufl.edu/manual/request.pdf" target="_blank">Supply Request Form</a></li>
-        <li><a href="SustainabilityStudiesAdvising.pdf" target="_blank">Sustainability Studies Advising (PDF, 337 KB)</a></li>
+        <li><a href="https://www.advising.ufl.edu/manual/SustainabilityStudiesAdvising.pdf" target="_blank">Sustainability Studies Advising (PDF, 337 KB)</a></li>
     </ul>
 
-            <a name="T" target="_blank"></a>
-          <h4>T</h4>
-  		<p><a href="#top" target="_blank">top</a></p>
+    <ul>
+  		<li><a href="https://www.advising.ufl.edu/manual/outlook.html#techtask" target="_blank">Tech Task List Instructions</a> (Section in "Outlook Tips")</li>
+  		<li><a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=9" target="_blank">Technology Requests</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/TimeOffPolicy.shtml" target="_blank">Time Off Policy</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/CLASTimelyGraduation.pdf" target="_blank">Timely Graduation</a> (PDF, 318 KB)</li>
+  		<li><a href="https://www.advising.ufl.edu/manual/TimelyGraduationSummaryChart.pdf" target="_blank">Timely Graduation Summary Chart</a> (PDF, 87 KB)</li>
+  		<li><a href="http://www.student.ufl.edu/cgi-bin/nirvana?MDASTRAN=RSI-ETMEN" target="_blank">Transfer Manual</a> (Electronic Transfer Manual)</li>
+  		<li><a href="https://www.advising.ufl.edu/manual/goodlifetransfer.html" target="_blank">Transfer Students and Good Life</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/transfernopreview.html" target="_blank">Transfer Students Who Cannot Attend Preview</a> (<span class="red">BROKEN, title says football ticket</span>)</li>
+  		<li><a href="http://www.registrar.ufl.edu/pdf/transient.pdf" target="_blank">Transient Form, Out of State</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/transient.pdf" target="_blank">Transient Info</a> (PDF, 350 KB)</li>
+			<ul class="manualhomeindent" target="_blank">
+				<li><a href="https://www.advising.ufl.edu/manual/TransientEquiv.pdf" target="_blank">Transient Course Equivalency Form</a> (PDF, 96 KB)</li>
+				<li><a href="https://www.advising.ufl.edu/manual/TransientApprovalText.html" target="_blank">Transient Form Approval Text</a></li>
+				<li><a href="http://registrar.ufl.edu/pdf/transient.pdf" target="_blank">Transient Student Form</a> (UF Registrar's site)</li>
+			</ul>
+  		<li><a href="https://www.advising.ufl.edu/manual/transientia.html" target="_blank">Transient for IA Students</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/TravelRequest.pdf" target="_blank">Travel Request Form</a>, (PDF, 210 KB)</li>
+      <li><a href="http://tss.it.ufl.edu/help-requests" target="_blank">TSS Tech Support</a></li>
+   		<li><a href="https://www.advising.ufl.edu/manual/TwoAttempt.html" target="_blank">Two-Attempt Policy  Procedures </a></p></li>
+    </ul>
 
-  		<p><a href="outlook.html#techtask" target="_blank">Tech Task List Instructions</a> (Section in "Outlook Tips")
-  		<a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=9" target="_blank">Technology Requests</a>
-  		<a href="TimeOffPolicy.shtml" target="_blank">Time Off Policy</a>
-  		<a href="CLASTimelyGraduation.pdf" target="_blank">Timely Graduation</a> (PDF, 318 KB)
-  		<a href="TimelyGraduationSummaryChart.pdf" target="_blank">Timely Graduation Summary Chart</a> (PDF, 87 KB)
-  		<a href="http://www.student.ufl.edu/cgi-bin/nirvana?MDASTRAN=RSI-ETMEN" target="_blank">Transfer Manual</a> (Electronic Transfer Manual)
-  		<a href="goodlifetransfer.html" target="_blank">Transfer Students and Good Life</a>
-  		<a href="transfernopreview.html" target="_blank">Transfer Students Who Cannot Attend Preview</a>
-  		<a href="http://www.registrar.ufl.edu/pdf/transient.pdf" target="_blank">Transient Form, Out of State</a>
-  		<a href="transient.pdf" target="_blank">Transient Info</a> (PDF, 350 KB)
-  			<ul class="manualhomeindent" target="_blank">
-  				<li><a href="TransientEquiv.pdf" target="_blank">Transient Course Equivalency Form</a> (PDF, 96 KB)</li>
-  				<li><a href="TransientApprovalText.html" target="_blank">Transient Form Approval Text</a></li>
-  				<li><a href="http://registrar.ufl.edu/pdf/transient.pdf" target="_blank">Transient Student Form</a> (UF Registrar's site)</li>
-  			</ul>
-  		<p>
+    <ul>
+      <li><a href="https://www.advising.ufl.edu/manual/UAC.shtml" target="_blank">UAC info</a></li>
+      <li><a href="http://education.ufl.edu/uf-teach/" target="_blank">UFTeach</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/ugc.php" target="_blank"><b>Undergraduate Coordinators (CLAS)</b></a> ()</li>
+      <li><a href="https://www.advising.ufl.edu/manual/ugcediting.html" target="_blank">Editing CLAS Undergraduate Coordinators</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/clasut.pdf" target="_blank">Universal Tracking (CLAS Guidelines)</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/UTIncrementation.shtml" target="_blank">Universal Tracking (Incrementation)</a></li>
+      <li><a href="https://catalog.ufl.edu/UGRD/academic-advising/#academicprogresstext" target="_blank">Universal Tracking (UF Guidelines)</a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/UTUTH.html" target="_blank">Universal Tracking (UTH Codes and Emails)</a> (<span class="red">should be pre tags</a>)</li>
+      <li><a href="https://www.advising.ufl.edu/manual/PetitionsTraining.ppt" target="_blank"><i>University Petitions Powerpoint</i></a></li>
+      <li><a href="https://www.advising.ufl.edu/manual/UniversityPoliceDepartment.html" target="_blank">University Police Department</a></p></li>
+    </ul>
 
-  		<a href="transientia.html" target="_blank">Transient for IA Students</a>
-  		<a href="TravelRequest.pdf" target="_blank">Travel Request Form</a>, (PDF, 210 KB)
-
-          <a href="http://tss.it.ufl.edu/help-requests" target="_blank">TSS Tech Support</a>
-
-   		<a href="TwoAttempt.html" target="_blank">Two-Attempt Policy  Procedures </a></p>
-
-
-       <a name="U" target="_blank"></a>
-  	 <h4>U</h4>
-  	<p><a href="#top" target="_blank">top</a></p>
-      <p>
-          <a href="/manual/UAC.shtml" target="_blank">UAC info</a>
-          <a href="http://education.ufl.edu/uf-teach/" target="_blank">UFTeach</a>
-          <a href="ugc.php" target="_blank">Undergraduate Coordinators (CLAS)</a>
-  		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ugcediting.html" target="_blank">Editing CLAS Undergraduate Coordinators</a>
-          <a href="clasut.pdf" target="_blank">Universal Tracking (CLAS Guidelines)</a>
-          <a href="UTIncrementation.shtml" target="_blank">Universal Tracking (Incrementation)</a>
-          <a href="https://catalog.ufl.edu/UGRD/academic-advising/#academicprogresstext" target="_blank">Universal Tracking (UF Guidelines)</a>
-          <a href="UTUTH.html" target="_blank">Universal Tracking (UTH Codes and Emails)</a>
-          <a href="PetitionsTraining.ppt" target="_blank">University Petitions Powerpoint</a>
-  		<a href="UniversityPoliceDepartment.html" target="_blank">University Police Department</a></p>
-
-          <a name="V" target="_blank"></a>
-          <h4>V</h4>
-  		<p><a href="#top" target="_blank">top</p>
-
-          <a name="W" target="_blank"></a>
-  		<h4>W</h4>
-  		<p><a href="#top" target="_blank">top</a></p>
-  		<p><a href="https://care.dso.ufl.edu/medical-withdrawal-process/" target="_blank">Withdrawals, Medical</a></p>
-
-
-
-  		<p><a href="http://www.student.ufl.edu/cgi-bin/eaglec?MDASTRAN=wat-wait" target="_blank">Wait List</a>
-  		<a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=10" target="_blank">Walk-in Shifts</a>
-  		<a href="webauth.html" target="_blank">Web Authoring for Advising Web Space</a>
-  		<a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=11" target="_blank">Work Hours</a>
-          <a href="http://www.sfa.ufl.edu/isis/empl-0011-10-08.pdf" target="_blank">Work Petition</a>
-  		<a href="writingmath.html" target="_blank">Writing/Math Requirement Transcript Coding</a>
-  		<a href="writingfortheweb.html" target="_blank">Writing for the Web</a>
-  		<a href="writingrequirementpetition.html" target="_blank">Writing Requirement Petition</a>
-  		</p>
+    <ul>
+  		<li><a href="https://care.dso.ufl.edu/medical-withdrawal-process/" target="_blank">Withdrawals, Medical</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=10" target="_blank">Walk-in Shifts</a></li>
+  		<li><a href="webauth.html" target="_blank">Web Authoring for Advising Web Space</a></li>
+  		<li><a href="https://www.advising.ufl.edu/manual/handbook.pdf#page=11" target="_blank">Work Hours</a></li>
+      <li><a href="http://www.sfa.ufl.edu/isis/empl-0011-10-08.pdf" target="_blank">Work Petition</a></li>
+  		<li><a href="writingmath.html" target="_blank">Writing/Math Requirement Transcript Coding</a></li>
+  		<li><a href="writingfortheweb.html" target="_blank">Writing for the Web</a></li>
+  		<li><a href="writingrequirementpetition.html" target="_blank">Writing Requirement Petition</a></li>
+    </ul>
 
   	<a name="X" target="_blank"><a/>
   	<h4>X</h4>
   	<p><a href="prepdatainput.php" target="_blank">XPloratory Preview Prep Data</a></p>
 
-      <a name="Y" target="_blank"><a/>
-  	<h4>Y</h4>
-  	<p><a href="#top" target="_blank">top</a></p>
-
-  	<a name="Z" target="_blank"><a/>
-  	<h4>Z</h4>
-  	<p><a href="#top" target="_blank">top</a></p>
   </div>
   <script language="javascript" src="/java/search.js" target="_blank"></script>
   <div id="footer" target="_blank">

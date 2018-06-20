@@ -22,8 +22,12 @@
       </ul>
 
       <div id="reportItemsShell">
-      
         <h2>GitHub: "<a href="https://github.com/lonesomepi/aacShare" target="_blank"><span class="orange">aacShare</span></a>"</h2>
+
+        <h3>Manual SUS</h3>
+        <img class="thumbnail" src="../../image/notes/180600/180620.PNG" alt="">
+
+
 
         <h3>Query</h3>
         <img class="thumbnail" src="../../image/notes/180600/180618_00.PNG" alt="">
