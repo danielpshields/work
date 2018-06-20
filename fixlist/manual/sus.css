@@ -1,0 +1,13 @@
+body, table, iframe {
+  display: block;
+  margin: auto;
+  width: 640px;
+}
+
+tr, td {
+  padding: 3px;
+}
+
+iframe {
+  margin-top: 15px;
+}
