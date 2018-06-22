@@ -6,6 +6,11 @@ $now=strtotime(date('H:i:s'));
 
 //alex
 $rightnow=date('H:i:s');
+$morningOpen = 800;
+$morningClose = 1130;
+$afternoonOpen = 1330;
+$afternoonClose = 1530;
+$theTime = date('Gi');
 
 //Get the URL for the lobby data
 $url='https://ufl.secure.force.com/lobbymanagement/services/apexrest/UFLobbyStats?lobbyName=0014100001dK0QX';
@@ -53,7 +58,7 @@ if (is_null($file) OR ($file=='')){print '<center><p><strong>AAC Lobby Wait Time
 		//"LOGIC" follows
 
 		// OPEN MESSAGE between 8 and 11:30 and from 1:30-4:30
-		if ((($now > strtotime(date('08:00:00'))) AND ($now < strtotime(date('11:30:00')))) OR (($now > strtotime(date('13:30:00'))) AND ($now < strtotime(date('15:30:00'))))){
+		if ((($now > strtotime(date('08:00:00'))) AND ($now < strtotime(date('11:30:00')))) OR (($now > strtotime(date('13:30:00'))) AND ($now < strtotime(date('16:30:00'))))){
 			if ($students==0){$display='<strong>No students are waiting.</strong><br />Our walk-in hours are 8-11:30 a.m.<br />and 1:30-4:30 p.m.<br />Current time: '.$time;}
 			if ($students==1){$display='<strong>'.$students.' student</strong> has been waiting<br /><strong>'.$h.$m.' minutes</strong><br />as of '.$time;}
 			if ($students > 1){$display='<strong>'.$students.' students</strong> are waiting to see an advisor.<br />
@@ -64,7 +69,7 @@ if (is_null($file) OR ($file=='')){print '<center><p><strong>AAC Lobby Wait Time
 
 		//CLOSED to walkins before 8, between 11:30 and 1:30, and after 4:30
 		if (
-		(($now <= strtotime(date('08:00:00'))) OR ($now >= strtotime(date('15:30:00'))))
+		(($now <= strtotime(date('08:00:00'))) OR ($now >= strtotime(date('16:30:00'))))
 		OR
 		(($now >= strtotime(date('11:30:00'))) AND ($now <= strtotime(date('13:30:00'))))
 		)
