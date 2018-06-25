@@ -1,0 +1,9 @@
+body {
+  width: 700px;
+  margin: auto;
+}
+
+li {
+  font-size: 25px;
+  line-height: 1.6;
+}
