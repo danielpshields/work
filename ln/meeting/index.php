@@ -1,15 +1,15 @@
 <?php
-  $path = "../../";
-  $title = "meeting";
-  $stylesheet = $title;
-  require_once("{$path}include/header.php");
+$path = "../../";
+$title = "meeting";
+$stylesheet = $title;
+require_once("{$path}include/header.php");
 ?>
 
 
-      <p class="slugLede"><b>Communicate</b> What are the academic opportunities we provide?</p>
+<p class="slugLede"><b>Communicate</b> What are the academic opportunities we provide?</p>
 <section>
 <div class="department" id="general">
-  <h3>general</h3>
+<h3>general</h3>
 <ul>
 <li><a href="https://www.advising.ufl.edu/manual/" target="_blank">manual</a></li>
 </ul>
@@ -91,14 +91,14 @@ Site Presence
 <li>B) social media</li>
 
 <div class="social">
-  <img src="image/twitter.png" alt="">
-  <img src="image/snapchat.png" alt="">
-  <img src="image/instagram.png" alt="">
-  <img src="image/tumblr.png" alt="">
-  <img src="image/facebook.png" alt="">
-  <img src="image/github.png" alt="">
-  <img src="image/youtube.png" alt="">
-  <img src="image/soundcloud.ico" alt="">
+<img src="image/twitter.png" alt="">
+<img src="image/snapchat.png" alt="">
+<img src="image/instagram.png" alt="">
+<img src="image/tumblr.png" alt="">
+<img src="image/facebook.png" alt="">
+<img src="image/github.png" alt="">
+<img src="image/youtube.png" alt="">
+<img src="image/soundcloud.ico" alt="">
 </div>
 
 <li>C) Print</li>
@@ -108,79 +108,79 @@ Site Presence
 
 </div><!-- end general section -->
 
-  <div class="tallyPad">
-    <div class="tiers">
-    <h2><span class="giant">Tiers</span></h2>
-    <h3>First</h3>
-    <ul>
-    <li>comb compare</li>
-    <ul>
-    <li>manual</li>
-    </ul>
-    </ul>
-    <h3>Second</h3>
-    <ul>
-    <li>Respective Analytics</li>
-    <li>major sliders, route to overview page w/ selected | highlighted box</li>
-    <li>"button for list-serve subscribe"</li>
-    <li>"responsive design" not "mobile"</li>
-    </ul>
+<div class="tallyPad">
+<div class="tiers">
+<h2><span class="giant">Tiers</span></h2>
+<h3>First</h3>
+<ul>
+<li>comb compare</li>
+<ul>
+<li>manual</li>
+</ul>
+</ul>
+<h3>Second</h3>
+<ul>
+<li>Respective Analytics</li>
+<li>major sliders, route to overview page w/ selected | highlighted box</li>
+<li>"button for list-serve subscribe"</li>
+<li>"responsive design" not "mobile"</li>
+</ul>
 
-    <h3>Third</h3>
-    <p>Purchasing: 1) print production > campaign
-    <ul>
-    <li>pamphlets / brochures</li>
-    </ul>
-    <ul>
-    <li>Advising Functions</li>
-    <ul>
-    <li>time is a factor for scheduling courses</li>
-    </ul>
-    <table>
-    <tr>
-    <th>Course Pages</th>
-    </tr>
-    <tr>
-    <td colspan="2">PreReq</td>
-    </tr>
-    <tr>
-    <td><a href="#">BSC2010L</a></td>
-    </tr>
-    </table>
-    <li>connection to the user</li>
-    <ul>
-    <li>analytics: return || null</li>
-    </ul>
-    </ul>
-    </div><!-- tears -->
-  </div><!-- tally pad -->
+<h3>Third</h3>
+<p>Purchasing: 1) print production > campaign
+<ul>
+<li>pamphlets / brochures</li>
+</ul>
+<ul>
+<li>Advising Functions</li>
+<ul>
+<li>time is a factor for scheduling courses</li>
+</ul>
+<table>
+<tr>
+<th>Course Pages</th>
+</tr>
+<tr>
+<td colspan="2">PreReq</td>
+</tr>
+<tr>
+<td><a href="#">BSC2010L</a></td>
+</tr>
+</table>
+<li>connection to the user</li>
+<ul>
+<li>analytics: return || null</li>
+</ul>
+</ul>
+</div><!-- tears -->
+</div><!-- tally pad -->
 <div class="clear"></div>
 </section>
 
 
-      <!-- phpb -->
-      <!-- phpb -->
-      <!-- phpb -->
-      <!-- phpb -->
+<!-- phpb -->
+<!-- phpb -->
+<!-- phpb -->
+<!-- phpb -->
 
 
-  <p class="slugLede"><b>Nurture</b> "This is a rigorous program."</p>
+<p class="slugLede"><b>Nurture</b> "This is a rigorous program."</p>
 <section>
 <div class="department" id="phpb">
 <h3>PHPB</h3>
-  <div class="darkHolder">
-    <div class="card">
-      <ul>
-        <li><i>W:\clas\prehealthpostbac</i></li>
-      </ul>
-    </div>
-  </div>
-  <ul>
-    <li><i>"all backgrounds filter in"</i></li>
-    <li><i>"this is a rigorous program"</i></li>
-    <li><i>"free tutoring"</i></li>
-    <li><i>"cohort"</i></li>
-  </ul>
+<div class="darkHolder">
+<div class="card">
+<ul>
+<li><i>W:\clas\prehealthpostbac</i></li>
+</ul>
+</div>
+</div>
+<ul>
+<li><i>"all backgrounds filter in"</i></li>
+<li><i>"this is a rigorous program"</i></li>
+<li><i>"free tutoring"</i></li>
+<li><i>"cohort"</i></li>
+</ul>
 
 
 <h4>cohorts</h4>
@@ -237,45 +237,45 @@ Site Presence
 </div> <!-- phpb section -->
 
 <div class="tallyPad">
-  <div class="tiers">
-  <h2><span class="giant">Tiers</span></h2>
-  <h3>First</h3>
-  <ul>
-    <li>can't reuse photos</li>
-    <li>twitter account suspended, linkedin requires login</li>
-    <li>search bar...</li>
-  </ul>
-  <h3>Second</h3>
-  <ul>
-    <li>Deadlines to the homepage</li>
-  </ul>
-  <h3>Third</h3>
+<div class="tiers">
+<h2><span class="giant">Tiers</span></h2>
+<h3>First</h3>
+<ul>
+<li>can't reuse photos</li>
+<li>twitter account suspended, linkedin requires login</li>
+<li>search bar...</li>
+</ul>
+<h3>Second</h3>
+<ul>
+<li>Deadlines to the homepage</li>
+</ul>
+<h3>Third</h3>
 
-  <table>
-    <tr>
-    <th>Course Pages</th>
-    </tr>
-    <tr>
-    <td colspan="2">PreReq</td>
-    </tr>
-    <tr>
-    <td><a href="#">BSC2010L</a></td>
-    </tr>
-  </table>
-  </div><!-- tears -->
+<table>
+<tr>
+<th>Course Pages</th>
+</tr>
+<tr>
+<td colspan="2">PreReq</td>
+</tr>
+<tr>
+<td><a href="#">BSC2010L</a></td>
+</tr>
+</table>
+</div><!-- tears -->
 </div><!-- tally pad -->
 <div class="clear"></div><!-- end tallypad -->
 </section>
 
 
-      <!--  ufo  -->
-      <!--  ufo  -->
-      <!--  ufo  -->
-      <!--  ufo  -->
-      <!--  ufo  -->
+<!--  ufo  -->
+<!--  ufo  -->
+<!--  ufo  -->
+<!--  ufo  -->
+<!--  ufo  -->
 
 
-  <p class="slugLede"><b>Retention</b> "What's the best way to connect?"</p>
+<p class="slugLede"><b>Retention</b> "What's the best way to connect?"</p>
 <section>
 <div class="department" id="ufo">
 <h3>UF Online</h3>
@@ -335,29 +335,29 @@ Dan Hodges (Registrar's Office) created Alberta: this is about making sample vid
 </div><!-- end UFO -->
 
 <div class="tallyPad">
-  <div class="tiers">
-  <h2><span class="giant">Tiers</span></h2>
-  <h3>First</h3>
-  <ul>
-    <li></li>
-  </ul>
-  <h3>Second</h3>
+<div class="tiers">
+<h2><span class="giant">Tiers</span></h2>
+<h3>First</h3>
+<ul>
+<li></li>
+</ul>
+<h3>Second</h3>
 
-  <ul>
-    <li>Electronic Signature to acknowledge... Online form user authentication</li>
-    <li>Analytics</li>
-    <ul>
-      <li>meeting analytics</li>
-      <li>self-service report</li>
-    </ul>
-  </ul>
+<ul>
+<li>Electronic Signature to acknowledge... Online form user authentication</li>
+<li>Analytics</li>
+<ul>
+<li>meeting analytics</li>
+<li>self-service report</li>
+</ul>
+</ul>
 
-  <h3>Third</h3>
-  <ul>
-    <li>Guests vs. (members) Students</li>
-    <li>AV Room for recording videos</li>
-  </ul>
-  </div><!-- tears -->
+<h3>Third</h3>
+<ul>
+<li>Guests vs. (members) Students</li>
+<li>AV Room for recording videos</li>
+</ul>
+</div><!-- tears -->
 </div><!-- tally pad -->
 <div class="clear"></div><!-- end tallypad -->
 
@@ -365,239 +365,288 @@ Dan Hodges (Registrar's Office) created Alberta: this is about making sample vid
 </section>
 
 
-          <!-- stats -->
+<!-- stats -->
+<!-- stats -->
+<!-- stats -->
+<!-- stats -->
+<!-- stats -->
+<!-- stats -->
 
 
-              <div id="stats">
+  <div id="stats">
 
-                <p>type [department, person] description (#id, time)
+    <p>type [department, person] description (#id, time)
 
-                <table>
-                  <tr>
-                    <th>open</th>
-                    <th>type</th>
-                    <th>dept</th>
-                    <th>person</th>
-                    <th>description</th>
-                    <th>ID</th>
-                    <th>close</th>
-                  </tr>
-                  <!--
-                   <tr>
-                    <td></td>
-                    <td></td>
-                    <td class="green"></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                   </tr>
-                -->
+    <table class="queue">
+      <tr>
+        <th>open</th>
+        <th>type</th>
+        <th>dept</th>
+        <th>person</th>
+        <th>description</th>
+        <th>date</th>
+      </tr>
 
-                <tr>
-                 <td>10 a.m.</td>
-                 <td>meeting</td>
-                 <td class="blue">UFO</td>
-                 <td>team</td>
-                 <td>overview of what's happening</td>
-                 <td>18052901</td>
-                 <td>11:15 a.m.</td>
-               </tr>
+      <tr>
+        <td>11:18 a.m.</td>
+        <td>dev</td>
+        <td>gen</td>
+        <td>dan</td>
+        <td>incorporate "wait test" code into <a href="report/waittime/index.php">wait time design</a></td>
+        <td>180619</td>
+      </tr>
 
-                <tr>
-                 <td>11:44 a.m.</td>
-                 <td>media</td>
-                 <td class="green">phpb</td>
-                 <td>bobbi</td>
-                 <td>image resize (header image)</td>
-                 <td>18053001</td>
-                 <td>noon</td>
-                </tr>
+      <tr>
+        <td>11 a.m.</td>
+        <td>meeting</td>
+        <td class="green">gen</td>
+        <td>dan</td>
+        <td>emails, manual sort, waittime</td>
+        <td>180622</td>
+      </tr>
 
+      <!--
+      <tr>
+        <td></td>
+        <td></td>
+        <td class="green"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      -->
 
-                  <tr>
-                   <td>11:44 a.m.</td>
-                   <td>edit</td>
-                   <td class="green">phpb</td>
-                   <td>bobbi</td>
-                   <td>Add "harvard" to "Accepted" section</td>
-                   <td>18053001</td>
-                   <td>noon</td>
-                  </tr>
-
-                  <tr>
-                   <td>11:44 a.m.</td>
-                   <td>meeting</td>
-                   <td class="green">phpb</td>
-                   <td>bobbi</td>
-                   <td>general overview meeting</td>
-                   <td>18060001</td>
-                   <td>noon</td>
-                  </tr>
+    </table><!-- hold pending table -->
 
 
-
-                  <tr>
-                    <td>2:29 p.m</td>
-                    <td>edit</td>
-                    <td class="green">phpb</td>
-                    <td>bobbi</td>
-                    <td>change content: “Alabama Vet Med” => “Auburn University CVM”</td>
-                    <td>18061301</td>
-                    <td>2:34 p.m.</td>
-                  </tr>
-
-                  <tr>
-                   <td>3 p.m.</td>
-                   <td>meeting</td>
-                   <td class="blue">UFO</td>
-                   <td>team</td>
-                   <td>overview of what's happening</td>
-                   <td>18060001</td>
-                   <td>4 p.m.</td>
-                 </tr>
+    <table class="queue">
+      <tr>
+        <th>open</th>
+        <th>type</th>
+        <th>dept</th>
+        <th>person</th>
+        <th>description</th>
+        <th>ID</th>
+        <th>close</th>
+      </tr>
 
 
+      <tr>
+        <td>10 a.m.</td>
+        <td>meeting</td>
+        <td class="blue">UFO</td>
+        <td>team</td>
+        <td>overview of what's happening</td>
+        <td>18052901</td>
+        <td>11:15 a.m.</td>
+      </tr>
 
-                </table>
-
-                <table id="frequency">
-                  <tr>
-                    <th>date</th>
-                    <th>Dept</th>
-                    <th>PHPB</th>
-                    <th>UFO</th>
-                  </tr>
-                  <tr>
-                    <td>180530</td>
-                    <td>0</td>
-                    <td class="blue">1</td>
-                    <td>0</td>
-                  </tr>
-                  <tr>
-                    <td>180612</td>
-                    <td class="blue">2</td>
-                    <td>0</td>
-                    <td>0</td>
-                  </tr>
-                  <tr>
-                    <td>180613</td>
-                    <td>0</td>
-                    <td class="blue">1</td>
-                    <td>0</td>
-                  </tr>
-                </table>
-
-                <table class="statsTable" id="">
-                  <tr>
-                    <th>type</th>
-                    <th>total</th>
-                  </tr>
-                  <tr>
-                    <td>edit</td>
-                    <td>2</td>
-                  </tr>
-                  <tr>
-                    <td>media</td>
-                    <td>1</td>
-                  </tr>
-                </table>
-                <div class="clear"></div>
-
-                <table>
-                  <tr>
-                    <th>code</th>
-                    <th>title</th>
-                    <th>office</th>
-                    <th>hex</th>
-                  </tr>
-
-                  <tr>
-                    <td>"om"</td>
-                    <td>Office Manager</td>
-                    <td>&nbsp;</td>
-                    <td><!-- example of possible use -->om_190101_001</td>
-                  </tr>
-
-                  <tr>
-                    <td>"ga"</td>
-                    <td>Graduate Assistant</td>
-                    <td>&nbsp;</td>
-                    <td>ga_section_area_team</td>
-                  </tr>
-
-                  <tr>
-                    <td>"lt"</td>
-                    <td>Leadership Team</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                  </tr>
-
-                  <tr>
-                    <td>"it"</td>
-                    <td>Information Technology</td>
-                    <td>1031</td>
-                    <td>&nbsp;</td>
-                  </tr>
-                  <tr>
-                    <td>&nbsp;</td>
-                    <td><s>Lecturers | Beyond 120</s></td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                  </tr>
-                  <tr>
-                    <td>&nbsp;</td>
-                    <td><s>UFO Team</s></td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                  </tr>
-                </table>
-
-              </div><!-- stats -->
+      <tr>
+        <td>11:44 a.m.</td>
+        <td>media</td>
+        <td class="green">phpb</td>
+        <td>bobbi</td>
+        <td>image resize (header image)</td>
+        <td>18053001</td>
+        <td>noon</td>
+      </tr>
 
 
+      <tr>
+        <td>11:44 a.m.</td>
+        <td>edit</td>
+        <td class="green">phpb</td>
+        <td>bobbi</td>
+        <td>Add "harvard" to "Accepted" section</td>
+        <td>18053001</td>
+        <td>noon</td>
+      </tr>
+
+      <tr>
+        <td>11:44 a.m.</td>
+        <td>meeting</td>
+        <td class="green">phpb</td>
+        <td>bobbi</td>
+        <td>general overview meeting</td>
+        <td>18060001</td>
+        <td>noon</td>
+      </tr>
+
+      <tr>
+        <td>2:29 p.m</td>
+        <td>edit</td>
+        <td class="green">phpb</td>
+        <td>bobbi</td>
+        <td>change content: “Alabama Vet Med” => “Auburn University CVM”</td>
+        <td>18061301</td>
+        <td>2:34 p.m.</td>
+      </tr>
+
+      <tr>
+        <td>3 p.m.</td>
+        <td>meeting</td>
+        <td class="blue">UFO</td>
+        <td>team</td>
+        <td>overview of what's happening</td>
+        <td>18060001</td>
+        <td>4 p.m.</td>
+      </tr>
+
+      <tr>
+        <td>3:48 a.m.</td>
+        <td>edit</td>
+        <td class="green">UFO</td>
+        <td>Bobbi</td>
+        <td>Resize slug text on PBPB Site</td>
+        <td>180623010625</td>
+        <td>8:44 a.m.</td>
+      </tr>
+
+    </table>
+
+    <table id="frequency">
+    <tr>
+    <th>date</th>
+    <th>Dept</th>
+    <th>PHPB</th>
+    <th>UFO</th>
+    </tr>
+    <tr>
+    <td>180530</td>
+    <td>0</td>
+    <td class="blue">1</td>
+    <td>0</td>
+    </tr>
+    <tr>
+    <td>180612</td>
+    <td class="blue">2</td>
+    <td>0</td>
+    <td>0</td>
+    </tr>
+    <tr>
+    <td>180613</td>
+    <td>0</td>
+    <td class="blue">1</td>
+    <td>0</td>
+    </tr>
+    <tr>
+    <td>180619</td>
+    <td class="blue">1</td>
+    <td>0</td>
+    <td>0</td>
+    </tr>
+    </table>
+
+    <table class="statsTable" id="">
+    <tr>
+    <th>type</th>
+    <th>total</th>
+    </tr>
+    <tr>
+    <td>edit</td>
+    <td>2</td>
+    </tr>
+    <tr>
+    <td>media</td>
+    <td>1</td>
+    </tr>
+    </table>
+    <div class="clear"></div>
+
+    <table>
+    <tr>
+    <th>code</th>
+    <th>title</th>
+    <th>office</th>
+    <th>hex</th>
+    </tr>
+
+    <tr>
+    <td>"om"</td>
+    <td>Office Manager</td>
+    <td>&nbsp;</td>
+    <td><!-- example of possible use -->om_190101_001</td>
+    </tr>
+
+    <tr>
+    <td>"ga"</td>
+    <td>Graduate Assistant</td>
+    <td>&nbsp;</td>
+    <td>ga_section_area_team</td>
+    </tr>
+
+    <tr>
+    <td>"lt"</td>
+    <td>Leadership Team</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    </tr>
+
+    <tr>
+    <td>"it"</td>
+    <td>Information Technology</td>
+    <td>1031</td>
+    <td>&nbsp;</td>
+    </tr>
+    <tr>
+    <td>&nbsp;</td>
+    <td><s>Lecturers | Beyond 120</s></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    </tr>
+    <tr>
+    <td>&nbsp;</td>
+    <td><s>UFO Team</s></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    </tr>
+    </table>
+
+  </div><!-- stats -->
 
 
-                        <div class="happy">
-                          <div>
-                          Outreach
-                          <p>Department reports: Newsletters<br> <i>What kind of attention do you get from IT?</i>
-                          <ul>
-                          <li>make the rounds "checkins" "how's your life?"</li>
-                          <li>balloons are nice at meetings</li>
-                          <li>some student show up at Preview with excel sheets</li>
-                          </ul>
-                          </div>
-                        </div>
-                        <div id="spitSection">
-
-                        <div id="tickets">
-                        <h2>Tickets</h2>
-                        <ul>
-                        <li>Media [bobbi] image resize (180530, 11:44 a.m.)</li>
-                        <li>emailed bobbi resized image (noon)</li>
-                        </ul>
-                        </div>
-
-                        <div id="tools">
-                        <h2>Get</h2>
-                        <table>
-                        <tr>
-                        <th>Tool</th>
-                        </tr>
-                        <tr>
-                        <td>Books.</td>
-                        </tr>
-                        </table>
-                        </div>
-                        <div class="clear"></div>
-                        </div><!-- gereral yellow spit section -->
 
 
+<div class="happy">
+<div>
+Outreach
+<p>Department reports: Newsletters<br> <i>What kind of attention do you get from IT?</i>
+<ul>
+<li>make the rounds "checkins" "how's your life?"</li>
+<li>balloons are nice at meetings</li>
+<li>some student show up at Preview with excel sheets</li>
+</ul>
+</div>
+</div>
+<div id="spitSection">
 
-      <footer>
-        <p>End.
-      </footer>
-    </div><!-- end container -->
-  </body>
+<div id="tickets">
+<h2>Tickets</h2>
+<ul>
+<li>Media [bobbi] image resize (180530, 11:44 a.m.)</li>
+<li>emailed bobbi resized image (noon)</li>
+</ul>
+</div>
+
+<div id="tools">
+<h2>Get</h2>
+<table>
+<tr>
+<th>Tool</th>
+</tr>
+<tr>
+<td>Books.</td>
+</tr>
+</table>
+</div>
+<div class="clear"></div>
+</div><!-- gereral yellow spit section -->
+
+
+
+<footer>
+<p>End.
+</footer>
+</div><!-- end container -->
+</body>
 </html>

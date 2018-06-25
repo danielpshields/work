@@ -159,6 +159,11 @@ img {
   margin-bottom: 20px;
 }
 
+.queue {
+  margin: auto;
+  margin-bottom: 15px;
+}
+
 #frequency td {
   text-align: center;
 }
