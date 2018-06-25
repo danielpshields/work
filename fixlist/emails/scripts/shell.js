@@ -1,6 +1,5 @@
 var hostname = "ufl.edu";
 var hostnameAd = "advising."
-var alliCato = "acatalano"; var alliCatoTo = "acatalano2";
 
 // Leadership Team
 var joeSpe = "spillane";
@@ -14,32 +13,47 @@ var katsp = "kspan";
 var tmyung = "tsyoung";
 
 // Professional Advisors
-var = "bcoleman";
-var = "egreer";
-var = "cholyoak (ufl)";
-var = "bhoover";
-var = "bjordan";
-var = "shannon.kelly";
-var = "dsking";
-var = "rknicker";
-var = "rkwong";
-var = "lblancaster";
-var = "fwlee";
-var = "rnelson2";
-var = "lpowers";
-var = "nraymond";
-var = "nigelrayrich";
-var = "ctolbert";
+var bclman = "bcoleman";
+var egeer = "egreer";
+var chlyak = "choffmann";
+var btnyHoov = "bhoover";
+var bdonJdon = "bjordan";
+var shaonkl = "shannon.kelly";
+var dykgn = "dsking";
+var bobbiKni = "rknicker";
+var rtkng = "rkwong";
+var lblcter = "lblancaster";
+var fllnLe = "fwlee";
+var rhlnlTo = "rnelson2";
+var loopwers = "lpowers";
+var ncolnd = "nraymond";
+var ngelynd = "nigelrayrich";
+var claterbt = "ctolbert";
 
+// CLAS Career Advising
+var andican = "andreamcochran"
 
+// Graduation Coordinator
+var robnirt = "rfirth"
 
+//lecturers
+var rybran = "rbraun"
+var brigrbs = "brittanygrubbs"
 
+//Advising Staff
+var millba = "michelle.blake"
+var alijda = "ajordan"
+var beccers = "bsandbac"
+var shospan = "sspan"
+var kellmrie = "kellymarie"
 
+// Advising Information Systems Staff
+var alliCato = "acatalano";
+var dashilds = "danshields"
+var sanwllam = "swilliam"
 
-
-
-
-
+// Graduate Student Assistants
+var chelmatsn = "cmatson2"
 
 
 

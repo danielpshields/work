@@ -1,31 +1,65 @@
+var hostname = "ufl.edu";
+var hostnameAd = "advising."
 
+// Leadership Team
+var joeSpe = "spillane";
+var lynnOSck = "losickey";
+var glenKpc = "gkepic";
+var nichMzo = "nickmroz";
+var sarock = "smock";
+var kathxrey = "kathyrex";
+var chrisrchmond = "crichmond";
+var katsp = "kspan";
+var tmyung = "tsyoung";
 
+// Professional Advisors
+var bclman = "bcoleman";
+var egeer = "egreer";
+var chlyak = "choffmann";
+var btnyHoov = "bhoover";
+var bdonJdon = "bjordan";
+var shaonkl = "shannon.kelly";
+var dykgn = "dsking";
+var bobbiKni = "rknicker";
+var rtkng = "rkwong";
+var lblcter = "lblancaster";
+var fllnLe = "fwlee";
+var rhlnlTo = "rnelson2";
+var loopwers = "lpowers";
+var ncolnd = "nraymond";
+var ngelynd = "nigelrayrich";
+var claterbt = "ctolbert";
 
 // CLAS Career Advising
-andreamcochran@ufl.edu
+var andican = "andreamcochran"
 
 // Graduation Coordinator
-var = "rfirth"
-var = "rbraun"
-var = "brittanygrubbs"
-var = "michelle.blake"
-var = "ajordan"
-var = "bsandbac"
-var = "sspan"
-var = "kellymarie"
+var robnirt = "rfirth"
+
+//lecturers
+var rybran = "rbraun"
+var brigrbs = "brittanygrubbs"
+
+//Advising Staff
+var millba = "michelle.blake"
+var alijda = "ajordan"
+var beccers = "bsandbac"
+var shospan = "sspan"
+var kellmrie = "kellymarie"
 
 // Advising Information Systems Staff
-var = "acatalano2"
-var = "danshields"
-var = "swilliam"
-var = "cmatson2"
+var alliCato = "acatalano";
+var dashilds = "danshields"
+var sanwllam = "swilliam"
+
+// Graduate Student Assistants
+var chelmatsn = "cmatson2"
 
 
-// computer
-var hostname = "ufl.com";
-var linktext = username + "@" + hostname ;
-document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
 
-// spillane@ufl.edu
-//
-// losickey@advising.ufl.edu
+function email(arg) {
+  document.write("<a href='" + "mailto:" + arg + "@" + hostname + "'>" +  arg + "@" + hostname + "</a>");
+}
+function emailAd(arg) {
+  document.write("<a href='" + "mailto:" + arg + "@" + hostnameAd + hostname + "'>" +  arg + "@" + hostnameAd + hostname + "</a>");
+}
