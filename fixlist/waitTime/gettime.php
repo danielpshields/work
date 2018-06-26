@@ -6,11 +6,21 @@ $now=strtotime(date('H:i:s'));
 
 //alex
 $rightnow=date('H:i:s');
+$mydate = date("Y-m-d H:i:s", $now);
 $morningOpen = 800;
 $morningClose = 1130;
 $afternoonOpen = 1330;
 $afternoonClose = 1530;
 $theTime = date('Gi');
+
+		//dan code manipulations
+				$day = 5;
+				$time = "12:48 pm";
+				$date = "2018-07-04";
+				$now = strtotime(date("2018-07-04 12:48:00"));
+		//alex code manipulations
+				$mydate = "2018-07-04 12:48:00";
+				$theTime = "1248";
 
 
 //Get the URL for the lobby data
@@ -68,9 +78,9 @@ if (is_null($file) OR ($file=='')){print '<center><p><strong>AAC Lobby Wait Time
 			$lobbyIsOpen = "open";
 		}
 
-		//CLOSED to walkins before 8, between 11:30 and 1:30, and after 4:30
+		//CLOSED to walkins before 8 and after 4:30 or between 11:30 and 1:30
 		if (
-		(($now <= strtotime(date('11:00:00'))) OR ($now >= strtotime(date('16:30:00'))))
+		(($now <= strtotime(date('08:00:00'))) OR ($now >= strtotime(date('16:30:00'))))
 		OR
 		(($now >= strtotime(date('11:30:00'))) AND ($now <= strtotime(date('13:30:00'))))
 		)
@@ -87,14 +97,31 @@ if (is_null($file) OR ($file=='')){print '<center><p><strong>AAC Lobby Wait Time
 		if (($day==6) OR ($day==7)){$display='The Lobby is closed on weekends.';}
 
 		//UF HOLIDAYS
-		if ($date=='2018-07-04'){$display='No advising today: July 4th';}
-		if ($date=='2018-09-03'){$display='No advising today: Labor Day';}
-		if ($date=='2018-11-02'){$display='No advising today: UF Homecoming';}
-		if ($date=='2018-11-12'){$display='No advising today: Veterans Day';}
-		if (($date=='2018-11-22') or ($date=='2018-11-23')){$display='No advising today: Thanksgiving';}
-		if ($date=='2018-12-25'){$display='No advising today: Christmas';}
+		if ($date=='2018-07-04'){
+			$lobbyIsOpen = "holiday";
+			$display='No advising today: July 4th';
+		}
+		if ($date=='2018-09-03'){
+			$lobbyIsOpen = "holiday";
+			$display='No advising today: Labor Day';
+		}
+		if ($date=='2018-11-02'){
+			$lobbyIsOpen = "holiday";
+			$display='No advising today: UF Homecoming';
+		}
+		if ($date=='2018-11-12'){
+			$lobbyIsOpen = "holiday";
+			$display='No advising today: Veterans Day';
+		}
+		if (($date=='2018-11-22') or ($date=='2018-11-23')){
+			$lobbyIsOpen = "holiday";
+			$display='No advising today: Thanksgiving';
+		}
+		if ($date=='2018-12-25'){
+			$lobbyIsOpen = "holiday";
+			$display='No advising today: Christmas';
+		}
 
 		//print the title and the message
 		//print '<center><p><strong>AAC Lobby Wait Time</strong><br /><br />'.$display.'</p></center>';
-		$mydate = date("Y-m-d H:i:s", $now);
 		?>

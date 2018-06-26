@@ -6,8 +6,7 @@
 </head>
 <body>
 	<h1>AAC Lobby Wait Time</h1>
-	<?php include("v2/table.php"); ?>
-
+	<!-- <?php include("table.php"); ?> -->
 
 	<div class="lobbyWaitShell">
 		<h2>AAC Lobby Wait Time</h2>
@@ -36,7 +35,7 @@
 				<p id="asOfTime"><i><span class="light">as of</span> <?php echo $time; ?></i></p>
 			</div>
 
-		<?php } else { ?>
+		<?php } elseif ($lobbyIsOpen === "closed") { ?>
 
 			<div class="leftSide" id="closed">
 				<p>The lobby is currently closed to walk-ins.</p>
@@ -52,20 +51,27 @@
 				<ul>
 					<li>1:30 - 4:30</li>
 				</ul>
-			</div><!-- end right side -->
-			<div class="clear"></div>
+			</div><!-- end right side --><div class="clear"></div>
+
 			<div class="currentTime" id="closedCurrentTime">
 				<?php if ($theTime > $afternoonClose || $theTime < $morningOpen) { ?>
-					<p>Sessions will <span class="blue">resume <?php if ($day == 5) {echo "Monday"; } ?> at 8 a.m.</span></p>
+					<p>Sessions will resume <?php if ($day == 5 || $day == 6) {echo "Monday"; } ?> at <span class="blue">8 a.m.</span></p>
 				<?php } elseif ($theTime > $morningClose && $theTime < $afternoonOpen) { ?>
-
-					<p>Sessions will <span class="blue">resume at 1:30 p.m.</span></p>
-
+					<p>Sessions will resume at <span class="blue">1:30 p.m.</span></p>
 				<?php } ?>
 			</div>
 
+		<?php } elseif ($lobbyIsOpen === "holiday") { ?><!-- full if statement -->
 
-			<?php } ?><!-- full if statement -->
+			<?php
+				if ($holiday = )
+
+			 ?>
+			<p>it's a july 4!</p>
+
+
+		<?php } /*holiday*/ ?>
+
 		</div><!-- end shell -->
 
 

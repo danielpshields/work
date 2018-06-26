@@ -4,8 +4,6 @@
   $stylesheet = $title;
   require_once("{$path}include/header.php");
 ?>
-
-
       <div id="artHeader">
         <div id="paintings">
           <img src="../../image/notes/180600/180608_02.jpg" alt="">
@@ -15,7 +13,7 @@
         <div class="clear"></div>
       </div>
 
-      <img src="../../image/notes/180600/180608_09.jpg" alt="">
+      <img style="display: none;" src="../../image/notes/180600/180608_09.jpg" alt="">
 
       <ul>
         <li><a href="https://ufbats.atlassian.net/servicedesk/customer/portals" target="_blank">bats</a></li>
@@ -24,19 +22,21 @@
       <div id="reportItemsShell">
         <h2>GitHub: "<a href="https://github.com/lonesomepi/aacShare" target="_blank"><span class="orange">aacShare</span></a>"</h2>
 
-        <h3>Manual SUS</h3>
+        <h3><a href="../../fixlist/query/index.php">Query</a></h3>
+        <img class="thumbnail" src="../../image/notes/180600/180618_00.PNG" alt="">
+        <ul>
+          <li><a href="../../fixlist/query/manual.php">Manual</a></li>
+        </ul>
+
+        <h3><a href="../../fixlist/manual/sus.php">Manual SUS</a></h3>
         <img class="thumbnail" src="../../image/notes/180600/180620.PNG" alt="">
 
-
-
-        <h3>Query</h3>
-        <img class="thumbnail" src="../../image/notes/180600/180618_00.PNG" alt="">
-
-        <h3>Lobby Wait</h3>
+        <h3><a href="../../fixlist/waitTime/waittime.php">Lobby Wait</a></h3>
         <img class="thumbnail" src="../../image/notes/180600/180612_02.PNG" alt="">
         <img class="thumbnail" src="../../image/notes/180600/180612_03.PNG" alt="">
         <ul>
           <li><a href="https://www.advising.ufl.edu/" target="_blank">https://www.advising.ufl.edu/</a></li>
+          <li><a href="https://github.com/lonesomepi/aacShare/tree/master/waitTime/v2" target="_blank">Git Repo</a></li>
         </ul>
 
         <h3>Email Contacts</h3>

@@ -1,36 +1,14 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-		<head>
-		<title>Florida's State University System</title>
-  		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-		<!-- <link href="clas.css" rel="stylesheet" type="text/css"> -->
-		<link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
-		<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="/css/manual.css" type="text/css" media="screen" />
-		<link rel="icon" type="image/gif" href="/images/book.gif" />
-		<link rel="stylesheet" href="sus.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript"></script>
-	</head>
+<?php
+  $path = "../../";
+  $title = "report";
+  $stylesheet = $title;
+  require_once("{$path}include/header.php");
+?>
 	<body>
-	<a name="top" id="top"></a>
-<div id="header">
 
-<h1 id="dept"><a href="http://www.clas.ufl.edu/"><img src="/images/unitHeader.gif" alt="College of Liberal Arts and Sciences" border="0" height="50" width="285" /><span></span></a><a name="top" id="top"></a></h1>
-<h2 id="aac"><a href="/"><span></span></a></h2>
-</div>
+		<h1 id="dept">Florida's State University System</h1>
 
-
-<div id="mainContainer">
-<!--#include virtual="/includes/manualnav.html"-->
-
-
-<div id="manualcontent">
-<!--#include virtual="/includes/manualalphanav.html"-->
-
-<h3 class="title">Florida's State University System</h3>
-
-      <table id="manual">
+      <table id="manual" class="clear">
         <tr>
           <th>Name</th>
           <th>Abbreviation</th>
