@@ -61,23 +61,12 @@
 				<?php } ?>
 			</div>
 
-		<?php } elseif ($lobbyIsOpen === "holiday") { ?><!-- full if statement -->
-
-			<?php
-				$variable = array("0704", "0903", "1102", "1112", "1122", "1123", "1125");
-			  foreach ($variable as $key => $value) {
-
-					if ($checkIfItsAHoliday == $value) {
-						include("holiday/julyfourth.php");
-					}
-
-			  }
-
-			 ?>
-		<?php } /*holiday*/ ?>
+		<?php } elseif ($lobbyIsOpen === "holiday") {
+					include("holiday/$key.php");
+		  		}
+		 ?>
 
 		</div><!-- end shell -->
-
 
 		<?php echo '<center><p><strong>AAC Lobby Wait Time</strong><br /><br />'.$display.'</p></center>'; ?>
 

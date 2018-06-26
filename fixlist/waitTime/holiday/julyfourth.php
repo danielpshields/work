@@ -1,2 +1,2 @@
 <p>Hi, It's Independance day!</p>
-<img src="holiday/flag.png" alt="">
+<img src="holiday/image/flag.png" alt="">

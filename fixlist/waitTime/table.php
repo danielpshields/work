@@ -39,8 +39,12 @@
 		<td><?php echo $isclosed; ?></td>
 	</tr>
 	<tr>
-		<td>holidaze</td>
-		<td><?php echo $checkIfItsAHoliday; ?></td>
+		<td>specialday</td>
+		<td><?php echo $specialday; ?></td>
+	</tr>
+	<tr>
+		<td>lobbyopen</td>
+		<td><?php echo $lobbyIsOpen; ?></td>
 	</tr>
 
 </table>
