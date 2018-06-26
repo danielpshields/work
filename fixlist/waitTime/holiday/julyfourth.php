@@ -1,2 +1,2 @@
-<p>Hi, It's Independance day!</p>
+<p>The Lobby is closed for Independence day!</p>
 <img src="holiday/image/flag.png" alt="">

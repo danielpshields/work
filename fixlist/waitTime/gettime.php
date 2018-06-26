@@ -15,12 +15,12 @@ $theTime = date('Gi');
 $specialday = date("md");
 
 		// dan code manipulations
-				$day = 3;
+				$day = 4;
 				$time = "12:48 pm";
-				$date = "2018-07-04";
-				$now = strtotime(date("2018-07-04 12:48:00"));
+				$date = "2018-11-22";
+				$now = strtotime(date("2018-11-22 12:48:00"));
 		// alex code manipulations
-				$mydate = "2018-07-04 12:48:00";
+				$mydate = "2018-11-22 12:48:00";
 				$theTime = "1248";
 				$specialday = "0704";
 
@@ -99,20 +99,21 @@ if (is_null($file) OR ($file=='')){print '<center><p><strong>AAC Lobby Wait Time
 		if (($day==6) OR ($day==7)){$display='The Lobby is closed on weekends.';}
 
 		$holidays = array(
-		"julyfourth"   => "0704",
-		"laborday"     => "0903",
-		"homecoming"   => "1102",
-		"veteransday"  => "1112",
-		"thanksgiving" => "1122",
-		"thanksgiving" => "1123",
-		"christmas"    => "1125"
+		  "0704" => "julyfourth",   /* 3 */
+	    "0903" => "laborday",     /* 1 */
+		  "1102" => "homecoming",   /* 5 */
+		  "1112" => "veteransday",  /* 1 */
+		  "1122" => "thanksgiving", /* 4 */
+		  "1123" => "thanksgiving", /* 5 */
+		  "1225" => "christmas"     /* 2 */
 	);
 
 	foreach ($holidays as $key => $value) {
 
-		if ($specialday == $value) {
+		if ($specialday == $key) {
 			$lobbyIsOpen = "holiday";
-			return $key;
+			$_GET[1] = "hi";
+			return $value;
 		}
 
 	}

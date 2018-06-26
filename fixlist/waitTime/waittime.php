@@ -62,7 +62,7 @@
 			</div>
 
 		<?php } elseif ($lobbyIsOpen === "holiday") {
-					include("holiday/$key.php");
+						include("holiday/$value.php");
 		  		}
 		 ?>
 
