@@ -38,5 +38,9 @@
 		<td>isclosed: </td>
 		<td><?php echo $isclosed; ?></td>
 	</tr>
+	<tr>
+		<td>holidaze</td>
+		<td><?php echo $checkIfItsAHoliday; ?></td>
+	</tr>
 
 </table>

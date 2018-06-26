@@ -12,6 +12,7 @@ $morningClose = 1130;
 $afternoonOpen = 1330;
 $afternoonClose = 1530;
 $theTime = date('Gi');
+$checkIfItsAHoliday = date("md");
 
 		//dan code manipulations
 				$day = 5;
@@ -21,6 +22,7 @@ $theTime = date('Gi');
 		//alex code manipulations
 				$mydate = "2018-07-04 12:48:00";
 				$theTime = "1248";
+				$checkIfItsAHoliday = "0704";
 
 
 //Get the URL for the lobby data

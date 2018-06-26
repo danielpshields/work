@@ -6,7 +6,7 @@
 </head>
 <body>
 	<h1>AAC Lobby Wait Time</h1>
-	<!-- <?php include("table.php"); ?> -->
+	<?php include("table.php"); ?>
 
 	<div class="lobbyWaitShell">
 		<h2>AAC Lobby Wait Time</h2>
@@ -64,12 +64,16 @@
 		<?php } elseif ($lobbyIsOpen === "holiday") { ?><!-- full if statement -->
 
 			<?php
-				if ($holiday = )
+				$variable = array("0704", "0903", "1102", "1112", "1122", "1123", "1125");
+			  foreach ($variable as $key => $value) {
+
+					if ($checkIfItsAHoliday == $value) {
+						include("holiday/julyfourth.php");
+					}
+
+			  }
 
 			 ?>
-			<p>it's a july 4!</p>
-
-
 		<?php } /*holiday*/ ?>
 
 		</div><!-- end shell -->
