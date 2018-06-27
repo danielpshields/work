@@ -59,9 +59,9 @@
 				<!-- closed: if it's outside hours any day, or weekend lunchtime -->
 				<?php if (($theTime > $afternoonClose || $theTime < $morningOpen) || ($day >= 6 && ($theTime > $morningClose && $theTime < $afternoonOpen))) {
 
-							if ($preholiday === "preholiday") { ?>
+							if ($preholiday === "preholiday" && $theTime > $afternoonClose) { ?>
 
-								<p>Sessions will resume <span class="darkRed"><b><?php echo $resumeDay; ?></b> at 8 a.m.</span></p>
+								<p>Sessions will resume <span class="darkRed"><b><?php echo $resumeDay; ?> at 8 a.m.</b></span></p>
 
 							<?php } else { ?>
 
@@ -82,11 +82,9 @@
 		  		}
 		 ?>
 
-		 <!-- starting pre holiday  -->
+		 <!-- ending pre holiday  -->
 
 		</div><!-- end shell -->
-
-		<?php echo $preholidayName[0]; ?>
 
 		<?php echo '<center><p><strong>AAC Lobby Wait Time</strong><br /><br />'.$display.'</p></center>'; ?>
 

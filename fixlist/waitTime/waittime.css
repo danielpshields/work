@@ -129,12 +129,14 @@ table, tr, td, th {
   font-size: 35px;
 }
 
-    .currentTime {
-      border-top: 1px solid #999;
-      padding-right: 10px;
-      color: #333;
-      /* height: 1000px; */
-    }
+/* current time  */
+
+.currentTime {
+  border-top: 1px solid #999;
+  padding-right: 10px;
+  color: #333;
+  /* height: 1000px; */
+}
 
 #closedParagraph {
    text-align: center;
