@@ -11,7 +11,7 @@
 	<div class="lobbyWaitShell">
 		<h2>AAC Lobby Wait Time</h2>
 
-		<?php if ($lobbyIsOpen === "open") { ?>
+		<?php if ($lobbyStatus === "open") { ?>
 			<div class="leftSide" id="open">
 				<p id="currentStudent"><span class="bigNumber"><?php echo $students; ?></span> <b>students</b> waiting</p>
 				<p id="nextStudent">Next student has been waiting:</p>
@@ -35,7 +35,7 @@
 				<p id="asOfTime"><i><span class="light">as of</span> <?php echo $time; ?></i></p>
 			</div>
 
-		<?php } elseif ($lobbyIsOpen === "closed") { ?>
+		<?php } elseif ($lobbyStatus === "closed") { ?>
 
 			<div class="leftSide" id="closed">
 				<p>The lobby is currently closed to walk-ins.</p>
@@ -54,14 +54,20 @@
 			</div><!-- end right side --><div class="clear"></div>
 
 			<div class="currentTime" id="closedCurrentTime">
-				<?php if ($theTime > $afternoonClose || $theTime < $morningOpen) { ?>
-					<p>Sessions will resume <?php if ($day == 5 || $day == 6) {echo "Monday"; } ?> at <span class="blue">8 a.m.</span></p>
-				<?php } elseif ($theTime > $morningClose && $theTime < $afternoonOpen) { ?>
-					<p>Sessions will resume at <span class="blue">1:30 p.m.</span></p>
-				<?php } ?>
-			</div>
+				<!-- if it's after hours any day, or during lunchtime on the weekend: -->
+				<?php if (($theTime > $afternoonClose || $theTime < $morningOpen) || ($day >= 6 && ($theTime > $morningClose && $theTime < $afternoonOpen))) { ?>
 
-		<?php } elseif ($lobbyIsOpen === "holiday") {
+						<!-- if it's friday or saturday show "Monday" -->
+						<p>Sessions will resume <?php if (($day == 5 && $theTime > $morningClose) || $day == 6) {echo "Monday"; } ?> at <span class="blue">8 a.m.</span></p>
+
+						<!-- lunchtime, monday through friday -->
+					<?php } elseif (($day <= 5) && ($theTime > $morningClose && $theTime < $afternoonOpen)) { ?>
+										<p>Sessions will resume at <span class="blue">1:30 p.m.</span></p>
+						<?php } ?>
+
+			</div><!-- end current time, little bottom line -->
+
+		<?php } elseif ($lobbyStatus === "holiday") {
 						include("holiday/$value.php");
 		  		}
 		 ?>

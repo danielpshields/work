@@ -14,15 +14,13 @@ $afternoonClose = 1530;
 $theTime = date('Gi');
 $specialday = date("md");
 
-		// dan code manipulations
-				$day = 4;
-				$time = "12:48 pm";
-				$date = "2018-11-22";
-				$now = strtotime(date("2018-11-22 12:48:00"));
-		// alex code manipulations
-				$mydate = "2018-11-22 12:48:00";
-				$theTime = "1248";
-				$specialday = "0704";
+		// manipulations
+				$day = 5;
+				$theTime = "1729";
+				$time = "17:29 am";
+				$now = strtotime(date("18-06-29 17:29:00"));
+				$date = "2018-06-29";
+				$specialday = "0629";
 
 
 //Get the URL for the lobby data
@@ -77,7 +75,7 @@ if (is_null($file) OR ($file=='')){print '<center><p><strong>AAC Lobby Wait Time
 			if ($students > 1){$display='<strong>'.$students.' students</strong> are waiting to see an advisor.<br />
 			The next student in line has been waiting<br /><strong>'.$h.$m.' minutes</strong><br />
 			as of '.$time.'.</p>';}
-			$lobbyIsOpen = "open";
+			$lobbyStatus = "open";
 		}
 
 		//CLOSED to walkins before 8 and after 4:30 or between 11:30 and 1:30
@@ -89,7 +87,7 @@ if (is_null($file) OR ($file=='')){print '<center><p><strong>AAC Lobby Wait Time
 		{
 			$morningHours = "Morning hours: 8 a.m. to 11:30 a.m.";
 			$display='The Lobby is currently closed to walkins.<br /><br />Hour are between 8 a.m. to 11:30 a.m. and 1:30 - 4:30 p.m., M-F. ';
-			$lobbyIsOpen = "closed";
+			$lobbyStatus = "closed";
 		}
 
 		//IF LOBBY IS CLOSED MANUALLY
@@ -99,24 +97,26 @@ if (is_null($file) OR ($file=='')){print '<center><p><strong>AAC Lobby Wait Time
 		if (($day==6) OR ($day==7)){$display='The Lobby is closed on weekends.';}
 
 		$holidays = array(
-		  "0704" => "julyfourth",   /* 3 */
-	    "0903" => "laborday",     /* 1 */
-		  "1102" => "homecoming",   /* 5 */
-		  "1112" => "veteransday",  /* 1 */
-		  "1122" => "thanksgiving", /* 4 */
-		  "1123" => "thanksgiving", /* 5 */
-		  "1225" => "christmas"     /* 2 */
-	);
+			"0704" => "julyfourth",                    /* 3 */
+			"0903" => "laborday",      /* 1 */
+			"1102" => "homecoming",                                   /* 5 */
+			"1112" => "veteransday",   /* 1 */
+		  "1122" => "thanksgiving",                         /* 4 */
+		  "1123" => "thanksgiving",                                /* 5 */
+			"1224" => "christmas",     /* 1 */
+			"1225" => "christmas",             /* 2 */
+			"1226" => "christmas",     				        /* 3 */
+			"1227" => "christmas",            							 /* 4 */
+			"1228" => "christmas",             											/* 5 */
+			"0101" => "newyears"             /* 2 */
+		);
 
-	foreach ($holidays as $key => $value) {
-
-		if ($specialday == $key) {
-			$lobbyIsOpen = "holiday";
-			$_GET[1] = "hi";
-			return $value;
+		foreach ($holidays as $key => $value) {
+			if ($specialday == $key) {
+				$lobbyStatus = "holiday";
+				return $value;
+			}
 		}
-
-	}
 
 		//print the title and the message
 		//print '<center><p><strong>AAC Lobby Wait Time</strong><br /><br />'.$display.'</p></center>';

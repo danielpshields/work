@@ -21,19 +21,10 @@
 	<tr>
 		<th colspan="2">Alex</th>
 	</tr>
-	<tr>
-		<td>theTime</td>
-		<td><?php echo $theTime; ?></td>
-	</tr>
-
-	<tr>
-		<td>rightnow: </td>
-		<td><?php echo $rightnow; ?></td>
-	</tr>
-	<tr>
-		<td>mydate: </td>
-		<td><?php echo $mydate; ?></td>
-	</tr>
+<tr>
+	<td>mydate</td>
+	<td><?php echo $mydate; ?></td>
+</tr>
 	<tr>
 		<td>isclosed: </td>
 		<td><?php echo $isclosed; ?></td>
@@ -43,8 +34,12 @@
 		<td><?php echo $specialday; ?></td>
 	</tr>
 	<tr>
-		<td>lobbyopen</td>
-		<td><?php echo $lobbyIsOpen; ?></td>
+		<td>theTime</td>
+		<td><?php echo $theTime; ?></td>
+	</tr>
+	<tr>
+		<td>lobbyStatus</td>
+		<td><?php echo $lobbyStatus; ?></td>
 	</tr>
 
 </table>

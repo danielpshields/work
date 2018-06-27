@@ -12,7 +12,7 @@ require_once("{$path}include/header.php");
 <h3>general</h3>
 
 <ul>
-  <li>Staff Page - No Email - Andrea M. Cochran</li>
+  <li>what are our holiday policies? What days will the lobby be closed?</li>
 </ul>
 
 
