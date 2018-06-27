@@ -61,7 +61,7 @@
 
 							if ($preholiday === "preholiday") { ?>
 
-								<p>Sessions will resume <span class="darkRed"><b>$day</b> at 8 a.m.</span></p>
+								<p>Sessions will resume <span class="darkRed"><b><?php echo $resumeDay; ?></b> at 8 a.m.</span></p>
 
 							<?php } else { ?>
 
@@ -85,6 +85,8 @@
 		 <!-- starting pre holiday  -->
 
 		</div><!-- end shell -->
+
+		<?php echo $preholidayName[0]; ?>
 
 		<?php echo '<center><p><strong>AAC Lobby Wait Time</strong><br /><br />'.$display.'</p></center>'; ?>
 

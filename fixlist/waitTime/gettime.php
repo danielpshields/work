@@ -77,6 +77,7 @@ if (is_null($file) OR ($file=='')){print '<center><p><strong>AAC Lobby Wait Time
 			as of '.$time.'.</p>';}
 			$lobbyStatus = "open";
 			$preholiday = "none";
+			$resumeDay = "";
 		}
 
 		//CLOSED to walkins before 8 and after 4:30 or between 11:30 and 1:30
@@ -90,6 +91,7 @@ if (is_null($file) OR ($file=='')){print '<center><p><strong>AAC Lobby Wait Time
 			$display='The Lobby is currently closed to walkins.<br /><br />Hour are between 8 a.m. to 11:30 a.m. and 1:30 - 4:30 p.m., M-F. ';
 			$lobbyStatus = "closed";
 			$preholiday = "none";
+			$resumeDay = "";
 		}
 
 		//IF LOBBY IS CLOSED MANUALLY
@@ -99,23 +101,32 @@ if (is_null($file) OR ($file=='')){print '<center><p><strong>AAC Lobby Wait Time
 		if (($day==6) OR ($day==7)){$display='The Lobby is closed on weekends.';}
 
 		$preholidays = array(
-			"0703" => "prefourth",                /* 2 */
-			"0831" => "prelabor",                                          /* 5 */
-			"0901" => "prelabor",                                                 /* 6 */
-			"0902" => "prelabor",                                                        /* 7 */
-			"1101" => "prehomecoming",                            /* 4 */
-			"1109" => "preveterans",                                       /* 5 */
-			"1110" => "preveterans",                                       /* 5 */
-			"1111" => "preveterans",                                       /* 5 */
-			"1121" => "prethanksgiving",                 	/* 3 */
-			"1224" => "prechristmas",      /* 1 */
-			"1231" => "prenewyears"        /* 1 */
+			"0703" => array("prefourth", 2),                /* 2 */
+			"0831" => array("prelabor", 5),                                          /* 5 */
+			"0901" => array("prelabor", 6),                                                 /* 6 */
+			"0902" => array("prelabor", 7),                                                        /* 7 */
+			"1101" => array("prehomecoming", 4),                            /* 4 */
+			"1109" => array("preveterans", 5),                                       /* 5 */
+			"1110" => array("preveterans", 6),                                       /* 5 */
+			"1111" => array("preveterans", 7),                                       /* 5 */
+			"1121" => array("prethanksgiving", 3),                 	/* 3 */
+			"1224" => array("prechristmas", 1),      /* 1 */
+			"1231" => array("prenewyears", 1)        /* 1 */
 		);
 
+
 		foreach ($preholidays as $key => $preholidayName) {
+			echo $preholidayName[1] . "<br>";
+
+			// foreach ($preholidayName as $foo => $row) {
+			// 	echo  $row[5];
+			// }
+
 			if ($specialday == $key) {
 				$preholiday = "preholiday";
-				return $preholidayName;
+				$resumeDay = "hi resume";
+				if ($preholidayName[1] === 2) {}
+
 			}
 		}
 
