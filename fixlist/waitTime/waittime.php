@@ -53,12 +53,22 @@
 				</ul>
 			</div><!-- end right side --><div class="clear"></div>
 
-			<div class="currentTime" id="closedCurrentTime">
-				<!-- if it's after hours any day, or during lunchtime on the weekend: -->
-				<?php if (($theTime > $afternoonClose || $theTime < $morningOpen) || ($day >= 6 && ($theTime > $morningClose && $theTime < $afternoonOpen))) { ?>
+			<!-- starting pre holiday -->
 
-						<!-- if it's friday or saturday show "Monday" -->
-						<p>Sessions will resume <?php if (($day == 5 && $theTime > $morningClose) || $day == 6) {echo "Monday"; } ?> at <span class="blue">8 a.m.</span></p>
+			<div class="currentTime" id="closedCurrentTime">
+				<!-- closed: if it's outside hours any day, or weekend lunchtime -->
+				<?php if (($theTime > $afternoonClose || $theTime < $morningOpen) || ($day >= 6 && ($theTime > $morningClose && $theTime < $afternoonOpen))) {
+
+							if ($preholiday === "preholiday") { ?>
+
+								<p>Sessions will resume <span class="darkRed"><b>$day</b> at 8 a.m.</span></p>
+
+							<?php } else { ?>
+
+																	<!-- if it's friday or saturday show "Monday" | skips friday morning for "monday" -->
+								<p>Sessions will resume <?php if (($day == 5 && $theTime > $morningClose) || $day == 6) {echo "Monday"; } ?> at <span class="blue">8 a.m.</span></p>
+							<?php } ?>
+
 
 						<!-- lunchtime, monday through friday -->
 					<?php } elseif (($day <= 5) && ($theTime > $morningClose && $theTime < $afternoonOpen)) { ?>
@@ -71,6 +81,8 @@
 						include("holiday/$value.php");
 		  		}
 		 ?>
+
+		 <!-- starting pre holiday  -->
 
 		</div><!-- end shell -->
 
