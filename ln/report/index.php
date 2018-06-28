@@ -31,16 +31,16 @@
         <h3><a href="../../fixlist/manual/sus.php">Manual SUS</a></h3>
         <img class="thumbnail" src="../../image/notes/180600/180620.PNG" alt="">
 
-        <h3><a href="../../fixlist/waitTime/waittime.php">Lobby Wait</a></h3>
-        <img class="thumbnail" src="../../image/notes/180600/180612_02.PNG" alt="">
-        <img class="thumbnail" src="../../image/notes/180600/180612_03.PNG" alt="">
+        <h3>Lobby Wait</h3>
         <ul>
+          <li><a href="../../fixlist/waitTime/waittime.php">waitTime</a></li>
+          <li><a href="../../fixlist/waitTime/samples.php"><b>samples</b></a></li>
+          <li><a href="https://github.com/lonesomepi/aacShare/tree/master/waitTime/" target="_blank">Git Repo</a></li>
           <li><a href="https://www.advising.ufl.edu/" target="_blank">https://www.advising.ufl.edu/</a></li>
-          <li><a href="https://github.com/lonesomepi/aacShare/tree/master/waitTime/v2" target="_blank">Git Repo</a></li>
         </ul>
+        <img class="thumbnail" src="../../image/notes/180600/180612_03.PNG" alt="">
 
         <h3>Email Contacts</h3>
-        <img class="thumbnail" src="../image/email_edited.png">
         <img class="thumbnail" src="../../image/notes/180600/180612_05.PNG" alt="">
 
         <ul>

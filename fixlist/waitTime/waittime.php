@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>AAC Lobby Wait Time</title>
-	<link rel="stylesheet" href="waittime.css">
+	<link rel="stylesheet" href="css/waittime.css">
 </head>
 <body>
 	<h1>AAC Lobby Wait Time</h1>
@@ -13,7 +13,7 @@
 
 		<?php if ($lobbyStatus === "open") { ?>
 			<div class="leftSide" id="open">
-				<p id="currentStudent"><span class="bigNumber"><?php echo $students; ?></span> <b>student<?php if ($students > 1) { echo "s"; } ?></b> waiting</p>
+				<p id="currentStudent"><span class="bigNumber"><?php echo $students; ?></span> <b>student<?php if ($students === 1) { echo ""; } else { echo "s"; } ?></b> waiting</p>
 				<p id="nextStudent">Next student has been waiting:</p>
 				<p><span class="mediumNumber darkRed"><?php echo $h . $m; ?></span> <span class="tiny">minutes</span></p>
 			</div>

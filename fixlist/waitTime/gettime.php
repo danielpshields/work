@@ -15,12 +15,12 @@ $theTime = date('Gi');
 $specialday = date("md");
 
 		// manipulations
-				$day = 3;
-				$theTime = "1429";
-				$time = "2:29 pm";
-				$now = strtotime(date("14:29:00"));
-				$date = "2019-01-01";
-				$specialday = "0101";
+				// $day = 4;
+				// $theTime = "1229";
+				// $time = "12:29 pm";
+				// $now = strtotime(date("12:29:00"));
+				// $date = "2018-06-28";
+				// $specialday = "0628";
 
 
 //Get the URL for the lobby data
