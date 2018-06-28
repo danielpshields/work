@@ -8,4 +8,4 @@
 
     </div>
 
-    <p id="holidayCurrentTime">Sessions will resume Tuesday at 8 a.m.</p>
+    <p id="holidayCurrentTime">Sessions will resume <span class="blue">Tuesday at 8 a.m.</span></p>

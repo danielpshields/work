@@ -15,12 +15,12 @@ $theTime = date('Gi');
 $specialday = date("md");
 
 		// manipulations
-				$day = 5;
-				$theTime = "1431";
-				$time = "2:31 pm";
-				$now = strtotime(date("14:31:00"));
-				$date = "2018-11-22";
-				$specialday = "1122";
+				$day = 3;
+				$theTime = "1429";
+				$time = "2:29 pm";
+				$now = strtotime(date("14:29:00"));
+				$date = "2019-01-01";
+				$specialday = "0101";
 
 
 //Get the URL for the lobby data
@@ -113,7 +113,6 @@ if (is_null($file) OR ($file=='')){print '<center><p><strong>AAC Lobby Wait Time
 			"1224" => array("prechristmas", 1),
 			"1231" => array("prenewyears", 1)
 		);
-
 
 		foreach ($preholidays as $key => $preholidayName) {
 
