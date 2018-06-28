@@ -97,11 +97,6 @@ table, tr, td, th {
   color: #444;
 }
 
-.thin {
-  font-size: 11px;
-  color: #333;
-  font-weight: bold;
-}
 #currentStudent {
   padding-left: 18px;
   line-height: 1;
@@ -129,8 +124,6 @@ table, tr, td, th {
   font-size: 35px;
 }
 
-/* current time  */
-
 .currentTime {
   border-top: 1px solid #999;
   padding-right: 10px;
@@ -147,8 +140,17 @@ table, tr, td, th {
   text-align: right;
 }
 
+
+/* master laws */
+
 .tiny {
   font-size: 10px;
+}
+
+.thin {
+  font-size: 11px;
+  color: #333;
+  font-weight: bold;
 }
 
 .light {
@@ -169,4 +171,35 @@ table, tr, td, th {
 
 .clear {
   clear: both;
+}
+
+
+/* holidays */
+
+.holiday {
+  background: black;
+  height: 115px;
+  overflow: hidden;
+}
+
+.holiday img {
+  width: 150px;
+  float: left;
+}
+
+.holiday p {
+  float: left;
+  text-align: center;
+  width: 50%;
+  margin-top: 13px;
+  margin-left: 7px;
+  padding-top: 3px;
+  padding-right: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+#holidayCurrentTime {
+  text-align: center;
+  margin-top: 5px;
 }

@@ -1,6 +1,11 @@
 
 
-<div class="page">
-  <p>The Lobby is closed for Independence day!</p>
-  <img src="holiday/image/flag.png" alt="">
-</div>
+    <div class="holiday">
+
+      <img src="holiday/image/flag.png" alt="">
+      <p>The lobby is closed for Independence Day!</p>
+      <div class="clear"></div>
+
+    </div>
+
+    <p id="holidayCurrentTime">Sessions will resume Thursday at 8 a.m.</p>

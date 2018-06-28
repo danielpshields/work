@@ -78,15 +78,14 @@
 			</div><!-- end current time, little bottom line -->
 
 		<?php } elseif ($lobbyStatus === "holiday") {
-						include("holiday/$value.php");
-		  		}
-		 ?>
+						include("holiday/$value.php"); ?>
+			<?php } ?>
 
 		 <!-- ending pre holiday  -->
 
 		</div><!-- end shell -->
 
-		<?php echo '<center><p><strong>AAC Lobby Wait Time</strong><br /><br />'.$display.'</p></center>'; ?>
+		<!-- <?php echo '<center><p><strong>AAC Lobby Wait Time</strong><br /><br />'.$display.'</p></center>'; ?> -->
 
 </body>
 </html>

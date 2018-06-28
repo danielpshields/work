@@ -1,2 +1,10 @@
-<p>Hi, happy Homecoming!</p>
-<img src="holiday/image/homecoming.jpg" alt="">
+
+    <div class="holiday">
+
+      <img src="holiday/image/homecoming.jpg" alt="">
+      <p>The lobby is closed for UF Homecoming!</p>
+      <div class="clear"></div>
+
+    </div>
+
+    <p id="holidayCurrentTime">Sessions will resume Monday at 8 a.m.</p>
