@@ -1,7 +1,7 @@
 
     <div class="holiday">
 
-      <img src="holiday/image/homecoming.jpg" alt="">
+      <img src="holiday/image/homecoming.png" alt="">
       <p>The lobby is closed for UF Homecoming!</p>
       <div class="clear"></div>
 
