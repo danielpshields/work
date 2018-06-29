@@ -21,9 +21,9 @@ h1 {
 .lobbyWaitShell {
   border: 1px solid #000066;
   border-radius: 15px;
-  width: 69%;
+  width: 348px;
   height: 160px;
-  margin: 90px auto 50px auto;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -81,15 +81,15 @@ table, tr, td, th {
   margin: 10px 0 3px 0;
   font-size: 12px;
   font-weight: 400;
-  color: black;
   color: #595959;
 }
 
 .rightSide li {
   list-style: none;
-  font-size: 16.1px;
+  font-size: 14.9px;
   color: #383838;
   font-family: monospace;
+  /* background: green; */
 }
 
 .tinyTime {
@@ -137,6 +137,7 @@ table, tr, td, th {
 }
 
 #asOfTime {
+    margin-top: 2px;
   text-align: right;
 }
 
