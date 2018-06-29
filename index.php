@@ -130,6 +130,12 @@
           </ul>
         </div>
 
+        <h3>Home</h3>
+        <ul>
+          <li>180629 <a href="../home/fixlist/quarters.php">quarters</a></li>
+          <li>180629 <a href="../home/fixlist/transactions.php">transactions</a></li>
+          <li>180629 <a href="../home/fixlist/card.php">card</a></li>
+        </ul>
 
         <h3>SharePoint</a></h3>
         <ul>

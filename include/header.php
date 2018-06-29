@@ -40,6 +40,8 @@
             <li><a href="<?php echo $path; ?>ln/index.php">Lindex</a></li>
             <li>|</li>
             <li><a href="<?php echo $path; ?>index.php">index</a></li>
+            <li>|</li>
+            <li><a href="../<?php echo $path; ?>home/fixlist/transactions.php">Transactions</a></li>
           </ul>
 
           <ul id="navAdminLinks">
