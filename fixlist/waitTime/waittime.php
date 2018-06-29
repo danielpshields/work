@@ -1,10 +1,16 @@
 <?php require_once("gettime.php"); ?>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>AAC Lobby Wait Time</title>
 	<link rel="stylesheet" href="css/waittime.css">
 </head>
 <body>
+<<<<<<< HEAD
+=======
+	<!-- <h1>AAC Lobby Wait Time</h1> -->
+	<!-- <?php include("table.php"); ?> -->
+>>>>>>> 7580b24082f667aeaccc84397920a102d517988c
 
 	<div class="lobbyWaitShell">
 		<h2>AAC Lobby Wait Time</h2>
@@ -83,7 +89,7 @@
 
 		</div><!-- end shell -->
 
-		<!-- <?php echo '<center><p><strong>AAC Lobby Wait Time</strong><br /><br />'.$display.'</p></center>'; ?> -->
+		<!-- <?php //echo '<center><p><strong>AAC Lobby Wait Time</strong><br /><br />'.$display.'</p></center>'; ?> -->
 
 </body>
 </html>

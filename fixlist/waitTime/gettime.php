@@ -19,8 +19,8 @@ $specialday = date("md");
 				// $theTime = "1229";
 				// $time = "12:29 pm";
 				// $now = strtotime(date("12:29:00"));
-				// $date = "2018-06-28";
-				// $specialday = "0628";
+				// $date = "2018-07-04";
+				// $specialday = "0704";
 
 
 //Get the URL for the lobby data
