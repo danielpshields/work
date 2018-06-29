@@ -12,7 +12,7 @@
 
 		<?php if ($lobbyStatus === "open") { ?>
 			<div class="leftSide" id="open">
-				<p id="currentStudent"><span class="bigNumber"><?php echo $students; ?></span> <b>student<?php if ($students === 1) { echo ""; } else { echo "s"; } ?></b> waiting</p>
+				<p id="currentStudent"><span class="bigNumber"><?php echo $students; ?></span> <b>student<?php if ($students === "1") { echo ""; } else { echo "s"; } ?></b> waiting</p>
 				<p id="nextStudent">Next student has been waiting:</p>
 				<p><span class="mediumNumber darkRed"><?php echo $h . $m; ?></span> <span class="tiny">minutes</span></p>
 			</div>

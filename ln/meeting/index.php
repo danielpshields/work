@@ -394,21 +394,12 @@ Dan Hodges (Registrar's Office) created Alberta: this is about making sample vid
       </tr>
 
       <tr>
-        <td>11:18 a.m.</td>
-        <td>dev</td>
-        <td>gen</td>
-        <td>dan</td>
-        <td>incorporate "wait test" code into <a href="report/waittime/index.php">wait time design</a></td>
-        <td>180619</td>
-      </tr>
-
-      <tr>
-        <td>11 a.m.</td>
-        <td>meeting</td>
-        <td class="green">gen</td>
-        <td>dan</td>
-        <td>emails, manual sort, waittime</td>
-        <td>180622</td>
+        <th>3:36 p.m.</th>
+        <th>development</th>
+        <th>UFO</th>
+        <th>Glen</th>
+        <th>validation form</th>
+        <th>180629</th>
       </tr>
 
       <!--
@@ -507,6 +498,17 @@ Dan Hodges (Registrar's Office) created Alberta: this is about making sample vid
         <td>180623010625</td>
         <td>8:44 a.m.</td>
       </tr>
+
+
+      <tr>
+        <td>11:18 a.m.</td>
+        <td>dev</td>
+        <td>gen</td>
+        <td>dan</td>
+        <td>incorporate "wait test" code into <a href="report/waittime/index.php">wait time design</a></td>
+        <td>1806190106291530</td>
+      </tr>
+
 
     </table>
 
