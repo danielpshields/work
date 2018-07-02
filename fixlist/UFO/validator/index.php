@@ -9,12 +9,11 @@
   <h1>UFO Acknowledgement Form</h1>
 
   <form class="" action="index.php" method="post">
-
+		<?php require("include/understand.php"); ?>
 		<?php require("include/know.php"); ?>
-		<?php require("include/acknowledge.php"); ?>
 		<?php require("include/curriculum.php"); ?>
 		<?php require("include/requirements.php"); ?>
-
+		<?php require("include/submit.php"); ?>
   </form>
 
 	<?php require_once("include/contact.php"); ?>

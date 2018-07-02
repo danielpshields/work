@@ -2,9 +2,17 @@
 
   <div class="orange hightlightSlug">
     <h2><span class="bigNumber orangeFont">C</span> Contact:</h2>
-    <p>UF Online Psychology Advisor</p>
+
+    <table>
+      <tr>
+        <th colspan="2">UF Online Psychology Advisor</th>
+      </tr>
+      <tr>
+        <td>Fallen Lee</td>
+        <td>fwlee@advising.ufl.edu</td>
+      </tr>
+    </table>
     <ul>
-      <li>Fallen Lee</li>
-      <p>fwlee@advising.ufl.edu</p>
+      <li><a href="https://www.advising.ufl.edu/advising/staff/" target="_blank">UF Advising Staff</a></li>
     </ul>
   </div>

@@ -3,10 +3,10 @@
 			<h2><span class="bigNumber orangeFont">4</span> Requirements</h2>
     	<p>Changing from UF residential to UF Online requires:</p>
 
-			<ul>
+			<ol>
 				<li>Applying through the UF Online website</li>
 				<li>Petitioning CLAS to make the change documenting the reasons they are no longer able to complete their degree residentially</li>
-			</ul>
+			</ol>
 
 
 		<table>
@@ -18,5 +18,4 @@
 		</table>
 		<input class="submit" type="submit" name="preprofessional" value="submit">
 
-
-    </div>
+    <div class="clear"></div></div>
