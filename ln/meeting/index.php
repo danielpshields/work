@@ -394,12 +394,31 @@ Dan Hodges (Registrar's Office) created Alberta: this is about making sample vid
       </tr>
 
       <tr>
-        <th>3:36 p.m.</th>
-        <th>development</th>
-        <th>UFO</th>
-        <th>Glen</th>
-        <th>validation form</th>
-        <th>180629</th>
+        <td>3:36 p.m.</td>
+        <td>development</td>
+        <td>UFO</td>
+        <td>Glen</td>
+        <td>validation form</td>
+        <td>180629, 180702,</td>
+      </tr>
+
+
+      <tr>
+        <td>10:04 a.m.</td>
+        <td>development</td>
+        <td class="green">PHPB</td>
+        <td>Bobbi</td>
+        <td>Site redesign</td>
+        <td>18070201</td>
+      </tr>
+
+      <tr>
+        <td>1:08 p.m.</td>
+        <td>development</td>
+        <td class="green">general</td>
+        <td>dept</td>
+        <td>staff page emails</td>
+        <td>18070301</td>
       </tr>
 
       <!--
