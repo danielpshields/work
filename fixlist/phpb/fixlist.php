@@ -17,6 +17,11 @@
   <li>removed "Apply Now" button and its JS</li>
 </ul>
 
+<h2>Course Change</h2>
+<ul>
+  <li>removed: <a href="http://x-laboratory.org/">x-lab</a> link</li>
+  <li>bottom content uses brs instead of list format</li>
+</ul>
 
 <h2>General:</h2>
 <ul>
