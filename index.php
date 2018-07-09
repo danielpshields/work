@@ -8,9 +8,19 @@
         <h2>LN: 2018</h2>
 
         <h4>July</h4>
+        <h5>Week 8</h5>
+        <ul>
+          <li><a href="ln/18/07/09.html">180709</a></li>
+        </ul>
+
         <h5>Week 7</h5>
+        <ul>
+          <li><a href="ln/18/07/08.html">180708</a></li>
+          <li><a href="ln/18/07/07.html">180707</a></li>
+        </ul>
 
         <ul>
+          <li><a href="ln/18/07/06.html">180706</a></li>
           <li><a href="ln/18/07/05.html">180705</a></li>
           <li><a href="ln/18/07/04.html">180704</a></li>
           <li><a href="ln/18/07/03.html">180703</a></li>
