@@ -37,7 +37,7 @@ $page = "newstudents"; ?>
 <li>One of the expectations of PHPB is that students will be engaged in clinical volunteering and community service while in the program.  This fills quickly.  I recommend you start looking for these for fall now.  View the <a href="https://www.advising.ufl.edu/pre-health/pre-health-resources/">Pre-Health Resources</a> to begin looking for places in Gainesville to do this.  We will talk more about this during orientation.</li>
   </ol>
 </div>
-<?php require_once("includes/navnew.html"); ?>
+<?php require_once("includes/sidebar.php"); ?>
 <?php require_once("includes/footer.html");?>
 </body>
 </html>

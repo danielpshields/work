@@ -39,7 +39,7 @@
 </ol>
 </div>
 
-<?php require_once("includes/navnew.html"); ?>
+<?php require_once("includes/sidebar.php"); ?>
    <?php require_once("includes/footer.html"); ?>
   </body>
   </html>

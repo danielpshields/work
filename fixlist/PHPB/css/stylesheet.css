@@ -2,7 +2,17 @@
 
 #content{width:715px;}
 
-#content .pane{border:1px solid #FF4a00;float:left;background-color:#8bc2ff;margin:10px 8px; padding:4px; width:45%; border-radius:8px; min-height:135px; position:relative;}
+#content .pane{
+  border:1px solid #FF4a00;
+  float:left;
+  background-color:#8bc2ff;
+  margin:10px 8px;
+  padding:4px;
+  width:45%;
+  border-radius:8px;
+  min-height:135px;
+  position:relative;
+}
 
 #content .pane img{margin:6px;position:absolute;bottom:0px;}
 
@@ -13,5 +23,3 @@
 .input select{width:32%;}
 
 table {margin:auto;}
-
-#boomba {color: green; background: green;}

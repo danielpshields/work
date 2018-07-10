@@ -12,7 +12,7 @@
 </div>
 
 <?php
-  require_once("includes/navnew.html");
+  require_once("includes/sidebar.php");
   require_once("includes/footer.html");
 ?>
 

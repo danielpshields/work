@@ -3,21 +3,16 @@
 	padding:0;
 }
 
+body, p, li  {
+  font-family : verdana, geneva, Arial, Helvetica, sans-serif;
+ }
+h1, h2, h3, h4, h5, h6 {
+  font-family : 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
+}
+
 body {
 background: url(../images/bg2.gif) repeat-x;
 text-align:center;
-}
-
-a {
-text-decoration:none;
-}
-
-a:link,a:visited {
-color:#0021a5;
-}
-
-a:hover,a:active {
-color:#ff4a00;
 }
 
 acronym {
@@ -25,19 +20,11 @@ border:0;
 font-style:normal;
 }
 
-
 h1{
 font-size:24px;
 color:#000066;
 margin: 5px 0px 6px 12px;
 }
-
-
-
-
-
-
-
 
 h1#dept {
 position: relative;
@@ -133,8 +120,8 @@ margin:15px;
 #content h5,#secondc h5 {
 	color:#000000;
 	font:normal 14px Georgia, "Times New Roman", Times, serif;
-	margin:5px 0 5px 13px;
-padding-top: 5px;
+	margin: 5px 0 5px 13px;
+	padding-top: 5px;
 }
 #content h6 {
 	color:#000000;
@@ -278,11 +265,11 @@ width:188px;
 	width:760px;
 }
 
-/* \*/* html #mainContainer {
+* html #mainContainer {
 background-position: 249px 0;
-}/* */
+}
 
-#priNav {
+nav {
 	position:relative;
 	top:0;
 	width:240px;
@@ -290,24 +277,20 @@ background-position: 249px 0;
 	background-color: #2b72ff;
 }
 
-#priNav h2,#footer h3 {
-display:none;
-}
-
-#priNav h3 {
+nav h3 {
 background:url(../images/pointer.gif) no-repeat 0 11px;
 font:normal 115% Trebuchet MS, Arial, Helvetica, sans-serif;
 letter-spacing:1px;
 }
 
-#priNav li {
+nav li {
 	float:left;
 	font:14px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
 	color: #FFFFFF;
 	width:220px;
 }
 
-#priNav li a, #priNav #active {
+nav li a, nav #active {
 background:url(../images/pointer_small.gif) no-repeat 10px 11px;
 border-bottom:1px dotted #999999;
 color:#FFFFFF;
@@ -317,52 +300,52 @@ padding:5px 0px 5px 20px;
 width:222px;
 }
 
-#priNav p a,#priNav p #active {
+nav p a,nav p #active {
 color:#FFFFFF;
 letter-spacing:1px;
 width:220px;
 }
 
-/*\*/* html #priNav li a, * html #priNav #active{
+* html nav li a, * html nav #active{
 width:220px;
-}/**/
+}
 
-#priNav p a:visited {
+nav p a:visited {
 color:#000066;
 letter-spacing:1px;
 width:220px;
 }
 
-#priNav #active {
+nav #active {
 color: #000066;
 }
 
-#priNav li a:hover {
+nav li a:hover {
 	color: #FFFFFF;
 }
 
-#priNav li a:visited {
+nav li a:visited {
 	color: #FFFFFF;
 }
 
-#priNav a:hover, #priNav a {
+nav a:hover, nav a {
 	color: #FFFF66;
 }
 
-#priNav #active {
+nav #active {
 }
 
-#priNav form {
+nav form {
 	padding-top: 2px;
 	padding-left: 20px;
 	width: 220px;
 }
 
-#priNav li a:hover {
+nav li a:hover {
 background-color:#5791d2;
 }
 
-#priNav h4 {
+nav h4 {
 	background:url(../images/pointer_small.gif) no-repeat 9px 17px;
 	clear:left;
 	letter-spacing:1px;
@@ -372,12 +355,16 @@ background-color:#5791d2;
 	width: 220px;
 }
 
-#priNav p {
+nav p {
 	letter-spacing:1px;
 	padding:7px 0px 0 20px;
 	font:12px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
 	color: #ffffff;
 	width: 220px;
+}
+
+#footer h3 {
+	display: none;
 }
 
 #footer a:link,a:visited {
@@ -474,7 +461,7 @@ cursor: pointer;
 	background-image: url(../images/temp.jpg);
 	background-position: top;
 }
-#priNav a, #priNav a:visited {
+nav a, nav a:visited {
 color:#FFFFCC;
 letter-spacing:1px;
 }
@@ -595,7 +582,7 @@ vertical-align:top;
 .socialmedia img {opacity: 0.6;}
 .socialmedia img:hover {opacity: 1;}
 
-#priNav img{border:0px;}
+nav img{border:0px;}
 
 
 /* alex style: index.html */
@@ -608,10 +595,36 @@ vertical-align:top;
 
 /* from sidebar navigation */
 
-#priNav li.white{color:white;border-bottom:1px dotted #999999;margin-left:0px;width:244px;}
-#priNav a.noimage{background:none;border-bottom:none;padding:0px;margin-left:0px;width:244px;}
+nav li.white{
+	color: white;
+	border-bottom: 1px dotted #999999;
+	margin-left: 0px;
+	width: 244px;
+}
+
+nav a.noimage{
+	background: none;
+	border-bottom: none;
+	padding: 0px;
+	margin-left: 0px;
+	width: 244px;
+}
 
 
 /* from incude header */
 
 #secHeader span{background: url(/hr/_styles/images/marquee/header1.jpg)}
+
+/* restart styles  */
+
+a {
+text-decoration:none;
+}
+
+a:link,a:visited {
+color:#0021a5;
+}
+
+a:hover,a:active {
+color:#ff4a00;
+}
