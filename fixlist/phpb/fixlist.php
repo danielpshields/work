@@ -28,3 +28,8 @@
   <li>database</li>
   <p>there should be a database for dates</p>
 </ul>
+
+<h2>Index:</h2>
+<ul>
+  <li>Box: "Have questions want more information?" -- needs to go to the contact page</li>
+</ul>

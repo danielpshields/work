@@ -6,91 +6,134 @@
 body, p, li  {
   font-family : verdana, geneva, Arial, Helvetica, sans-serif;
  }
+
 h1, h2, h3, h4, h5, h6 {
   font-family : 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
 }
 
 body {
-background: url(../images/bg2.gif) repeat-x;
-text-align:center;
+	background: url(../images/bg2.gif) repeat-x;
+	text-align:center;
 }
 
-acronym {
-border:0;
-font-style:normal;
+/* start links */
+a {text-decoration: none;}
+a:link,  a:visited {color:#0021a5;} /* blue */
+a:hover, a:active  {color:#ff4a00;} /* orange */
+#content p a, #content li a { /* dark blue */
+	border-bottom: 1px solid #0021A5;
+}
+#content p a:link, #content p a:visited {
+	color: #24b; /* blue */
+}
+#content li a:hover, #content li a:active, #content p a:hover, #content p a:active {
+	color: #f40; /* orange */
+	text-decoration: none;
+}
+nav li a {
+	border-bottom:1px dotted #999999;
+}
+nav a:link, nav a:visited {
+	color: #FFFFCC;
+}
+nav p a {
+	color:#FFFFFF;
+}
+nav li a:hover, nav p a:hover { /* keep, nav li background hover */
+	background-color:#5791d2;
 }
 
-h1{
-font-size:24px;
-color:#000066;
-margin: 5px 0px 6px 12px;
+footer a:link,a:visited {
+	color: #000066;
+	text-decoration: none;
+}
+footer a:hover {
+color: #FF6600;
 }
 
+/* end links */
+/* end links */
+/* end links */
+/* end links */
+/* end links */
+/* end links */
+
+header {
+	height:45px;
+	margin:0 auto;
+	position:relative;
+	text-align:left;
+	width:960px;
+	background-color: #2b72ff;
+}
+
+h1 {
+	font-size:24px;
+	color:#000066;
+	margin: 5px 0px 6px 12px;
+}
+ 
 h1#dept {
-position: relative;
-height: 50px;
-width: 285px;
-font-size: 14px;
-/* \*/
-overflow: hidden;
-/* */
+	position: relative;
+	height: 50px;
+	width: 285px;
+	font-size: 14px;
+	overflow: hidden;
 }
 
 h1#dept a span {
-position: absolute;
-top: 0;
-left: 0;
-display: block;
-background: url(../images/unitHeader2.gif);
-width: 100%;
-height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	background: url(../images/unitHeader2.gif);
+	width: 100%;
+	height: 100%;
 }
 
-h2#uf{
-font-size: 14px;
-width: 195px;
-height: 50px;
-top:6px;
-left: 763px;
-position: absolute;
-/*\*/overflow: hidden;
-font-size: 14px;/**/
+h2#uf {
+	font-size: 14px;
+	width: 195px;
+	height: 50px;
+	top:6px;
+	left: 763px;
+	position: absolute;
+	overflow: hidden;
+	font-size: 14px;
 }
 
-h2#uf a span{
-background-image: url(../images/UF-logo.png);
-background-repeat:no-repeat;
-top:0;
-left:0;
-display:block;
-position: absolute;
-width: 195px;
-height: 38px;
-font-size: 1px;
-cursor: pointer;
+h2#uf a span {
+	background-image: url(../images/UF-logo.png);
+	background-repeat:no-repeat;
+	top:0;
+	left:0;
+	display:block;
+	position: absolute;
+	width: 195px;
+	height: 38px;
+	font-size: 1px;
+	cursor: pointer;
 }
 
 h3,h4 {
-font-weight:400;
+	font-weight:400;
 }
 
-p,li {
-	color:#444;
-	font-size:12px;
+p, li {
+	color: #444;
+	font-size: 12px;
 	font-family: Trebuchet, Verdana, Arial, Helvetica, sans-serif;
 	line-height: 15px;
 }
 
 ul {
-list-style:none;
+	list-style:none;
 }
 
 ol {
-list-style-type:decimal;
-margin:15px;
+	list-style-type:decimal;
+	margin:15px;
 }
-
-
 
 #content {
 	background:#FFF;
@@ -99,16 +142,16 @@ margin:15px;
 	width:515px;
 	z-index:5;
 	padding-bottom: 12px;
-    min-height: 750px
+  min-height: 750px
 }
 
-#content h3,#secondc h3 {
+#content h3 {
 	font-size:18px;
 	margin:5px 0 4px 12px;
 	color: #000066;
 }
 
-#content h4,#secondc h4 {
+#content h4 {
 	color:#0066CC;
 	font:normal 14px Georgia, "Times New Roman", Times, serif;
 	margin:5px 0 5px 13px;
@@ -117,7 +160,7 @@ margin:15px;
 	border-top-color: #0066CC;
 	padding-top: 5px;
 }
-#content h5,#secondc h5 {
+#content h5 {
 	color:#000000;
 	font:normal 14px Georgia, "Times New Roman", Times, serif;
 	margin: 5px 0 5px 13px;
@@ -129,14 +172,6 @@ margin:15px;
 	margin:5px 0 5px 13px;
 	padding-top: 5px;
 	letter-spacing: 2px;
-}
-
-#secondc h6 {
-	color:#000000;
-	font:normal 12px Georgia, "Times New Roman", Times, serif;
-	margin:5px 0 5px 0px;
-	padding-top: 5px;
-	letter-spacing: 1px;
 }
 
 #content ul {
@@ -159,43 +194,11 @@ margin: 10px;
 padding:0 5px 0 20px;
 }
 
-#content p,#secondc p {
+#content p, #secondc p {
 	line-height:18px;
 	margin:2px 10px 15px 13px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 13px;
-}
-
-#content p a {
-border-bottom:1px dashed #0021A5;
-}
-
-#content li a {
-border-bottom:1px dashed #0021A5;
-}
-
-#content li a:link {
-color:#24b;
-}
-
-#content li a:visited, {
-color:#24b;
-}
-
-#content p a:link,#content p a:visited {
-color:#24b;
-}
-
-#content li a:hover {
-color:#f40;
-}
-
-#content li a:active, {
-color:#f40;
-}
-
-#content p a:hover,#content p a:active {
-color:#f40;
 }
 
 #content p#listing {
@@ -208,54 +211,6 @@ text-align:center;
 margin:15px;
 }
 
-#footer {
-	background-color:#FFFFFF;
-	clear:both;
-	color:#FFFFFF;
-	height:50px;
-	padding:10px 0 25px;
-	position:relative;
-	border-top-width: 1px;
-	border-top-style: solid;
-	border-top-color: #CCCCCC;
-}
-
-#footer li {
-border-right:1px solid #000066;
-display:inline;
-/*\*/float:left;/**/
-font-size:100%;
-margin-right:4px;
-padding-right:4px;
-}
-
-#footer ul,#footer p {
-	clear:both;
-	float:left;
-	font-size:60%;
-	line-height:1.4em;
-	width:550px;
-	color: #000066;
-}
-
-/*\*/#footerHome span {
-background:url(../images/uf_large.gif) no-repeat 0 0;
-height:62px;
-position:absolute;
-right:0;
-top:10px;
-width:188px;
-}/**/
-
-#header {
-	height:45px;
-	margin:0 auto;
-	position:relative;
-	text-align:left;
-	width:960px;
-	background-color: #2b72ff;
-}
-
 #mainContainer {
 	background:#006699 url(../images/content_bg2.jpg);
 	margin:0 auto;
@@ -265,84 +220,18 @@ width:188px;
 	width:760px;
 }
 
-* html #mainContainer {
-background-position: 249px 0;
-}
-
 nav {
-	position:relative;
-	top:0;
-	width:240px;
-	z-index: 4;
-	background-color: #2b72ff;
-}
-
-nav h3 {
-background:url(../images/pointer.gif) no-repeat 0 11px;
-font:normal 115% Trebuchet MS, Arial, Helvetica, sans-serif;
-letter-spacing:1px;
+	/* width: 240px; */
+	width: 25%;
 }
 
 nav li {
-	float:left;
-	font:14px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
-	color: #FFFFFF;
-	width:220px;
-}
-
-nav li a, nav #active {
-background:url(../images/pointer_small.gif) no-repeat 10px 11px;
-border-bottom:1px dotted #999999;
-color:#FFFFFF;
-display:block;
-letter-spacing:1px;
-padding:5px 0px 5px 20px;
-width:222px;
-}
-
-nav p a,nav p #active {
-color:#FFFFFF;
-letter-spacing:1px;
-width:220px;
-}
-
-* html nav li a, * html nav #active{
-width:220px;
-}
-
-nav p a:visited {
-color:#000066;
-letter-spacing:1px;
-width:220px;
-}
-
-nav #active {
-color: #000066;
-}
-
-nav li a:hover {
-	color: #FFFFFF;
-}
-
-nav li a:visited {
-	color: #FFFFFF;
-}
-
-nav a:hover, nav a {
-	color: #FFFF66;
-}
-
-nav #active {
-}
-
-nav form {
-	padding-top: 2px;
-	padding-left: 20px;
-	width: 220px;
-}
-
-nav li a:hover {
-background-color:#5791d2;
+	font-family: 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font: 14px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
+	color: #fefefe;
+	width: 100%;
+	background: none;
 }
 
 nav h4 {
@@ -350,7 +239,7 @@ nav h4 {
 	clear:left;
 	letter-spacing:1px;
 	padding:12px 0px 0 20px;
-	font:14px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
+	font: 14px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
 	color: #FFFFCC;
 	width: 220px;
 }
@@ -363,30 +252,21 @@ nav p {
 	width: 220px;
 }
 
-#footer h3 {
-	display: none;
-}
-
-#footer a:link,a:visited {
-	color: #000066;
-	text-decoration: none;
-}
-#footer a:hover {
-color: #FF6600;
-}
+nav img{border:0px;}
 
 #secHeader {
-height:194px;
-margin-bottom:14px;
-position:relative;
-width:516px;
+	height:194px;
+	margin-bottom:14px;
+	position:relative;
+	width:516px;
 }
 
 #secHeader span {
-height:100%;
-position:absolute;
-width:100%;
+	height:100%;
+	position:absolute;
+	width:100%;
 }
+
 #navcontainer {
     left:0px;
 	padding:0px 0px 0;
@@ -396,30 +276,22 @@ width:100%;
 	z-index: 4;
 	height: 532px;
 }
+
 * html #related li {
-float:none;
+	float:none;
 }
+
 h3#unit {
-font-size: 14px;
-width: 240px;
-height: 110px;
-top:0px;
-left: 0px;
-position: relative;
-/*\*/overflow: hidden;
-font-size: 14px;/**/
+	font-size: 14px;
+	width: 240px;
+	height: 110px;
+	top:0px;
+	left: 0px;
+	position: relative;
+	overflow: hidden;
+	font-size: 14px;
 }
-h3#unit a span {
-background-image: url(../images/spacer.gif);
-top:0;
-left:0;
-display:block;
-position: absolute;
-width: 244px;
-height: 110px;
-font-size: 1px;
-cursor: pointer;
-}
+
 #secondc {
 	float: right;
 	width: 240px;
@@ -427,6 +299,7 @@ cursor: pointer;
 	background-color: #FFFFFF;
 	padding-bottom: 8px;
 }
+
 #callout {
 	float: right;
 	width: 240px;
@@ -435,6 +308,7 @@ cursor: pointer;
 	padding-bottom: 8px;
 	margin-left: 6px;
 }
+
 #photos, #photos2 {
 	float: right;
 	width: 180px;
@@ -442,18 +316,21 @@ cursor: pointer;
 	background-color: #FFFFFF;
 	padding-bottom: 8px;
 }
+
 #photos p, #photos2 p {
 	font:normal 12px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
 	color: #333333;
 	line-height: 20px;
 	padding-bottom: 5px;
 }
+
 #secondc h6 {
 	font-size: 11px;
 	font-family: Georgia, Time, serif;
 	font-weight: normal;
 	padding-left: 14px;
 }
+
 #flash {
 	width: 516px;
 	height: 200px;
@@ -461,14 +338,12 @@ cursor: pointer;
 	background-image: url(../images/temp.jpg);
 	background-position: top;
 }
-nav a, nav a:visited {
-color:#FFFFCC;
-letter-spacing:1px;
-}
+
 #over {
 	padding-right: 8px;
 	margin-right: 8px;
 }
+
 .calab {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 11px;
@@ -479,6 +354,7 @@ letter-spacing:1px;
 	color: #666666;
 	height: 18px;
 }
+
 .calmonth {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 11px;
@@ -488,6 +364,7 @@ letter-spacing:1px;
 	text-align: center;
 	color: #000000;
 }
+
 .calon {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 11px;
@@ -496,6 +373,7 @@ letter-spacing:1px;
 	margin: 2px;
 	text-align: center;
 }
+
 .cala {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 11px;
@@ -505,6 +383,7 @@ letter-spacing:1px;
 	text-align: center;
 	height: 18px;
 }
+
 #grants p {
 	font:normal 10px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
 	color: #333333;
@@ -513,40 +392,75 @@ letter-spacing:1px;
 }
 
 table {
-border:1px solid #000000;
-border-collapse:collapse;
-font-family:Georgia,"Times New Roman",Times,serif;
-font-size:13px;
-margin:5%;
-width:90%;
+	border:1px solid #000000;
+	border-collapse:collapse;
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-size:13px;
+	margin:5%;
+	width:90%;
 
 }
-.table th{
-background-color:#CECECE;
-border:1px solid #000000;
-font-size:100%;
-font-weight:bold;
-padding:5px;
+.table th {
+	background-color:#CECECE;
+	border:1px solid #000000;
+	font-size:100%;
+	font-weight:bold;
+	padding:5px;
 }
 
-.table td{
-border:1px solid #000000;
-padding:5px;
-vertical-align:top;
+.table td {
+	border:1px solid #000000;
+	padding:5px;
+	vertical-align:top;
 }
 
-#box{background-color:#8bc2ff;border:1px solid #000000;padding:5px;margin:5px;width:50%;margin-left:25%;margin-bottom:10px;border-radius:15px;}
-#box p{}
+#box{
+	background-color:#8bc2ff;
+	border:1px solid #000000;
+	padding:5px;
+	margin:5px;
+	width:50%;
+	margin-left:25%;
+	margin-bottom:10px;
+	border-radius:15px;
+}
 
-#phpbcontact{float:right;width:240px;border:1px solid #ff4a00;margin:8px;padding:5px;background-color:#c4d7e1;border-radius:8px;}
-#phpbcontact h3{font-family:Georgia,"Times New Roman",Times,serif;font-weight:strong;font-size:13px;margin:0 0 10px 0px;}
+#phpbcontact {
+	float:right;
+	width:240px;
+	border:1px solid #ff4a00;
+	margin:8px;
+	padding:5px;
+	background-color:#c4d7e1;
+	border-radius:8px;
+}
+
+#phpbcontact h3 {
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-weight: strong;
+	font-size:13px;
+	margin:0 0 10px 0px;
+}
+
 .input {
 	display: block;
 	font-size:11px;
 	}
 
-	.btn{background-color:#8bc2ff;padding:4px;color:#000066;border-radius:8px;border:1px solid #000066;margin:10px;font-weight:bold;}
-	.btn:hover{background-color:#FF4a00;border:1px solid #FF4a00;}
+.btn{
+	background-color:#8bc2ff;
+	padding:4px;
+	color:#000066;
+	border-radius:8px;
+	border:1px solid #000066;
+	margin:10px;
+	font-weight:bold;
+}
+
+.btn:hover{
+	background-color:#FF4a00;
+	border:1px solid #FF4a00;
+}
 
 .input span {
   position: absolute;
@@ -554,7 +468,6 @@ vertical-align:top;
   cursor: text;
   pointer-events: none;
   color: #999;
-
   /* Input padding + input border */
   padding: 3px;
   /* Firefox does not respond well to different line heights. Use padding instead. */
@@ -564,6 +477,7 @@ vertical-align:top;
 }
 
 .input span.required{color:red;}
+
 .input input, .input textarea, .input select {
   z-index: 0;
   padding: 3px;
@@ -571,18 +485,31 @@ vertical-align:top;
   font: inherit;
   line-height: 13px;
 }
-.input select {
 
+.input select {
   /* Unfortunately selects don't respond well to padding. They need an explicit height. */
   height: 30px;
 }
 
+#socialMediaSection {
+	background: none;
+	width: 70%;
+	margin: auto;
+	margin-top: 15px;
+	border-top: 1px solid #a0a0a0;
+	padding-top: 15px;
+}
 
-.socialmedia {display:inline;}
-.socialmedia img {opacity: 0.6;}
+.socialmedia {
+	width: 32.8%;
+	float: left;
+}
+.socialmedia img {
+	display: block;
+	margin: auto;
+	opacity: 0.6;
+}
 .socialmedia img:hover {opacity: 1;}
-
-nav img{border:0px;}
 
 
 /* alex style: index.html */
@@ -593,23 +520,51 @@ nav img{border:0px;}
 	color: #3a3a3a;
 }
 
-/* from sidebar navigation */
-
-nav li.white{
-	color: white;
-	border-bottom: 1px dotted #999999;
-	margin-left: 0px;
-	width: 244px;
+footer {
+	background-color:#FFFFFF;
+	clear:both;
+	color:#FFFFFF;
+	height:50px;
+	padding:10px 0 25px;
+	position:relative;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
 }
 
-nav a.noimage{
-	background: none;
-	border-bottom: none;
-	padding: 0px;
-	margin-left: 0px;
-	width: 244px;
+footer li {
+border-right:1px solid #000066;
+display:inline;
+float:left;
+font-size:100%;
+margin-right:4px;
+padding-right:4px;
 }
 
+footer ul,footer p {
+	clear:both;
+	float:left;
+	font-size:60%;
+	line-height:1.4em;
+	width:550px;
+	color: #000066;
+}
+
+footer h3 {
+	display: none;
+}
+
+h3#unit a span {
+	background-image: url(../images/spacer.gif);
+	top:0;
+	left:0;
+	display:block;
+	position: absolute;
+	width: 244px;
+	height: 110px;
+	font-size: 1px;
+	cursor: pointer;
+}
 
 /* from incude header */
 
@@ -617,14 +572,15 @@ nav a.noimage{
 
 /* restart styles  */
 
-a {
-text-decoration:none;
+#footerHome { /* footer UF logo */
+	background:url(../images/uf_large.gif) no-repeat 0 0;
+	height:62px;
+	position:absolute;
+	right:0;
+	top:10px;
+	width:188px;
 }
 
-a:link,a:visited {
-color:#0021a5;
-}
-
-a:hover,a:active {
-color:#ff4a00;
+.clear {
+	clear: both;
 }
