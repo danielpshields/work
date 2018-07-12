@@ -1,19 +1,20 @@
   <nav>
-    <a href="index.php">
-      <img src="http://www.clas.ufl.edu/prehealthpostbac/images/title2.jpg" border="0">
-    </a>
+    <a id="navHeaderImage" href="index.php"><img src="http://www.clas.ufl.edu/prehealthpostbac/images/title2.jpg" border="0"></a>
+
     <ul>
-      <li class="white"><a href="newstudents.php">Newly Admitted Students</a></li>
-      <li class="white"><img src="http://www.clas.ufl.edu/prehealthpostbac/images/pointer_small.gif">Admission</li>
-      <ul>
-        <li><a href="admission-change.php">- Career Changers</a></li>
-        <li><a href="admission-restart.php">- ReStart Program</a></li>
-      </ul>
-      <li class="white"><img src="http://www.clas.ufl.edu/prehealthpostbac/images/pointer_small.gif"> Course Information</li>
-      <ul>
-        <li><a href="courses-change.php">- Career Changers</a></li>
-        <li><a href="courses-restart.php">- ReStart Program</a></li>
-      </ul>
+      <li class="center"><a href="newstudents.php">Newly Admitted Students</a></li>
+
+      <li>Admission</li>
+      <!-- <ul>
+        <li><a href="admission-change.php">Career Changers</a></li>
+        <li><a href="admission-restart.php">ReStart Program</a></li>
+      </ul> -->
+      <!-- <img src="http://www.clas.ufl.edu/prehealthpostbac/images/pointer_small.gif"> -->
+      <li>Course Information</li>
+      <!-- <ul>
+        <li><a href="courses-change.php">Career Changers</a></li>
+        <li><a href="courses-restart.php">ReStart Program</a></li>
+      </ul> -->
       <li><a href="features.php">Program Features</a></li>
       <li><a href="finances.php">Financial Information</a></li>
       <li><a href="faq.php">FAQ</a></li>

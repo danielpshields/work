@@ -21,10 +21,18 @@ header {
   width: 500px;
   margin: auto;
   padding-top: 41px;
-  background: pink;
+  background: white;
   position: relative;
 }
 
+a {
+  display: inline-block;
+  width: 40%;
+}
+
+a:hover {
+  color: orange;
+}
 
 #sidebar {
   width: 20%;
