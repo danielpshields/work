@@ -1,36 +1,36 @@
-  <nav>
-    <a id="navHeaderImage" href="index.php"><img src="http://www.clas.ufl.edu/prehealthpostbac/images/title2.jpg" border="0"></a>
+<nav>
 
-    <ul>
-      <li class="center"><a href="newstudents.php">Newly Admitted Students</a></li>
+  <a id="navHeaderImage" href="index.php"><img src="http://www.clas.ufl.edu/prehealthpostbac/images/title2.jpg" border="0"></a>
 
-      <li>Admission</li>
-      <!-- <ul>
-        <li><a href="admission-change.php">Career Changers</a></li>
-        <li><a href="admission-restart.php">ReStart Program</a></li>
-      </ul> -->
-      <!-- <img src="http://www.clas.ufl.edu/prehealthpostbac/images/pointer_small.gif"> -->
-      <li>Course Information</li>
-      <!-- <ul>
-        <li><a href="courses-change.php">Career Changers</a></li>
-        <li><a href="courses-restart.php">ReStart Program</a></li>
-      </ul> -->
-      <li><a href="features.php">Program Features</a></li>
-      <li><a href="finances.php">Financial Information</a></li>
-      <li><a href="faq.php">FAQ</a></li>
-      <li><a href="advising.php">Advising</a></li>
-      <li><a href="alumnisuccess.php">Alumni Success</a></li>
-      <li><a href="mailto:phpostbac@clas.ufl.edu">Contact Us</a></li>
-    </ul>
+  <ul>
+    <li><a href="admission.php">Admission</a></li>
+    <li><a href="courses.php">Course Information</a></li>
+  </ul>
+  <h3>Indi Links</h3>
+  <ul>
+  <li><a href="features.php">Program Features</a></li>
+  <li><a href="finances.php">Financial Information</a></li>
+  <li><a href="faq.php">FAQ</a></li>
+  <li><a href="advising.php">Advising</a></li>
+  <li><a href="alumnisuccess.php">Alumni Success</a></li>
+  <li><a href="mailto:phpostbac@clas.ufl.edu">Contact Us</a></li>
+  </ul>
+
+  <ul>
+    <li class="center" id="newlyAdmittedLink"><a href="newstudents.php">Newly Admitted Students</a></li>
+  </ul>
+  <div id="contactSections">
 
   <h4>Pre-Health Postbac Program (PHPB)</h4>
-  <p>Farrior Hall<br>
-  P.O Box 112015<br>
-  Gainesville FL 32611<br>
-  P: 352.273.4083<br>
-  F: 352.392.2905<br>
-  Email: <a href="mailto:phpostbac@clas.ufl.edu">phpostbac@clas.ufl.edu</a>
-  </p>
+    <p>
+      Farrior Hall<br>
+      P.O Box 112015<br>
+      Gainesville FL 32611<br>
+      P: 352.273.4083<br>
+      F: 352.392.2905<br>
+      Email: <a href="mailto:phpostbac@clas.ufl.edu">phpostbac@clas.ufl.edu</a>
+    </p>
+  </div>
 
   <div id="socialMediaSection">
     <div class="socialmedia" id="iconFB">

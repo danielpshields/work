@@ -63,5 +63,11 @@
 <li>Box: "Have questions want more information?" -- needs to go to the contact page</li>
 </ul>
 
+<h2>Compare Tracks:</h2>
+<ul>
+  <li>Eligibility Requirements needs to be linked</li>
+  <li>Contact Us needs to be linked</li>
+</ul>
+
 </body>
 </html>

@@ -237,8 +237,14 @@ nav { /* width: 240px; */
 	border: 1px dashed #333;
 }
 
+nav h3 {
+	text-align: center;
+	padding: 20px 0 0px 0;
+}
+
+
 nav h4 {
-	background:url(../images/pointer_small.gif) no-repeat 9px 17px;
+	/* background:url(../images/pointer_small.gif) no-repeat 9px 17px; */
 	clear:left;
 	letter-spacing:1px;
 	padding:12px 0px 0 20px;
@@ -247,10 +253,16 @@ nav h4 {
 	width: 220px;
 }
 
+nav ul {
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
 nav li {
 	font:  14px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
 	color: #fefefe;
 	width: 100%;
+	list-style: disc;
 }
 
 
@@ -263,6 +275,17 @@ nav p {
 }
 
 nav img{border: none;}
+
+#contactSections {
+	border: 1px solid white;
+	margin-top: 15px;
+}
+
+#newlyAdmittedLink {
+	background: orange;
+	border: 3px solid blue;
+}
+
 
 #secHeader {
 	height:194px;
