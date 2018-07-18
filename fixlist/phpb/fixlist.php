@@ -56,6 +56,8 @@
 <ul>
 <li>database</li>
 <p>there should be a database for dates</p>
+<li>There's respect to be paid for avoiding addressing what the program is not -- for instance, there are two tracks offered, should there be an explanaition as to what to do? like, raise GPA programs? I argue for this, but after the Site can say what the program is. Be an expert on the self. Then be an expert on the field.</li>
+<li>Is there a catalog that the courses could link to?</li>
 </ul>
 
 <h2>Index:</h2>

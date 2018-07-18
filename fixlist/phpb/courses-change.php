@@ -5,11 +5,11 @@
 ?>
 
 <div id="content">
-  <h1>Career Changer Track Course Information</h1>
+  <!-- <h1>Career Changer Track Course Information</h1>
   <p>Students in the post-bac program will follow a defined schedule of courses. Cross-disciplinary labs ("x-labs") engage students in a unique interdisciplinary curriculum. These laboratories are equivalent to completing two semesters of General Chemistry labs, Biology labs, and Physics labs, thus meeting the requirements of professional schools.</p>
   <h3>Course Plan</h3>
   <br />
-<p><strong>Pre-Matriculation</strong>: MAC1147 and CHM1025 with Bs or above.</p>
+<p><strong>Pre-Matriculation</strong>: MAC1147 and CHM1025 with Bs or above.</p> -->
 
   <table class="table">
     <tr>

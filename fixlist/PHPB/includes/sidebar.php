@@ -5,15 +5,12 @@
   <ul>
     <li><a href="admission.php">Admission</a></li>
     <li><a href="courses.php">Course Information</a></li>
-  </ul>
-  <h3>Indi Links</h3>
-  <ul>
-  <li><a href="features.php">Program Features</a></li>
-  <li><a href="finances.php">Financial Information</a></li>
-  <li><a href="faq.php">FAQ</a></li>
-  <li><a href="advising.php">Advising</a></li>
-  <li><a href="alumnisuccess.php">Alumni Success</a></li>
-  <li><a href="mailto:phpostbac@clas.ufl.edu">Contact Us</a></li>
+    <li><a href="features.php">Program Features</a></li>
+    <li><a href="finances.php">Financial Information</a></li>
+    <li><a href="faq.php">FAQ</a></li>
+    <li><a href="advising.php">Advising</a></li>
+    <li><a href="alumnisuccess.php">Alumni Success</a></li>
+    <li><a href="mailto:phpostbac@clas.ufl.edu">Contact Us</a></li>
   </ul>
 
   <ul>

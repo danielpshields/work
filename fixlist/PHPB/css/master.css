@@ -430,11 +430,11 @@ table {
 	font-family:Georgia,"Times New Roman",Times,serif;
 	font-size:13px;
 	margin:5%;
-	width:90%;
 
 }
 .table th {
 	background-color:#CECECE;
+	background:#6C9AC3;
 	border:1px solid #000000;
 	font-size:100%;
 	font-weight:bold;

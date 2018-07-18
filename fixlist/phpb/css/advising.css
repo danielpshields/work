@@ -5,3 +5,22 @@
   border-radius:15px;
   border:1px solid #000066;width:65%;
 }
+
+#apply {
+  width: 60%;
+  margin: auto;
+  background: #E28F41;
+  border: 5px solid #6C9AC3;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0 15px 0;
+}
+
+#apply h2 {
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+
+#apply a {
+  color: white;
+}
