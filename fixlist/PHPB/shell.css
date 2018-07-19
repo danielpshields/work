@@ -1,0 +1,61 @@
+html {
+  background: #ddd;
+  font-size: 25px;
+}
+
+body {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background: white;
+}
+table, tr, td, th {
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 18px;
+}
+table {
+  width: 90%;
+}
+
+.courseSchedule {
+  border: 5px solid gray;
+  width: 95%;
+  margin: auto;
+}
+
+#courseSchedule {
+  border-top: 1px solid gray;
+  padding-top: 15px;
+}
+
+
+/* #yearTwo {
+  width: 300px;
+  float: left;
+  margin-left: 20px;
+  border: 1px solid red;
+  padding: 5px;
+} */
+
+.clear {
+  clear: both;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+a {color: blue;}
+
+.elective {
+  border-radius: 5px;
+  border: 3px solid blue;
+}
+
+.preNotice {
+  width: 93%;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 25px;
+}

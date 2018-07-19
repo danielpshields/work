@@ -1,6 +1,7 @@
 <div class="orange hightlightSlug">
   <h2><span class="bigNumber orangeFont">3</span> Curriculum:</h2>
-  <p>Not all preprofessional courses are offered in UF Online.</p>
+
+  <p>Please note: UF Online degree are not the same as residential degree offerings</p>
 
   <table id="courseDifferences">
     <tr>
