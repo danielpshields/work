@@ -1,32 +1,56 @@
 <?php
   $title = "Pre-Health Post-Bac Completion Program | UF College of Liberal Arts and Sciences";
-  $page = "advising";
+  $page = "courses";
   require_once("includes/header.php");
 ?>
+
   <div id="content">
     <h1>Course Information</h1>
-    <ul>
+    <!-- <ul>
       <li><a href="courses-change.php" target="_blank">change</a></li>
       <li><a href="courses-restart.php" target="_blank">restart</a></li>
+    </ul> -->
+
+    <ul>
+      <li>Two-Year Program</li>
     </ul>
-
-      <p><strong>Pre-Matriculation</strong>: MAC1147 and CHM1025 with Bs or above.</p>
-
-    <h4 class="center">Year 1</h4>
-
-    <table class="table">
+    <table>
       <tr>
-        <th colspan="3">Year One</th>
+        <th colspan="3">Year 1</th>
+        <th colspan="2">Year 2</th>
       </tr>
       <tr>
-        <td>Fall i</td>
-        <td>Spring i</td>
+        <td>Fall</td>
+        <td>Spring</td>
         <td>Summer</td>
+        <td>Fall</td>
+        <td>Spring</td>
       </tr>
     </table>
 
+    <ul>
+      <li>Two Tracks</li>
+    </ul>
+
+    <table>
+      <tr>
+        <th style="color: blue;">Career Changers</th>
+        <th style="color: blue;">ReStart Track</th>
+      </tr>
+    </table>
+
+    <ul>
+      <li><strong>Pre-Matriculation</strong>: MAC1147 and CHM1025 with Bs or above.</li>
+    </ul>
+
+    <h2 id="courseSchedule">Course Schedule</h2>
+    <div class="courseSchedule">
+
     <h5><b>Fall 1</b></h5>
     <table class="table">
+      <tr>
+        <th colspan="3">Fall I</th>
+      </tr>
       <tr>
         <th>Course</th>
         <th>Title</th>
@@ -63,16 +87,20 @@
         <td>2</td>
       </tr>
 
+    </table>
+    <table>
       <tr>
-          <td colspan="2">Total Semester Hours:</td>
-          <td>15</td>
+        <td colspan="2">Total Semester Hours:</td>
+        <td>15</td>
       </tr>
     </table>
-
 
     <h5><b>Spring 1</b></h5>
 
     <table class="table">
+      <tr>
+        <th colspan="3">Spring 1</th>
+      </tr>
       <tr>
         <th>Course</th>
         <th>Title</th>
@@ -145,23 +173,6 @@
     </table>
 
 
-    <!-- year two -->
-    <!-- year two -->
-    <!-- year two -->
-
-    <h4>Year 2</h4>
-
-    <table class="table">
-      <tr>
-        <th colspan="2">Year Two</th>
-      </tr>
-      <tr>
-        <td>Fall ii</td>
-        <td>Spring ii</td>
-      </tr>
-    </table>
-
-
     <h5><b>Fall 2</b></h5>
 
     <table class="table">
@@ -177,7 +188,7 @@
         <td>3</td>
       </tr>
 
-      	<tr>
+        <tr>
           <td>PHY2054</td>
           <td>Physics 2</td>
           <td>4</td>
@@ -261,32 +272,51 @@
         </tr>
       </table>
 
-      <h2>Tracks</h2>
+      <div class="preNotice">
+        <ul>
+          <li>Pre-dent and pre-vet students will need <b>MCB3020/L</b>.</li>
+        </ul>
 
-      <div id="changer">
-        <h3>Career Changer Track</h3>
-        <p>Students in the post-bac program will follow a defined schedule of courses. Cross-disciplinary labs ("x-labs") engage students in a unique interdisciplinary curriculum. These laboratories are equivalent to completing two semesters of General Chemistry labs, Biology labs, and Physics labs, thus meeting the requirements of professional schools.</p>
+        <p>This course may be taken after completion of PHPB as a non-degree seeking student. There is no guarantee this course can be taken at UF due to space availability. Students interested in taking the course at UF should contact the <a href="http://microcell.ufl.edu/" target="_blank">Microbiology department</a>.</p>
       </div>
 
-      <div id="restart">
-        <h3>ReStart Track</h3>
-        <p>Students in the ReStart track will follow a defined schedule of courses. You will be expected to retake any science pre-requisites previously taken in order to demonstrate mastery of the material. Cross-disciplinary labs ("x-labs") engage students in a unique interdisciplinary curriculum. These laboratories are equivalent to completing two semesters of General Chemistry labs, Biology labs, and Physics labs, thus meeting the requirements of professional schools. Prior to matriculation in the Fall, you must complete MAC1147 and CHM1025 at UF. Online and Summer enrollment may be possible for these two pre-requisite courses.</p>
-
-      </div>
-
-      <h3>Additional Courses</h3>
-
-      <p>Pre-dent and pre-vet students will need <b>MCB3020/L</b>.</p>
-      <p>This course may be taken after completion of PHPB as a non-degree seeking student. There is no guarantee this course can be taken at UF due to space availability. Students interested in taking the course at UF should contact the <a href="http://microcell.ufl.edu/" target="_blank">Microbiology department</a>.</p>
 
 
-      <h3>Electives</h3>
-      <p>Electives could also include other <a href="http://advising.ufl.edu/prehealth/handouts/PreHealthElectives.pdf">non-science courses</a> that will enhance students' knowledge of working with people and groups.</p>
+</div><!-- end year two -->
 
-      <h4>Career Changers</h4>
+<div class="clear">
+
+</div>
+
+<h2>Tracks</h2>
+
+<div id="changer">
+  <h3>Career Changer Track</h3>
+  <p>Students in the post-bac program will follow a defined schedule of courses. Cross-disciplinary labs ("x-labs") engage students in a unique interdisciplinary curriculum. These laboratories are equivalent to completing two semesters of General Chemistry labs, Biology labs, and Physics labs, thus meeting the requirements of professional schools.</p>
+</div>
+
+<div id="restart">
+  <h3>ReStart Track</h3>
+  <p>Students in the ReStart track will follow a defined schedule of courses. You will be expected to retake any science pre-requisites previously taken in order to demonstrate mastery of the material. Cross-disciplinary labs ("x-labs") engage students in a unique interdisciplinary curriculum. These laboratories are equivalent to completing two semesters of General Chemistry labs, Biology labs, and Physics labs, thus meeting the requirements of professional schools. Prior to matriculation in the Fall, you must complete MAC1147 and CHM1025 at UF. Online and Summer enrollment may be possible for these two pre-requisite courses.</p>
+
+</div>
+
+
       <h3>Possible Electives</h3>
+      <p>Electives could also include other <a href="http://advising.ufl.edu/prehealth/handouts/PreHealthElectives.pdf">non-science courses</a> that will enhance students' knowledge of working with people and groups.</p>
       <p><i>Most courses in the College of Liberal Arts &amp; Sciences are available. A few suggestions:</i>
+
+        <div class="elective">
+          <h3>Career Changers Track:</h3>
+
       <table class="table">
+        <tr>
+          <th colspan="2">Career Changers</th>
+        </tr>
+        <tr>
+          <th>Course</th>
+          <th>Title</th>
+        </tr>
         <tr>
           <td>BSC3096</td>
           <td>Human Physiology</td>
@@ -353,6 +383,7 @@
         </tr>
       </table>
 
+    </div><!-- carrer changers elective -->
 
       <h4>Restart Track</h4>
       <h3>Possible Electives</h3>

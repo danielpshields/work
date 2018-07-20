@@ -426,7 +426,7 @@ h3#unit {
 
 table {
 	border:1px solid #000000;
-	border-collapse:collapse;
+	/* border-collapse:collapse; */
 	font-family:Georgia,"Times New Roman",Times,serif;
 	font-size:13px;
 	margin:5%;
