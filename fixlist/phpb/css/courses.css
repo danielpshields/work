@@ -2,6 +2,15 @@
 html {
   font-size: 25px;
 }
+
+#topBulletPoints {
+  border: 1px solid black;
+}
+
+#topBulletPoints li {
+  font-size: 30px;
+}
+
 table, tr, th, td {
   border: 1px solid black;
   padding: 5px;
@@ -19,9 +28,7 @@ table, tr, td, th {
   padding: 5px;
   font-size: 18px;
 }
-table {
-  width: 90%;
-}
+
 
 .courseSchedule {
   border: 5px solid gray;

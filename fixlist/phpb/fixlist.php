@@ -9,8 +9,11 @@
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1XgTFQRJE7zqoZXopfseWwSSqE9icUeJ1" width="640" height="480"></iframe>
 
-<p id="slug">There's a lot to do. So, just start with structural changes. Then maybe add in content changes over time. Then hop. Then hop.</p>
 
+
+
+<p id="slug">There's a lot to do. So, just start with structural changes. Then maybe add in content changes over time. Then hop. Then hop.</p>
+<p id="slugSuggest">""<i>The first stpe to helping others is helping yourself</i>""</p>
 
 <div id="schools">
   <h2>School Comparisons</h2>
@@ -31,9 +34,10 @@
 </ul>
 <h2>Sidebar</h2>
 <ul>
-<li>margins on social icons</li>
-<li>margins...</li>
-<li>Advising should go under contact, course expectations should be placed elsewhere</li>
+  <li>The CLAS Pre-Health [img] needs to be replaced by an H1. The top two links need to be converted to ul lis </li>
+  <li>margins on social icons</li>
+  <li>margins...</li>
+  <li>Advising should go under contact, course expectations should be placed elsewhere</li>
 </ul>
 
 <h2>NewStudents</h2>

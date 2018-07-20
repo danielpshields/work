@@ -9,12 +9,12 @@
 		<link rel="stylesheet" href="css/master.css">
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<link rel="stylesheet" href="css/<?php echo $page; ?>.css">
-
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	</head>
 
 	<body>
 		<header>
-			<h1 id="dept"><a href="http://www.clas.ufl.edu/">College of Liberal Arts and Sciences<span></span></a><a name="top" id="top">#nbsp;</a></h1>
+			<h1 id="dept"><a href="http://www.clas.ufl.edu/">College of Liberal Arts and Sciences</a></h1>
 			<h2 id="uf"><a href="http://www.ufl.edu/">University of Florida<span></span></a></h2>
 		</header>
 		<div id="mainContainer">
