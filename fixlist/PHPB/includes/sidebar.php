@@ -1,6 +1,5 @@
 <nav>
-
-  <a id="navHeaderImage" href="index.php"><img src="http://www.clas.ufl.edu/prehealthpostbac/images/title2.jpg" border="0"></a>
+  <h3><a href="index.php">Pre-Health Postbac Program</a></h3>
 
   <ul>
     <li><a href="admission.php">Admission</a></li>
@@ -18,7 +17,6 @@
   </ul>
   <div id="contactSections">
 
-  <h4>Pre-Health Postbac Program (PHPB)</h4>
     <p>
       Farrior Hall<br>
       P.O Box 112015<br>
@@ -27,7 +25,7 @@
       F: 352.392.2905<br>
       Email: <a href="mailto:phpostbac@clas.ufl.edu">phpostbac@clas.ufl.edu</a>
     </p>
-  </div>
+  </div> <!-- end contact sections -->
 
   <div id="socialMediaSection">
     <div class="socialmedia" id="iconFB">

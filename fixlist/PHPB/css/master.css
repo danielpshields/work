@@ -1,21 +1,3 @@
-/* start links */
-/* start links */
-/* start links */
-a {text-decoration: none;}
-a:link,  a:visited {color:#0021a5;} /* blue */
-a:hover, a:active  {color:#ff4a00;} /* orange */
-#content p a, #content li a { /* dark blue */ border-bottom: 1px solid #0021A5;}
-#content p a:link, #content p a:visited {color: #24b; /* blue */}
-#content li a:hover, #content li a:active, #content p a:hover, #content p a:active {color: #f40; /* orange */text-decoration: none;}
-nav a:link {display: inline-block;width: 100%;}
-nav a:link, nav a:visited {color: #FFFFCC;}
-nav li a:hover, nav p a:hover { /* keep, nav li background hover */background: #5791d2;}
-footer a:link,a:visited {color: #000066;text-decoration: none;}
-footer a:hover {color: #FF6600;}
-/* end links */
-/* end links */
-/* end links */
-
 * {
 	margin:0;
 	padding:0;
@@ -23,20 +5,17 @@ footer a:hover {color: #FF6600;}
 }
 
 body {
-	background: url(../images/bg2.gif) repeat-x;
-	text-align:center;
+	background: #2b72fe;
 }
 
 
-#mainContainer{
+#container {
 	width: 100%;
-	max-width:960px;
-	background:#006699 url(../images/content_bg2.jpg);
+	max-width: 960px;
 	margin:0 auto;
 	padding:0 0px;
 	text-align:left;
 }
-
 
 #content {
 	background:#FFF;
@@ -44,20 +23,64 @@ body {
 	width: 100%;
 	max-width:715px;
 	padding-bottom: 12px;
-  min-height: 750px
 }
 
 
-header {
-	height:45px;
+header nav {
+	/* height: 45px; */
 	margin:0 auto;
 	text-align:left;
-	width:960px;
-	background-color: #2b72ff;
+	background: #2b72ff;
+	/* display: none; */
 }
 
-header li {
+#dept {
+	border: 1px solid black;
+	width: 45%;
 	float: left;
+}
+
+#uf {
+	width: 45%;
+	border: 1px solid black;
+	float: right;
+}
+
+header img {width: 100%;}
+
+header nav {
+	background-color: #2b72ff;
+	/* border: 1px solid black; */
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav li {
+	width: 32.7%;
+	float: left;
+	border: 1px dotted white;
+	text-align: center;
+	list-style: none;
+	line-height: 2;
+}
+header li a {
+	color: white;
+}
+
+#navOne {
+	width: 70%;
+}
+
+#navTwo {
+	display: none;
+}
+
+#navThree {
+	background: #E28F41;
+	width: 28%;
 }
 
 
@@ -68,8 +91,8 @@ h1 {
 }
 
 h1#dept {
-	height: 50px;
-	width: 285px;
+	/* height: 50px;
+	width: 285px; */
 	font-size: 14px;
 	overflow: hidden;
 }
@@ -80,26 +103,20 @@ h1#dept a span {
 	display: block;
 	background: url(../images/unitHeader2.gif);
 	width: 100%;
-	height: 100%;
 }
 
 h2#uf {
-	font-size: 14px;
-	width: 195px;
-	height: 50px;
-	left: 763px;
+	/* width: 195px;
+	height: 50px; */
 	overflow: hidden;
-	font-size: 14px;
 }
 
 h2#uf a span {
 	background-image: url(../images/UF-logo.png);
 	background-repeat:no-repeat;
-
 	display:block;
-
-	width: 195px;
-	height: 38px;
+	/* width: 195px;
+	height: 38px; */
 	font-size: 1px;
 	cursor: pointer;
 }
@@ -131,7 +148,7 @@ ol {
   background-color:#8bc2ff;
   margin:10px 8px;
   padding:4px;
-  width:45%;
+  /* width:45%; */
   border-radius:8px;
   min-height:135px;
 }
@@ -144,7 +161,7 @@ ol {
 
 .input{display:inline;}
 
-.input select{width:32%;}
+/* .input select{width:32%;} */
 
 
 #content h3 {
@@ -223,27 +240,21 @@ margin:15px;
 /* nav */
 
 nav { /* width: 240px; */
-	width: 25%;
-}
-
-#navHeaderImage {
-	border: 1px dashed #333;
+	width: 100%;
 }
 
 nav h3 {
 	text-align: center;
 	padding: 20px 0 0px 0;
+	border: 1px dashed #333;
 }
 
-
 nav h4 {
-	/* background:url(../images/pointer_small.gif) no-repeat 9px 17px; */
 	clear:left;
 	letter-spacing:1px;
 	padding:12px 0px 0 20px;
-	font: 14px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
 	color: #FFFFCC;
-	width: 220px;
+	/* width: 220px; */
 }
 
 nav ul {
@@ -252,7 +263,6 @@ nav ul {
 }
 
 nav li {
-	font:  14px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
 	color: #fefefe;
 	width: 100%;
 	list-style: disc;
@@ -262,12 +272,11 @@ nav li {
 nav p {
 	letter-spacing:1px;
 	padding:7px 0px 0 20px;
-	font:12px 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
 	color: #ffffff;
-	width: 220px;
+	/* width: 220px; */
 }
 
-nav img{border: none;}
+/* nav img{border: none;} */
 
 #contactSections {
 	border: 1px solid white;
@@ -283,7 +292,7 @@ nav img{border: none;}
 #secHeader {
 	height:194px;
 	margin-bottom:14px;
-	width:516px;
+	/* width:516px; */
 }
 
 #secHeader span {
@@ -294,7 +303,7 @@ nav img{border: none;}
 #navcontainer {
     left:0px;
 	padding:0px 0px 0;
-	width:230px;
+	/* width:230px; */
 	float: left;
 	height: 532px;
 }
@@ -305,7 +314,7 @@ nav img{border: none;}
 
 h3#unit {
 	font-size: 14px;
-	width: 240px;
+	/* width: 240px; */
 	height: 110px;
 	overflow: hidden;
 	font-size: 14px;
@@ -313,7 +322,7 @@ h3#unit {
 
 #secondc {
 	float: right;
-	width: 240px;
+	/* width: 240px; */
 	padding-top: 0px;
 	background-color: #FFFFFF;
 	padding-bottom: 8px;
@@ -321,7 +330,7 @@ h3#unit {
 
 #callout {
 	float: right;
-	width: 240px;
+	/* width: 240px; */
 	padding-top: 0px;
 	background-color: #F1F1F1;
 	padding-bottom: 8px;
@@ -330,7 +339,7 @@ h3#unit {
 
 #photos, #photos2 {
 	float: right;
-	width: 180px;
+	/* width: 180px; */
 	padding-top: 0px;
 	background-color: #FFFFFF;
 	padding-bottom: 8px;
@@ -351,7 +360,7 @@ h3#unit {
 }
 
 #flash {
-	width: 516px;
+	/* width: 516px; */
 	height: 200px;
 	overflow: hidden;
 	background-image: url(../images/temp.jpg);
@@ -438,7 +447,7 @@ table {
 	border:1px solid #000000;
 	padding:5px;
 	margin:5px;
-	width:50%;
+	/* width:50%; */
 	margin-left:25%;
 	margin-bottom:10px;
 	border-radius:15px;
@@ -446,7 +455,7 @@ table {
 
 #phpbcontact {
 	float:right;
-	width:240px;
+	/* width:240px; */
 	border:1px solid #ff4a00;
 	margin:8px;
 	padding:5px;
@@ -563,7 +572,7 @@ footer ul,footer p {
 	float:left;
 	font-size:60%;
 	line-height:1.4em;
-	width:550px;
+	/* width:550px; */
 	color: #000066;
 }
 
@@ -573,10 +582,8 @@ footer h3 {
 
 h3#unit a span {
 	background-image: url(../images/spacer.gif);
-	top:0;
-	left:0;
 	display:block;
-	width: 244px;
+	/* width: 244px; */
 	height: 110px;
 	font-size: 1px;
 	cursor: pointer;
@@ -584,16 +591,14 @@ h3#unit a span {
 
 /* from incude header */
 
-#secHeader span{background: url(/hr/_styles/images/marquee/header1.jpg)}
+/* #secHeader span{background: url(/hr/_styles/images/marquee/header1.jpg)} */
 
 /* restart styles  */
 
 #footerHome { /* footer UF logo */
 	background:url(../images/uf_large.gif) no-repeat 0 0;
 	height:62px;
-	right:0;
-	top:10px;
-	width:188px;
+	/* width:188px; */
 }
 
 .center {
@@ -604,3 +609,31 @@ h3#unit a span {
 .clear {
 	clear: both;
 }
+
+
+
+/* start links */
+/* start links */
+/* start links */
+a {text-decoration: none;}
+a:link,  a:visited {color:#0021a5;} /* blue */
+a:hover, a:active  {color:#ff4a00;} /* orange */
+#content p a, #content li a { /* dark blue */ border-bottom: 1px solid #0021A5;}
+#content p a:link, #content p a:visited {color: #24b; /* blue */}
+#content li a:hover, #content li a:active, #content p a:hover, #content p a:active {color: #f40; /* orange */text-decoration: none;}
+nav a:link {display: inline-block;width: 100%;}
+nav a:link, nav a:visited {color: #FFFFCC;}
+nav li a:hover, nav p a:hover { /* keep, nav li background hover */background: #5791d2;}
+footer a:link,a:visited {color: #000066;text-decoration: none;}
+footer a:hover {color: #FF6600;}
+
+header li a:visited {
+	color: white;
+}
+/* end links */
+/* end links */
+/* end links */
+
+/* #dept {
+	background: white;
+} */

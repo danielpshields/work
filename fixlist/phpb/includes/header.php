@@ -13,12 +13,29 @@
 	</head>
 
 	<body>
+
 		<header>
-			<ul>
-				<!-- <li id="dept"><a href="http://www.clas.ufl.edu/"><img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"></a></li> -->
-				<li id="dept"><a href="index.php"><img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"></a></li>
-				<li id="uf"><a href="http://www.ufl.edu/">University of Florida<span></span></a></li>
-				<div class="clear"></div>
-			</ul>
+			<div id="dept">
+				<a href="http://www.clas.ufl.edu/">
+					<img src="images/clas.gif" alt="College of Liberal Arts and Sciences">
+				</a>
+			</div>
+			<div id="uf">
+				<a href="http://www.ufl.edu/">
+					<img src="images/uf.png">
+				</a>
+			</div>
+			<div class="clear"></div>
+
+			<nav>
+				<ul>
+					<li id="navOne"><a href="index.php">PHPB</a></li>
+					<li id="navTwo"><a href="admission.php">Admission</a></li>
+					<li id="navThree"><a href="apply.php">Apply</a></li>
+					<div class="clear"></div>
+				</ul>
+			</nav>
+
 		</header>
-		<div id="mainContainer">
+
+		<div id="container">
