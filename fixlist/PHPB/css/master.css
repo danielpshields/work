@@ -1,73 +1,65 @@
+/* start links */
+/* start links */
+/* start links */
+a {text-decoration: none;}
+a:link,  a:visited {color:#0021a5;} /* blue */
+a:hover, a:active  {color:#ff4a00;} /* orange */
+#content p a, #content li a { /* dark blue */ border-bottom: 1px solid #0021A5;}
+#content p a:link, #content p a:visited {color: #24b; /* blue */}
+#content li a:hover, #content li a:active, #content p a:hover, #content p a:active {color: #f40; /* orange */text-decoration: none;}
+nav a:link {display: inline-block;width: 100%;}
+nav a:link, nav a:visited {color: #FFFFCC;}
+nav li a:hover, nav p a:hover { /* keep, nav li background hover */background: #5791d2;}
+footer a:link,a:visited {color: #000066;text-decoration: none;}
+footer a:hover {color: #FF6600;}
+/* end links */
+/* end links */
+/* end links */
+
 * {
 	margin:0;
 	padding:0;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* body, p, li  {
-  font-family : verdana, geneva, Arial, Helvetica, sans-serif;
- }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family : 'Trebuchet MS', verdana, geneva, Arial, Helvetica, sans-serif;
-} */
-
 body {
 	background: url(../images/bg2.gif) repeat-x;
 	text-align:center;
 }
 
-/* start links */
-a {text-decoration: none;}
-a:link,  a:visited {color:#0021a5;} /* blue */
-a:hover, a:active  {color:#ff4a00;} /* orange */
 
-#content p a, #content li a { /* dark blue */
-	border-bottom: 1px solid #0021A5;
-}
-#content p a:link, #content p a:visited {color: #24b; /* blue */}
-
-#content li a:hover, #content li a:active, #content p a:hover, #content p a:active {
-	color: #f40; /* orange */
-	text-decoration: none;
-}
-
-nav a:link {
-	display: inline-block;
+#mainContainer{
 	width: 100%;
+	max-width:960px;
+	background:#006699 url(../images/content_bg2.jpg);
+	margin:0 auto;
+	padding:0 0px;
+	text-align:left;
 }
 
-nav a:link, nav a:visited {
-	color: #FFFFCC;
+
+#content {
+	background:#FFF;
+	float:right;
+	width: 100%;
+	max-width:715px;
+	padding-bottom: 12px;
+  min-height: 750px
 }
 
-nav li a:hover, nav p a:hover { /* keep, nav li background hover */
-	background: #5791d2;
-}
-
-footer a:link,a:visited {
-	color: #000066;
-	text-decoration: none;
-}
-footer a:hover {
-color: #FF6600;
-}
-
-/* end links */
-/* end links */
-/* end links */
-/* end links */
-/* end links */
-/* end links */
 
 header {
 	height:45px;
 	margin:0 auto;
-	position:relative;
 	text-align:left;
 	width:960px;
 	background-color: #2b72ff;
 }
+
+header li {
+	float: left;
+}
+
 
 h1 {
 	font-size:24px;
@@ -76,7 +68,6 @@ h1 {
 }
 
 h1#dept {
-	position: relative;
 	height: 50px;
 	width: 285px;
 	font-size: 14px;
@@ -84,7 +75,6 @@ h1#dept {
 }
 
 h1#dept a span {
-	position: absolute;
 	top: 0;
 	left: 0;
 	display: block;
@@ -97,9 +87,7 @@ h2#uf {
 	font-size: 14px;
 	width: 195px;
 	height: 50px;
-	top:6px;
 	left: 763px;
-	position: absolute;
 	overflow: hidden;
 	font-size: 14px;
 }
@@ -107,10 +95,9 @@ h2#uf {
 h2#uf a span {
 	background-image: url(../images/UF-logo.png);
 	background-repeat:no-repeat;
-	top:0;
-	left:0;
+
 	display:block;
-	position: absolute;
+
 	width: 195px;
 	height: 38px;
 	font-size: 1px;
@@ -137,15 +124,28 @@ ol {
 	margin:15px;
 }
 
-#content {
-	background:#FFF;
-	float:right;
-	position:relative;
-	width:515px;
-	z-index:5;
-	padding-bottom: 12px;
-  min-height: 750px
+
+#content .pane{
+  border:1px solid #FF4a00;
+  float:left;
+  background-color:#8bc2ff;
+  margin:10px 8px;
+  padding:4px;
+  width:45%;
+  border-radius:8px;
+  min-height:135px;
 }
+
+#content .pane img{
+	margin:6px;
+}
+
+#content .pane h3, #content .pane p {text-align:center;color:#000066;margin:2px;}
+
+.input{display:inline;}
+
+.input select{width:32%;}
+
 
 #content h3 {
 	font-size:18px;
@@ -213,14 +213,6 @@ text-align:center;
 margin:15px;
 }
 
-#mainContainer {
-	background:#006699 url(../images/content_bg2.jpg);
-	margin:0 auto;
-	padding:0 0px;
-	position:relative;
-	text-align:left;
-	width:760px;
-}
 
 /* nav */
 /* nav */
@@ -291,23 +283,19 @@ nav img{border: none;}
 #secHeader {
 	height:194px;
 	margin-bottom:14px;
-	position:relative;
 	width:516px;
 }
 
 #secHeader span {
 	height:100%;
-	position:absolute;
 	width:100%;
 }
 
 #navcontainer {
     left:0px;
 	padding:0px 0px 0;
-	position:absolute;
 	width:230px;
 	float: left;
-	z-index: 4;
 	height: 532px;
 }
 
@@ -319,9 +307,6 @@ h3#unit {
 	font-size: 14px;
 	width: 240px;
 	height: 110px;
-	top:0px;
-	left: 0px;
-	position: relative;
 	overflow: hidden;
 	font-size: 14px;
 }
@@ -497,7 +482,6 @@ table {
 }
 
 .input span {
-  position: absolute;
   z-index: 1;
   cursor: text;
   pointer-events: none;
@@ -560,7 +544,6 @@ footer {
 	color:#FFFFFF;
 	height:50px;
 	padding:10px 0 25px;
-	position:relative;
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: #CCCCCC;
@@ -593,7 +576,6 @@ h3#unit a span {
 	top:0;
 	left:0;
 	display:block;
-	position: absolute;
 	width: 244px;
 	height: 110px;
 	font-size: 1px;
@@ -609,7 +591,6 @@ h3#unit a span {
 #footerHome { /* footer UF logo */
 	background:url(../images/uf_large.gif) no-repeat 0 0;
 	height:62px;
-	position:absolute;
 	right:0;
 	top:10px;
 	width:188px;

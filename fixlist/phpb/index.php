@@ -7,7 +7,7 @@
 
 <div id="content">
 
-  <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources" width="715" height="194" />
+  <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources">
 
   <h1>Pre-Health Post-Baccalaureate Program (PHPB)</h1>
   <p>The University of Florida's Pre-health Post-Baccalaureate Program (PHPB) offers dedicated and motivated students an opportunity to complete academic pre-requisite courses for admission to medical, dental, or veterinary school. PHPB is a rigorous, two year structured program.</p>

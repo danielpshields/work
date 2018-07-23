@@ -14,7 +14,11 @@
 
 	<body>
 		<header>
-			<h1 id="dept"><a href="http://www.clas.ufl.edu/">College of Liberal Arts and Sciences</a></h1>
-			<h2 id="uf"><a href="http://www.ufl.edu/">University of Florida<span></span></a></h2>
+			<ul>
+				<!-- <li id="dept"><a href="http://www.clas.ufl.edu/"><img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"></a></li> -->
+				<li id="dept"><a href="index.php"><img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"></a></li>
+				<li id="uf"><a href="http://www.ufl.edu/">University of Florida<span></span></a></li>
+				<div class="clear"></div>
+			</ul>
 		</header>
 		<div id="mainContainer">

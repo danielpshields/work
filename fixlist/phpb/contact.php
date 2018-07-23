@@ -6,13 +6,13 @@
 <div id="content">
 
 
-  <h4>Office of Health and Legal Professions Advising (OHLPA) Pre-Health Postbac Program</h4>
+  <h4>Pre-Health Postbac Program (PHPB)</h4>
   <p>Farrior Hall<br />
   P.O Box 112015<br />
   Gainesville FL 32611<br />
-  P: 352.273.4083<br />
-  F: 352.392.2905<br />
-  Email: <a href="mailto:phpostbac@clas.ufl.edu">phpostbac@clas.ufl.edu</a>
+  (352) 273-4083<br />
+  Fax: 352.392.2905<br />
+  <a href="mailto:phpostbac@clas.ufl.edu">phpostbac@clas.ufl.edu</a>
   </p>
 
 

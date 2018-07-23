@@ -10,7 +10,7 @@
     <li><a href="faq.php">FAQ</a></li>
     <li><a href="advising.php">Advising</a></li>
     <li><a href="alumnisuccess.php">Alumni Success</a></li>
-    <li><a href="mailto:phpostbac@clas.ufl.edu">Contact Us</a></li>
+    <li><a href="contact.php">Contact Us</a></li>
   </ul>
 
   <ul>
