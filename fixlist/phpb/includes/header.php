@@ -16,13 +16,15 @@
 
 		<header>
 			<div id="dept">
-				<a href="http://www.clas.ufl.edu/">
-					<img src="images/clas.gif" alt="College of Liberal Arts and Sciences">
+				<!-- <a href="http://www.clas.ufl.edu/"> -->
+				<a href="index.php">
+					<img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences">
 				</a>
 			</div>
 			<div id="uf">
-				<a href="http://www.ufl.edu/">
-					<img src="images/uf.png">
+				<a href="index.php">
+				<!-- <a href="http://www.ufl.edu/"> -->
+					<img src="images/UF-logo.png">
 				</a>
 			</div>
 			<div class="clear"></div>

@@ -2,12 +2,11 @@
 	margin:0;
 	padding:0;
 	font-family: 'Source Sans Pro', sans-serif;
-}
+}	html {	font-size: 16px;}
 
 body {
 	background: #2b72fe;
 }
-
 
 #container {
 	width: 100%;
@@ -24,6 +23,43 @@ body {
 	max-width:715px;
 	padding-bottom: 12px;
 }
+
+
+h1 {
+	font-size: 1.4rem;
+	color:#000066;
+	width: 95%;
+	margin: 6px auto 0 auto;
+}
+
+.slug {
+	width: 90%;
+	font-size: 1rem;
+	margin: 16px auto 20px auto;
+	text-align: center;
+	color: #777;
+}
+
+#hightlights {
+	border: 1px solid black;
+}
+
+.highlight {
+	border: 1px solid gray;
+}
+
+h2 {
+	font-size: 1.2rem;
+	width: 95%;
+	margin: auto;
+}
+
+
+
+
+
+
+
 
 
 header nav {
@@ -84,43 +120,6 @@ header li a {
 }
 
 
-h1 {
-	font-size:24px;
-	color:#000066;
-	margin: 5px 0px 6px 12px;
-}
-
-h1#dept {
-	/* height: 50px;
-	width: 285px; */
-	font-size: 14px;
-	overflow: hidden;
-}
-
-h1#dept a span {
-	top: 0;
-	left: 0;
-	display: block;
-	background: url(../images/unitHeader2.gif);
-	width: 100%;
-}
-
-h2#uf {
-	/* width: 195px;
-	height: 50px; */
-	overflow: hidden;
-}
-
-h2#uf a span {
-	background-image: url(../images/UF-logo.png);
-	background-repeat:no-repeat;
-	display:block;
-	/* width: 195px;
-	height: 38px; */
-	font-size: 1px;
-	cursor: pointer;
-}
-
 h3,h4 {
 	font-weight:400;
 }
@@ -157,7 +156,10 @@ ol {
 	margin:6px;
 }
 
-#content .pane h3, #content .pane p {text-align:center;color:#000066;margin:2px;}
+#content .pane h3, #content .pane p {
+	text-align:center;
+	color:#000066;
+	margin:2px;}
 
 .input{display:inline;}
 
@@ -213,12 +215,9 @@ margin: 10px;
 padding:0 5px 0 20px;
 }
 
-#content p, #secondc p {
-	line-height:18px;
+/* #content p {
 	margin:2px 10px 15px 13px;
-	/* font-family: Georgia, "Times New Roman", Times, serif; */
-	font-size: 13px;
-}
+} */
 
 #content p#listing {
 letter-spacing:-1px;
@@ -239,17 +238,17 @@ margin:15px;
 /* nav */
 /* nav */
 
-nav { /* width: 240px; */
+.sidebar nav { /* width: 240px; */
 	width: 100%;
 }
 
-nav h3 {
+.sidebar nav h3 {
 	text-align: center;
 	padding: 20px 0 0px 0;
 	border: 1px dashed #333;
 }
 
-nav h4 {
+.sidebar nav h4 {
 	clear:left;
 	letter-spacing:1px;
 	padding:12px 0px 0 20px;
@@ -257,19 +256,19 @@ nav h4 {
 	/* width: 220px; */
 }
 
-nav ul {
+.sidebar nav ul {
 	margin-left: 25px;
 	margin-top: 10px;
 }
 
-nav li {
+.sidebar nav li {
 	color: #fefefe;
 	width: 100%;
 	list-style: disc;
 }
 
 
-nav p {
+.sidebar nav p {
 	letter-spacing:1px;
 	padding:7px 0px 0 20px;
 	color: #ffffff;
@@ -637,3 +636,8 @@ header li a:visited {
 /* #dept {
 	background: white;
 } */
+
+
+.small {
+	font-size: 1rem;
+}
