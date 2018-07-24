@@ -1,0 +1,29 @@
+/* <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources" width="715" height="194" /> */
+
+#content img {
+  width: 100%;
+  /* width="715" height="194" */
+}
+
+.trackHighlight {
+  width: 76%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 17%;
+}
+
+.trackHighlight ul li {
+  font-size: 1.2rem;
+  color: #4268a5;
+  margin-bottom: 5px;
+}
+
+.trackHighlight p {
+  width: 100%;
+  padding-right: 20px;
+}
+
+#trackTable {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

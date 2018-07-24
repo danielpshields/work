@@ -6,7 +6,6 @@
 
 <div id="content">
 <h1>Course Information</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
   <div id="topBulletPoints">
     <ul>
@@ -38,15 +37,27 @@
       </tr>
     </table>
 
-    <ul>
-      <li><strong>Pre-Matriculation</strong>: MAC1147 and CHM1025 with Bs or above.</li>
-    </ul>
 
   </div> <!-- id div Top Bullet Points -->
 
 
+  <section>
+    <h2>Tracks</h2>
+    <div id="changer">
+      <h3>Career Changer Track</h3>
+      <p>Students in the post-bac program will follow a defined schedule of courses. Cross-disciplinary labs ("x-labs") engage students in a unique interdisciplinary curriculum. These laboratories are equivalent to completing two semesters of General Chemistry labs, Biology labs, and Physics labs, thus meeting the requirements of professional schools.</p>
+    </div>
+    <div id="restart">
+      <h3>ReStart Track</h3>
+      <p>Students in the ReStart track will follow a defined schedule of courses. You will be expected to retake any science pre-requisites previously taken in order to demonstrate mastery of the material. Cross-disciplinary labs ("x-labs") engage students in a unique interdisciplinary curriculum. These laboratories are equivalent to completing two semesters of General Chemistry labs, Biology labs, and Physics labs, thus meeting the requirements of professional schools. Prior to matriculation in the Fall, you must complete MAC1147 and CHM1025 at UF. Online and Summer enrollment may be possible for these two pre-requisite courses.</p>
+    </div>
+  </section>
+
 
 <h2 id="courseSchedule">Course Schedule</h2>
+<ul>
+  <li><strong>Pre-Matriculation</strong>: MAC1147 and CHM1025 with Bs or above.</li>
+</ul>
 
 <div class="courseSchedule">
   <h5><b>Fall 1</b></h5>
@@ -241,18 +252,6 @@
   </div>
 </div><!-- end Course Schedule Div -->
 
-<h2>Tracks</h2>
-
-<div id="changer">
-<h3>Career Changer Track</h3>
-<p>Students in the post-bac program will follow a defined schedule of courses. Cross-disciplinary labs ("x-labs") engage students in a unique interdisciplinary curriculum. These laboratories are equivalent to completing two semesters of General Chemistry labs, Biology labs, and Physics labs, thus meeting the requirements of professional schools.</p>
-</div>
-
-<div id="restart">
-<h3>ReStart Track</h3>
-<p>Students in the ReStart track will follow a defined schedule of courses. You will be expected to retake any science pre-requisites previously taken in order to demonstrate mastery of the material. Cross-disciplinary labs ("x-labs") engage students in a unique interdisciplinary curriculum. These laboratories are equivalent to completing two semesters of General Chemistry labs, Biology labs, and Physics labs, thus meeting the requirements of professional schools. Prior to matriculation in the Fall, you must complete MAC1147 and CHM1025 at UF. Online and Summer enrollment may be possible for these two pre-requisite courses.</p>
-
-</div>
 
 
 <div class="elective">
@@ -293,10 +292,6 @@
 <tr>
 <td>ZOO3713C</td>
 <td>Functional Vertebrate Anatomy</td>
-</tr>
-<tr>
-<td>SYO4400</td>
-<td>Medical Sociology</td>
 </tr>
 <tr>
 <td>PSB3340</td>
