@@ -2,7 +2,7 @@
 	margin:0;
 	padding:0;
 	font-family: 'Source Sans Pro', sans-serif;
-}	html {	font-size: 16px;}
+}	html {font-size: 16px;}
 
 body {
 	background: #2b72fe;
@@ -24,12 +24,70 @@ body {
 	padding-bottom: 12px;
 }
 
+#clasUfNavBar {
+	height: 42px;
+}
+
+header {
+	border-bottom: 1px solid gray;
+}
+
+header img {
+	width: 90px;
+	height: 20px;
+	margin-top: 10px;
+}
+
+#dept {float: left; margin-top: 2px; margin-left: 30px;}
+#uf {float: right;margin-right: 20px;}
+
+
+header nav {
+	width: 100%;
+	min-width: 315px;
+	margin: 0 auto;
+	/* background: #2b72ff; */
+}
+
+header nav ul, header nav ul li {
+	margin: 0;
+	padding: 0;
+}
+
+header nav li {
+	float: left;
+	outline-style: solid;
+	outline-width: 1px;
+	outline-color: #fff;
+	text-align: center;
+	list-style: none;
+	line-height: 2;
+}
+header li a {color: 1px solid white;}
+
+#navOne {
+	width: 69%;
+}
+
+#navTwo {
+	display: none;
+}
+
+#navThree {
+	background: #E28F41;
+	width: 30.7%;
+}
+
+/* end nav  */
+/* end nav  */
+/* end nav  */
 
 h1 {
 	font-size: 1.4rem;
 	color:#000066;
 	color: #0021A5;
 	width: 92%;
+	width: 86%;
 	margin: 8px auto 0 auto;
 }
 
@@ -141,70 +199,6 @@ td {
 	vertical-align:top;
 }
 
-
-
-
-
-
-
-
-header nav {
-	/* height: 45px; */
-	margin:0 auto;
-	text-align:left;
-	background: #2b72ff;
-	/* display: none; */
-}
-
-#dept {
-	border: 1px solid black;
-	width: 45%;
-	float: left;
-}
-
-#uf {
-	width: 45%;
-	border: 1px solid black;
-	float: right;
-}
-
-header img {width: 100%;}
-
-header nav {
-	background-color: #2b72ff;
-	/* border: 1px solid black; */
-}
-
-header nav ul {
-	margin: 0;
-	padding: 0;
-}
-
-header nav li {
-	width: 32.7%;
-	float: left;
-	border: 1px dotted white;
-	text-align: center;
-	list-style: none;
-	line-height: 2;
-}
-header li a {
-	color: white;
-}
-
-#navOne {
-	width: 70%;
-}
-
-#navTwo {
-	display: none;
-}
-
-#navThree {
-	background: #E28F41;
-	width: 28%;
-}
-
 /* ul {
 	list-style:none;
 } */
@@ -242,7 +236,6 @@ ol {
 
 #content h4 {
 	color:#0066CC;
-	font:normal 14px Georgia, "Times New Roman", Times, serif;
 	margin:5px 0 5px 13px;
 	border-top-width: 1px;
 	border-top-style: dotted;
@@ -251,13 +244,11 @@ ol {
 }
 #content h5 {
 	color:#000000;
-	font:normal 14px Georgia, "Times New Roman", Times, serif;
 	margin: 5px 0 5px 13px;
 	padding-top: 5px;
 }
 #content h6 {
 	color:#000000;
-	font:normal 12px Georgia, "Times New Roman", Times, serif;
 	margin:5px 0 5px 13px;
 	padding-top: 5px;
 	letter-spacing: 2px;
@@ -290,14 +281,8 @@ margin:15px;
 /* nav */
 /* nav */
 
-.sidebar nav { /* width: 240px; */
+.sidebar nav {
 	width: 100%;
-}
-
-.sidebar nav h3 {
-	text-align: center;
-	padding: 20px 0 0px 0;
-	border: 1px dashed #333;
 }
 
 .sidebar nav h4 {
@@ -309,35 +294,80 @@ margin:15px;
 }
 
 .sidebar nav ul {
-	margin-left: 25px;
-	margin-top: 10px;
+	margin: 0;
 }
 
 .sidebar nav li {
 	color: #fefefe;
-	width: 100%;
-	list-style: disc;
-}
-
-
-.sidebar nav p {
-	letter-spacing:1px;
-	padding:7px 0px 0 20px;
-	color: #ffffff;
-	/* width: 220px; */
-}
-
-/* nav img{border: none;} */
-
-#contactSections {
-	border: 1px solid white;
-	margin-top: 15px;
+	padding: 15px 0;
+	margin-top: 0;
+	text-align: center;
+	border-top: 1px solid black;
 }
 
 #newlyAdmittedLink {
-	background: orange;
-	border: 3px solid blue;
+	background: #E28F41;
+	/* border: 3px solid #6C9AC3; */
+	font-weight: 500;
+	border-bottom: 1px solid black;
 }
+
+#newlyAdmittedLink a {
+	color: white;
+}
+
+#contactSections {
+	border: 1px solid white;
+	background: white;
+}
+
+#contactSections a, #contactSections p {
+	color: #444;
+}
+
+#contactSections h3 a {
+	color: #436f96;
+	padding: 20px 0 0px 0;
+}
+
+#contactSections p {
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+
+/* social media section */
+/* social media section */
+/* social media section */
+
+
+#socialMediaSection {
+	border-top: 1px solid #d0d0d0;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background: none;
+	width: 70%;
+	margin: 20px auto 15px auto;
+	background: white;
+}
+
+.socialmedia {
+	width: 32.8%;
+	float: left;
+}
+.socialmedia img {
+	display: block;
+	margin: auto;
+	opacity: 0.6;
+}
+.socialmedia img:hover {opacity: 1;}
+
+
+
+
+
+
+
+
 
 
 #secHeader {
@@ -351,13 +381,13 @@ margin:15px;
 	width:100%;
 }
 
-#navcontainer {
+/* #navcontainer {
     left:0px;
 	padding:0px 0px 0;
-	/* width:230px; */
+	/* width:230px; * /
 	float: left;
 	height: 532px;
-}
+} */
 
 * html #related li {
 	float:none;
@@ -520,7 +550,6 @@ h3#unit {
   z-index: 0;
   padding: 3px;
   margin: 0 0 10px 0;
-  font: inherit;
   line-height: 13px;
 }
 
@@ -528,26 +557,6 @@ h3#unit {
   /* Unfortunately selects don't respond well to padding. They need an explicit height. */
   height: 30px;
 }
-
-#socialMediaSection {
-	background: none;
-	width: 70%;
-	margin: auto;
-	margin-top: 15px;
-	border-top: 1px solid #a0a0a0;
-	padding-top: 15px;
-}
-
-.socialmedia {
-	width: 32.8%;
-	float: left;
-}
-.socialmedia img {
-	display: block;
-	margin: auto;
-	opacity: 0.6;
-}
-.socialmedia img:hover {opacity: 1;}
 
 
 /* alex style: index.html */

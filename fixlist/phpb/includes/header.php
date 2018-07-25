@@ -15,19 +15,19 @@
 	<body>
 
 		<header>
-			<div id="dept">
-				<!-- <a href="http://www.clas.ufl.edu/"> -->
-				<a href="index.php">
-					<img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences">
-				</a>
-			</div>
-			<div id="uf">
-				<a href="index.php">
-				<!-- <a href="http://www.ufl.edu/"> -->
-					<img src="images/UF-logo.png">
-				</a>
-			</div>
-			<div class="clear"></div>
+			<div id="clasUfNavBar">
+				<div id="dept">
+					<a href="index.php">
+						<img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences">
+					</a>
+				</div>
+				<div id="uf">
+					<a href="index.php">
+						<img src="images/UF-logo.png">
+					</a>
+				</div>
+				<div class="clear"></div>
+			</div><!-- end unofficial NAV (uf and CLAS bar) -->
 
 			<nav>
 				<ul>
