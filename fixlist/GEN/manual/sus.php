@@ -80,7 +80,7 @@
 
 </div>
 <script language="javascript" src="/java/search.js"></script>
-<!--#include virtual="/includes/footer.html"-->
+<!--#include virtual="/includes/footer.php"-->
 <!--#include virtual="/includes/analytics.html"-->
 </div>
 </body>

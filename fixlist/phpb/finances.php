@@ -13,7 +13,7 @@
 
 <?php
   require_once("includes/sidebar.php");
-  require_once("includes/footer.html");
+  require_once("includes/footer.php");
 ?>
 
 	</body>

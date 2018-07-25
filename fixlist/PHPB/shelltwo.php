@@ -201,53 +201,43 @@ td {
 	vertical-align:top;
 }
 
-
-/* footer */ /* footer */ /* footer */
-
-
 footer {
-	padding: 20px 0 10px 0;
-	font-size: .7rem;
-	background: white;
+	padding: 20px 0;
+	border: 15px solid black;
 }
 
-footer ul {
-	width: 86%;
-	margin: auto;
-	margin-bottom: 15px;
-}
 footer li {
-	float: left;
-	border-right: 1px solid #777;
-	padding: 0px 5px;
-	margin: 3px 0;
-	list-style: none;
+border-right:1px solid #000066;
+display:inline;
+float:left;
+font-size:100%;
+margin-right:4px;
+padding-right:4px;
 }
 
-.footerLastNoBorder {
-	border-right: none;
+footer ul,footer p {
+	clear:both;
+	float:left;
+	font-size:60%;
+	line-height:1.4em;
+	/* width:550px; */
+	color: #000066;
 }
 
-footer p {
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 15px;
+footer h3 {
+	display: none;
 }
 
-footer h3 {display: none;}
 
-footer a {
-	color: white;
-}
 
-#googleAnalyticsSlug {
-	text-align: left;
-	font-style: italic;
-	margin-top: 15px;
-	font-size: .65rem;
-}
 
-/* end footer  */ /* end footer  */ /* end footer  */
+
+
+
+
+
+
+
 
 ol {
 	list-style-type:decimal;

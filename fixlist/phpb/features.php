@@ -40,7 +40,7 @@
 </div><!-- end content -->
 
 <?php require_once("includes/sidebar.php"); ?>
-<?php require_once("includes/footer.html"); ?>
+<?php require_once("includes/footer.php"); ?>
 
   </body>
 </html>
