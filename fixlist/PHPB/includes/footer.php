@@ -13,7 +13,7 @@
       <div class="clear"></div>
     </ul>
 
-    <p>&copy; <a href="http://www.ufl.edu/" title="University of Florida">University of Florida</a>, Gainesville, FL 32611<br>(352) 392-3261</p>
+    <p><a href="http://www.ufl.edu/" title="University of Florida">&copy; University of Florida</a><br>Gainesville, FL 32611<br>(352) 392-3261</p>
 
     <h3>General Site Information</h3>
     <ul>

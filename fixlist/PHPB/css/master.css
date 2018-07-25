@@ -201,11 +201,90 @@ td {
 	vertical-align:top;
 }
 
+/* sidenav  */ /* sidenav  */ /* sidenav  */
+
+.sidebar nav {
+	width: 100%;
+}
+
+.sidebar nav h4 {
+	clear:left;
+	letter-spacing:1px;
+	padding:12px 0px 0 20px;
+	color: #FFFFCC;
+	/* width: 220px; */
+}
+
+.sidebar nav ul {
+	margin: 0;
+}
+
+.sidebar nav li {
+	color: #fefefe;
+	padding: 15px 0;
+	margin-top: 0;
+	text-align: center;
+	border-top: 1px solid black;
+}
+
+#newlyAdmittedLink {
+	background: #E28F41;
+	/* border: 3px solid #6C9AC3; */
+	font-weight: 500;
+	border-bottom: 1px solid black;
+}
+
+#newlyAdmittedLink a {
+	color: white;
+}
+
+#contactSections {
+	border: 1px solid white;
+	background: white;
+	border-bottom: none;
+}
+
+#contactSections a, #contactSections p {
+	color: #444;
+}
+
+#contactSections h3 a {
+	color: #436f96;
+	padding: 20px 0 0px 0;
+}
+
+#contactSections p {
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+
+/* social media section */ /* social media section */ /* social media section */
+
+#socialMediaSection {
+	border-top: 1px solid #d0d0d0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: none;
+	width: 70%;
+	margin: 20px auto 0 auto;
+	background: white;
+}
+
+.socialmedia {
+	width: 32.8%;
+	float: left;
+}
+.socialmedia img {
+	display: block;
+	margin: auto;
+	opacity: 0.6;
+}
+.socialmedia img:hover {opacity: 1;}
 
 /* footer */ /* footer */ /* footer */
 
-
 footer {
+	/* margin-top: 15px; */
 	padding: 20px 0 10px 0;
 	font-size: .7rem;
 	background: white;
@@ -326,83 +405,6 @@ margin:15px;
 /* nav */
 /* nav */
 /* nav */
-
-.sidebar nav {
-	width: 100%;
-}
-
-.sidebar nav h4 {
-	clear:left;
-	letter-spacing:1px;
-	padding:12px 0px 0 20px;
-	color: #FFFFCC;
-	/* width: 220px; */
-}
-
-.sidebar nav ul {
-	margin: 0;
-}
-
-.sidebar nav li {
-	color: #fefefe;
-	padding: 15px 0;
-	margin-top: 0;
-	text-align: center;
-	border-top: 1px solid black;
-}
-
-#newlyAdmittedLink {
-	background: #E28F41;
-	/* border: 3px solid #6C9AC3; */
-	font-weight: 500;
-	border-bottom: 1px solid black;
-}
-
-#newlyAdmittedLink a {
-	color: white;
-}
-
-#contactSections {
-	border: 1px solid white;
-	background: white;
-}
-
-#contactSections a, #contactSections p {
-	color: #444;
-}
-
-#contactSections h3 a {
-	color: #436f96;
-	padding: 20px 0 0px 0;
-}
-
-#contactSections p {
-	letter-spacing: 1px;
-	line-height: 1.5;
-}
-
-/* social media section */ /* social media section */ /* social media section */
-
-#socialMediaSection {
-	border-top: 1px solid #d0d0d0;
-	padding-top: 20px;
-	padding-bottom: 10px;
-	background: none;
-	width: 70%;
-	margin: 20px auto 15px auto;
-	background: white;
-}
-
-.socialmedia {
-	width: 32.8%;
-	float: left;
-}
-.socialmedia img {
-	display: block;
-	margin: auto;
-	opacity: 0.6;
-}
-.socialmedia img:hover {opacity: 1;}
 
 
 /* start links */
