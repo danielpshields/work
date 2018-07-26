@@ -43,7 +43,6 @@ header img {
 #dept {float: left; margin-top: 2px; margin-left: 30px;}
 #uf {float: right;margin-right: 20px;}
 
-
 header nav {
 	width: 100%;
 	min-width: 315px;
@@ -85,12 +84,11 @@ header li a {color: 1px solid white;}
 /* end nav  */
 
 h1 {
-	font-size: 1.4rem;
+	font-size: 1.7rem;
 	color:#000066;
 	color: #0021A5;
-	width: 92%;
 	width: 86%;
-	margin: 8px auto 0 auto;
+	margin: 20px auto 0 auto;
 }
 
 .slug {
@@ -124,17 +122,41 @@ h2 {
 h3 {
 	font-size: 1.2rem;
 	width: 86%;
-	margin: 0 auto 10px auto;
+	margin: 1.6rem auto 10px auto;
 	color: #6C9AC3;
 }
+
+/* .highlight h3 {
+	font-size: 1.2rem;
+	width: 86%;
+	margin: 0 auto 10px auto;
+	color: #6C9AC3;
+} */
 
 p {
 	width: 86%;
 	margin: auto;
+	margin-top: 1.1rem;
 	line-height: 1.8;
 	font-size: 1rem;
 	color: #444;
 }
+
+#content ul, #content ol {
+	width: 76%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 17%;
+}
+
+#content li {
+	padding: 0px 5px;
+	margin: 3px 0;
+	color: #444;
+	font-size: 1rem;
+	line-height: 1.8;
+}
+
 
 .apply {
 	border-bottom: 1px solid #d0d0d0;
@@ -207,29 +229,26 @@ td {
 	width: 100%;
 }
 
-.sidebar nav h4 {
-	clear:left;
-	letter-spacing:1px;
-	padding:12px 0px 0 20px;
-	color: #FFFFCC;
-	/* width: 220px; */
-}
-
 .sidebar nav ul {
 	margin: 0;
 }
 
 .sidebar nav li {
 	color: #fefefe;
-	padding: 15px 0;
+	/* padding: 0px 0; */
+	display: block;
 	margin-top: 0;
 	text-align: center;
 	border-top: 1px solid black;
 }
 
+.sidebar nav li a {
+	padding: 19px 0;
+	display: block;
+}
+
 #newlyAdmittedLink {
 	background: #E28F41;
-	/* border: 3px solid #6C9AC3; */
 	font-weight: 500;
 	border-bottom: 1px solid black;
 }
@@ -244,13 +263,16 @@ td {
 	border-bottom: none;
 }
 
-#contactSections a, #contactSections p {
+#contactSections p {
 	color: #444;
 }
 
-#contactSections h3 a {
-	color: #436f96;
+#contactSections h3 {
 	padding: 20px 0 0px 0;
+}
+
+#contactSections a {
+	color: #436f96;
 }
 
 #contactSections p {

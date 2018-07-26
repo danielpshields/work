@@ -18,7 +18,7 @@
 
       <p>
         Farrior Hall<br>
-        P.O Box 112015<br>
+        P.O. Box 112015<br>
         Gainesville FL 32611<br>
         (352) 273-4083<br>
         Fax (352) 392-2905<br>
@@ -35,7 +35,7 @@
           <a href="https://twitter.com/UFPHPB" title="UF PH PostBac">
             <img alt="Twitter logo" src="images/t.png" height="30px" width="30px">
           </a>
-        </div>
+        </div><!-- end Twitter -->
         <div class="socialmedia" id="iconlinkedIn">
           <a href="https://www.linkedin.com/groups?home=&gid=6774601&trk=anet_ug_hm" title="UF PH PostBac">
             <img alt="LinkedIn logo" src="images/linkedin.png" height="30px" width="30px">

@@ -13,8 +13,11 @@
           <p class="slug">"<i>Helping yourself is the first step in helping others.</i>"</p>
 
           <div class="highlight">
-            <h3>Prerequisites</h3>
+            <h3><a href="admission.php">Prerequisites</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <ul>
+              <li><a href="admission.php">> Admission</a></li>
+            </ul>
           </div>
           <div class="highlight">
             <h3>Instruction</h3>
