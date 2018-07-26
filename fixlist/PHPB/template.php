@@ -3,7 +3,7 @@
   $page = "advising";
   require_once("includes/header.php");
 ?>
-  <div id="content"></div>
+  <div class="content"></div>
 
   <?php
     require_once("includes/sidebar.php");

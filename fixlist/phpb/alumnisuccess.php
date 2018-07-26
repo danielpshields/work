@@ -3,7 +3,7 @@
   $page = "alumni";
   require_once("includes/header.php");
 ?>
-<div id="content">
+<div class="content">
 <h1>Alumni Success</h1>
 <h3>2014 Cohort</h3>
 <p>Our inaugural class was small, but successful! Of the 6 students who applied, 5 were admitted with acceptances to the following schools:</p>

@@ -142,12 +142,22 @@ ol {
 
 li {
   line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+li a {
+  font-size: 1.1rem;
+  color: blue;
+  letter-spacing: 1px;
 }
 
 .person {
   margin-bottom: 30px;
 }
 
+#contactSection ul {
+  margin-top: 15px;
+}
 
 #slug {
   font-style: italic;

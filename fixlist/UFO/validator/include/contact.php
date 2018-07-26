@@ -1,9 +1,9 @@
 
 
-  <div class="orange hightlightSlug">
+  <div class="orange hightlightSlug" id="contactSection">
     <h2><span class="bigNumber orangeFont">C</span> Contact:</h2>
 
-    <table>
+    <!-- <table>
       <tr>
         <th colspan="2">UF Online Psychology Advisor</th>
       </tr>
@@ -11,8 +11,8 @@
         <td>Fallen Lee</td>
         <td>fwlee@advising.ufl.edu</td>
       </tr>
-    </table>
+    </table> -->
     <ul>
-      <li><a href="https://www.advising.ufl.edu/advising/staff/" target="_blank">UF Advising Staff</a></li>
+      <li><a href="https://www.advising.ufl.edu/uf-online/contact/" target="_blank">UF Advising Staff</a></li>
     </ul>
   </div>

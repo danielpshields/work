@@ -4,7 +4,7 @@
 ?>
     <?php require_once("includes/header.php"); ?>
 
-      <div id="content">
+      <div class="content">
 
           <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources">
 
@@ -12,22 +12,22 @@
 
           <p class="slug">"<i>Helping yourself is the first step in helping others.</i>"</p>
 
-          <div class="highlight">
+          <div class="coreFeature">
             <h3><a href="admission.php">Prerequisites</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
             <ul>
               <li><a href="admission.php">> Admission</a></li>
             </ul>
           </div>
-          <div class="highlight">
+          <div class="coreFeature">
             <h3>Instruction</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
-          <div class="highlight">
+          <div class="coreFeature">
             <h3>Duration</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
-          <div class="highlight">
+          <div class="coreFeature">
             <h3>Costs</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
@@ -55,14 +55,14 @@
 
           <p>Students who completed science pre-requisites five or more years ago still have an opportunity for admission.  However all courses five or more years and/or with less than a B earned will be required to be repeated.</p>
 
-          <div class="trackHighlight">
+          <div class="listBox">
             <ul>
               <li>Career Changer Program</li>
             </ul>
             <p>For students who have not taken more than two science pre-requisite courses earning Bs or above.</p>
           </div>
 
-          <div class="trackHighlight">
+          <div class="listBox">
             <ul>
               <li>ReStart Program</li>
             </ul>

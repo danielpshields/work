@@ -1,53 +1,17 @@
-
-#mainContainer{width:960px;}
-
-#content{width:715px;}
-
-#phpbcontact{width:215px;}
-
-#content .pane{border:1px solid #FF4a00;
-float:left;background-color:#8bc2ff;
-margin:10px;
-padding:4px;
-width:29%;
-border-radius:8px;
-min-height:255px;
-position:relative;
+img {
+  display: block;
+  margin: 15px auto;
 }
 
-#content .pane img{
-margin:6px 6px 6px 15%;
-position:relative;
-bottom:0px;
+table {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-#content .pane h3, #content .pane p {
-text-align:center;
-color:#000066;
-margin:2px;
-height:40px;
+th {
+  text-align: center;
 }
 
-#content .panebottom{
-border:1px solid #FF4a00;
-float:left;
-background-color:#8bc2ff;
-margin:10px;
-padding:4px;
-width:95%;
-border-radius:8px;
-min-height:250px;
-position:relative;
-}
-
-#content .panebottom img{
-margin:6px 6px 6px 36%;
-position:absolute;
-bottom:0px;
-}
-
-#content .panebottom h3, #content .panebottom p {
-text-align:center;
-color:#000066;
-margin:2px;
+td {
+  line-height: 1.5;
 }

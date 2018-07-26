@@ -8,6 +8,7 @@ html {font-size: 16px;}
 
 body {
 	background: #2b72fe;
+	background: #478af7;
 }
 
 #container {
@@ -18,7 +19,7 @@ body {
 	text-align:left;
 }
 
-#content {
+.content {
 	background:#FFF;
 	float:right;
 	width: 100%;
@@ -101,15 +102,6 @@ h1 {
 	line-height: 1.5;
 }
 
-.highlights {
-	border: 1px solid black;
-}
-
-.highlight {
-	/* margin: 15px auto 20px auto; */
-	border: 1px solid #d0d0d0;
-	padding: 15px 0;
-}
 
 h2 {
 	font-size: 1.5rem;
@@ -126,12 +118,6 @@ h3 {
 	color: #6C9AC3;
 }
 
-/* .highlight h3 {
-	font-size: 1.2rem;
-	width: 86%;
-	margin: 0 auto 10px auto;
-	color: #6C9AC3;
-} */
 
 p {
 	width: 86%;
@@ -142,19 +128,59 @@ p {
 	color: #444;
 }
 
-#content ul, #content ol {
-	width: 76%;
+.content ul, .content ol {
+	width: 73%;
+	margin-left: 2.8rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.content li {
+	margin: 3px 0 1rem 0;
+	color: #444;
+ 	font-size: 1rem;
+	line-height: 1.8;
+}
+
+/* list box  */ /* list box  */ /* list box  */
+
+.listBox {
+  width: 76%;
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: 17%;
 }
 
-#content li {
-	padding: 0px 5px;
+.listBox ul {
+	background: none;
+	width: 86%;
+	margin: 0px;
+}
+
+.listBox li {
+	/* padding: 0px 5px; */
 	margin: 3px 0;
 	color: #444;
 	font-size: 1rem;
 	line-height: 1.8;
+
+
+  font-size: 1.2rem;
+  color: #4268a5;
+  margin-bottom: 5px;
+}
+
+.listBox p {
+  width: 100%;
+  padding-right: 20px;
+	margin-top: 0;
+}
+
+h5 {
+	font-size: 1.2rem;
+	color: #444;
+	width: 86%;
+	margin: 1.3rem auto;
 }
 
 
@@ -193,9 +219,9 @@ section {
 	padding: 15px 0 28px 0;
 }
 
-section p {
-	width: 80%;
-}
+/* section p {
+	width: 83%;
+} */
 
 #applicationSlug {
   font-size: 1.25rem;
@@ -350,94 +376,15 @@ footer a {
 
 /* end footer  */ /* end footer  */ /* end footer  */
 
-ol {
-	list-style-type:decimal;
-	margin:15px;
-}
-
-
-#content .pane{
-  border:1px solid #FF4a00;
-  float:left;
-  background-color:#8bc2ff;
-  margin:10px 8px;
-  padding:4px;
-  /* width:45%; */
-  border-radius:8px;
-  min-height:135px;
-}
-
-#content .pane img{
-	margin:6px;
-}
-
-#content .pane h3, #content .pane p {
-	text-align:center;
-	color:#000066;
-	margin:2px;}
-
-.input{display:inline;}
-
-/* .input select{width:32%;} */
-
-
-#content h4 {
-	color:#0066CC;
-	margin:5px 0 5px 13px;
-	border-top-width: 1px;
-	border-top-style: dotted;
-	border-top-color: #0066CC;
-	padding-top: 5px;
-}
-#content h5 {
-	color:#000000;
-	margin: 5px 0 5px 13px;
-	padding-top: 5px;
-}
-#content h6 {
-	color:#000000;
-	margin:5px 0 5px 13px;
-	padding-top: 5px;
-	letter-spacing: 2px;
-}
-
-#content ol li {
-	list-style-type:decimal;
-}
-
-#content li li {
-padding:0 5px 0 20px;
-}
-
-/* #content p#listing {
-letter-spacing:-1px;
-padding-top:15px;
-text-align:center;
-} */
-/*
-#content ul {
-margin:15px;
-} */
-
-
-/* nav */
-/* nav */
-/* nav */
-/* nav */
-/* nav */
-/* nav */
-/* nav */
-
-
 /* start links */
 /* start links */
 /* start links */
 a {text-decoration: none;}
 a:link,  a:visited {color:#0021a5;} /* blue */
 a:hover, a:active  {color:#ff4a00;} /* orange */
-#content p a, #content li a { /* dark blue */ border-bottom: 1px solid #0021A5;}
-#content p a:link, #content p a:visited {color: #24b; /* blue */}
-#content li a:hover, #content li a:active, #content p a:hover, #content p a:active {color: #f40; /* orange */text-decoration: none;}
+.content p a, .content li a { /* dark blue */ border-bottom: 1px solid #0021A5;}
+.content p a:link, .content p a:visited {color: #24b; /* blue */}
+.content li a:hover, .content li a:active, .content p a:hover, .content p a:active {color: #f40; /* orange */text-decoration: none;}
 nav a:link {display: inline-block;width: 100%;}
 nav a:link, nav a:visited {color: #FFFFCC;}
 nav li a:hover, nav p a:hover { /* keep, nav li background hover */background: #5791d2;}

@@ -1,68 +1,52 @@
 
-html {
-  font-size: 25px;
+table, tr, th, td {
+  border: 1px solid #666;
+  padding: 8px;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.slugTable td {
+  border: 2px solid #444;
+}
+
+
+#twoYearProgramTable {
+  border-collapse: separate;
+}
+
+#twoYearProgramTable th {
+  text-align: center;
 }
 
 #topBulletPoints {
   border: 1px solid black;
 }
 
-#topBulletPoints li {
-  font-size: 30px;
-}
-
-table, tr, th, td {
-  border: 1px solid black;
-  padding: 5px;
-  margin: 0;
-}
-
-ul, #content li {
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-}
-
-table, tr, td, th {
-  border: 1px solid black;
-  padding: 5px;
-  font-size: 18px;
-}
-
-
-.courseSchedule {
-  border: 5px solid gray;
-  width: 95%;
-  margin: auto;
-}
-
 #courseSchedule {
-  border-top: 1px solid gray;
-  padding-top: 15px;
+  border-top: 1px solid #d0d0d0;
+  padding-top: 20px;
 }
 
-
-/* #yearTwo {
-  width: 300px;
-  float: left;
-  margin-left: 20px;
-  border: 1px solid red;
-  padding: 5px;
-} */
-
-.clear {
-  clear: both;
+table#springTwo {
+  margin-bottom: 20px;
 }
 
-h4 {
-  font-size: 30px;
+#totalTable {
+  margin-top: 0;
 }
 
-a {color: blue;}
+#totalTable tr, #totalTable td {
+  border: 2px solid #43617c;
+}
 
 .elective {
   border-radius: 5px;
-  border: 3px solid blue;
+  border: 1px solid black;
+  padding-bottom: 15px;
 }
 
 .preNotice {
@@ -72,6 +56,20 @@ a {color: blue;}
   margin-top: 25px;
 }
 
-h2 {
- font-size: 1rem;
+.dateHead {
+  color: #43617c;
+  margin: 0;
+  text-align: center;
+  padding: .9rem 0 1rem 0;
+  background: white;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.trueTableHead {
+  color: #43617c;
+  padding: .5rem 1.2rem .8rem 1.2rem;
+  background: white;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
 }

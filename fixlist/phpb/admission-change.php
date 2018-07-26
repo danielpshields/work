@@ -4,7 +4,7 @@
   require_once("includes/header.php");
 ?>
 
-<div id="content">
+<div class="content">
   <h1>Pre-Health Career Changer Program</h1>
 
 <!-- <center>	<a href="#PHCPApplication">	<input class="btn" type="button" value="APPLY NOW" />	</a>	</center> -->

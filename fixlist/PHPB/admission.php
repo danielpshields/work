@@ -3,7 +3,7 @@
   $page = "advising";
   require_once("includes/header.php");
 ?>
-<div id="content">
+<div class="content">
 
   <h1>Admission</h1>
   <p>We admit students for the Fall on a rolling basis until the program fills. Students who apply early have a greater chance of admission. We recommend applying by Nov. 1, but will continue to review applications until the deadline if we have space available.</p>
@@ -16,10 +16,12 @@
   <p>Pursuing academic requirements alone is inadequate for application to healthcare professional graduate programs. This program requires students to participate in medically related service and research experiences. These positions are secured by the student. This program has no linkages with professional schools/programs and in no way guarantees admission.</p>
 
   <h3>Application Requirements:</h3>
+
   <ul>
     <li>Meet the general requirements and submit an application for post-baccalaureate admission to the University of Florida.</li>
     <li>Have worked or volunteered in a clinical setting or in another service related capacity prior to application.</li>
   </ul>
+
 
 <div id="Career Changer">
 

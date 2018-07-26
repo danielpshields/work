@@ -5,7 +5,7 @@
 ?>
 
 
-<div id="content">
+<div class="content">
   <h1>Frequently Asked Questions</h1>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <p><strong>I already have most of the prerequisite courses completed, but I have a few left to take. Can I apply to the program?</strong><br />No. Our program is intended for students who have not yet completed the pre-requisite courses.</p>

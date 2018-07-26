@@ -4,7 +4,7 @@
   require_once("includes/header.php");
 ?>
 
-<div id="content">
+<div class="content">
   <!-- <h1>ReStart Course Information</h1>
   <p>Students in the ReStart track will follow a defined schedule of courses. You will be expected to retake any science pre-requisites previously taken in order to demonstrate mastery of the material. Cross-disciplinary labs ("x-labs") engage students in a unique interdisciplinary curriculum. These laboratories are equivalent to completing two semesters of General Chemistry labs, Biology labs, and Physics labs, thus meeting the requirements of professional schools. Prior to matriculation in the Fall, you must complete MAC1147 and CHM1025 at UF. Online and Summer enrollment may be possible for these two pre-requisite courses.</p>
 

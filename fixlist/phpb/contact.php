@@ -1,12 +1,14 @@
 <?php
   $title="Pre-Health Post-baccalaureate Program (PHPB) | UF College of Liberal Arts and Sciences";
-  $page = "index";
+  $page = "contact";
   require_once("includes/header.php");
 ?>
-<div id="content">
+<div class="content">
 
+  <img src="images/farriorHall.jpg" alt="">
+  <h1>Contact</h1>
 
-  <h4>Pre-Health Postbac Program (PHPB)</h4>
+  <p>Pre-Health Postbac Program (PHPB)</p>
   <p>Farrior Hall<br />
   P.O Box 112015<br />
   Gainesville FL 32611<br />

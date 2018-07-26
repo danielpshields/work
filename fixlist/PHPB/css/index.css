@@ -9,39 +9,27 @@ h1 {
 	margin: 8px auto 0 auto;
 }
 
-#content img {
+.content img {
   width: 100%;
   margin-bottom: 0;
   /* width="715" height="194" */
 }
 
-.highlight h3 {
+.coreFeature {
+	/* margin: 15px auto 20px auto; */
+	border: 1px solid #d0d0d0;
+	padding: 15px 0;
+}
+
+.coreFeature h3 {
 	font-size: 1.2rem;
 	width: 86%;
 	margin: 0 auto 10px auto;
 	color: #6C9AC3;
 }
 
-.highlight h3 a {
+.coreFeature h3 a {
   color: #6C9AC3;
-}
-
-.trackHighlight {
-  width: 76%;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 17%;
-}
-
-.trackHighlight ul li {
-  font-size: 1.2rem;
-  color: #4268a5;
-  margin-bottom: 5px;
-}
-
-.trackHighlight p {
-  width: 100%;
-  padding-right: 20px;
 }
 
 #trackTable {
