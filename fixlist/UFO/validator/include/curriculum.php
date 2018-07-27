@@ -17,67 +17,51 @@
 
   <table>
     <tr>
-      <th colspan="5" class="center">CLAS Majors</th>
+      <th colspan="5" class="center">CLAS Major Comparisons</th>
     </tr>
     <tr>
-      <td colspan="2">UF Residential</td>
-      <td>&nbsp;</td>
-      <td colspan="2">UF Online</td>
+      <th>Major</th>
+      <th id="majorBlue">UF Residential</th>
+      <th id="majorOrange">UF Online</th>
     </tr>
     <tr>
       <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/APY_BA_UFO/" target="_blank">Anthropology</a></td>
       <td>BS or BA</td>
-      <td>---</td>
-      <td>Anthropology</td>
       <td>BA</td>
     </tr>
     <tr>
       <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/BIO_BA_UFO/" target="_blank">Biology</a></td>
       <td>BS or BA</td>
-      <td>---</td>
-      <td>Biology</td>
       <td>BA</td>
     </tr>
     <tr>
       <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/CSC_BS_UFO/" target="_blank">Computer Science</a></td>
       <td>BS</td>
-      <td>---</td>
-      <td>Computer Science</td>
       <td>BS</td>
     </tr>
     <tr>
       <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/CRI_BA_UFO/" target="_blank">Criminology</a></td>
       <td>BA</td>
-      <td>---</td>
-      <td>Criminology</td>
       <td>BA</td>
     </tr>
     <tr>
       <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/GPY_BA_UFO/" target="_blank">Geography</a></td>
       <td>BA or BS</td>
-      <td>---</td>
-      <td>Geography</td>
       <td>BA</td>
     </tr>
     <tr>
       <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/GLY_BA_UFO/" target="_blank">Geology</a></td>
       <td>BS or BA</td>
-      <td>---</td>
-      <td>Geology</td>
       <td>BA</td>
     </tr>
     <tr>
       <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/PSY_BA_UFO/" target="_blank">Psychology</a></td>
       <td>BS</td>
-      <td>---</td>
-      <td>Psychology</td>
       <td>BA</td>
     </tr>
     <tr>
       <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SOC_BA_UFO/" target="_blank">Sociology</a></td>
       <td>BA</td>
-      <td>---</td>
-      <td>Sociology</td>
       <td>BA</td>
     </tr>
   </table>
