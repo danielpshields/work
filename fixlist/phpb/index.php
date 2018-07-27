@@ -16,20 +16,29 @@
             <h3><a href="admission.php">Prerequisites</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
             <ul>
-              <li><a href="admission.php">> Admission</a></li>
+              <li><a href="admission.php">Admission</a></li>
             </ul>
           </div>
           <div class="coreFeature">
-            <h3>Instruction</h3>
+            <h3><a href="features.php">Instruction</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <ul>
+              <li><a href="features.php">Features</a></li>
+            </ul>
           </div>
           <div class="coreFeature">
-            <h3>Duration</h3>
+            <h3><a href="courses.php">Duration</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <ul>
+              <li><a href="courses.php">Courses</a></li>
+            </ul>
           </div>
           <div class="coreFeature">
-            <h3>Costs</h3>
+            <h3><a href="finances.php">Costs</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <ul>
+              <li><a href="finances.php">Financial Information</a></li>
+            </ul>
           </div>
 
           <div class="apply">
