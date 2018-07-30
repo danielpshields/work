@@ -3,9 +3,156 @@
   <head>
     <meta charset="utf-8">
     <title>180730 CSS Media Queries</title>
+    <link rel="stylesheet" href="../css/master.css">
   </head>
   <body>
-    <h1>[LN] Notes: 180730 CSS Media Queries</h1>
-    
+    <h1>[LN]: 180730 <a href="https://www.youtube.com/watch?v=D2HW4_vl9zM" target="_blank">CSS Media Queries</a></h1>
+
+    <h2>Comments</h2>
+
+    <ul>
+      <li>It's kind of missing a general introduction. I would've liked to see a screen being resized and the content adjust and whatnot in the beginning. "<i>Here's What I'm Discussing / The Stuff You'll be Learning:</i>"</li>
+      <li>Continuing from the first point, i would've liked a list of the things in this video: 1. the general principle of designing for browser widths  2. margins and writing laws. 3. how to use developer tools 4. resizing using grid</li>
+      <li>I had about a 13 minute attention span for this stuff. I'm glad I held on. Learning about gri soon after reinvigorated me. But hiting that more complicated webpage with the three columns at the same time I was losing focus was enough to knock my confidence waaay down.</li>
+    </ul>
+
+    <h2>Is it helpful?</h2>
+    <p>Yes, it helped me understand grid better. I have an opinion on grid potentially hurting the individual's learning path by essentially doing the division / fraction math for the designer. But the video was a good look at how things work in the resizing environment. I especially liked the transition in introducing Developer Tools. That was a great segue.</p>
+
+
+    <h2>Clarity?</h2>
+    <p>It was very clear. The only two areas that felt unclear was initally jumping into <i>display: grid</i> and the ending. It makes sense. But I felt it could've ended better. But I left with a better understanding than I had before and a general sense that I could use that video as a reference for how to use grid for responsive design.</p>
+
+    <h2>remaining questions</h2>
+    <ul><li>I'm very curious about flex-box now.</li></ul>
+    <p>The only other thing I wanted to mention was about the order of things.</p>
+    <p>My overall impression was that the video was good. It was long. But since I knew what I was in for, I was able to make it through the entirety in almost one shot.</p>
+    <p>However, I feel that things could've been rearragned. If you check my Play-by-Play notes, my last note for "21:12 to the end:" explains this. But it's first seen at the "<a href="https://youtu.be/D2HW4_vl9zM?t=4m3s" target="_blank">4:03</a> note/mark. I think "min-width:" could've been used first. The way max-width is used made me have to hold my breath and hope that that phenomenon would be explained -- I hoped that information "how max-width works -- how it fits into this context" would have been explained.</p>
+    <p>Min-width would've done that faster -- though somewhat off topic from the lesson's direct and specific goal, it would've showed, when that browser hits that point, that conent will not break / change. I just think min-width is a little easier to show.</p>
+    <p>Along with this point, and this is just a general point, the phrase "this is a flexible design" (i could be misquoting that) but "flexible design" makes the page "flexible" doesn't immediately register with me. I feel liek it's the word that's technically correct and technically describes what's happening, but my brain doesn't connect max-width: 100% with making that image flexible.</p>
+    <p>It sounds stupid to write that out. But I, even knowing what it meant, still felt lost.</p>
+    <p>These are knitpicky notes. I learned a lot from the video. And I noted the video by time below if you care to read. I believe the gist of everything that I felt could be added was "show what's happening." It's done in some parts of the video, like highlighting an empty section with a blue rectangle to show where you're talking about -- that functionality could be applied elsewhere.</p>
+    <p>OK, that's enough. Thank you for sharing the video with me. I look forward to studying the others.</p>
+
+
+    <section>
+      <h2>Play-by-Play:</h2>
+      <table>
+        <tr>
+          <th colspan="2">Chapter 1</th>
+        </tr>
+        <tr>
+          <td>00:00</td>
+          <td>It's 23'40" -- it's a long video</td>
+        </tr>
+        <tr>
+          <td>00:16</td>
+          <td>add list decorations to make it clearer <br> possibly highlight as you discuss the individual item like is done at <a href="https://youtu.be/D2HW4_vl9zM?t=6m40s" target="_blank">06:40</a>:</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=1m" target="_blank">01:00</a></td>
+          <td>keep the popup-style "The meta viewport tag: &lt;meta&gt;" tag written out -- but actually write out the tag in the video <br> "you can Google it, you can copy it from anywhere", maybe show the process of googling it? <br> Show a "With" versus "Without segment", comment and load a mobile-sized page, then uncomment to show what the meta tag does</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=2m" target="_blank">02:00</a></td>
+          <td>you say, "Has [got] to be" -- can you explain why it's in that order. I interpret it as charset tells the browser how to read, so that's the most important. then the meta viewport tells it how to see its environement.</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=2m27s" target="_blank">02:27</a></td>
+          <td>can you highlight the sections / elements on the Page as they're being described? (you do this at <a href="https://youtu.be/D2HW4_vl9zM?t=3m02s">3:02</a> with the article element)</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=3m44s" target="_blank">03:44</a></td>
+          <td>the blue bubble is a little confusing. I'd prefer it to stick to the "<a href="https://youtu.be/D2HW4_vl9zM?t=1m14s" target="_blank">popup style" black box</a>. That black box was particularly adept at communicating it was your information. Whereas the blue made it seem like one of those "Click Here to see my other videos on this!" pop-up buttons.
+            <br>
+          The one set of rules per pure element mention is extremely important. Thank you for including that. I think it's something people have to learn on their own. It's nit-picky to say, I'd like to see an example for everything, but this is somewhere I'd like to see CSS actually override something -- like the "color: red;" "color: green" -- green being favored because it's later in the code. But your mention of it is strong and clear. Thank you for putting that in.</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=4m3s" target="_blank">04:03</a></td>
+          <td>the keystrokes' impacts are distracting. They're a little too impactful. They thud a little too hard.</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=4m3s" target="_blank">04:03</a></td>
+          <td>I'll put this in the comments section. But this is the part where I start to disagree with how the information is presented.</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=4m35s" target="_blank">04:35</a></td>
+          <td>Please show a before/after here, flip back and forth a time or two to show the page being affected by the pixel constraints</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=6m" target="_blank">06:00</a></td>
+          <td>I get distracted and lose confidence when "display: block" is mentioned <br> image: block; I disagree with putting that information here. It overwhelms me to think that there's a sublaw for a single element -- like I don't get the way images behave. I understand why block is important in later, more complicated design. But for the sake of the video, I think it could be reworded as, "In most cases, 'display: block;' is appropriate for reasons we'll get into, but it's not important / necessary now" Just a thought, but this is where I took a facebook break and got lost in the Internet instead of continuing the lesson. I went back and tested the devil's advocate version by putting a message to max-width: 100% and resizing an without setting the display: block and it worked just fine with the addition of text and other images <br> also, at <a href="https://youtu.be/D2HW4_vl9zM?t=5m55s" target="_blank">05:55</a> "I" "M" "G" doesn't make me thinking you're referencing an image tag</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=6m35s" target="_blank">06:35</a></td>
+          <td>highlight/show the left margin</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=6m58s" target="_blank">06:58</a></td>
+          <td>i think this needs to be explained a little more. It's clear the way it's explained. "Right now this affects all four margins, top, right, bottom and left" I think that'd be better illustrated while being verbally described. It could easily be said, "margin: 1rem, auto, 1rem, auto" and walked through, then condensed to "margin: auto" and then do "margin: 1rem auto" to show the difference in the top and bottom margins.</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=7m57s" target="_blank">07:57</a></td>
+          <td>I've never heard of optimal line length.</td>
+        </tr>
+        <tr>
+          <th colspan="2">Chapter 2: Media Queries</th>
+        </tr>
+
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=8m25s" target="_blank">08:25</a></td>
+          <td>I dislike the text in the pop-up bubble. I think it should say, "Ch. 2: Media Queries" Though I do think this would be a good place to utilize the blue pop-up bubble. The black-box is like you're speaking instructor to student, and the blue box is like the video is talking</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=8m45s" target="_blank">08:45</a></td>
+          <td>"How do we even know what that could possibly be?" fantastic introduction to Developer Tools</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=9m50s" target="_blank">09:50</a></td>
+          <td>It's a small thing, but if the redundancy mention before "you don't want two article tags in your css, just have one for naked elements..." this would be a good place to say, "As mentioned before" but it could still be done, "As I was mentioning before..."</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=10m57s" target="_blank">10:57</a></td>
+          <td>I wish, just for example sake, you'd start with one side. I'll write about this in the notes section. But, I'd prefer to see "margin-left: 1rem;" then see the left side have space, then do "margin-left: 1rem; margin-right: 1rem;" then say, "And again, you can reduce those down to: margin: 1rem;" <br> also for this time frame / margin: 1rem section, I'd like to see the highlighter to show that the article is ecompassing everything below the header. I easily forget there's a container and that it's being used as a container / I was looking for just the paragraphs to be contained and got a little confused about the image being included in the container's laws</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=11m42s" target="_blank">11:42</a></td>
+          <td>the pink / magenta line is a little confusing, but major kudos on this section. I think it's a perfect example of how to go back to override something  using media queries (while covering a layout/design question)</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=12m41s" targ et="_blank">12:41</a></td>
+          <td>REMs vs EMs, you've gone over this with them at this point, right?</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=13m" target="_blank">13:00</a></td>
+          <td>great point on not needing the other three things <br> side note: this is about the time when my attention span maxes out <a href="https://youtu.be/D2HW4_vl9zM?t=13m23s" target="_blank">blue pop-up bubble</a> distracting here. It's also hard to read.</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=13m41s" target="_blank">13:41</a></td>
+          <td>display: grid is throwing me off, i'm finding it tough to listen because I'm plagued by thinking that I can't continue because I don't know what grids are. I think this would be the right place for one of the blue pop-up bubbles that links out, "Check out the course on 'display: grid' here!" i'd feel better about moving on knowing I could open that in a new tab and go back to it if I needed to</td>
+        </tr>
+        <tr>
+          <td><b>Site Difference</b></td>
+          <td>i think the "new site" the three-column site should be introduced a little more. It's confusing that there's just a new site all of a sudden -- especially a more complicated one with something like '<a href="https://youtu.be/D2HW4_vl9zM?t=14m47s" target="_blank">id="grid-container"</a>' -- i understand Classes and IDs fairly well, and I'm confused by that -- as if grid-container has special, magical, browser-specific properties. I know. It's crazy. But I'm just letting you know where my heads at with this.</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=14m39s" target="_blank">14:39</a></td>
+          <td>does mention that we're going to learn it. But it was an excruciating minute filled with instagram and other distractions because I didn't feel like I'd be able to continue the lesson</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=18m53s" target="_blank">18:53</a></td>
+          <td>this helped a lot with understanding grid. I still want to know more. But this gave me a functional working knowledge of how I'd use grid.</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=20m02s" target="_blank">20:02</a></td>
+          <td><b>an issue</b> doesn't this disagree with the design mobile-first philosophy? I'll write on this in the notes section.</td>
+        </tr>
+        <tr>
+          <td><a href="https://youtu.be/D2HW4_vl9zM?t=21m12s" target="_blank">21:12</a><i> to the end</i>:</td>
+          <td>I could be wrong, but I feel this was a missed opportunity to address the last note about mobile-first design. While one of the max-widths was manipulated to min-width to demonstrate the idea of control via browser width, I think it should've been taken a step further in setting the original "#grid-container {}" to "grid-template-columns: repeat(1, 1fr);" and then using media queries and min-width to porpotionally increase the size and columns. so, @media min-width: 600px {repeat(2)}, and @media min-width: 950px {repeat(3)} -- i lazily typed those, but the idea's there.</td>
+      </tr>
+        </table>
+    </section>
+
   </body>
 </html>
