@@ -1,12 +1,15 @@
 /* <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources" width="715" height="194" /> */
 
 h1 {
-	font-size: 1.4rem;
+	font-size: 1.7rem;
 	color:#000066;
 	color: #0021A5;
-	width: 92%;
-	width: 86%;
+	width: 84%;
 	margin: 8px auto 0 auto;
+}
+
+.small {
+	color: #233da8;
 }
 
 .content img {
@@ -18,18 +21,24 @@ h1 {
 .coreFeature {
 	/* margin: 15px auto 20px auto; */
 	border: 1px solid #d0d0d0;
-	padding: 15px 0;
+	padding: 25px 0 15px 0;
 }
 
 .coreFeature h3 {
-	font-size: 1.2rem;
-	width: 86%;
+	font-size: 1.4rem;
 	margin: 0 auto 10px auto;
-	color: #6C9AC3;
 }
 
 .coreFeature h3 a {
   color: #6C9AC3;
+}
+
+.coreFeature ul {
+	margin-top: 15px;
+}
+
+.coreFeature li a {
+	text-decoration: none;
 }
 
 #trackTable {

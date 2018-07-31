@@ -29,6 +29,15 @@ body {
 
 #clasUfNavBar {
 	height: 42px;
+	padding-top: 2px;  /* delete this */
+}
+
+#clasUfNavBar a {
+	color: #2b72fe;
+	border: 3px solid #999;
+	padding: 2px .8rem;
+	border-radius: 5px;
+	background: #f0f0f0;
 }
 
 header {
@@ -41,14 +50,15 @@ header img {
 	margin-top: 10px;
 }
 
-#dept {float: left; margin-top: 2px; margin-left: 30px;}
-#uf {float: right;margin-right: 20px;}
+#dept {float: left;margin-top:8px; margin-left: 30px;}
+#uf {float: right; margin-top:8px; margin-right: 20px;}
 
 header nav {
 	width: 100%;
 	min-width: 315px;
 	margin: 0 auto;
 	/* background: #2b72ff; */
+	/* background: #2b72fe; */
 }
 
 header nav ul, header nav ul li {
@@ -93,12 +103,12 @@ h1 {
 }
 
 .slug {
-	width: 90%;
-	font-size: 1rem;
-	margin: 18px auto 25px auto;
+	width: 84%;
+	font-size: 1.3rem;
+	margin: 22px auto 30px auto;
 	text-align: center;
-	color: #777;
-	letter-spacing: .9px;
+	color: #999;
+	letter-spacing: .7px;
 	line-height: 1.5;
 }
 
@@ -113,30 +123,29 @@ h2 {
 
 h3 {
 	font-size: 1.2rem;
-	width: 86%;
+	width: 84%;
 	margin: 1.6rem auto 10px auto;
 	color: #6C9AC3;
 }
 
 
 p {
-	width: 86%;
+	width: 84%;
 	margin: auto;
 	margin-top: 1.1rem;
 	line-height: 1.8;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	color: #444;
 }
 
 .content ul, .content ol {
-	width: 73%;
-	margin-left: 2.8rem;
-  margin-top: 25px;
-  margin-bottom: 25px;
+	width: 84%;
+	margin: 25px auto;
 }
 
 .content li {
-	margin: 3px 0 1rem 0;
+	width: 84%;
+	margin: 3px auto 1rem auto;
 	color: #444;
  	font-size: 1rem;
 	line-height: 1.8;
@@ -144,20 +153,20 @@ p {
 
 /* list box  */ /* list box  */ /* list box  */
 
-.listBox {
+.listAndInfoBox {
   width: 76%;
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: 17%;
 }
 
-.listBox ul {
+.listAndInfoBox ul {
 	background: none;
 	width: 86%;
 	margin: 0px;
 }
 
-.listBox li {
+.listAndInfoBox li {
 	/* padding: 0px 5px; */
 	margin: 3px 0;
 	color: #444;
@@ -170,7 +179,7 @@ p {
   margin-bottom: 5px;
 }
 
-.listBox p {
+.listAndInfoBox p {
   width: 100%;
   padding-right: 20px;
 	margin-top: 0;
@@ -382,7 +391,7 @@ footer a {
 a {text-decoration: none;}
 a:link,  a:visited {color:#0021a5;} /* blue */
 a:hover, a:active  {color:#ff4a00;} /* orange */
-.content p a, .content li a { /* dark blue */ border-bottom: 1px solid #0021A5;}
+/*.content p a, .content li a { /* dark blue * / border-bottom: 1px solid #0021A5;} */
 .content p a:link, .content p a:visited {color: #24b; /* blue */}
 .content li a:hover, .content li a:active, .content p a:hover, .content p a:active {color: #f40; /* orange */text-decoration: none;}
 nav a:link {display: inline-block;width: 100%;}

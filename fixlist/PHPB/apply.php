@@ -9,14 +9,14 @@
 
     <p>Follow the steps below to be sure your application is considered complete:</p>
 
-    <div class="listBox">
+    <div class="listAndInfoBox">
       <ul>
         <li>1. PostBac Application</li>
       </ul>
       <p>Complete the <a href="https://postbaccas.liaisoncas.com/" target="_blank">PostBacCAS Application</a>, selecting UF as the program for which you are applying.</p>
     </div>
 
-    <div class="listBox">
+    <div class="listAndInfoBox">
       <ul>
         <li>2. UF Application</li>
       </ul>
@@ -24,7 +24,7 @@
       <p>When filling out the application, <b>be sure to select "PHPB" as your Postbaccalaureate type</b>.</p>
     </div>
 
-    <div class="listBox">
+    <div class="listAndInfoBox">
       <ul>
         <li>3. Mail Transcripts</li>
       </ul>
@@ -39,7 +39,7 @@
     </div>
 
 
-    <div class="listBox">
+    <div class="listAndInfoBox">
       <ul>
         <li>4. Recommendations</li>
       </ul>

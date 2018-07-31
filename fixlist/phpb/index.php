@@ -8,7 +8,7 @@
 
           <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources">
 
-          <h1>Pre-Health Post-Baccalaureate Program <span class="small">(PHPB)</span></h1>
+          <h1>Pre-Health<br>Post-Baccalaureate Program <br><span class="small">(PHPB)</span></h1>
 
           <p class="slug">"<i>Helping yourself is the first step in helping others.</i>"</p>
 
@@ -19,13 +19,7 @@
               <li><a href="admission.php">Admission</a></li>
             </ul>
           </div>
-          <div class="coreFeature">
-            <h3><a href="features.php">Instruction</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <ul>
-              <li><a href="features.php">Features</a></li>
-            </ul>
-          </div>
+
           <div class="coreFeature">
             <h3><a href="courses.php">Duration</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -33,6 +27,15 @@
               <li><a href="courses.php">Courses</a></li>
             </ul>
           </div>
+
+          <div class="coreFeature">
+            <h3><a href="features.php">Instruction</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <ul>
+              <li><a href="features.php">Features</a></li>
+            </ul>
+          </div>
+
           <div class="coreFeature">
             <h3><a href="finances.php">Costs</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -64,14 +67,14 @@
 
           <p>Students who completed science pre-requisites five or more years ago still have an opportunity for admission.  However all courses five or more years and/or with less than a B earned will be required to be repeated.</p>
 
-          <div class="listBox">
+          <div class="listAndInfoBox">
             <ul>
               <li>Career Changer Program</li>
             </ul>
             <p>For students who have not taken more than two science pre-requisite courses earning Bs or above.</p>
           </div>
 
-          <div class="listBox">
+          <div class="listAndInfoBox">
             <ul>
               <li>ReStart Program</li>
             </ul>

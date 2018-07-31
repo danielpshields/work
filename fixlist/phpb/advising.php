@@ -13,7 +13,7 @@ require_once("includes/header.php");
       <section>
         <h2>Walk-in Hours</h2>
         <h3>Farrior Hall</h3>
-        <div class="listBox">
+        <div class="listAndInfoBox">
           <ul>
             <li>Monday:</li>
           </ul>
@@ -49,7 +49,7 @@ require_once("includes/header.php");
       <p>Call (352) 273-4083 to schedule an appointment.</p>
 
       <h2>Location</h2>
-      <div class="listBox">
+      <div class="listAndInfoBox">
         <ul>
           <li><a href="http://campusmap.ufl.edu/#/index/0019">Farrior Hall</a></li>
         </ul>

@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 	<head>
-
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title><?php echo $title; ?></title>
@@ -12,19 +11,20 @@
 		<link rel="stylesheet" href="css/<?php echo $page; ?>.css">
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	</head>
-
 	<body>
-
 		<header>
 			<div id="clasUfNavBar">
 				<div id="dept">
 					<a href="index.php">
-						<img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences">
+						CLAS
+						<!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> -->
 					</a>
 				</div>
 				<div id="uf">
+
 					<a href="index.php">
-						<img src="images/UF-logo.png">
+						UF
+						<!-- <img src="images/UF-logo.png"> -->
 					</a>
 				</div>
 				<div class="clear"></div>
@@ -34,7 +34,7 @@
 				<ul>
 					<li id="navOne"><a href="index.php">PHPB</a></li>
 					<li id="navTwo"><a href="admission.php">Admission</a></li>
-					<li id="navThree"><a href="apply.php">Apply</a></li>
+					<li id="navThree"><a href="menu.php">Menu</a></li>
 					<div class="clear"></div>
 				</ul>
 			</nav>

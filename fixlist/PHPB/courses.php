@@ -234,7 +234,7 @@
         </tr>
       </table>
 
-    <div class="listBox">
+    <div class="listAndInfoBox">
         <ul>
           <li><b>Pre-Matriculation</b></li>
         </ul>

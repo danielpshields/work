@@ -184,6 +184,7 @@
           <li>180530 [<a href="ln/index.html">LN</a>]</li>
           <li>180521 <a href="https://www.advising.ufl.edu/wai/" target="_blank">WAI?</a></li>
           <li>180214 <a href="ln/hold.html">Hold</a></li>
+          <li>180731 <a href="fixlist/notes/index.html">Notes</a></li>
           <li>180522 <a href="ln/reports\highcharts\index.html">HighCharts</a></li>
           <li>180202 <a href="https://www.lynda.com/">Lynda</a></li>
         </ul>

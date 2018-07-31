@@ -11,7 +11,6 @@
       <nav>
         <div class="contactID">
           <h2>Alex Catalano</h2>
-
           <ul class="monospace">
             <li><a href="../fixlist/query/index.php">Query</a></li>
           </ul>
