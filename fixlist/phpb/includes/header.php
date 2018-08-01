@@ -10,6 +10,8 @@
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<link rel="stylesheet" href="css/<?php echo $page; ?>.css">
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"> </script>
+		<script src="scripts/dropdown.js"></script>
 	</head>
 	<body>
 		<header>
@@ -34,7 +36,23 @@
 				<ul>
 					<li id="navOne"><a href="index.php">PHPB</a></li>
 					<li id="navTwo"><a href="admission.php">Admission</a></li>
-					<li id="navThree"><a href="menu.php">Menu</a></li>
+					<!-- <li id="navThree"><a href="menu.php">Menu</a></li> -->
+					<dl>
+						<dt>Menu</dt>
+						<dd>
+						    <ul>
+						      <li><a href="admission.php">Admission</a></li>
+						      <li><a href="courses.php">Course Information</a></li>
+						      <li><a href="features.php">Program Features</a></li>
+						      <li><a href="finances.php">Financial Information</a></li>
+						      <li><a href="faq.php">FAQ</a></li>
+						      <li><a href="advising.php">Advising</a></li>
+						      <li><a href="alumnisuccess.php">Alumni Success</a></li>
+						      <li><a href="contact.php">Contact Us</a></li>
+						      <li id="newlyAdmittedLink"><a href="newstudents.php">Newly Admitted Students</a></li>
+						    </ul>
+						</dd>
+					</dl>
 					<div class="clear"></div>
 				</ul>
 			</nav>

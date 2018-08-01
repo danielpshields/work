@@ -8,7 +8,6 @@
 
   <h1>Course Information</h1>
   <h2>Duration</h2>
-  <h3>Two-Year Program</h3>
 
   <table id="twoYearProgramTable">
     <tr>
@@ -23,6 +22,10 @@
       <td><a href="#springTwo">Spring</a></td>
     </tr>
   </table>
+
+  <h3>Two-Year Program</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+
 
   <section>
     <h2>Tracks</h2>

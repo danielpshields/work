@@ -16,7 +16,7 @@ body {
 	max-width: 960px;
 	margin:0 auto;
 	padding: 0 0 20px 0;
-	text-align:left;
+	text-align: left;
 }
 
 .content {
@@ -50,7 +50,7 @@ header img {
 	margin-top: 10px;
 }
 
-#dept {float: left;margin-top:8px; margin-left: 30px;}
+#dept {float: left;margin-top:8px; margin-left: 2.83rem;}
 #uf {float: right; margin-top:8px; margin-right: 20px;}
 
 header nav {
@@ -73,9 +73,11 @@ header nav li {
 	outline-color: #fff;
 	text-align: center;
 	list-style: none;
-	line-height: 2;
+	line-height: 2.5;
+	font-size: 1.3rem;
+	background: #478af7;
 }
-header li a {color: 1px solid white;}
+header li a {color: white;}
 
 #navOne {
 	width: 69%;
@@ -154,16 +156,14 @@ p {
 /* list box  */ /* list box  */ /* list box  */
 
 .listAndInfoBox {
-  width: 76%;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 17%;
+  width: 78%;
+  margin: 1.5rem auto;
 }
 
 .listAndInfoBox ul {
 	background: none;
 	width: 86%;
-	margin: 0px;
+	margin: auto;
 }
 
 .listAndInfoBox li {
@@ -172,6 +172,7 @@ p {
 	color: #444;
 	font-size: 1rem;
 	line-height: 1.8;
+	width: 100%;
 
 
   font-size: 1.2rem;
@@ -180,8 +181,8 @@ p {
 }
 
 .listAndInfoBox p {
-  width: 100%;
-  padding-right: 20px;
+  width: 95%;
+  padding-right: 50px;
 	margin-top: 0;
 }
 
@@ -233,9 +234,9 @@ section {
 } */
 
 #applicationSlug {
-  font-size: 1.25rem;
+  font-size: 1.9rem;
+	margin-top: 0;
 	color: #3a3a3a;
-	padding: 6px 0 6px 0;
 }
 
 
@@ -260,6 +261,39 @@ td {
 
 /* sidenav  */ /* sidenav  */ /* sidenav  */
 
+dl {
+	/* float: left; */
+}
+
+dt {
+	outline-style: solid;
+	outline-width: 1px;
+	outline-color: #fff;
+	text-align: center;
+	list-style: none;
+	line-height: 2.5;
+	font-size: 1.3rem;
+	float: left;
+	width: 30.7%;
+	background: #E28F41;
+	color: white;
+	}
+
+dd {
+	/* width: 100%; */
+	line-height: 8;
+}
+
+header nav ul dl dd ul li {
+	line-height: 5;
+}
+
+dd li {
+	width: 100%;
+	line-height: 8;
+}
+
+
 .sidebar nav {
 	width: 100%;
 }
@@ -271,10 +305,14 @@ td {
 .sidebar nav li {
 	color: #fefefe;
 	/* padding: 0px 0; */
+	background: #478af7;
+
 	display: block;
 	margin-top: 0;
 	text-align: center;
 	border-top: 1px solid black;
+	line-height: 2.8;
+	font-size: 1.2rem;
 }
 
 .sidebar nav li a {
@@ -285,11 +323,15 @@ td {
 #newlyAdmittedLink {
 	background: #E28F41;
 	font-weight: 500;
-	border-bottom: 1px solid black;
+	line-height: 2.4;
 }
 
 #newlyAdmittedLink a {
 	color: white;
+}
+
+.blackBottomBorder {
+	border-bottom: 1px solid black;
 }
 
 #contactSections {
@@ -303,11 +345,14 @@ td {
 }
 
 #contactSections h3 {
-	padding: 20px 0 0px 0;
+	padding: .7rem 0 0 0;
+	font-size: 1.25rem;
+	letter-spacing: .1rem;
 }
 
 #contactSections a {
 	color: #436f96;
+	text-decoration: underline;
 }
 
 #contactSections p {
@@ -406,6 +451,10 @@ header li a:visited {color: white;}
 
 .normalWeight {
 	font-weight: normal;
+}
+
+.heavy {
+	font-weight: 800;
 }
 
 .marginTop {

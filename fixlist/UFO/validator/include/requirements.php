@@ -5,7 +5,7 @@
 
 			<ol>
 				<li>Applying through the UF Online website (<a href="https://ufonline.ufl.edu/admissions/how-to-apply/#readmit" target="_blank">ufonline.ufl.edu</a>)</li>
-				<li>Petitioning CLAS to make the change documenting the reasons they are no longer able to complete their degree residentially</li>
+				<li>Petitioning CLAS to make the change documenting the reasons you are no longer able to complete your degree residentially.</li>
 			</ol>
 
   		<table>

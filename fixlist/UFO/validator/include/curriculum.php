@@ -25,44 +25,44 @@
       <th id="majorOrange">UF Online</th>
     </tr>
     <tr>
-      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/APY_BA_UFO/" target="_blank">Anthropology</a></td>
-      <td>BS or BA</td>
-      <td>BA</td>
+      <td>Anthropology</td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/APY_BA_BS/" target="_blank">BS or BA</a></td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/APY_BA_UFO/" target="_blank">BA</a></td>
     </tr>
     <tr>
-      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/BIO_BA_UFO/" target="_blank">Biology</a></td>
-      <td>BS or BA</td>
-      <td>BA</td>
+      <td>Biology</td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/BIO_BA_BS/" target="_blank">BS or BA</a></td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/BIO_BA_UFO/" target="_blank">BA</a></td>
     </tr>
     <tr>
-      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/CSC_BS_UFO/" target="_blank">Computer Science</a></td>
-      <td>BS</td>
-      <td>BS</td>
+      <td>Computer Science</td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/CSC_BS/" target="_blank">BS</a></td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/CSC_BS_UFO/" target="_blank">BS</a></td>
     </tr>
     <tr>
-      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/CRI_BA_UFO/" target="_blank">Criminology</a></td>
-      <td>BA</td>
-      <td>BA</td>
+      <td>Criminology</td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/CRI_BA/" target="_blank">BA</a></td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/CRI_BA_UFO/" target="_blank">BA</a></td>
     </tr>
     <tr>
-      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/GPY_BA_UFO/" target="_blank">Geography</a></td>
-      <td>BA or BS</td>
-      <td>BA</td>
+      <td>Geography</td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/GPY_BA_BS/" target="_blank">BA or BS</a></td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/GPY_BA_UFO/" target="_blank">BA</a></td>
     </tr>
     <tr>
-      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/GLY_BA_UFO/" target="_blank">Geology</a></td>
-      <td>BS or BA</td>
-      <td>BA</td>
+      <td>Geology</td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/GLY_BA_BS/" target="_blank">BS or BA</a></td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/GLY_BA_UFO/" target="_blank">BA</a></td>
     </tr>
     <tr>
-      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/PSY_BA_UFO/" target="_blank">Psychology</a></td>
-      <td>BS</td>
-      <td>BA</td>
+      <td>Psychology</td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/PSY_BS_BS01/" target="_blank">BS</a></td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/PSY_BA_UFO/" target="_blank">BA</a></td>
     </tr>
     <tr>
-      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SOC_BA_UFO/" target="_blank">Sociology</a></td>
-      <td>BA</td>
-      <td>BA</td>
+      <td>Sociology</td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SOC_BA/" target="_blank">BA</a></td>
+      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SOC_BA_UFO/" target="_blank">BA</a></td>
     </tr>
   </table>
 

@@ -8,7 +8,8 @@
 
           <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources">
 
-          <h1>Pre-Health<br>Post-Baccalaureate Program <br><span class="small">(PHPB)</span></h1>
+          <h1>Pre-Health<br>Post-Baccalaureate Program</h1>
+          <p id="smallProgramSlug">(PHPB)</p>
 
           <p class="slug">"<i>Helping yourself is the first step in helping others.</i>"</p>
 
@@ -16,7 +17,7 @@
             <h3><a href="admission.php">Prerequisites</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
             <ul>
-              <li><a href="admission.php">Admission</a></li>
+              <li>&gt; <a href="admission.php">Admission</a></li>
             </ul>
           </div>
 
@@ -24,7 +25,7 @@
             <h3><a href="courses.php">Duration</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <ul>
-              <li><a href="courses.php">Courses</a></li>
+              <li>&gt; <a href="courses.php">Courses</a></li>
             </ul>
           </div>
 
@@ -32,7 +33,7 @@
             <h3><a href="features.php">Instruction</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <ul>
-              <li><a href="features.php">Features</a></li>
+              <li>&gt; <a href="features.php">Features</a></li>
             </ul>
           </div>
 
@@ -40,7 +41,7 @@
             <h3><a href="finances.php">Costs</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <ul>
-              <li><a href="finances.php">Financial Information</a></li>
+              <li>&gt; <a href="finances.php">Financial Information</a></li>
             </ul>
           </div>
 
@@ -56,7 +57,7 @@
           <p class="center">Fall admission only</p>
 
           <section>
-            <p class="medium">2019</p>
+            <p class="medium heavy">2019</p>
             <p id="applicationSlug"> Fall Application Cycle via <a href="https://postbaccas.liaisoncas.com/">PostBacCAS</a></p>
             <p class="tiny light italic marginTop">Opens August 15, 2018</p>
           </section>
@@ -111,10 +112,10 @@
             </tr>
           </table>
 
-        <button id="questionButton" onclick="location.href='contact.php';">
+        <div id="questionButton" onclick="location.href='contact.php';">
           <h3>Have Questions?</h3>
           <h3>Want More Information?</h3>
-        </button>
+        </div>
 
       </div>
     <?php require_once("includes/sidebar.php"); ?>
