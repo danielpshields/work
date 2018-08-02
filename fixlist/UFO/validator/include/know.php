@@ -4,7 +4,7 @@
   <ul>
     <li>Admission to UF Online prevents taking any <b>residential</b> courses at the University of Florida or switching back to the UF residential program.</li>
   </ul>
-  <p>If you are interested in taking one semester of online courses, then returning to campus, changing to UF Online is not the correct option for you. Please discuss with an academic advisor.</p>
+  <p>If you are interested in taking one semester of online courses, then returning to campus, changing to UF Online is not the correct option for you. Please discuss other options with your academic advisor.</p>
   <table>
     <tr>
       <td><p class="orangeFont"><b>2</b></p></td>

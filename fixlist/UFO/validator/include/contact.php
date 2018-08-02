@@ -13,6 +13,6 @@
       </tr>
     </table> -->
     <ul>
-      <li><a href="https://www.advising.ufl.edu/uf-online/contact/" target="_blank">UF Advising Staff</a></li>
+      <li><a href="https://www.advising.ufl.edu/uf-online/contact/" target="_blank">CLAS UF Online Advising Staff</a></li>
     </ul>
   </div>
