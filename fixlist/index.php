@@ -10,8 +10,13 @@
 
         <dl>
       		<dt>General</dt>
-            <dd></dd>
-            
+            <dd>
+              <ul>
+                <li><a href="GEN/database/multiattempt.php">Database Multiattempt</a></li>
+                <li><a href="GEN/database/ufodisclaimer.php">UFO Disclaimer Screen Form</a></li>
+              </ul>
+            </dd>
+
           <dt>PHPB</dt>
             <dd>
               <ul>

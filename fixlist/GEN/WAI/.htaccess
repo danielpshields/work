@@ -1,0 +1,18 @@
+DirectoryIndex wai.php
+
+AuthType shibboleth
+ShibRequireSession On
+ShibUseHeaders On
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+require UFADGroupsDN ~ PV-AAC-Staff Users
+
+require eppn meents.4@ufl.edu
+require eppn shannon.kelly@ufl.edu
+require eppn cmatson2@ufl.edu
+require eppn nraymond@ufl.edu
+require eppn fallen.walker@ufl.edu
+require eppn acatalano2@ufl.edu

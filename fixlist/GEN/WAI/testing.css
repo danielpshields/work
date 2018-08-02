@@ -1,0 +1,189 @@
+A
+{
+    TEXT-DECORATION: underline
+}
+A:link
+{
+    COLOR: #ff3333
+}
+A:visited
+{
+    COLOR: #dd3333
+}
+A:active
+{
+    COLOR: #ff7777
+}
+.A:link
+{
+    COLOR: #aaaaff
+}
+.A:visited
+{
+    COLOR: #aaaadd
+}
+.A:active
+{
+    COLOR: #aaaaff
+}
+.B:link
+{
+    COLOR: #ffaaaa
+}
+.B:visited
+{
+    COLOR: #ffaaaa
+}
+.B:active
+{
+    COLOR: #ffaaaa
+}
+FONT
+{
+    FONT-SIZE: 10pt;
+    COLOR: #007733;
+    FONT-FAMILY: tahoma,arial
+}
+
+.singleItemMenuFont
+
+{
+    FONT-SIZE: 12pt;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: tahoma,arial
+}
+
+
+
+.fs
+{
+    FONT-SIZE: 8pt
+}
+.fsb
+{
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bold;
+}
+.fsbw
+{
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bold;
+    COLOR: #FFFFFF
+}
+.fss
+{
+    FONT-SIZE: 7pt
+}
+
+.fb
+{
+    FONT-WEIGHT: bold
+}
+.f1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: #ffffff
+}
+.f1a
+{
+    FONT-SIZE: 10pt;
+    COLOR: #ffffff
+}
+.f1ab
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #ffffff
+}
+.f2
+{
+    FONT-SIZE: 15pt
+}
+.f3b
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: #ffffff
+}
+TD
+{
+    VERTICAL-ALIGN: top;
+    BACKGROUND-COLOR: #ffffdd
+}
+.td1
+{
+    BACKGROUND-COLOR: #007733
+}
+.td_aimsAdvisor
+{
+    BACKGROUND-COLOR: #338833
+}
+.td2
+{
+    BACKGROUND-COLOR: #0021A5
+}
+.td3
+{
+    BACKGROUND-COLOR: #ffffff
+}
+.td4
+{
+    BACKGROUND-COLOR: #dd0000
+}
+.td5
+{
+    BACKGROUND-COLOR: #dddddd
+}
+.tdbgc1
+{
+    BACKGROUND-COLOR: #0000ff
+}
+.tdbgc2
+{
+    BACKGROUND-COLOR: #dddddd
+}
+.tdbgc3
+{
+    BACKGROUND-COLOR: #ddddff
+}
+.tdbgc4
+{
+    BACKGROUND-COLOR: #558855
+}
+.tdbgc5
+{
+    BACKGROUND-COLOR: #ffffaa
+}
+.tdbgc6
+{
+    BACKGROUND-COLOR: #cc4444
+}
+.tdbgc7
+{
+    BACKGROUND-COLOR: #ff0000
+}
+.tdbgc8
+{
+    BACKGROUND-COLOR: #00ff00
+}
+.tdbgc_AIMS
+{
+    BACKGROUND-COLOR: #ffff55
+}
+.o1
+{
+    FONT-SIZE: 10pt;
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #005533
+}
+BODY
+{
+    MARGIN-TOP: 0px;
+    MARGIN-LEFT: 0px;
+    BACKGROUND-COLOR: #ffffff
+}
+.body1
+{
+    BACKGROUND-COLOR: #ffffdd
+}

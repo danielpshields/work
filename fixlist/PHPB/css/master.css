@@ -42,6 +42,7 @@ body {
 
 header {
 	border-bottom: 1px solid gray;
+	padding-top: .8rem;
 }
 
 header img {
@@ -97,7 +98,7 @@ header li a {color: white;}
 /* end nav  */
 
 h1 {
-	font-size: 1.7rem;
+	font-size: 2rem;
 	color:#000066;
 	color: #0021A5;
 	width: 86%;
@@ -124,7 +125,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 	width: 84%;
 	margin: 1.6rem auto 10px auto;
 	color: #6C9AC3;
@@ -136,7 +137,7 @@ p {
 	margin: auto;
 	margin-top: 1.1rem;
 	line-height: 1.8;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	color: #444;
 }
 
@@ -149,7 +150,7 @@ p {
 	width: 84%;
 	margin: 3px auto 1rem auto;
 	color: #444;
- 	font-size: 1rem;
+ 	font-size: 1.5rem;
 	line-height: 1.8;
 }
 
@@ -168,15 +169,13 @@ p {
 
 .listAndInfoBox li {
 	/* padding: 0px 5px; */
-	margin: 3px 0;
-	color: #444;
-	font-size: 1rem;
+	/* font-size: 1rem; */
+	/* font-size: 1.2rem; */
 	line-height: 1.8;
 	width: 100%;
-
-
-  font-size: 1.2rem;
+	color: #444;
   color: #4268a5;
+	margin: 3px 0;
   margin-bottom: 5px;
 }
 
