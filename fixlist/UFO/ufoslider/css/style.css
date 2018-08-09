@@ -49,15 +49,16 @@ body{
 }
 #navigation ul{
     list-style:none;
-	float:left;
-	margin-left:22px;
+  	float:left;
+  	margin-left:22px;
 }
 #navigation ul li{
-	float:left;
+    float:left;
     border-right:1px solid #ccc;
     border-left:1px solid #ccc;
     position:relative;
-	margin:0px 2px;
+  	margin:0px 2px;
+    font-size: 12px;
 }
 #navigation ul li a{
     display:block;
@@ -210,4 +211,14 @@ span.error{
 
 #steps form button.orange {
     background: orange;
+}
+
+table {
+  margin: auto;
+}
+
+table, tr, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
 }
