@@ -3,18 +3,6 @@
 
   <p>Please note the degree options available in UF Online compared to UF Residential</p>
 
-  <!-- <table id="courseDifferences">
-    <tr>
-      <th>Residentially</th>
-      <th>UF Online</th>
-    </tr>
-    <tr>
-      <td>Psychology <b>BS</b></td>
-      <td>Psychology <b>BA</b></td>
-    </tr>
-  </table> -->
-
-
   <table>
     <tr>
       <th colspan="5" class="center">CLAS Major Comparisons</th>
