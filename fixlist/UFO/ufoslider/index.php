@@ -1,3 +1,6 @@
+<?php
+  $whereTo = "thankyou.php";
+?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -15,7 +18,7 @@
             <h1>UF Online CLAS Screen</h1>
             <div id="wrapper">
                 <div id="steps">
-                    <form id="formElem" name="formElem" action="" method="post">
+                    <form id="formElem" name="formElem" action="<?php echo $whereTo; ?>" method="post">
                         <fieldset class="step">
                             <legend>Health Professions Disclosure</legend>
                             <p>UF Online Majors in the College of Liberal Arts and Sciences <b>were not</b> designed to accommodate students interested in pursuing a career in health profession such as: pre-med, pre-dent, pre-vet, PA, Pharmacy.</p>
@@ -107,10 +110,10 @@
                                 <p>1. Applying through the UF Online website (<a href="https://ufonline.ufl.edu/admissions/how-to-apply/#readmit" target="_blank">ufonline.ufl.edu</a>)</p>
                                 <p>2. Petitioning CLAS to document the reasons you are no longer able to complete your degree residentially</p>
 
-							               <p>
-                                <label for="tagname">Newsletter Tag</label>
-                                <input id="tagname" name="tagname" type="text" AUTOCOMPLETE=OFF />
-                            </p>
+                                <p>
+                                    <button class="orange" type="button" name="button">I acknowledge this</button>
+                                    <input id="" name="checkfour" type="checkbox" />
+                                </p>
                         </fieldset>
 						            <fieldset class="step">
                             <legend>Submit</legend>

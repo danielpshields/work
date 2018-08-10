@@ -1,3 +1,3 @@
-#mainContainer{width:960px;}
-#content{width:715px;}
-#phpbcontact{width:215px;}
+.content p {
+  padding-bottom: 1.5rem;
+}

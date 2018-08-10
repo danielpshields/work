@@ -15,7 +15,12 @@
       <p>You will work with a pre-health advisor to develop an academic and professional plan that reflects your goals, interests, and unique background to help gain admission to a health profession graduate program.</p>
 
       <h3>PHBP Unique Courses</h3>
-      <p>&bull; Pre-Health Seminar &bull; Innovations in Healthcare<br />&bull; Bioethics &bull; Health Equity: Here and Abroad</p>
+      <ul>
+        <li>Pre-Health Seminar</li>
+        <li>Innovations in Healthcare</li>
+        <li>Bioethics</li>
+        <li>Health Equity: Here and Abroad</li>
+      </ul>
 
       <h3>Workshops and Events</h3>
       <p>Throughout the year we offer workshops and events to help you prepare.</p>

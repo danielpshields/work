@@ -11,7 +11,7 @@
           <h1>Pre-Health<br>Post-Baccalaureate Program</h1>
           <p id="smallProgramSlug">(PHPB)</p>
 
-          <p class="slug">"<i>Helping yourself is the first step in helping others.</i>"</p>
+          <p class="slug">"<i>Helping yourself can be the first step to helping others.</i>"</p>
 
           <div class="coreFeature">
             <h3><a href="admission.php">Prerequisites</a></h3>

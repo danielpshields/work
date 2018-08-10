@@ -93,6 +93,38 @@ header li a {color: white;}
 	width: 30.7%;
 }
 
+dl {
+	/* float: left; */
+}
+
+dt {
+	outline-style: solid;
+	outline-width: 1px;
+	outline-color: #fff;
+	text-align: center;
+	list-style: none;
+	line-height: 2.5;
+	font-size: 1.3rem;
+	float: left;
+	width: 100%;
+	background: #E28F41;
+	color: white;
+	}
+
+dd {
+	/* width: 100%; */
+	line-height: 8;
+}
+
+header nav dl dd ul li {
+	line-height: 5;
+}
+
+dd li {
+	width: 100%;
+	line-height: 8;
+}
+
 /* end nav  */
 /* end nav  */
 /* end nav  */
@@ -260,37 +292,6 @@ td {
 
 /* sidenav  */ /* sidenav  */ /* sidenav  */
 
-dl {
-	/* float: left; */
-}
-
-dt {
-	outline-style: solid;
-	outline-width: 1px;
-	outline-color: #fff;
-	text-align: center;
-	list-style: none;
-	line-height: 2.5;
-	font-size: 1.3rem;
-	float: left;
-	width: 30.7%;
-	background: #E28F41;
-	color: white;
-	}
-
-dd {
-	/* width: 100%; */
-	line-height: 8;
-}
-
-header nav ul dl dd ul li {
-	line-height: 5;
-}
-
-dd li {
-	width: 100%;
-	line-height: 8;
-}
 
 
 .sidebar nav {

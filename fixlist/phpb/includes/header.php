@@ -33,14 +33,16 @@
 			</div><!-- end unofficial NAV (uf and CLAS bar) -->
 
 			<nav>
-				<ul>
-					<li id="navOne"><a href="index.php">PHPB</a></li>
 					<li id="navTwo"><a href="admission.php">Admission</a></li>
-					<!-- <li id="navThree"><a href="menu.php">Menu</a></li> -->
+
 					<dl>
 						<dt>Menu</dt>
 						<dd>
 						    <ul>
+									<?php
+									if ($page !== "index") { ?>
+										<li><a href="index.php">Home</a></li>
+									<?php } ?>
 						      <li><a href="admission.php">Admission</a></li>
 						      <li><a href="courses.php">Course Information</a></li>
 						      <li><a href="features.php">Program Features</a></li>
@@ -54,7 +56,6 @@
 						</dd>
 					</dl>
 					<div class="clear"></div>
-				</ul>
 			</nav>
 
 		</header>

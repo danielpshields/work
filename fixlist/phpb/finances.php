@@ -1,6 +1,6 @@
 <?php
   $title = "Pre-Health Post-Bac Completion Program | UF College of Liberal Arts and Sciences";
-  $page = "financial";
+  $page = "finances";
   require_once("includes/header.php");
 ?>
 
