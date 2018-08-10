@@ -11,6 +11,7 @@
 
         <h5>Week 12</h5>
         <ul>
+          <li><a href="ln/18/08/10.html">180810</a></li>
           <li><a href="ln/18/08/09.html">180809</a></li>
           <li><a href="ln/18/08/08.html">180808</a></li>
           <li><a href="ln/18/08/07.html">180807</a></li>
