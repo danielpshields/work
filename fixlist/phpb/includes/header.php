@@ -18,14 +18,14 @@
 			<div id="clasUfNavBar">
 				<div id="dept">
 					<a href="index.php">
-						CLAS
+						CLAS Logo Here
 						<!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> -->
 					</a>
 				</div>
 				<div id="uf">
 
 					<a href="index.php">
-						UF
+						UF Logo Here
 						<!-- <img src="images/UF-logo.png"> -->
 					</a>
 				</div>

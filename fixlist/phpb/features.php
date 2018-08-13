@@ -3,9 +3,9 @@
   $page = "features";
   require_once("includes/header.php");
 ?>
-
     <div class="content">
-      <img src="images/predent.jpg" width="100%" alt="">
+
+      <img src="image/feature.jpg" width="100%" alt="">
 
       <h1>Program Features</h1>
 

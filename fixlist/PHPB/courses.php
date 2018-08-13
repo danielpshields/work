@@ -3,11 +3,11 @@
   $page = "courses";
   require_once("includes/header.php");
 ?>
-
 <div class="content">
 
+  <img src="image/courseInfo.jpg" alt="">
+
   <h1>Course Information</h1>
-  <!-- <h2>Duration</h2> -->
 
   <h3>Two-Year Program</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>

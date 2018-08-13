@@ -139,6 +139,12 @@ dd li {
 /* end nav  */
 /* end nav  */
 
+.content img {
+  width: 100%;
+  margin-bottom: 0;
+  /* width="715" height="194" */
+}
+
 h1 {
 	font-size: 2.8rem;
 	/* color:#000066; */

@@ -6,7 +6,8 @@
 
       <div class="content">
 
-          <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+        <!-- <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources"> -->
+        <img src="image/index_iii.jpg" alt="College of Liberal Arts and Sciences Human Resources">
 
           <h1>Pre-Health Post-Baccalaureate Program</h1>
           <p id="smallProgramSlug">(PHPB)</p>
@@ -29,7 +30,11 @@
 
           <div class="coreFeature">
             <h3><a href="courses.php">Duration</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <ul>
+              <li>Two-Year Program</li>
+              <li>Something, like a pie chart</li>
+              <li>And finally Something</li>
+            </ul>
             <ul>
               <li>&gt; <a href="courses.php">Courses</a></li>
             </ul>
@@ -37,7 +42,12 @@
 
           <div class="coreFeature">
             <h3><a href="features.php">Instruction</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>The PHPB Tracks is a personalized experienced.</p>
+            <ul>
+              <li>class size</li>
+              <li>instructor : student ratio</li>
+              <li>something else</li>
+            </ul>
             <ul>
               <li>&gt; <a href="features.php">Features</a></li>
             </ul>

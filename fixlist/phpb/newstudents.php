@@ -3,7 +3,8 @@ $page = "newstudents"; ?>
 <?php require_once("includes/header.php"); ?>
 
 <div class="content">
-  <img src="images/tutoring.jpg" alt="Students studying" title="Students studying" width="100%">
+  <!-- <img src="images/tutoring.jpg" alt="Students studying" title="Students studying" width="100%"> -->
+  <img src="image/admitted.jpg" alt="">
 
   <h1>Newly Admitted Students</h1>
   <p>Congratulations on your admission to the University of Florida's<br />Pre-Health Postbaccalaureate Program (PHPB)!</p>
