@@ -55,12 +55,12 @@
             <button onclick="location.href='apply.php';" type="button" name="button">Apply!</button>
           </div>
 
-          <h2>UF Pre-Health PostBac</h2>
+          <h2>UF Pre-Health Post-Bac</h2>
 
           <p>The University of Florida's Pre-health Post-Baccalaureate Program (PHPB) offers dedicated and motivated students an opportunity to complete academic pre-requisite courses for admission to medical, dental, or veterinary school. PHPB is a rigorous, two year structured program.</p>
           <p>Courses are offered once per year. Students in PHPB complete the majority of courses in classes created just for PHPB students, experiencing the outstanding teaching faculty at the University of Florida. This is a comprehensive program offering non-science courses that assist you in developing academic skills, application skills, and professional competencies necessary for application to medical, dental, PA, or veterinary school.</p>
           <p>Other health professions are considered. However, for professions other than medicine, pre-requisite courses not included in our standard curriculum are not offered.</p>
-          <p class="center">Fall admission only</p>
+          <p class="center italic">Fall admission only</p>
 
           <section>
             <p class="medium heavy">2019</p>
