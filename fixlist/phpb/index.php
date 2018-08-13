@@ -8,14 +8,20 @@
 
           <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources">
 
-          <h1>Pre-Health<br>Post-Baccalaureate Program</h1>
+          <h1>Pre-Health Post-Baccalaureate Program</h1>
           <p id="smallProgramSlug">(PHPB)</p>
 
-          <p class="slug">"<i>Helping yourself can be the first step to helping others.</i>"</p>
+          <div class="slug">
+            <p><i>"Helping yourself is the first step to helping others."</i></p>
+          </div>
 
           <div class="coreFeature">
             <h3><a href="admission.php">Prerequisites</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <p>Whether you have experience in sciences:</p>
+            <ul>
+              <li><b>From Scratch</b> for the science-taken</li>
+              <li><b>Some Experience</b> for the science taken</li>
+            </ul>
             <ul>
               <li>&gt; <a id="space" href="admission.php">Admission</a></li>
             </ul>
@@ -93,12 +99,12 @@
               <th>ReStart</th>
             </tr>
             <tr>
-              <td>Completed Pre-Requisite Sciences*</td>
+              <td>Pre-Requisite Sciences*<br> Completed</td>
               <td>2 or fewer</td>
               <td>1-3</td>
             </tr>
             <tr>
-              <td>Grades in pre-requisite sciences already completed</td>
+              <td>Pre-requisite sciences<br> Grades</td>
               <td>Bs or better</td>
               <td>Below B on any course</td>
             </tr>
@@ -108,13 +114,16 @@
               <td>Five + semesters</td>
             </tr>
             <tr>
-              <td colspan="3" class="italic">* Pre-requisite Sciences refers to Calculus, Chemistry, Biology, and Physics</td>
+              <td colspan="3" id="prereqSciencePadding" class="italic">* Pre-requisite Sciences refers to Calculus, Chemistry, Biology, and Physics</td>
             </tr>
           </table>
 
         <div id="questionButton" onclick="location.href='contact.php';">
-          <h3>Have Questions?</h3>
-          <h3>Want More Information?</h3>
+          <!-- <h3>Have Questions?</h3>
+          <h3>Want More Information?</h3> -->
+          <h3>?</h3>
+          <p><b>Still need help?</b></p>
+          <p>We got you, Fam.</p>
         </div>
 
       </div>

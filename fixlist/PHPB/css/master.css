@@ -21,9 +21,9 @@ body {
 
 .content {
 	background:#FFF;
-	float:right;
+	/* float:right; */
 	width: 100%;
-	max-width:715px;
+	/* max-width: 715px; */
 	padding-bottom: 12px;
 }
 
@@ -84,8 +84,18 @@ header li a {color: white;}
 	width: 69%;
 }
 
-#navTwo {
+.gone {
 	display: none;
+}
+
+@media screen and (min-width: 992px) {
+	.gone {
+		display: block;
+	}
+
+	nav dl {
+		display: none;
+	}
 }
 
 #navThree {
@@ -130,17 +140,25 @@ dd li {
 /* end nav  */
 
 h1 {
-	font-size: 2rem;
-	color:#000066;
+	font-size: 2.8rem;
+	/* color:#000066; */
 	color: #0021A5;
 	width: 86%;
-	margin: 20px auto 0 auto;
+	padding: 2rem 0 .5rem 0;
+	margin: 0 auto;
 }
 
 .slug {
-	width: 84%;
+	margin: 2rem auto 0 auto;
+	padding: 1rem 0;
+	border-top: 1px solid #f0f0f0;
+	border-top: 1px solid #e0e0e0;
+}
+
+.slug p {
+	/* width: 84%; */
+	margin-top: 0;
 	font-size: 1.3rem;
-	margin: 22px auto 30px auto;
 	text-align: center;
 	color: #999;
 	letter-spacing: .7px;
@@ -149,17 +167,17 @@ h1 {
 
 
 h2 {
-	font-size: 1.5rem;
-	width: 86%;
-	margin: 30px auto 15px auto;
+	font-size: 2.3rem;
+	width: 84%;
+	margin: 2.8rem auto 2rem auto;
 	color: #6893ba;
 	color: #436f96;
 }
 
 h3 {
-	font-size: 1.6rem;
+	font-size: 2rem;
 	width: 84%;
-	margin: 1.6rem auto 10px auto;
+	margin: 3rem auto 10px auto;
 	color: #6C9AC3;
 }
 
@@ -168,7 +186,7 @@ p {
 	width: 84%;
 	margin: auto;
 	margin-top: 1.1rem;
-	line-height: 1.8;
+	line-height: 2;
 	font-size: 1.4rem;
 	color: #444;
 }
@@ -201,14 +219,13 @@ p {
 
 .listAndInfoBox li {
 	/* padding: 0px 5px; */
-	/* font-size: 1rem; */
+	font-size: 1.3rem;
 	/* font-size: 1.2rem; */
 	line-height: 1.8;
 	width: 100%;
-	color: #444;
-  color: #4268a5;
-	margin: 3px 0;
-  margin-bottom: 5px;
+	color: #365587;
+	margin: 2rem 0 1rem 0;
+	font-weight: bold;
 }
 
 .listAndInfoBox p {
@@ -235,7 +252,7 @@ h5 {
 .apply button {
 	display: block;
 	margin: 11px auto 12px auto;
-	width: 60%;
+	width: 72%;
 	border: 4px solid #E28F41;
 	line-height: 2;
 	padding-top: 3px;
@@ -254,10 +271,14 @@ h5 {
 }
 
 section {
-	border: 1px solid #c0c0c0;
+	border-top: 2px solid #999;
+	border-right: 1px solid #c0c0c0;
+	border-bottom: 2px solid #999;
+	border-left: 1px solid #c0c0c0;
 	border-radius: 5px;
-	margin: 15px auto 18px auto;
-	padding: 15px 0 28px 0;
+	margin: .91rem auto 1.1rem auto;
+	padding: 0 0 2rem 0;
+	width: 95%;
 }
 
 /* section p {
@@ -271,23 +292,26 @@ section {
 }
 
 
+table, tr, th, td {
+	border: 1px solid #888;
+}
+
 table {
 	width: 95%;
 	margin: auto;
-	border:1px solid #000000;
+	border-collapse: collapse;
 }
 
 th {
 	background:#6C9AC3;
-	border:1px solid #000000;
 	font-weight:bold;
 	padding:5px;
 }
 
 td {
-	border:1px solid #000000;
 	padding:5px;
 	vertical-align:top;
+	line-height: 1.5;
 }
 
 /* sidenav  */ /* sidenav  */ /* sidenav  */
@@ -346,8 +370,10 @@ td {
 
 #contactSections h3 {
 	padding: .7rem 0 0 0;
-	font-size: 1.25rem;
+	font-size: 1.8rem;
 	letter-spacing: .1rem;
+	width: 84%;
+	margin: 1rem auto 1.3rem auto;
 }
 
 #contactSections a {
