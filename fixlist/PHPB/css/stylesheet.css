@@ -6,20 +6,23 @@
 
 @media screen and (min-width: 992px) {
   h1 {
-    color: red;
+    color: #0021A5;
   }
 
-  .page {
-    margin: 0;
-    float: left;
-  }
+/* turn on turn off SWITCH SWITCH SWITCH */
 
+  dl {
+    display: none;
+  }
 
   .sidebar {
     display: block;
-    float: left;
     background: green;
-    width: 30%;
+  }
+
+  .sidebar li {
+    font-size: .8rem;
+    background: #E28F41;
   }
 
   .gone li {

@@ -9,8 +9,9 @@ html {font-size: 16px;}
 body {
 	background: #2b72fe;
 	background: #478af7;
-	background: blue;
+	/* background: blue; */
 	/* background: green; */
+	min-width: 320px;
 }
 
 #container {
@@ -22,25 +23,18 @@ body {
 	background: red;
 }
 
-.sidebar {
-	display: none;
-}
-
 .page {
+	margin: auto;
+	width: 100%;
+	max-width: 800px;
+	padding-bottom: 3rem;
 	background:#FFF;
 	background: black;
-	/* float:right; */
-	width: 100%;
-	/* max-width: 715px; */
-	padding-bottom: 12px;
 }
 
-#clasUfNavBar {
-	height: 42px;
-	padding-top: 2px;  /* delete this */
-}
+#logos {height: 42px;}
 
-#clasUfNavBar a {
+#logos a {
 	color: #2b72fe;
 	border: 3px solid #999;
 	padding: 2px .8rem;
@@ -61,60 +55,9 @@ header img {
 #dept {float: left;margin-top:8px; margin-left: 1rem;}
 #uf {float: right; margin-top:8px; margin-right: 1rem;}
 
-header nav {
-	width: 100%;
-	min-width: 315px;
-	/*max-width: 600px; /* pay attention to this max width max width | what's holding the top-most nav links to UF and CLAS -- does CLAS have a logo? */
-	margin: 0 auto;
-	background: #2b72fe;
-}
-
-header nav ul, header nav ul li {
-	margin: 0;
-	padding: 0;
-}
-
-header nav li {
-	float: left;
-	outline-style: solid;
-	outline-width: 1px;
-	outline-color: #fff;
-	text-align: center;
-	list-style: none;
-	line-height: 2.5;
-	font-size: 1.6rem;
-	background: #478af7;
-}
 header li a {color: white;}
 
-#navOne {
-	width: 69%;
-}
-
-.gone {
-	display: none;
-}
-
-@media screen and (min-width: 992px) {
-	.gone {
-		display: block;
-	}
-
-	nav dl {
-		display: none;
-	}
-}
-
-#navThree {
-	background: #E28F41;
-	width: 30.7%;
-}
-
-dl {
-	/* float: left; */
-}
-
-dt {
+dt { /* define term, top */
 	outline-style: solid;
 	outline-width: 1px;
 	outline-color: #fff;
@@ -129,22 +72,35 @@ dt {
 	}
 
 dd {
-	/* width: 100%; */
 	line-height: 8;
 }
 
-header nav dl dd ul li {
+dd ul li {
 	line-height: 5;
-}
-
-dd li {
 	width: 100%;
-	line-height: 8;
+	text-align: center;
+	border-bottom: 1px solid #fff;
 }
 
-/* end nav  */
-/* end nav  */
-/* end nav  */
+/* end nav nav nav nav nav nav nav nav nav nav  */
+/* sidebar sidebar sidebar sidebar sidebar sid */
+
+.sidebar {display: none;}
+
+.sidebar li {
+	float: left;
+	text-align: center;
+	list-style: none;
+	outline-style: solid;
+	outline-width: 1px;
+	outline-color: #fff;
+	line-height: 2.5;
+	font-size: 1.6rem;
+	background: #478af7;
+	width: 11.1%;
+}
+
+/* end sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar */
 
 .page img {
   width: 100%;
@@ -330,15 +286,15 @@ td {
 
 
 
-.footerNavigationSection nav {
+.footer nav {
 	width: 100%;
 }
 
-.footerNavigationSection nav ul {
+.footer nav ul {
 	margin: 0;
 }
 
-.footerNavigationSection nav li {
+.footer nav li {
 	color: #fefefe;
 	/* padding: 0px 0; */
 	background: #478af7;
@@ -351,7 +307,7 @@ td {
 	font-size: 1.2rem;
 }
 
-.footerNavigationSection nav li a {
+.footer nav li a {
 	padding: 19px 0;
 	display: block;
 }
@@ -370,17 +326,17 @@ td {
 	border-bottom: 1px solid black;
 }
 
-#contactSections {
+#contact {
 	border: 1px solid white;
 	background: white;
 	border-bottom: none;
 }
 
-#contactSections p {
+#contact p {
 	color: #444;
 }
 
-#contactSections h3 {
+#contact h3 {
 	padding: .7rem 0 0 0;
 	font-size: 1.8rem;
 	letter-spacing: .1rem;
@@ -388,12 +344,12 @@ td {
 	margin: 1rem auto 1.3rem auto;
 }
 
-#contactSections a {
+#contact a {
 	color: #436f96;
 	text-decoration: underline;
 }
 
-#contactSections p {
+#contact p {
 	letter-spacing: 1px;
 	line-height: 1.5;
 }

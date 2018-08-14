@@ -1,25 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-	<head></head>
-	<body>
-		<header>
+<?php
+  $title="Pre-Health Post-baccalaureate Program (PHPB) | UF College of Liberal Arts and Sciences";
+  $page = "shell";
+?>
+<?php require_once("include/header.php"); ?>
 
-			<nav><div class="logos"></div></nav>
+      <div class="page">
+				<h1>Shell</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div><!-- Page -->
 
-      <nav><dl></dl></nav>
-
-		</header>
-
-		  <div class="sidebar"></div>
-
-		  <div id="container">
-
-        <div class="page"></div>
-
-        <div class="footerNavigationSection"></div><!-- sidebar -->
-
-        <footer></footer>
-
-      </div><!-- end container, opened in header -->
-  </body>
-</html>
+<?php require_once("include/footer.php"); ?>

@@ -15,68 +15,48 @@
 	</head>
 	<body>
 		<header>
-			<div id="clasUfNavBar">
-				<div id="dept">
-					<a href="index.php">
-						PHPB vs CLAS
-						<!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> -->
-					</a>
-				</div>
-				<div id="uf">
-
-					<a href="index.php">
-						UF Logo Here
-						<!-- <img src="images/UF-logo.png"> -->
-					</a>
-				</div>
+			<div id="logos">
+				<div id="dept"><a href="index.php"> PHPB vs CLAS <!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> --></a></div>
+				<div id="uf"><a href="shell.php">UF Logo Here<!-- <img src="images/UF-logo.png"> --></a></div>
 				<div class="clear"></div>
 			</div><!-- end unofficial NAV (uf and CLAS bar) -->
-
-			<nav>
-				<div class="gone">
-					<li><a href="index.php">Home</a></li>
-					<li><a href="admission.php">Admission</a></li>
-					<li><a href="courses.php">Course Information</a></li>
-					<li><a href="features.php">Program Features</a></li>
-					<li><a href="finances.php">Financial Information</a></li>
-					<li><a href="faq.php">FAQ</a></li>
-					<li><a href="advising.php">Advising</a></li>
-					<li><a href="alumnisuccess.php">Alumni Success</a></li>
-					<li><a href="contact.php">Contact Us</a></li>
-					<li><a href="newstudents.php">Newly Admitted Students</a></li>
-				</div>
-
-					<dl>
-						<dt>Menu</dt>
-						<dd>
-						    <ul>
-									<?php
-									if ($page !== "index") { ?>
-										<li><a href="index.php">Home</a></li>
-									<?php } ?>
-						      <li><a href="admission.php">Admission</a></li>
-						      <li><a href="courses.php">Course Information</a></li>
-						      <li><a href="features.php">Program Features</a></li>
-						      <li><a href="finances.php">Financial Information</a></li>
-						      <li><a href="faq.php">FAQ</a></li>
-						      <li><a href="advising.php">Advising</a></li>
-						      <li><a href="alumnisuccess.php">Alumni Success</a></li>
-						      <li><a href="contact.php">Contact Us</a></li>
-						      <li id="newlyAdmittedLink"><a href="newstudents.php">Newly Admitted Students</a></li>
-						    </ul>
-						</dd>
-					</dl>
-					<div class="clear"></div>
-			</nav>
+			<dl>
+				<dt>Menu</dt>
+				<dd>
+				    <ul>
+<?php if ($page !== "index") { ?>
+				      <li><a href="index.php">Home</a></li>
+<?php } ?>
+				      <li><a href="admission.php">Admission</a></li>
+				      <li><a href="courses.php">Course Information</a></li>
+				      <li><a href="features.php">Program Features</a></li>
+				      <li><a href="finances.php">Financial Information</a></li>
+				      <li><a href="faq.php">FAQ</a></li>
+				      <li><a href="advising.php">Advising</a></li>
+				      <li><a href="alumnisuccess.php">Alumni Success</a></li>
+				      <li><a href="contact.php">Contact Us</a></li>
+				      <li id="newlyAdmittedLink"><a href="newstudents.php">Newly Admitted Students</a></li>
+				    </ul>
+				</dd>
+			</dl>
+			<div class="clear"></div>
 		</header>
 
-		<div class="sidebar">
+		<nav class="sidebar">
 			<ul>
-				<li>link</li>
-				<li>link</li>
-				<li>link</li>
-				<li>link</li>
+				<!-- <li><a href="index.php">Home</a></li> -->
+				<li><a href="admission.php">Admission</a></li>
+				<li><a href="courses.php">Course Information</a></li>
+				<li><a href="features.php">Program Features</a></li>
+				<li><a href="finances.php">Financial Information</a></li>
+				<li><a href="faq.php">FAQ</a></li>
+				<li><a href="advising.php">Advising</a></li>
+				<li><a href="alumnisuccess.php">Alumni Success</a></li>
+				<li><a href="contact.php">Contact Us</a></li>
+				<li><a href="newstudents.php">Newly Admitted Students</a></li>
+				<div class="clear"></div>
 			</ul>
-		</div>
+		</nav>
+
 
 		<div id="container">
