@@ -136,8 +136,6 @@
           <p>We got you, Fam.</p>
         </div>
 
-      </div>
-    <?php require_once("include/sidebar.php"); ?>
+      </div><!-- Page -->
+
     <?php require_once("include/footer.php"); ?>
-  </body>
-</html>
