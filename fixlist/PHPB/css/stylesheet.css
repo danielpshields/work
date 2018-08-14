@@ -9,8 +9,6 @@
     color: #0021A5;
   }
 
-/* turn on turn off SWITCH SWITCH SWITCH */
-
   dl {
     display: none;
   }
@@ -18,21 +16,26 @@
   .sidebar {
     display: block;
     background: green;
+    width: 100%;
+  }
+
+  .sidebar li {
+  	float: left;
+  	text-align: center;
+  	list-style: none;
+  	outline-style: solid;
+  	outline-width: 1px;
+  	outline-color: #fff;
+  	line-height: 2.5;
+  	font-size: 1.6rem;
+  	background: #478af7;
+  	width: 11.1%;
+    overflow: hidden;
   }
 
   .sidebar li {
     font-size: .8rem;
     background: #E28F41;
   }
-
-  .gone li {
-    width: 10%;
-    font-size: .9rem;
-  }
-
-  .footerNavigationSection {
-    display: none;
-  }
-
 
 }

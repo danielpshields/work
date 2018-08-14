@@ -1,3 +1,6 @@
+      </div><!-- # Container -->
+
+      <div class="clear">
       <footer>
         <nav>
           <ul>
@@ -69,7 +72,7 @@
           <div class="clear"></div>
         </ul>
       </footer>
-    </div><!-- Container -->
+    </div>
   </body>
 </html>
 
