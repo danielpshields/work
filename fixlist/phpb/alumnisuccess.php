@@ -1,9 +1,9 @@
 <?php
   $title = "Pre-Health Post-Bac Program Features | UF College of Liberal Arts and Sciences";
   $page = "alumni";
-  require_once("includes/header.php");
+  require_once("include/header.php");
 ?>
-<div class="content">
+<div class="page">
 <h1>Alumni Success</h1>
 <h3>2014 Cohort</h3>
 <p>Our inaugural class was small, but successful! Of the 6 students who applied, 5 were admitted with acceptances to the following schools:</p>
@@ -122,8 +122,8 @@ Yale
 
 </div>
 
-<?php require_once("includes/sidebar.php"); ?>
-<?php require_once("includes/footer.php"); ?>
+<?php require_once("include/sidebar.php"); ?>
+<?php require_once("include/footer.php"); ?>
 
 </body>
 

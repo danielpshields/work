@@ -2,9 +2,9 @@
   $title="Pre-Health Post-baccalaureate Program (PHPB) | UF College of Liberal Arts and Sciences";
   $page = "index";
 ?>
-    <?php require_once("includes/header.php"); ?>
+    <?php require_once("include/header.php"); ?>
 
-      <div class="content">
+      <div class="page">
 
         <!-- <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources"> -->
         <img src="image/index_iii.jpg" alt="College of Liberal Arts and Sciences Human Resources">
@@ -137,7 +137,7 @@
         </div>
 
       </div>
-    <?php require_once("includes/sidebar.php"); ?>
-    <?php require_once("includes/footer.php"); ?>
+    <?php require_once("include/sidebar.php"); ?>
+    <?php require_once("include/footer.php"); ?>
   </body>
 </html>

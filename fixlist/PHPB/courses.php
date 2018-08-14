@@ -1,9 +1,9 @@
 <?php
   $title = "Pre-Health Post-Bac Completion Program | UF College of Liberal Arts and Sciences";
   $page = "courses";
-  require_once("includes/header.php");
+  require_once("include/header.php");
 ?>
-<div class="content">
+<div class="page">
 
   <img src="image/courseInfo.jpg" alt="">
 
@@ -339,8 +339,8 @@
 
 </div><!-- end content -->
 <?php
-require_once("includes/sidebar.php");
-require_once("includes/footer.php");
+require_once("include/sidebar.php");
+require_once("include/footer.php");
 ?>
 
 </body>

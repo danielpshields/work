@@ -18,7 +18,7 @@
 			<div id="clasUfNavBar">
 				<div id="dept">
 					<a href="index.php">
-						PHPB Logo Here
+						PHPB vs CLAS
 						<!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> -->
 					</a>
 				</div>

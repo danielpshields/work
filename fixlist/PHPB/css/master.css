@@ -9,6 +9,7 @@ html {font-size: 16px;}
 body {
 	background: #2b72fe;
 	background: #478af7;
+	background: blue;
 	/* background: green; */
 }
 
@@ -25,7 +26,7 @@ body {
 	display: none;
 }
 
-.content {
+.page {
 	background:#FFF;
 	background: black;
 	/* float:right; */
@@ -145,7 +146,7 @@ dd li {
 /* end nav  */
 /* end nav  */
 
-.content img {
+.page img {
   width: 100%;
   margin-bottom: 0;
   /* width="715" height="194" */
@@ -202,12 +203,12 @@ p {
 	color: #444;
 }
 
-.content ul, .content ol {
+.page ul, .page ol {
 	width: 84%;
 	margin: 25px auto;
 }
 
-.content li {
+.page li {
 	width: 84%;
 	margin: 3px auto 1rem auto;
 	color: #444;
@@ -473,9 +474,9 @@ footer a {
 a {text-decoration: none;}
 a:link,  a:visited {color:#0021a5;} /* blue */
 a:hover, a:active  {color:#ff4a00;} /* orange */
-/*.content p a, .content li a { /* dark blue * / border-bottom: 1px solid #0021A5;} */
-.content p a:link, .content p a:visited {color: #24b; /* blue */}
-.content li a:hover, .content li a:active, .content p a:hover, .content p a:active {color: #f40; /* orange */text-decoration: none;}
+/*.page p a, .page li a { /* dark blue * / border-bottom: 1px solid #0021A5;} */
+.page p a:link, .page p a:visited {color: #24b; /* blue */}
+.page li a:hover, .page li a:active, .page p a:hover, .page p a:active {color: #f40; /* orange */text-decoration: none;}
 nav a:link {display: inline-block;width: 100%;}
 nav a:link, nav a:visited {color: #FFFFCC;}
 nav li a:hover, nav p a:hover { /* keep, nav li background hover */background: #5791d2;}

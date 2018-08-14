@@ -1,9 +1,9 @@
 <?php
   $title="Pre-Health Post-baccalaureate Program (PHPB) | UF College of Liberal Arts and Sciences";
   $page = "contact";
-  require_once("includes/header.php");
+  require_once("include/header.php");
 ?>
-<div class="content">
+<div class="page">
 
   <img src="images/farriorHall.jpg" alt="">
   <h1>Contact</h1>
@@ -19,7 +19,7 @@
 
 
 </div>
-<?php require_once("includes/sidebar.php"); ?>
-<?php require_once("includes/footer.php"); ?>
+<?php require_once("include/sidebar.php"); ?>
+<?php require_once("include/footer.php"); ?>
 </body>
 </html>

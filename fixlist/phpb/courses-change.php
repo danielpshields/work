@@ -1,10 +1,10 @@
 <?php
   $title = "Pre-Health Post-Bac Career Changer | UF College of Liberal Arts and Sciences";
   $page = "courses";
-  require_once("includes/header.php");
+  require_once("include/header.php");
 ?>
 
-<div class="content">
+<div class="page">
   <!-- <h1>Career Changer Track Course Information</h1>
   <p>Students in the post-bac program will follow a defined schedule of courses. Cross-disciplinary labs ("x-labs") engage students in a unique interdisciplinary curriculum. These laboratories are equivalent to completing two semesters of General Chemistry labs, Biology labs, and Physics labs, thus meeting the requirements of professional schools.</p>
   <h3>Course Plan</h3>
@@ -197,8 +197,8 @@
 
 </div>
 
-    <?php require_once("includes/sidebar.php"); ?>
-   <?php require_once("includes/footer.php"); ?>
+    <?php require_once("include/sidebar.php"); ?>
+   <?php require_once("include/footer.php"); ?>
 
   </body>
 </html>

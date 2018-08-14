@@ -1,10 +1,10 @@
 <?php
   $title = "Pre-Health Post-Bac ReStart | UF College of Liberal Arts and Sciences";
   $page = "courses";
-  require_once("includes/header.php");
+  require_once("include/header.php");
 ?>
 
-<div class="content">
+<div class="page">
   <!-- <h1>ReStart Course Information</h1>
   <p>Students in the ReStart track will follow a defined schedule of courses. You will be expected to retake any science pre-requisites previously taken in order to demonstrate mastery of the material. Cross-disciplinary labs ("x-labs") engage students in a unique interdisciplinary curriculum. These laboratories are equivalent to completing two semesters of General Chemistry labs, Biology labs, and Physics labs, thus meeting the requirements of professional schools. Prior to matriculation in the Fall, you must complete MAC1147 and CHM1025 at UF. Online and Summer enrollment may be possible for these two pre-requisite courses.</p>
 
@@ -237,7 +237,7 @@
 
       </div>
 
-  <?php require_once("includes/sidebar.php"); ?>
-  <?php require_once("includes/footer.php"); ?>
+  <?php require_once("include/sidebar.php"); ?>
+  <?php require_once("include/footer.php"); ?>
 
 </body></html>

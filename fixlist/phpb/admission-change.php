@@ -1,10 +1,10 @@
 <?php
   $title = "Pre-Health Post-Bac Career Changer | UF College of Liberal Arts and Sciences";
   $page = "admission";
-  require_once("includes/header.php");
+  require_once("include/header.php");
 ?>
 
-<div class="content">
+<div class="page">
   <h1>Pre-Health Career Changer Program</h1>
 
 <!-- <center>	<a href="#PHCPApplication">	<input class="btn" type="button" value="APPLY NOW" />	</a>	</center> -->
@@ -54,6 +54,6 @@
 </ol>
 </div><!-- content end -->
 
-<?php require_once("includes/sidebar.php"); ?>
-<?php require_once("includes/footer.php"); ?>
+<?php require_once("include/sidebar.php"); ?>
+<?php require_once("include/footer.php"); ?>
 </body></html>

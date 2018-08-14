@@ -1,10 +1,10 @@
 <?php
   $title = "Pre-Health Completion Program | UF College of Liberal Arts and Sciences";
   $page = "admission";
-  require_once("includes/header.php");
+  require_once("include/header.php");
 ?>
 
-<div class="content">
+<div class="page">
 <h1>Pre-Health ReStart Program</h1>
 <p>The University of Florida's Pre-Health Post-Bac ReStart Program offers pre-health students who earned a non-science bachelor's degree an opportunity to take academic pre-requisite courses for admission to medical school or dental school. This track is specifically for students who began taking science pre-requisite courses (generally 1-3 courses) as an undergraduate and experienced academic difficulty. It is not an academic record enhancing program for students who already completed all of the pre-requisite courses. If admitted, you will be expected to repeat any science pre-requisite courses you previously completed (in addition to your remaining pre-requisites) in order to demonstrate mastery of the material. We advise students in this program to continue to demonstrate their academic potential by taking science courses beyond the pre-requisite classes. You will work closely with a pre-health advisor to develop a plan for success.</p>
 
@@ -39,7 +39,7 @@
 </ol>
 </div>
 
-<?php require_once("includes/sidebar.php"); ?>
-   <?php require_once("includes/footer.php"); ?>
+<?php require_once("include/sidebar.php"); ?>
+   <?php require_once("include/footer.php"); ?>
   </body>
   </html>
