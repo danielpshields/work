@@ -1,8 +1,8 @@
 <div class="clear"></div>
-<div class="sidebar">
+<div class="footerNavigationSection">
   <nav>
     <ul>
-      <li><a href="index.php">Home</a></li>      
+      <li><a href="index.php">Home</a></li>
       <li><a href="admission.php">Admission</a></li>
       <li><a href="courses.php">Course Information</a></li>
       <li><a href="features.php">Program Features</a></li>

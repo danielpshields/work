@@ -9,18 +9,25 @@ html {font-size: 16px;}
 body {
 	background: #2b72fe;
 	background: #478af7;
+	/* background: green; */
 }
 
 #container {
 	width: 100%;
-	max-width: 960px;
-	margin:0 auto;
+	/* max-width: 960px; */
+	margin: 0 auto;
 	padding: 0 0 20px 0;
 	text-align: left;
+	background: red;
+}
+
+.sidebar {
+	display: none;
 }
 
 .content {
 	background:#FFF;
+	background: black;
 	/* float:right; */
 	width: 100%;
 	/* max-width: 715px; */
@@ -50,16 +57,15 @@ header img {
 	height: 20px;
 	margin-top: 10px;
 }
-
-#dept {float: left;margin-top:8px; margin-left: 2.83rem;}
-#uf {float: right; margin-top:8px; margin-right: 20px;}
+#dept {float: left;margin-top:8px; margin-left: 1rem;}
+#uf {float: right; margin-top:8px; margin-right: 1rem;}
 
 header nav {
 	width: 100%;
 	min-width: 315px;
+	/*max-width: 600px; /* pay attention to this max width max width | what's holding the top-most nav links to UF and CLAS -- does CLAS have a logo? */
 	margin: 0 auto;
-	/* background: #2b72ff; */
-	/* background: #2b72fe; */
+	background: #2b72fe;
 }
 
 header nav ul, header nav ul li {
@@ -75,7 +81,7 @@ header nav li {
 	text-align: center;
 	list-style: none;
 	line-height: 2.5;
-	font-size: 1.3rem;
+	font-size: 1.6rem;
 	background: #478af7;
 }
 header li a {color: white;}
@@ -323,15 +329,15 @@ td {
 
 
 
-.sidebar nav {
+.footerNavigationSection nav {
 	width: 100%;
 }
 
-.sidebar nav ul {
+.footerNavigationSection nav ul {
 	margin: 0;
 }
 
-.sidebar nav li {
+.footerNavigationSection nav li {
 	color: #fefefe;
 	/* padding: 0px 0; */
 	background: #478af7;
@@ -344,7 +350,7 @@ td {
 	font-size: 1.2rem;
 }
 
-.sidebar nav li a {
+.footerNavigationSection nav li a {
 	padding: 19px 0;
 	display: block;
 }

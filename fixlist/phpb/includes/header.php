@@ -18,7 +18,7 @@
 			<div id="clasUfNavBar">
 				<div id="dept">
 					<a href="index.php">
-						CLAS Logo Here
+						PHPB Logo Here
 						<!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> -->
 					</a>
 				</div>
@@ -69,5 +69,14 @@
 					<div class="clear"></div>
 			</nav>
 		</header>
+
+		<div class="sidebar">
+			<ul>
+				<li>link</li>
+				<li>link</li>
+				<li>link</li>
+				<li>link</li>
+			</ul>
+		</div>
 
 		<div id="container">
