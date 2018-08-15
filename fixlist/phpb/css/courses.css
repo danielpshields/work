@@ -13,6 +13,11 @@ table, tr, th, td {
   border: 2px solid #444;
 }
 
+table {
+  max-width: 550px;
+  text-align: center;
+}
+
 #twoYearProgramTable {
   border-top: 3px solid #a0a0a0;
   border-bottom: 3px solid #a0a0a0;

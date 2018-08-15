@@ -14,14 +14,22 @@
 
   <table id="twoYearProgramTable">
     <tr>
+      <td rowspan="2" style="width: 90px;"><b>Year <span class="bigNumber">1</span></b></td>
       <th colspan="3">Year 1</th>
-      <th id="yearTwoHead"  class="yearTwoBorder" colspan="2">Year 2</th>
     </tr>
     <tr>
       <td><a href="#fallOne">Fall</a></td>
       <td><a href="#springOne">Spring</a></td>
       <td><a href="#summer">Summer</a></td>
-      <td class="yearTwoBorder"><a href="#fallTwo">Fall</a></td>
+    </tr>
+    </table>
+    <table>
+    <tr>
+      <td rowspan="2" style="width: 90px;"><b>Year <span class="bigNumber">2</span></b></td>
+      <th id="yearTwoHead" colspan="2">Year 2</th>
+    </tr>
+    <tr>
+      <td><a href="#fallTwo">Fall</a></td>
       <td><a href="#springTwo">Spring</a></td>
     </tr>
   </table>

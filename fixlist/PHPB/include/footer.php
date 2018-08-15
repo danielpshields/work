@@ -5,16 +5,17 @@
       <footer>
         <nav>
           <ul>
-            <li><a href="index.php">Home</a>
-            <li><a href="admission.php">Admission</a>
-            <li><a href="courses.php">Course Information</a>
-            <li><a href="features.php">Program Features</a>
-            <li><a href="finances.php">Financial Information</a>
-            <li><a href="faq.php">FAQ</a>
-            <li><a href="advising.php">Advising</a>
-            <li><a href="alumnisuccess.php">Alumni Success</a>
-            <li><a href="contact.php">Contact Us</a></li>
-            <li class="blackBottomBorder" id="newlyAdmittedLink"><a href="newstudents.php">Newly Admitted Students</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="admission.php">Admission</a></li>
+            <li><a href="courses.php">Course Information</a></li>
+            <li><a href="features.php">Program Features</a></li>
+            <li><a href="finances.php">Financial Information</a></li>
+            <li><a href="faq.php">FAQ</a></li>
+            <li><a href="advising.php">Advising</a></li>
+            <li><a href="alumnisuccess.php">Alumni Success</a></li>
+            <li><a href="contact.php">Contact Us</a></li></li>
+            <li><a href="newstudents.php">Newly Admitted Students</a></li>
+            <!-- id="newlyAdmittedLink" -->
             <div class="clear"></div>
           </ul>
         </nav>
@@ -71,8 +72,7 @@
             <a href="http://search.ufl.edu">Search</a>
           </p>
         </div>
+        <?php include("include/analytics.php");?>
       </footer>
   </body>
 </html>
-
-<?php include("include/analytics.php");?>

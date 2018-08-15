@@ -8,9 +8,9 @@ html {font-size: 16px;}
 
 body {
 	background: #2b72fe;
-	background: #478af7;
+	/* background: #478af7; */
 	/* background: blue; */
-	/* background: green; */
+	background: green;
 	/* background: white; */
 	min-width: 320px;
 }
@@ -51,6 +51,15 @@ header {
 	padding: 2px .8rem;
 	border-radius: 5px;
 	background: #f0f0f0;
+}
+
+#hug {
+	width: 100%;
+	background: white;
+	margin-top: 0;
+	text-align: center;
+	/* font-size: 2rem; */
+	/* color: #999; */
 }
 
 header img {
@@ -150,6 +159,10 @@ p {
 	line-height: 2;
 	font-size: 1.4rem;
 	color: #444;
+}
+
+.page p, h1, .page h2, .page h3, .page ul {
+	max-width: 550px;
 }
 
 .page ul, .page ol {
@@ -283,34 +296,6 @@ td {
 
 /* sidenav  */ /* sidenav  */ /* sidenav  */
 
-
-
-.footer nav {
-	width: 100%;
-}
-
-.footer nav ul {
-	margin: 0;
-}
-
-.footer nav li {
-	color: #fefefe;
-	/* padding: 0px 0; */
-	background: #478af7;
-
-	display: block;
-	margin-top: 0;
-	text-align: center;
-	border-top: 1px solid black;
-	line-height: 2.8;
-	font-size: 1.2rem;
-}
-
-.footer nav li a {
-	padding: 19px 0;
-	display: block;
-}
-
 #newlyAdmittedLink {
 	background: #E28F41;
 	font-weight: 500;
@@ -319,10 +304,6 @@ td {
 
 #newlyAdmittedLink a {
 	color: white;
-}
-
-.blackBottomBorder {
-	border-bottom: 1px solid black;
 }
 
 #contact {
@@ -353,33 +334,6 @@ td {
 	line-height: 1.5;
 }
 
-/* social media section */ /* social media section */ /* social media section */
-
-.wrap {
-	border-top: 1px solid #d0d0d0;
-	border-bottom: 1px solid #d0d0d0;
-}
-
-
-#socialMediaSection {
-	padding-bottom: 20px;
-	background: red;
-	width: 50%;
-	margin: 20px auto 0 auto;
-	background: white;
-}
-
-.socialmedia {
-	width: 49.8%;
-	float: left;
-}
-.socialmedia img {
-	display: block;
-	margin: auto;
-	opacity: 0.6;
-}
-.socialmedia img:hover {opacity: 1;}
-
 /* footer */ /* footer */ /* footer */
 
 footer {
@@ -387,22 +341,14 @@ footer {
 	padding: 20px 0 10px 0;
 	font-size: .7rem;
 	background: white;
-	margin-top: 15px;
-}
-
-footer nav {
-	background: black;
-	display: none;
-	display: none;
-	display: none;
-	display: none;
-	display: none;
+	margin: auto;
+	max-width: 992px;
+	border-top: 1px solid #478af7;
 }
 
 footer ul {
 	width: 86%;
 	margin: auto;
-	margin-bottom: 15px;
 }
 footer li {
 	float: left;
@@ -412,38 +358,59 @@ footer li {
 	list-style: none;
 }
 
-.footerLastNoBorder {
-	border-right: none;
-}
-
 footer p {
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 15px;
 }
 
+
+/* social media section */ /* social media section */ /* social media section */
+
+.wrap {
+	border-top: 1px solid #d0d0d0;
+	border-bottom: 1px solid #d0d0d0;
+	width: 84%;
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+
+#socialMediaSection {
+	background: red;
+	width: 40%;
+	min-width: 140px;
+	max-width: 180px;
+	margin: 0;
+	background: white;
+}
+
+.socialmedia {
+	width: 50%;
+	float: left;
+}
+
+.socialmedia img {
+	display: block;
+	margin: auto;
+	opacity: 0.6;
+}
+
+.socialmedia img:hover {opacity: 1;}
+
 #contact p {
 	text-align: left;
 }
 
 #frequentGeneralLinks {
-	padding-top: .2rem;
+	/* padding-top: .2rem; */
 }
 
 #frequentGeneralLinks p {
 	text-align: center;
 	font-size: .8rem;
 }
-
-
-
-/* footer h3 {display: none;} */
-
-
-
-
-
-
 
 #googleAnalyticsSlug {
 	text-align: left;
@@ -461,6 +428,10 @@ a {color: blue;}
 /* end links */
 /* end links */
 /* end links */
+
+.blackBottomBorder {
+	border-bottom: 1px solid black;
+}
 
 .normalWeight {
 	font-weight: normal;
@@ -484,6 +455,10 @@ a {color: blue;}
 
 .medium {
 	font-size: 2rem;
+}
+
+.bigNumber {
+	font-size: 4rem;
 }
 
 .italic {

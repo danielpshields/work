@@ -1,6 +1,6 @@
 @media screen and (min-width: 600px) {
   h1 {
-    color: orange;
+    /* color: orange; */
   }
 }
 
@@ -29,7 +29,7 @@
   	line-height: 2.5;
   	font-size: 1.6rem;
   	background: #478af7;
-  	width: 11.1%;
+  	width: 12.5%;
     overflow: hidden;
   }
 

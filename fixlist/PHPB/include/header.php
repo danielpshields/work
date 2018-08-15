@@ -44,16 +44,35 @@
 
 		<nav class="sidebar">
 			<ul>
+				<!-- <?php
+					$pageNames = array(
+						"index",
+						"admission",
+						"courses",
+						"features",
+						"finances",
+						"faq",
+						"advising",
+						"alumnisuccess",
+						"contact"
+					);
+				?>
+
+				<?php foreach ($pageNames as $value) { ?>
+
+					<li><a href="<?php echo $value; ?>"><?php echo $value; ?></a></li>
+
+				<?php } ?> -->
 				<!-- <li><a href="index.php">Home</a></li> -->
 				<li><a href="admission.php">Admission</a></li>
 				<li><a href="courses.php">Course Information</a></li>
-				<li><a href="features.php">Program Features</a></li>
+				<li style="background: white; border: 1px solid black; width: 12.2%;"><a style="color: black; text-decoration: none;" href="features.php">Program Features</a></li>
 				<li><a href="finances.php">Financial Information</a></li>
 				<li><a href="faq.php">FAQ</a></li>
 				<li><a href="advising.php">Advising</a></li>
 				<li><a href="alumnisuccess.php">Alumni Success</a></li>
 				<li><a href="contact.php">Contact Us</a></li>
-				<li><a href="newstudents.php">Newly Admitted Students</a></li>
+				<!-- <li><a href="newstudents.php">Newly Admitted Students</a></li> -->
 				<div class="clear"></div>
 			</ul>
 		</nav>
