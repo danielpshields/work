@@ -15,13 +15,13 @@
   <table id="twoYearProgramTable">
     <tr>
       <th colspan="3">Year 1</th>
-      <th colspan="2">Year 2</th>
+      <th id="yearTwoHead"  class="yearTwoBorder" colspan="2">Year 2</th>
     </tr>
     <tr>
       <td><a href="#fallOne">Fall</a></td>
       <td><a href="#springOne">Spring</a></td>
       <td><a href="#summer">Summer</a></td>
-      <td><a href="#fallTwo">Fall</a></td>
+      <td class="yearTwoBorder"><a href="#fallTwo">Fall</a></td>
       <td><a href="#springTwo">Spring</a></td>
     </tr>
   </table>

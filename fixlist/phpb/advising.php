@@ -15,28 +15,29 @@ require_once("include/header.php");
       <section>
         <h2>Walk-in Hours</h2>
         <h3>Farrior Hall</h3>
-        <div class="listAndInfoBox">
-          <ul>
-            <li>Monday:</li>
-          </ul>
-          <p>8 a.m. - 11:30 a.m.</p>
-          <ul>
-            <li>Tuesday:</li>
-          </ul>
-          <p>8 a.m. - 11:30 a.m.</p>
-          <ul>
-            <li>Wednesday:</li>
-          </ul>
-          <p>1:30 p.m. - 4:30 p.m.</p>
-          <ul>
-            <li>Thursday:</li>
-          </ul>
-          <p>8 a.m. - 11:30 a.m.</p>
-          <ul>
-            <li>Friday:</li>
-          </ul>
-          <p>8 a.m. - 11:30 a.m.</p>
-        </div>
+        <div id="advisingHours">
+          <table>
+            <tr><th>Monday</th></tr>
+            <tr><td><b>8 a.m.</b> to <b>11:30 a.m.</b></td></tr>
+          </table>
+          <table>
+            <tr><th>Tuesday</th></tr>
+            <tr><td class="tdBackground"><b>8 a.m.</b> to <b>11:30 a.m.</b></td></tr>
+          </table>
+          <table>
+            <tr><th>Wednesday</th></tr>
+            <tr><td><b>1:30 p.m.</b> to <b>4:30 p.m.</b></td></tr>
+          </table>
+          <table>
+            <tr><th>Thursday</th></tr>
+            <tr><td class="tdBackground"><b>8 a.m.</b> to <b>11:30 a.m.</b></td></tr>
+          </table>
+          <table>
+            <tr><th>Friday</th></tr>
+            <tr><td><b>8 a.m.</b> to <b>11:30 a.m.</b></td></tr>
+          </table>
+          <div class="clear"></div>
+        </div><!-- # Advising Hours -->
       </section>
 
       <h2>Phone Advising</h2>
