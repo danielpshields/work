@@ -4,7 +4,8 @@
 ?>
 <?php require_once("include/header.php"); ?>
 
-      <img src="image/courseInfo.jpg" alt="">
+<!-- <img src="image/feature.jpg" alt=""> -->
+      <img src="image/courseInfo_cropped.jpg" alt="">
 
       <div class="page">
         <h1>Shell</h1>

@@ -4,9 +4,12 @@ $page = "advising";
 require_once("include/header.php");
 ?>
 
+<div class="fullWidth">
+  <img src="image/advising.jpg" alt="">
+</div>
+
 <div class="page">
 
-      <img src="image/advising.jpg" alt="">
 
       <h1>Advising</h1>
 
@@ -52,13 +55,13 @@ require_once("include/header.php");
       <p>Call (352) 273-4083 to schedule an appointment.</p>
 
       <h2>Location</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3467.39689412658!2d-82.34787218498764!3d29.650255182027426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e8a3780daa41e5%3A0x5ffad4c6fc2be370!2sFarrior+Hall%2C+Gainesville%2C+FL+32603!5e0!3m2!1sen!2sus!4v1532637453947"frameborder="0" allowfullscreen></iframe>
+      <p>Please see our <a href="http://www.advising.ufl.edu/prehealth/index.html">Pre-Health Advising website</a> for more information on preparing for health professional graduate programs.</p>
       <div class="listAndInfoBox">
         <ul>
           <li><a href="http://campusmap.ufl.edu/#/index/0019">Farrior Hall</a></li>
         </ul>
       </div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3467.39689412658!2d-82.34787218498764!3d29.650255182027426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e8a3780daa41e5%3A0x5ffad4c6fc2be370!2sFarrior+Hall%2C+Gainesville%2C+FL+32603!5e0!3m2!1sen!2sus!4v1532637453947"frameborder="0" allowfullscreen></iframe>
-      <p>Please see our <a href="http://www.advising.ufl.edu/prehealth/index.html">Pre-Health Advising website</a> for more information on preparing for health professional graduate programs.</p>
 
   </div>
 

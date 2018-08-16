@@ -3,9 +3,11 @@
   $page = "contact";
   require_once("include/header.php");
 ?>
+
+<img src="images/farriorHall.jpg" alt="">
+
 <div class="page">
 
-  <img src="images/farriorHall.jpg" alt="">
   <h1>Contact</h1>
 
   <p>Pre-Health Postbac Program (PHPB)</p>

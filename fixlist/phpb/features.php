@@ -3,9 +3,9 @@
   $page = "features";
   require_once("include/header.php");
 ?>
-    <p id="hug">Program Features</p>
-    
-    <img src="image/feature.jpg" width="100%" alt="">
+    <!-- <p id="hug">Program Features</p> -->
+
+    <img src="image/feature_cropped.jpg" alt="">
 
     <div class="page">
 

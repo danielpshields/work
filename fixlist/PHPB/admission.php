@@ -3,10 +3,12 @@ $title = "Pre-Health Post-Bac Completion Program | UF College of Liberal Arts an
 $page = "advising";
 require_once("include/header.php");
 ?>
+
+<img src="image/admission_cropped.jpg" alt="">
+
 <div class="page">
 
 <!-- <img src="image/admission_ii.jpg" alt=""> -->
-<img src="image/admission_b.jpg" alt="">
 
 <h1>Admission</h1>
 <p>We admit students for the Fall on a rolling basis until the program fills. Students who apply early have a greater chance of admission. We recommend applying by Nov. 1, but will continue to review applications until the deadline if we have space available.</p>

@@ -8,10 +8,10 @@ html {font-size: 16px;}
 
 body {
 	background: #2b72fe;
-	/* background: #478af7; */
+	background: #478af7;
 	/* background: blue; */
-	background: green;
-	/* background: white; */
+	background: white;
+	/* background: green; */
 	min-width: 320px;
 }
 
@@ -22,6 +22,7 @@ body {
 	text-align: left;
 	background: red;
 	background: #478af7;
+	background: white;
 }
 
 .page {
@@ -33,16 +34,17 @@ body {
 	background: white;
 }
 
-
-header {
-	border-bottom: 1px solid gray;
-	/* padding-top: .8rem; */
+.maxWidth {
+	max-width: 1500px;
+	margin: auto;
 }
 
 #logos {
 	height: 42px;
 	background: #478af7;
 	padding-top: .5rem;
+	margin: auto;
+	margin-bottom: 3px;
 }
 
 #logos a {
@@ -62,11 +64,12 @@ header {
 	/* color: #999; */
 }
 
-header img {
+/* header img {
 	width: 90px;
 	height: 20px;
 	margin-top: 10px;
-}
+} */
+
 #dept {float: left;margin-top:8px; margin-left: 1rem;}
 #uf {float: right; margin-top:8px; margin-right: 1rem;}
 
@@ -107,8 +110,18 @@ dd ul li {
 #container img {
   width: 100%;
   margin-bottom: 0;
-  /* width="715" height="194" */
 }
+
+
+.imageContainer {
+	position: relative;
+}
+
+img {
+	max-height: 100%;
+
+}
+
 
 h1 {
 	font-size: 2.8rem;

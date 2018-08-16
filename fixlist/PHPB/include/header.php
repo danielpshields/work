@@ -16,9 +16,11 @@
 	<body>
 		<header>
 			<div id="logos">
-				<div id="dept"><a href="index.php"> PHPB vs CLAS <!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> --></a></div>
-				<div id="uf"><a href="shell.php">UF Logo Here<!-- <img src="images/UF-logo.png"> --></a></div>
-				<div class="clear"></div>
+				<div class="maxWidth">
+					<div id="dept"><a href="index.php"> PHPB vs CLAS <!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> --></a></div>
+					<div id="uf"><a href="shell.php">UF Logo Here<!-- <img src="images/UF-logo.png"> --></a></div>
+					<div class="clear"></div>
+				</div>
 			</div><!-- end unofficial NAV (uf and CLAS bar) -->
 			<dl>
 				<dt>Menu</dt>
@@ -42,39 +44,27 @@
 			<div class="clear"></div>
 		</header>
 
-		<nav class="sidebar">
-			<ul>
-				<!-- <?php
-					$pageNames = array(
-						"index",
-						"admission",
-						"courses",
-						"features",
-						"finances",
-						"faq",
-						"advising",
-						"alumnisuccess",
-						"contact"
-					);
-				?>
+		<!--
+		refs
+		https://www.wsj.com/articles/the-best-one-liners-in-america-are-on-the-highway-1533829593?mod=e2fb
+		-->
 
-				<?php foreach ($pageNames as $value) { ?>
-
-					<li><a href="<?php echo $value; ?>"><?php echo $value; ?></a></li>
-
-				<?php } ?> -->
-				<!-- <li><a href="index.php">Home</a></li> -->
-				<li><a href="admission.php">Admission</a></li>
-				<li><a href="courses.php">Course Information</a></li>
-				<li style="background: white; border: 1px solid black; width: 12.2%;"><a style="color: black; text-decoration: none;" href="features.php">Program Features</a></li>
-				<li><a href="finances.php">Financial Information</a></li>
-				<li><a href="faq.php">FAQ</a></li>
-				<li><a href="advising.php">Advising</a></li>
-				<li><a href="alumnisuccess.php">Alumni Success</a></li>
-				<li><a href="contact.php">Contact Us</a></li>
-				<!-- <li><a href="newstudents.php">Newly Admitted Students</a></li> -->
-				<div class="clear"></div>
-			</ul>
-		</nav>
+			<nav class="sidebar">
+				<div class="maxWidth">
+				<ul>
+					<!-- <li><a href="index.php">Home</a></li> -->
+					<li><a href="admission.php">Admission</a></li>
+					<li><a href="courses.php">Course Information</a></li>
+					<li><a href="features.php">Program Features</a></li>
+					<li><a href="finances.php">Financial Information</a></li>
+					<li><a href="faq.php">FAQ</a></li>
+					<li><a href="advising.php">Advising</a></li>
+					<li><a href="alumnisuccess.php">Alumni Success</a></li>
+					<li><a href="contact.php">Contact Us</a></li>
+					<!-- <li><a href="newstudents.php">Newly Admitted Students</a></li> -->
+					<div class="clear"></div>
+				</ul>
+			</div><!-- . Max Width -->
+			</nav>
 
 		<div id="container">

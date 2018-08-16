@@ -3,9 +3,11 @@
   $page = "courses";
   require_once("include/header.php");
 ?>
+
+<img src="image/courseInfo_cropped.jpg" alt="">
+
 <div class="page">
 
-  <img src="image/courseInfo.jpg" alt="">
 
   <h1>Course Information</h1>
 

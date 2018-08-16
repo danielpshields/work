@@ -4,10 +4,11 @@
 ?>
     <?php require_once("include/header.php"); ?>
 
+    <img src="image/index_cropped.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+
       <div class="page">
 
         <!-- <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources"> -->
-        <img src="image/index_iii.jpg" alt="College of Liberal Arts and Sciences Human Resources">
 
           <h1>Pre-Health Post-Baccalaureate Program</h1>
           <p id="smallProgramSlug">(PHPB)</p>
