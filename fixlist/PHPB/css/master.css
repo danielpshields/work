@@ -28,10 +28,9 @@ body {
 .page {
 	margin: auto;
 	width: 100%;
-	max-width: 1500px;
+	max-width: 992px;
 	padding-bottom: 3rem;
 	background:#FFF;
-	background: white;
 }
 
 .maxWidth {
@@ -44,7 +43,7 @@ body {
 	background: #478af7;
 	padding-top: .5rem;
 	margin: auto;
-	margin-bottom: 3px;
+	border-bottom: 1px solid #eee;
 }
 
 #logos a {
@@ -62,6 +61,10 @@ body {
 	text-align: center;
 	/* font-size: 2rem; */
 	/* color: #999; */
+}
+
+header {
+	border-bottom: 1px solid white;
 }
 
 /* header img {
@@ -91,6 +94,7 @@ dt { /* define term, top */
 
 dd {
 	line-height: 8;
+	background: #478af7;
 }
 
 dd ul li {
@@ -112,22 +116,17 @@ dd ul li {
   margin-bottom: 0;
 }
 
+.mobileImage  {display: block;}
+.desktopImage {display: none;}
 
-.imageContainer {
-	position: relative;
-}
-
-img {
-	max-height: 100%;
-
-}
-
-
-h1 {
+h2 {
 	font-size: 2.8rem;
 	/* color:#000066; */
 	color: #0021A5;
+	/* color: #2042cc;
+	color: #1c3ab2; */
 	width: 86%;
+	max-width: 992px;
 	padding: 2rem 0 .5rem 0;
 	margin: 0 auto;
 }
@@ -149,7 +148,7 @@ h1 {
 }
 
 
-h2 {
+h3 {
 	font-size: 2.3rem;
 	width: 84%;
 	margin: 2.8rem auto 2rem auto;
@@ -157,7 +156,7 @@ h2 {
 	color: #436f96;
 }
 
-h3 {
+h4 {
 	font-size: 2rem;
 	width: 84%;
 	margin: 3rem auto 10px auto;
@@ -174,7 +173,7 @@ p {
 	color: #444;
 }
 
-.page p, h1, .page h2, .page h3, .page ul {
+.page p, .page h3, .page h4, .page ul {
 	max-width: 550px;
 }
 
@@ -221,7 +220,7 @@ p {
 	margin-top: 0;
 }
 
-h5 {
+h6 {
 	font-size: 1.2rem;
 	color: #444;
 	width: 86%;
@@ -329,7 +328,7 @@ td {
 	color: #444;
 }
 
-#contact h3 {
+#contact h4 {
 	padding: .7rem 0 0 0;
 	font-size: 1.8rem;
 	letter-spacing: .1rem;

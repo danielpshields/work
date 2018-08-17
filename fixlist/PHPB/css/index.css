@@ -1,6 +1,6 @@
 /* <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources" width="715" height="194" /> */
 
-h1 {
+h2 {
 	width: 84%;
 	margin: 1rem auto 0 auto;
 }
@@ -19,12 +19,12 @@ h1 {
 	padding: 25px 0 3rem 0;
 }
 
-.coreFeature h3 {
+.coreFeature h4 {
 	font-size: 2.1rem;
 	margin: 1.5rem auto 2rem auto;
 }
 
-.coreFeature h3 a {
+.coreFeature h4 a {
   color: #6C9AC3;
 }
 
@@ -69,7 +69,7 @@ h1 {
 	background: #fcfcfc;
 }
 
-#questionButton h3 {
+#questionButton h4 {
 	font-size: 11rem;
 	margin-top: 1rem;
 	line-height: 1;

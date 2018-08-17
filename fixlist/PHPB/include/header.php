@@ -17,8 +17,8 @@
 		<header>
 			<div id="logos">
 				<div class="maxWidth">
-					<div id="dept"><a href="index.php"> PHPB vs CLAS <!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> --></a></div>
-					<div id="uf"><a href="shell.php">UF Logo Here<!-- <img src="images/UF-logo.png"> --></a></div>
+					<div id="dept"><a href="index.php"> PHPB<!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> --></a></div>
+					<div id="uf"><a href="shell.php">UF<!-- <img src="images/UF-logo.png"> --></a></div>
 					<div class="clear"></div>
 				</div>
 			</div><!-- end unofficial NAV (uf and CLAS bar) -->
@@ -42,6 +42,23 @@
 				</dd>
 			</dl>
 			<div class="clear"></div>
+			<nav class="sidebar">
+				<div class="maxWidth">
+					<ul>
+						<!-- <li><a href="index.php">Home</a></li> -->
+						<li><a href="admission.php">Admission</a></li>
+						<li><a href="courses.php">Course Information</a></li>
+						<li><a href="features.php">Program Features</a></li>
+						<li><a href="finances.php">Financial Information</a></li>
+						<li><a href="faq.php">FAQ</a></li>
+						<li><a href="advising.php">Advising</a></li>
+						<li><a href="alumnisuccess.php">Alumni Success</a></li>
+						<li><a href="contact.php">Contact Us</a></li>
+						<!-- <li><a href="newstudents.php">Newly Admitted Students</a></li> -->
+						<div class="clear"></div>
+					</ul>
+				</div><!-- . Max Width -->
+			</nav>
 		</header>
 
 		<!--
@@ -49,22 +66,5 @@
 		https://www.wsj.com/articles/the-best-one-liners-in-america-are-on-the-highway-1533829593?mod=e2fb
 		-->
 
-			<nav class="sidebar">
-				<div class="maxWidth">
-				<ul>
-					<!-- <li><a href="index.php">Home</a></li> -->
-					<li><a href="admission.php">Admission</a></li>
-					<li><a href="courses.php">Course Information</a></li>
-					<li><a href="features.php">Program Features</a></li>
-					<li><a href="finances.php">Financial Information</a></li>
-					<li><a href="faq.php">FAQ</a></li>
-					<li><a href="advising.php">Advising</a></li>
-					<li><a href="alumnisuccess.php">Alumni Success</a></li>
-					<li><a href="contact.php">Contact Us</a></li>
-					<!-- <li><a href="newstudents.php">Newly Admitted Students</a></li> -->
-					<div class="clear"></div>
-				</ul>
-			</div><!-- . Max Width -->
-			</nav>
 
 		<div id="container">

@@ -8,48 +8,46 @@
 
 <div class="page">
 
+  <h2>Course Information</h2>
 
-  <h1>Course Information</h1>
+    <h3>Two-Year Program</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
 
-  <h3>Two-Year Program</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-
-  <table id="twoYearProgramTable">
-    <tr>
-      <td rowspan="2" style="width: 90px;"><b>Year <span class="bigNumber">1</span></b></td>
-      <th colspan="3">Year 1</th>
-    </tr>
-    <tr>
-      <td><a href="#fallOne">Fall</a></td>
-      <td><a href="#springOne">Spring</a></td>
-      <td><a href="#summer">Summer</a></td>
-    </tr>
+    <table id="twoYearProgramTable">
+      <tr>
+        <td rowspan="2" style="width: 90px;"><b>Year <span class="bigNumber">1</span></b></td>
+        <th colspan="3">Year 1</th>
+      </tr>
+      <tr>
+        <td><a href="#fallOne">Fall</a></td>
+        <td><a href="#springOne">Spring</a></td>
+        <td><a href="#summer">Summer</a></td>
+      </tr>
     </table>
     <table>
-    <tr>
-      <td rowspan="2" style="width: 90px;"><b>Year <span class="bigNumber">2</span></b></td>
-      <th id="yearTwoHead" colspan="2">Year 2</th>
-    </tr>
-    <tr>
-      <td><a href="#fallTwo">Fall</a></td>
-      <td><a href="#springTwo">Spring</a></td>
-    </tr>
-  </table>
-
+      <tr>
+        <td rowspan="2" style="width: 90px;"><b>Year <span class="bigNumber">2</span></b></td>
+        <th id="yearTwoHead" colspan="2">Year 2</th>
+      </tr>
+      <tr>
+        <td><a href="#fallTwo">Fall</a></td>
+        <td><a href="#springTwo">Spring</a></td>
+      </tr>
+    </table>
 
   <section>
-    <h2>Tracks</h2>
+    <h3>Tracks</h3>
     <div id="changer">
-      <h3>Career Changer Track</h3>
+      <h4>Career Changer Track</h4>
       <p>Students in the post-bac program will follow a defined schedule of courses. Cross-disciplinary labs ("x-labs") engage students in a unique interdisciplinary curriculum. These laboratories are equivalent to completing two semesters of General Chemistry labs, Biology labs, and Physics labs, thus meeting the requirements of professional schools.</p>
     </div>
     <div id="restart">
-      <h3>ReStart Track</h3>
+      <h4>ReStart Track</h4>
       <p>Students in the ReStart track will follow a defined schedule of courses. You will be expected to retake any science pre-requisites previously taken in order to demonstrate mastery of the material. Cross-disciplinary labs ("x-labs") engage students in a unique interdisciplinary curriculum. These laboratories are equivalent to completing two semesters of General Chemistry labs, Biology labs, and Physics labs, thus meeting the requirements of professional schools. Prior to matriculation in the Fall, you must complete MAC1147 and CHM1025 at UF. Online and Summer enrollment may be possible for these two pre-requisite courses.</p>
     </div>
   </section>
 
-  <h2 id="courseSchedule">Course Schedule</h2>
+  <h3 id="courseSchedule">Course Schedule</h3>
 
   <div class="courseSchedule">
 
@@ -265,7 +263,7 @@
 
   <div class="elective">
 
-    <h3>Possible Electives</h3>
+    <h4>Possible Electives</h4>
     <p>Electives could also include other <a href="http://advising.ufl.edu/prehealth/handouts/PreHealthElectives.pdf">non-science courses</a> that will enhance students' knowledge of working with people and groups.</p>
     <p><i>Most courses in the College of Liberal Arts &amp; Sciences are available. A few suggestions:</i>
 

@@ -1,34 +1,41 @@
 <?php
 $title = "Pre-Health Post-Bac Completion Program | UF College of Liberal Arts and Sciences";
-$page = "advising";
+$page = "admission";
 require_once("include/header.php");
 ?>
 
 <img src="image/admission_cropped.jpg" alt="">
 
 <div class="page">
+  <h2>Admission</h2>
+  <div class="rightColumn">
+    <h3>General</h3>
+    <p>We admit students for the Fall on a rolling basis until the program fills. Students who apply early have a greater chance of admission. We recommend applying by Nov. 1, but will continue to review applications until the deadline if we have space available.</p>
+    <p>This is a highly selective program. Students who apply early have a greater chance of admission. We recommend applying by Nov. 1, but will continue to review applications until the deadline if we have space available.</p>
+    <p>The Admissions Committee reviews each applicant carefully taking into consideration the academic background, previous institutions, courses completed, GPAs earned, evaluations, and essays. The rigor and quality of the applicant's undergraduate curriculum is strongly considered as evidence of having achieved the academic skills necessary for successful completion of this program.</p>
+    <p>Most applicants have completed work or volunteer hours in a clinical setting and demonstrated knowledge of the profession they are pursuing.</p>
+  </div>
+  <div class="clear"></div> <!-- this may be tempory -->
 
-<!-- <img src="image/admission_ii.jpg" alt=""> -->
+  <section>
+    <p><strong>Applications are reviewed and evaluated on a rolling basis. All application materials must be received for admission to be finalized. The most competitive applicants will be admitted on a space available basis.</strong></p>
+  </section>
+  <div class="rightColumn right">
+    <p>Pursuing academic requirements alone is inadequate for application to healthcare professional graduate programs. This program requires students to participate in medically related service and research experiences. These positions are secured by the student. This program has no linkages with professional schools/programs and in no way guarantees admission.</p>
+  </div>
+  <div class="clear">
 
-<h1>Admission</h1>
-<p>We admit students for the Fall on a rolling basis until the program fills. Students who apply early have a greater chance of admission. We recommend applying by Nov. 1, but will continue to review applications until the deadline if we have space available.</p>
-<p>This is a highly selective program. Students who apply early have a greater chance of admission. We recommend applying by Nov. 1, but will continue to review applications until the deadline if we have space available.</p>
-<p>The Admissions Committee reviews each applicant carefully taking into consideration the academic background, previous institutions, courses completed, GPAs earned, evaluations, and essays. The rigor and quality of the applicant's undergraduate curriculum is strongly considered as evidence of having achieved the academic skills necessary for successful completion of this program.</p>
-<p>Most applicants have completed work or volunteer hours in a clinical setting and demonstrated knowledge of the profession they are pursuing.</p>
-<section>
-<p><strong>Applications are reviewed and evaluated on a rolling basis. All application materials must be received for admission to be finalized. The most competitive applicants will be admitted on a space available basis.</strong></p>
-</section>
-<p>Pursuing academic requirements alone is inadequate for application to healthcare professional graduate programs. This program requires students to participate in medically related service and research experiences. These positions are secured by the student. This program has no linkages with professional schools/programs and in no way guarantees admission.</p>
-<h3>Application Requirements:</h3>
+  </div>
+<h4>Application Requirements:</h4>
 <ul>
 <li>Meet the general requirements and submit an application for post-baccalaureate admission to the University of Florida.</li>
 <li>Have worked or volunteered in a clinical setting or in another service related capacity prior to application.</li>
 </ul>
 <div id="Career Changer">
-<h2>Pre-Health Career Changer Program</h2>
+<h3>Pre-Health Career Changer Program</h3>
 <p>offers pre-health students an opportunity to take academic pre-requisite courses for admission to medical school, dental school, and other health professional graduate programs.</p>
 <p>This program is specifically for students who did not take science pre-requisite courses as undergraduates (maximum of two completed).</p>
-<h3>Eligibility:</h3>
+<h4>Eligibility:</h4>
 <ul>
 <li>Have a recognized baccalaureate degree (or higher) from a regionally accredited college or university, or an international equivalent based on a 4-year curriculum.</li>
 <li>Have a competitive GPA. Most admitted applicants have minimum cumulative and upper-division GPAs of 3.0. Most students who are successful in gaining admission to medical, dental, and veterinary medicine schools have GPAs of 3.5 and higher.</li>
@@ -39,12 +46,12 @@ require_once("include/header.php");
 </ul>
 </div><!-- end career changers -->
 <div id="restart">
-<h2>Pre-Health ReStart Program</h2>
+<h3>Pre-Health ReStart Program</h3>
 <p> offers pre-health students who earned a non-science bachelor's degree an opportunity to take academic pre-requisite courses for admission to medical school or dental school.</p>
 <p>This track is specifically for students who began taking science pre-requisite courses (generally 1-3 courses) as an undergraduate and experienced academic difficulty.</p>
 <p>It is not an academic record enhancing program for students who already completed all of the pre-requisite courses.</p>
 <p> If admitted, you will be expected to repeat any science pre-requisite courses you previously completed (in addition to your remaining pre-requisites) in order to demonstrate mastery of the material. We advise students in this program to continue to demonstrate their academic potential by taking science courses beyond the pre-requisite classes. You will work closely with a pre-health advisor to develop a plan for success.</p>
-<h3>Eligibility:</h3>
+<h4>Eligibility:</h4>
 <ul>
 <li>Have a recognized baccalaureate degree (or higher) from a regionally accredited college or university.</li>
 <li>Have a competitive cumulative GPA. Most admitted applicants have minimum cumulative GPAs of 3.0 or higher depending on the profession they are pursuing. Most students who are successful in gaining admission to medical, dental, and veterinary medicine schools have GPAs of 3.5 and higher.</li>

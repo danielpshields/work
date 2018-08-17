@@ -4,21 +4,22 @@
 ?>
     <?php require_once("include/header.php"); ?>
 
-    <img src="image/index_cropped.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+    <img class="desktopImage" src="image/index_cropped.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+    <img class="mobileImage" src="image/index_iii.jpg" alt="College of Liberal Arts and Sciences Human Resources">
 
       <div class="page">
 
         <!-- <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources"> -->
 
-          <h1>Pre-Health Post-Baccalaureate Program</h1>
+          <h2>Pre-Health Post-Baccalaureate Program</h2>
           <p id="smallProgramSlug">(PHPB)</p>
 
-          <div class="slug">
+          <!-- <div class="slug">
             <p><i>"Helping yourself is the first step to helping others."</i></p>
-          </div>
+          </div> -->
 
           <div class="coreFeature">
-            <h3><a href="admission.php">Prerequisites</a></h3>
+            <h4><a href="admission.php">Prerequisites</a></h4>
             <p>Whether you have experience in sciences:</p>
             <ul>
               <li><b>From Scratch</b> for the science-taken</li>
@@ -30,7 +31,7 @@
           </div>
 
           <div class="coreFeature">
-            <h3><a href="courses.php">Duration</a></h3>
+            <h4><a href="courses.php">Duration</a></h4>
             <ul>
               <li>Two-Year Program</li>
               <li>Something, like a pie chart</li>
@@ -42,7 +43,7 @@
           </div>
 
           <div class="coreFeature">
-            <h3><a href="features.php">Instruction</a></h3>
+            <h4><a href="features.php">Instruction</a></h4>
             <p>The PHPB Tracks is a personalized experienced.</p>
             <ul>
               <li>class size</li>
@@ -55,7 +56,7 @@
           </div>
 
           <div class="coreFeature">
-            <h3><a href="finances.php">Costs</a></h3>
+            <h4><a href="finances.php">Costs</a></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <ul>
               <li>&gt; <a href="finances.php">Financial Information</a></li>
@@ -66,7 +67,7 @@
             <button onclick="location.href='apply.php';" type="button" name="button">Apply!</button>
           </div>
 
-          <h2>UF Pre-Health Post-Bac</h2>
+          <h3>UF Pre-Health Post-Bac</h3>
 
           <p>The University of Florida's Pre-health Post-Baccalaureate Program (PHPB) offers dedicated and motivated students an opportunity to complete academic pre-requisite courses for admission to medical, dental, or veterinary school. PHPB is a rigorous, two year structured program.</p>
           <p>Courses are offered once per year. Students in PHPB complete the majority of courses in classes created just for PHPB students, experiencing the outstanding teaching faculty at the University of Florida. This is a comprehensive program offering non-science courses that assist you in developing academic skills, application skills, and professional competencies necessary for application to medical, dental, PA, or veterinary school.</p>
@@ -79,7 +80,7 @@
             <p class="tiny light italic marginTop">Opens August 15, 2018</p>
           </section>
 
-          <h3>Tracks</h3>
+          <h4>Tracks</h4>
 
           <p>The UF PHPB program offers two tracks to help you complete pre-requisite coursework. Each track requires full-time enrollment. The track you choose depends on your academic background. All tracks require a bachelor's degree for admission. For more information on each track, see the <a href="admission.php">Admission</a> and <a href="courses.php">Course information</a>.</p>
 
@@ -99,7 +100,7 @@
             <p>For students who took three or fewer science pre-requisite courses early in undergrad and earned less than a B without further attempts in science for two or more years.</p>
           </div>
 
-          <h3>Compare Tracks</h3>
+          <h4>Compare Tracks</h4>
 
           <p>Be sure to read the full eligibility requirements before applying to the program. Please contact us if you have any question on which track best suits your needs.</p>
 
@@ -130,9 +131,9 @@
           </table>
 
         <div id="questionButton" onclick="location.href='contact.php';">
-          <!-- <h3>Have Questions?</h3>
-          <h3>Want More Information?</h3> -->
-          <h3>?</h3>
+          <!-- <h4>Have Questions?</h4>
+          <h4>Want More Information?</h4> -->
+          <h4>?</h4>
           <p><b>Still need help?</b></p>
           <p>We got you, Fam.</p>
         </div>
