@@ -9,7 +9,7 @@
 <div class="page">
 
   <h2>Course Information</h2>
-
+  <div class="rightColumn">
     <h3>Two-Year Program</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
 
@@ -34,6 +34,8 @@
         <td><a href="#springTwo">Spring</a></td>
       </tr>
     </table>
+  </div>
+  <div class="clear"></div>
 
   <section>
     <h3>Tracks</h3>
