@@ -4,8 +4,8 @@
 ?>
     <?php require_once("include/header.php"); ?>
 
-    <img class="desktopImage" src="image/index_cropped.jpg" alt="College of Liberal Arts and Sciences Human Resources">
-    <img class="mobileImage" src="image/index_iii.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+    <img class="desktopImage" src="image/index_desktop.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+    <img class="mobileImage" src="image/index.jpg" alt="College of Liberal Arts and Sciences Human Resources">
 
       <div class="page">
 
