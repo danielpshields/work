@@ -79,6 +79,11 @@ input.mainSelect:hover {
 }
 
 
+input#homeMainSelect:hover {
+  border: 2px solid #32CD32;
+}
+
+
 h2 {
   font-size: 1.5rem;
   text-align: center;
@@ -105,7 +110,7 @@ h2 {
 }
 
 #greenBorder {
-  border: 1px dotted #32CD32;
+  border: 1px solid #32CD32;
   border-radius: 5px;
   padding: 1rem;
 }
@@ -126,6 +131,10 @@ p {
   color: #252525;
 }
 
+b {
+  font-size: 1.5rem;
+}
+
 .blue {
   border: 2px solid #6C9AC3;
 }
@@ -143,13 +152,20 @@ p {
 
 
 
-.submit {
+#finalSubmit {
   width: 100px;
   height: 50px;
   padding: 5px;
-  border: 1px solid gray;
+  border: 2px solid #FA4616;
   border-radius: 5px;
-  float: right;
+  background: #f0f0f0;
+  /* float: right; */
+}
+
+#finalSubmit:hover {
+  border: 2px solid #32CD32;
+  cursor: pointer;
+  background: #fff;
 }
 
 .orangeFont {

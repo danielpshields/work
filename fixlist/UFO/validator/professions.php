@@ -1,10 +1,14 @@
 <?php
- 	$thisPage = "1";
+  require("include/functions.php");
+
+  if (!isset($_POST['formZero'])) {
+    redirectTo("index.php");
+  }
+
+  $thisPage = "1";
   $submitted = 0;
 	require_once("include/header.php");
 ?>
-
-
 		<section>
 
       <form class="" action="expectations.php" method="post">
@@ -29,7 +33,7 @@
 		    </tr>
 		  </table>
 
-      <input  class="mainSelect oneBox"  type="submit" name="professions" value="next form">
+      <input class="mainSelect oneBox"  type="submit" name="formOne" value="next form">
 
       </form>
 		</section>

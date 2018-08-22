@@ -1,4 +1,9 @@
 <?php
+  require("include/functions.php");
+
+  if (!isset($_POST['formOne'])) {
+    redirectTo("index.php");
+  }
  	$thisPage = "2";
   $submitted = 0;
 	require_once("include/header.php");
@@ -18,13 +23,13 @@
 		    <tr>
 		      <td class="orange">2</td>
 		      <td>I acknowledge this:</td>
-					<td class="check">
+					<td class="check oneBox">
 						<input required  id="green" type="checkbox" name="expectations" value=""></td>
 		    </tr>
 		  </table>
 		</setion>
 
-    <input class="mainSelect oneBox" type="submit" name="expectations" value="next form">
+    <input class="mainSelect oneBox" type="submit" name="formTwo" value="next form">
 
   </form>
 

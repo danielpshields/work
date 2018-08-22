@@ -5,7 +5,7 @@
 ?>
 
 	<form class="" action="professions.php" method="post">
-		<input class="mainSelect" type="submit" name="getstarted" value="Start Form">
+		<input class="mainSelect" id="homeMainSelect" type="submit" name="formZero" value="Start Form">
 	</form>
 
 <?php require_once("include/footer.php"); ?>

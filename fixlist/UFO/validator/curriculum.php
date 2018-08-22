@@ -1,4 +1,10 @@
 <?php
+  require("include/functions.php");
+
+  if (!isset($_POST['formTwo'])) {
+    redirectTo("index.php");
+  }
+
  	$thisPage = "3";
   $submitted = 0;
 	require_once("include/header.php");
@@ -73,7 +79,7 @@
 		      </tr>
 		    </table>
 
-        <input class="mainSelect oneBox" type="submit" name="curriculum" value="next form">
+        <input class="mainSelect oneBox" type="submit" name="formThree" value="next form">
 		</section>
 
   </form>
