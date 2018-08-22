@@ -27,7 +27,7 @@
   $glid = "4081-1353";
   $name = "acatalano2";
   $now = date("ymdGis");
-  
+
   //insert the variables into the database
   $query = "INSERT INTO submissions (glid, Name, now) VALUES ('{$glid}', '{$name}', '{$now}')";
   $result = mysqli_query($connection, $query);
@@ -40,7 +40,7 @@
 
       <h2><span class="orangeNumber">C</span> Contact: <br><a href="https://www.advising.ufl.edu/uf-online/contact/" target="_blank">CLAS UF Online Advising Staff</a></h2>
 
-      <p><a href="index.php">home</a></p>
+      <!-- <p><a href="index.php">home</a></p> -->
     </section>
 
 </body>
