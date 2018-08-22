@@ -1,8 +1,11 @@
-<?php require_once("include/header.php"); ?>
+<?php
+ 	$thisPage = "0";
+  $submitted = 0;
+	require_once("include/header.php");
+?>
 
 	<form class="" action="professions.php" method="post">
-		<input type="submit" name="getstarted" value="getstarted">
+		<input class="mainSelect" type="submit" name="getstarted" value="Start Form">
 	</form>
 
-</body>
-</html>
+<?php require_once("include/footer.php"); ?>

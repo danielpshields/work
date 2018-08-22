@@ -1,9 +1,14 @@
-<?php require_once("include/header.php"); ?>
+<?php
+ 	$thisPage = "3";
+  $submitted = 0;
+	require_once("include/header.php");
+?>
 
   <form action="requirements.php" method="post">
 
-		<div class="threeBox orange hightlightSlug">
-		  <h2><span class="bigNumber orangeFont">3</span> Curriculum:</h2>
+		<section>
+
+		  <h2><span class="orangeNumber">3</span> Curriculum:</h2>
 
 		  <p>Please note the degree options available in UF Online compared to UF Residential</p>
 
@@ -63,11 +68,14 @@
 		      <tr>
 		        <td><p class="orangeFont"><b>3</b></p></td>
 		        <td>I acknowledge this:</td>
-		        <td class="check threeBox">
-              <input id="greenThree" required type="checkbox" name="curriculum" value=""></td>
+		        <td class="check oneBox">
+              <input id="green" required type="checkbox" name="curriculum" value=""></td>
 		      </tr>
 		    </table>
-		</div>
-    <input type="submit" name="curriculum" value="curriculum">
+
+        <input class="mainSelect oneBox" type="submit" name="curriculum" value="next form">
+		</section>
 
   </form>
+
+  <?php require_once("include/footer.php"); ?>

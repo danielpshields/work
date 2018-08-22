@@ -1,28 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>UFO Validator</title>
-	<link rel="stylesheet" href="css/master.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<?php
+ 	$thisPage = "0";
+  $submitted = 1;
+	require_once("include/header.php");
 
-	<script src="border.js" charset="utf-8"></script>
-</head>
-<body>
-  <h1>UFO Acknowledgement Form</h1>
-	<?php if(isset($_POST['submit'])) {echo "submitted";} else {echo "not submitted";}
-
-// professions
-// expectations
-// curriculum
-// requirements
-// submit
- echo "<pre>";
- 	print_r($_POST);
-	echo "</pre>";
-
+  // professions
+  // expectations
+  // curriculum
+  // requirements
+  // submit
 ?>
-  <?php require_once("include/contact.php"); ?>
+
+
+    <section>
+
+      <p id="greenBorder"><i>Thank you for submitting the form!</i></p>
+
+      <h2><span class="orangeNumber">C</span> Contact:</h2>
+
+
+      <ul>
+        <li><a href="https://www.advising.ufl.edu/uf-online/contact/" target="_blank">CLAS UF Online Advising Staff</a></li>
+      </ul>
+
+
+    </section>
 
 </body>
 </html>

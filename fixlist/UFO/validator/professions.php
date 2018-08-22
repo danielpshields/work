@@ -1,9 +1,15 @@
-<?php require_once("include/header.php"); ?>
+<?php
+ 	$thisPage = "1";
+  $submitted = 0;
+	require_once("include/header.php");
+?>
 
-  <form class="" action="expectations.php" method="post">
 
-		<div class="orange hightlightSlug oneBox">
-		  <h2><span class="bigNumber orangeFont">1</span> Health Professions Disclosure:</h2>
+		<section>
+
+      <form class="" action="expectations.php" method="post">
+
+		  <h2><span class="orangeNumber">1</span> Health Professions Disclosure:</h2>
 
 		  <p>UF Online Majors in the College of Liberal Arts and Sciences <b>were not</b> designed to accommodate students interested in pursuing a career in health profession such as: pre-med, pre-dent, pre-vet, PA, Pharmacy.</p>
 
@@ -15,17 +21,17 @@
 
 		  <table>
 		    <tr>
-		      <td><p class="orangeFont"><b>1</b></p></td>
+		      <td class="orange">1</td>
 		      <td>I acknowledge this:</td>
 		      <td class="check oneBox">
-						<input id="green" required type="checkbox" name="professions" value="professions">
+						<input required id="green" type="checkbox" name="professions" value="professions">
 					</td>
 		    </tr>
 		  </table>
-		  <div class="clear"></div>
-      <input type="submit" name="professions" value="submissions">
-		</div>
-  </form>
-    
-  </body>
-  </html>
+
+      <input  class="mainSelect oneBox"  type="submit" name="professions" value="next form">
+
+      </form>
+		</section>
+
+<?php require_once("include/footer.php"); ?>
