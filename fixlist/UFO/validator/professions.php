@@ -15,9 +15,9 @@
 
 		  <h2><span class="orangeNumber">1</span> Health Professions Disclosure:</h2>
 
-		  <p>UF Online Majors in the College of Liberal Arts and Sciences <b>were not</b> designed to accommodate students interested in pursuing a career in health profession such as: pre-med, pre-dent, pre-vet, PA, Pharmacy.</p>
+		  <p>UF Online Majors in the College of Liberal Arts and Sciences (CLAS) <b>were not</b> designed to accommodate students interested in pursuing a career in a health profession such as: pre-med, pre-dent, pre-vet, PA, or Pharmacy.</p>
 
-		  <p>It is <b>not advisable</b> for CLAS UFO students to complete pre-professional courses through UF Online or as a transient student; UF Online does not offer all of these courses, and professional schools may not accept these courses, or may view them with diminished competitiveness.</p>
+		  <p>It is <b>not advisable</b> for CLAS UF Online students to complete pre-professional courses through UF Online or as a transient student; UF Online does not offer all of these courses, and professional schools may not accept these courses, or may view them with diminished competitiveness.</p>
 
 		  <!-- <p>Not all pre-professional courses are offered in UF Online, and the ones that are may not be accepted or may be accepted with diminished competitiveness by professional schools.</p> -->
 

@@ -16,7 +16,7 @@
 
 		  <h2><span class="orangeNumber">3</span> Curriculum:</h2>
 
-		  <p>Please note the degree options available in UF Online compared to UF Residential</p>
+		  <p>Please note the degree options available in UF Online compared to UF residential:</p>
 
 		  <table>
 		    <tr>

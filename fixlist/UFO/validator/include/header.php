@@ -10,14 +10,14 @@
 <body>
 	<div class="container">
 		<header>
-			<h1>UFO Acknowledgement Form</h1>
+			<h1>UF Online Acknowledgement Form</h1>
 			<nav>
 				<ul <?php
 				if ($submitted == true) {
 					echo "style=\"display: none;\"";
 				}?>>
 					<?php
-						$onPage = array("1", "2", "3", "4");
+						$onPage = array("1", "2", "3", "4", "5");
 						foreach ($onPage as $pageNumber) {
 							echo "<li";
 							if ($pageNumber === $thisPage) {
