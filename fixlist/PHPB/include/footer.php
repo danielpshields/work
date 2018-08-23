@@ -1,7 +1,5 @@
       </div><!-- # Container -->
-
-
-
+      
       <footer>
         <nav>
           <ul>
@@ -15,12 +13,11 @@
             <li><a href="alumnisuccess.php">Alumni Success</a></li>
             <li><a href="contact.php">Contact Us</a></li></li>
             <li><a href="newstudents.php">Newly Admitted Students</a></li>
-            <!-- id="newlyAdmittedLink" -->
             <div class="clear"></div>
           </ul>
         </nav>
 
-        <div id="contact">
+        <div id="contactSection">
           <h3><a href="index.php">Pre-Health Postbac Program</a></h3>
           <p>
             Farrior Hall<br>
@@ -31,13 +28,13 @@
             <a href="mailto:phpostbac@clas.ufl.edu">phpostbac@clas.ufl.edu</a>
           </p>
 
-          <div class="wrap">
+          <div id="socialMediaIconBorders">
             <div id="socialMediaSection">
               <div class="socialmedia" id="iconTwitter">
                 <a href="https://twitter.com/UFPHPB" title="UF PH PostBac">
                 <img alt="Twitter logo" src="images/t.png" height="30px" width="30px">
                 </a>
-              </div><!-- end Twitter -->
+              </div><!-- Twitter Icon -->
               <div class="socialmedia" id="iconFB">
                 <a href="https://www.facebook.com/UFPreHealthPostBac" title="UF Pre-Health Postbac Program on Facebook">
                   <img alt="Facebook logo" src="images/fb.png" height="30px" width="30px">
@@ -45,11 +42,10 @@
               </div><!-- Facebook Icon -->
               <div class="clear"></div>
             </div><!-- # Social Media Section -->
-          </div><!-- . Wrap -->
+          </div><!-- # social media icon borders -->
         </div> <!-- # Contact -->
 
         <p><a href="http://www.ufl.edu/" title="University of Florida">&copy; University of Florida</a><br>Gainesville, FL 32611<br>(352) 392-3261</p>
-
 
         <div id="frequentGeneralLinks">
           <p>

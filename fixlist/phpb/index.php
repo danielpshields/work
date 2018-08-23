@@ -13,14 +13,19 @@
 
           <h2>Pre-Health Post-Baccalaureate Program</h2>
           <p id="smallProgramSlug">(PHPB)</p>
+          <div class="clear"></div>
 
-          <!-- <div class="slug">
+          <div class="slug">
             <p><i>"Helping yourself is the first step to helping others."</i></p>
-          </div> -->
+          </div>
+
+        </div><!-- . Page -->
+
+        <div class="maxWidth">
 
           <div class="coreFeature">
             <h4><a href="admission.php">Prerequisites</a></h4>
-            <p>Whether you have experience in sciences:</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <ul>
               <li><b>From Scratch</b> for the science-taken</li>
               <li><b>Some Experience</b> for the science taken</li>
@@ -32,10 +37,10 @@
 
           <div class="coreFeature">
             <h4><a href="courses.php">Duration</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <ul>
-              <li>Two-Year Program</li>
-              <li>Something, like a pie chart</li>
-              <li>And finally Something</li>
+              <li><b>From Scratch</b> for the science-taken</li>
+              <li><b>Some Experience</b> for the science taken</li>
             </ul>
             <ul>
               <li>&gt; <a href="courses.php">Courses</a></li>
@@ -44,11 +49,10 @@
 
           <div class="coreFeature">
             <h4><a href="features.php">Instruction</a></h4>
-            <p>The PHPB Tracks is a personalized experienced.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <ul>
-              <li>class size</li>
-              <li>instructor : student ratio</li>
-              <li>something else</li>
+              <li><b>From Scratch</b> for the science-taken</li>
+              <li><b>Some Experience</b> for the science taken</li>
             </ul>
             <ul>
               <li>&gt; <a href="features.php">Features</a></li>
@@ -57,11 +61,21 @@
 
           <div class="coreFeature">
             <h4><a href="finances.php">Costs</a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <ul>
+              <li><b>From Scratch</b> for the science-taken</li>
+              <li><b>Some Experience</b> for the science taken</li>
+            </ul>
             <ul>
               <li>&gt; <a href="finances.php">Financial Information</a></li>
             </ul>
           </div>
+
+          <div class="clear"></div>
+
+        </div><!-- end Max Width -->
+
+        <div class="page"><!-- restart Page -->
 
           <div class="apply">
             <button onclick="location.href='apply.php';" type="button" name="button">Apply!</button>
@@ -138,6 +152,6 @@
           <p>We got you, Fam.</p>
         </div>
 
-      </div><!-- Page -->
+      </div><!-- . Page -->
 
 <?php require_once("include/footer.php"); ?>
