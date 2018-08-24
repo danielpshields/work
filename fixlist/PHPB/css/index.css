@@ -3,14 +3,78 @@ h2 {
 	margin: 1rem auto 0 auto;
 }
 
-#smallProgramSlug {
+p#smallProgramSlug {
 	color: #233da8;
 	color: #3047a5;
 	font-size: 1.1rem;
 	max-width: none;
-	width: 84%;
-	/* background: black; */
 	margin: auto;
+}
+/* core feature core feature core feature */
+
+.coreFeature {
+	border: 1px solid #d0d0d0;
+	padding: 25px 0 3rem 0;
+}
+
+.coreFeature h4 {
+	font-size: 2.1rem;
+	margin: 1.5rem auto 2rem auto;
+}
+
+.coreFeature h4 a {
+  color: #6C9AC3;
+}
+
+.coreFeature ul {
+	margin-top: 2rem;
+}
+
+.coreFeature li {
+	font-size: 1.5rem;
+	color: #77abff;
+	list-style: none;
+	width: 100%;
+	margin-left: .3rem;
+}
+
+.coreFeature li a {
+	margin-left: .5rem;
+	text-decoration: underline;
+	color: #77abff;
+}
+
+.coreFeature {
+	/* margin: 15px auto 20px auto; */
+	border: 1px solid #d0d0d0;
+	padding: 25px 0 3rem 0;
+}
+
+.coreFeature h4 {
+	font-size: 2.1rem;
+	margin: 1.5rem auto 2rem auto;
+}
+
+.coreFeature h4 a {
+  color: #6C9AC3;
+}
+
+.coreFeature ul {
+	margin-top: 2rem;
+}
+
+.coreFeature li {
+	font-size: 1.5rem;
+	color: #77abff;
+	list-style: none;
+	width: 100%;
+	margin-left: .3rem;
+}
+
+.coreFeature li a {
+	margin-left: .5rem;
+	text-decoration: underline;
+	color: #77abff;
 }
 
 #trackTable {
@@ -42,12 +106,8 @@ h2 {
 }
 
 #questionButton p {
-	font-style: italic;
 	color: #999;
-}
-
-section {
-	box-shadow: 20px 20px 20px #d0d0d0;
+	font-style: italic;
 }
 
 @media screen and (min-width: 992px) {
@@ -66,5 +126,9 @@ section {
 		width: 70%;
 		font-weight: lighter;
 		color: #555;
+	}
+
+	#questionButton {
+		width: 40%;
 	}
 }

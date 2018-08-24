@@ -4,6 +4,7 @@
 ?>
     <?php require_once("include/header.php"); ?>
 
+    <!-- responsive images from "stylesheet.css" -->
     <img class="desktopImage" src="image/index_desktop.jpg" alt="College of Liberal Arts and Sciences Human Resources">
     <img class="mobileImage" src="image/index.jpg" alt="College of Liberal Arts and Sciences Human Resources">
 
@@ -13,7 +14,6 @@
 
           <h2>Pre-Health Post-Baccalaureate Program</h2>
           <p id="smallProgramSlug">(PHPB)</p>
-          <div class="clear"></div>
 
           <div class="slug">
             <p><i>"Helping yourself is the first step to helping others."</i></p>
@@ -91,7 +91,7 @@
           <section>
             <p class="medium heavy">2019</p>
             <p id="applicationSlug"> Fall Application Cycle via <a href="https://postbaccas.liaisoncas.com/">PostBacCAS</a></p>
-            <p class="tiny light italic marginTop">Opens August 15, 2018</p>
+            <p class="tiny light italic marginTop">Opened August 15, 2018</p>
           </section>
 
           <h4>Tracks</h4>
@@ -100,16 +100,16 @@
 
           <p>Students who completed science pre-requisites five or more years ago still have an opportunity for admission.  However all courses five or more years and/or with less than a B earned will be required to be repeated.</p>
 
-          <div class="listAndInfoBox">
+          <div class="listGraphContainer">
             <ul>
-              <li>Career Changer Program</li>
+              <li>Career Changer Program:</li>
             </ul>
             <p>For students who have not taken more than two science pre-requisite courses earning Bs or above.</p>
           </div>
 
-          <div class="listAndInfoBox">
+          <div class="listGraphContainer">
             <ul>
-              <li>ReStart Program</li>
+              <li>ReStart Program:</li>
             </ul>
             <p>For students who took three or fewer science pre-requisite courses early in undergrad and earned less than a B without further attempts in science for two or more years.</p>
           </div>

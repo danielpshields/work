@@ -16,6 +16,9 @@
 
 	break  @   600px | 992px
 
+	color: #E28F41; UF - Pale Orange
+
+
 */
 
 
@@ -163,7 +166,7 @@ h3 {
 h4 {
 	font-size: 2rem;
 	width: 84%;
-	margin: 3rem auto 10px auto;
+	margin: 3.3rem auto 1.3rem auto;
 	color: #6C9AC3;
 }
 
@@ -176,7 +179,7 @@ p {
 	color: #444;
 }
 
-.page p, .page h3, .page h4, .page ul {
+.page p, .page h3, .page h4, .page ul, .page ol {
 	max-width: 550px;
 }
 
@@ -186,14 +189,14 @@ p {
 }
 
 .page li {
-	width: 84%;
+	width: 90%;
 	margin: 3px auto 1rem auto;
 	color: #444;
  	font-size: 1.5rem;
 	line-height: 1.8;
 }
 
-/* unused:  */
+/* unused: */
 
 h5 {
 	font-size: 1.2rem;
@@ -215,9 +218,10 @@ section {
 	border-bottom: 2px solid #999;
 	border-left: 1px solid #c0c0c0;
 	border-radius: 5px;
-	margin: .91rem auto 1.1rem auto;
+	margin: .91rem auto 4rem auto;
 	padding: 0 0 2rem 0;
 	width: 95%;
+	max-width: 600px;
 	box-shadow: 20px 20px 20px #d0d0d0;
 }
 
@@ -259,66 +263,28 @@ td {
 /* special Features */
 /* special Features */
 
-/* core feature core feature core feature */
-
-.coreFeature {
-	border: 1px solid #d0d0d0;
-	padding: 25px 0 3rem 0;
-}
-
-.coreFeature h4 {
-	font-size: 2.1rem;
-	margin: 1.5rem auto 2rem auto;
-}
-
-.coreFeature h4 a {
-  color: #6C9AC3;
-}
-
-.coreFeature ul {
-	margin-top: 2rem;
-}
-
-.coreFeature li {
-	font-size: 1.5rem;
-	color: #77abff;
-	list-style: none;
-	width: 100%;
-	margin-left: .3rem;
-}
-
-.coreFeature li a {
-	margin-left: .5rem;
-	text-decoration: underline;
-	color: #77abff;
-}
-
 /* list box  */ /* list box  */ /* list box  */
 
-.listAndInfoBox {
-  width: 78%;
+.listGraphContainer {
   margin: 1.5rem auto;
 }
 
-.listAndInfoBox ul {
+.listGraphContainer ul {
 	background: none;
 	width: 86%;
 	margin: auto;
 }
 
-.listAndInfoBox li {
-	font-size: 1.3rem;
-	line-height: 1.8;
-	width: 100%;
+.listGraphContainer li {
 	color: #365587;
-	margin: 2rem 0 1rem 0;
 	font-weight: bold;
 }
 
-.listAndInfoBox p {
-  width: 95%;
-  padding-right: 50px;
-	margin-top: 0;
+/* max width is slightly smaller than normal to offset the text / increase the emphasis */
+.listGraphContainer p {
+	font-style: italic;
+	color: #575757;
+	max-width: 545px;
 }
 
 /* apply button apply button apply apply  */
@@ -381,16 +347,14 @@ footer p {
 	margin-bottom: 15px;
 }
 
-#contactSection {
-	background: white;
-}
+/* "Contact Section": physical address and social media */
+#contactSection {background: white;}
 
 #contactSection p {
 	color: #444;
 	letter-spacing: 1px;
 	line-height: 1.5;
 	text-align: left;
-	/* margin-bottom: 1rem; */
 }
 
 #contactSection h4 {
@@ -406,26 +370,26 @@ footer p {
 	text-decoration: underline;
 }
 
-/* social media section */ /* social media section */ /* social media section */
-
-#socialMediaIconBorders {
+/* "Social Media Container" creates borders and space for the icon's containers  */
+#socialMediaContainer {
 	border-top: 1px solid #d0d0d0;
 	border-bottom: 1px solid #d0d0d0;
 	width: 84%;
 	margin: auto;
-	padding-top: 15px;
-	padding-bottom: 20px;
+	padding-top: 1.3rem;
+	padding-bottom: 1.3rem;
 }
 
-#socialMediaSection {
-	background: red;
+/* "Social Media Icons" is the icons' overall spacing container */
+#socialMediaIcons {
 	width: 40%;
+	background: white;
 	min-width: 140px;
 	max-width: 180px;
 	margin: 0;
-	background: white;
 }
 
+/* class "Social Media" are the individual icon's containers */
 .socialmedia {
 	width: 50%;
 	float: left;
@@ -451,16 +415,12 @@ footer p {
 	font-size: .65rem;
 }
 
-/* end footer  */ /* end footer  */ /* end footer  */
-
-/* start links */
-/* start links */
-/* start links */
+/* links links links links links links links links */
+/* links links links links links links links links */
 a {color: blue;}
-/* end links */
-/* end links */
-/* end links */
 
+/* laws laws laws laws laws laws laws laws laws laws */
+/* laws laws laws laws laws laws laws laws laws laws */
 .blackBottomBorder {
 	border-bottom: 1px solid black;
 }
@@ -505,39 +465,12 @@ a {color: blue;}
 	clear: both;
 }
 
+/*
 
-@media screen and (min-width: 992px) {
+- other resize in "stylesheet.css"
 
-	.coreFeature {
-		/* margin: 15px auto 20px auto; */
-		border: 1px solid #d0d0d0;
-		padding: 25px 0 3rem 0;
-	}
+"master.css" converts styles from "master.css", "stylesheet.css" is for responsive design features like "display: none;"
 
-	.coreFeature h4 {
-		font-size: 2.1rem;
-		margin: 1.5rem auto 2rem auto;
-	}
+*/
 
-	.coreFeature h4 a {
-	  color: #6C9AC3;
-	}
-
-	.coreFeature ul {
-		margin-top: 2rem;
-	}
-
-	.coreFeature li {
-		font-size: 1.5rem;
-		color: #77abff;
-		list-style: none;
-		width: 100%;
-		margin-left: .3rem;
-	}
-
-	.coreFeature li a {
-		margin-left: .5rem;
-		text-decoration: underline;
-		color: #77abff;
-	}
-}
+@media screen and (min-width: 992px) {}

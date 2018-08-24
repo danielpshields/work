@@ -1,5 +1,5 @@
       </div><!-- # Container -->
-      
+
       <footer>
         <nav>
           <ul>
@@ -19,7 +19,7 @@
 
         <div id="contactSection">
           <h3><a href="index.php">Pre-Health Postbac Program</a></h3>
-          <p>
+          <p id="footerAddress">
             Farrior Hall<br>
             P.O. Box 112015<br>
             Gainesville FL 32611<br>
@@ -28,8 +28,8 @@
             <a href="mailto:phpostbac@clas.ufl.edu">phpostbac@clas.ufl.edu</a>
           </p>
 
-          <div id="socialMediaIconBorders">
-            <div id="socialMediaSection">
+          <div id="socialMediaContainer">
+            <div id="socialMediaIcons">
               <div class="socialmedia" id="iconTwitter">
                 <a href="https://twitter.com/UFPHPB" title="UF PH PostBac">
                 <img alt="Twitter logo" src="images/t.png" height="30px" width="30px">

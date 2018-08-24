@@ -21,7 +21,7 @@
 					<div id="uf"><a href="shell.php">UF<!-- <img src="images/UF-logo.png"> --></a></div>
 					<div class="clear"></div>
 				</div>
-			</div><!-- end unofficial NAV (uf and CLAS bar) -->
+			</div><!-- Logos: NAV (PHPB, UF, and CLAS bar) -->
 			<dl>
 				<dt>Menu</dt>
 				<dd>
@@ -60,11 +60,5 @@
 				</div><!-- . Max Width -->
 			</nav>
 		</header>
-
-		<!--
-		refs
-		https://www.wsj.com/articles/the-best-one-liners-in-america-are-on-the-highway-1533829593?mod=e2fb
-		-->
-
 
 		<div id="container">
