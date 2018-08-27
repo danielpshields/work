@@ -4,7 +4,9 @@
   require_once("include/header.php");
 ?>
 
-<img src="image/courseInfo_cropped.jpg" alt="">
+    <!-- responsive images from "stylesheet.css" -->
+    <img class="mobileImage" src="image/courseInfo.jpg" alt="">
+    <img class="desktopImage" src="image/courseInfo_desktop.jpg" alt="">
 
 <div class="page">
 
@@ -263,7 +265,8 @@
   </div><!-- end Course Schedule Div -->
 
 
-  <div class="elective">
+
+  <section>
 
     <h4>Possible Electives</h4>
     <p>Electives could also include other <a href="http://advising.ufl.edu/prehealth/handouts/PreHealthElectives.pdf">non-science courses</a> that will enhance students' knowledge of working with people and groups.</p>
@@ -343,7 +346,7 @@
       </tr>
     </table>
 
-  </div><!-- electives -->
+  </section>
 
 
 

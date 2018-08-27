@@ -3,42 +3,43 @@
   $page = "alumni";
   require_once("include/header.php");
 ?>
+
 <div class="page">
-<h1>Alumni Success</h1>
-<h3>2014 Cohort</h3>
+<h2>Alumni Success</h2>
+<h4>2014 Cohort</h4>
 <p>Our inaugural class was small, but successful! Of the 6 students who applied, 5 were admitted with acceptances to the following schools:</p>
 <div class="pane">
-<h3>Nathalie Abenoza</h3>
+<h4>Nathalie Abenoza</h4>
 <p>University of Wisconsin College of Medicine</p>
 <img width="150" height="120px" src="images/abenoza.jpg">
 </div>
 <div class="pane">
-<h3>Quinton Foster</h3>
+<h4>Quinton Foster</h4>
 <p>University of Florida College of Medicine</p>
 <img width="150px" height="120px" src="images/foster.jpg">
 </div>
 <div class="pane">
-<h3>Ricky Madhavan</h3>
+<h4>Ricky Madhavan</h4>
 <p>Harvard Medical School</p>
 <img width="150px" height="120px" src="images/madhavan.jpg">
 </div>
 <div class="pane">
-<h3>Karley Post</h3>
+<h4>Karley Post</h4>
 <p>University of Florida College of Dentistry</p>
 <img width="150px" height="120px" src="images/post.jpg">
 </div>
 <div class="pane">
-<h3>Joseph Tubito</h3>
+<h4>Joseph Tubito</h4>
 <p>Florida State University</p>
 <img width="150px" height="120px" src="images/jtubito.jpg">
 </div>
 <div class="pane">
-<h3>Eric Warner</h3>
+<h4>Eric Warner</h4>
 <p>Sidney Kimmel Medical College at Thomas Jefferson University</p>
 <!--<img width="150px" height="120px" src="images/individualized.jpg">-->
 </div>
 
-<h3>Students Interviewed and Accepted</h3>
+<h4>Students Interviewed and Accepted</h4>
 
 <p>We frequently get questions about which schools our students interview with and are accepted into. This is a partial list.</p>
 

@@ -4,7 +4,9 @@ $page = "admission";
 require_once("include/header.php");
 ?>
 
-<img src="image/admission_cropped.jpg" alt="">
+  <!-- responsive images from "stylesheet.css" -->
+  <img class="desktopImage" src="image/admission_desktop.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+  <img class="mobileImage" src="image/admission.jpg" alt="">
 
 <div class="page">
   <h2>Admission</h2>

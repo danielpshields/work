@@ -4,7 +4,8 @@
   require_once("include/header.php");
 ?>
 
-<img src="image/faq_cropped.jpg" alt="">
+<img class="mobileImage" src="image/faq.jpg" alt="">
+<img class="desktopImage" src="image/faq_desktop.jpg" alt="">
 
 <div class="page">
   <h2>Frequently Asked Questions</h2>

@@ -2,11 +2,15 @@
 $page = "newstudents"; ?>
 <?php require_once("include/header.php"); ?>
 
+<!-- responsive images from "stylesheet.css" -->
+<img class="desktopImage" src="image/admitted_desktop.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+<img class="mobileImage" src="image/admitted.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+
+
 <div class="page">
   <!-- <img src="images/tutoring.jpg" alt="Students studying" title="Students studying" width="100%"> -->
-  <img src="image/admitted.jpg" alt="">
 
-  <h1>Newly Admitted Students</h1>
+  <h2>Newly Admitted Students</h2>
   <p>Congratulations on your admission to the University of Florida's<br />Pre-Health Postbaccalaureate Program (PHPB)!</p>
   <p>You are about to start an intense program with others pursuing similar goals as your own. You will be in small classes with just those in the PHPB program for your sciences and math.</p>
   <h3>A few bits of information:</h3>

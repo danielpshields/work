@@ -94,6 +94,7 @@
             <p class="tiny light italic marginTop">Opened August 15, 2018</p>
           </section>
 
+
           <h4>Tracks</h4>
 
           <p>The UF PHPB program offers two tracks to help you complete pre-requisite coursework. Each track requires full-time enrollment. The track you choose depends on your academic background. All tracks require a bachelor's degree for admission. For more information on each track, see the <a href="admission.php">Admission</a> and <a href="courses.php">Course information</a>.</p>

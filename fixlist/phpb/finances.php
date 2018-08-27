@@ -4,7 +4,8 @@
   require_once("include/header.php");
 ?>
 
-<img src="image/finances_cropped.jpg" alt="">
+<img class="mobileImage" src="image/finances.jpg" alt="">
+<img class="desktopImage" src="image/finances_desktop.jpg" alt="">
 
 <div class="page">
   <h2>Financial Information</h2>

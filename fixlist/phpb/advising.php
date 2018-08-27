@@ -4,14 +4,13 @@ $page = "advising";
 require_once("include/header.php");
 ?>
 
-<div class="fullWidth">
-  <img src="image/advising.jpg" alt="">
-</div>
+<img class="mobileImage" src="image/advising.jpg" alt="">
+<img class="desktopImage" src="image/advising_desktop.jpg" alt="">
 
 <div class="page">
 
 
-      <h1>Advising</h1>
+      <h2>Advising</h2>
 
       <p>Students will work closely with a pre-health advisor throughout the program. You will be required to meet with your advisor at least once per semester to discuss your current courses and plan for the next semester. Advisors are also available Monday-Friday if you ever have questions that need to be answered. During your first semester you will take a pre-health seminar course to gain more in-depth knowledge about the profession. In the last year there will be workshops to assist with the application process.</p>
 

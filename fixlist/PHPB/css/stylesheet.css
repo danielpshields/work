@@ -36,8 +36,9 @@
   	outline-style: solid;
   	outline-width: 1px;
   	outline-color: #fff;
-  	line-height: 2.5;
-  	font-size: 1rem;
+  	line-height: 2;
+    text-decoration: none;
+    font-size: 1rem;
     font-size: .8rem;
   	width: 12.5%;
     background: #478af7;
@@ -46,13 +47,15 @@
 
   .sidebar li a {
     display: inline-block;
-    padding: 5px;
+    padding: .5rem;
     width: 91%;
     height: 100%;
+    text-decoration: underline;
   }
 
   .sidebar li a:hover {
     background: #ffac5e;
+    text-decoration: none;
   }
 
 }
