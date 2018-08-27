@@ -8,7 +8,16 @@
         <h2>LN: 2018</h2>
 
         <h4>August</h4>
+        <h5>Week 15</h5>
+        <ul>
+          <li><a href="ln/18/08/27.html">180827</a></li>
+        </ul>
+
         <h5>Week 14</h5>
+        <ul>
+          <li><a href="ln/18/08/26.html">180826</a></li>
+          <li><a href="ln/18/08/25.html">180825</a></li>
+        </ul>
         <ul>
           <li><a href="ln/18/08/24.html">180824</a></li>
           <li><a href="ln/18/08/23.html">180823</a></li>
