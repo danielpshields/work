@@ -35,8 +35,8 @@
 				      <li><a href="finances.php">Financial Information</a></li>
 				      <li><a href="faq.php">FAQ</a></li>
 				      <li><a href="advising.php">Advising</a></li>
-				      <li><a href="alumnisuccess.php">Alumni Success</a></li>
-				      <li><a href="contact.php">Contact Us</a></li>
+				      <!-- <li><a href="alumnisuccess.php">Alumni Success</a></li> -->
+				      <li><a href="contact.php">Contact</a></li>
 				      <li class="newlyAdmittedBackground"><a href="newstudents.php">Newly Admitted Students</a></li>
 				    </ul>
 				</dd>
@@ -53,7 +53,7 @@
 						<li><a href="faq.php">FAQ</a></li>
 						<li><a href="advising.php">Advising</a></li>
 						<!-- <li><a href="alumnisuccess.php">Alumni Success</a></li> -->
-						<li><a href="contact.php">Contact Us</a></li>
+						<li><a href="contact.php">Contact</a></li>
 						<!-- <li><a href="newstudents.php">Newly Admitted Students</a></li> -->
 						<div class="clear"></div>
 					</ul>

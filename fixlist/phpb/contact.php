@@ -4,18 +4,20 @@
   require_once("include/header.php");
 ?>
 
-<img src="image/farriorHall.jpg" alt="">
+<!-- responsive images from "stylesheet.css" -->
+<img class="desktopImage" src="image/farriorHall_desktop.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+<img class="mobileImage" src="image/farriorHall.jpg" alt="">
 
 <div class="page">
 
   <h2>Contact</h2>
 
-  <p>Pre-Health Postbac Program (PHPB)</p>
-  <p>Farrior Hall<br />
-  P.O Box 112015<br />
+  <h3>Pre-Health Postbac Program (PHPB)</h3>
+  <h4>Farrior Hall</h4>
+  <p>P.O Box 112015<br />
   Gainesville FL 32611<br />
   (352) 273-4083<br />
-  Fax: 352.392.2905<br />
+  fax: (352) 392-2905<br />
   <a href="mailto:phpostbac@clas.ufl.edu">phpostbac@clas.ufl.edu</a>
   </p>
 

@@ -6,7 +6,7 @@
 
 
 <img class="mobileImage" src="image/colleges.jpg" alt="">
-<img class="desktopImage" src="image/alumni_desktop.jpg" alt="">
+<img class="desktopImage" src="image/colleges_desktop.jpg" alt="">
 
 <div class="page">
 <h2>Alumni Success</h2>

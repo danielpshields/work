@@ -220,12 +220,13 @@ section.slug {
 }
 
 table, tr, th, td {
-	border: 1px solid #888;
+	border: 1px solid #666;
 	color: #434343;
 }
 
 table {
 	width: 95%;
+	max-width: 550px;
 	margin: auto;
 	border-collapse: collapse;
 }
@@ -286,7 +287,7 @@ td {
 /* apply button apply button apply apply  */
 
 .apply {
-	border-bottom: 1px solid #d0d0d0;
+	/* border-bottom: 1px solid #d0d0d0; */
 	/* background: #587096; */
 	border-radius: 5px;
 	width: 100%;
@@ -421,7 +422,10 @@ footer p {
 /* links links links links links links links links */
 /* links links links links links links links links */
 a {color: blue;}
-
+h4 a {
+	color: #6C9AC3;
+	text-decoration: none;
+}
 /* laws laws laws laws laws laws laws laws laws laws */
 /* laws laws laws laws laws laws laws laws laws laws */
 .blackBottomBorder {

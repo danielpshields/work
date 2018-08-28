@@ -117,11 +117,9 @@
 
           <h4>Compare Tracks</h4>
 
-          <p>Be sure to read the full eligibility requirements before applying to the program. Please contact us if you have any question on which track best suits your needs.</p>
-
           <table id="trackTable" class="center">
             <tr>
-              <th class="italic normalWeight">Requirement</th>
+              <th class="italic">Requirement</th>
               <th>Career Changer</th>
               <th>ReStart</th>
             </tr>
@@ -144,6 +142,8 @@
               <td colspan="3" id="prereqSciencePadding" class="italic">* Pre-requisite Sciences refers to Calculus, Chemistry, Biology, and Physics</td>
             </tr>
           </table>
+
+          <p>Be sure to read the full eligibility requirements before applying to the program. Please contact us if you have any question on which track best suits your needs.</p>
 
         <div id="questionButton" onclick="location.href='contact.php';">
           <!-- <h4>Have Questions?</h4>

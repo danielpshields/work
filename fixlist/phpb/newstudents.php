@@ -11,7 +11,8 @@ $page = "newstudents"; ?>
   <!-- <img src="images/tutoring.jpg" alt="Students studying" title="Students studying" width="100%"> -->
 
   <h2>Newly Admitted Students</h2>
-  <p>Congratulations on your admission to the University of Florida's<br />Pre-Health Postbaccalaureate Program (PHPB)!</p>
+  <h3>Welcome.</h3>
+  <p>Congratulations on your admission to the University of Florida's Pre-Health Postbaccalaureate Program (PHPB)!</p>
   <p>You are about to start an intense program with others pursuing similar goals as your own. You will be in small classes with just those in the PHPB program for your sciences and math.</p>
   <h3>A few bits of information:</h3>
   <p>Some of you were admitted with the requirement that you complete Pre-Calculus (MAC1147) and Intro to Chemistry (CHM1025). If you were admitted to the ReStart program these must be taken at UF and be completed with grades of B or above to matriculate into PHPB in the fall semester. If you were admitted to the "Career Changer" track you are encouraged to take these at UF, but they may be taken at any institution, and must be completed with grades of B or above.</p>

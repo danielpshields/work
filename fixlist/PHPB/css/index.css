@@ -101,6 +101,11 @@ p#smallProgramSlug {
   margin-bottom: 25px;
 }
 
+th#trackTable {
+	color: #222;
+	font-size: 1.5rem;
+}
+
 #prereqSciencePadding {
 	padding: 1rem .6rem 1rem .6rem;
 	font-weight: bold;
