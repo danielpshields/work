@@ -4,7 +4,7 @@
   require_once("include/header.php");
 ?>
 
-<img src="images/farriorHall.jpg" alt="">
+<img src="image/farriorHall.jpg" alt="">
 
 <div class="page">
 

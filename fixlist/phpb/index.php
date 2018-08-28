@@ -14,12 +14,12 @@
 
           <h2>Pre-Health Post-Baccalaureate Program</h2>
           <p id="smallProgramSlug">(PHPB)</p>
+        </div><!-- . Page -->
 
           <div class="slug">
             <p><i>"Helping yourself is the first step to helping others."</i></p>
           </div>
 
-        </div><!-- . Page -->
 
         <div class="maxWidth">
 

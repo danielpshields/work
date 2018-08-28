@@ -11,12 +11,8 @@
 
       <h2>Program Features</h2>
 
-      <div class="rightColumn">
-        <h3>General</h3>
-        <p>Our mission is to empower and support college graduates who are interested in pursuing a healthcare profession. We welcome students from all backgrounds and celebrate the diversity that non-traditional students bring to the university. As a student in the program you will experience a range of features that will help you on your path to success.</p>
-      </div>
-      <div class="clear"></div>
-
+      <p>Our mission is to empower and support college graduates who are interested in pursuing a healthcare profession. We welcome students from all backgrounds and celebrate the diversity that non-traditional students bring to the university. As a student in the program you will experience a range of features that will help you on your path to success.</p>
+  
       <h4>Individualized Advising</h4>
       <p>You will work with a pre-health advisor to develop an academic and professional plan that reflects your goals, interests, and unique background to help gain admission to a health profession graduate program.</p>
 

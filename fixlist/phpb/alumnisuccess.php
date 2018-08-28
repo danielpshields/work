@@ -4,6 +4,10 @@
   require_once("include/header.php");
 ?>
 
+
+<img class="mobileImage" src="image/colleges.jpg" alt="">
+<img class="desktopImage" src="image/alumni_desktop.jpg" alt="">
+
 <div class="page">
 <h2>Alumni Success</h2>
 <h4>2014 Cohort</h4>

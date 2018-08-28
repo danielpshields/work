@@ -5,7 +5,7 @@
 ?>
   <div class="page">
 
-    <h1>Application</h1>
+    <h2>Application</h2>
 
     <p>Follow the steps below to be sure your application is considered complete:</p>
 

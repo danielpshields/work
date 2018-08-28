@@ -11,7 +11,7 @@ require_once("include/header.php");
 <div class="page">
   <h2>Admission</h2>
   <div class="rightColumn">
-    <h3>General</h3>
+    <!-- <h3><b>Fall</b></h3> -->
     <p>We admit students for the Fall on a rolling basis until the program fills. Students who apply early have a greater chance of admission. We recommend applying by Nov. 1, but will continue to review applications until the deadline if we have space available.</p>
     <p>This is a highly selective program. Students who apply early have a greater chance of admission. We recommend applying by Nov. 1, but will continue to review applications until the deadline if we have space available.</p>
     <p>The Admissions Committee reviews each applicant carefully taking into consideration the academic background, previous institutions, courses completed, GPAs earned, evaluations, and essays. The rigor and quality of the applicant's undergraduate curriculum is strongly considered as evidence of having achieved the academic skills necessary for successful completion of this program.</p>
@@ -22,7 +22,7 @@ require_once("include/header.php");
   <section>
     <p><strong>Applications are reviewed and evaluated on a rolling basis. All application materials must be received for admission to be finalized. The most competitive applicants will be admitted on a space available basis.</strong></p>
   </section>
-  <div class="rightColumn right">
+  <div class="rightColumn">
     <p>Pursuing academic requirements alone is inadequate for application to healthcare professional graduate programs. This program requires students to participate in medically related service and research experiences. These positions are secured by the student. This program has no linkages with professional schools/programs and in no way guarantees admission.</p>
   </div>
   <div class="clear">
@@ -62,8 +62,10 @@ require_once("include/header.php");
 <li>Upon admission students in the ReStart program will have additional Admission Conditions to complete in the summer prior to starting fall semester.  These will be indicated on the letter of acceptance.</li>
 </ul>
 </div><!-- end restart -->
-<div class="apply">
-<button onclick="location.href='apply.php';" type="button" name="button">Apply!</button>
-</div>
-</div><!-- end content -->
+</div><!-- end Page -->
+
+  <div class="apply">
+    <button onclick="location.href='apply.php';" type="button" name="button">Apply!</button>
+  </div>
+
 <?php require_once("include/footer.php");?>

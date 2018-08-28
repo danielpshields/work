@@ -5,17 +5,15 @@
 ?>
 
     <!-- responsive images from "stylesheet.css" -->
-    <img class="mobileImage" src="image/courseInfo.jpg" alt="">
-    <img class="desktopImage" src="image/courseInfo_desktop.jpg" alt="">
+    <img class="mobileImage" src="image/courses.jpg" alt="">
+    <img class="desktopImage" src="image/courses_desktop.jpg" alt="">
 
 <div class="page">
 
   <h2>Course Information</h2>
   <div class="rightColumn">
-    <h3>Two-Year Program</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
 
-    <table id="twoYearProgramTable">
+    <table class="twoYearProgramTable">
       <tr>
         <td rowspan="2" style="width: 90px;"><b>Year <span class="bigNumber">1</span></b></td>
         <th colspan="3">Year 1</th>
@@ -26,7 +24,7 @@
         <td><a href="#summer">Summer</a></td>
       </tr>
     </table>
-    <table>
+    <table class="twoYearProgramTable">
       <tr>
         <td rowspan="2" style="width: 90px;"><b>Year <span class="bigNumber">2</span></b></td>
         <th id="yearTwoHead" colspan="2">Year 2</th>
@@ -38,6 +36,10 @@
     </table>
   </div>
   <div class="clear"></div>
+
+  <h3>Two-Year Program</h3>
+
+  <p class="slug">Lorem ipsum dolor sit amet, consectetur adipisicing elit Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
 
   <section>
     <h3>Tracks</h3>
@@ -351,10 +353,7 @@
 
 
 </div><!-- end content -->
-<?php
-require_once("include/sidebar.php");
-require_once("include/footer.php");
-?>
+<?php require_once("include/footer.php"); ?>
 
 </body>
 </html>

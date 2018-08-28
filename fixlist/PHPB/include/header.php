@@ -47,12 +47,12 @@
 					<ul>
 						<!-- <li><a href="index.php">Home</a></li> -->
 						<li><a href="admission.php">Admission</a></li>
-						<li><a href="courses.php">Course Information</a></li>
+						<li><a href="courses.php">Courses</a></li>
 						<li><a href="features.php">Program Features</a></li>
-						<li><a href="finances.php">Financial Information</a></li>
+						<li><a href="finances.php">Financing</a></li>
 						<li><a href="faq.php">FAQ</a></li>
 						<li><a href="advising.php">Advising</a></li>
-						<li><a href="alumnisuccess.php">Alumni Success</a></li>
+						<!-- <li><a href="alumnisuccess.php">Alumni Success</a></li> -->
 						<li><a href="contact.php">Contact Us</a></li>
 						<!-- <li><a href="newstudents.php">Newly Admitted Students</a></li> -->
 						<div class="clear"></div>
