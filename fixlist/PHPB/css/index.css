@@ -96,6 +96,11 @@ p#smallProgramSlug {
 	color: #77abff;
 }
 
+.apply {
+	padding-bottom: 2.5rem;
+	border-bottom: 1px solid #d0d0d0;
+}
+
 #trackTable {
   margin-top: 25px;
   margin-bottom: 25px;

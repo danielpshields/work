@@ -6,15 +6,15 @@
 
 /*
 
+	page        992px
+
+	maxWidth    1500px
+
 	container   100%
 
-	maxWidth  1500px
-
-	page     	 992px
-
-	pMaxWidth  550px
-
 	break  @   600px | 992px
+
+	p MaxWidth  550px
 
 	color: #E28F41; UF - Pale Orange
 
@@ -284,26 +284,20 @@ td {
 	max-width: 545px;
 }
 
-/* apply button apply button apply apply  */
+/* apply apply apply apply apply apply apply apply  */
 
 .apply {
-	/* border-bottom: 1px solid #d0d0d0; */
-	/* background: #587096; */
-	border-radius: 5px;
 	width: 100%;
+	margin: 2.9rem auto 3rem auto;
 	max-width: 992px;
-	margin: 1rem auto 2rem auto;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
 }
 
 .apply button {
 	display: block;
-	margin: 11px auto 12px auto;
-	width: 95%;
-	max-width: 400px;
-	padding-top: 3px;
-	padding-bottom: 6px;
+	margin: auto;
+	width: 98%;
+	max-width: 550px;
+	padding-top: 3px 0 6px 0;
 	border-radius: 3px;
 	font-size: 1.4rem;
 	line-height: 2;
@@ -321,7 +315,7 @@ td {
 	cursor: pointer;
 }
 
-/* footer */ /* footer */ /* footer */
+/* footer  footer   footer   footer   footer   footer */
 
 footer {
 	padding: 20px 0 10px 0;

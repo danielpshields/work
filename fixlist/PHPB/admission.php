@@ -63,6 +63,7 @@ require_once("include/header.php");
 </ul>
 </div><!-- end restart -->
 </div><!-- end Page -->
+</div><!-- Container -->
 
   <div class="apply">
     <button onclick="location.href='apply.php';" type="button" name="button">Apply!</button>

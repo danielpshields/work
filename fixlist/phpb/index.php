@@ -16,13 +16,11 @@
           <p id="smallProgramSlug">(PHPB)</p>
         </div><!-- . Page -->
 
-          <div class="slug">
-            <p><i>"Helping yourself is the first step to helping others."</i></p>
-          </div>
-
+        <div class="slug">
+          <p><i>"Helping yourself is the first step to helping others."</i></p>
+        </div>
 
         <div class="maxWidth">
-
           <div class="coreFeature">
             <h4><a href="admission.php">Prerequisites</a></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -70,16 +68,15 @@
               <li>&gt; <a href="finances.php">Financial Information</a></li>
             </ul>
           </div>
-
           <div class="clear"></div>
-
         </div><!-- end Max Width -->
 
-        <div class="page"><!-- restart Page -->
 
           <div class="apply">
             <button onclick="location.href='apply.php';" type="button" name="button">Apply!</button>
           </div>
+
+          <div class="page"><!-- restart Page -->
 
           <h3>UF Pre-Health Post-Bac</h3>
 
