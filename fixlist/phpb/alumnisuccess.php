@@ -12,36 +12,39 @@
 <h2>Alumni Success</h2>
 <h4>2014 Cohort</h4>
 <p>Our inaugural class was small, but successful! Of the 6 students who applied, 5 were admitted with acceptances to the following schools:</p>
+<div id="profiles">
+
 <div class="pane">
 <h4>Nathalie Abenoza</h4>
 <p>University of Wisconsin College of Medicine</p>
-<img width="150" height="120px" src="images/abenoza.jpg">
+<img class="profile" width="150" height="120px" src="images/abenoza.jpg">
 </div>
 <div class="pane">
 <h4>Quinton Foster</h4>
 <p>University of Florida College of Medicine</p>
-<img width="150px" height="120px" src="images/foster.jpg">
+<img class="profile" width="150px" height="120px" src="images/foster.jpg">
 </div>
 <div class="pane">
 <h4>Ricky Madhavan</h4>
 <p>Harvard Medical School</p>
-<img width="150px" height="120px" src="images/madhavan.jpg">
+<img class="profile" width="150px" height="120px" src="images/madhavan.jpg">
 </div>
 <div class="pane">
 <h4>Karley Post</h4>
 <p>University of Florida College of Dentistry</p>
-<img width="150px" height="120px" src="images/post.jpg">
+<img class="profile" width="150px" height="120px" src="images/post.jpg">
 </div>
 <div class="pane">
 <h4>Joseph Tubito</h4>
 <p>Florida State University</p>
-<img width="150px" height="120px" src="images/jtubito.jpg">
+<img class="profile" width="150px" height="120px" src="images/jtubito.jpg">
 </div>
 <div class="pane">
 <h4>Eric Warner</h4>
 <p>Sidney Kimmel Medical College at Thomas Jefferson University</p>
-<!--<img width="150px" height="120px" src="images/individualized.jpg">-->
-</div>
+<!--<img class="profile" width="150px" height="120px" src="images/individualized.jpg">-->
+</div> <!--pane-->
+</div> <!-- # profile -->
 
 <h4>Students Interviewed and Accepted</h4>
 
@@ -51,7 +54,7 @@
 <thead>
 <tr>
 <th>Interviewed</th>
-<th>Accepted</th>
+<th class="orange">Accepted</th>
 </tr>
 <tr>
 <td>Auburn University CVM<br />

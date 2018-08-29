@@ -12,14 +12,14 @@
             <li><a href="advising.php">Advising</a></li>
             <li><a href="alumnisuccess.php">Alumni Success</a></li>
             <li><a href="contact.php">Contact Us</a></li></li>
-            <li><a href="newstudents.php">Newly Admitted Students</a></li>
+            <li class="noBorder"><a href="newstudents.php">Newly Admitted Students</a></li>
             <div class="clear"></div>
           </ul>
         </nav>
 
         <div id="contactSection">
           <h3><a href="index.php">Pre-Health Postbac Program</a></h3>
-          <p id="footerAddress">
+          <p>
             Farrior Hall<br>
             P.O. Box 112015<br>
             Gainesville FL 32611<br>

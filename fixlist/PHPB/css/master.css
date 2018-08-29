@@ -103,6 +103,12 @@ dd ul li {
 	border-bottom: 1px solid #fff;
 }
 
+dd ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
 .newlyAdmittedBackground {
 	background: #E28F41;
 	font-weight: 500;
@@ -239,8 +245,7 @@ th {
 }
 
 td {
-	padding:5px;
-	vertical-align:top;
+	padding: 5px;
 	line-height: 1.5;
 }
 
@@ -248,20 +253,20 @@ td {
 	background: #d7dde5;
 }
 
-/* special Features */
-/* special Features */
-/* special Features */
+/* special Features special Features special Features special Features */
+/* special Features special Features special Features special Features */
+/* special Features special Features special Features special Features */
+
 
 /* slug slug slug slug slug slug slug slug slug slug slug */
-
 .slug {
 	margin-top:1rem;
 	font-style: italic;
 	color: #555;
 }
 
-/* list box  */ /* list box  */ /* list box  */
-
+/* list graph Container list graph Container list graph Container */
+/* List Graph Container is a bold <li> and an emphasized <p> for related content */
 .listGraphContainer {
   margin: 1.5rem auto;
 }
@@ -277,7 +282,7 @@ td {
 	font-weight: bold;
 }
 
-/* max width is slightly smaller than normal to offset the text / increase the emphasis */
+/* the "<p>"'s max width is slightly smaller than normal to offset the text / increase the emphasis */
 .listGraphContainer p {
 	font-style: italic;
 	color: #575757;
@@ -285,7 +290,6 @@ td {
 }
 
 /* apply apply apply apply apply apply apply apply  */
-
 .apply {
 	width: 100%;
 	margin: 2.9rem auto 3rem auto;
@@ -295,9 +299,9 @@ td {
 .apply button {
 	display: block;
 	margin: auto;
-	width: 98%;
+	width: 80%;
 	max-width: 550px;
-	padding-top: 3px 0 6px 0;
+	padding: 3px 0 6px 0;
 	border-radius: 3px;
 	font-size: 1.4rem;
 	line-height: 2;
@@ -316,14 +320,16 @@ td {
 }
 
 /* footer  footer   footer   footer   footer   footer */
+/* footer  footer   footer   footer   footer   footer */
+/* footer  footer   footer   footer   footer   footer */
 
 footer {
-	padding: 20px 0 10px 0;
-	font-size: .7rem;
+	padding: 2rem 0 10px 0;
 	background: white;
 	margin: auto;
+	margin-top: 3.7rem;
 	max-width: 992px;
-	border-top: 1px solid #478af7;
+	border-top: 1px solid #d0d0d0;
 }
 
 footer ul {
@@ -332,10 +338,9 @@ footer ul {
 }
 
 footer li {
-	float: left;
-	border-right: 1px solid #777;
-	padding: 0px 5px;
-	margin: 3px 0;
+	padding: 0px .6rem;
+	margin: 2rem 0;
+	font-size: 1.3rem;
 	list-style: none;
 }
 
@@ -346,13 +351,13 @@ footer p {
 }
 
 /* "Contact Section": physical address and social media */
-#contactSection {background: white;}
 
 #contactSection p {
 	color: #444;
 	letter-spacing: 1px;
 	line-height: 1.5;
 	text-align: left;
+	margin-bottom: 2rem;
 }
 
 #contactSection h4 {
@@ -384,7 +389,7 @@ footer p {
 	background: white;
 	min-width: 140px;
 	max-width: 180px;
-	margin: 0;
+	margin: auto;
 }
 
 /* class "Social Media" are the individual icon's containers */
@@ -401,9 +406,13 @@ footer p {
 
 .socialmedia img:hover {opacity: 1;}
 
+#frequentGeneralLinks {
+	padding: .5rem 0 .8rem 0;
+}
+
 #frequentGeneralLinks p {
-	text-align: center;
 	font-size: .8rem;
+	margin: .5rem auto;
 }
 
 #googleAnalyticsSlug {
@@ -415,15 +424,30 @@ footer p {
 
 /* links links links links links links links links */
 /* links links links links links links links links */
+/* links links links links links links links links */
+
 a {color: blue;}
+
 h4 a {
 	color: #6C9AC3;
 	text-decoration: none;
 }
+
 /* laws laws laws laws laws laws laws laws laws laws */
 /* laws laws laws laws laws laws laws laws laws laws */
+/* laws laws laws laws laws laws laws laws laws laws */
+/* laws laws laws laws laws laws laws laws laws laws */
+
 .blackBottomBorder {
 	border-bottom: 1px solid black;
+}
+
+.orange {
+	background: #E28F41; /* UF - Pale Orange */
+}
+
+.noBorder {
+	border: none;
 }
 
 .normalWeight {
@@ -474,4 +498,35 @@ h4 a {
 
 */
 
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 600px) {
+
+
+	/* special features Resize  */
+	/* special features Resize  */
+	/* special features Resize  */
+
+	.apply button {
+			width: 98%;
+	}
+
+
+	footer li {
+		float: left;
+		border-right: 1px solid #777;
+		font-size: 1rem;
+		margin: .2rem 0;
+	}
+
+	footer h3 {
+		margin-top: 2.3rem;
+		margin-bottom: 1.4rem;
+	}
+
+	/* "Social Media Icons" is the icons' overall spacing container */
+	#socialMediaIcons {
+		margin: 0;
+	}
+
+}
+
+/* @media screen and (min-width: 992px) {} */

@@ -31,9 +31,10 @@ p#smallProgramSlug {
 
 /* core feature core feature core feature */
 
+/* core feature are the four main boxes highlights exclusively used on the index page as an immediate navigation to the four core areas / top ranked positions */
 .coreFeature {
 	border: 1px solid #d0d0d0;
-	padding: 25px 0 3rem 0;
+	padding: 1.5rem 0 2rem 0;
 }
 
 .coreFeature h4 {
@@ -41,69 +42,39 @@ p#smallProgramSlug {
 	margin: 1.5rem auto 2rem auto;
 }
 
-.coreFeature h4 a {
-  color: #6C9AC3;
-}
+.coreFeature h4 a {color: #6C9AC3;}
 
 .coreFeature ul {
-	margin-top: 2rem;
+	width: 84%;
+	margin: 2rem auto 2.2rem auto;
 }
 
 .coreFeature li {
 	font-size: 1.5rem;
 	color: #77abff;
+	color: #4c8df7;
 	list-style: none;
-	width: 100%;
-	margin-left: .3rem;
+	margin: 1.5rem 0;
+	font-style: italic;
 }
 
 .coreFeature li a {
 	margin-left: .5rem;
 	text-decoration: underline;
 	color: #77abff;
+	font-style: normal;
 }
 
-.coreFeature {
-	/* margin: 15px auto 20px auto; */
-	border: 1px solid #d0d0d0;
-	padding: 25px 0 3rem 0;
-}
-
-.coreFeature h4 {
-	font-size: 2.1rem;
-	margin: 1.5rem auto 2rem auto;
-}
-
-.coreFeature h4 a {
-  color: #6C9AC3;
-}
-
-.coreFeature ul {
-	margin-top: 2rem;
-}
-
-.coreFeature li {
-	font-size: 1.5rem;
-	color: #77abff;
-	list-style: none;
-	width: 100%;
-	margin-left: .3rem;
-}
-
-.coreFeature li a {
-	margin-left: .5rem;
-	text-decoration: underline;
-	color: #77abff;
-}
-
+/* apply button >> Master.css, override for "Index"  */
 .apply {
 	padding-bottom: 2.5rem;
-	border-bottom: 1px solid #d0d0d0;
+	border-bottom: 1px solid #e0e0e0;
 }
 
+
+/* "Compare Tracks" <table> */
 #trackTable {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin: 1.8rem auto 1.7rem auto;
 }
 
 th#trackTable {
@@ -111,20 +82,23 @@ th#trackTable {
 	font-size: 1.5rem;
 }
 
-#prereqSciencePadding {
+#compareTracksSlug {
 	padding: 1rem .6rem 1rem .6rem;
 	font-weight: bold;
 }
 
+
+/* question button  question button  question button  question button  */
 #questionButton {
 	display: block;
 	border: 5px solid #5a6989;
 	border-radius: 5px;
 	text-align: center;
-	width: 84%;
-	margin: auto;
+	/* width: 84%; */
+	width: 95%;
+	max-width: 400px;
+	margin: 2.5rem auto 0 auto;
 	padding-bottom: 1.5rem;
-	margin-bottom: 1.4rem;
 	background: #fcfcfc;
 }
 
@@ -155,6 +129,10 @@ th#trackTable {
 		width: 70%;
 		font-weight: lighter;
 		color: #555;
+	}
+
+	.coreFeature ul {
+		width: 70%;
 	}
 
 	#questionButton {

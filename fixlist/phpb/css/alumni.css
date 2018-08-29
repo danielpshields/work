@@ -10,3 +10,11 @@ th {
 td {
   line-height: 1.5;
 }
+
+#profiles img.profile {
+  display: block;
+  margin: auto;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  width: 20%;
+}

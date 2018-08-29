@@ -29,7 +29,7 @@
               <li><b>Some Experience</b> for the science taken</li>
             </ul>
             <ul>
-              <li>&gt; <a id="space" href="admission.php">Admission</a></li>
+              <li>&gt; <a href="admission.php">Admission</a></li>
             </ul>
           </div>
 
@@ -65,7 +65,7 @@
               <li><b>Some Experience</b> for the science taken</li>
             </ul>
             <ul>
-              <li>&gt; <a href="finances.php">Financial Information</a></li>
+              <li>&gt; <a href="finances.php">Finances</a></li>
             </ul>
           </div>
           <div class="clear"></div>
@@ -136,15 +136,13 @@
               <td>Five + semesters</td>
             </tr>
             <tr>
-              <td colspan="3" id="prereqSciencePadding" class="italic">* Pre-requisite Sciences refers to Calculus, Chemistry, Biology, and Physics</td>
+              <td colspan="3" id="compareTracksSlug" class="italic">* Pre-requisite Sciences refers to Calculus, Chemistry, Biology, and Physics</td>
             </tr>
           </table>
 
           <p>Be sure to read the full eligibility requirements before applying to the program. Please contact us if you have any question on which track best suits your needs.</p>
 
         <div id="questionButton" onclick="location.href='contact.php';">
-          <!-- <h4>Have Questions?</h4>
-          <h4>Want More Information?</h4> -->
           <h4>?</h4>
           <p><b>Still need help?</b></p>
           <p>We got you, Fam.</p>

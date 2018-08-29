@@ -1,9 +1,12 @@
 .background {
 
   /* blue */
-  background: #587096;
-  background: #405475;
   background: #32425b;
+  background: #405475;
+  background: #478af7; /* original blue */
+  background: #587096;
+
+  color: #77abff; /* pale blue core feature list */
 
   /* orange */
   background: #ffd8ad;
@@ -11,5 +14,5 @@
 
   /* gray */
   background: #d0d0d0;
-  
+
 }
