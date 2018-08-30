@@ -9,6 +9,7 @@
 
  	$thisPage = "0";
   $submitted = 1;
+  $page = "thankyou";
 	require_once("include/header.php");
 
 ?>

@@ -1,6 +1,7 @@
 <?php
  	$thisPage = "0";
   $submitted = 0;
+  $page = "index";
 	require_once("include/header.php");
 ?>
 

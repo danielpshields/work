@@ -9,5 +9,9 @@ $(document).ready(function(){
     //watch for the click event and call your function
     $("#green").on("click", changeBorderOne);
 
-
 });
+
+
+function changeBorderRed() {
+  document.getElementById("p2").style.border = "2px solid #32CD32";
+}

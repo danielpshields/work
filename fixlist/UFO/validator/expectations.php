@@ -6,6 +6,7 @@
   }
  	$thisPage = "2";
   $submitted = 0;
+  $page = "expectations";
 	require_once("include/header.php");
 ?>
 
@@ -23,7 +24,7 @@
 		    <tr>
 		      <td class="orange">2</td>
 		      <td>I acknowledge this:</td>
-					<td class="check oneBox">
+					<td class="check">
 						<input required  id="green" type="checkbox" name="expectations" value=""></td>
 		    </tr>
 		  </table>

@@ -7,6 +7,7 @@
 
  	$thisPage = "3";
   $submitted = 0;
+  $page = "curriculum";
 	require_once("include/header.php");
 ?>
 
@@ -74,7 +75,7 @@
 		      <tr>
 		        <td><p class="orangeFont"><b>3</b></p></td>
 		        <td>I acknowledge this:</td>
-		        <td class="check oneBox">
+		        <td class="check">
               <input id="green" required type="checkbox" name="curriculum" value=""></td>
 		      </tr>
 		    </table>

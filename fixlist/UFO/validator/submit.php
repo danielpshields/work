@@ -1,8 +1,8 @@
 <?php
-
+  $yourDocument = "";
   //ensure the page was reached via the previous page
   require("include/functions.php");
-  if (!isset($_POST['formFour'])) {
+  if (!isset($_POST['formFive'])) {
     redirectTo("index.php");
   }
 
@@ -29,7 +29,16 @@
 
  	$thisPage = "0";
   $submitted = 0;
+  $page = "submit";
 	require_once("include/header.php");
+  $majorSelected = $_POST['majorSelected'];
+
+
+  $files = array(
+    'file' => array(
+      "name" => "180802_05.PNG"
+    )
+  );
 ?>
 
 <form action="thankyou.php" method="post">
@@ -39,6 +48,17 @@
 
     <p>This completes the acknowledgement form. Select the button below to submit and move on to the next step in the program change request.</p>
 
+    <p>You selected: <b><?php echo $majorSelected; ?></b> as your intended UF Online major.</p>
+    <p>You submitted:     <?php
+
+        foreach ($_FILES as $key => $value) {
+          foreach ($value as $foo => $bar) {
+              if ($foo === "name") { ?>
+                <?php echo $bar; ?>
+        <?php }
+          }
+        }
+        ?></p>
     <input class="mainSelect oneBox" id="finalSubmit" type="submit" name="submit" value="submit">
 
   </div>

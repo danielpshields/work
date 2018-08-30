@@ -7,12 +7,13 @@
 
  	$thisPage = "4";
   $submitted = 0;
+  $page = "requirements";
 	require_once("include/header.php");
 ?>
 
       <section>
 
-        <form class="" action="submit.php" method="post">
+        <form class="" action="statement.php" method="post">
 
     				<h2><span class="orangeNumber">4</span> Requirements</h2>
 
@@ -27,7 +28,7 @@
   	  			<tr>
   	  				<td><p class="orange">4</td>
   	  				<td>I acknowledge this:</td>
-  	  				<td class="check oneBox">
+  	  				<td class="check">
                 <input id="green" required type="checkbox" name="requirements" value=""></td>
   	  			</tr>
   	  		</table>
