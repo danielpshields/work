@@ -1,4 +1,33 @@
-@media screen and (min-width: 600px) {}
+@media screen and (min-width: 600px) {
+
+	/* special features Resize  */
+	/* special features Resize  */
+	/* special features Resize  */
+
+	.apply button {
+			width: 98%;
+	}
+
+	footer li {
+		float: left;
+		border-right: 1px solid #777;
+		font-size: 1rem;
+		margin: .2rem 0;
+	}
+
+	footer h3 {
+		margin-top: 2.3rem;
+		margin-bottom: 1.4rem;
+	}
+
+	/* "Social Media Icons" is the icons' overall spacing container */
+	#socialMediaIcons {
+		margin: 0;
+	}
+
+}
+
+
 @media screen and (min-width: 992px) {
 
   dl {

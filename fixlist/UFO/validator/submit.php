@@ -1,44 +1,48 @@
 <?php
-  $yourDocument = "";
-  //ensure the page was reached via the previous page
-  require("include/functions.php");
-  if (!isset($_POST['formFive'])) {
-    redirectTo("index.php");
-  }
+    // GLID user information
+    $UFID         = $_SERVER['HTTP_UFSHIB_UFID'];
+    $date_auto    = date("Y-m-d H:i:s");
+    $nameBusiness = $_SERVER['HTTP_UFSHIB_BUSINESSNAME'];
+    $email        = $_SERVER['HTTP_UFSHIB_MAIL'];
+    $nameGiven    = $_SERVER['HTTP_UFSHIB_GIVENNAME']." ".$_SERVER['HTTP_UFSHIB_SN'];
+    $nameGivenShort    = $_SERVER['HTTP_UFSHIB_GIVENNAME'];
 
-  // $dbhost = "localhost";
-  // $dbuser = "root";
-  // $dbpassword = "";
-  // $dbname = "ufovalidator";
-  // $connection = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
-  //
-  // //check if the database is able to connect
-  // if (mysqli_connect_error()) {
-  //   die("Database connection failed" . mysqli_connect_error() . " (" . mysqli_connect_errno() . ")");
-  // }
-  //
-  // //temporary hard coded values to submit to database:
-  // $glid = "4081-1353";
-  // $name = "acatalano2";
-  // $now = date("ymd G:i");
-  //
-  // //insert the variables into the database
-  // $query = "INSERT INTO submissions (glid, Name, now) VALUES ('{$glid}', '{$name}', '{$now}')";
-  // $result = mysqli_query($connection, $query);
+    //allows no file to be uploaded
+    $yourDocument = "";
+
+    //ensure the page was reached via the previous page
+    //pulls in redirect
+    require("include/functions.php");
+    if (!isset($_POST['formFive'])) {
+      redirectTo("index.php");
+    }
+
+    // $dbhost = "localhost";
+    // $dbuser = "root";
+    // $dbpassword = "";
+    // $dbname = "ufovalidator";
+    // $connection = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
+    //
+    // //check if the database is able to connect
+    // if (mysqli_connect_error()) {
+    //   die("Database connection failed" . mysqli_connect_error() . " (" . mysqli_connect_errno() . ")");
+    // }
+    //
+    // //temporary hard coded values to submit to database:
+    // $glid = "4081-1353";
+    // $name = "acatalano2";
+    // $now = date("ymd G:i");
+    //
+    // //insert the variables into the database
+    // $query = "INSERT INTO submissions (glid, Name, now) VALUES ('{$glid}', '{$name}', '{$now}')";
+    // $result = mysqli_query($connection, $query);
 
 
- 	$thisPage = "0";
-  $submitted = 0;
-  $page = "submit";
-	require_once("include/header.php");
-  $majorSelected = $_POST['majorSelected'];
-
-
-  $files = array(
-    'file' => array(
-      "name" => "180802_05.PNG"
-    )
-  );
+   	$thisPage = "0";
+    $submitted = 0;
+    $page = "submit";
+  	require_once("include/header.php");
+    $majorSelected = $_POST['majorSelected'];
 ?>
 
 <form action="thankyou.php" method="post">

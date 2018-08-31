@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	font-family: 'Source Sans Pro', sans-serif;
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+}
+
+p, li {
+  line-height: 1.8;
+  font-size: 1.5rem;
+  list-style-position: inside;
+}
+
+table, tr, th, td {
+  border: 1px solid #333;
+  padding: .4rem;
+}
+
+footer {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  margin-top: 35px;
+}
+
+
+footer p {
+  text-align: center;
+}

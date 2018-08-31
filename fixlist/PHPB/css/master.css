@@ -1,6 +1,9 @@
 * {
 	margin: 0;
 	padding: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -12,7 +15,7 @@
 
 	container   100%
 
-	break  @   600px | 992px
+	break  @    600px | 992px
 
 	p MaxWidth  550px
 
@@ -490,43 +493,4 @@ h4 a {
 	clear: both;
 }
 
-/*
-
-- other resize in "stylesheet.css"
-
-"master.css" converts styles from "master.css", "stylesheet.css" is for responsive design features like "display: none;"
-
-*/
-
-@media screen and (min-width: 600px) {
-
-
-	/* special features Resize  */
-	/* special features Resize  */
-	/* special features Resize  */
-
-	.apply button {
-			width: 98%;
-	}
-
-
-	footer li {
-		float: left;
-		border-right: 1px solid #777;
-		font-size: 1rem;
-		margin: .2rem 0;
-	}
-
-	footer h3 {
-		margin-top: 2.3rem;
-		margin-bottom: 1.4rem;
-	}
-
-	/* "Social Media Icons" is the icons' overall spacing container */
-	#socialMediaIcons {
-		margin: 0;
-	}
-
-}
-
-/* @media screen and (min-width: 992px) {} */
+/* resizes resizes resizes : "stylesheet.css" */
