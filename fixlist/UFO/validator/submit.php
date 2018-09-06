@@ -48,7 +48,15 @@
     <p>This completes the acknowledgement form. Select the button below to submit and move on to the next step in the program change request.</p>
 
     <p>You selected: <b><?php echo $majorSelected; ?></b> as your intended UF Online major.</p>
-    <p>You submitted:     <?php
+
+
+    <p>If you would like to upload any supporting documentation, please do so here:</p>
+
+    <p>Select file to upload:</p>
+    <input type="file" name="file" id="fileToUpload">
+
+
+    <!-- <p>You submitted:     <?php
 
         foreach ($_FILES as $key => $value) {
           foreach ($value as $foo => $bar) {
@@ -57,7 +65,7 @@
         <?php }
           }
         }
-        ?></p>
+        ?></p> -->
     <input class="mainSelect oneBox" id="finalSubmit" type="submit" name="submit" value="submit">
 
   </div>

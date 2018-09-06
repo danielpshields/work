@@ -271,7 +271,19 @@ td {
 /* list graph Container list graph Container list graph Container */
 /* List Graph Container is a bold <li> and an emphasized <p> for related content */
 .listGraphContainer {
+	background: #5b9bd5;
   margin: 1.5rem auto;
+	border: .6rem solid #2573ba;;
+	padding-bottom: 1.2rem;
+	max-width: 550px;
+}
+
+.listGraphContainer h4 {
+	color: white;
+	text-align: center;
+	font-weight: 500;
+	font-size: 2.3rem;
+	margin-top: 2rem;
 }
 
 .listGraphContainer ul {
@@ -287,8 +299,10 @@ td {
 
 /* the "<p>"'s max width is slightly smaller than normal to offset the text / increase the emphasis */
 .listGraphContainer p {
-	font-style: italic;
-	color: #575757;
+	/* font-style: italic; */
+	text-align: center;
+	color: #575757; /* gray for without a background */
+	color: white;
 	max-width: 545px;
 }
 

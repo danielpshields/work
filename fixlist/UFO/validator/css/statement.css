@@ -20,12 +20,3 @@
     padding: .5rem .7rem 1.3rem .7rem;
     min-height: 150px;
 }
-
-#fileToUpload {
-  width: 80%;
-  max-width: 550px;
-  display: block;
-  margin: auto;
-  margin-bottom: 1.3rem;
-  border: 1px solid #737373;
-}

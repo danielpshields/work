@@ -277,6 +277,14 @@ li a {
   font-size: .78rem;
 }
 
+#fileToUpload {
+  width: 80%;
+  max-width: 550px;
+  display: block;
+  margin: auto;
+  margin-bottom: 1.3rem;
+  border: 1px solid #737373;
+}
 
 
 /* master laws */

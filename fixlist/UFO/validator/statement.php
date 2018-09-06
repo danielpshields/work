@@ -1,9 +1,9 @@
 <?php
   require("include/functions.php");
 
-  // if (!isset($_POST['formFour'])) {
-  //   redirectTo("index.php");
-  // }
+  if (!isset($_POST['formFour'])) {
+    redirectTo("index.php");
+  }
   $page = "statement";
  	$thisPage = "5";
   $submitted = 0;
@@ -16,8 +16,8 @@
         <form class="" action="submit.php" method="post" enctype="multipart/form-data">
 
           <p>Please indicate your desired UF Online major:</p>
-          <select id="selectMajor" name="majorSelected" required>
-            <option value="selectmajor" disabled selected>Select intended major</option>
+          <select required id="selectMajor" name="majorSelected">
+            <option disabled selected value="">Please select a major</option>
             <option value="Anthropology">Anthropology</option>
             <option value="Biology">Biology</option>
             <option value="Computer Science">Computer Science</option>
@@ -31,10 +31,6 @@
           <!-- <input id="writtenResponse" type="textarea" wrap="hard" name="" value="" placeholder="Please explain "> -->
 <!-- rows="8" cols="80" -->
           <textarea required id="writtenResponse" name="writtenResponse" placeholder="Please explain your reasoning for changing majors to UF Online"></textarea>
-
-          <p>Select file to upload:</p>
-          <input type="file" name="file" id="fileToUpload">
-
 
           <input class="mainSelect oneBox" type="submit" name="formFive" value="submit">
 

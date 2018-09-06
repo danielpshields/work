@@ -29,7 +29,18 @@ p#smallProgramSlug {
 	line-height: 1.5;
 }
 
+/* apply button >> Master.css, override for "Index"  */
+.apply {
+	padding-bottom: 2.5rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+
 /* core feature core feature core feature */
+
+#indexCoreFeatureSection {
+	margin-top: 1.8rem;
+}
 
 /* core feature are the four main boxes highlights exclusively used on the index page as an immediate navigation to the four core areas / top ranked positions */
 .coreFeature {
@@ -63,12 +74,6 @@ p#smallProgramSlug {
 	text-decoration: underline;
 	color: #77abff;
 	font-style: normal;
-}
-
-/* apply button >> Master.css, override for "Index"  */
-.apply {
-	padding-bottom: 2.5rem;
-	border-bottom: 1px solid #e0e0e0;
 }
 
 
@@ -114,6 +119,16 @@ th#trackTable {
 }
 
 @media screen and (min-width: 992px) {
+
+	/* listGraphContainer  listGraphContainer  listGraphContainer  */
+
+	.listGraphContainer {
+		float: left;
+	}
+
+
+/* core feature 3 core feature 3 core feature  core feature  */
+
 	.coreFeature {
 		width: 24.8%;
 		float: left;
