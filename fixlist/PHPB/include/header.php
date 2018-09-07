@@ -12,10 +12,11 @@
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"> </script>
 		<script src="scripts/dropdown.js"></script>
+		<script src="scripts/sticky.js"></script>
 	</head>
 	<body>
-		<header>
-			<div id="logos">
+		<header class="sticky" id="myHeader">
+			<div class="top-container" id="logos">
 				<div class="maxWidth">
 					<div id="dept"><a href="index.php"> PHPB<!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> --></a></div>
 					<div id="uf"><a href="shell.php">UF<!-- <img src="images/UF-logo.png"> --></a></div>
@@ -48,7 +49,7 @@
 						<!-- <li><a href="index.php">Home</a></li> -->
 						<li><a href="admission.php">Admission</a></li>
 						<li><a href="courses.php">Courses</a></li>
-						<li><a href="features.php">Program Features</a></li>
+						<li id="tinyThisFeature"><a href="features.php">Program Features</a></li>
 						<li><a href="finances.php">Financing</a></li>
 						<li><a href="faq.php">FAQ</a></li>
 						<li><a href="advising.php">Advising</a></li>

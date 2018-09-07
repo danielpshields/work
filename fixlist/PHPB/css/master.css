@@ -57,12 +57,70 @@ body {
 
 header {
 	border-bottom: 1px solid white;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
+
+#container {
+		padding-top: 90px;
+}
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
 #logos {
-	height: 42px;
+	/* height: 42px; */
 	background: #478af7;
 	padding-top: .5rem;
+	padding-bottom: 1rem;
 	margin: auto;
 	border-bottom: 1px solid #eee;
 }
@@ -176,7 +234,7 @@ p {
 }
 
 .page p, .page h3, .page h4, .page ul, .page ol {
-	max-width: 550px;
+	max-width: 992px;
 }
 
 .page ul, .page ol {
@@ -218,7 +276,7 @@ section {
 	/* margin: .91rem auto 4rem auto; */
 	padding: 0 0 2rem 0;
 	width: 95%;
-	max-width: 600px;
+	max-width: 850px;
 	box-shadow: 20px 20px 20px #d0d0d0;
 }
 
@@ -499,7 +557,8 @@ h4 a {
 	font-size: 2rem;
 }
 
-.bigNumber {
+.bigNumber, .big {
+	line-height: normal;
 	font-size: 4rem;
 }
 

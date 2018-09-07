@@ -10,45 +10,33 @@
     <img class="mobileImage" src="image/index.jpg" alt="College of Liberal Arts and Sciences Human Resources">
 
       <div class="page">
-
         <!-- <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources"> -->
-
           <h2>Pre-Health Post-Baccalaureate Program</h2>
           <p id="smallProgramSlug">(PHPB)</p>
-        </div><!-- . Page -->
+      </div><!-- Page -->
 
         <?php include("{$path}include/applyButton.php"); ?>
-
           <div class="page"><!-- restart Page -->
-
             <h3>Pre-Health Post-Baccalaureate Program (PHPB)</h3>
             <p>The University of Florida's Pre-health Post-Baccalaureate Program (PHPB) offers dedicated and motivated students an opportunity to complete comprehensive academic and professional preparation for admission to healthcare professional schools. PHPB is a rigorous, two year structured program. Fall admission only.</p>
-
             <p>Students in PHPB complete courses in classes created just for PHPB students. This is a comprehensive program offering step by step advising, professional development and non-science courses to assist you in developing skills and competencies necessary for application to a healthcare professional graduate school such as medical, dental and veterinary medical schools.</p>
-
             <p>Other health professions are considered. However, for professions other than medicine, pre-requisite courses not included in our standard curriculum will be taken after completion of the PHPB program.</p>
-
             <h3>Tracks</h3>
             <p>The UF PHPB program offers two tracks to help you complete pre-requisite coursework. Each track requires full-time enrollment. The track you choose depends on your academic background. All tracks require a bachelor's degree for admission. For more information on each track, see the Admission and Course information.</p>
-
           </div><!-- page -->
 
           <div class="holdListGraph">
+            <div class="listGraphContainer">
+              <h4>Career Changer Program</h4>
+              <p>For students who have no previous attempts in pre-requisite science courses. Applicants in the Career Changer track may have up to two science pre-requisite courses with Bs or above.</p>
+            </div><!-- list graph container -->
 
-
-          <div class="listGraphContainer">
-            <h4>Career Changer Program</h4>
-            <p>For students who have no previous attempts in pre-requisite science courses. Applicants in the Career Changer track may have up to two science pre-requisite courses with Bs or above.</p>
-          </div><!-- list graph container -->
-
-          <div class="listGraphContainer">
-            <h4>ReStart Program</h4>
-            <p>For students who attempted three or fewer science pre-requisite courses early in undergrad and earned less than a B. No further attempts in sciences for two or more years. Additional support services are available for students applying for ReStart.</p>
-          </div><!-- list graph container -->
-          <div class="clear"></div>
-        </div><!-- hold listGraph -->
-
-
+            <div class="listGraphContainer">
+              <h4>ReStart Program</h4>
+              <p>For students who attempted three or fewer science pre-requisite courses early in undergrad and earned less than a B. No further attempts in sciences for two or more years. Additional support services are available for students applying for ReStart.</p>
+            </div><!-- list graph container -->
+            <div class="clear"></div>
+          </div><!-- hold listGraph -->
 
 <!--
           <h4>Compare Tracks</h4>
@@ -95,7 +83,7 @@
         <p><b>All courses five or more years old and/or with less than a B earned are required to be repeated.</b></p>
 
         <section>
-          
+
           <h3>How to Apply:</h3>
           <p>Follow the steps below to be sure your application is considered complete:</p>
           <ol>
@@ -125,10 +113,11 @@
       <div id="indexCoreFeatureSection" class="maxWidth"><!-- Core Features -->
         <div class="coreFeature">
           <h4><a href="admission.php">Prerequisites</a></h4>
-          <p>Baccalaureate degree (or higher) from a regionally accredited college or university.</p>
+          <p class="bigNumber">3.0</p>
+          <!-- <p>Baccalaureate degree (or higher) from a regionally accredited college or university.</p> -->
           <p>Minimum cumulative and upper division GPAs of 3.0. </p>
-          <p>Employment or volunteer in a clinical setting or service related capacity prior to application.</p>
-          <p>MAC1147 Pre-Calculus and CHM1025 Intro to Chemistry or approved equivalents with grade of B or above prior to matriculation. Students may apply for admission and complete courses online or in residence through UF prior to beginning the program.</p>
+          <!-- <p>Employment or volunteer in a clinical setting or service related capacity prior to application.</p> -->
+          <!-- <p>MAC1147 Pre-Calculus and CHM1025 Intro to Chemistry or approved equivalents with grade of B or above prior to matriculation. Students may apply for admission and complete courses online or in residence through UF prior to beginning the program.</p> -->
           <ul>
             <li class="superLink"><a href="admission.php">admission</a></li>
           </ul>
@@ -136,11 +125,10 @@
 
         <div class="coreFeature">
           <h4><a href="courses.php">Duration</a></h4>
-          <p>PHPB is a rigorous, two year structured program.</p>
-          <p>Most courses are offered in sections created just for PHPB students.</p>
-          <p>This is a comprehensive program offering non-science courses that assist you in holistic preparation and developing academic skills, application skills, and professional competencies necessary for application to healthcare professional schools.</p>
-
-
+          <p class="bigNumber">2</p>
+          <p>PHPB is a rigorous, <b>two-year</b> structured program.</p>
+          <!-- <p>Most courses are offered in sections created just for PHPB students.</p> -->
+          <!-- <p>This is a comprehensive program offering non-science courses that assist you in holistic preparation and developing academic skills, application skills, and professional competencies necessary for application to healthcare professional schools.</p> -->
           <ul>
             <li>&gt; <a href="courses.php">Courses</a></li>
           </ul>
@@ -148,10 +136,11 @@
 
         <div class="coreFeature">
           <h4><a href="features.php">Instruction</a></h4>
-          <p>Students in the PHPB follow a defined schedule of courses.  Students are expected to take rigorous courses loads of 15 credits per semester.</p>
-          <p>There are additional required courses unique to PHPB to assist with knowledge and skills required for professional preparation.</p>
-          <p>Once admitted, an individualized academic plan will be completed for each student taking into account previously completed courses.</p>
-          <p>All courses five or more years old or with less than a B earned must be retaken.</p>
+          <p class="bigNumber">1</p>
+          <!-- <p>Students in the PHPB follow a defined schedule of courses.  Students are expected to take rigorous courses loads of 15 credits per semester.</p> -->
+          <!-- <p>There are additional required courses unique to PHPB to assist with knowledge and skills required for professional preparation.</p> -->
+          <p><!--Once admitted,-->We offer an individualized academic plan <!-- will be completed for each student taking into account previously completed courses.--></p>
+          <!-- <p>All courses five or more years old or with less than a B earned must be retaken.</p> -->
 
           <ul>
             <li>&gt; <a href="features.php">Features</a></li>
@@ -160,15 +149,15 @@
 
         <div class="coreFeature">
           <h4><a href="finances.php">Costs</a></h4>
-          <p>This step in your medical education represents an important and significant investment.</p>
+          <!-- <p>This step in your medical education represents an important and significant investment.</p> -->
 
-          <p>Tuition for the program is:</p>
-          <ul>
-            <li>$400 / credit hour plus student fees</li>
+          <!-- <p>Tuition for the program is:</p> -->
+          <p class="bigNumber">$400</p>
+            <!-- <li>$400 / credit hour plus student fees</li> -->
             <li>$525 / credit hour plus student fees for non-Florida residents.</li>
           </ul>
 
-          <p>Contact financial aid for further information.  Let them know you will be classified as a post-bac student taking pre-requisites towards admission to graduate school.</p>
+          <!-- <p>Contact financial aid for further information.  Let them know you will be classified as a post-bac student taking pre-requisites towards admission to graduate school.</p> -->
 
           <ul>
             <li>&gt; <a href="finances.php">Finances</a></li>
