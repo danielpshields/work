@@ -1,0 +1,23 @@
+.listGraphContainer p {
+  text-align: left;
+}
+
+.listGraphContainer {
+  max-width: 800px;
+}
+
+/* strict override for prehealth listgraphcontainer */
+p.center {
+  text-align: center;
+}
+
+
+#applicationCycleAnnouncement {
+  max-width: 550px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px #e0e0e0;
+}
+
+#applicationCycleAnnouncement p {
+  text-align: center;
+}

@@ -122,8 +122,16 @@ th#trackTable {
 
 	/* listGraphContainer  listGraphContainer  listGraphContainer  */
 
+
+	.holdListGraph {
+		max-width: 1200px;
+		margin: auto;
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
 	.listGraphContainer {
-		float: left;
+		width: 50%;
 	}
 
 

@@ -9,11 +9,11 @@
 
 /*
 
-	page        992px
+	container   100%
 
 	maxWidth    1500px
 
-	container   100%
+	page        992px
 
 	break  @    600px | 992px
 
@@ -268,6 +268,7 @@ td {
 	color: #555;
 }
 
+
 /* list graph Container list graph Container list graph Container */
 /* List Graph Container is a bold <li> and an emphasized <p> for related content */
 .listGraphContainer {
@@ -276,6 +277,7 @@ td {
 	border: .6rem solid #2573ba;;
 	padding-bottom: 1.2rem;
 	max-width: 550px;
+	color: white;
 }
 
 .listGraphContainer h4 {
@@ -294,7 +296,13 @@ td {
 
 .listGraphContainer li {
 	color: #365587;
-	font-weight: bold;
+	color: white;
+	width: 90%;
+	max-width: 550px;
+	margin: 3px auto 1rem auto;
+ 	font-size: 1.5rem;
+	line-height: 1.8;
+	/* list-style-position: inside; */
 }
 
 /* the "<p>"'s max width is slightly smaller than normal to offset the text / increase the emphasis */
@@ -498,6 +506,12 @@ h4 a {
 .italic {
 	font-style: italic;
 }
+
+
+p.squeezed {
+	max-width: 500px;
+}
+
 
 .center {
 	text-align: center;
