@@ -17,8 +17,7 @@
 		<header>
 
 			<!-- blue section with the two UF logos -->
-
-			<div id="logos">
+			<div class="top-container" id="logos">
 				<div class="maxWidth">
 					<div id="dept"><a href="index.php"> PHPB<!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> --></a></div>
 					<div id="uf"><a href="shell.php">UF<!-- <img src="images/UF-logo.png"> --></a></div>
@@ -27,9 +26,8 @@
 			</div><!-- Logos: NAV (PHPB, UF, and CLAS bar) -->
 
 
-			<!-- mobile Navigation "Menu" | display: none - 992px -->
-
-			<dl id="mobileHeader">
+			<!-- MOBILE Navigation "Menu" | display: none - 992px -->
+			<dl class="headerMobile" id="myHeaderMobile">
 				<dt>Menu</dt>
 				<dd>
 				    <ul>
@@ -50,9 +48,9 @@
 			</dl>
 			<div class="clear"></div>
 
-			<!-- desktop Navigation | display: block - 992px -->
 
-			<nav id="myHeader" class="sidebar">
+			<!-- DESKTOP Navigation | display: block - 992px -->
+			<nav class="header sidebar" id="myHeader">
 				<div class="maxWidth">
 					<ul>
 						<!-- <li><a href="index.php">Home</a></li> -->
@@ -71,4 +69,4 @@
 			</nav>
 		</header>
 
-		<div id="container">
+		<div class="content" id="container">

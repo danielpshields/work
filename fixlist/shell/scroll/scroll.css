@@ -9,11 +9,17 @@ body {
   text-align: center;
 }
 
-.header {
-  display: none;
+.header, .sticky, #myHeader {display: none;}
+
+.stickyMobile {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .headerMobile {
+  display: block;
   padding: 10px 16px;
   background: #555;
   color: #f1f1f1;
@@ -23,24 +29,20 @@ body {
   padding: 16px;
 }
 
-.stickyMobile {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
+.stickyMobile + .content {
   padding-top: 102px;
 }
 
-
 @media screen and (min-width: 800px) {
 
-  .headerMobile {
-    display: none;
+  .headerMobile, .stickyMobile, #myHeaderMobile {display: none;}
+
+  #myHeader {
+    display: block;
   }
 
   .sticky {
+    display: block;
     position: fixed;
     top: 0;
     width: 100%;
@@ -57,4 +59,9 @@ body {
   .top-container {
     background: #d62a2a;
   }
+
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
 }

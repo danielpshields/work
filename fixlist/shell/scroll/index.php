@@ -14,5 +14,7 @@
     <h2>Desktop</h2>
   </div>
 
+  <div class="content"><h3>On Scroll Sticky Header</h3><?php include("text.php"); ?></div>
+
 
 <?php require("footer.php"); ?>

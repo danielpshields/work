@@ -11,12 +11,11 @@
 
       <div class="page">
         <!-- <img src="images/header2.jpg" alt="College of Liberal Arts and Sciences Human Resources"> -->
-          <h2>Pre-Health Post-Baccalaureate Program <span id="shrinkPHPBLogo">(PHPB)</span></h2>
+          <h2>Pre-Health Post-Baccalaureate Program</h2>
+          <p id="smallProgramSlug">(PHPB)</p>
       </div><!-- Page -->
 
         <?php include("{$path}include/applyButton.php"); ?>
-
-
           <div class="page"><!-- restart Page -->
             <h3>Pre-Health Post-Baccalaureate Program (PHPB)</h3>
             <p>The University of Florida's Pre-health Post-Baccalaureate Program (PHPB) offers dedicated and motivated students an opportunity to complete comprehensive academic and professional preparation for admission to healthcare professional schools. PHPB is a rigorous, two year structured program. Fall admission only.</p>
@@ -38,6 +37,44 @@
             </div><!-- list graph container -->
             <div class="clear"></div>
           </div><!-- hold listGraph -->
+
+<!--
+          <h4>Compare Tracks</h4>
+
+          <table id="trackTable" class="center">
+            <tr>
+              <th class="italic">Requirement</th>
+              <th>Career Changer</th>
+              <th>ReStart</th>
+            </tr>
+            <tr>
+              <td>Pre-Requisite Sciences*<br> Completed</td>
+              <td>2 or fewer</td>
+              <td>1-3</td>
+            </tr>
+            <tr>
+              <td>Pre-requisite sciences<br> Grades</td>
+              <td>Bs or better</td>
+              <td>Below B on any course</td>
+            </tr>
+            <tr>
+              <td>Length of Program</td>
+              <td>Five semesters</td>
+              <td>Five + semesters</td>
+            </tr>
+            <tr>
+              <td colspan="3" id="compareTracksSlug" class="italic">* Pre-requisite Sciences refers to Calculus, Chemistry, Biology, and Physics</td>
+            </tr>
+          </table>
+
+          <p>Be sure to read the full eligibility requirements before applying to the program. Please contact us if you have any question on which track best suits your needs.</p>
+
+        <div id="questionButton" onclick="location.href='contact.php';">
+          <h4>?</h4>
+          <p><b>Still need help?</b></p>
+          <p>We got you, Fam.</p>
+        </div> -->
+
 
       <div class="page">
 
@@ -71,8 +108,6 @@
 
         <p>Applications are reviewed and evaluated holistically. The Admissions Committee reviews each applicant carefully taking into consideration academic background, previous institutions, courses completed, GPAs earned, letters of recommendation, and essays.</p>
 
-      </div><!-- . Page -->
-
-<?php // include("include/coreFeatures.php"); ?>
+      </div><!-- Page -->
 
 <?php require_once("include/footer.php"); ?>

@@ -42,6 +42,32 @@
     display: block;
   }
 
+
+  .headerMobile, .stickyMobile, #myHeaderMobile {display: none;}
+
+  #myHeader {
+    display: block;
+  }
+
+  .sticky {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .header {
+    display: block;
+  }
+
+  .top-container {
+    background: #d62a2a;
+  }
+
+header + .content {
+    padding-top: 0rem;
+  }
+
   .sidebar {
     display: block;
     background: #E28F41;
