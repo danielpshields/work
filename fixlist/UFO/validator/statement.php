@@ -15,7 +15,7 @@
 
         <form class="" action="submit.php" method="post" enctype="multipart/form-data">
 
-          <p>Please indicate your desired UF Online major:</p>
+          <p>Please indicate your desired UF College of Liberal Arts and Sciences Online major:</p>
           <select required id="selectMajor" name="majorSelected">
             <option disabled selected value="">Please select a major</option>
             <option value="Anthropology">Anthropology</option>
@@ -30,7 +30,12 @@
 
           <!-- <input id="writtenResponse" type="textarea" wrap="hard" name="" value="" placeholder="Please explain "> -->
 <!-- rows="8" cols="80" -->
-          <textarea required id="writtenResponse" name="writtenResponse" placeholder="Please explain your reasoning for changing majors to UF Online"></textarea>
+          <textarea required id="writtenResponse" name="writtenResponse" placeholder="Please explain why you are unable to remain in our current residential program."></textarea>
+
+
+              <p>If you would like to upload any supporting documentation to email to an advisor:</p>
+              <input type="file" name="file" id="fileToUpload">
+              <p class="tiny">file types: PNG, JPG, DOC</p>
 
           <input class="mainSelect oneBox" type="submit" name="formFive" value="submit">
 

@@ -37,7 +37,7 @@
 
       <!-- <input type="button" onclick="changeBorderRed()" value="i acknowledge this"> -->
 
-      <input id="p2" class="mainSelect oneBox" type="submit" name="formOne" value="next form">
+      <input id="p2" class="mainSelect oneBox" type="submit" name="formOne" value="next page">
 
       </form>
 		</section>

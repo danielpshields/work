@@ -30,7 +30,7 @@
 		  </table>
 		</setion>
 
-    <input class="mainSelect oneBox" type="submit" name="formTwo" value="next form">
+    <input class="mainSelect oneBox" type="submit" name="formTwo" value="next page">
 
   </form>
 

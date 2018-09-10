@@ -49,24 +49,16 @@
 
     <p>You selected: <b><?php echo $majorSelected; ?></b> as your intended UF Online major.</p>
 
-
-    <p>If you would like to upload any supporting documentation, please do so here:</p>
-
-    <p>Select file to upload:</p>
-    <input type="file" name="file" id="fileToUpload">
-
-
-    <!-- <p>You submitted:     <?php
-
+    <p>You uploaded: <b><?php
         foreach ($_FILES as $key => $value) {
           foreach ($value as $foo => $bar) {
               if ($foo === "name") { ?>
-                <?php echo $bar; ?>
+                <?php echo "\"" . $bar . "\""; ?>
         <?php }
           }
         }
-        ?></p> -->
-    <input class="mainSelect oneBox" id="finalSubmit" type="submit" name="submit" value="submit">
+        ?></b></p>
+    <input class="mainSelect oneBox" id="finalSubmit" type="submit" name="submit" value="submit this information">
 
   </div>
 

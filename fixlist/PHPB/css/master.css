@@ -28,8 +28,6 @@
 html {font-size: 16px;}
 
 body {
-	/* background: #2b72fe; */
-	/* background: #478af7; */
 	background: white;
 	min-width: 320px;
 }
@@ -39,13 +37,12 @@ body {
 	margin: 0 auto;
 	text-align: left;
 	background: white;
-	/* padding-top: 6.4rem; */
 }
 
 .page {
-	margin: auto;
 	width: 100%;
-	max-width: 992px;
+	max-width: 1500px;
+	margin: auto;
 	background:#FFF;
 }
 
@@ -169,7 +166,7 @@ h2 {
 	font-size: 2.8rem;
 	color: #0021A5;
 	width: 84%;
-	max-width: 992px;
+	max-width: 1250px;
 	padding: 2rem 0 .5rem 0;
 	margin: 1rem auto 2rem auto;
 	border-bottom: 1px solid orange;
@@ -197,12 +194,13 @@ p {
 	margin: auto;
 	margin-top: 1.4rem;
 	line-height: 1.5;
-	font-size: 1.5rem;
+	font-size: 1.35rem;
 	color: #444;
 }
 
 .page p, .page h3, .page h4, .page ul, .page ol {
-	max-width: 992px;
+	/* max-width: 992px; */
+	max-width: 1250px;
 }
 
 .page ul, .page ol {

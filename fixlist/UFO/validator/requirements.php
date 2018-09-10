@@ -33,7 +33,7 @@
   	  			</tr>
   	  		</table>
 
-          <input class="mainSelect oneBox" type="submit" name="formFour" value="submit">
+          <input class="mainSelect oneBox" type="submit" name="formFour" value="next page">
         </form>
       </select>
 

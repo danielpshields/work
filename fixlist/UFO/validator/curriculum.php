@@ -80,7 +80,7 @@
 		      </tr>
 		    </table>
 
-        <input class="mainSelect oneBox" type="submit" name="formThree" value="next form">
+        <input class="mainSelect oneBox" type="submit" name="formThree" value="next page">
 		</section>
 
   </form>
