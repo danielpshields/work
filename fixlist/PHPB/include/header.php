@@ -12,18 +12,24 @@
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"> </script>
 		<script src="scripts/dropdown.js"></script>
-		<script src="scripts/sticky.js"></script>
 	</head>
 	<body>
-		<header class="sticky" id="myHeader">
-			<div class="top-container" id="logos">
+		<header>
+
+			<!-- blue section with the two UF logos -->
+
+			<div id="logos">
 				<div class="maxWidth">
 					<div id="dept"><a href="index.php"> PHPB<!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> --></a></div>
 					<div id="uf"><a href="shell.php">UF<!-- <img src="images/UF-logo.png"> --></a></div>
 					<div class="clear"></div>
-				</div>
+				</div><!-- max width -->
 			</div><!-- Logos: NAV (PHPB, UF, and CLAS bar) -->
-			<dl>
+
+
+			<!-- mobile Navigation "Menu" | display: none - 992px -->
+
+			<dl id="mobileHeader">
 				<dt>Menu</dt>
 				<dd>
 				    <ul>
@@ -43,7 +49,10 @@
 				</dd>
 			</dl>
 			<div class="clear"></div>
-			<nav class="sidebar">
+
+			<!-- desktop Navigation | display: block - 992px -->
+
+			<nav id="myHeader" class="sidebar">
 				<div class="maxWidth">
 					<ul>
 						<!-- <li><a href="index.php">Home</a></li> -->
@@ -58,7 +67,7 @@
 						<!-- <li><a href="newstudents.php">Newly Admitted Students</a></li> -->
 						<div class="clear"></div>
 					</ul>
-				</div><!-- . Max Width -->
+				</div><!-- Max Width -->
 			</nav>
 		</header>
 

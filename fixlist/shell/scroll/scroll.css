@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #50599b;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  display: none;
+}
+
+.headerMobile {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.stickyMobile {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+@media screen and (min-width: 800px) {
+
+  .headerMobile {
+    display: none;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .header {
+    display: block;
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+    text-align: center;
+  }
+
+  .top-container {
+    background: #d62a2a;
+  }
+}

@@ -19,7 +19,7 @@
 
 	p MaxWidth  550px
 
-	color: #E28F41; UF - Pale Orange
+	color: #E28F41; UF - Pale Orange, see "colors.css" for pallete
 
 
 */
@@ -28,8 +28,8 @@
 html {font-size: 16px;}
 
 body {
-	background: #2b72fe;
-	background: #478af7;
+	/* background: #2b72fe; */
+	/* background: #478af7; */
 	background: white;
 	min-width: 320px;
 }
@@ -38,9 +38,8 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	text-align: left;
-	background: red;
-	background: #478af7;
 	background: white;
+	/* padding-top: 6.4rem; */
 }
 
 .page {
@@ -55,66 +54,9 @@ body {
 	margin: auto;
 }
 
-header {
+/* header {
 	border-bottom: 1px solid white;
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.top-container {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-}
-
-.header {
-  padding: 10px 16px;
-  background: #555;
-  color: #f1f1f1;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
-
-
-
-
-#container {
-		padding-top: 90px;
-}
-
-
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 102px;
-}
-
-
+} */
 
 #logos {
 	/* height: 42px; */
@@ -136,7 +78,18 @@ body {
 #dept {float: left;margin-top:8px; margin-left: 1rem;}
 #uf {float: right; margin-top:8px; margin-right: 1rem;}
 
+/* header {
+	position: fixed;
+	width: 100%;
+} */
+
 header li a {color: white;}
+
+.sticky, .mobileSticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
 
 dt { /* define term, top */
 	outline-style: solid;
@@ -150,6 +103,7 @@ dt { /* define term, top */
 	width: 100%;
 	background: #E28F41;
 	color: white;
+	border-bottom: 1px solid white;
 	}
 
 dd {
@@ -228,7 +182,7 @@ p {
 	width: 84%;
 	margin: auto;
 	margin-top: 1.4rem;
-	line-height: 2;
+	line-height: 1.5;
 	font-size: 1.5rem;
 	color: #444;
 }
@@ -366,7 +320,7 @@ td {
 /* the "<p>"'s max width is slightly smaller than normal to offset the text / increase the emphasis */
 .listGraphContainer p {
 	/* font-style: italic; */
-	text-align: center;
+	text-align: left;
 	color: #575757; /* gray for without a background */
 	color: white;
 	max-width: 545px;

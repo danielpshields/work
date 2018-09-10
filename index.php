@@ -5,11 +5,20 @@
   require_once("{$path}include/header.php");
 ?>
       <article class="lonesomeNote">
-        <h2>LN: 2018</h2>
-
+        <h2>2018</h2>
         <h4>September</h4>
+        <h5>Week 17</h5>
+        <ul>
+          <li><a href="ln/18/09/10.html">180910</a></li>
+        </ul>
+
         <h5>Week 16</h5>
         <ul>
+          <li><a href="ln/18/09/09.html">180909</a></li>
+          <li><a href="ln/18/09/09.html">180909</a></li>
+        </ul>
+        <ul>
+          <li><a href="ln/18/09/07.html">180907</a></li>
           <li><a href="ln/18/09/06.html">180906</a></li>
           <li><a href="ln/18/09/05.html">180905</a></li>
           <li><a href="ln/18/09/04.html">180904</a></li>

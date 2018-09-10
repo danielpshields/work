@@ -70,20 +70,6 @@
         </div>
         <?php include("include/analytics.php");?>
       </footer>
-      <script>
-        window.onscroll = function() {myFunction()};
-
-        var header = document.getElementById("myHeader");
-        var sticky = header.offsetTop;
-
-        function myFunction() {
-          if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
-        </script>
-
+      <script src="scripts/sticky.js"></script>
   </body>
 </html>
