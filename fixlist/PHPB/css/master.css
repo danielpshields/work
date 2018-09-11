@@ -14,8 +14,8 @@
 	wrap 			   1250px
 	p max width  1250px
 
-	page         1500px
-	maxWidth     1500px
+	page         1500px (white background)
+	maxWidth     1500px (pure wrap)
 
 	article      992px
 
@@ -414,7 +414,7 @@ footer {
 	background: white;
 	margin: auto;
 	margin-top: 3.7rem;
-	max-width: 992px;
+	max-width: 1500px;
 	border-top: 1px solid #d0d0d0;
 }
 
@@ -434,6 +434,10 @@ footer p {
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 15px;
+}
+
+nav p {
+	font-size: 1.2rem;
 }
 
 /* "Contact Section": physical address and social media */

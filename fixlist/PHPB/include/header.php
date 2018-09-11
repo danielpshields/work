@@ -19,7 +19,7 @@
 			<!-- blue section with the two UF logos -->
 			<div class="top-container" id="logos">
 				<div class="maxWidth">
-					<div id="dept"><a href="index.php"> PHPB<!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> --></a></div>
+					<div id="dept"><a href="index.php"> CLAS<!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> --></a></div>
 					<div id="uf"><a href="shell.php">UF<!-- <img src="images/UF-logo.png"> --></a></div>
 					<div class="clear"></div>
 				</div><!-- max width -->
@@ -51,21 +51,22 @@
 
 			<!-- DESKTOP Navigation | display: block - 992px -->
 			<nav class="header sidebar" id="myHeader">
-				<div class="maxWidth">
+				<!-- <div class="maxWidth"> -->
 					<ul>
-						<!-- <li><a href="index.php">Home</a></li> -->
+						<li><a href="index.php">PHPB Home</a></li>
 						<li><a href="admission.php">Admission</a></li>
 						<li><a href="courses.php">Courses</a></li>
 						<li id="tinyThisFeature"><a href="features.php">Program Features</a></li>
 						<li><a href="finances.php">Financing</a></li>
 						<li><a href="faq.php">FAQ</a></li>
 						<li><a href="advising.php">Advising</a></li>
-						<!-- <li><a href="alumnisuccess.php">Alumni Success</a></li> -->
+						<li><a href="alumnisuccess.php">Alumni Success</a></li>
+						<li><a href="newstudents.php">New Students</a></li>
+						<li><a href="apply.php">Apply</a></li>
 						<li><a href="contact.php">Contact</a></li>
-						<!-- <li><a href="newstudents.php">Newly Admitted Students</a></li> -->
 						<div class="clear"></div>
 					</ul>
-				</div><!-- Max Width -->
+				<!-- </div><!-- page - -> -->
 			</nav>
 		</header>
 
