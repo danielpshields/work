@@ -40,34 +40,37 @@
 				      <li><a href="finances.php">Financial Information</a></li>
 				      <li><a href="faq.php">FAQ</a></li>
 				      <li><a href="advising.php">Advising</a></li>
-				      <!-- <li><a href="alumnisuccess.php">Alumni Success</a></li> -->
-				      <li><a href="contact.php">Contact</a></li>
+				      <li><a href="alumnisuccess.php">Alumni Success</a></li>
+							<li><a href="contact.php">Contact</a></li>
+				      <li><a href="apply.php">Apply</a></li>
+
 				      <li class="newlyAdmittedBackground"><a href="newstudents.php">Newly Admitted Students</a></li>
 				    </ul>
 				</dd>
 			</dl>
 			<div class="clear"></div>
 
-
 			<!-- DESKTOP Navigation | display: block - 992px -->
-			<nav class="header sidebar" id="myHeader">
-				<!-- <div class="maxWidth"> -->
+			<nav class="header desktopNav" id="myHeader">
+				<div class="maxWidth">
 					<ul>
 						<li><a href="index.php">PHPB Home</a></li>
 						<li><a href="admission.php">Admission</a></li>
 						<li><a href="courses.php">Courses</a></li>
-						<li id="tinyThisFeature"><a href="features.php">Program Features</a></li>
 						<li><a href="finances.php">Financing</a></li>
 						<li><a href="faq.php">FAQ</a></li>
-						<li><a href="advising.php">Advising</a></li>
-						<li><a href="alumnisuccess.php">Alumni Success</a></li>
-						<li><a href="newstudents.php">New Students</a></li>
-						<li><a href="apply.php">Apply</a></li>
 						<li><a href="contact.php">Contact</a></li>
+						<li><a id="apply" href="apply.php">Apply</a></li>
 						<div class="clear"></div>
 					</ul>
-				<!-- </div><!-- page - -> -->
+				</div><!-- page -->
 			</nav>
+
+			<img class="desktopImage" src="image/<?php echo $image; ?>_desktop.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+			<img class="mobileImage" src="image/<?php echo $image; ?>.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+
 		</header>
 
 		<div class="content" id="container">
+
+			<?php require_once("include/sidebar.php"); ?>
