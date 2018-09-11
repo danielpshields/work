@@ -9,18 +9,19 @@
 
 /*
 
-	container   100%
+	container    100%
 
-	maxWidth    1500px
+	wrap 			   1250px
+	p max width  1250px
 
-	page        992px
+	page         1500px
+	maxWidth     1500px
 
-	break  @    600px | 992px
+	article      992px
 
-	p MaxWidth  550px
+	break    @   600px | 992px
 
 	color: #E28F41; UF - Pale Orange, see "colors.css" for pallete
-
 
 */
 
@@ -46,8 +47,19 @@ body {
 	background:#FFF;
 }
 
+.wrap {
+	max-width: 1250px;
+	margin: auto;
+}
+
 .maxWidth {
 	max-width: 1500px;
+	margin: auto;
+}
+
+article {
+	width: 100%;
+	max-width: 992px;
 	margin: auto;
 }
 
@@ -167,8 +179,8 @@ h2 {
 	color: #0021A5;
 	width: 84%;
 	max-width: 1250px;
-	padding: 2rem 0 .5rem 0;
-	margin: 1rem auto 2rem auto;
+	padding: 1rem 0 .5rem 0;
+	margin: 1rem auto 1.3rem auto;
 	border-bottom: 1px solid orange;
 }
 
@@ -337,6 +349,31 @@ td {
 	color: white;
 	max-width: 545px;
 }
+
+.bubbleWrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.bubble {
+  background: #5b9bd5;
+  border: .6rem solid #2573ba;
+  margin: 1rem auto;
+  padding-bottom: 3rem;
+  max-width: 538px;
+}
+
+.bubble p, .bubble h3, .bubble h4, .bubble li {
+  color: white;
+}
+
+.bubble h3 {
+  margin-top: 2rem;
+}
+
 
 /* apply apply apply apply apply apply apply apply  */
 .apply {

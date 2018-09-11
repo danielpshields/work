@@ -42,7 +42,6 @@
     display: block;
   }
 
-
   .headerMobile, .stickyMobile, #myHeaderMobile {display: none;}
 
   #myHeader {
@@ -64,9 +63,9 @@
     background: #d62a2a;
   }
 
-header + .content {
-    padding-top: 0rem;
-  }
+	header + .content {
+	    padding-top: 0rem;
+	  }
 
   .sidebar {
     display: block;
@@ -110,5 +109,12 @@ header + .content {
     background: #ffac5e;
     text-decoration: none;
   }
+
+	.bubble {
+		max-width: 500px;
+		height: 30rem;
+		float: left;
+	}
+
 
 }

@@ -18,7 +18,7 @@
     <li>$525 per credit hour plus fees for non-Florida residents.</li>
   </ul>
   <p>Students in PHPB have access to the same services and resources available to undergraduate students who pay local fees, such as access to the recreational centers, Student Health Care Center, Counseling and Wellness Center, and athletic events.</p>
-  <p>While financial aid is limited, you may be eligible for Federal Loans in the first year of the program. Students applying for aid must complete a FAFSA application as soon as possible. Private funding may also be available. Students should contact the Office for Student Financial Affairs to explore their funding options.</p>
+  <p>While financial aid is limited, you may be eligible for Federal Loans in the first year of the program. Students applying for aid must complete a <a href="https://fafsa.ed.gov/" target="_blank">FAFSA application</a> as soon as possible. Private funding may also be available. Students should contact the <a href="http://www.sfa.ufl.edu/" target="_blank">Office for Student Financial Affairs</a> to explore their funding options.</p>
 
 
 </div><!-- page -->

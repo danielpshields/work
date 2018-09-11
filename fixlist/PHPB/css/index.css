@@ -63,7 +63,6 @@ p#smallProgramSlug {
 	width: 100%;
 }
 
-
 .coreFeature .bigNumber {
 	text-align: center;
 	font-size: 6rem;
@@ -103,7 +102,6 @@ th#trackTable {
 	font-weight: bold;
 }
 
-
 /* question button  question button  question button  question button  */
 #questionButton {
 	display: block;
@@ -130,6 +128,12 @@ th#trackTable {
 }
 
 @media screen and (min-width: 992px) {
+
+	.bubble {
+		height: 25rem;
+	}
+
+
 
 	/* listGraphContainer  listGraphContainer  listGraphContainer  */
 

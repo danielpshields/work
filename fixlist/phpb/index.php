@@ -26,18 +26,18 @@
             <p>The UF PHPB program offers two tracks to help you complete pre-requisite coursework. Each track requires full-time enrollment. The track you choose depends on your academic background. All tracks require a bachelor's degree for admission. For more information on each track, see the Admission and Course information.</p>
           </div><!-- page -->
 
-          <div class="holdListGraph">
-            <div class="listGraphContainer">
+          <div class="bubbleWrap">
+            <div class="bubble">
               <h4>Career Changer Program</h4>
               <p>For students who have no previous attempts in pre-requisite science courses. Applicants in the Career Changer track may have up to two science pre-requisite courses with Bs or above.</p>
             </div><!-- list graph container -->
 
-            <div class="listGraphContainer">
+            <div class="bubble">
               <h4>ReStart Program</h4>
               <p>For students who attempted three or fewer science pre-requisite courses early in undergrad and earned less than a B. No further attempts in sciences for two or more years. Additional support services are available for students applying for ReStart.</p>
             </div><!-- list graph container -->
             <div class="clear"></div>
-          </div><!-- hold listGraph -->
+          </div><!-- bubble wrap -->
 
       <div class="page">
 
@@ -65,7 +65,6 @@
           </ol>
 
         </section>
-
 
         <p><b><u>All application materials must be received for admission to be finalized.</u></b></p>
 
