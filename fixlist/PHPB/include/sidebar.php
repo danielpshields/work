@@ -1,10 +1,10 @@
 
         <div class="sidebar">
           <ul id="sidebarList">
-            <li><a href="advising.php">Advising</a></li>
             <li><a href="features.php">Program Features</a></li>
             <li><a href="alumnisuccess.php">Alumni Success</a></li>
             <li><a href="newstudents.php">Newly Admitted Students</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
           <div id="contactSection">
             <h3><a href="index.php">Pre-Health Postbac Program</a></h3>

@@ -4,5 +4,7 @@ iframe {
   margin: auto;
   width: 83%;
   height: 400px;
-  border: 1px solid #333;
+  border: 3px solid #587096;
+  border: 3px solid #d0d0d0;
+  border-radius: 5px;
 }

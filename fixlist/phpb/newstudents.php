@@ -1,14 +1,13 @@
-<?php $title="Pre-Health Post-Bac Completion Program | UF College of Liberal Arts and Sciences";
-$page = "newstudents"; ?>
-<?php require_once("include/header.php"); ?>
+<?php
+  $title="Pre-Health Post-Bac Completion Program | UF College of Liberal Arts and Sciences";
+  $page = "admitted";
+  $image = $page;
+  require_once("include/header.php");
+?>
 
-<!-- responsive images from "stylesheet.css" -->
-<img class="desktopImage" src="image/admitted_desktop.jpg" alt="College of Liberal Arts and Sciences Human Resources">
-<img class="mobileImage" src="image/admitted.jpg" alt="College of Liberal Arts and Sciences Human Resources">
 
 
-<div class="page">
-  <!-- <img src="images/tutoring.jpg" alt="Students studying" title="Students studying" width="100%"> -->
+<div class="shell">
 
   <h2>Newly Admitted Students</h2>
   <h3>Welcome.</h3>
@@ -16,6 +15,9 @@ $page = "newstudents"; ?>
   <p>You are about to start an intense program with others pursuing similar goals as your own. You will be in small classes with just those in the PHPB program for your sciences and math.</p>
   <h3>A few bits of information:</h3>
   <p>Some of you were admitted with the requirement that you complete Pre-Calculus (MAC1147) and Intro to Chemistry (CHM1025). If you were admitted to the ReStart program these must be taken at UF and be completed with grades of B or above to matriculate into PHPB in the fall semester. If you were admitted to the "Career Changer" track you are encouraged to take these at UF, but they may be taken at any institution, and must be completed with grades of B or above.</p>
+</div><!-- shell -->
+<div class="clear"></div>
+
   <p>If you will not be in Gainesville during the summer, these courses are typically offered online. To take them at UF:</p>
   <ul listtype="alpha">
     <li>You will need to complete a "non-degree" seeking application through <a href="http://www.admissions.ufl.edu/apply/more">Admissions</a>. Registration is during drop/add, usually the second day of classes. You will register for these yourself, but please contact us if you have any difficulty. There are no guarantees that seats will be available.</li>
@@ -38,10 +40,4 @@ $page = "newstudents"; ?>
     <li>One of the expectations of PHPB is that students will be engaged in clinical volunteering and community service while in the program.  This fills quickly.  I recommend you start looking for these for fall now.  View the <a href="https://www.advising.ufl.edu/pre-health/pre-health-resources/">Pre-Health Resources</a> to begin looking for places in Gainesville to do this.  We will talk more about this during orientation.</li>
   </ol>
 
-</div><!-- end content -->
-
-  <?php require_once("include/sidebar.php"); ?>
-  <?php require_once("include/footer.php");?>
-
-</body>
-</html>
+<?php  require_once("include/footer.php");?>

@@ -43,7 +43,6 @@
 				      <li><a href="alumnisuccess.php">Alumni Success</a></li>
 							<li><a href="contact.php">Contact</a></li>
 				      <li><a href="apply.php">Apply</a></li>
-
 				      <li class="newlyAdmittedBackground"><a href="newstudents.php">Newly Admitted Students</a></li>
 				    </ul>
 				</dd>
@@ -59,19 +58,21 @@
 						<li><a href="courses.php">Courses</a></li>
 						<li><a href="finances.php">Financing</a></li>
 						<li><a href="faq.php">FAQ</a></li>
-						<li><a href="contact.php">Contact</a></li>
+						<li><a href="advising.php">Advising</a></li>
 						<li><a href="apply.php">Apply</a></li>
 						<div class="clear"></div>
 					</ul>
-				</div><!-- page -->
+				</div><!-- max width -->
 			</nav>
 
-			<img class="desktopImage" src="image/<?php echo $image; ?>_desktop.jpg" alt="College of Liberal Arts and Sciences Human Resources">
-			<img class="mobileImage" src="image/<?php echo $image; ?>.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+			<div class="content">
+				<img class="desktopImage" src="image/<?php echo $page; ?>_desktop.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+				<img class="mobileImage" src="image/<?php echo $page; ?>.jpg" alt="College of Liberal Arts and Sciences Human Resources">
+			</div>
 
 		</header>
 
-		<div class="content" id="container">
+		<div id="container">
 
 			<h1>Pre-Health Post-Baccalaureate Program <span id="shrinkPHPBLogo">(PHPB)</span></h1>
 

@@ -1,18 +1,15 @@
 <?php
   $title = "Pre-Health Post-Bac Program Features | UF College of Liberal Arts and Sciences";
   $page = "alumni";
+  $image = $page;
   require_once("include/header.php");
 ?>
 
-
-<img class="mobileImage" src="image/colleges.jpg" alt="">
-<img class="desktopImage" src="image/colleges_desktop.jpg" alt="">
-
-<div class="page">
+<div class="shell">
 <h2>Alumni Success</h2>
 <h4>2014 Cohort</h4>
 <p>Our inaugural class was small, but successful! Of the 6 students who applied, 5 were admitted with acceptances to the following schools:</p>
-<div id="profiles">
+
 
 <div class="pane">
 <h4>Nathalie Abenoza</h4>
@@ -24,6 +21,8 @@
 <p>University of Florida College of Medicine</p>
 <img class="profile" width="150px" height="120px" src="images/foster.jpg">
 </div>
+</div><!-- shell -->
+<div class="clear"></div>
 <div class="pane">
 <h4>Ricky Madhavan</h4>
 <p>Harvard Medical School</p>
