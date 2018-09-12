@@ -1,14 +1,12 @@
 <?php
   $title = "Pre-Health Post-Bac Completion Program | UF College of Liberal Arts and Sciences";
   $page = "courses";
+  $path = "";
+  $image = $page;
   require_once("include/header.php");
 ?>
 
-    <!-- responsive images from "stylesheet.css" -->
-    <img class="mobileImage" src="image/courses.jpg" alt="">
-    <img class="desktopImage" src="image/courses_desktop.jpg" alt="">
-
-    <div class="page">
+  <div class="shell">
 
       <h2>Course Information</h2>
 
@@ -18,14 +16,20 @@
       <p>Once admitted, an individualized academic plan will be completed for each student taking into account previously completed courses.</p>
       <p>All courses five or more years old or with less than a B earned must be retaken.</p>
       <p>If there are other courses required for a professional school that are not part of the PHPB curriculum, these may be taken following completion of PHPB.  There is no guarantee of taking these courses at UF.</p>
-      <p><b>Pre-Matriculation – All students admitted to PHPB must complete:</b></p>
-      <ul>
-        <li>MAC1147 Pre-Calculus and CHM1025 Intro to Chemistry or approved equivalents with grades of Bs or above.</li>
-        <li>If admitted to the ReStart track these courses must be taken at UF.</li>
-        <li>Online or in-residence enrollment at UF is possible. Taking these at UF will provide the best preparation for taking PHPB chemistry and math courses.</li>
-        <li>Please contact us for more information.</li>
-      </ul>
+    </div><!-- shell -->
+    <div class="clear"></div>
 
+    <h3>Pre-Matriculation</h3>
+    <p>All students admitted to PHPB must complete:</p>
+    <ul>
+      <li>MAC1147 Pre-Calculus and CHM1025 Intro to Chemistry or approved equivalents with grades of Bs or above.</li>
+      <li>If admitted to the ReStart track these courses must be taken at UF.</li>
+      <li>Online or in-residence enrollment at UF is possible. Taking these at UF will provide the best preparation for taking PHPB chemistry and math courses.</li>
+      <li>Please contact us for more information.</li>
+    </ul>
+
+
+    <section>
       <h3>Course Schedule</h3>
       <table>
         <tr>
@@ -214,6 +218,7 @@
         <tr>
           <td colspan="3"><b>Total Credit Hours:	69</b></td></tr>
       </table>
+    </section>
 
       <p>There is access to select electives through the College of Liberal Arts & Sciences and UF College of Medicine.</p>
       <p><b>Pre-Dent</b> and <b>Pre-Vet</b></p>

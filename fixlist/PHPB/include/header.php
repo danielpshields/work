@@ -19,7 +19,7 @@
 			<!-- blue section with the two UF logos -->
 			<div class="top-container" id="logos">
 				<div class="maxWidth">
-					<div id="dept"><a href="index.php"> CLAS<!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> --></a></div>
+					<div id="dept"><a href="index.php">CLAS<!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> --></a></div>
 					<div id="uf"><a href="shell.php">UF<!-- <img src="images/UF-logo.png"> --></a></div>
 					<div class="clear"></div>
 				</div><!-- max width -->
@@ -60,7 +60,7 @@
 						<li><a href="finances.php">Financing</a></li>
 						<li><a href="faq.php">FAQ</a></li>
 						<li><a href="contact.php">Contact</a></li>
-						<li><a id="apply" href="apply.php">Apply</a></li>
+						<li><a href="apply.php">Apply</a></li>
 						<div class="clear"></div>
 					</ul>
 				</div><!-- page -->

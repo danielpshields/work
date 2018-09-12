@@ -1,6 +1,9 @@
-h3 {
-  margin-top: 3.3rem;
+
+.courseSchedule {
+  border: 1px solid blue;
 }
+
+
 
 table, tr, th, td {
   border: 1px solid #666;

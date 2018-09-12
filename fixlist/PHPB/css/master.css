@@ -191,58 +191,27 @@ h1 {
 }
 
 h2 {
-	font-size: 2.8rem;
-	color: #0021A5;
-	/* width: 84%; */
-	/* max-width: 1250px; */
-	padding: 1rem 0 2rem 0;
-	margin: 1rem auto 2.3rem auto;
-	/* float: left; */
-	border-bottom: 1px solid orange;
-}
-
-h3 {
 	font-size: 2.3rem;
 	width: 84%;
-	margin: 2.8rem auto 2rem auto;
+	margin: 0 auto 2rem auto;
 	color: #6893ba;
 	color: #436f96; /* i like this blue */
 	color: #476b8c;
 	/* font-weight: 100; */
 }
 
-h4 {
+h3 {
 	font-size: 2rem;
 	width: 84%;
 	margin: 3.3rem auto 1.3rem auto;
 	color: #6C9AC3;
 }
 
-p {
-	width: 84%;
-	margin: auto;
-	margin-top: 1.4rem;
-	line-height: 1.5;
-	font-size: 1.35rem;
-	color: #444;
-}
-
-.page p, .page h3, .page h4, .page ul, .page ol {
-	/* max-width: 992px; */
-	max-width: 1250px;
-}
-
-.page ul, .page ol {
-	width: 84%;
-	margin: 25px auto;
-}
-
-.page li {
-	width: 90%;
-	margin: 3px auto 1rem auto;
-	color: #444;
- 	font-size: 1.5rem;
-	line-height: 1.8;
+h4 {
+	font-size: 1.4rem;
+	color: #555;
+	width: 86%;
+	margin: 1.3rem auto;
 }
 
 /* unused: */
@@ -259,6 +228,35 @@ h6 {
 	color: #666;
 	width: 86%;
 	margin: 1.3rem auto;
+}
+
+
+
+p {
+	width: 84%;
+	margin: auto;
+	margin-top: 1.4rem;
+	line-height: 1.5;
+	font-size: 1.35rem;
+	color: #444;
+}
+
+.page p, .page h3, .page h4, .page ul, .page ol {
+	/* max-width: 992px; */
+	max-width: 1250px;
+}
+
+#container ul, .page ol {
+	width: 84%;
+	margin: 25px auto;
+}
+
+#container li {
+	width: 90%;
+	margin: 3px auto 1rem auto;
+	color: #444;
+ 	font-size: 1.5rem;
+	line-height: 1.8;
 }
 
 section {
@@ -393,36 +391,51 @@ td {
 
 
 /* apply apply apply apply apply apply apply apply  */
-.apply {
-	/* width: 100%; */
-	/* float: left; */
-	margin: 2.9rem auto 3rem auto;
-	/* max-width: 992px; */
-}
 
-.applySection {
+#apply {
 	display: block;
-	margin: auto;
-	/* float: right; */
+	margin: 1.9rem auto 2rem auto;
+	padding: .5rem 0;
 	width: 80%;
 	max-width: 550px;
-	padding: 3px 0 6px 0;
 	border-radius: 3px;
 	font-size: 1.4rem;
 	line-height: 2;
 	letter-spacing: 3px;
 	font-weight: bold;
 	border: 5px solid #E28F41;
-	background: white;
-	color: #6C9AC3;
+	background: #fdfdfd;
 }
 
-.applySection a:hover {
+#apply p {
+	width: 100%;
+	text-align: center;
+	color: #6C9AC3;
+	margin: 0;
+}
+
+#apply p:first-child {
+	font-size: 1.7rem;
+	margin-bottom: .5rem;
+}
+
+a#apply {
+	text-decoration: none;
+}
+
+a#apply:hover {
 	border: 5px solid #ffac5e;
 	background: #fffdfc;
 	color: #49acff;
+	color: black;
 	cursor: pointer;
 }
+
+
+a#apply:hover p {
+	color: #49acff;
+}
+
 
 /* footer  footer   footer   footer   footer   footer */
 /* footer  footer   footer   footer   footer   footer */
@@ -503,6 +516,7 @@ nav p {
 
 /* class "Social Media" are the individual icon's containers */
 .socialmedia {
+	position: relative;
 	width: 50%;
 	float: left;
 }
