@@ -6,7 +6,7 @@
             <li><a href="advising.php">Advising</a></li>
             <li id="tinyThisFeature"><a href="features.php">Program Features</a></li>
             <li><a href="alumnisuccess.php">Alumni Success</a></li>
-            <li><a href="newstudents.php">New Students</a></li>
+            <li><a href="newstudents.php">Newly Admitted Students</a></li>
           </ul>
 
           <div id="contactSection">

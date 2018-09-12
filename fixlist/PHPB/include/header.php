@@ -54,7 +54,7 @@
 			<nav class="header desktopNav" id="myHeader">
 				<div class="maxWidth">
 					<ul>
-						<li><a href="index.php">PHPB Home</a></li>
+						<li><a href="index.php">Home</a></li>
 						<li><a href="admission.php">Admission</a></li>
 						<li><a href="courses.php">Courses</a></li>
 						<li><a href="finances.php">Financing</a></li>
@@ -72,5 +72,7 @@
 		</header>
 
 		<div class="content" id="container">
+
+			<h1>Pre-Health Post-Baccalaureate Program <span id="shrinkPHPBLogo">(PHPB)</span></h1>
 
 			<?php require_once("include/sidebar.php"); ?>

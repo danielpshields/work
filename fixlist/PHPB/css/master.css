@@ -36,10 +36,9 @@ body {
 
 #container {
 	width: 100%;
-	max-width: 1500px;
+	max-width: 1250px;
 	margin: 0 auto;
 	text-align: left;
-	background: white;
 }
 /*
 .page {
@@ -180,7 +179,17 @@ header img {
 	display: none;
 }
 
-/* h2 is the page title */
+
+h1 {
+	font-size: 2.8rem;
+	color: #0021A5;
+	width: 100%;
+	max-width: 1250px;
+	padding: 1rem 0 2rem 0;
+	margin: 1rem auto 2.3rem auto;
+	border-bottom: 1px solid orange;
+}
+
 h2 {
 	font-size: 2.8rem;
 	color: #0021A5;
@@ -188,7 +197,7 @@ h2 {
 	/* max-width: 1250px; */
 	padding: 1rem 0 2rem 0;
 	margin: 1rem auto 2.3rem auto;
-	float: left;
+	/* float: left; */
 	border-bottom: 1px solid orange;
 }
 
@@ -391,9 +400,10 @@ td {
 	/* max-width: 992px; */
 }
 
-.apply button {
+.applySection {
 	display: block;
 	margin: auto;
+	/* float: right; */
 	width: 80%;
 	max-width: 550px;
 	padding: 3px 0 6px 0;
@@ -407,7 +417,7 @@ td {
 	color: #6C9AC3;
 }
 
-.apply button:hover {
+.applySection a:hover {
 	border: 5px solid #ffac5e;
 	background: #fffdfc;
 	color: #49acff;

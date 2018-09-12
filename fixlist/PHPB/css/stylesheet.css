@@ -38,20 +38,26 @@
 	float: left;
 	display: block;
 	border: 1px solid #d0d0d0;
-	/* width: 25%; */
+	width: 25%;
 	max-width: 400px;
-	height: 40rem;
-	margin-right: 2rem;
+	/* height: 40rem; */
+	/* margin-right: 2rem; */
 	margin-bottom: .3rem;
 }
+
+
+.shell {
+	float: left;
+	width: 75%;
+}
+
 
 .sidebar li {
 	border-bottom: 1px solid #E28F41;
 	font-size: 1.3rem;
 	list-style-position: inside;
 	list-style: none;
-	padding-top: .8rem;
-	padding-bottom: .5rem;
+	line-height: 3;
 	padding-left: 2rem;
 }
 
@@ -61,7 +67,6 @@
 	height: 100%;
 	width: 100%;
 }
-
 
 
 

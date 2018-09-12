@@ -5,22 +5,23 @@
   $image = $page;
 ?>
     <?php require_once("include/header.php"); ?>
-    <div class="shell">
 
-      <div class="page">
-        <h2>Pre-Health Post-Baccalaureate Program <span id="shrinkPHPBLogo">(PHPB)</span></h2>
-      </div><!-- Page -->
+    <div class="shell">
 
       <?php include("{$path}include/applyButton.php"); ?>
 
-      <div class="page"><!-- restart Page -->
-        <h3>PHPB @ UF</h3>
-        <p>The University of Florida's Pre-health Post-Baccalaureate Program (PHPB) offers dedicated and motivated students an opportunity to complete comprehensive academic and professional preparation for admission to healthcare professional schools. PHPB is a rigorous, two year structured program. Fall admission only.</p>
-        <p>Students in PHPB complete courses in classes created just for PHPB students. This is a comprehensive program offering step by step advising, professional development and non-science courses to assist you in developing skills and competencies necessary for application to a healthcare professional graduate school such as medical, dental and veterinary medical schools.</p>
-        <p>Other health professions are considered. However, for professions other than medicine, pre-requisite courses not included in our standard curriculum will be taken after completion of the PHPB program.</p>
-        <h3>Tracks</h3>
-        <p>The UF PHPB program offers two tracks to help you complete pre-requisite coursework. Each track requires full-time enrollment. The track you choose depends on your academic background. All tracks require a bachelor's degree for admission. For more information on each track, see the Admission and Course information.</p>
-      </div><!-- page -->
+      <h3>PHPB @ UF</h3>
+      <p>The University of Florida's Pre-health Post-Baccalaureate Program (PHPB) offers dedicated and motivated students an opportunity to complete comprehensive academic and professional preparation for admission to healthcare professional schools. PHPB is a rigorous, two year structured program. Fall admission only.</p>
+      <p>Students in PHPB complete courses in classes created just for PHPB students. This is a comprehensive program offering step by step advising, professional development and non-science courses to assist you in developing skills and competencies necessary for application to a healthcare professional graduate school such as medical, dental and veterinary medical schools.</p>
+      <p>Other health professions are considered. However, for professions other than medicine, pre-requisite courses not included in our standard curriculum will be taken after completion of the PHPB program.</p>
+
+      </div><!-- shell -->
+
+      <div class="clear"></div>
+
+      <h3>Tracks</h3>
+      <p>The UF PHPB program offers two tracks to help you complete pre-requisite coursework. Each track requires full-time enrollment. The track you choose depends on your academic background. All tracks require a bachelor's degree for admission. For more information on each track, see the Admission and Course information.</p>
+
 
       <div class="bubbleWrap">
       <div class="bubble">
