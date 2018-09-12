@@ -81,7 +81,7 @@
 	}
 
   .sidebar li {
-    overflow: hidden;
+    /* overflow: hidden; */
   	float: left;
 		text-align: center;
   	list-style: none;
@@ -95,6 +95,8 @@
     /* background: #478af7; */
     background: #E28F41;
 		padding: 0;
+		vertical-align: middle;
+		display: inline;
 	}
 
   .sidebar li a {
@@ -104,6 +106,7 @@
     width: 100%;
     height: 100%;
     text-decoration: none;
+		vertical-align: baseline;
   }
 
   .sidebar li a:hover {
