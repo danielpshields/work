@@ -1,18 +1,12 @@
 <?php
   $title = "PHPB FAQs | UF College of Liberal Arts and Sciences";
   $page = "faq";
+  $image = $page;
   require_once("include/header.php");
 ?>
 
-  <img class="mobileImage" src="image/faq.jpg" alt="">
-  <img class="desktopImage" src="image/faq_desktop.jpg" alt="">
-
-  <div class="page">
-
-    <h2>Frequently Asked Questions</h2>
-
-
-
+    <div class="shell">
+      <h2>Frequently Asked Questions</h2>
       <dl>
         <dt>I already have most of the prerequisite courses completed, but I have a few left to take. Can I apply to the program?</dt>
         <dd>No. Our program is intended for students who have not yet completed the pre-requisite courses.</dd>
@@ -41,6 +35,7 @@
         <dt>I don't have a 3.0 undergraduate GPA, can I apply anyway?</dt>
         <dd>We review applications holistically and in full context. In rare circumstances we may consider applicants who have below a 3.0 GPA. If you feel as though you warrant an exception you may submit an additional appeal indicating circumstances that impacted your GPA.</dd>
       </dl>
+
       <dl class="">
         <dt>How long will it take me to complete the program?</dt>
         <dd>Most students in the Career Changer and ReStart tracks should be able to complete the program in 5 semesters including summer.</dd>
@@ -49,7 +44,7 @@
         <dt>Upon completion of the program, am I guaranteed admission to UF's College of Medicine?</dt>
         <dd>No. There is no formal linkage program between the UF Pre-Health Post-Bac program and any UF professional program.</dd>
       </dl>
-
-    </div><!-- page -->
+    </div><!-- shell -->
+    <div class="clear"></div>
 
 <?php  require_once("include/footer.php"); ?>

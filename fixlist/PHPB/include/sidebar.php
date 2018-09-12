@@ -1,14 +1,11 @@
 
         <div class="sidebar">
-
-
-          <ul>
+          <ul id="sidebarList">
             <li><a href="advising.php">Advising</a></li>
-            <li id="tinyThisFeature"><a href="features.php">Program Features</a></li>
+            <li><a href="features.php">Program Features</a></li>
             <li><a href="alumnisuccess.php">Alumni Success</a></li>
             <li><a href="newstudents.php">Newly Admitted Students</a></li>
           </ul>
-
           <div id="contactSection">
             <h3><a href="index.php">Pre-Health Postbac Program</a></h3>
             <p>
@@ -19,7 +16,6 @@
               Fax (352) 392-2905<br>
               <a href="mailto:phpostbac@clas.ufl.edu">phpostbac@clas.ufl.edu</a>
             </p>
-
             <div id="socialMediaContainer">
               <div id="socialMediaIcons">
                 <div class="socialmedia" id="iconTwitter">

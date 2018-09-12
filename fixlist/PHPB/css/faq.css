@@ -1,16 +1,16 @@
-.page dl {
+.shell dl {
   display: block;
 }
 
-.page dt { /* define term, top */
+.shell dt { /* define term, top */
   outline-style: none;
   outline-width: none;
   outline-color: none;
   text-align: left;
   list-style: none;
   float: none;
-  line-height: 2.5;
-  font-size: 1.6rem;
+  line-height: 2.1;
+  font-size: 1.4rem;
   font-weight: bold;
   width: 83%;
   margin: auto;
@@ -21,17 +21,17 @@
   padding-left: .5rem;
 }
 
-.page dt:hover {
+.shell dt:hover {
   cursor: pointer;
   color: #387eed;
 }
 
-.page dd {
+.shell dd {
   line-height: 1.4;
   padding: 1rem 0;
   background: white;
   line-height: 2.5;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   color: #333;
   font-weight: bold;
   width: 83%;

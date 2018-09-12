@@ -9,16 +9,23 @@
 
 /*
 
-	container    1500px
-
-	article      992px
-
+	maxWidth     1500px
+	container    1250px
+	content
+	page
+	shell        75%
+	bubblewrap   1100px
 	wrap 			   1250px
+	article      992px
+	section      850px
+	sidebar
+
+	header images: 1698px by 654px
+
+	@php: $page -> stylesheet -> header image
+
+
 	p max width  1250px
-
-	page         1500px (white background)
-	maxWidth     1500px (pure wrap)
-
 
 	break    @   600px | 992px
 
@@ -40,13 +47,6 @@ body {
 	margin: 0 auto;
 	text-align: left;
 }
-/*
-.page {
-	width: 100%;
-	max-width: 1500px;
-	margin: auto;
-	background:#FFF;
-} */
 
 .wrap {
 	max-width: 1250px;
@@ -241,12 +241,12 @@ p {
 	color: #444;
 }
 
-.page p, .page h3, .page h4, .page ul, .page ol {
+#container p, #container h3, #container h4, #container ul, #container ol {
 	/* max-width: 992px; */
 	max-width: 1250px;
 }
 
-#container ul, .page ol {
+#container ul, #container ol {
 	width: 84%;
 	margin: 25px auto;
 }
@@ -426,8 +426,6 @@ a#apply {
 a#apply:hover {
 	border: 5px solid #ffac5e;
 	background: #fffdfc;
-	color: #49acff;
-	color: black;
 	cursor: pointer;
 }
 
@@ -498,11 +496,11 @@ nav p {
 /* "Social Media Container" creates borders and space for the icon's containers  */
 #socialMediaContainer {
 	border-top: 1px solid #d0d0d0;
-	border-bottom: 1px solid #d0d0d0;
+	/* border-bottom: 1px solid #d0d0d0; */
 	width: 84%;
 	margin: auto;
 	padding-top: 1.3rem;
-	padding-bottom: 1.3rem;
+	padding-bottom: 1.25rem;
 }
 
 /* "Social Media Icons" is the icons' overall spacing container */
