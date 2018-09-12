@@ -30,13 +30,49 @@
 
 @media screen and (min-width: 992px) {
 
-  dl {
+  dl, .mobileImage {
     display: none;
   }
 
-  .mobileImage {
-    display: none;
-  }
+.sidebar {
+	float: left;
+	display: block;
+	border: 1px solid #d0d0d0;
+	width: 25%;
+	max-width: 400px;
+	/* height: 40rem; */
+	/* margin-right: 2rem; */
+	margin-bottom: .3rem;
+}
+
+
+.shell {
+	float: left;
+	width: 75%;
+}
+
+
+.sidebar li {
+	border-bottom: 1px solid #E28F41;
+	font-size: 1.3rem;
+	list-style-position: inside;
+	list-style: none;
+	line-height: 3;
+	padding-left: 2rem;
+}
+
+.sidebar li a {
+	text-decoration: none;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+	.desktopNav {
+		display: block;
+	}
 
   .desktopImage {
     display: block;
@@ -67,21 +103,16 @@
 	    padding-top: 0rem;
 	  }
 
-  .sidebar {
+  .desktopNav {
     display: block;
     background: #E28F41;
 		border-bottom: 1.49px solid white;
     width: 100%;
     margin: auto;
   }
-
-	#tinyThisFeature {
-		padding:0;
-		/* width: 15.2%; */
-	}
-
-  .sidebar li {
-    /* overflow: hidden; */
+	
+  .desktopNav li {
+    overflow: hidden;
   	float: left;
 		text-align: center;
   	list-style: none;
@@ -91,7 +122,7 @@
   	outline-color: #fff;
   	line-height: 2;
     font-size: 1rem;
-  	width: 9.09%;
+  	width: 14.28%;
     /* background: #478af7; */
     background: #E28F41;
 		padding: 0;
@@ -99,7 +130,7 @@
 		display: inline;
 	}
 
-  .sidebar li a {
+  .desktopNav li a {
 		font-weight: lighter;
     display: inline-block;
     padding: .5rem;
@@ -109,7 +140,13 @@
 		vertical-align: baseline;
   }
 
-  .sidebar li a:hover {
+	/* .desktopNav li a#apply {
+		background: #f49e42;
+		background: #ffa787;
+	} */
+
+
+  .desktopNav li a:hover {
     background: #ffac5e;
     text-decoration: none;
   }

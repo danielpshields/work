@@ -9,7 +9,9 @@
 
 /*
 
-	container    100%
+	container    1500px
+
+	article      992px
 
 	wrap 			   1250px
 	p max width  1250px
@@ -17,7 +19,6 @@
 	page         1500px (white background)
 	maxWidth     1500px (pure wrap)
 
-	article      992px
 
 	break    @   600px | 992px
 
@@ -35,17 +36,17 @@ body {
 
 #container {
 	width: 100%;
+	max-width: 1250px;
 	margin: 0 auto;
 	text-align: left;
-	background: white;
 }
-
+/*
 .page {
 	width: 100%;
 	max-width: 1500px;
 	margin: auto;
 	background:#FFF;
-}
+} */
 
 .wrap {
 	max-width: 1250px;
@@ -158,29 +159,45 @@ dd ul li a {
 }
 
 /* end nav nav nav nav nav nav nav nav nav nav  */
-/* sidebar sidebar sidebar sidebar sidebar sid */
+/* desktopNav desktopNav desktopNav desktopNav desktopNav sid */
 
-.sidebar {display: none;}
+.desktopNav {display: none;}
 
-/* end sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar */
+/* end desktopNav desktopNav desktopNav desktopNav desktopNav desktopNav desktopNav desktopNav */
 
-#container img {
+header img {
   width: 100%;
   margin-bottom: 0;
+	/* padding-top: 3.1rem; */
 }
 
 /* switches the image on resizing to Desktop */
 .mobileImage  {display: block;}
 .desktopImage {display: none;}
 
-/* h2 is the page title */
+.sidebar {
+	display: none;
+}
+
+
+h1 {
+	font-size: 2.8rem;
+	color: #0021A5;
+	width: 100%;
+	max-width: 1250px;
+	padding: 1rem 0 2rem 0;
+	margin: 1rem auto 2.3rem auto;
+	border-bottom: 1px solid orange;
+}
+
 h2 {
 	font-size: 2.8rem;
 	color: #0021A5;
-	width: 84%;
-	max-width: 1250px;
-	padding: 1rem 0 .5rem 0;
-	margin: 1rem auto 1.3rem auto;
+	/* width: 84%; */
+	/* max-width: 1250px; */
+	padding: 1rem 0 2rem 0;
+	margin: 1rem auto 2.3rem auto;
+	/* float: left; */
 	border-bottom: 1px solid orange;
 }
 
@@ -377,14 +394,16 @@ td {
 
 /* apply apply apply apply apply apply apply apply  */
 .apply {
-	width: 100%;
+	/* width: 100%; */
+	/* float: left; */
 	margin: 2.9rem auto 3rem auto;
-	max-width: 992px;
+	/* max-width: 992px; */
 }
 
-.apply button {
+.applySection {
 	display: block;
 	margin: auto;
+	/* float: right; */
 	width: 80%;
 	max-width: 550px;
 	padding: 3px 0 6px 0;
@@ -398,7 +417,7 @@ td {
 	color: #6C9AC3;
 }
 
-.apply button:hover {
+.applySection a:hover {
 	border: 5px solid #ffac5e;
 	background: #fffdfc;
 	color: #49acff;
@@ -450,7 +469,7 @@ nav p {
 	margin-bottom: 2rem;
 }
 
-#contactSection h4 {
+#contactSection h3 {
 	padding: .7rem 0 0 0;
 	font-size: 1.8rem;
 	letter-spacing: .1rem;
