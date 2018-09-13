@@ -1,7 +1,5 @@
 
-        <a id="apply" href="apply.php">
-        
-            <p>Apply!</p>
-            <p><i>Deadline Feb. 15, 2019</i></p>
-          
-        </a>
+        <div id="apply">
+            <p>2019 Fall Application Cycle now open!</p>
+            <p><a href="apply.php">Apply now!</a></p>
+        </div>

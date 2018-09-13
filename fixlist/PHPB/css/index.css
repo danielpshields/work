@@ -1,15 +1,47 @@
 
+.coreFeatures {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.coreFeatures dl {
+	width: 98%;
+	max-width: 400px;
+	margin-bottom: 1rem;
+}
+
+.coreFeatures dt {
+	color: blue;
+	text-align: center;
+	margin: auto;
+	text-decoration: underline;
+	width: 100%;
+	outline-style: solid;
+	outline-width: 4px;
+	outline-color: #436f96;
+	padding: .6rem 0;
+	color: #405475;
+}
+
+
+.coreFeatures dd {
+	max-width: 992px;
+	margin: auto;
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+		.coreFeatures dl {
+		max-width: none;
+		width: 23.5%;
+	}
+}
+
+
 
 @media screen and (min-width: 992px) {
-
-
-	#apply {
-		margin-top: .4rem;
-	}
-
-	.bubble {
-		height: 25rem;
-	}
-
 
 }

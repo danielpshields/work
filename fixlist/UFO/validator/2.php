@@ -10,7 +10,7 @@
 	require_once("include/header.php");
 ?>
 
-  <form class="" action="curriculum.php" method="post">
+  <form class="" action="3.php" method="post">
 
 
 		<section>
@@ -29,6 +29,10 @@
 		    </tr>
 		  </table>
 		</setion>
+
+    <!-- <div class="previous">
+      <p><a href="<?php echo $numb = $thisPage - 1; ?>">previous page<?php echo $numb; ?></a></p>
+    </div> -->
 
     <input class="mainSelect oneBox" type="submit" name="formTwo" value="next page">
 
