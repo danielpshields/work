@@ -40,24 +40,36 @@
     $majorSelected = $_POST['majorSelected'];
 ?>
 
-<form action="thankyou.php" method="post">
+<form action="7.php" method="post">
 
   <div class="blue hightlightSlug">
     <h2><span class="orangeNumber">S</span> Submit</h2>
 
     <p>This completes the acknowledgement form. Select the button below to submit and move on to the next step in the program change request.</p>
 
-    <p>You selected: <b><?php echo $majorSelected; ?></b> as your intended UF Online major.</p>
+    <p>You selected:</p>
+    <ul>
+      <li><b><?php echo $majorSelected; ?></b> as your intended UF Online major.</li>
+    </ul>
 
-    <p>You uploaded: <b><?php
-        foreach ($_FILES as $key => $value) {
-          foreach ($value as $foo => $bar) {
-              if ($foo === "name") { ?>
-                <?php echo "\"" . $bar . "\""; ?>
-        <?php }
+
+
+    <?php
+
+    foreach ($_FILES as $file => $secondArray) {
+      foreach ($secondArray as $key => $value) {
+          if ($key === "name" && $value !== "") {
+            if ($key === "name") { ?>
+
+            <p>You submitted:  <b><?php echo "\"" . $value . "\""; ?></b> for review</p>
+
+    <?php
+            }
           }
         }
-        ?></b></p>
+      }
+    ?>
+
     <input class="mainSelect oneBox" id="finalSubmit" type="submit" name="submit" value="submit this information">
 
   </div>

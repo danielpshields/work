@@ -15,7 +15,7 @@
 
 		  <h2><span class="orangeNumber">1</span> Health Professions Disclosure:</h2>
 
-      <form class="" action="expectations.php" method="post">
+      <form class="" action="2.php" method="post">
 
 		  <p>UF Online Majors in the College of Liberal Arts and Sciences (CLAS) <b>were not</b> designed to accommodate students interested in pursuing a career in a health profession such as: pre-med, pre-dent, pre-vet, PA, or Pharmacy.</p>
 

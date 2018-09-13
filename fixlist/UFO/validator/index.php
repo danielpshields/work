@@ -7,7 +7,7 @@
 
   <p>Welcome, <?php echo $nameGivenShort; ?>.</p>
 
-	<form class="" action="professions.php" method="post">
+	<form class="" action="1.php" method="post">
 		<input class="mainSelect" id="homeMainSelect" type="submit" name="formZero" value="Start Form">
 	</form>
 

@@ -13,7 +13,7 @@
 
       <section>
 
-        <form class="" action="submit.php" method="post" enctype="multipart/form-data">
+        <form class="" action="6.php" method="post" enctype="multipart/form-data">
 
           <p>Please indicate your desired UF College of Liberal Arts and Sciences Online major:</p>
           <select required id="selectMajor" name="majorSelected">
