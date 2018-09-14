@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex p:hover {
+  cursor: pointer;
+}
+
+p {
+  /* float: left; */
+  color: blue;
+}
+
+
+#homeInfo {display: none;}
+#aboutInfo {display: none;}
+#contactInfo {display: none;}
+#blogInfo {display: none;}
+
+
+.clear {
+  clear: both;
+}
+
+#bottle {
+  display: none;
+}
+
+.info {
+  border: 1px solid black;
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.info p {
+  text-align: center;
+}

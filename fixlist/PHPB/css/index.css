@@ -1,10 +1,4 @@
 
-.coreFeatures {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-}
-
 .coreFeatures dl {
 	width: 98%;
 	max-width: 400px;
@@ -30,6 +24,22 @@
 	margin: auto;
 }
 
+
+#feature_prerequisites {
+	display: none;
+}
+
+#feature_duration {
+	display: none;
+}
+
+#feature_instruction {
+	display: none;
+}
+
+#feature_costs {
+	display: none;
+}
 
 
 

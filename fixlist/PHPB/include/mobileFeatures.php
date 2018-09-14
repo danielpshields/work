@@ -19,7 +19,6 @@
       </dd>
     </dl>
 
-
     <dl>
       <dt>Instruction</dt>
       <dd>
@@ -43,15 +42,5 @@
       <p>Contact financial aid for further information.  Let them know you will be classified as a post-bac student taking pre-requisites towards admission to graduate school.</p>
     </dd>
     </dl>
-
-
-<p id="bottle">If you click on the "Hide" button, I will disappear.</p>
-
-<p id="hide">Hide</p>
-<p id="show">Show</p>
-
-
-
-
 
 </div><!-- core features -->

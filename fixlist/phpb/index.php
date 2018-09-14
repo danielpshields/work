@@ -38,8 +38,7 @@
     </div>
     <!-- container -->
 
-    <?php include_once("include/dropDownFeatures.php"); ?>
-
-    <?php //include_once("include/coreFeatures.php"); ?>
+<!-- <?php //include_once("include/mobileFeatures.php"); ?> -->
+    <?php include_once("include/desktopFeatures.php"); ?>
 
 <?php require_once("include/footer.php"); ?>

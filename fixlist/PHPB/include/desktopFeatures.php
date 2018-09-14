@@ -1,28 +1,36 @@
 <div class="coreFeatures maxWidth">
+
   <div class="feature">
+    <h3 id="prerequisites">Prerequisites</h3>
+    <h3 id="duration">Duration</h3>
+    <h3 id="instruction">Instruction</h3>
+    <h3 id="costs">Costs</h3>
+  </div>
+
+  <div id="feature_prerequisites">
     <h3>Prerequisites</h3>
     <p>Baccalaureate degree (or higher) from a regionally accredited college or university.</p>
     <p>Minimum cumulative and upper division GPAs of 3.0.</p>
     <p>Employment or volunteer in a clinical setting or service related capacity prior to application.</p>
     <p>MAC1147 Pre-Calculus and CHM1025 Intro to Chemistry or approved equivalents with grade of B or above prior to matriculation. Students may apply for admission and complete courses online or in residence through UF prior to beginning the program.</p>
-  </div><!-- feature -->
+  </div>
 
-  <div class="feature">
+  <div id="feature_duration">
     <h3>Duration</h3>
     <p>PHPB is a two year structured program.</p>
     <p>Most courses are offered in sections created just for PHPB students.</p>
     <p>This is a comprehensive program offering non-science courses that assist you in holistic preparation and developing academic skills, application skills, and professional competencies necessary for application to healthcare professional schools.</p>
-  </div><!-- feature -->
+  </div>
 
-  <div class="feature">
+  <div id="feature_instruction">
     <h3>Instruction</h3>
     <p>Students in the PHPB follow a defined schedule of courses.  Students are expected to take rigorous courses loads of 15 credits per semester.</p>
     <p>There are additional required courses unique to PHPB to assist with knowledge and skills required for professional preparation.</p>
     <p>Once admitted, an individualized academic plan will be completed for each student taking into account previously completed courses.</p>
     <p>All courses five or more years old or with less than a B earned must be retaken.</p>
-  </div><!-- feature -->
+  </div>
 
-  <div class="feature">
+  <div id="feature_costs">
     <h3>Costs</h3>
     <p>This step in your medical education represents an important and significant investment.</p>
      <p>Tuition for the program is:</p>
@@ -31,5 +39,4 @@
        <li>$525 / credit hour plus student fees for non-Florida residents.</li>
      </ul>
     <p>Contact financial aid for further information.  Let them know you will be classified as a post-bac student taking pre-requisites towards admission to graduate school.</p>
-  </div><!-- feature -->
-</div><!-- core features -->
+  </div>
