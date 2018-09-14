@@ -42,9 +42,4 @@
 
     <?php //include_once("include/coreFeatures.php"); ?>
 
-
-
-
-
-
 <?php require_once("include/footer.php"); ?>
