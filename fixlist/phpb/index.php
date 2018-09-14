@@ -35,10 +35,9 @@
           </div><!-- list graph container -->
         <div class="clear"></div>
       </div><!-- bubble wrap -->
-    </div>
-    <!-- container -->
 
-<!-- <?php //include_once("include/mobileFeatures.php"); ?> -->
-    <?php include_once("include/desktopFeatures.php"); ?>
+    <div id="mobileFeatures"><?php include_once("include/mobileFeatures.php"); ?></div>
+  </div>    <!-- container -->
+    <div id="desktopFeatures"><?php include_once("include/desktopFeatures.php"); ?></div>
 
 <?php require_once("include/footer.php"); ?>

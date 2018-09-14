@@ -3,6 +3,7 @@
     <dl>
       <dt>Prerequisites</dt>
       <dd>
+        <h3>Prerequisites</h3>
         <p>Baccalaureate degree (or higher) from a regionally accredited college or university.</p>
         <p>Minimum cumulative and upper division GPAs of 3.0.</p>
         <p>Employment or volunteer in a clinical setting or service related capacity prior to application.</p>
@@ -13,6 +14,7 @@
     <dl>
       <dt>Duration</dt>
       <dd>
+        <h3>Duration</h3>
         <p>PHPB is a two year structured program.</p>
         <p>Most courses are offered in sections created just for PHPB students.</p>
         <p>This is a comprehensive program offering non-science courses that assist you in holistic preparation and developing academic skills, application skills, and professional competencies necessary for application to healthcare professional schools.</p>
@@ -22,6 +24,7 @@
     <dl>
       <dt>Instruction</dt>
       <dd>
+        <h3>Instruction</h3>
         <p>Students in the PHPB follow a defined schedule of courses.  Students are expected to take rigorous courses loads of 15 credits per semester.</p>
         <p>There are additional required courses unique to PHPB to assist with knowledge and skills required for professional preparation.</p>
         <p>Once admitted, an individualized academic plan will be completed for each student taking into account previously completed courses.</p>
@@ -33,6 +36,7 @@
     <dl>
     <dt>Costs</dt>
     <dd>
+      <h3>Costs</h3>
       <p>This step in your medical education represents an important and significant investment.</p>
        <p>Tuition for the program is:</p>
        <ul>

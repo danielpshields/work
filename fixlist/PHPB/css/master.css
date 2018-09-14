@@ -247,12 +247,12 @@ p {
 	max-width: 1250px;
 }
 
-#container ul, #container ol, .coreFeatures ul {
+#container ul, #container ol, .coreFeatures ul, .featureShell ul {
 	width: 84%;
 	margin: 25px auto;
 }
 
-#container li, .coreFeature li {
+#container li, .coreFeature li, .featureShell li {
 	width: 90%;
 	margin: 3px auto 1rem auto;
 	color: #444;
@@ -393,38 +393,6 @@ td {
 
 .bubble h3 {
   margin-top: 2rem;
-}
-
-.coreFeatures, .feature {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-}
-
-.feature {
-	/* width: 90%; */
-	background: #5b9bd5;
-	background: white;
-	border: .3rem solid #2573ba;
-	width: 100%;
-}
-
-.feature h3 {
-	color: white;
-	color: darkblue;
-	border: .1rem solid darkblue;
-	font-size: 1.3rem;
-	margin: 0;
-	width: 100%;
-	width: 23%;
-	font-weight: 400;
-	text-align: center;
-}
-
-.feature p, .feature li {
-	color: white;
-	color: darkblue;
-	font-size: 1rem;
 }
 
 

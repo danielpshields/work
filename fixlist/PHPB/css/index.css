@@ -1,57 +1,142 @@
 
+#desktopFeatures {
+	display: none;
+}
+
+#mobileFeatures {
+	display: block;
+}
+
+
+.coreFeatures {
+	margin-top: 1rem;
+}
+
+
 .coreFeatures dl {
 	width: 98%;
 	max-width: 400px;
 	margin-bottom: 1rem;
+	max-width: none;
+	width: 84%;
+	margin: auto;
 }
 
+
 .coreFeatures dt {
-	color: blue;
-	text-align: center;
-	margin: auto;
-	text-decoration: underline;
 	width: 100%;
+	margin: auto;
+	margin-bottom: 1.8rem;
 	outline-style: solid;
 	outline-width: 4px;
 	outline-color: #436f96;
+	outline-color: #2573ba;
 	padding: .6rem 0;
 	color: #405475;
+	color: #476b8c;
+	font-weight: 900;
+	text-align: center;
+	/* color: red; */
+	font-size: 1.3rem;
 }
 
+
+.coreFeatures dt:hover {
+	cursor: pointer;
+}
 
 .coreFeatures dd {
 	max-width: 992px;
 	margin: auto;
+	padding-bottom: 4rem;
 }
-
-
-#feature_prerequisites {
-	display: none;
-}
-
-#feature_duration {
-	display: none;
-}
-
-#feature_instruction {
-	display: none;
-}
-
-#feature_costs {
-	display: none;
-}
-
 
 
 @media screen and (min-width: 600px) {
-		.coreFeatures dl {
-		max-width: none;
-		width: 23.5%;
+
+	#mobileFeatures {
+		display: none;
 	}
+
+
+	#desktopFeatures {
+		display: block;
+	}
+
+	/* features features features features features  */
+
+	.features {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		background: #5b9bd5;
+		background: white;
+		margin: auto;
+		margin-top: 1.9rem;
+	}
+
+	.features h3 {
+		width: 23%;
+		text-align: center;
+		cursor: pointer;
+		padding: .8rem 0;
+		color: #476b8c;
+		/* color: #6C9AC3; */
+		margin: 0;
+		font-size: 1.4rem;
+		border: .3rem solid #2573ba;
+		background: white;
+	}
+
+	.features h3:hover {
+		color: #6893ba;
+		border: .3rem solid #3581c6;
+		border: .3rem solid #519de2;
+		border: .3rem solid #297fce;
+		text-decoration: underline;
+	}
+
+	.features p, .features li {
+		color: white;
+		color: darkblue;
+		font-size: 1rem;
+	}
+
+	.featureShell {
+		max-width: 1500px;
+		margin: auto;
+		border-top: none;
+	}
+
+	.featureShell h3 {
+		margin-top: 0px;
+		padding-top: 1.9rem;
+		font-size: 2.2rem;
+	}
+
+	#feature_prerequisites {
+		display: none;
+	}
+
+	#feature_duration {
+		display: none;
+	}
+
+	#feature_instruction {
+		display: none;
+	}
+
+	#feature_costs {
+		display: none;
+	}
+
+
 }
 
 
-
 @media screen and (min-width: 992px) {
-
+	#apply {
+		margin-top: .5rem;
+		margin-bottom: 2rem;
+	}
 }

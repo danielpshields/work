@@ -39,9 +39,14 @@
       </nav>
       <div class="clear"></div>
 
-      <ul>
-        <li>\\ad.ufl.edu\clas\web\sites\clas\prehealthpostbac</li>
-      </ul>
+
+      <div class="links">
+        <h3>Links</h3>
+        <ul>
+          <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox</a></li>
+          <li><a href="\\ad.ufl.edu\clas\web\sites\clas\prehealthpostbac" target="_blank">CLAS/PostBac</a></li>
+        </ul>
+      </div>
 
 
       <div class="report">
