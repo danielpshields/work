@@ -18,13 +18,13 @@
       <h3>Tracks</h3>
       <p>The UF PHPB program offers two tracks to help you complete pre-requisite coursework. Each track requires full-time enrollment. The track you choose depends on your academic background. All tracks require a bachelor's degree for admission. For more information on each track, see the Admission and Course information.</p>
       <div class="bubbleWrap">
-        <div class="bubble maxWidth">
+
+        <div class="bubble">
+
           <h4><u>Career Changer</u></h4>
           <p>Attempted two or less pre-requisite science courses, earning a B or higher</p>
-        </div><!-- list graph container -->
 
-        <div class="bubble maxWidth">
-          <h4><u>ReStart</u></h4>
+          <h4 class="bubbleLineSeparator"><u>ReStart</u></h4>
           <p>
             Attempted three or fewer science courses early in undergraduate earning less that a B with no further attempts in science   course for at least two years.  These student must demonstrate an upward academic trend in completion of their undergraduate degree.
           </p>

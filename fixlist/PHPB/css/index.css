@@ -1,4 +1,3 @@
-
 #desktopFeatures {
 	display: none;
 }
@@ -7,11 +6,9 @@
 	display: block;
 }
 
-
 .coreFeatures {
 	margin-top: 1rem;
 }
-
 
 .coreFeatures dl {
 	width: 98%;
@@ -21,7 +18,6 @@
 	width: 84%;
 	margin: auto;
 }
-
 
 .coreFeatures dt {
 	width: 100%;
@@ -40,7 +36,6 @@
 	font-size: 1.3rem;
 }
 
-
 .coreFeatures dt:hover {
 	cursor: pointer;
 }
@@ -51,13 +46,18 @@
 	padding-bottom: 4rem;
 }
 
+.bubbleLineSeparator {
+	border-top: 1px solid #c0c0c0;
+	border-top: 1px solid #95bee2;
+	padding-top: 1.4rem;
+	margin-top: 1.6rem;
+}
 
 @media screen and (min-width: 600px) {
 
 	#mobileFeatures {
 		display: none;
 	}
-
 
 	#desktopFeatures {
 		display: block;
@@ -129,7 +129,6 @@
 	#feature_costs {
 		display: none;
 	}
-
 
 }
 
