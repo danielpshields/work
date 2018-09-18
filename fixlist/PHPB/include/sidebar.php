@@ -2,6 +2,7 @@
         <div class="sidebar">
           <ul id="sidebarList">
             <li><a href="features.php">Program Features</a></li>
+            <li><a href="newstudents.php">Current Students</a></li>
             <li><a href="alumnisuccess.php">Alumni Success</a></li>
             <li><a href="newstudents.php">Newly Admitted Students</a></li>
             <li><a href="contact.php">Contact</a></li>

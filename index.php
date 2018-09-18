@@ -9,6 +9,7 @@
         <h4>September</h4>
         <h5>Week 18</h5>
         <ul>
+          <li><a href="ln/18/09/18.html">180918</a></li>
           <li><a href="ln/18/09/17.html">180917</a></li>
         </ul>
 

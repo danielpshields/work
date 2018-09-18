@@ -103,7 +103,7 @@ header li a {color: white;}
   display: block;
   position: fixed;
   top: 0;
-  width: 100%;
+	width: 100%;
 }
 
 .headerMobile {
@@ -131,13 +131,12 @@ header dt { /* define term, top */
 	}
 
 header dd {
-	line-height: 8;
 	background: #478af7;
-	/* overflow: scroll; */
 }
 
 header dd ul li {
 	line-height: 5;
+	list-style: none;
 	width: 100%;
 	text-align: center;
 	border-bottom: 1px solid #fff;
@@ -152,7 +151,6 @@ header dd ul li a {
 .newlyAdmittedBackground {
 	background: #E28F41;
 	font-weight: 500;
-	line-height: 2.4;
 }
 
 .newlyAdmittedBackground a {

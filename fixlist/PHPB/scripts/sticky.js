@@ -18,10 +18,10 @@ function myFunction() {
   }
 }
 
-function myFunctionMobile() {
-  if (window.pageYOffset > stickyMobile) {
-    headerMobile.classList.add("stickyMobile");
-  } else {
-    headerMobile.classList.remove("stickyMobile");
-  }
-}
+// function myFunctionMobile() {
+//   if (window.pageYOffset > stickyMobile) {
+//     headerMobile.classList.add("stickyMobile");
+//   } else {
+//     headerMobile.classList.remove("stickyMobile");
+//   }
+// }
