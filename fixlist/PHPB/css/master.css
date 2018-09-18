@@ -9,6 +9,9 @@
 
 /*
 
+	mobile width: 87%;
+	deskto width: 84%;
+
 	maxWidth     1500px
 	container    1250px
 	content
@@ -64,24 +67,27 @@ article {
 	margin: auto;
 }
 
-
-/* sticky header  */
-.top-container {
-  padding: 30px;
-}
 /* sticky header */
 .header, .sticky, #myHeader {display: none;}
 
-#logos {
-	/* height: 42px; */
+header {
 	background: #478af7;
 	padding-top: .5rem;
-	padding-bottom: 1rem;
-	margin: auto;
-	border-bottom: 1px solid #eee;
 }
 
-#logos a {
+#logoSection {
+	background: none;
+	padding-top: .5rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #eee;
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: auto;
+	align-items: baseline;
+}
+
+#logoSection a {
 	color: #2b72fe;
 	border: 3px solid #999;
 	padding: 2px .8rem;
@@ -89,15 +95,7 @@ article {
 	background: #f0f0f0;
 }
 
-/* logos */
-#dept {float: left;margin-top:8px; margin-left: 1rem;}
-#uf {float: right; margin-top:8px; margin-right: 1rem;}
-
 header li a {color: white;}
-
-
-/* this code is preventing the drop down from being able to scroll down on mobile while the menu is expanded */
-
 
 .stickyMobile {
   display: block;
@@ -140,12 +138,14 @@ header dd ul li {
 	width: 100%;
 	text-align: center;
 	border-bottom: 1px solid #fff;
+	font-size: 1.1rem;
 }
 
 header dd ul li a {
 	display: inline-block;
 	width: 100%;
 	height: 100%;
+	text-decoration: none;
 }
 
 .newlyAdmittedBackground {
@@ -157,17 +157,11 @@ header dd ul li a {
 	color: white;
 }
 
-/* end nav nav nav nav nav nav nav nav nav nav  */
-/* desktopNav desktopNav desktopNav desktopNav desktopNav sid */
-
 .desktopNav {display: none;}
-
-/* end desktopNav desktopNav desktopNav desktopNav desktopNav desktopNav desktopNav desktopNav */
 
 header img {
   width: 100%;
   margin-bottom: 0;
-	/* padding-top: 3.1rem; */
 }
 
 /* switches the image on resizing to Desktop */
@@ -178,20 +172,21 @@ header img {
 	display: none;
 }
 
-
 h1 {
-	font-size: 2.8rem;
+	/* font-size: 2.8rem; */
+	font-size: 1.8rem;
 	color: #0021A5;
-	width: 84%;
+	width: 87%;
 	max-width: 1250px;
 	padding: 1rem 0 2rem 0;
-	margin: 1rem auto 2.3rem auto;
+	margin: .7rem auto 2.3rem auto;
 	border-bottom: 1px solid orange;
+	/* background: black; */
 }
 
 h2 {
-	font-size: 2.3rem;
-	width: 84%;
+	font-size: 1.8rem;
+	width: 87%;
 	margin: 0 auto 2rem auto;
 	color: #6893ba;
 	color: #436f96; /* i like this blue */
@@ -201,15 +196,15 @@ h2 {
 
 h3 {
 	font-size: 2rem;
-	width: 84%;
-	margin: 3.3rem auto 1.3rem auto;
+	width: 87%;
+	margin: 2.8rem auto 1.3rem auto;
 	color: #6C9AC3;
 }
 
 h4 {
 	font-size: 1.4rem;
 	color: #555;
-	width: 84%;
+	width: 87%;
 	margin: 1.3rem auto;
 }
 
@@ -218,24 +213,22 @@ h4 {
 h5 {
 	font-size: 1.2rem;
 	color: #555;
-	width: 86%;
+	width: 87%;
 	margin: 1.3rem auto;
 }
 
 h6 {
 	font-size: 1rem;
 	color: #666;
-	width: 86%;
+	width: 87%;
 	margin: 1.3rem auto;
 }
 
-
-
 p {
-	width: 84%;
+	width: 87%;
 	margin: auto;
 	margin-top: 1.4rem;
-	line-height: 1.5;
+	line-height: 1.6;
 	font-size: 1.35rem;
 	color: #444;
 }
@@ -246,36 +239,29 @@ p {
 }
 
 #container ul, #container ol, .coreFeatures ul, .featureShell ul {
-	width: 84%;
-	margin: 25px auto;
+	width: 87%;
+	margin: 1.7rem auto;
+	padding-left: .5rem;
 }
 
 #container li, .coreFeature li, .featureShell li {
 	width: 90%;
-	margin: 3px auto 1rem auto;
+	/* background: black; */
+	margin: 1rem auto 1rem auto;
 	color: #444;
- 	font-size: 1.5rem;
-	line-height: 1.8;
+ 	font-size: 1.4rem;
+	line-height: 1.6;
+	/* change the line height in expansion 1.8 */
+	/* list-style-position: inside; */
 }
 
 section {
-	border-top: 2px solid #999;
-	border-right: 1px solid #c0c0c0;
-	border-bottom: 2px solid #999;
-	border-left: 1px solid #c0c0c0;
-	border-radius: 5px;
+	border-top: .4rem dotted #c0c0c0;
+	border-bottom: .4rem dotted #c0c0c0;
 	margin: 3rem auto 4rem auto;
 	/* margin: .91rem auto 4rem auto; */
-	padding: 0 0 2rem 0;
-	width: 95%;
-	max-width: 850px;
-	box-shadow: 20px 20px 20px #d0d0d0;
-}
-
-section.slug {
-  font-size: 1.9rem;
-	margin-top: 0;
-	color: #3a3a3a;
+	padding: 0 0 1.5rem 0;
+	width: 100%;
 }
 
 table, tr, th, td {
@@ -284,7 +270,7 @@ table, tr, th, td {
 }
 
 table {
-	width: 95%;
+	width: 100%;
 	max-width: 550px;
 	margin: auto;
 	border-collapse: collapse;
@@ -311,96 +297,13 @@ td {
 /* special Features special Features special Features special Features */
 
 
-/* slug slug slug slug slug slug slug slug slug slug slug */
-.slug {
-	margin-top:1rem;
-	font-style: italic;
-	color: #555;
-}
-
-
-/* list graph Container list graph Container list graph Container */
-/* List Graph Container is a bold <li> and an emphasized <p> for related content */
-.listGraphContainer {
-	background: #5b9bd5;
-  margin: 1.5rem auto;
-	border: .6rem solid #2573ba;;
-	padding-bottom: 1.2rem;
-	max-width: 550px;
-	color: white;
-}
-
-.listGraphContainer h4 {
-	color: white;
-	text-align: center;
-	font-weight: 500;
-	font-size: 2.3rem;
-	margin-top: 2rem;
-}
-
-.listGraphContainer ul {
-	background: none;
-	width: 86%;
-	margin: auto;
-}
-
-.listGraphContainer li {
-	color: #365587;
-	color: white;
-	width: 90%;
-	max-width: 550px;
-	margin: 3px auto 1rem auto;
- 	font-size: 1.5rem;
-	line-height: 1.8;
-	/* list-style-position: inside; */
-}
-
-/* the "<p>"'s max width is slightly smaller than normal to offset the text / increase the emphasis */
-.listGraphContainer p {
-	/* font-style: italic; */
-	text-align: left;
-	color: #575757; /* gray for without a background */
-	color: white;
-	max-width: 545px;
-}
-
-.bubbleWrap {
-  display: flex;
-  flex-wrap: wrap;
-  /* max-width: 1100px; */
-  margin: auto;
-  margin-top: 1rem;
-}
-
-.bubble {
-  background: #5b9bd5;
-  border: .6rem solid #2573ba;
-  margin: 1rem auto;
-  padding-bottom: 3rem;
-	width: 84%;
-}
-
-.bubble p, .bubble h3, .bubble h4, .bubble li {
-  color: white;
-}
-
-.bubble h4 {
-	font-size: 1.8rem;
-	letter-spacing: 1.8px;
-}
-
-.bubble h3 {
-  margin-top: 2rem;
-}
-
-
-/* apply apply apply apply apply apply apply apply  */
+/* apply button  apply button  apply button  apply button  apply button  */
 
 #apply {
 	display: block;
 	margin: 1.9rem auto 2rem auto;
 	padding: .5rem 1rem;
-	width: 80%;
+	width: 87%;
 	max-width: 550px;
 	border-radius: 3px;
 	font-size: 1.4rem;
@@ -424,9 +327,14 @@ td {
 	margin: 0;
 }
 
+#applyLink {
+	font-size: 1.6rem;
+}
+
 #apply a, #apply a:visited {
 	color: #0061ff;
 	color: #0055ff;
+	/* text-decoration: none; */
 }
 
 #apply a:hover {
@@ -443,8 +351,49 @@ a#apply:hover p {
 	color: #49acff;
 }
 
-#applyLink {
-	font-size: 1.8rem;
+/* slug slug slug slug slug slug slug slug slug slug slug */
+.slug {
+	margin-top:1rem;
+	font-style: italic;
+	color: #555;
+}
+
+/* bubbles bubbles bubbles bubbles */
+
+.bubbleWrap {
+  display: flex;
+  flex-wrap: wrap;
+  /* max-width: 1100px; */
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.bubble {
+  background: #5b9bd5;
+  border: .6rem solid #2573ba;
+  margin: 1rem auto;
+  padding-bottom: 3rem;
+	width: 100%;
+}
+
+.bubble p, .bubble h3, .bubble h4, .bubble li {
+  color: white;
+}
+
+.bubble h4 {
+	font-size: 1.7rem;
+	letter-spacing: 1.8px;
+}
+
+.bubble h3 {
+  margin-top: 2rem;
+}
+
+.bubbleLineSeparator {
+	border-top: 1px solid #c0c0c0;
+	border-top: 1px solid #95bee2;
+	padding-top: 1.4rem;
+	margin-top: 1.6rem;
 }
 
 

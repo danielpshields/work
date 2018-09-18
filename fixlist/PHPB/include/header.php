@@ -10,26 +10,17 @@
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<link rel="stylesheet" href="css/<?php echo $page; ?>.css">
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"> </script>
-		<script src="scripts/dropdown.js"></script>
-		<script src="scripts/showHide.js"></script>
-
-		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<header>
-
 			<!-- blue section with the two UF logos -->
-			<div class="top-container" id="logos">
-				<div class="maxWidth">
-					<div id="dept"><a href="index.php">CLAS<!-- <img src="images/unitHeader2.gif" alt="College of Liberal Arts and Sciences"> --></a></div>
-					<div id="uf"><a href="shell.php">UF<!-- <img src="images/UF-logo.png"> --></a></div>
-					<div class="clear"></div>
-				</div><!-- max width -->
-			</div><!-- Logos: NAV (PHPB, UF, and CLAS bar) -->
+			<div class="top-container" id="logoSection">
+					<div id="dept"><a href="index.php">CLAS</a></div>
+					<div id="uf"><a href="shell.php">UF</a></div>
+			</div><!-- # logos -->
 
-
-			<!-- MOBILE Navigation "Menu" | display: none - 992px -->
+			<!-- MOBILE Navigation | display: none @ 992px -->
 			<dl class="headerMobile" id="myHeaderMobile">
 				<dt>Menu</dt>
 				<dd>
@@ -53,7 +44,7 @@
 			</dl>
 			<div class="clear"></div>
 
-			<!-- DESKTOP Navigation | display: block - 992px -->
+			<!-- DESKTOP Navigation | display: block @ 992px -->
 			<nav class="header desktopNav" id="myHeader">
 				<div class="maxWidth">
 					<ul>

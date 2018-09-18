@@ -6,20 +6,18 @@
 	display: block;
 }
 
-.coreFeatures {
+.mobileCoreFeatures {
 	margin-top: 1rem;
 }
 
-.coreFeatures dl {
-	width: 98%;
-	max-width: 400px;
-	margin-bottom: 1rem;
+.mobileCoreFeatures dl {
 	max-width: none;
-	width: 84%;
+	width: 87%;
 	margin: auto;
+	margin-bottom: 1rem;
 }
 
-.coreFeatures dt {
+.mobileCoreFeatures dt {
 	width: 100%;
 	margin: auto;
 	margin-bottom: 1.8rem;
@@ -32,26 +30,28 @@
 	color: #476b8c;
 	font-weight: 900;
 	text-align: center;
-	/* color: red; */
 	font-size: 1.3rem;
 }
 
-.coreFeatures dt:hover {
+.mobileCoreFeatures dt:hover {
 	cursor: pointer;
 }
 
-.coreFeatures dd {
+.mobileCoreFeatures dd {
 	max-width: 992px;
 	margin: auto;
-	padding-bottom: 4rem;
+	padding-bottom: 2.7rem;
 }
 
-.bubbleLineSeparator {
-	border-top: 1px solid #c0c0c0;
-	border-top: 1px solid #95bee2;
-	padding-top: 1.4rem;
-	margin-top: 1.6rem;
+.mobileCoreFeatures h3, .mobileCoreFeatures p {
+	width: 90%;
 }
+
+/* the last (<dd> + footer) have too much padding  */
+#coreFeatureRemovePadding {
+	padding-bottom: 0;
+}
+
 
 @media screen and (min-width: 600px) {
 
@@ -131,7 +131,6 @@
 	}
 
 }
-
 
 @media screen and (min-width: 992px) {
 	#apply {

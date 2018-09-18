@@ -1,4 +1,4 @@
-<div class="coreFeatures maxWidth">
+<div class="mobileCoreFeatures maxWidth">
 
     <dl>
       <dt>Prerequisites</dt>
@@ -35,7 +35,7 @@
 
     <dl>
     <dt>Costs</dt>
-    <dd>
+    <dd id="coreFeatureRemovePadding">
       <h3>Costs</h3>
       <p>This step in your medical education represents an important and significant investment.</p>
        <p>Tuition for the program is:</p>

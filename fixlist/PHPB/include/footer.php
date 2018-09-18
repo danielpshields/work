@@ -42,6 +42,8 @@
         </div>
         <?php include("include/analytics.php");?>
       </footer>
+      <script src="scripts/dropdown.js"></script>
+      <script src="scripts/showHide.js"></script>
       <script src="scripts/sticky.js"></script>
   </body>
 </html>
