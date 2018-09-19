@@ -17,7 +17,7 @@
 <p>You will work with the Director of PHPB to develop an academic and professional plan that reflects your goals, interests, and unique background to help gain admission to a health profession graduate program.</p>
 </div><!-- bubble -->
 <div class="bubble">
-<p><b>PHBP Unique Courses</b> to assist in gaining skills and knowledge related to healthcare and the application process.</p>
+<p><b>PHPB Unique Courses</b> to assist in gaining skills and knowledge related to healthcare and the application process.</p>
 <ul>
 <li>Pre-Health Seminar</li>
 <li>Innovations in Healthcare</li>

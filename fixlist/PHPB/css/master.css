@@ -265,22 +265,34 @@ section {
 }
 
 table, tr, th, td {
-	border: 1px solid #666;
 	color: #434343;
+	border: 1px solid #777;
+  padding: 8px;
+  margin: auto;
+  margin-bottom: 5px;
+  border-collapse: collapse;
+  font-size: 1rem;
 }
 
 table {
 	width: 100%;
 	max-width: 550px;
 	margin: auto;
-	border-collapse: collapse;
+	margin-top: 2.3rem;
+}
+
+th.headerTH {
+	font-size: 1.4rem;
 }
 
 th {
-	background:#6C9AC3;
 	font-weight:bold;
-	padding:5px;
+	font-weight: 500;
+	padding: 5px;
+	text-align: center;
+	background: #6C9AC3;
 	color: #333;
+	color: white;
 }
 
 td {
