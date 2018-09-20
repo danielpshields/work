@@ -1,10 +1,16 @@
 <?php
-$UFID         = $_SERVER['HTTP_UFSHIB_UFID'];
-$date_auto    = date("Y-m-d H:i:s");
-$nameBusiness = $_SERVER['HTTP_UFSHIB_BUSINESSNAME'];
-$email        = $_SERVER['HTTP_UFSHIB_MAIL'];
-$nameGiven    = $_SERVER['HTTP_UFSHIB_GIVENNAME']." ".$_SERVER['HTTP_UFSHIB_SN'];
-$nameGivenShort    = $_SERVER['HTTP_UFSHIB_GIVENNAME'];
+// $UFID         = $_SERVER['HTTP_UFSHIB_UFID'];
+// $date_auto    = date("Y-m-d H:i:s");
+// $nameBusiness = $_SERVER['HTTP_UFSHIB_BUSINESSNAME'];
+// $email        = $_SERVER['HTTP_UFSHIB_MAIL'];
+// $nameGiven    = $_SERVER['HTTP_UFSHIB_GIVENNAME']." ".$_SERVER['HTTP_UFSHIB_SN'];
+// $nameGivenShort    = $_SERVER['HTTP_UFSHIB_GIVENNAME'];
+$UFID              = "alex";
+$date_auto         = "alex";
+$nameBusiness      = "alex";
+$email             = "alex";
+$nameGiven         = "alex";
+$nameGivenShort    = "alex";
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,7 +20,10 @@ $nameGivenShort    = $_SERVER['HTTP_UFSHIB_GIVENNAME'];
 	<title>UFO Validator</title>
 	<link rel="stylesheet" href="css/master.css">
 	<link rel="stylesheet" href="css/<?php echo $page; ?>.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	
 	<script src="scripts/back.js"></script>
+	<script src="scripts/border.js"></script>
 </head>
 <body>
 	<div class="container">

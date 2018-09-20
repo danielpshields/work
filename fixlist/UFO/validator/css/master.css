@@ -14,28 +14,25 @@ html {
 }
 
 body {
-  max-width: 500px;
-  margin: auto;
-  background: #f0f0f0;
+    background: #4b6896;
    overflow-y: scroll;
 }
 
 .container {
+  width: 100%;
+  margin: auto;
+  max-width: 980px;
   background: white;
 }
 
 header {
   border-bottom: 1px solid #444;
   margin-bottom: 1.5rem;
-}
-
-footer {
-  margin-top: 1.5rem;
-  padding-bottom: .05rem;
+  background: #E28F41; /* orange */
 }
 
 h1 {
-  font-size: 23px;
+  font-size: 1.8rem;
   padding-bottom: 1rem;
   padding-top: .9rem;
   text-align: center;
@@ -43,6 +40,8 @@ h1 {
 
 nav {
   padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #a06024;
 }
 
 nav ul {
@@ -55,37 +54,18 @@ nav ul li {
   list-style: none;
   width: 20%;
   text-align: center;
-  color: #d0d0d0;
+  color: #f0f0f0;
+  /* background: white;
+  border: 1px solid black; */
 }
 
+/* via PHP in header.php */
 nav ul li.thisPage {
   color: #124391;
   color: #0e387a;
   font-weight: bold;
   text-decoration: underline;
 }
-
-input.mainSelect {
-  display: block;
-  width: 50%;
-  margin: auto;
-  margin-bottom: 1rem;
-  border: 2px solid blue;
-  border-radius: 3px;
-  background: #f0f0f0;
-}
-
-input.mainSelect:hover {
-  border: 2px solid #E28F41;
-  background: #fff;
-  cursor: pointer;
-}
-
-
-input#homeMainSelect:hover {
-  border: 2px solid #32CD32;
-}
-
 
 h2 {
   font-size: 1.5rem;
@@ -95,17 +75,49 @@ h2 {
   padding-bottom: 1.6rem;
 }
 
-.orangeNumber {
+.bigOrange {
   font-size: 1.5rem;
   color: #FA4616;
   border: 2px solid #FA4616;
   border-radius: 5px;
-  padding: .1rem .2rem;
+  padding: .1rem .4rem;
 }
 
-.orange {
-  color: #FA4616;
+p {
+  width: 84%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #252525;
 }
+
+input.mainSelect {
+  display: block;
+  width: 50%;
+  max-width: 20rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  border: 2px solid #5b5bff;
+  border-radius: 3px;
+  background: #f0f0f0;
+}
+
+input.mainSelect:hover {
+  border: 2px solid #E28F41; /* green */
+  background: #fff;
+  cursor: pointer;
+  border: 2px solid blue;
+}
+
+.checkbox {
+  float: left;
+  width: 200px;
+}
+
+
 
 .check {
   border: 2px solid #0021A5;
@@ -125,16 +137,7 @@ h2 {
   background: red;
 }
 
-p {
-  width: 84%;
-  max-width: 550px;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  font-size: 1.5rem;
-  line-height: 1.6;
-  color: #252525;
-}
+
 
 b {
   font-size: 1.5rem;
@@ -311,6 +314,12 @@ li a {
   color: #7a0d0d;
 }
 
+
+.orange {
+  color: #FA4616;
+}
+
+
 .clear {
   clear: both;
 }
@@ -323,9 +332,18 @@ button {
 }
 
 footer {
-  margin-top: 30px;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
 }
+
 
 footer p {
   text-align: center;
+}
+.blue {
+  color: blue;
+}
+
+.pear {
+  background: yellow;
 }
