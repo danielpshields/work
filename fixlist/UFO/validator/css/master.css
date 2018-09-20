@@ -167,7 +167,7 @@ b {
   /* float: right; */
 }
 
-#finalSubmit:hover {
+#finalSubmit:hover, #statementSubmit:hover {
   border: 2px solid #32CD32;
   cursor: pointer;
   background: #fff;
@@ -313,6 +313,13 @@ li a {
 
 .clear {
   clear: both;
+}
+
+button {
+  display: block;
+  margin: auto;
+  padding: .3rem .7rem;
+  font-size: .8rem;
 }
 
 footer {

@@ -11,8 +11,6 @@
 ?>
 
   <form class="" action="3.php" method="post">
-
-
 		<section>
 		  <h2><span class="orangeNumber">2</span> Expectation to Remain in UF Online:</h2>
 		  <p>UF Online students are expected to graduate through UF Online.</p>
@@ -29,13 +27,9 @@
 		    </tr>
 		  </table>
 		</setion>
-
-    <!-- <div class="previous">
-      <p><a href="<?php echo $numb = $thisPage - 1; ?>">previous page<?php echo $numb; ?></a></p>
-    </div> -->
-
-    <input class="mainSelect oneBox" type="submit" name="formTwo" value="next page">
-
+    <input class="mainSelect oneBox" type="submit" name="formTwo" value="Next Page">
   </form>
+
+  <button onclick="goBack()">Previous Page</button>
 
 <?php require_once("include/footer.php"); ?>

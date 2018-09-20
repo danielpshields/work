@@ -11,7 +11,7 @@
     if (!isset($_POST['formFive'])) {
       redirectTo("index.php");
     }
-
+    //
     // $dbhost = "localhost";
     // $dbuser = "root";
     // $dbpassword = "";
@@ -52,8 +52,6 @@
       <li><b><?php echo $majorSelected; ?></b> as your intended UF Online major.</li>
     </ul>
 
-
-
     <?php
 
     foreach ($_FILES as $file => $secondArray) {
@@ -75,3 +73,7 @@
   </div>
 
 </form>
+
+<button onclick="goBack()">Previous Page</button>
+
+<?php require_once("include/footer.php"); ?>

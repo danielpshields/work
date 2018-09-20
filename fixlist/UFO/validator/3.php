@@ -69,20 +69,19 @@
 		      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SOC_BA_UFO/" target="_blank">BA</a></td>
 		    </tr>
 		  </table>
-
-
-		    <table>
-		      <tr>
-		        <td><p class="orangeFont"><b>3</b></p></td>
-		        <td>I acknowledge this:</td>
-		        <td class="check">
-              <input id="green" required type="checkbox" name="curriculum" value=""></td>
-		      </tr>
-		    </table>
-
-        <input class="mainSelect oneBox" type="submit" name="formThree" value="next page">
+	    <table>
+	      <tr>
+	        <td><p class="orangeFont"><b>3</b></p></td>
+	        <td>I acknowledge this:</td>
+	        <td class="check">
+            <input id="green" required type="checkbox" name="curriculum" value=""></td>
+	      </tr>
+	    </table>
+      <input class="mainSelect oneBox" type="submit" name="formThree" value="Next Page">
 		</section>
-
   </form>
+
+  <button onclick="goBack()">Previous Page</button>
+
 
   <?php require_once("include/footer.php"); ?>

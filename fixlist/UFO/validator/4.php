@@ -33,8 +33,10 @@
   	  			</tr>
   	  		</table>
 
-          <input class="mainSelect oneBox" type="submit" name="formFour" value="next page">
+          <input class="mainSelect oneBox" type="submit" name="formFour" value="Next Page">
         </form>
       </select>
+
+      <button onclick="goBack()">Previous Page</button>
 
 <?php require_once("include/footer.php"); ?>
