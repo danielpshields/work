@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  font-family: monospace;
+}
+
+html {font-size: 16px;}
+
+body {
+  background: white;
+  width: 100%;
+  max-width: 850px;
+  margin: auto;
+}
+
+h1 {
+  padding-top: 1rem;
+  color: #222;
+  border-bottom: 1px solid #999;
+  padding-bottom: .7rem;
+}
+
+p {
+  margin-top: 1.5rem;
+}
+
+
+ul {
+  margin-top: .75rem;
+}
+
+
+li {
+  color: #555;
+}
