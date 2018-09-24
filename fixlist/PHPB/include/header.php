@@ -15,7 +15,7 @@
 	<body>
 		<header>
 			<!-- blue section with the two UF logos -->
-			<div class="top-container" id="logoSection">
+			<div class="maxWidth top-container" id="logoSection">
 					<div id="dept"><a href="index.php">CLAS</a></div>
 					<div id="uf"><a href="shell.php">UF</a></div>
 			</div><!-- # logos -->

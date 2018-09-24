@@ -8,13 +8,14 @@
 
     <div class="shell">
       <?php include("{$path}include/applyButton.php"); ?>
+      <video src="http://clas.ufl.edu/prehealthpostbac/video/2019_UF_PHPB_Info_Session_with_audio.mp4" controls poster="image/videoPoster.png"></video>
       <h2>Pre-Health Post-Baccalaureate Program (PHPB)</h2>
       <p>The University of Florida's Pre-health Post-Baccalaureate Program (PHPB) offers dedicated and motivated students an opportunity to complete comprehensive academic and professional preparation for admission to healthcare professional schools.</p>
       <p>PHBP is a comprehensive program offering step by step advising, professional development and courses to assist you in developing skills and competencies necessary for application to a healthcare professional graduate school such as medical, dental and veterinary medical schools.</p>
-      <p>Other health professions are considered. However, for professions other than medicine, pre-requisite courses not included in our standard curriculum are taken after completion of the PHPB program.</p>
-      <p>Fall admission only.  All courses five or more years old and/or with less than a B must be repeated as part of PHPB. </p>
     </div><!-- shell -->
     <div class="clear"></div>
+    <p>Other health professions are considered. However, for professions other than medicine, pre-requisite courses not included in our standard curriculum are taken after completion of the PHPB program.</p>
+    <p>Fall admission only.  All courses five or more years old and/or with less than a B must be repeated as part of PHPB.</p>
       <h3>Tracks</h3>
       <p>The UF PHPB program offers two tracks to help you complete pre-requisite coursework. Each track requires full-time enrollment. The track you choose depends on your academic background. All tracks require a bachelor's degree for admission. For more information on each track, see the Admission and Course information.</p>
       <div class="bubbleWrap">
