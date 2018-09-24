@@ -7,7 +7,17 @@
       <article class="lonesomeNote">
         <h2>2018</h2>
         <h4>September</h4>
+        <h5>Week 19</h5>
+        <ul>
+          <li><a href="ln/18/09/24.html">180924</a></li>
+        </ul>
+
+
         <h5>Week 18</h5>
+        <ul>
+          <li><a href="ln/18/09/23.html">180923</a></li>
+          <li><a href="ln/18/09/22.html">180922</a></li>
+        </ul>
         <ul>
           <li><a href="ln/18/09/21.html">180921</a></li>
           <li><a href="ln/18/09/20.html">180920</a></li>
