@@ -70,5 +70,4 @@
 		<div id="container">
 
 			<h1>Pre-Health Post-Baccalaureate Program <span id="shrinkPHPBLogo">(PHPB)</span></h1>
-
-			<?php require_once("include/sidebar.php"); ?>
+<?php require_once("include/sidebar.php"); ?>

@@ -179,7 +179,7 @@ video {
 .mobileImage  {display: block;}
 .desktopImage {display: none;}
 
-.sidebar {
+.leftColumn {
 	display: none;
 }
 

@@ -5,7 +5,6 @@
   $image = $page;
   require_once("include/header.php");
 ?>
-
     <div class="shell">
       <?php include("{$path}include/applyButton.php"); ?>
       <video src="http://clas.ufl.edu/prehealthpostbac/video/2019_UF_PHPB_Info_Session_with_audio.mp4" controls poster="image/videoPoster.png"></video>

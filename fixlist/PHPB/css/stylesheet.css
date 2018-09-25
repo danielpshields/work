@@ -62,15 +62,18 @@
 			display: none;
 		}
 
-		.sidebar {
+		#leftColumn {
 			float: left;
 			display: block;
-			border: 1px solid #d0d0d0;
 			width: 25%;
 			max-width: 400px;
-			/* height: 40rem; */
-			/* margin-right: 2rem; */
 			margin-bottom: .3rem;
+		}
+
+		.sidebar {
+			width: 100%;
+			border: 1px solid #d0d0d0;
+
 		}
 
 		.shell {
