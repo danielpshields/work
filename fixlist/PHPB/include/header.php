@@ -34,7 +34,7 @@
 				      <li><a href="finances.php">Financial Information</a></li>
 				      <li><a href="faq.php">FAQ</a></li>
 				      <li><a href="advising.php">Advising</a></li>
-				      <li><a href="alumnisuccess.php">Alumni Success</a></li>
+				      <li><a href="alumni.php">Alumni Success</a></li>
 							<li><a href="contact.php">Contact</a></li>
 				      <li><a href="apply.php">Apply</a></li>
 							<li><a href="newstudents.php">Current Students</a></li>

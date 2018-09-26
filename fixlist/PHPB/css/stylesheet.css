@@ -62,18 +62,13 @@
 			display: none;
 		}
 
-		#leftColumn {
+		.sidebar {
 			float: left;
 			display: block;
 			width: 25%;
 			max-width: 400px;
 			margin-bottom: .3rem;
-		}
-
-		.sidebar {
-			width: 100%;
 			border: 1px solid #d0d0d0;
-
 		}
 
 		.shell {
@@ -88,6 +83,7 @@
 		ul#sidebarList {
 			width: 100%;
 			margin: 0;
+			padding-left: 0;
 		}
 
 		#sidebarList li {

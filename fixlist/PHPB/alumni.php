@@ -11,9 +11,10 @@
   <h2>Alumni Success</h2>
 
     <h3>Cohorts</h3>
+    
+    <p>Our inaugural class was small, but successful! Of the six students who applied, five were admitted with acceptances to the following schools:</p>
 
     <h4>2014 PHPB Cohort</h4>
-    <p>Our inaugural class was small, but successful! Of the six students who applied, five were admitted with acceptances to the following schools:</p>
 
     <div class="cohortProfiles">
 
@@ -356,7 +357,7 @@
 <div class="clear"></div>
 
 
+<?php include("include/accepted.php"); ?>
 
 
-  <div class="clear"></div>
 <?php require_once("include/footer.php"); ?>

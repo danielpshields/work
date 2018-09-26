@@ -1,6 +1,5 @@
 
 #acceptedTable {
-  float: left;
   width: 100%;
 }
 
@@ -37,7 +36,7 @@ td a:hover {
   }
 
 .shell h3 {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .shell p {
@@ -47,7 +46,7 @@ td a:hover {
 #profiles img.profile {
   display: block;
   margin: auto;
-  border: 1px solid #d0d0d0;
+  border: 1px solid red;
   border-radius: 5px;
   width: 20%;
 }
@@ -63,7 +62,7 @@ td a:hover {
   border: 1px solid #d0d0d0;
   width: 33.3%;
   float: left;
-  height: 39rem;
+  height: 35rem;
   outline-style: solid;
   outline-width: 1px;
   outline-color: #f0f0f0;
@@ -102,5 +101,5 @@ h5.noPictureProfile {
 
 #container .cohortProfiles li {
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
