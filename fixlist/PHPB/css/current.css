@@ -1,0 +1,36 @@
+#noLeft {
+  border-left: none;
+}
+
+#noRight {
+  border-right: none;
+}
+
+
+
+table {
+  width: 90%;
+  max-width: none;
+  text-align: center;
+}
+
+#resourcesContainer {
+  width: 87%;
+  margin: auto;
+}
+
+#resourcesImage {
+  float: left;
+  width: 30%;
+}
+
+#resourcesList {
+  float: left;
+  width: 68%;
+  padding-left: 2rem;
+}
+
+.resourceLinks {
+  float: left;
+  width: 49%;
+}

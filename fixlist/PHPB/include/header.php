@@ -37,7 +37,7 @@
 				      <li><a href="alumni.php">Alumni Success</a></li>
 							<li><a href="contact.php">Contact</a></li>
 				      <li><a href="apply.php">Apply</a></li>
-							<li><a href="newstudents.php">Current Students</a></li>
+							<li><a href="current.php">Current Students</a></li>
 				      <li class="newlyAdmittedBackground"><a href="newstudents.php">Newly Admitted Students</a></li>
 				    </ul>
 				</dd>
