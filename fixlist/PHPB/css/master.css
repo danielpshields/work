@@ -23,7 +23,8 @@
 	section      850px
 	sidebar
 
-	header images: 1698px by 654px
+	header image mobile:
+	header image desktop: 1698px by 654px
 
 	@php: $page -> stylesheet -> header image
 
@@ -77,8 +78,10 @@ header {
 
 #logoSection {
 	background: none;
-	padding-top: .5rem;
-	padding-bottom: 1rem;
+	/* padding-top: .5rem;
+	padding-bottom: 1rem; */
+	padding-top: .4rem;
+	padding-bottom: .8rem;
 	/* border-bottom: 1px solid #eee; */
 	display: flex;
 	justify-content: space-between;
@@ -206,7 +209,7 @@ h2 {
 }
 
 h3 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	width: 87%;
 	margin: 2.8rem auto 1.3rem auto;
 	color: #6C9AC3;
@@ -240,7 +243,7 @@ p {
 	margin: auto;
 	margin-top: 1.4rem;
 	line-height: 1.6;
-	font-size: 1.35rem;
+	font-size: 1.3rem;
 	color: #444;
 }
 

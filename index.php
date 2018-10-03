@@ -10,6 +10,7 @@
         <h4>October</h4>
         <h5>Week 20</h5>
         <ul>
+          <li><a href="ln/18/10/03.html">181003</a></li>
           <li><a href="ln/18/10/02.html">181002</a></li>
           <li><a href="ln/18/10/01.html">181001</a></li>
         </ul>

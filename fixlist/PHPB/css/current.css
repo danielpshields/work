@@ -6,8 +6,6 @@
   border-right: none;
 }
 
-
-
 table {
   width: 90%;
   max-width: none;
@@ -33,4 +31,14 @@ table {
 .resourceLinks {
   float: left;
   width: 49%;
+}
+
+.shell dl {
+  width: 87%;
+  margin: auto;
+}
+
+.shell dt {
+  background: gray;
+  cursor: pointer;
 }

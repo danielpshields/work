@@ -168,8 +168,8 @@
 			outline-style: solid;
 			outline-width: 1px;
 			outline-color: #fff;
-			line-height: 2;
-			font-size: 1rem;
+			line-height: 1.5; /* this was changed from 2; */
+			font-size: .9rem; /* this was changed from 1rem */
 			width: 14.28%;
 			/* background: #478af7; */
 			background: #E28F41;
