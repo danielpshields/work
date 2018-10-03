@@ -16,6 +16,14 @@ $('dt').on(action,function() {
 		.siblings('dd')
 		.slideUp(); // close all siblings
 
+
+		// get image for the active question
+		var current = $(this).children('img');
+		// remove rotate class from any other img
+		 $('img').not(current).removeClass('rotate');
+		// toggle rotate class on the current img
+		$(current).toggleClass('rotate');
+
 });
 
 
