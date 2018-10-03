@@ -1,0 +1,56 @@
+body {
+  width: 700px;
+  margin: auto;
+}
+
+header, .masterList {
+  border-bottom: 1px solid black;
+}
+
+header h1, header h2 {
+  float: left;
+}
+
+header h2 {
+  margin-top: 29px;
+  margin-left: 13px;
+}
+
+.masterList {
+  padding-bottom: 25px;
+}
+
+li {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.tiny li {
+  font-size: 9px;
+}
+
+nav {
+  padding-top: 15px;
+  margin-top: 35px;
+  padding-bottom: 25px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid black;
+  margin-top: 2 5px;
+}
+
+footer p {
+  text-align: center;
+
+}
+
+.clear {
+  clear: both;
+}
+
+.center {
+  text-align: center;
+}

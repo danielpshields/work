@@ -34,10 +34,10 @@
 				      <li><a href="finances.php">Financial Information</a></li>
 				      <li><a href="faq.php">FAQ</a></li>
 				      <li><a href="advising.php">Advising</a></li>
-				      <li><a href="alumnisuccess.php">Alumni Success</a></li>
+				      <li><a href="alumni.php">Alumni Success</a></li>
 							<li><a href="contact.php">Contact</a></li>
 				      <li><a href="apply.php">Apply</a></li>
-							<li><a href="newstudents.php">Current Students</a></li>
+							<li><a href="current.php">Current Students</a></li>
 				      <li class="newlyAdmittedBackground"><a href="newstudents.php">Newly Admitted Students</a></li>
 				    </ul>
 				</dd>
@@ -70,5 +70,4 @@
 		<div id="container">
 
 			<h1>Pre-Health Post-Baccalaureate Program <span id="shrinkPHPBLogo">(PHPB)</span></h1>
-
-			<?php require_once("include/sidebar.php"); ?>
+<?php require_once("include/sidebar.php"); ?>

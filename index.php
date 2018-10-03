@@ -6,8 +6,34 @@
 ?>
       <article class="lonesomeNote">
         <h2>2018</h2>
+
+        <h4>October</h4>
+        <h5>Week 20</h5>
+        <ul>
+          <li><a href="ln/18/10/02.html">181002</a></li>
+          <li><a href="ln/18/10/01.html">181001</a></li>
+        </ul>
+
         <h4>September</h4>
+        <h5>Week 19</h5>
+        <ul>
+          <li><a href="ln/18/09/30.html">180930</a></li>
+          <li><a href="ln/18/09/29.html">180929</a></li>
+        </ul>
+        <ul>
+          <li><a href="ln/18/09/28.html">180928</a></li>
+          <li><a href="ln/18/09/27.html">180927</a></li>
+          <li><a href="ln/18/09/26.html">180926</a></li>
+          <li><a href="ln/18/09/25.html">180925</a></li>
+          <li><a href="ln/18/09/24.html">180924</a></li>
+        </ul>
+
+
         <h5>Week 18</h5>
+        <ul>
+          <li><a href="ln/18/09/23.html">180923</a></li>
+          <li><a href="ln/18/09/22.html">180922</a></li>
+        </ul>
         <ul>
           <li><a href="ln/18/09/21.html">180921</a></li>
           <li><a href="ln/18/09/20.html">180920</a></li>
