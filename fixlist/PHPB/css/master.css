@@ -23,7 +23,7 @@
 	section      850px
 	sidebar
 
-	header image mobile:
+	header image mobile:  1698px by 1131px
 	header image desktop: 1698px by 654px
 
 	@php: $page -> stylesheet -> header image
@@ -82,7 +82,6 @@ header {
 	padding-bottom: 1rem; */
 	padding-top: .4rem;
 	padding-bottom: .8rem;
-	/* border-bottom: 1px solid #eee; */
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
@@ -114,6 +113,10 @@ header li a {color: white;}
 
 header + .content {
   padding-top: 0rem;
+}
+
+.desktopNav {
+	display: none;
 }
 
 header dt { /* define term, top */
@@ -160,14 +163,11 @@ header dd ul li a {
 	color: white;
 }
 
-.desktopNav {
-	display: none;
-	border-top: 1px solid #eee;
-}
 
 header img {
   width: 100%;
   margin-bottom: 0;
+	/* margin-top: 1px; */
 }
 
 video {

@@ -154,9 +154,12 @@
 		.desktopNav {
 			display: block;
 			background: #E28F41;
-			border-bottom: 1.49px solid white;
+			/* border-bottom: 1.49px solid white; */
+			/* border-bottom: 1px solid transparent; */
+			border-top: 1px solid #eee;
+			border-bottom: 1px solid #eee;
 			width: 100%;
-			margin: auto;
+			margin: -1px auto 0 auto;
 		}
 
 		.desktopNav li {
@@ -168,8 +171,10 @@
 			outline-style: solid;
 			outline-width: 1px;
 			outline-color: #fff;
+			/* outline-color: red; */
 			line-height: 1.5; /* this was changed from 2; */
-			font-size: .9rem; /* this was changed from 1rem */
+			font-size: 1rem; /* this was changed from 1rem */
+			font-weight: normal;
 			width: 14.28%;
 			/* background: #478af7; */
 			background: #E28F41;
