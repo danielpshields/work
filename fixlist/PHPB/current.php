@@ -28,7 +28,7 @@
               <td>tbd</td>
             </tr>
               <td>Journal Club</td>
-              <td> <s>Oct. 2, 9:30 a.m. to 10:30 a.m. @ 2022 Farrior Hall</s></td>
+              <td>tbd</td>
             </tr>
           </tbody>
         </table>

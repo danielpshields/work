@@ -11,42 +11,42 @@
       </tr>
       <tr>
         <td>1</td>
-        	<td>7:25 a.m. to 8:15 a.m.</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
+      	<td>7:25 a.m. to 8:15 a.m.</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
       </tr>
 
       <tr>
         <td>2</td>
-        	<td>8:30 a.m. to 9:20 a.m.</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
+      	<td>8:30 a.m. to 9:20 a.m.</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
       </tr>
 
       <tr>
-        <td id="noRight">3</td>
-        	<td id="noLeft">9:35 a.m. to 10:25 a.m.</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
+        <td>3</td>
+      	<td>9:35 a.m. to 10:25 a.m.</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
       </tr>
 
       <tr>
         <td>4</td>
-        	<td>10:40 a.m. to 11:30 a.m.</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
+      	<td>10:40 a.m. to 11:30 a.m.</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
       </tr>
 
       <tr>
@@ -91,12 +91,12 @@
 
     <tr>
       <td>9</td>
-      	<td>4:05 p.m. to 4:55 p.m.</td>
-        <td>CHM2211 (01CE)</td>
-        <td>IDS4930</td>
-        <td>CHM2211</td>
-        <td>CHM2211</td>
-        <td>&nbsp;</td>
+    	<td>4:05 p.m. to 4:55 p.m.</td>
+      <td>CHM2211 (01CE)</td>
+      <td>IDS4930</td>
+      <td>CHM2211</td>
+      <td>CHM2211</td>
+      <td>&nbsp;</td>
     </tr>
 
     <tr>
@@ -111,22 +111,22 @@
 
     <tr>
       <td>11</td>
-      	<td>6:15 p.m. to 7:05 p.m.</td>
-        <td>&nbsp;</td>
-        <td>ISC2401L</td>
-        <td>&nbsp;</td>
-        <td>ISC2401L</td>
-        <td>&nbsp;</td>
+    	<td>6:15 p.m. to 7:05 p.m.</td>
+      <td>&nbsp;</td>
+      <td>ISC2401L</td>
+      <td>&nbsp;</td>
+      <td>ISC2401L</td>
+      <td>&nbsp;</td>
     </tr>
 
     <tr>
       <td>E1</td>
-      	<td>7:20 p.m. to 8:10 p.m.</td>
-        <td>&nbsp;</td>
-        <td>ISC2401L</td>
-        <td>&nbsp;</td>
-        <td>ISC2401L</td>
-        <td>&nbsp;</td>
+    	<td>7:20 p.m. to 8:10 p.m.</td>
+      <td>&nbsp;</td>
+      <td>ISC2401L</td>
+      <td>&nbsp;</td>
+      <td>ISC2401L</td>
+      <td>&nbsp;</td>
     </tr>
 
     <tr>

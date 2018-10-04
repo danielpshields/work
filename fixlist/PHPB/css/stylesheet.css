@@ -120,6 +120,7 @@
 
 		.desktopNav {
 			display: block;
+			z-index: 1;
 		}
 
 		.desktopImage {
