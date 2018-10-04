@@ -1,6 +1,8 @@
 	@media screen and (min-width: 600px) {
 
-		/* width: 84%; */
+		video {
+			width: 84%;
+		}
 
 		p {
 			line-height: 1.5;
@@ -44,6 +46,20 @@
 	}
 
 	@media screen and (min-width: 992px) {
+
+
+		#dept img {
+			margin-left: 0;
+		}
+
+		#uf img {
+			margin-right: 0;
+		}
+
+		video {
+			width: 70%;
+		}
+
 
 		.top-container {
 		  padding: 30px;

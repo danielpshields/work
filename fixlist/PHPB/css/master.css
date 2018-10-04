@@ -68,6 +68,25 @@ article {
 	margin: auto;
 }
 
+#dept img {
+	width: 150px;
+	margin-left: .8rem;
+}
+
+#uf img {
+	width: 40px;
+	margin-right: .8rem;
+}
+
+#logoSection img:hover {
+	outline-color: #5d98f7;
+	outline-color: #5492f7;
+	outline-style: solid;
+	outline-width: 1px;
+	padding: .09rem;
+}
+
+
 /* sticky header */
 .header, .sticky, #myHeader {display: none;}
 
@@ -87,14 +106,6 @@ header {
 	width: 100%;
 	margin: auto;
 	align-items: baseline;
-}
-
-#logoSection a {
-	color: #2b72fe;
-	border: 3px solid #999;
-	padding: 2px .8rem;
-	border-radius: 5px;
-	background: #f0f0f0;
 }
 
 header li a {color: white;}
@@ -171,8 +182,7 @@ header img {
 }
 
 video {
-	width: 84%;
-	width: 70%;
+	width: 100%;
 	display: block;
 	margin: auto;
 	margin-bottom: 1.3rem;
@@ -211,7 +221,8 @@ h2 {
 h3 {
 	font-size: 1.5rem;
 	width: 87%;
-	margin: 2.8rem auto 1.3rem auto;
+	/* margin: 2.8rem auto 1.3rem auto; */
+	margin: 2rem auto 1.3rem auto;
 	color: #6C9AC3;
 }
 
@@ -247,6 +258,10 @@ p {
 	color: #444;
 }
 
+li {
+	color: #444;
+}
+
 #container p, #container h3, #container h4, #container ul, #container ol {
 	/* max-width: 992px; */
 	max-width: 1250px;
@@ -262,7 +277,6 @@ p {
 	width: 90%;
 	/* background: black; */
 	margin: 1rem auto 1rem auto;
-	color: #444;
  	font-size: 1.3rem;
 	line-height: 1.6;
 	/* change the line height in expansion 1.8 */
@@ -402,7 +416,7 @@ a#apply:hover p {
 	width: 100%;
 }
 
-.bubble p, .bubble h3, .bubble h4, .bubble li {
+.bubble p, .bubble h3, .bubble h4, div.bubble ul li, .bubble ol li {
   color: white;
 }
 

@@ -10,9 +10,11 @@
             <a href="finances.php">Financial Information</a> |
             <a href="faq.php">FAQ</a> |
             <a href="advising.php">Advising</a> |
-            <a href="alumnisuccess.php">Alumni Success</a> |
+            <a href="alumni.php">Alumni Success</a> |
             <a href="contact.php">Contact Us</a> |
-            <a href="newstudents.php">Newly Admitted Students</a>
+            <a href="newstudents.php">Newly Admitted Students</a> |
+            <a href="current.php">Current Students</a> |
+            <a href="apply.php">Apply</a>
             <div class="clear"></div>
           </p>
         </nav>
