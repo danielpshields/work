@@ -1,0 +1,12 @@
+
+th {
+  background: #e0ebff;
+  background: #e8f0ff;
+  background: #eff5ff;
+  color: black;
+}
+
+th.headerTH {
+  background: #6C9AC3;
+  color: white;
+}

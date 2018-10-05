@@ -18,14 +18,14 @@
 			<div class="maxWidth top-container" id="logoSection">
 					<div id="dept">
 						<span>
-							<a href="">
+							<a href="index.php">
 								<img src="image/CLASUF.png" alt="">
 							</a>
 						</span>
 					</div>
 					<div id="uf">
 						<span>
-							<a href="">
+							<a href="index.php">
 								<img src="image/uf.png" alt="">
 							</a>
 						</span>

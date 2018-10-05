@@ -16,14 +16,16 @@
   margin: auto;
   margin-top: 2rem;
   background: white;
-  color: #366dc4;
   padding-bottom: 0rem;
   padding-left: .5rem;
+  color: #478eff;
 }
 
 .shell dt:hover {
   cursor: pointer;
-  color: #387eed;
+  /* color: #387eed; */
+  color: #366dc4;
+  text-decoration: underline;
 }
 
 .shell dd {

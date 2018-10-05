@@ -47,7 +47,6 @@
 
 	@media screen and (min-width: 992px) {
 
-
 		#dept img {
 			margin-left: 0;
 		}
@@ -60,14 +59,15 @@
 			width: 70%;
 		}
 
-
 		.top-container {
 		  padding: 30px;
 		}
 
 		h1 {
 			width: 100%;
-			/* padding-left: 1rem; */
+			max-width: 1250px;
+			/* width: 95%; */
+			padding-left: 1rem;
 		}
 
 		header dl {
@@ -126,13 +126,8 @@
 		}
 
 		#sidebarList li a:hover {
-			/* background: green; */
 			color: #49acff;
 		}
-
-		/* .feature  {
-			width: 23.5%;
-		} */
 
 		.desktopNav {
 			display: block;
@@ -210,22 +205,15 @@
 			vertical-align: baseline;
 		}
 
-		/* .desktopNav li a#apply {
-			background: #f49e42;
-			background: #ffa787;
-		} */
-
-
 		.desktopNav li a:hover {
 			background: #ffac5e;
 			text-decoration: none;
 		}
 
-		/* .bubble {
-			max-width: 500px;
-			height: 30rem;
-			float: left;
-		} */
+	}
 
-
+	@media screen and (min-width: 1284px) {
+		h1 {
+			padding-left: 0;
+		}
 	}

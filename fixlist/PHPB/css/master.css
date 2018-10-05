@@ -9,6 +9,10 @@
 
 /*
 
+	break    @   600px | 992px
+
+	(there is one break at 1284px to push the h1 off when the page resizes and it sticks at 100% to the #container sidewall)
+
 	mobile width: 87%;
 	deskto width: 84%;
 
@@ -31,9 +35,8 @@
 
 	p max width  1250px
 
-	break    @   600px | 992px
-
 	color: #E28F41; UF - Pale Orange, see "colors.css" for pallete
+					bold font links: google blue
 
 */
 
@@ -201,7 +204,6 @@ h1 {
 	font-size: 1.8rem;
 	color: #0021A5;
 	width: 87%;
-	max-width: 1250px;
 	padding: 1rem 0 2rem 0;
 	margin: .7rem auto 2.3rem auto;
 	border-bottom: 1px solid orange;
@@ -413,7 +415,8 @@ a#apply:hover p {
   border: .6rem solid #2573ba;
   margin: 1rem auto;
   padding-bottom: 3rem;
-	width: 100%;
+	width: 84%;
+	max-width: 1250px;
 }
 
 .bubble p, .bubble h3, .bubble h4, div.bubble ul li, .bubble ol li {
@@ -479,7 +482,10 @@ nav p {
 	letter-spacing: 1px;
 	line-height: 1.5;
 	text-align: left;
+	width: 84%;
+	margin: auto;
 	margin-bottom: 2rem;
+	font-size: 1.25rem;
 }
 
 #contactSection h3 {

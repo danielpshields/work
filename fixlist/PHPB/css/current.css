@@ -58,47 +58,100 @@ table {
 }
 
 #resourcesImage {
-  width: 45%;
-  float: left;
-}
-
-#resourcesLinks {
-  float: left;
-  width: 54%;
-  /* border: 1px dashed gray; */
-}
-
-#resources h4 {
-  width: 75.7%;
+  width: 80%;
+  display: block;
+  margin: auto;
+  background: black;
 }
 
 #resources ul {
-  margin: 0;
-  margin: auto;
+  width: 100%;
+  padding: 0;
 }
 
 #resources li {
-  margin: 0;
-  margin: auto;
-  background: orange;
-  text-align: center;
-  border: 3px solid #E28F41;
+  background: white;
+  border-top: 1px solid #E28F41;
   list-style: none;
-  padding: .6rem .4rem .8rem .4rem;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: .8rem 0 1.2rem 0;
+}
+
+.stackedList li:last-child {
+  border-bottom: 1px solid #E28F41;
 }
 
 #resources a {
-  color: white;
+  color: #2A5DB0;
   display: inline-block;
   width: 100%;
   height: 100%;
 }
 
 #resources li a:hover {
-  color: #e0e0e0;
+  color: #122a51;
 }
 
 #resourcesContainer {
   width: 87%;
   margin: auto;
+}
+
+
+@media screen and (min-width: 600px) {
+
+
+  #resourcesLinks {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .resourcesUL {
+    width: 45%;
+  }
+
+
+  #resources li {
+    border: 1px solid #E28F41;
+  }
+
+  #resourcesImage {
+    max-width: 460px;
+  }
+
+  #resources h4 {
+    width: 100%;
+  }
+
+
+}
+
+@media screen and (min-width: 992px) {
+
+  #resources {
+    width: 87%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  #resourcesImage {
+    width: 40%;
+    float: left;
+  }
+
+  #resourcesLinks {
+    width: 45%;
+    display: block;
+  }
+
+  .resourcesUL {
+    width: 100%;
+  }
+
 }

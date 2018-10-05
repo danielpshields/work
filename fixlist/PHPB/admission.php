@@ -77,7 +77,7 @@ $image = $page;
 
 
   <div class="bubble">
-    <p class="big center">2019</p>
+    <p class="big">2019</p>
     <p>Fall Application Cycle via <a href="https://postbaccas.liaisoncas.com/applicant-ux/#/login" target="_blank">PostBacCAS</a></p>
     <p>Opened August 15, 2018</p>
   </div>
