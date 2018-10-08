@@ -1,9 +1,9 @@
 <?php
   require("include/functions.php");
 
-  if (!isset($_POST['formTwo'])) {
-    redirectTo("index.php");
-  }
+  // if (!isset($_POST['formTwo'])) {
+  //   redirectTo("index.php");
+  // }
 
  	$thisPage = "3";
   $submitted = 0;
@@ -15,7 +15,7 @@
 
 		<section>
 
-		  <h2><span class="orangeNumber">3</span> Curriculum:</h2>
+		  <h2><span class="orange"><?php echo $thisPage; ?>.</span> Curriculum:</h2>
 
 		  <p>Please note the degree options available in UF Online compared to UF residential:</p>
 
@@ -69,19 +69,10 @@
 		      <td><a href="https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SOC_BA_UFO/" target="_blank">BA</a></td>
 		    </tr>
 		  </table>
-	    <table>
-	      <tr>
-	        <td><p class="orangeFont"><b>3</b></p></td>
-	        <td>I acknowledge this:</td>
-	        <td class="check">
-            <input id="green" required type="checkbox" name="curriculum" value=""></td>
-	      </tr>
-	    </table>
-      <input class="mainSelect oneBox" type="submit" name="formThree" value="Next Page">
+
+
+      <input type="submit" name="formThree" value="<?php echo $acknowledge; ?>">
 		</section>
   </form>
-
-  <button onclick="goBack()">Previous Page</button>
-
 
   <?php require_once("include/footer.php"); ?>

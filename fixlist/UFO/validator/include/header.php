@@ -5,12 +5,13 @@
 // $email        = $_SERVER['HTTP_UFSHIB_MAIL'];
 // $nameGiven    = $_SERVER['HTTP_UFSHIB_GIVENNAME']." ".$_SERVER['HTTP_UFSHIB_SN'];
 // $nameGivenShort    = $_SERVER['HTTP_UFSHIB_GIVENNAME'];
-$UFID              = "alex";
-$date_auto         = "alex";
-$nameBusiness      = "alex";
-$email             = "alex";
-$nameGiven         = "alex";
-$nameGivenShort    = "alex";
+$UFID              = "Alex";
+$date_auto         = "Alex";
+$nameBusiness      = "Alex";
+$email             = "Alex";
+$nameGiven         = "Alex";
+$nameGivenShort    = "Alex";
+	$acknowledge = "I acknowledge this";
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,30 +22,34 @@ $nameGivenShort    = "alex";
 	<link rel="stylesheet" href="css/master.css">
 	<link rel="stylesheet" href="css/<?php echo $page; ?>.css">
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	
-	<script src="scripts/back.js"></script>
-	<script src="scripts/border.js"></script>
 </head>
 <body>
 	<div class="container">
 		<header>
 			<h1>UF Online Acknowledgement Form</h1>
 			<nav>
-				<ul <?php
-				if ($submitted == true) {
-					echo "style=\"display: none;\"";
-				}?>>
+				<ul<?php if ($submitted == true) {echo " style=\"display: none;\"";	}?>>
 					<?php
-						$onPage = array("1", "2", "3", "4", "5");
-						foreach ($onPage as $pageNumber) {
-							echo "<li";
-							if ($pageNumber === $thisPage) {
-								echo " class=\"thisPage\"";
+
+						$pages = array("1", "2", "3", "4", "5");
+
+						foreach ($pages as $page) {
+							echo "<li>";
+							if ($page <= $thisPage) {
+								echo "<a ";
+								if ($page === $thisPage) {
+									echo "class=\"thisPage\" ";
+								}
+								echo "href=\"{$page}.php\">";
 							}
-							echo ">{$pageNumber}</li>";
+							if ($page < $thisPage) {
+								echo "<img src=\"image/check.png\">";
+							} else {echo $page;}
+								echo "</a></li>";
 						}
-					?>
+						?>
 					<div class="clear"></div>
 				</ul>
 			</nav>
 		</header>
+		<div class="content">

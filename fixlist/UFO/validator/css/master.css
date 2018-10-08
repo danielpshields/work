@@ -14,8 +14,8 @@ html {
 }
 
 body {
-    background: #4b6896;
-   overflow-y: scroll;
+  background: #5779b2;
+  overflow-y: scroll;
 }
 
 .container {
@@ -28,25 +28,31 @@ body {
 header {
   border-bottom: 1px solid #444;
   margin-bottom: 1.5rem;
-  background: #E28F41; /* orange */
+  background: #efa158;
+  background: white;
+  color: #efa158;
 }
 
 h1 {
   font-size: 1.8rem;
   padding-bottom: 1rem;
   padding-top: .9rem;
-  text-align: center;
+  color: #333;
+  color: #d67c28; /* orange */
+  width: 87%;
+  margin: auto;
 }
 
 nav {
   padding-bottom: 1rem;
   padding-top: 1rem;
-  border-top: 1px solid #a06024;
+  border-top: 1px solid #4b6896;
 }
 
 nav ul {
-  width: 50%;
+  width: 87%;
   margin: auto;
+  max-width: 36.25rem;
 }
 
 nav ul li {
@@ -55,153 +61,69 @@ nav ul li {
   width: 20%;
   text-align: center;
   color: #f0f0f0;
-  /* background: white;
-  border: 1px solid black; */
+  color: #4b6896;
+  font-size: 1rem;
 }
 
-/* via PHP in header.php */
-nav ul li.thisPage {
+nav ul li a.thisPage {
   color: #124391;
   color: #0e387a;
   font-weight: bold;
   text-decoration: underline;
 }
 
-h2 {
-  font-size: 1.5rem;
-  text-align: center;
-  color: #333;
-  border-bottom: 1px solid #b0b0b0;
-  padding-bottom: 1.6rem;
+nav ul img {
+  width: 1rem;
 }
 
-.bigOrange {
-  font-size: 1.5rem;
-  color: #FA4616;
-  border: 2px solid #FA4616;
-  border-radius: 5px;
-  padding: .1rem .4rem;
+nav ul li a {
+  /* text-decoration: none; */
+  color: #4b6896;
+
+}
+
+h2 {
+  width: 87%;
+  margin: auto;
+  margin-bottom: 1.3rem;
+  font-size: 1.3rem;
 }
 
 p {
-  width: 84%;
-  max-width: 600px;
+  width: 87%;
   margin: auto;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  font-size: 1.5rem;
-  line-height: 1.6;
-  color: #252525;
 }
 
-input.mainSelect {
+ul, ol {
+  width: 87%;
+  margin: auto;
+}
+
+.content ul li, .content ol li {
+  width: 87%;
+  margin: auto;
+  margin-top: 1.3rem;
+}
+
+
+input {
   display: block;
-  width: 50%;
-  max-width: 20rem;
   margin: auto;
-  margin-bottom: 1rem;
-  border: 2px solid #5b5bff;
-  border-radius: 3px;
-  background: #f0f0f0;
+  margin-top: 2rem;
+  padding: .3rem .6rem;
+  outline-color: #2A5DB0;
+  outline-style: solid;
+  outline-width: 2px;
+  background: white;
 }
 
-input.mainSelect:hover {
-  border: 2px solid #E28F41; /* green */
-  background: #fff;
+input:hover {
+  outline-color: #32CD32;
+  outline-style: solid;
+  outline-width: 2px;
   cursor: pointer;
-  border: 2px solid blue;
 }
 
-.checkbox {
-  float: left;
-  width: 200px;
-}
-
-
-
-.check {
-  border: 2px solid #0021A5;
-  border-radius: 5px;
-}
-
-#greenBorder {
-  border: 1px solid #32CD32;
-  border-radius: 5px;
-  padding: 1rem;
-  text-align: center;
-}
-
-
-.checked {
-  border: 5px solid red;
-  background: red;
-}
-
-
-
-b {
-  font-size: 1.5rem;
-}
-
-.blue {
-  border: 2px solid #6C9AC3;
-}
-
-.tempBorder {
-  border-top: 1px solid #c0c0c0;
-  padding: 10px;
-}
-
-#courseDifferences {
-  width: 88%;
-  margin: auto;
-  margin-bottom: 15px;
-}
-
-
-
-#finalSubmit {
-  width: 100px;
-  height: 50px;
-  padding: 5px;
-  border: 2px solid #FA4616;
-  border-radius: 5px;
-  background: #f0f0f0;
-  /* float: right; */
-}
-
-#finalSubmit:hover, #statementSubmit:hover {
-  border: 2px solid #32CD32;
-  cursor: pointer;
-  background: #fff;
-}
-
-.orangeFont {
-  color: #FA4616;
-}
-
-.blueFont {
-  color: #0021A5;
-}
-
-
-.hightlightSlug {
-  margin-top: 25px;
-  border-radius: 5px;
-  padding: 10px;
-
-}
-
-
-.hightlightSlug ul {
-  margin-left: 35px;
-  margin-bottom: 15px;
-}
-
-.hightlightSlug li {
-  font-size: 23px;
-  color: #252525;
-}
 
 table {
   width: 90%;
@@ -222,73 +144,24 @@ table p, td {
   text-align: center;
 }
 
-#majorBlue {background: #6C9AC3;}
-#majorOrange {background: #E28F41;}
 
-ol {
-  margin-left: 35px;
+.clear {
+  clear: both;
 }
 
-section li {
-  line-height: 1.8;
-  font-size: 1.5rem;
-  width: 84%;
-  margin: auto;
-  margin-top: 1rem;
+footer {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
 }
 
-li a {
-  font-size: 1.1rem;
-  color: blue;
-  letter-spacing: 1px;
-}
 
-.person {
-  margin-bottom: 30px;
-}
-
-#contactSection ul {
-  margin-top: 15px;
-}
-
-#slug {
-  font-style: italic;
-  color: #777;
-}
-
-#submit { /* submit */
-  margin: auto;
-  display: block;
-  margin-top: 25px;
-  margin-bottom: 20px;
+footer p {
   text-align: center;
-  float: none;
-}
-
-
-.contact {
-  border-top: 1px solid #a0a0a0;
-  margin-top: 20px;
-}
-
-
-
-#copyright {
+  width: 100%;
   font-style: italic;
-  text-align: center;
   color: #c0c0c0;
   font-size: .78rem;
 }
-
-#fileToUpload {
-  width: 80%;
-  max-width: 550px;
-  display: block;
-  margin: auto;
-  margin-bottom: 1.3rem;
-  border: 1px solid #737373;
-}
-
 
 /* master laws */
 
@@ -314,36 +187,24 @@ li a {
   color: #7a0d0d;
 }
 
-
 .orange {
+  color: #FA4616;
+  font-size: 1.5rem;
+  color: #d67c28;
+}
+
+#majorBlue {
+  background: #6C9AC3;
+}
+
+#majorOrange {
+  background: #E28F41;
+}
+
+.orangeFont {
   color: #FA4616;
 }
 
-
-.clear {
-  clear: both;
-}
-
-button {
-  display: block;
-  margin: auto;
-  padding: .3rem .7rem;
-  font-size: .8rem;
-}
-
-footer {
-  margin-top: 2rem;
-  padding-bottom: 1rem;
-}
-
-
-footer p {
-  text-align: center;
-}
-.blue {
-  color: blue;
-}
-
-.pear {
-  background: yellow;
+.blueFont {
+  color: #0021A5;
 }

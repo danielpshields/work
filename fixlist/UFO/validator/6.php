@@ -8,9 +8,9 @@
     //ensure the page was reached via the previous page
     //pulls in redirect
     require("include/functions.php");
-    if (!isset($_POST['formFive'])) {
-      redirectTo("index.php");
-    }
+    // if (!isset($_POST['formFive'])) {
+    //   redirectTo("index.php");
+    // }
     //
     // $dbhost = "localhost";
     // $dbuser = "root";
@@ -33,7 +33,7 @@
     // $result = mysqli_query($connection, $query);
 
 
-   	$thisPage = "0";
+   	$thisPage = "6";
     $submitted = 0;
     $page = "submit";
   	require_once("include/header.php");
@@ -43,7 +43,7 @@
 <form action="7.php" method="post">
 
   <div class="blue hightlightSlug">
-    <h2><span class="orangeNumber">S</span> Submit</h2>
+    <h2>Submit</h2>
 
     <p>This completes the acknowledgement form. Select the button below to submit and move on to the next step in the program change request.</p>
 
@@ -74,6 +74,5 @@
 
 </form>
 
-<button onclick="goBack()">Previous Page</button>
 
 <?php require_once("include/footer.php"); ?>

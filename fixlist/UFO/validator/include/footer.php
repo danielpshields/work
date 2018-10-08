@@ -1,6 +1,9 @@
       <footer>
-         <p id="copyright">&copy; 2018 CLAS UF Online</p>
+         <p>&copy; 2018 CLAS UF Online</p>
        </footer>
-    </div><!-- . container -->
+    
+    </div><!-- content -->
   </body>
+  <script src="scripts/back.js"></script>
+  <script src="scripts/border.js"></script>
 </html>

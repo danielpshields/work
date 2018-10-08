@@ -1,15 +1,16 @@
 <?php
   require("include/functions.php");
 
-  if (!isset($_POST['formFour'])) {
-    redirectTo("index.php");
-  }
+  // if (!isset($_POST['formFour'])) {
+  //   redirectTo("index.php");
+  // }
+
   $page = "statement";
  	$thisPage = "5";
   $submitted = 0;
 	require_once("include/header.php");
 ?>
-      <h2><span class="orangeNumber">5</span> Statement</h2>
+      <h2><span class="orange"><?php echo $thisPage; ?>.</span> Statement</h2>
 
       <section>
         <form class="" action="6.php" method="post" enctype="multipart/form-data">
@@ -31,7 +32,5 @@
           <p class="tiny">file types: PNG, JPG, DOC</p>
           <input id="statementSubmit" class="mainSelect oneBox" type="submit" name="formFive" value="Submit">
         </form>
-
-        <button onclick="goBack()">Previous Page</button>
 
 <?php require_once("include/footer.php"); ?>
