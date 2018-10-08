@@ -1,18 +1,10 @@
-#noLeft {
-  border-left: none;
-}
-
-#noRight {
-  border-right: none;
-}
-
 table {
   width: 90%;
   max-width: none;
   text-align: center;
 }
 
-.arrow { /* image */
+.arrow { /* image for drop downs */
   width: 1rem;
   margin-right: .5rem;
 }
@@ -49,38 +41,51 @@ table {
   text-decoration: underline;
 }
 
-.shell dt:hover {
-  color: #a0a0a0;
-}
 
 #resources {
-  margin-top: 2rem;
+  width: 100%;
 }
 
-#resourcesImage {
+#flexForResourcesLinks {
+  width: 100%;
+}
+
+
+#graphicContainer {
+  /* flex-child container for the resources Graphic */
+}
+
+#resourceGraphic {
   width: 80%;
   display: block;
   margin: auto;
-  background: black;
+  margin-top: 1.5rem;
+  max-width: 450px;
+}
+
+#resources {
+  /* flex-child container for the resources links */
+}
+
+.resourceLinks {
+  width: 100%;
 }
 
 #resources ul {
   width: 100%;
-  padding: 0;
+  padding-left: 0;
 }
 
 #resources li {
-  background: white;
   border-top: 1px solid #E28F41;
+  padding: 0;
+  margin: 0;
   list-style: none;
   width: 100%;
-  margin: auto;
-  text-align: center;
-  font-size: 1.2rem;
-  padding: .8rem 0 1.2rem 0;
+  font-size: 1.25rem;
 }
 
-.stackedList li:last-child {
+#resources ul:last-child {
   border-bottom: 1px solid #E28F41;
 }
 
@@ -89,69 +94,54 @@ table {
   display: inline-block;
   width: 100%;
   height: 100%;
+  padding: 1rem 0 1rem 2rem;
 }
 
-#resources li a:hover {
+
+#resources a:hover {
   color: #122a51;
+  background: #fafafa;
 }
-
-#resourcesContainer {
-  width: 87%;
-  margin: auto;
-}
-
 
 @media screen and (min-width: 600px) {
 
-
-  #resourcesLinks {
-    display: flex;
-    justify-content: space-around;
+  #resources {
+    max-width: 500px;
+    margin: auto;
   }
-
-  .resourcesUL {
-    width: 45%;
-  }
-
 
   #resources li {
-    border: 1px solid #E28F41;
+    border-left: 1px solid #E28F41;
+    border-right: 1px solid #E28F41;
   }
-
-  #resourcesImage {
-    max-width: 460px;
-  }
-
-  #resources h4 {
-    width: 100%;
-  }
-
 
 }
 
 @media screen and (min-width: 992px) {
 
-  #resources {
-    width: 87%;
-    margin: auto;
-    margin-top: 2rem;
+  #flexForResourcesLinks {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
+    justify-content: center;
+    margin-top: 2rem;
   }
 
-  #resourcesImage {
-    width: 40%;
-    float: left;
+  #graphicContainer {
+    /* flex-child container for the graphic */
+    margin-right: 3%;
   }
 
-  #resourcesLinks {
-    width: 45%;
-    display: block;
+  #resources {
+    margin: 0;
+    margin-left: 4%;
   }
 
-  .resourcesUL {
-    width: 100%;
+  #resourceGraphic {
+    width: 85%;
+    margin-top: 0;
+  }
+
+  #resources {
+    /* flex-child container for the resources links */
   }
 
 }

@@ -55,12 +55,17 @@
         </dl>
       </div><!-- shell -->
       <div class="clear"></div>
-      <div id="resources">
-        <img id="resourcesImage" src="image/current_resources.jpg" alt="">
-        <div id="resourcesLinks">
-          <div class="resourcesUL">
+
+      <div id="flexForResourcesLinks"><!-- whole container -->
+
+        <div id="graphicContainer">
+          <img id="resourceGraphic" src="image/current_resources.jpg" alt="">
+        </div>
+
+        <div id="resources">
+          <div class="resourceLinks">
             <h4>Resources:</h4>
-            <ul class="stackedList">
+            <ul>
               <li><a href="https://www.advising.ufl.edu/pre-health/" target="_blank">Academics</a></li>
               <li><a href="https://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/research/" target="_blank">Research</a></li>
               <li><a href="https://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/shadowing/" target="_blank">Shadowing</a></li>
@@ -68,10 +73,10 @@
               <li><a href="https://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/volunteer-resources/" target="_blank">Community Service (non-clinical)</a></li>
               <li><a href="https://www.advising.ufl.edu/docs/AAMCCoreCompetencies.pdf" target="_blank">Professional Competencies (PDF)</a></li>
             </ul>
-          </div><!-- resourcesUL -->
-          <div class="resourcesUL">
+          </div><!-- resource links -->
+          <div class="resourceLinks">
             <h4>Additional Resources:</h4>
-            <ul class="stackedList">
+            <ul>
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/campus-resources/" target="_blank">Campus Resources</a></li>
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/centralized-application-services/" target="_blank">Centralized Application Services</a></li>
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/diversity-resources/" target="_blank">Diversity Resources</a></li>
@@ -85,10 +90,9 @@
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/test-preparation-resources/" target="_blank">Test Preparation Resources</a></li>
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/volunteer-resources/" target="_blank">Volunteer Resources</a></li>
             </ul>
-          </div><!-- resourcesUL -->
-          <div class="clear"></div>
-        </div><!-- resources links -->
-        <div class="clear"></div>
-      </div><!-- resources  -->
+          </div><!-- resource links -->
+        </div><!-- resources -->
+
+      </div><!-- flex for resources links -->
 
 <?php require_once("include/footer.php");?>

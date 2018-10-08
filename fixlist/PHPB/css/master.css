@@ -86,7 +86,7 @@ article {
 	outline-color: #5492f7;
 	outline-style: solid;
 	outline-width: 1px;
-	padding: .09rem;
+	padding: .05rem;
 }
 
 
@@ -278,7 +278,7 @@ li {
 #container li, .coreFeature li, .featureShell li {
 	width: 90%;
 	/* background: black; */
-	margin: 1rem auto 1rem auto;
+	margin: 1rem auto;
  	font-size: 1.3rem;
 	line-height: 1.6;
 	/* change the line height in expansion 1.8 */
