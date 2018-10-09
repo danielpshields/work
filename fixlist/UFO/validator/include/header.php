@@ -27,6 +27,7 @@ $nameGivenShort    = "Alex";
 	<div class="container">
 		<header>
 			<h1>UF Online Acknowledgement Form</h1>
+
 			<nav>
 				<ul<?php if ($submitted == true) {echo " style=\"display: none;\"";	}?>>
 					<?php
@@ -35,17 +36,18 @@ $nameGivenShort    = "Alex";
 
 						foreach ($pages as $page) {
 							echo "<li>";
+
 							if ($page <= $thisPage) {
+
 								echo "<a ";
-								if ($page === $thisPage) {
-									echo "class=\"thisPage\" ";
-								}
+								if ($page === $thisPage) { echo "class=\"thisPage\" ";									}
 								echo "href=\"{$page}.php\">";
 							}
+
 							if ($page < $thisPage) {
 								echo "<img src=\"image/check.png\">";
 							} else {echo $page;}
-								echo "</a></li>";
+							echo "</a></li>";
 						}
 						?>
 					<div class="clear"></div>

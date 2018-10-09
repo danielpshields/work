@@ -2,7 +2,7 @@
     // GLID user information
 
 
-    //allows no file to be uploaded
+    //allows no file to be uploaded and the form to continue
     $yourDocument = "";
 
     //ensure the page was reached via the previous page
@@ -40,38 +40,28 @@
     $majorSelected = $_POST['majorSelected'];
 ?>
 
-<form action="7.php" method="post">
-
-  <div class="blue hightlightSlug">
+  <form action="7.php" method="post">
     <h2>Submit</h2>
-
     <p>This completes the acknowledgement form. Select the button below to submit and move on to the next step in the program change request.</p>
 
-    <p>You selected:</p>
     <ul>
-      <li><b><?php echo $majorSelected; ?></b> as your intended UF Online major.</li>
-    </ul>
+      <li>You selected:<br><b><?php echo $majorSelected; ?></b> as your intended UF Online major.</li>
 
-    <?php
+      <?php
+          foreach ($_FILES as $file => $secondArray) {
+            foreach ($secondArray as $key => $value) {
+              if ($key === "name" && $value !== "") {
+                if ($key === "name") { ?>
 
-    foreach ($_FILES as $file => $secondArray) {
-      foreach ($secondArray as $key => $value) {
-          if ($key === "name" && $value !== "") {
-            if ($key === "name") { ?>
 
-            <p>You submitted:  <b><?php echo "\"" . $value . "\""; ?></b> for review</p>
-
-    <?php
+                <li>You submitted:<br><b><?php echo "\"" . $value . "\""; ?></b> for review</li>
+          <?php }
+              }
             }
           }
-        }
-      }
-    ?>
-
-    <input class="mainSelect oneBox" id="finalSubmit" type="submit" name="submit" value="submit this information">
-
-  </div>
-
+      ?>
+    </ul>
+    <input type="submit" name="submit" value="submit this information">
 </form>
 
 

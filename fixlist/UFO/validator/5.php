@@ -28,7 +28,7 @@
           </select>
           <textarea required id="writtenResponse" name="writtenResponse" placeholder="Please explain why you are unable to remain in our current residential program."></textarea>
           <p>If you would like to upload any supporting documentation to email to an advisor:</p>
-          <input type="file" name="file" id="fileToUpload">
+          <input id="fileToUpload" type="file" name="file">
           <p class="tiny">file types: PNG, JPG, DOC</p>
           <input id="statementSubmit" class="mainSelect oneBox" type="submit" name="formFive" value="Submit">
         </form>
