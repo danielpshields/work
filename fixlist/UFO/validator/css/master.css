@@ -14,7 +14,9 @@ html {
 }
 
 body {
-  background: #5779b2;
+  background: #ffd8ad;
+  background: #ffe3c4;
+  background: #ffefdd;
   overflow-y: scroll;
 }
 
@@ -133,9 +135,9 @@ input:hover {
   cursor: pointer;
 }
 
-
 table {
   width: 100%;
+  max-width: 40.62rem;
   margin: auto;
   margin-top: 1.2rem;
   margin-bottom: 1.5rem;
@@ -162,6 +164,33 @@ td {
   color: #333;
 }
 
+td a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+td a:hover {
+  background: #ffd8ad;
+}
+
+#greenThankYouText {
+  color: #32CD32;
+  text-align: center;
+  font-style: italic;
+}
+
+#contactSection a, #contactSection a:visited {
+  color: #2A5DB0;
+}
+
+#contactSection a:hover {
+  color: #1b4891;
+}
+
+.displayNone {
+  display: none;
+}
 
 .clear {
   clear: both;

@@ -29,7 +29,7 @@ $nameGivenShort    = "Alex";
 			<h1>UF Online Acknowledgement Form</h1>
 
 			<nav>
-				<ul<?php if ($submitted == true) {echo " style=\"display: none;\"";	}?>>
+				<ul<?php if ($submitted == true) {echo " style=\"display: none;\"";	} ?>>
 					<?php
 
 						$pages = array("1", "2", "3", "4", "5");
@@ -52,6 +52,9 @@ $nameGivenShort    = "Alex";
 						?>
 					<div class="clear"></div>
 				</ul>
+				<?php if ($submitted == true) { ?>
+						<p id="greenThankYouText">Thank you for submitting the form!</p>
+				<?php } ?>
 			</nav>
 		</header>
 		<div class="content">

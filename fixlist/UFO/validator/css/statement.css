@@ -9,11 +9,11 @@
 
 #writtenResponse {
     width: 84%;
-    max-width: 550px;
+    /* max-width: 550px; */
     display: block;
     margin: auto;
     margin-bottom: 1.3rem;
-    text-align: top;
+    /* text-align: top; */
     border: 1px solid gray;
     font-size: 1.3rem;
     padding: .5rem .7rem 1.3rem .7rem;

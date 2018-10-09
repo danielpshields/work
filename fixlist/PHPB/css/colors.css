@@ -1,23 +1,26 @@
-.background {
+background, color {
 
   /* blue */
-  background: #32425b; /* dark blue */
-  background: #405475; /* pale dark blue */
-  background: #478af7; /* original blue */
-  background: #394963; /* soft dark blue */
-  #5779b2 passive blue
-
-  #2A5DB0  google links
-  #2200CC  google live
-
-
-  color: #77abff; /* pale blue core feature list */
+  #32425b; /* dark blue */
+  #405475; /* pale dark blue */
+  #478af7; /* original blue */
+  #394963; /* soft dark blue */
+  #77abff; /* pale blue core feature list */
+  #5779b2 /* passive blue */
+  #2A5DB0 /* google links */
+  #2200CC /* google live */
+  #0021A5 /* gator blue */
 
   /* orange */
-  background: #ffd8ad;
-  background: #E28F41; /* UF - Pale Orange */
+  #FA4616; /* gator orange */
+  #ffd8ad; /* light orange */
+  #E28F41; /* UF - Pale Orange */
+
+  /* green  */
+  #32CD32;
 
   /* gray */
-  background: #d0d0d0;
+  #d0d0d0;
+
 
 }
