@@ -15,7 +15,33 @@
     $page = "submit";
     // page's header
     require_once("include/header.php");
+
+    require("include/contactForm.php");
+
+    $formproc = new FGContactForm();
+
+    //1. Add your email address here. You can add more than one receipient.
+    $formproc->AddRecipient('acatalano2@ufl.edu'); //<<---Put your email address here
+
+    //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
+    // and put it here
+    $formproc->SetFormRandomKey('xdvgMTQYvH3VfOm');
+
+    //3. Identify the types and size of file allowed for sending
+    $formproc->AddFileUploadField('file','jpg,gif,pdf,docx,png',220024);
+
+    if(isset($_POST['formFive']))
+    {
+       if($formproc->ProcessForm())
+       {
+            $formproc->RedirectToURL("7.php");
+       }
+    }
+
     $majorSelected = $_POST['majorSelected'];
+    $writtenResponse = $_POST['writtenResponse'];
+    $writtenResponse = htmlspecialchars($writtenResponse, ENT_QUOTES);
+
 ?>
 
 
@@ -23,10 +49,7 @@
       <h2>Submit</h2>
       <p>This completes the acknowledgement form. Select the button below to submit and move on to the next step in the program change request.</p>
 
-      <?php
-        $majorSelected = $_POST['majorSelected'];
-        $writtenResponse = $_POST['writtenResponse'];
-      ?>
+
       <ul>
         <li>You selected:<br><b><?php echo $majorSelected; ?></b> as your intended UF Online major.</li>
 

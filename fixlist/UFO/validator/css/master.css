@@ -186,6 +186,7 @@ td a:hover {
 
 #contactSection a:hover {
   color: #1b4891;
+  text-decoration: none;
 }
 
 .displayNone {
