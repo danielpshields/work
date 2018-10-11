@@ -8,16 +8,16 @@
   // }
 
   // database connection variables
-  $dbhost = "localhost";
-  $dbuser = "root";
-  $dbpassword = "";
-  $dbname = "ufovalidator";
-  $connection = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
-
-  //check if the database is able to connect
-  if (mysqli_connect_error()) {
-    die("Database connection failed" . mysqli_connect_error() . " (" . mysqli_connect_errno() . ")");
-  }
+  // $dbhost = "localhost";
+  // $dbuser = "root";
+  // $dbpassword = "";
+  // $dbname = "ufovalidator";
+  // $connection = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
+  //
+  // //check if the database is able to connect
+  // if (mysqli_connect_error()) {
+  //   die("Database connection failed" . mysqli_connect_error() . " (" . mysqli_connect_errno() . ")");
+  // }
 
   //temporary hard-coded values to submit to database:
   $glid = "4081-1353";

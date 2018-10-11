@@ -1,16 +1,5 @@
 <?php
-// $UFID         = $_SERVER['HTTP_UFSHIB_UFID'];
-// $date_auto    = date("Y-m-d H:i:s");
-// $nameBusiness = $_SERVER['HTTP_UFSHIB_BUSINESSNAME'];
-// $email        = $_SERVER['HTTP_UFSHIB_MAIL'];
-// $nameGiven    = $_SERVER['HTTP_UFSHIB_GIVENNAME']." ".$_SERVER['HTTP_UFSHIB_SN'];
-// $nameGivenShort    = $_SERVER['HTTP_UFSHIB_GIVENNAME'];
-$UFID              = "Alex";
-$date_auto         = "Alex";
-$nameBusiness      = "Alex";
-$email             = "Alex";
-$nameGiven         = "Alex";
-$nameGivenShort    = "Alex";
+	require("include/glid.php");
 	$acknowledge = "I acknowledge this";
 ?>
 <!DOCTYPE html>
@@ -22,6 +11,9 @@ $nameGivenShort    = "Alex";
 	<link rel="stylesheet" href="css/master.css">
 	<link rel="stylesheet" href="css/<?php echo $page; ?>.css">
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+	<!--PING A FILE TO KEEP THE PAGE ALIVE-->
+	<script type="text/javascript" src="scripts/email.js"></script>
 </head>
 <body>
 	<div class="container">

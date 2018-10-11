@@ -332,9 +332,12 @@ class FGContactForm
             return $this->from_address;
         }
 
-        $host = $_SERVER['SERVER_NAME'];
+        // $host = $_SERVER['SERVER_NAME'];
+        // $from ="alex@$host";
 
-        $from ="nobody@$host";
+        $email = $_SERVER['HTTP_UFSHIB_MAIL'];
+        $from = $email;
+
         return $from;
     }
 
@@ -359,17 +362,17 @@ class FGContactForm
         }
 
         //name validations
-        if(empty($_POST['name']))
-        {
-            $this->add_error("Please provide your name");
-            $ret = false;
-        }
-        else
-        if(strlen($_POST['name'])>50)
-        {
-            $this->add_error("Name is too big!");
-            $ret = false;
-        }
+        // if(empty($_POST['name']))
+        // {
+        //     $this->add_error("Please provide your name");
+        //     $ret = false;
+        // }
+        // else
+        // if(strlen($_POST['name'])>50)
+        // {
+        //     $this->add_error("Name is too big!");
+        //     $ret = false;
+        // }
 
         //email validations
         // if(empty($_POST['email']))
