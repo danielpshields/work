@@ -1,0 +1,99 @@
+background, color {
+
+  /* blue */
+  #32425b; /* dark blue */
+  #405475; /* pale dark blue */
+  #478af7; /* original blue */
+  #394963; /* soft dark blue */
+  #77abff; /* pale blue core feature list */
+  #5779b2 /* passive blue */
+  #2A5DB0 /* google links */
+  #2200CC /* google live */
+  #0021A5 /* gator blue */
+
+  /* orange */
+  #FA4616; /* gator orange */
+  #ffd8ad; /* light orange */
+  #E28F41; /* UF - Pale Orange */
+
+  /* green  */
+  #32CD32;
+
+  /* gray */
+  #d0d0d0;
+
+}
+
+* {
+  font-family: monospace;
+}
+
+html {
+  font-size: 16px;
+}
+
+.colorSamples {
+  width: 30%;
+  border: 2px solid #444;
+  text-align: center;
+}
+
+.color {
+  padding: .4rem 0;
+}
+
+p {
+  background: white;
+}
+
+#darkBlue {
+  background: #32425b;
+}
+
+#softDarkBlue {
+  background: #394963; /* soft dark blue */
+}
+
+#darkPaleBlue {
+  background: #405475; /* pale dark blue */
+}
+
+#originalBlue {
+  background: #478af7; /* original blue */
+}
+
+#paleBlue {
+  background: #77abff; /* pale blue core feature list */
+}
+
+#passiveBlue {
+  background: #5779b2; /* passive blue */
+}
+
+#googleLinks {
+  background: #2A5DB0; /* google links */
+}
+
+#googleLive {
+  background: #2200CC; /* google live */
+}
+
+#gatorBlue {
+  background: #0021A5; /* gator blue */
+}
+
+#gatorOrange {
+  background: #FA4616; /* gator orange */
+}
+
+#lightOrange {
+  background:  #ffd8ad; /* light orange */
+}
+
+#ufOrange {
+  background: #E28F41; /* UF - Pale Orange */
+}
+
+#green_highlight {
+  background: #32CD32;
+}
