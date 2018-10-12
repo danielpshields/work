@@ -6,18 +6,21 @@ background, color {
   #478af7; /* original blue */
   #394963; /* soft dark blue */
   #77abff; /* pale blue core feature list */
-  #5779b2 /* passive blue */
-  #2A5DB0 /* google links */
-  #2200CC /* google live */
-  #0021A5 /* gator blue */
+  #5779b2; /* passive blue */
+  #2A5DB0; /* google links */
+  #00529b; /* gator web blue with color: white; */
+  #2200CC; /* google live */
+  #0021A5; /* gator blue */
 
   /* orange */
   #FA4616; /* gator orange */
+  #bc581a; /* gator web orange with color: white */
   #ffd8ad; /* light orange */
   #E28F41; /* UF - Pale Orange */
 
   /* green  */
-  #32CD32;
+  #32CD32; /* green_highlight */
+  #77c359; /* green_instagram */
 
   /* gray */
   #d0d0d0;
@@ -96,4 +99,16 @@ p {
 
 #green_highlight {
   background: #32CD32;
+}
+
+#green_instagram {
+  background: #77c359;
+}
+
+#blue_gatorWeb {
+  background: #00529b; /* gator web blue with color: white; */
+}
+
+#orange_gatorWeb {
+  background: #bc581a; /* gator web orange with color: white */
 }

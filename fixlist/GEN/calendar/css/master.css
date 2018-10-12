@@ -1,0 +1,87 @@
+html {
+  color: #444;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: #333;
+}
+
+.clear {
+  clear: both;
+}
+
+.intendedLink {
+  color: #32CD32;
+}
+
+.role {
+  color: #b53636; /*dark pale red */
+  color: #f70e0e; /* bright red; */
+  font-weight: bold;
+}
+
+.date {
+  color: #8e37b7;
+  font-weight: bold;
+}
+
+.metric {
+  color: #478af7;
+  font-weight: bold;
+}
+
+.location {
+  color: blue;
+}
+
+.question {
+  border: 1px solid #333;
+}
+
+h1 {
+  float: left;
+}
+
+.colorPalette {
+  float: left;
+  border: 2px solid #555;
+  text-align: center;
+  margin-left: 16px;
+}
+
+.colorPalette p {
+  margin: 0;
+  padding: 5px;
+  font-size: 8px;
+}
+
+.white {
+  color: white;
+}
+
+
+#peopleColor {
+  background: #f70e0e;
+  color: white;
+}
+
+#intendedLinkColor {
+  background: #32CD32;
+  /* color: white; */
+}
+
+#dateColor {
+  background: #8e37b7;
+  color: white;
+}
+
+#metricColor {
+  background: #478af7;
+  color: white;
+}
+
+#locationColor {
+  background: blue;
+  color: white;
+}

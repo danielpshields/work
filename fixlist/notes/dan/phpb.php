@@ -16,3 +16,8 @@ A-man, here are some thoughts on the PHPB site:
 •	Is there anything about the site management that should be added to our task calendar?
 
 I’m sure I’m missing something. 
+
+- http://identity.ufl.edu/web/
+
+- fonts
+- web-specific colors

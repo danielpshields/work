@@ -3,129 +3,170 @@
   <head>
     <meta charset="utf-8">
     <title>AAC Calendar</title>
+    <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
 
-    Academic Advising Center
-    Tech Calendar
+    <h1>Academic Advising Center &#124; Tech Calendar</h1>
+    <div class="colorPalette">
+      <p id="peopleColor">role</p>
+      <p id="intendedLinkColor">doc</p>
+      <p id="dateColor">date</p>
+      <p id="metricColor">metric</p>
+      <p id="locationColor">location</p>
+    </div>
+    <div class="clear">
+
+    </div>
+
+    <p><i>Draft: 10/5/2018 (DS)</i></p>
+    <p><i>Draft: 10/12/2018 (AC)</i></p>
+
+    <h2>AAC web team</h2>
+    <h3>recurring tasks</h3>
+    <h4>Days</h4>
+
+    <h5>Mondays</h5>
+
+    <ul>
+      <li>evaluation email</li>
+      <ol>
+        <li>Gather info from the Sign in management console</li>
+        <li>Insert into acadvise.evaluation_emails</li>
+        <li>Activate <i>/emailscripts/sendeval.php</i></li>
+      </ol>
+      <p>This process *may* become automated in the next year or so (2019?)</p>
+      <li>Send Joe’s newsletter</li>
+      <p>Process is <a class="intendedLink" href="#">documented</a></p>
+      <li>Check home page banner for updates</li>
+    </ul>
+
+    <h5>Thursdays</h5>
+
+    <ul>
+      <li>Joe’s News and Notes email</li>
+      <ol>
+        <li>to send following week.</li>
+        <li>deploy &#124; <a class="role" href="#">Shannon</a></li>
+      </ol>
+    </ul>
+
+    <h3>General</h3>
+
+    <ul>
+      <li>upcoming AAC events</li>
+      <li>workshops</li>
+      <li>tablings</li>
+    </ul>
+
+    <h3>Communications</h3>
+    <ul>
+      <li>tweet</li>
+      <li>post</li>
+    </ul>
+
+
+    <h4>Semester</h4>
+
+    <ul>
+      <li><a class="intendedLink" href="#">Dean's List</a> Data</li>
+      <ol>
+        <li>get previous semester's data &#124; <a class="role" href="#">Tim</a></li>
+        <li>deploy:</li>
+        <ul>
+          <li><a class="date">September</a> (<i>spring &amp; summer</i>)</li>
+          <li><a class="date">January</a> (<i>fall</i>)</li>
+        </ul>
+        <li><a class="metric" href="#">Metric</a> staffing is sufficient to handle the influx of students &#124; <a class="role">Trina</a></li>
+      </ol>
+
+
+      <li>Transfer page</li>
+      <ol>
+        <li>updates &#124; <a class="role">Lou</a></li>
+        <li>Transfer chats (info) &#124; <a class="role" href="">Lou</a>
+      </ol>
+    </ul>
+
+    <h4>Monthly</h4>
+
+    <h5>August</h5>
+
+      <ul>
+        <li>Fall Dean’s Medal Proposal</a></li>
+        <ol>
+          <li>Propose plan &#124; [<a class="role" href="#">Dan</a>, <a class="role" href="#">Joe</a>]</li>
+        </ol>
+        <li>Dean’s Medal Site</li>
+        <ol>
+          <li>update Site (<i>/<a href="#">CLAS</i></a>)</li>
+          <li>update Form (<i>/<a href="#">deansmedal</i></a>)</li>
+          <li>deploy:</li>
+          <ul>
+            <li>Open Dean’s Medal form. [<a class="role" href="">AAC staff reviewer</a>, <a class="role" href="">advisors</a>, <a class="role" href="">Joe</a>]</li>
+          </ul>
+        </ol>
+      </ul>
+
+    <h5>September</h5>
 
-    Draft: 10/5/2018
+    <ul>
+      <li>Anderson Scholars data | <a class="role" href="">Tim</a></li>
+    </ul>
 
-    Summary
 
-    An attempt at a calendar for all the recurring tasks of the AAC web team
 
+    <h5>October</h5>
 
+    <ul>
+      <li>Preview</li>
+      <ol>
+        <li>Updates | <a class="role" href="#">Preview team</a></li>
+      </ol>
 
-    Mondays
+    <li>Anderson Scholars</li>
+     <ol>
+       <li>Propose calendar | <a class="role" href="#">Joe</a></li>
+       <li>Update Site (<a class="locationColor">CLAS</a>)</li>
+       <li>Deploy</li>
+       <ul>
+         <li>Award and Faculty Nomination email</li>
+       </ul>
+     </ol>
 
-    Send evaluation email:
+    <h5>November</h5>
 
-    Gather info from the Sign in management console.
+    <ul>
+      <li>Preview Advisor Application</li>
+      <ol>
+        <li>updates | <a class="role" href="#">Sara Mock</a></li>
+      </ol>
+      <p>opens in February</p>
+      <li>Anderson Scholars reminder email</li>
+      <p class="question">When form closes, send <a class="role" href="#">Joe</a> multiply-nominated faculty names.</p>
+      <p class="question">When Joe emails them, then send the other faculty emails in his name.</p>
+    </ul>
 
-    Insert into acadvise.evaluation_emails.
+    <h5>December</h5>
 
-    Activate /emailscripts/sendeval.php
+    <ul>
+      <li>Dean’s Medal</li>
+      <ol>
+        <li>Propose Plan | <a class="role" href="#">Joe</a></li>
+        <p>This may seem early, but Drop/Add starts RIGHT after the break</p>
+        <li>Update Site (<a class="location">CLAS</a>)</li>
+        <li>Update form (/<a class="location" href="">deansmedal</a>)
+        <li>Open Dean’s Medal form. Notify <a class="role" href="">AAC staff reviewer</a> and <a class="role" href="">advisors</a> and <a class="role" href="#">Joe</a></li>
+      </ol>
 
-    This process *may* become automated in the next year or so (2019?).
+      <!-- note -->
+      <!-- left off at Open Dean's Medal Form 181012 5:02 p.m. -->
 
-    Send Joe’s newsletter
 
-    Process is documented
 
-    Check home page banner for updates.
+    <h5>January</h5>
 
-
-
-    Thursdays
-
-    Begin assembling Joe’s News and Notes email to send following week. Send to Shannon when completed.
-
-
-
-    Weekly
-
-
-
-    Monthly
-
-    Check for upcoming AAC events, workshops, tablings, etc. to tweet, post.
-
-
-
-    Semester Start
-
-    Ask Tim for Dean’s List data for previous semester.
-
-    Dean’s List is sent in September for Spring and Summer; January for Fall.
-
-    Check with Trina that staffing is sufficient to handle the influx of students
-
-    Send the emails.
-
-    Lou will have updates for Transfer page.
-
-    Lou will also have new chat info for Transfer chats.
-
-
-
-    Semester End
-
-
-
-    August
-
-    Propose Fall Dean’s Medal plan to Joe.
-
-    Update Dean’s Medal site (on CLAS) and the form (in /deansmedal)
-
-    Open Dean’s Medal form. Notify AAC staff reviewer and advisors and Joe.
-
-
-
-    September
-
-    Ask Tim for Anderson Scholars data.
-
-
-
-    October
-
-    Begin asking Preview team for possible updates for following year.
-
-    Propose Anderson Scholars calendar to Joe.
-
-    Update Anderson Scholars website (on CLAS)
-
-    Send Anderson Scholars award and faculty nomination email.
-
-
-
-    November
-
-    Ping Sara Mock for updates to the Preview Advisor Application, which opens in February.
-
-    Send Anderson Scholars reminder email.
-
-    When form closes, send Joe multiply-nominated faculty names.
-
-    When Joe emails them, then send the other faculty emails in his name.
-
-
-
-    December
-
-    Propose Spring Dean’s Medal plan to Joe. This may seem early, but Drop/Add starts RIGHT after the break.
-
-    Update Dean’s Medal site (on CLAS) and the form (in /deansmedal)
-
-    Open Dean’s Medal form. Notify AAC staff reviewer and advisors and Joe.
-
-
-
-    January
-
-    Ask Tim for Dean’s List, check with Trina, and send for Fall students.
+    Ask <a class="role" href="#">Tim</a> for Dean’s List, check with <a class="role" href="#">Trina</a>, and send for Fall students.
 
     Ping Business Services Division for any updates
 
@@ -137,7 +178,7 @@
 
 
 
-    February
+    <h5>February</h5>
 
     Make Preview Advisor Application live.
 
@@ -155,19 +196,19 @@
 
 
 
-    April
+    <h5>April</h5>
 
     Prep goes live around the 15th
 
-    Propose Summer Dean’s Medal plan to Joe.
+    Propose Summer Dean’s Medal plan to <a class="role" href="#">Joe</a>.
 
     Update Dean’s Medal site (on CLAS) and the form (in /deansmedal)
 
-    Open Dean’s Medal form. Notify AAC staff reviewer and advisors and Joe.
+    Open Dean’s Medal form. Notify AAC staff reviewer and <a class="role" href="#">advisors</a> and <a class="role" href="#">Joe</a>.
 
 
 
-    May
+    <h5>May</h5>
 
     Finalize changes to Preview Prep Sheets.
 
@@ -179,13 +220,13 @@
 
 
 
-    June – August
+    <h5>June through August</h5>
 
     Preview Prep Sheets
 
 
 
-    Recurring
+    <h4>Recurring</h4>
 
     Updates to home page banner images
 
@@ -202,7 +243,7 @@
     Updates to
 
 
-    Alex's Concerns:
+    <a class="role" href="#">Alex</a>'s Concerns:
 
     •	Pre-Health Postbac
     •	UF Online
