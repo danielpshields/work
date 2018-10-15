@@ -8,6 +8,11 @@
         <h2>2018</h2>
 
         <h4>October</h4>
+        <h5>Week 22</h5>
+        <ul>
+          <li><a href="ln/18/10/15.html">181015</a></li>  
+        </ul>
+
         <h5>Week 21</h5>
         <ul>
           <li><a href="ln/18/10/14.html">181014</a></li>

@@ -11,8 +11,9 @@ h2 {
   clear: both;
 }
 
-.intendedLink {
+.doc {
   color: #32CD32;
+  font-weight: bold;
 }
 
 .role {
@@ -36,7 +37,8 @@ h2 {
 }
 
 .question {
-  border: 1px solid #333;
+  color: #e8e233;
+  background: black;
 }
 
 h1 {
@@ -66,7 +68,7 @@ h1 {
   color: white;
 }
 
-#intendedLinkColor {
+#docColor {
   background: #32CD32;
   /* color: white; */
 }
@@ -84,4 +86,9 @@ h1 {
 #locationColor {
   background: blue;
   color: white;
+}
+
+#questionColor {
+  background: #e8e233;
+  color: black;
 }
