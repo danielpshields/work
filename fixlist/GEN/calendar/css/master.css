@@ -3,6 +3,11 @@ html {
   font-family: sans-serif;
 }
 
+body {
+  width: 900px;
+  margin: auto;
+}
+
 h2 {
   color: #333;
 }
@@ -41,21 +46,19 @@ h2 {
   background: black;
 }
 
-h1 {
-  float: left;
-}
-
 .colorPalette {
-  float: left;
   border: 2px solid #555;
   text-align: center;
-  margin-left: 16px;
+  /* margin-left: 16px; */
+  width: 100%;
 }
 
 .colorPalette p {
   margin: 0;
-  padding: 5px;
-  font-size: 8px;
+  padding: .2rem 0;
+  font-size: .5rem;
+  width: 16.66%;
+  float: left;
 }
 
 .white {
@@ -89,6 +92,6 @@ h1 {
 }
 
 #questionColor {
-  background: #e8e233;
-  color: black;
+  background: black;
+  color: #e8e233;
 }
