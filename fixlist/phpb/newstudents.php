@@ -29,7 +29,7 @@
 
   <!-- <img src="images/workshops.jpg" class="workshops" alt="Students Studying" title="Students Studying"/> -->
   <ol>
-    <li>Please be certain to establish your Gatorlink account by reading the <a href="http://www.admissions.ufl.edu/aboutoneuf.html">instructions</a>. </li>
+    <li>Please be certain to establish your Gatorlink account by reading the <a href="http://identity.it.ufl.edu/process/gatorlink/create-account/" target="_blank">instructions</a>. </li>
     <li><strong>An academic plan will be sent to you individually</strong>. Please review it, sign it and return it to the PHPB Coordinator via email within five days of receipt.</li>
     <li>Complete your FAFSA for UF Student Financial Aid (SFA).  There is possible access to federal loans <strong>during the first year only</strong>.  These do not cover full tuition.  Any remaining tuition is out of pocket or private loans.  Speak with UF SFA about your needs.  You will need to tell them you are coded as LS-IDS-HPB and you are a post-bac student completing the pre-requisite courses for admission to professional graduate school. Once the cohort is complete the PHPB Coordinator will be sending SFA a final list of everyone in the cohort so they will have the information. </li>
     <li>Each semester you will be registered for your courses by the PHPB Program Coordinator. Your courses will be in section separate from undergraduate students and you do not need to be concerned about seat availability. </li><li>Classes begin August 22, 2018. See "<a href="https://catalog.ufl.edu/ugrad/current/Pages/dates-and-deadlines.aspx">Dates and Deadlines</a>" for more information. </li>

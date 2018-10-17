@@ -7,6 +7,14 @@
 	display: block;
 }
 
+#mobileFeatures h4 a {
+	text-decoration: underline;
+}
+
+#mobileFeatures h4 a:hover {
+	text-decoration: none;
+}
+
 .mobileCoreFeatures {
 	margin-top: 1rem;
 }
@@ -72,6 +80,15 @@
 	#desktopFeatures {
 		display: block;
 	}
+
+	#desktopFeatures h4 a {
+		text-decoration: underline;
+	}
+
+	#desktopFeatures h4 a:hover {
+		text-decoration: none;
+	}
+
 
 	/* features features features features features  */
 

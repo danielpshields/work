@@ -7,7 +7,7 @@ include ("include/fgcontactform.php");
 $formproc = new FGContactForm();
 
 //1. Add your email address here. You can add more than one receipient.
-$formproc->AddRecipient('CLASUFO@advising.ufl.edu'); //<<---Put your email address here
+$formproc->AddRecipient('acatalano2@ufl.edu'); //<<---Put your email address here
 
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
 // and put it here

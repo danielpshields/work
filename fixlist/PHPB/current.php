@@ -69,9 +69,9 @@
               <li><a href="https://www.advising.ufl.edu/pre-health/" target="_blank">Academics</a></li>
               <li><a href="https://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/research/" target="_blank">Research</a></li>
               <li><a href="https://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/shadowing/" target="_blank">Shadowing</a></li>
-              <li><a href="https://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/volunteer-resources/" target="_blank">Healthcare Experience</a></li>
               <li><a href="https://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/volunteer-resources/" target="_blank">Community Service (non-clinical)</a></li>
               <li><a href="https://www.advising.ufl.edu/docs/AAMCCoreCompetencies.pdf" target="_blank">Professional Competencies (PDF)</a></li>
+              <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/volunteer-resources/" target="_blank">Volunteer Resources</a></li>
             </ul>
           </div><!-- resource links -->
           <div class="resourceLinks">
@@ -84,11 +84,10 @@
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/leadership-resources/" target="_blank">Leadership Resources</a></li>
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/letter-of-recommendation-resources/" target="_blank">Letter of Recommendation Resources</a></li>
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/professional-organizations/" target="_blank">Professional Organizations</a></li>
-              <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/research/" target="_blank">Research</a></li>
-              <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/shadowing/" target="_blank">Shadowing</a></li>
+
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/summer-opportunities/" target="_blank">Summer Opportunities</a></li>
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/test-preparation-resources/" target="_blank">Test Preparation Resources</a></li>
-              <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/volunteer-resources/" target="_blank">Volunteer Resources</a></li>
+
             </ul>
           </div><!-- resource links -->
         </div><!-- resources -->
