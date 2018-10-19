@@ -380,8 +380,9 @@ td {
 	/* text-decoration: none; */
 }
 
-#apply a:hover {
+#apply:hover {
 	color: #f0f0f0;
+	background: linear-gradient(#51a9ee,#147bcd);
 }
 
 #apply a:active {
