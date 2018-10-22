@@ -44,6 +44,10 @@ p {
   margin-bottom: 1rem;
 }
 
+#push {
+  margin-top: 2rem;
+}
+
 footer {
   border-top: 1px solid #737373;
   margin-top: 2rem;

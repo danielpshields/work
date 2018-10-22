@@ -1,13 +1,17 @@
 <?php
+  // where should the form's information go?
+  $emailThisTo = "acatalano2@ufl.edu";
+  // then, after submitting:
+  $redirectTo = "thank-you.php";
 
   $date_auto = date("Y-m-d H:i:s");
   $name=$_SERVER["HTTP_UFSHIB_BUSINESSNAME"];
-  include ("include/fgcontactform.php");
+  include ("include/editSender.php");
 
   $formproc = new FGContactForm();
 
   //1. Add your email address here. You can add more than one receipient.
-  $formproc->AddRecipient('acatalano2@ufl.edu', 'alex.catalano2@gmail.com'); //<<---Put your email address here
+  $formproc->AddRecipient($emailThisTo); //<<---Put your email address here
 
   //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
   // and put it here
@@ -20,7 +24,7 @@
   {
      if($formproc->ProcessForm())
      {
-          $formproc->RedirectToURL("thank-you.php");
+          $formproc->RedirectToURL($redirectTo);
      }
   }
 

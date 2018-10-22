@@ -12,7 +12,7 @@ PARTICULAR PURPOSE.
 
 @copyright html-form-guide.com 2010
 */
-require_once("class.phpmailer.php");
+require_once("include/mailEngine.php");
 
 /*
 Interface to Captcha handler
@@ -332,11 +332,15 @@ class FGContactForm
             return $this->from_address;
         }
 
-        // $host = $_SERVER['SERVER_NAME'];
+
         // $from ="alex@$host";
 
-        $email = $_SERVER['HTTP_UFSHIB_MAIL'];
-        $from = $email;
+        // $email = $_SERVER['HTTP_UFSHIB_MAIL'];
+        // $from = $email;
+
+
+        $host = $_SERVER['SERVER_NAME'];
+        $from = $host;
 
         return $from;
     }
@@ -361,37 +365,37 @@ class FGContactForm
             $ret = false;
         }
 
-        //name validations
-        // if(empty($_POST['name']))
-        // {
-        //     $this->add_error("Please provide your name");
-        //     $ret = false;
-        // }
-        // else
-        // if(strlen($_POST['name'])>50)
-        // {
-        //     $this->add_error("Name is too big!");
-        //     $ret = false;
-        // }
+        // name validations
+        if(empty($_POST['name']))
+        {
+            $this->add_error("Please provide your name");
+            $ret = false;
+        }
+        else
+        if(strlen($_POST['name'])>50)
+        {
+            $this->add_error("Name is too big!");
+            $ret = false;
+        }
 
-        //email validations
-        // if(empty($_POST['email']))
-        // {
-        //     $this->add_error("Please provide your email address");
-        //     $ret = false;
-        // }
-        // else
-        // if(strlen($_POST['email'])>50)
-        // {
-        //     $this->add_error("Email address is too big!");
-        //     $ret = false;
-        // }
-        // else
-        // if(!$this->validate_email($_POST['email']))
-        // {
-        //     $this->add_error("Please provide a valid email address");
-        //     $ret = false;
-        // }
+        // email validations
+        if(empty($_POST['email']))
+        {
+            $this->add_error("Please provide your email address");
+            $ret = false;
+        }
+        else
+        if(strlen($_POST['email'])>50)
+        {
+            $this->add_error("Email address is too big!");
+            $ret = false;
+        }
+        else
+        if(!$this->validate_email($_POST['email']))
+        {
+            $this->add_error("Please provide a valid email address");
+            $ret = false;
+        }
 
         //message validaions
         if(strlen($_POST['message'])>2048)
