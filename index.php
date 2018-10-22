@@ -8,9 +8,18 @@
         <h2>2018</h2>
 
         <h4>October</h4>
+        <h5>Week 23</h5>
+        <ul>
+          <li><a href="ln/18/10/22.html">181022</a></li>  
+        </ul>
+
         <h5>Week 22</h5>
         <ul>
-          <li><a href="ln/18/10/19.html">181019</a></li>  
+          <li><a href="ln/18/10/21.html">181021</a></li>
+          <li><a href="ln/18/10/20.html">181020</a></li>
+        </ul>
+        <ul>
+          <li><a href="ln/18/10/19.html">181019</a></li>
           <li><a href="ln/18/10/18.html">181018</a></li>
           <li><a href="ln/18/10/17.html">181017</a></li>
           <li><a href="ln/18/10/16.html">181016</a></li>
@@ -124,6 +133,7 @@
           <li><a href="ln/18/08/21.html">180821</a></li>
           <li><a href="ln/18/08/20.html">180820</a></li>
         </ul>
+
         <h5>Week 13</h5>
         <ul>
           <li><a href="ln/18/08/19.html">180819</a></li>
