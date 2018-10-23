@@ -1,14 +1,12 @@
-* {
+html {
+  background: gray;
+}
+
+body {
+  background: blue;
   margin: auto;
 }
 
-section {
-  outline-color: gray;
-  outline-width: 1px;
-  outline-style: solid;
-}
-
-p {
-  margin-top: 115px;
-  border: 1px solid blue;
+#content {
+  background: pink;
 }
