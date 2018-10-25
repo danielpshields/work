@@ -5,16 +5,16 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>UF Online Dashboard | Academic Advising Center | UF</title>
 	<link rel="stylesheet" href="css/master.css">
-	<link rel="icon" href="favicon.png" >
+	<link rel="icon" href="image/favicon.png" >
 </head>
 <body>
 	<header>
 		<h1><a href="index.php">UF Online Dashboard</a></h1>
 		<nav>
 			<ul>
-				<li><a href="#">minutes</a></li>
-				<li><a href="#">articles</a></li>
-				<li><a href="#">resources</a></li>
+				<li><a href="minutes.php">minutes</a></li>
+				<li><a href="articles.php">articles</a></li>
+				<li><a href="resources.php">resources</a></li>
 				<div class="clear"></div>
 			</ul>
 		</nav>
@@ -53,9 +53,6 @@
 		<li><a href="docs/tuition.pdf" target="_blank">Tuition, Repeat Surcharge, and Excess Hours</a> (PDF, 89 KB)</li>
 	</ul>
 
-	<?php include_once("include/minutes.php"); ?>
-	<?php include_once("include/articles.php"); ?>
-	<?php include_once("include/resources.php"); ?>
 
 	<h2>The UF Online Team</h2>
 	<ul>
