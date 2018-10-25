@@ -1,4 +1,48 @@
-/* * {
+/*
+#00529b; blue
+#dd661e; orange;
+#ff4a00; h2 orange
+
+f36e21 h3 orange
+f37021 h3 orange
+
+*/
+
+* {
   margin: 0;
   padding: 0;
-} */
+}
+
+html {
+  font-size: 16px;
+  font-family: "quadon", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  background: #00529b;
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  background: gray;
+}
+
+header ul li {
+  float: left;
+  width: 33%;
+  list-style: none;
+}
+
+header a {
+  color: white;
+}
+
+h1, #headerImg {
+  background: #dd661e;
+}
+
+
+.clear {
+  clear: both;
+}
