@@ -18,16 +18,22 @@
       - edit the types of files submitted
 
     3. "includes/editSender.php":
-      - line 336, edit the form's sumbitter
-      - Validations: line 348, edit validation requirements
 
-      - edit the email contents and style
-      - style line 284
+      - edit: Subject
+      - line 178
 
-      - edit Subject: line 178
+      - edit: contents and style
+      - line 284
+
+      - edit: sender
+      - line 336
+
+      - edit: validations
+      - line 348
 
     4. "includes/mailEngine.php":
       - code that sends the email
+      - See raw code in the email "alex alex alex"
 
 */
 
@@ -38,14 +44,18 @@
   <?php $color = "blue"; ?>
   <form action='<?php echo $formproc->GetSelfScript(); ?>' method='post' enctype="multipart/form-data" accept-charset='UTF-8'>
 
-    <!-- <input type="text" name="color" value="blue"> -->
-    <select required name="color">
-      <option disabled selected value="">Please select a color</option>
-      <option value="blue">blue</option>
-      <option value="red">red</option>
-      <option value="gray">gray</option>
-      <option value="green">green</option>
+    <select required name="major">
+      <option disabled selected value="">Please select a major</option>
+      <option value="anthropology">Anthropology</option>
+      <option value="biology">Biology</option>
+      <option value="computerScience">Computer science</option>
+      <option value="criminology">Criminology</option>
+      <option value="geography">Geography</option>
+      <option value="geology">Geology</option>
+      <option value="psychology">Psychology</option>
+      <option value="sociology">Sociology</option>
     </select>
+
 
     <br>
     <br>

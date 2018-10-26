@@ -177,23 +177,10 @@ class FGContactForm
 
 
         foreach ($_POST as $key => $value) {
-
-          $majors = array (
-            "anthropology"    => "laura",
-            "biology"         => "dylan",
-            "computerScience" => "fallen",
-            "criminology"     => "laura",
-            "geography"       => "dylan",
-            "geology"         => "dylan",
-            "psychology"      => "fallen",
-            "sociology"       => "nicole"
-          );
-
-          $selectedMajor = $_POST['major'];
-          $advisor = $majors[$selectedMajor];
+          $color = $_POST['color'];
         }
 
-        $this->mailer->Subject =  "To: " . ucfirst($advisor) . " | Contact form submission from $this->name";
+        $this->mailer->Subject =  "Code: " . ucfirst($color) . " | Contact form submission from $this->name";
         // $this->mailer->Subject = "To" . $color . "Contact form submission from $this->name";
 
         $this->mailer->From = $this->GetFromAddress();
@@ -307,30 +294,18 @@ class FGContactForm
 
         foreach ($_POST as $key => $value) {
 
-          $majors = array (
-            "anthropology"    => "laura",
-            "biology"         => "dylan",
-            "computerScience" => "fallen",
-            "criminology"     => "laura",
-            "geography"       => "dylan",
-            "geology"         => "dylan",
-            "psychology"      => "fallen",
-            "sociology"       => "nicole"
+          $blue = "#1073e3;";
+          
+          $colorList = array(
+            'nicole' => "#1073e3;",
+            'laura'  => "#5e2d96;",
+            'fallen' => "#797979;",
+            'dylan'  => "#1e5419;"
           );
 
-          $advisors = array(
-            "dylan"  => "#1e5419;",
-            "fallen" => "#797979;",
-            "laura"  => "#5e2d96;",
-            "nicole" => "#1073e3;"
-          );
-
-          $selectedMajor = $_POST['major'];
-          $advisor = $majors[$selectedMajor];
-          $hex = $advisors[$advisor];
-
-          $retstr .= ".label {color: $hex}";
-
+          if ($value === "blue") {
+            $retstr .= ".label {color: $blue}";
+          }
         }
 
         $retstr .= "
@@ -343,13 +318,15 @@ class FGContactForm
     }
     function GetHTMLHeaderPart()
     {
-
+      foreach($_POST as $key => $value) {
+        $thecolor = $_POST['color'];
+      }
          $retstr = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">'."\n".
                    '<html><head><title></title>'.
                    '<meta http-equiv=Content-Type content="text/html; charset=utf-8">';
          $retstr .= $this->GetMailStyle();
          $retstr .= '</head><body>';
-         $retstr .= "<img src=\"https://advising.ufl.edu/images/$hex.png\">";
+         $retstr .= "<img src=\"https://advising.ufl.edu/images/{$thecolor}.png\">";
          return $retstr;
     }
     function GetHTMLFooterPart()

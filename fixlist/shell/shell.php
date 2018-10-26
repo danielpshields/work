@@ -13,27 +13,37 @@
     <a href="form.php">form</a></li>
   </ul>
 
-<?php
+  <?php
 
-  foreach ($_POST as $key => $value) {
-    echo $key . " => " . $value . "<br>";
-
-      $colorList = array(
-        'blue'  => "#1073e3;",
-        'red'   => "red;",
-        'gray'  => "#a0a0a0;",
-        'green' => "green;"
+      $majors = array (
+        "anthropology"    => "laura",
+        "biology"         => "dylan",
+        "computerScience" => "fallen",
+        "criminology"     => "laura",
+        "geography"       => "dylan",
+        "geology"         => "dylan",
+        "psychology"      => "fallen",
+        "sociology"       => "nicole"
       );
 
-      foreach ($colorList as $color => $hex) {
 
-        if ($value === $color) {
-          echo $retstr = ".label {color: $hex}";
-        }
+      $advisors = array(
+        "dylan"  => "#1e5419;",
+        "fallen" => "#797979;",
+        "laura"  => "#5e2d96;",
+        "nicole" => "#1073e3;"
+      );
 
-      }
-    }
+      $selectedMajor = $_POST['major'];
+      $advisor = $majors[$selectedMajor];
+      $hex = $advisors[$advisor];
+
 ?>
+
+  <div style="height: 100px; width: 100px; background: <?php echo $hex; ?>">
+    <p><?php echo $advisor; ?></p>
+  </div>
+
 
 
   </body>

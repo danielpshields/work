@@ -11,20 +11,18 @@
 
     <form action="shell.php" method='post' enctype="multipart/form-data" accept-charset='UTF-8'>
 
-      <!-- <input type="text" name="color" value="blue"> -->
-      <select required name="color">
-        <option disabled selected value="">Please select a color</option>
-        <option value="blue">blue</option>
-        <option value="red">red</option>
-        <option value="gray">gray</option>
-        <option value="green">green</option>
+
+      <select required name="major">
+        <option disabled selected value="">Please select a major</option>
+        <option value="anthropology">anthropology</option>
+        <option value="biology">biology</option>
+        <option value="computerScience">computer science</option>
+        <option value="criminology">criminology</option>
+        <option value="geography">geography</option>
+        <option value="geology">geology</option>
+        <option value="psychology">psychology</option>
+        <option value="sociology">sociology</option>
       </select>
-
-      <br>
-      <br>
-
-      <input type="text" name="name" tabindex="2">
-      <p>name</p>
 
       <br>
       <br>
