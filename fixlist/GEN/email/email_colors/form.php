@@ -41,7 +41,7 @@
   require_once("include/header.php");
 
 ?>
-  <?php $color = "blue"; ?>
+
   <form action='<?php echo $formproc->GetSelfScript(); ?>' method='post' enctype="multipart/form-data" accept-charset='UTF-8'>
 
     <select required name="major">

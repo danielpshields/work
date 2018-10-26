@@ -1,11 +1,12 @@
 <?php
-  // where should the form's information go?
-  $emailThisTo = "acatalano2@ufl.edu";
-  // then, after submitting:
-  $redirectTo = "thank-you.php";
+  // where should the form be emailed to:
+  $emailThisTo = "clasufonline@advising.ufl.edu";
+  // then, after submitting, redirect to:
+  $redirectTo = "success.php";
 
   $date_auto = date("Y-m-d H:i:s");
   $name=$_SERVER["HTTP_UFSHIB_BUSINESSNAME"];
+  $name = "placeholderVar";
   include ("include/editSender.php");
 
   $formproc = new FGContactForm();
