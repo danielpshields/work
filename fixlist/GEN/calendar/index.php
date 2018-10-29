@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>AAC Calendar</title>
-    <link rel="stylesheet" href="css/master.css">
-  </head>
-  <body>
-
-    <h1>Academic Advising Center &#124; Tech Calendar</h1>
-    <div class="colorPalette">
-      <p id="peopleColor">role</p>
-      <p id="docColor">doc</p>
-      <p id="dateColor">date</p>
-      <p id="metricColor">metric</p>
-      <p id="locationColor">location</p>
-      <p id="questionColor">question</p>
-      <div class="clear"></div>
-    </div><!-- color palette -->
-
-
-    <p><i>Draft: 10/5/2018 (DS), 10/12/2018 (AC)</i></p>
+<?php
+  $page = "index";
+  require_once("include/header.php"); ?>
 
     <h2>AAC web team</h2>
     <h3>recurring tasks</h3>
@@ -231,79 +212,100 @@
       </ol>
     </ul>
 
-    Propose Summer Dean’s Medal plan to <a class="role" href="#">Joe</a>.
 
-    Update Dean’s Medal site (on CLAS) and the form (in /deansmedal)
+    <h6>Dean’s Medal</h6>
+    <ul>
+      <li>Propose <a class="date" href="">Summer</a> <a href="" class="doc"> plan</a> | <a class="role" href="#">Joe</a>.</li>
+      <li>update site (<a href="" class="location">CLAS</a>)</li>
+      <li>update form (<a href="" class="location">/deansmedal</a>)</li>
+      <li>Open Dean’s Medal form. Notify AAC staff reviewer and <a class="role" href="#">advisors</a> and <a class="role" href="#">Joe</a>.
+    </ul>
 
-    Open Dean’s Medal form. Notify AAC staff reviewer and <a class="role" href="#">advisors</a> and <a class="role" href="#">Joe</a>.
 
 
 
     <h5>May</h5>
 
-    Finalize changes to Preview Prep Sheets.
+    <h6>Preview PreP</h6>
+    <ul>
+      <li>Update Preview Prep Sheets</li>
+      <li>Deploy Prep postcards</li>
+      <li>Deploy reminder emails</li>
+    </ul>
 
-    Begin sending Prep postcards.
+    <h5>June</h5>
+    <ul>
+      <li>Preview Prep Sheets</li>
+    </ul>
 
-    Begin sending reminder emails for Prep.
+    <h5>July</h5>
+    <ul>
+      <li>Preview Prep Sheets</li>
+    </ul>
 
-    Begin Preview Prep Sheets.
-
-
-
-    <h5>June through August</h5>
-
-    Preview Prep Sheets
-
-
+    <h5>August</h5>
+    <ul>
+      <li>Preview Prep Sheets</li>
+    </ul>
 
     <h4>Recurring</h4>
 
-    Updates to home page banner images
-
-    Updates to calendars (AAC home page, PH, PL, B120, etc.)
-
-    Updates to Twitter and Facebook
-
-    Create images
-
-    Changes to web pages as requested
-
-    Updates to the Manual
-
-    Updates to
-
-
-    <a class="role" href="#">Alex</a>'s Concerns:
-
-    •	Pre-Health Postbac
-    •	UF Online
-    •	<b>Analytics</b>
     <ul>
-      <li>one step at a time, this will be a struggle at first, it's uncomfortable to be ignorant about something. So, start with a test site -- figure out how to test filters and then duplicate the process on a larger scale</li>
+      <li>home page banner images</li>
+      <li>Calendars</li>
+      <ul>
+        <li>AAC home page</li>
+        <li>PH</li>
+        <li>PL</li>
+        <li>B120</li>
+        <li>Others</li>
+        <ul>
+          <li>&nbsp;</li>
+          <li>&nbsp;</li>
+          <li>&nbsp;</li>
+        </ul>
+      </ul>
+      <li>Updates to Twitter and Facebook</li>
+      <li class="question">Create images</li>
+
     </ul>
-    •	WordPress
-    •	PHP
-    •	UF IT stuff
-    •	Mysql
-    •	Content
-    •	Site organization
-    •	Training
-    •	Tasks
-    •	Reporting
 
-    Alex's Responsibilities:
+    web pages
 
-    30% using your html, css, javascript, php, wordpress, design and hand-coding skills, refresh content and update websites related to clas's pre-health postbac program, uf online and related sites where appropriate
+    The Digital Manual
 
-    20% communications: appropriately and professionally manage applicable social media accounts to promote service of the aac and its programs and to promote clas-related events and opportunities for its undergraduate audience. Active participation on the communications committee, which is dedicated to improving communications among and within the aac and clas
 
-    20% use your photo and image editing skills (photoshop, etc) to create, modify, and apply graphic elements in CLAS PHPB and UF online websites and social media sites
+    <h2><a class="role" href="#">Alex</a>'s Concerns:</h2>
+    <ul>
+      <li>Pre-Health Postbac</li>
+      <li>UF Online</li>
+      <li><b>Analytics</b></li>
+      <ul>
+        <li>one step at a time, this will be a struggle at first, it's uncomfortable to be ignorant about something. So, start with a test site -- figure out how to test filters and then duplicate the process on a larger scale</li>
+      </ul>
+      <li>WordPress</li>
+      <li>PHP</li>
+      <li>UF IT stuff</li>
+      <li>Mysql</li>
+      <li>Content</li>
+      <li>Site organization</li>
+      <li>Training</li>
+      <li>Tasks</li>
+      <li>Reporting</li>
+    </ul>
 
-    20% as a part of the aac IT team, assist in testing features and functions of web tools and applications used by advisors, faculty and students
+    <h3>Responsibilities:</h3>
 
-    10% create maintain and update written documentation related to existing aac information technology including requirements, technical documentation, and end-user manuals
+    <ul>
+      <li>30% using your html, css, javascript, php, wordpress, design and hand-coding skills, refresh content and update websites related to clas's pre-health postbac program, uf online and related sites where appropriate</li>
+      <li>20% communications: appropriately and professionally manage applicable social media accounts to promote service of the aac and its programs and to promote clas-related events and opportunities for its undergraduate audience. Active participation on the communications committee, which is dedicated to improving communications among and within the aac and clas</li>
+      <li>20% use your photo and image editing skills (photoshop, etc) to create, modify, and apply graphic elements in CLAS PHPB and UF online websites and social media sites</li>
+      <li>20% as a part of the aac IT team, assist in testing features and functions of web tools and applications used by advisors, faculty and students</li>
+      <li>10% create maintain and update written documentation related to existing aac information technology including requirements, technical documentation, and end-user manuals</li>
+    </ul>
 
+
+    <h2>Inventory</h2>
     <div class="fixList">
       <ul>
         <li>gifts: gifts to other departments / internal fundraisers</li>

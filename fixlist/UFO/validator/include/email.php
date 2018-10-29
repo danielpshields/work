@@ -1,6 +1,6 @@
 <?php
   // where should the form be emailed to:
-  $emailThisTo = "clasufonline@advising.ufl.edu";
+  $emailThisTo = "acatalano2@ufl.edu";
   // then, after submitting, redirect to:
   $redirectTo = "success.php";
 

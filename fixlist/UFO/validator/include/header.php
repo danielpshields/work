@@ -13,7 +13,6 @@
 	<link rel="icon" href="image/favicon.ico">
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
-	<!--PING A FILE TO KEEP THE PAGE ALIVE-->
 	<script type="text/javascript" src="scripts/email.js"></script>
 </head>
 <body>
@@ -27,6 +26,14 @@
 
 						$pages = array("1", "2", "3", "4", "5");
 
+						$pageByTitle = array (
+							"1" => "disclosure",
+							"2" => "expectations",
+							"3" => "curriculum",
+							"4" => "requirements",
+							"5" => "form",
+						);
+
 						foreach ($pages as $page) {
 							echo "<li>";
 
@@ -34,7 +41,7 @@
 
 								echo "<a ";
 								if ($page === $thisPage) { echo "class=\"thisPage\" ";									}
-								echo "href=\"{$page}.php\">";
+								echo "href=\"{$pageByTitle[$page]}.php\">";
 							}
 
 							if ($page < $thisPage) {
@@ -42,6 +49,8 @@
 							} else {echo $page;}
 							echo "</a></li>";
 						}
+
+
 						?>
 					<div class="clear"></div>
 				</ul>
