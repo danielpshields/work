@@ -10,7 +10,15 @@
     <h5>Mondays (52)</h5>
     <ul>
 
-  
+      <li>Evaluation Email</li>
+      <ol>
+        <li>Gather info from the Sign in management console</li>
+        <li>Insert into acadvise.evaluation_emails</li>
+        <li>Activate <i>/emailscripts/sendeval.php</i></li>
+      </ol>
+      <ul>
+        <li><b>ToDo</b>: <i>Automate();</i></li>
+      </ul>
 
       <li>Joe’s Newsletter</li>
       <p>Process is <a class="doc" href="#">documented</a></p>

@@ -2,21 +2,25 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>AAC Matrix | <?php echo ucfirst($page); ?></title>
-    <link rel="stylesheet" href="css/master.css">
+    <title>AAC | <?php echo ucfirst($page); ?></title>
+    <link rel="stylesheet" href="<?php echo $path; ?>css/master.css">
   </head>
   <body>
 
-    <h1>AAC &#124; Matrix</h1>
-    <div class="colorPalette">
-      <p id="peopleColor"><a href="roles.php">role</a></p>
-      <p id="docColor"><a href="docs.php">doc</a></p>
-      <p id="dateColor"><a href="dates.php">date</a></p>
-      <p id="locationColor"><a href="locations.php">location</a></p>
-      <p id="questionColor">question</p>
-      <p id="metricColor">metrics</p>
-      <div class="clear"></div>
-    </div><!-- color palette -->
-
+    <h1>AAC <?php echo ucfirst($page); ?></h1>
+    <nav>
+      <ul>
+        <li id="homeColor"><a href="<?php echo $path; ?>index.php">home</a></li>
+        <li id="peopleColor"><a href="<?php echo $path; ?>roles.php">roles</a></li>
+        <li id="docColor"><a href="<?php echo $path; ?>docs.php">docs</a></li>
+        <li id="dateColor"><a href="<?php echo $path; ?>dates.php">dates</a></li>
+        <li id="locationColor"><a href="<?php echo $path; ?>locations.php">locations</a></li>
+        <li id="questionColor">question</li>
+        <li id="metricColor">metric</li>
+        <div class="clear"></div>
+      </ul>
+    </nav>
 
     <p><i>Draft: 10/5/2018 (DS), 10/12/2018 (AC)</i></p>
+
+    <div id="content">
