@@ -19,6 +19,7 @@
 
   <?php
     $frequency = "52";
+    $role = "dan";
     include("{$path}include/table.php");
     ?>
 

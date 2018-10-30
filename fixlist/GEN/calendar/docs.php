@@ -7,6 +7,15 @@
 
   <ul>
     <li><a href="docs/evaluation_email.php">Evaluation Email</a></li>
+    <li><a href="docs/joes_newsletter.php">Joe’s Newsletter</a></li>
+    <li><a href="docs/joes_news_notes.php">Joe’s News and Notes email</a></li>
+    <li><a href="docs/index_banner.php">Index Banner</a></li>
+    <li><a href="docs/deansList.php">Dean's List</a></li>
+    <li><a href="docs/transfer_page.php">Transfer Page</a></li>
+    <!-- <li><a href="docs/"></a></li> -->
+    <!-- <li><a href="docs/"></a></li> -->
+    <!-- <li><a href="docs/"></a></li> -->
+    <!-- <li><a href="docs/"></a></li> -->
     <!-- <li><a href="docs/"></a></li> -->
     <!-- <li><a href="docs/"></a></li> -->
     <!-- <li><a href="docs/"></a></li> -->

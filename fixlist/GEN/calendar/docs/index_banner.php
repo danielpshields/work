@@ -4,7 +4,7 @@
   require_once("{$path}include/header.php");
 ?>
 
-  <h2></h2>
+  <h2>Home Page Banner</h2>
 
 
 <?php include_once("{$path}include/footer.php"); ?>

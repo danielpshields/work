@@ -4,29 +4,6 @@
   require_once("include/header.php");
 ?>
 
-    <h2>recurring tasks</h2>
-
-    <h4>Days</h4>
-    <h5>Mondays (52)</h5>
-    <ul>
-
-  
-
-      <li>Joe’s Newsletter</li>
-      <p>Process is <a class="doc" href="#">documented</a></p>
-      <li>Check home page banner for updates</li>
-    </ul>
-
-    <h5>Thursdays</h5>
-
-    <ul>
-      <li>Joe’s News and Notes email</li>
-      <ol>
-        <li>to send following week.</li>
-        <li>deploy &#124; <a class="role" href="#">Shannon</a></li>
-      </ol>
-    </ul>
-
     <h3>General</h3>
 
     <ul>
@@ -35,33 +12,12 @@
       <li>tablings</li>
     </ul>
 
-    <h3>Communications</h3>
+    <h3>Communication Avenues</h3>
     <ul>
-      <li>tweet</li>
-      <li>post</li>
-    </ul>
-
-
-    <h4>Semester</h4>
-
-    <ul>
-      <li><a class="doc" href="#">Dean's List</a> Data</li>
-      <ol>
-        <li>get previous semester's data &#124; <a class="role" href="#">Tim</a></li>
-        <li>deploy:</li>
-        <ul>
-          <li><a class="date">September</a> (<i>spring &amp; summer</i>)</li>
-          <li><a class="date">January</a> (<i>fall</i>)</li>
-        </ul>
-        <li><a class="metric" href="#">Metric</a> staffing is sufficient to handle the influx of students &#124; <a class="role">Trina</a></li>
-      </ol>
-
-
-      <li>Transfer page</li>
-      <ol>
-        <li>updates &#124; <a class="role">Lou</a></li>
-        <li>Transfer chats (info) &#124; <a class="role" href="">Lou</a>
-      </ol>
+      <li>Site</li>
+      <li>Social Media</li>
+      <li>Advisors</li>
+      <li>Physical Mail</li>
     </ul>
 
     <h4>Monthly</h4>
