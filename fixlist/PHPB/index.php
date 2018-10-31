@@ -1,5 +1,5 @@
 <?php
-  $title="Pre-Health Post-baccalaureate Program (PHPB) | UF College of Liberal Arts and Sciences";
+  $title="Pre-Health Post-Baccalaureate Program (PHPB) | UF College of Liberal Arts and Sciences";
   $page = "index";
   $path = "";
   $image = $page;

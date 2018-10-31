@@ -9,16 +9,13 @@
     <ul>
       <li><a href="<?php echo $page; ?>/alex.php">Alex</a></li>
       <p><i>AAC Web Developer i</i></p>
-      <li>Shannon</li>
-      <ul>
-        <li>sends <a href="">Joe's News and Notes email</a></li>
-      </ul>
-      <li>Tim</li>
-      <li>Dan</li>
-      <li>Joe</li>
-      <li>Trina</li>
-      <li>Lou</li>
-      <li>Sara Mock</li>
+      <li><a href="roles/dan.php">Dan</a></li>
+      <li><a href="roles/joe.php">Joe</a></li>
+      <li><a href="roles/katrina.php">katrina</a></li>
+      <li><a href="roles/lou.php">Lou</a></li>
+      <!-- <li><a href="roles/sara.php">Sara Mock</a></li> -->
+      <li><a href="roles/shannon.php">Shannon</a></li>
+      <li><a href="roles/tim.php">Tim</a></li>
     </ul>
 
     <h2>Roles</h2>

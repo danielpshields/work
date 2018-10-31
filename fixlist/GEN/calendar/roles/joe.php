@@ -7,7 +7,7 @@
   <h2>Joe</h2>
 
   <ul>
-    <li>Dean's Medal</li>
+    <li><a href="../docs/deansMedal.php">Dean's Medal</a></li>
   </ul>
 
 

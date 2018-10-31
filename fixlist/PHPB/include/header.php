@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/master.css">
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<link rel="stylesheet" href="css/<?php echo $page; ?>.css">
+		<link rel="icon" href="image/favicon.png">
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	</head>
@@ -18,14 +19,14 @@
 			<div class="maxWidth top-container" id="logoSection">
 					<div id="dept">
 						<span>
-							<a href="index.php">
+							<a href="http://www.clas.ufl.edu/">
 								<img src="image/CLASUF.png" alt="">
 							</a>
 						</span>
 					</div>
 					<div id="uf">
 						<span>
-							<a href="index.php">
+							<a href="http://www.ufl.edu/">
 								<img src="image/uf.png" alt="">
 							</a>
 						</span>

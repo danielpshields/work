@@ -12,7 +12,7 @@
     <li><a href="docs/index_banner.php">Index Banner</a></li>
     <li><a href="docs/deansList.php">Dean's List</a></li>
     <li><a href="docs/deansMedal.php">Dean's Medal</a></li>
-    <li><a href="docs/transfer_page.php">Transfer Page</a></li>
+    <li><a href="docs/transfers_page.php">Transfers Page</a></li>
     <!-- <li><a href="docs/"></a></li> -->
     <!-- <li><a href="docs/"></a></li> -->
     <!-- <li><a href="docs/"></a></li> -->
