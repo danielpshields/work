@@ -12,9 +12,9 @@
   </ol>
 
   <?php
-    $role = "lou";
     $frequency = "&nbsp;";
-    include("{$page}include/table.php");
+    $role = "lou";
+    include("{$path}include/table.php");
    ?>
 
 <?php include_once("{$path}include/footer.php"); ?>

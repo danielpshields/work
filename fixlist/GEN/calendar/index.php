@@ -4,22 +4,6 @@
   require_once("include/header.php");
 ?>
 
-    <h3>General</h3>
-
-    <ul>
-      <li>upcoming AAC events</li>
-      <li>workshops</li>
-      <li>tablings</li>
-    </ul>
-
-    <h3>Communication Avenues</h3>
-    <ul>
-      <li>Site</li>
-      <li>Social Media</li>
-      <li>Advisors</li>
-      <li>Physical Mail</li>
-    </ul>
-
     <h4>Monthly</h4>
 
     <h5>August</h5>
@@ -223,6 +207,22 @@
     </ul>
 
 
+    <h3>General</h3>
+
+    <ul>
+      <li>upcoming AAC events</li>
+      <li>workshops</li>
+      <li>tablings</li>
+    </ul>
+
+    <h3>Communication Avenues</h3>
+    <ul>
+      <li>Site</li>
+      <li>Social Media</li>
+      <li>Advisors</li>
+      <li>Physical Mail</li>
+    </ul>
+
 
 
     <h2>Inventory</h2>
@@ -237,6 +237,7 @@
         </ul>
         <li>Office Deliveries</li>
         <li>Building Security</li>
+        <li>printers</li>
       </ul>
     </div>
     <h3>Estate</h3>

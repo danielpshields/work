@@ -32,7 +32,7 @@ nav li {
   margin: 0;
   padding: .2rem 0;
   font-size: 1rem;
-  width: 14.285%;
+  width: 16.666%;
   float: left;
   outline-color: gray;
   outline-style: solid;
@@ -57,6 +57,11 @@ nav li a:hover {
 
 #content {
   padding-left: 1.5rem;
+}
+
+.metricContainer {
+  border: 1px solid gray;
+  padding: .5rem;
 }
 
 table, tr, th, td {
@@ -114,7 +119,7 @@ p {
 }
 
 .location {
-  color: blue;
+  color: #478af7;
 }
 
 .question {
@@ -148,7 +153,7 @@ p {
 }
 
 #locationColor {
-  background: blue;
+  background: #478af7;
   color: white;
 }
 

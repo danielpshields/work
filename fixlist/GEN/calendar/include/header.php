@@ -16,7 +16,6 @@
         <li id="dateColor"><a href="<?php echo $path; ?>dates.php">dates</a></li>
         <li id="locationColor"><a href="<?php echo $path; ?>locations.php">locations</a></li>
         <li id="questionColor">question</li>
-        <li id="metricColor">metric</li>
         <div class="clear"></div>
       </ul>
     </nav>

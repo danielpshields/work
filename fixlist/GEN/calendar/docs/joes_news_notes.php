@@ -11,5 +11,4 @@
   $role = "shannon";
   include("{$path}include/table.php"); ?>
 
-
 <?php include_once("{$path}include/footer.php"); ?>
