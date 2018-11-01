@@ -13,8 +13,8 @@
         <li id="homeColor"><a href="<?php echo $path; ?>index.php">home</a></li>
         <li id="peopleColor"><a href="<?php echo $path; ?>roles.php">roles</a></li>
         <li id="docColor"><a href="<?php echo $path; ?>docs.php">docs</a></li>
-        <li id="dateColor"><a href="<?php echo $path; ?>dates.php">dates</a></li>
-        <li id="locationColor"><a href="<?php echo $path; ?>locations.php">locations</a></li>
+        <li id="dateColor"><a href="<?php echo $path; ?>dates.php">dates (empty)</a></li>
+        <li id="locationColor"><a href="<?php echo $path; ?>locations.php">locations (null)</a></li>
         <li id="questionColor">question</li>
         <div class="clear"></div>
       </ul>
