@@ -7,6 +7,8 @@
   <h2>Tim</h2>
 
   <ul>
+    <li></li>
+    <li><a href="../docs/andersonScholars.php">Anderson Scholars</a></li>
     <li><a href="../docs/deansList.php">Dean's List</a></li>
     <!-- <li><a href=""></a></li> -->
   </ul>
