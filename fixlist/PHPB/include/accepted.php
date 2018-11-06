@@ -11,12 +11,13 @@
     </tr>
     <tr>
       <td>
-        <a href="http://www.vetmed.auburn.edu/" target="_blank">Auburn University CVM</a><br />
+        <!-- <a href="http://www.vetmed.auburn.edu/" target="_blank"> -->
+        Auburn University CVM<br />
         Arizona <br />
         Baylor<br />
         Boston University<br />
         Chicago Medical School<br />
-        DMU<br />
+        Des Moines University, College of Osteopathic Medicine<br />
         Drexel University<br />
         Edward College of Medicine<br />
         FIU<br />
@@ -30,13 +31,17 @@
         LeCOM Dentistry<br />
         Loyola<br />
         Miami<br />
+        New York Institute of Technology<br>
         Nova <br />
         Nova Dentistry<br />
         Oregon Health Science<br />
+        Philadelphia College of Osteopathic Medicine<br>
         Pittsburgh<br />
         Pritzker<br />
+        Rosalind Franklin Medical School<br>
         Rush<br />
         Temple<br />
+        Touro<br>
         U Wisconsin<br />
         U. Cincinnati<br />
         U. of Arizona<br />
@@ -66,9 +71,12 @@
         <a href="https://lecom.edu/" target="_blank">LECOM</a><br>
         <a href="https://ssom.luc.edu/" target="_blank">Loyola</a><br>
         <a href="http://med.miami.edu/" target="_blank">Miami</a><br>
+        <a href="https://www.nyit.edu" target="_blank">New York Institute of Technology</a><br>
         <a href="https://osteopathic.nova.edu/" target="_blank">NOVA</a><br>
         <a href="https://www.ohsu.edu/xd/" target="_blank">Oregon Health and Science University</a><br>
+        <a href="https://www.pcom.edu/" target="_blank">Philadelphia College of Osteopathic Medicine</a<<br>
         <a href="http://pritzker.uchicago.edu/" target="_blank">Pritzker</a><br>
+        <a href="https://www.rosalindfranklin.edu/academics/chicago-medical-school/" target="_blank">Rosalind Franklin Medical School</a><br>
         <a href="https://www.rushu.rush.edu/rush-medical-college" target="_blank">Rush</a><br>
         <a href="https://www.sgu.edu/academic-programs/school-of-medicine/" target="_blank">St. George University</a><br>
         <a href="https://www.jefferson.edu/university/skmc.html" target="_blank">Thomas Jefferson University</a><br>

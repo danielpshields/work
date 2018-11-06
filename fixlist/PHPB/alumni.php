@@ -11,7 +11,7 @@
   <h2>Alumni Success</h2>
 
     <h3>Cohorts</h3>
-    
+
     <p>Our inaugural class was small, but successful! Of the six students who applied, five were admitted with acceptances to the following schools:</p>
 
     <h4>2014 PHPB Cohort</h4>
@@ -143,6 +143,37 @@
           <div class="clear"></div>
         </div><!-- profile -->
         <div class="clear"></div>
+
+
+        <h4>2015 Cohort</h4>
+        <div class="profile">
+          <div class="personPictureName">
+            <img src="image/cohort/kristin_drew.jpg" alt="">
+            <h5>Kristin Drew</h5>
+          </div><!-- personPictureName -->
+          <ul class="personInfo">
+            <li>
+              <b>Undergrad Major:</b>
+              <br>Theater Arts w/ a Minor in Music
+            </li>
+            <li>
+              <b>Previous Field/Career:</b>
+              <br>Voice performance, voice teacher with track to pursue arts administration and production
+            </li>
+            <li>
+              <b>Medical School Attending:</b>
+              <br><a href="https://med.ufl.edu/" target="_blank">University of Florida</a>
+            </li>
+          </ul>
+          <div class="clear"></div>
+        </div><!-- profile -->
+        <div class="clear">
+
+        </div>
+
+
+
+
 
     <h4>2016 Cohort</h4>
     <div class="profile">

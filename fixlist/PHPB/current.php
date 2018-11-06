@@ -33,7 +33,7 @@
         <dl id="noBottomBorder">
           <dt>
             <img src="image/arrow.jpg" class="arrow">
-            <span>2017 PHPB Cohort</span>
+            <span>2017 PHPB Cohort 191 Schedule</span>
           </dt>
           <dd>
             <?php include("{$table}ClassOne.php"); ?><!-- 2017 cohort -->
@@ -45,7 +45,7 @@
         <dl>
           <dt>
             <img src="image/arrow.jpg" class="arrow">
-            <span>2018 PHPB Cohort</span>
+            <span>2018 Cohort Spring 2019 Schedule</span>
           </dt>
           <dd>
             <?php include("{$table}ClassTwo.php"); ?><!-- 2018 cohort table schedule -->

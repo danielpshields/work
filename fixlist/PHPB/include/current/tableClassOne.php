@@ -53,7 +53,7 @@
         <td>5</td>
       	<td>11:45 a.m. to 12:35 p.m.</td>
         <td>&nbsp;</td>
-        <td>Tutoring - Organic 1024 Farrior Hall</td>
+        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -62,50 +62,50 @@
     <tr>
       <td>6</td>
     	<td>12:50 p.m. to 1:40 p.m.</td>
-      <td>&nbsp;</td>
-      <td>Tutoring – Physics 1024 Farrior Hall</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>BCH4024</td>
+      <td>BCH4024</td>
+      <td>BCH4024</td>
+      <td>IDS4930</td>
+      <td>BCH4024</td>
     </tr>
 
     <tr>
       <td>7</td>
     	<td>1:55 a.m. to 2:45 p.m.</td>
-      <td>PHY2054 (072G) NPB 1216</td>
-      <td>PHY2054</td>
-      <td>PHY2054</td>
-      <td>PHY2054</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>IDS4930</td>
       <td>&nbsp;</td>
     </tr>
 
     <tr>
       <td>8</td>
     	<td>3 p.m. to 3:50 p.m.</td>
-      <td>IDS4930 (1453) FLI115</td>
-      <td>IDS4930 (1453) MAEB234</td>
+      <td>CHM2211L</td>
       <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>CHM2211L</td>
+      <td>IDS4930</td>
       <td>&nbsp;</td>
     </tr>
 
     <tr>
       <td>9</td>
     	<td>4:05 p.m. to 4:55 p.m.</td>
-      <td>CHM2211 (01CE)</td>
-      <td>IDS4930</td>
-      <td>CHM2211</td>
-      <td>CHM2211</td>
+      <td>CHM2211L</td>
+      <td>PCB3063</td>
+      <td>CHM2211L</td>
+      <td>PCB3063</td>
       <td>&nbsp;</td>
     </tr>
 
     <tr>
       <td>10</td>
     	<td>5:10 p.m. to 6 p.m.</td>
-      <td>&nbsp;</td>
-      <td>ISC2401L (O7H6) (12BD)</td>
-      <td>&nbsp;</td>
-      <td>ISC2401L</td>
+      <td>CHM2211L</td>
+      <td>PCB3063</td>
+      <td>CHM2211L</td>
+      <td>PCB3063</td>
       <td>&nbsp;</td>
    </tr>
 
@@ -113,9 +113,9 @@
       <td>11</td>
     	<td>6:15 p.m. to 7:05 p.m.</td>
       <td>&nbsp;</td>
-      <td>ISC2401L</td>
       <td>&nbsp;</td>
-      <td>ISC2401L</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
 
@@ -123,9 +123,9 @@
       <td>E1</td>
     	<td>7:20 p.m. to 8:10 p.m.</td>
       <td>&nbsp;</td>
-      <td>ISC2401L</td>
       <td>&nbsp;</td>
-      <td>ISC2401L</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
 

@@ -15,6 +15,7 @@
   <p>You are about to start an intense program with others pursuing similar goals as your own. You will be in small classes with just those in the PHPB program for your sciences and math.</p>
   <h3>A few bits of information:</h3>
   <p>Some of you were admitted with the requirement that you complete Pre-Calculus (MAC1147) and Intro to Chemistry (CHM1025). If you were admitted to the ReStart program these must be taken at UF and be completed with grades of B or above to matriculate into PHPB in the fall semester. If you were admitted to the "Career Changer" track you are encouraged to take these at UF, but they may be taken at any institution, and must be completed with grades of B or above.</p>
+  <p>You will need to complete a <a href="https://student.ufl.edu/cgi-bin/eaglec?MDASTRAN=nda-intro" target="_blank">"non-degree" seeking application</a> through Admissions. Registration is during drop/add, usually the second day of classes. You will register for these yourself, but please contact us if you have any difficulty. There are no guarantees that seats will be available.</p>
 </div><!-- shell -->
 <div class="clear"></div>
 

@@ -7,6 +7,16 @@
 
 <h2>PHPB FixList</h2>
 
+
+  <h3>181106</h3>
+  <ul>
+    <li>New Students: protected page</li>
+    <li>director bio goes where</li>
+    <li>[current] image map :(</li>
+    <li>krisin drew's cohort?</li>
+  </ul>
+
+
 <iframe src="https://www.google.com/maps/d/embed?mid=1XgTFQRJE7zqoZXopfseWwSSqE9icUeJ1" width="640" height="480"></iframe>
 
 

@@ -9,7 +9,7 @@
       <h2>Frequently Asked Questions</h2>
       <dl>
         <dt>I already have most of the prerequisite courses completed, but I have a few left to take. Can I apply to the program?</dt>
-        <dd>No. Our program is intended for students who have not yet completed the pre-requisite courses.</dd>
+        <dd>No. Our program is intended for students who have not completed the pre-requisite courses.</dd>
       </dl>
       <dl>
         <dt>Can I apply if I am an out of state resident?</dt>
@@ -17,7 +17,7 @@
       </dl>
       <dl class="">
         <dt>Can I take other UF courses while in the program?</dt>
-        <dd>Students in the Pre-Health Post-Bac program has access to select electives through the College of Liberal Arts & Sciences. You will need to discuss your proposed schedule with the Director prior to registering.</dd>
+        <dd>Students in the Pre-Health Post-Bac program have access to select electives through the College of Liberal Arts & Sciences. Upon admission to PHPB, an individualized academic plan will be completed with the applicant and the director.  Each semester possible electives are identified and students have the opportunity to take additional courses if there is room in their schedule.</dd>
       </dl>
       <dl class="">
         <dt>Can I apply to professional school right after finishing the program?</dt>
@@ -42,7 +42,7 @@
       </dl>
       <dl class="">
         <dt>Upon completion of the program, am I guaranteed admission to UF's College of Medicine?</dt>
-        <dd>No. There is no formal linkage program between the UF Pre-Health Post-Bac program and any UF professional program.</dd>
+        <dd>No. There is no formal linkage program between the UF Pre-Health Post-Bac program and any UF professional program. PHPB students have interviewed and accepted at multiple professional schools through the U.S.  Students who do well in post-bac programs will find that linkage is not a necessity as their options will be numerous. Students still need to meet the admission requirements for the schools of interest. If there is a program with linkage to your favorite professional school you will certainly want to give this strong consideration. While PHPB does not have formal linkage we work closely with medical schools throughout the country to be certain students in PHPB have the necessary information and competitive applications as is possible by each individual.</dd>
       </dl>
     </div><!-- shell -->
     <div class="clear"></div>

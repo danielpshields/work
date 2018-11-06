@@ -32,6 +32,32 @@
       <h3>Small Interest Groups</h3>
       <p>Second year PHPB students take the lead in facilitating voluntary small groups such as a ‘Wellness Group’ providing some extra-curricular stress relief and ‘Journal Club’ to review research articles to help prep for the MCAT.</p>
     </div><!-- bubble -->
+
+    <div class="bubble">
+      <h3>Individualized Advising</h3>
+      <p>You will work with a pre-health advisor to develop an academic and professional plan that reflects your goals, interests, and unique background to help gain admission to a health profession graduate program.</p>
+    </div><!-- bubble -->
+
+    <div class="bubble">
+      <h3>PHBP Unique Courses</h3>
+      <ul>
+        <li>Pre-Health Seminar</li>
+        <li>Innovations in Healthcare</li>
+        <li>Bioethics</li>
+        <li>Health Equity: Here and Abroad</li>
+      </ul>
+    </div><!-- bubble -->
+
+    <div class="bubble">
+      <h3>Workshops &amp; Events</h3>
+      <p>Throughout the year we offer workshops and events to help you prepare.</p>
+    </div><!-- bubble -->
+
+    <div class="bubble">
+      <h3>Interdisciplinary Labs</h3>
+      <p>Students in the Career Changer and ReStart tracks will take unique interdisciplinary laboratory courses that integrate multiple science disciplines into one learning experience. The "X-Lab" is a two-semester, inquiry-based laboratory curriculum focusing on major themes and concepts in biology, chemistry and physics with an emphasis on their integrated applications in modern, quantitative research.</p>
+    </div><!-- bubble -->
+
   </div><!-- bubble wrap -->
 
 

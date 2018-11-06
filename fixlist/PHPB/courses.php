@@ -238,8 +238,9 @@
       </section>
 
       <p>There is access to select electives through the College of Liberal Arts & Sciences and UF College of Medicine.</p>
-      <p><b>Pre-Dent</b> and <b>Pre-Vet</b></p>
-      <p>Need: <b>MCB3020/L</b></p>
-      <p>This course may be taken after completion of PHPB as a non-degree seeking student. There is no guarantee this course can be taken at UF. Students interested in taking the course at UF should contact the <a href="http://microcell.ufl.edu/" target="_blank">Microbiology department</a>.</p>
+      <h3>Other Professions</h3>
+      <p>Need: <b>MCB3020/L, APK2100C, and/or APK2105C</b></p>
+      <p>Thess courses may be taken after completion of PHPB as a non-degree seeking student. There is no guarantee this course can be taken at UF. Students interested in taking these courses at UF should contact the <a href="http://microcell.ufl.edu/" target="_blank">departments</a> that offer the courses.</p>
+
 
 <?php require_once("include/footer.php"); ?>
