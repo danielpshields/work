@@ -33,7 +33,7 @@
         <dl id="noBottomBorder">
           <dt>
             <img src="image/arrow.jpg" class="arrow">
-            <span>2017 PHPB Cohort 191 Schedule</span>
+            <span>2017 PHPB Cohort Spring 2019 Schedule</span>
           </dt>
           <dd>
             <?php include("{$table}ClassOne.php"); ?><!-- 2017 cohort -->
@@ -53,27 +53,21 @@
             <?php include("{$table}ClassTwoDevelopment.php"); ?>
           </dd>
         </dl>
+        <div id="yourApplication"><?php require_once("image/yourApplication.svg"); ?></div>
       </div><!-- shell -->
       <div class="clear"></div>
 
-      <div id="flexForResourcesLinks"><!-- whole container -->
 
-        <div id="graphicContainer">
-          <img id="resourceGraphic" src="image/current_resources.jpg" alt="">
-        </div>
 
-        <div id="resources">
-          <div class="resourceLinks">
-            <h4>Resources:</h4>
-            <ul>
-              <li><a href="https://www.advising.ufl.edu/pre-health/" target="_blank">Academics</a></li>
-              <li><a href="https://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/research/" target="_blank">Research</a></li>
-              <li><a href="https://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/shadowing/" target="_blank">Shadowing</a></li>
-              <li><a href="https://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/volunteer-resources/" target="_blank">Community Service (non-clinical)</a></li>
-              <li><a href="https://www.advising.ufl.edu/docs/AAMCCoreCompetencies.pdf" target="_blank">Professional Competencies (PDF)</a></li>
-              <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/volunteer-resources/" target="_blank">Volunteer Resources</a></li>
-            </ul>
-          </div><!-- resource links -->
+
+
+
+
+
+      <div id="resources">
+
+
+
           <div class="resourceLinks">
             <h4>Additional Resources:</h4>
             <ul>
@@ -90,8 +84,6 @@
 
             </ul>
           </div><!-- resource links -->
-        </div><!-- resources -->
-
-      </div><!-- flex for resources links -->
+        </div>
 
 <?php require_once("include/footer.php");?>

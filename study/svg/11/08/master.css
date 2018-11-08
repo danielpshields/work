@@ -1,0 +1,12 @@
+/* img {
+  width: 100px;
+} */
+
+* {
+  font-family: monospace;
+}
+
+body {
+  width: 800px;
+  margin: auto;
+}

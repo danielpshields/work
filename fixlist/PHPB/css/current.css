@@ -41,6 +41,13 @@ table {
   text-decoration: underline;
 }
 
+#yourApplication {
+  width: 60%;
+  background: none;
+  margin: 2rem auto 0 auto;;
+}
+
+
 
 #resources {
   width: 100%;
