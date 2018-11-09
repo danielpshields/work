@@ -8,6 +8,16 @@
 <h2>PHPB FixList</h2>
 
 
+  <h3>181109</h3>
+  <ol>
+    <li>[current] the drop down tables are too big for mobile so the content has to be converted</li>
+    <li>[current] hoverstate for svg?</li>
+    <li>[alumni success] convert profiles to function ()</li>
+  </ol>
+
+
+
+
   <h3>181106</h3>
   <ul>
     <li>New Students: protected page</li>

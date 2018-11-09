@@ -1,5 +1,5 @@
 
-    <table>
+    <table class="classTable">
       <tr>
         <th>Period</th>
         <th>Time</th>

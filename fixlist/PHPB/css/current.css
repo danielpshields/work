@@ -4,9 +4,23 @@ table {
   text-align: center;
 }
 
+table.classTable {
+  /* width: 100%; */
+  display: none;
+}
+
+table.classTable td {
+  /* font-size: .1rem; */
+}
+
+
 .arrow { /* image for drop downs */
   width: 1rem;
   margin-right: .5rem;
+}
+
+#current h3 a {
+  color: #587096;
 }
 
 /* class to be used by jQuery */
@@ -42,12 +56,16 @@ table {
 }
 
 #yourApplication {
-  width: 60%;
+  /* width: 60%; */
+  width: 90%;
   background: none;
   margin: 2rem auto 0 auto;;
 }
 
-
+p#yourApplicationGraph {
+  margin-top: 2rem;
+  margin-bottom: 2.8rem;
+}
 
 #resources {
   width: 100%;
@@ -68,10 +86,6 @@ table {
   margin: auto;
   margin-top: 1.5rem;
   max-width: 450px;
-}
-
-#resources {
-  /* flex-child container for the resources links */
 }
 
 .resourceLinks {
@@ -117,9 +131,19 @@ table {
 
 @media screen and (min-width: 600px) {
 
-  #resources {
+  #yourApplication {
+    width: 60%;
+    margin-bottom: 3rem;
+  }
+
+  #resources, p#yourApplicationGraph{
+    max-width: 500px;
     max-width: 500px;
     margin: auto;
+  }
+
+  p#yourApplicationGraph {
+    margin-bottom: 2.8rem;
   }
 
   #resources li {
@@ -127,33 +151,12 @@ table {
     border-right: 1px solid #E28F41;
   }
 
+
+
 }
 
 @media screen and (min-width: 992px) {
 
-  #flexForResourcesLinks {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-  }
 
-  #graphicContainer {
-    /* flex-child container for the graphic */
-    margin-right: 3%;
-  }
-
-  #resources {
-    margin: 0;
-    margin-left: 4%;
-  }
-
-  #resourceGraphic {
-    width: 85%;
-    margin-top: 0;
-  }
-
-  #resources {
-    /* flex-child container for the resources links */
-  }
 
 }

@@ -34,8 +34,6 @@ require_once("include/header.php");
 
     <h3>Appointments</h3>
     <p>Call (352) 273-4083 to schedule an appointment.</p>
-    <p>Please see our <a href="https://www.advising.ufl.edu/pre-health/" target="_blank">Pre-Health Advising website</a> for more information on preparing for health professional graduate programs.</p>
-
-
+  
 
 <?php require_once("include/footer.php"); ?>

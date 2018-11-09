@@ -7,10 +7,8 @@
 ?>
       <div class="shell" id="current">
       <h2>Current Students</h2>
-      <h3>PHPB Advising</h3>
-      <ul>
-        <li><a href="advising.php">PHPB Advising Page</a></li>
-      </ul>
+      <h3><a href="advising.php">PHPB Advising Page</a></h3>
+
       <h3>Group &amp; Club Schedules</h3>
         <table>
           <thead>
@@ -33,7 +31,7 @@
         <dl id="noBottomBorder">
           <dt>
             <img src="image/arrow.jpg" class="arrow">
-            <span>2017 PHPB Cohort Spring 2019 Schedule</span>
+            <span>2017 Cohort Spring 2019 Schedule</span>
           </dt>
           <dd>
             <?php include("{$table}ClassOne.php"); ?><!-- 2017 cohort -->
@@ -54,19 +52,9 @@
           </dd>
         </dl>
         <div id="yourApplication"><?php require_once("image/yourApplication.svg"); ?></div>
-      </div><!-- shell -->
-      <div class="clear"></div>
+        <p id="yourApplicationGraph">The information bubbles above are links!</p>
 
-
-
-
-
-
-
-
-      <div id="resources">
-
-
+        <div id="resources">
 
           <div class="resourceLinks">
             <h4>Additional Resources:</h4>
@@ -84,6 +72,15 @@
 
             </ul>
           </div><!-- resource links -->
-        </div>
+        </div><!-- resources -->
+      </div><!-- shell -->
+      <div class="clear"></div>
+
+
+
+
+
+
+
 
 <?php require_once("include/footer.php");?>
