@@ -79,6 +79,7 @@
       <p>you've got lynn 50%, advisors 40%, joe 5%</p>
       <p>So, that's the home page.</p>
       <p>divide those areas</p>
+      <li>People enjoy games -- Tevin and I have a game of Jenga going</li>
     </div>
 
 

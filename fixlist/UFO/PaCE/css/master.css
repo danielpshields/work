@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "SF Pro Display",SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+body {
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+}
+
+header {
+  border-bottom: 4px solid #f79646;
+  box-shadow: 10px 10px 10px #c0c0c0;
+}
+
+#uf_logo {
+  width: 17rem;
+  float: left;
+}
+
+h1 {
+  color: #444;
+  font-size: 1rem;
+  float: right;
+}
+
+h2 {
+  color: #444;
+  font-size: 1rem;
+}
+
+a {
+  color: #2A5DB0;
+}
+
+ul, ol {
+  margin-left: 2.5rem;
+}
+
+.clear {
+  clear: both;
+}
