@@ -8,7 +8,18 @@
         <h2>2018</h2>
 
         <h4>November</h4>
+
+        <h5>Week 26</h5>
+        <ul>
+          <li><a href="ln/18/11/13.html">181113</a></li>
+          <li><a href="ln/18/11/12.html">181112</a></li>
+        </ul>
+
         <h5>Week 25</h5>
+        <ul>
+          <li><a href="ln/18/11/11.html">181111</a></li>
+          <li><a href="ln/18/11/10.html">181110</a></li>
+        </ul>
         <ul>
           <li><a href="ln/18/11/09.html">181109</a></li>
           <li><a href="ln/18/11/08.html">181108</a></li>
@@ -16,6 +27,7 @@
           <li><a href="ln/18/11/06.html">181106</a></li>
           <li><a href="ln/18/11/05.html">181105</a></li>
         </ul>
+
         <h5>Week 24</h5>
         <ul>
           <li><a href="ln/18/11/04.html">181104</a></li>
