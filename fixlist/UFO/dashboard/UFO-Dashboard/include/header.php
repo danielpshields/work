@@ -7,11 +7,12 @@
 	<link rel="stylesheet" href="css/master.css">
 	<link rel="stylesheet" href="css/<?php echo $stylesheet; ?>.css">
 	<link rel="icon" href="image/favicon.png" >
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
 	<header>
-		<h1><a href="index.php">UF Online Dashboard</a></h1>
+		<h1><a href="index.php">UF Online <span id="cursive">Dashboard</span></a></h1>
 
 		<!-- nav hides on mobile -->
 		<nav>
@@ -38,13 +39,18 @@
 		<dd>
 			<ul>
 				<?php
-				if ($title !== "index") { ?>
-					<li><a href="index.php">home</a></li>
-				<?php } ?>
-				<li><a href="minutes.php">minutes</a></li>
-				<li><a href="articles.php">articles</a></li>
-				<li><a href="resources.php">resources</a></li>
-				<li><a href="members.php">members</a></li>
+
+				$pages = array ("index", "minutes", "articles", "resources", "members");
+				foreach ($pages as $key) {
+
+					if ($key !== $title) { ?>
+
+						<li><a href="<?php echo $key . ".php"; ?>"><?php if ($key === "index") { echo "home"; } else {echo $key;} ?></a></li>
+
+					<?php
+					}
+				}
+				?>
 			</ul>
 		</dd>
 	</dl>
