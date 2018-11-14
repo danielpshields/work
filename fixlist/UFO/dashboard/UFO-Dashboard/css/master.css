@@ -60,8 +60,23 @@ h1 a {
 	-moz-transform: rotate(90deg);
 	-webkit-transform: rotate(90deg);
 	transform: rotate(90deg);
-	}
+}
 
+dl#mobileNavigation {
+  border-top: 1px solid #a0a0a0;
+  width: 100%;
+  box-shadow: 2px 2px 10px gray;
+}
+
+
+#mobileNavigation dt span {
+  font-size: 1.35rem;
+  color: #587096;
+}
+
+#mobileNavigation dt img {
+  margin-left: 1rem;
+}
 
 #mobileNavigation li {
   width: 100%;
@@ -77,28 +92,51 @@ h1 a {
   height: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
+  color: #2A5DB0;
 }
 
-#sideColumn {
+h2 {
+  font-weight: 600;
+letter-spacing: 0;
+color: #111;
+font-size: 1.6rem;
+margin-top: 2rem;
+margin-bottom: 2rem;
+margin-left: 1rem;
+padding-right: 1rem;
+}
+
+h3 {
+  color: #333;
+  font-size: 1.3rem;
+    margin-left: 1.5rem;
+    margin-top: 2.81rem;
+}
+
+h4 {
+  color: #444;
+
+}
+
+#content ul, #content ol {
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+#content li, #content p {
+  margin-bottom: 1.25rem;
+  padding-right: 1.5rem;
+  color: #333;
+}
+
+ #sideColumn {
   display: none;
 }
 
-/* #content  */
-
-/* #bodyContent {
-  float: left;
-  background: lightblue;
-} */
 
 #rightColumn {
-  background: green;
-  float: left;
-}
-
-iframe {
-  width: 90%;
-  display: block;
-  margin: auto;
+  /* float: left; */
+  /* background: #e0e0e0; */
 }
 
 footer {

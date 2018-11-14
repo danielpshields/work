@@ -1,4 +1,6 @@
 <?php
+	$title = "members";
+	$stylesheet = $title;
 	require_once("include/header.php");
 ?>
 
