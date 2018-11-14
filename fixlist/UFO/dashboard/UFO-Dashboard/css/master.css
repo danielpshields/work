@@ -20,7 +20,8 @@ html {
 
 /* header  */
 header {
-  background: #00529b;
+  background: #00529b; /* blue */
+  background: #dd661e; /* orange */
   display: flex;
   justify-content: space-between;
 }
@@ -34,8 +35,12 @@ header a {
 }
 
 h1 {
-  background: #dd661e;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+h1 a {
+  text-decoration: none;
 }
 
 #headerImg {
@@ -43,8 +48,20 @@ h1 {
   width: 5rem;
 }
 
-
 /* body  */
+
+.arrow {
+  width: 1rem;
+  margin-right: .5rem;
+}
+
+/* class to be used by jQuery */
+.rotate {
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	}
+
 
 #mobileNavigation li {
   width: 100%;
@@ -62,16 +79,16 @@ h1 {
   padding-bottom: 15px;
 }
 
-
-
 #sideColumn {
   display: none;
 }
 
-#bodyContent {
+/* #content  */
+
+/* #bodyContent {
   float: left;
   background: lightblue;
-}
+} */
 
 #rightColumn {
   background: green;

@@ -1,3 +1,7 @@
+<?php
+	require_once("include/header.php");
+?>
+
 <h2>Articles</h2>
 
 <h3>Online Education</h3>
@@ -98,3 +102,5 @@
   <li><a href="https://www.cnbc.com/2018/05/30/walmart-unveils-a-new-employee-perk-college-tuition.html" target="_blank">Walmart unveils a new employee perk: College tuition</a>, CNBC, May 30, 2018</li>
   <li><a href="http://www.masslive.com/business-news/index.ssf/2018/05/walmart_offers_college_tuition_to_employ.html" target="_blank">Walmart offers college tuition to employees for $1 a day</a>, Mass Live, May 31, 2018</li>
 </ul>
+
+<?php require_once("include/footer.php"); ?>

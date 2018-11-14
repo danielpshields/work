@@ -1,3 +1,7 @@
+<?php
+	require_once("include/header.php");
+?>
+
     <h2>Resources</h2>
     <ul>
       <li><a href="https://www.youtube.com/watch?v=6xooVyvqL3o" target="_blank">ALEKS Placement for UF Online Students</a>, Rachel Nelson, CLAS Academic Advisor</li>
@@ -23,3 +27,6 @@
       <li><a href="docs/WelcomePackageEmails.pdf" target="_blank">Welcome Package Emails</a>, (PDF, 190 KB)</li>
       <li><a href="docs/WelcomeWebinar.pdf" target="_blank">Welcome Webinar</a>, (PDF, 738)</li>
     </ul>
+
+
+<?php require_once("include/footer.php"); ?>

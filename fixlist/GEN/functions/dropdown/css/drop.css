@@ -1,0 +1,11 @@
+
+.arrow {
+  width: 1rem;
+  margin-right: .5rem;
+}
+
+.rotate {
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	}

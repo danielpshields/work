@@ -1,51 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>UF Online Dashboard | Academic Advising Center | UF</title>
-	<link rel="stylesheet" href="css/master.css">
-	<link rel="icon" href="image/favicon.png" >
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-</head>
-<body>
-	<header>
-		<h1><a href="index.php">UF Online Dashboard</a></h1>
+<?php
+	require_once("include/header.php");
+?>
 
-		<!-- nav hides on mobile -->
-		<nav>
-			<ul>
-				<li><a href="minutes.php">minutes</a></li>
-				<li><a href="articles.php">articles</a></li>
-				<li><a href="resources.php">resources</a></li>
-				<div class="clear"></div>
-			</ul>
-		</nav>
-
-		<div id="headerImg">
-			<a href="">
-				<?php include("image/uf_signature.svg"); ?>
-			</a>
-		</div>
-	</header>
-
-	<div id="mobileNavigation">
-		<ul>
-			<li><a href="minutes.php">minutes</a></li>
-			<li><a href="articles.php">articles</a></li>
-			<li><a href="resources.php">resources</a></li>
-			<div class="clear"></div>
-		</ul>
-	</div>
-
-
-	<div id="sideColumn">
-		<!-- members -->
-		<?php include("include/members.php"); ?>
-	</div><!-- side Column -->
-
-
-	<div id="bodyContent">
+	<div id="content">
 		<!-- body content -->
 		<h2>UF Online Information and Reporting</h2>
 		<ul>
@@ -106,20 +63,6 @@
 		<iframe src="https://calendar.google.com/calendar/embed?height=580&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=clasufonline%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FNew_York" frameborder="0" scrolling="no"></iframe>
 	</div><!-- right column -->
 
-	<!-- <div id="mobileNavigation"> -->
-
-	figure out the name for how this should behave
-	it should behave the same way as the mobile navigation menu
-
-
-		<?php include("include/members_dropdown.php"); ?>
-	</div>
-
 	<div class="clear"></div>
 
-	<footer>
-		<p>University of Florida<br>Gainesville, FL 32611<br>(352) 392-3261</p>
-	</footer>
-</body>
-<script type="text/javascript" src="scripts/dropdown.js"></script>
-</html>
+	<?php require_once("include/footer.php"); ?>

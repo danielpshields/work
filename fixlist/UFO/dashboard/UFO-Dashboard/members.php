@@ -1,3 +1,7 @@
+<?php
+	require_once("include/header.php");
+?>
+
     <h3>Members</h3>
     <ul>
       <li><a href="mailto:amyalex@ufl.edu">Amy M. Alexander</a></li>
@@ -88,3 +92,6 @@
       <li><a href="mailto:wysocki@ufl.edu">Allen Wysocki</a></li>
       <li><a href="mailto:zsembik@ufl.edu">Barbara Zsembik</a></li>
     </ul>
+
+
+<?php require_once("include/footer.php"); ?>

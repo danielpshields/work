@@ -1,3 +1,6 @@
+<?php
+	require_once("include/header.php");
+?>
 
 	<h2>Meeting Minutes</h2>
 	<h3>2018</h3>
@@ -87,3 +90,5 @@
 		<li><a href="docs/20140410.pdf" target="_blank">Apr. 10</a></li>
 		<li><a href="docs/20140327.pdf" target="_blank">Mar. 27</a></li>
 	</ul>
+
+<?php require_once("include/footer.php"); ?>
