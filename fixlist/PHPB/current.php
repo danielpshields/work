@@ -34,7 +34,55 @@
             <span>2017 Cohort Spring 2019 Schedule</span>
           </dt>
           <dd>
-            <?php include("{$table}ClassOne.php"); ?><!-- 2017 cohort -->
+
+            <table class="mobileTable">
+              <thead>
+                <tr>
+                  <th>Period: 6</th>
+                  <th><i>12:50 p.m. to 1:40 p.m.</i></th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>(Monday)</td>
+                  <td>BCH4024</td>
+                </tr>
+                <tr>
+                  <td>(Tuesday)</td>
+                  <td>BCH4024</td>
+                </tr>
+                <tr>
+                  <td>(Wednesday)</td>
+                  <td>BCH4024</td>
+                </tr>
+                <tr>
+                  <td>(Thursday)</td>
+                  <td>IDS4930</td>
+                </tr>
+                <tr>
+                  <td>(Friday)</td>
+                  <td>BCH4024</td>
+                </tr>
+              </tbody>
+            </table><!-- mobileTable -->
+
+            <table class="mobileTable">
+              <thead>
+                <tr>
+                  <th>Period: 7</th>
+                  <th>1:55 a.m. to 2:45 p.m.</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>(Thursday)</td>
+                  <td>IDS4930</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <?php include("{$table}ClassOne_desktop.php"); ?><!-- 2017 cohort -->
             <h4>Group Dates:</h4>
             <h5>2017 PHPB Cohort Professional Development Group:</h5>
             <?php include("{$table}ClassOneDevelopment.php"); ?><!-- 2017 cohort development group -->

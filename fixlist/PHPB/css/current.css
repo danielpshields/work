@@ -9,6 +9,10 @@ table.classTable {
   display: none;
 }
 
+#mobileTable {
+  display: block;
+}
+
 table.classTable td {
   /* font-size: .1rem; */
 }
@@ -130,6 +134,14 @@ p#yourApplicationGraph {
 }
 
 @media screen and (min-width: 600px) {
+
+  #mobileTable {
+    display: none;
+  }
+
+  table.classTable {
+    display: block;
+  }
 
   #yourApplication {
     width: 60%;
