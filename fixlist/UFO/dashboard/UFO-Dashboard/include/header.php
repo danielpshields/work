@@ -13,15 +13,12 @@
 <body>
 	<header>
 		<h1><a href="index.php">UF Online <span id="cursive">Dashboard</span></a></h1>
-
 		<!-- nav hides on mobile -->
 		<nav>
-			<ul>
-				<li><a href="minutes.php">minutes</a></li>
-				<li><a href="articles.php">articles</a></li>
-				<li><a href="resources.php">resources</a></li>
-				<div class="clear"></div>
-			</ul>
+			<li><a href="minutes.php">minutes</a></li>
+			<li><a href="articles.php">articles</a></li>
+			<li><a href="resources.php">resources</a></li>
+			<!-- <li><a href="members.php">members</a></li> -->
 		</nav>
 
 		<div id="headerImg">
@@ -33,20 +30,15 @@
 
 	<dl id="mobileNavigation">
 		<dt>
-			<img src="image/arrow.jpg" class="arrow" alt="">
 			<span>menu</span>
 		</dt>
 		<dd>
 			<ul>
 				<?php
-
 				$pages = array ("index", "minutes", "articles", "resources", "members");
 				foreach ($pages as $key) {
-
 					if ($key !== $title) { ?>
-
 						<li><a href="<?php echo $key . ".php"; ?>"><?php if ($key === "index") { echo "home"; } else {echo $key;} ?></a></li>
-
 					<?php
 					}
 				}
@@ -55,13 +47,9 @@
 		</dd>
 	</dl>
 	<div class="clear"></div>
-
-
-	<!-- hides on mobile -->
-	<div id="sideColumn">
-		<!-- members -->
-		<?php include("include/members.php"); ?>
-	</div><!-- side Column -->
-
 	<!-- body content -->
 	<div id="content">
+		<div id="sideColumn">
+			<?php include("include/members_list.php"); ?>
+		</div><!-- side column -->
+		<section>
