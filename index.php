@@ -9,6 +9,7 @@
         <h4>November</h4>
         <h5>Week 26</h5>
         <ul>
+          <li><a href="ln/18/11/15.html">181115</a></li>
           <li><a href="ln/18/11/14.html">181114</a></li>
           <li><a href="ln/18/11/13.html">181113</a></li>
           <li><a href="ln/18/11/12.html">181112</a></li>
