@@ -34,58 +34,7 @@
             <span>2017 Cohort Spring 2019 Schedule</span>
           </dt>
           <dd>
-
-            <table class="mobileTable">
-              <thead>
-                <tr>
-                  <th>Period: 6</th>
-                  <th><i>12:50 p.m. to 1:40 p.m.</i></th>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr>
-                  <td>(Monday)</td>
-                  <td>BCH4024</td>
-                </tr>
-                <tr>
-                  <td>(Tuesday)</td>
-                  <td>BCH4024</td>
-                </tr>
-                <tr>
-                  <td>(Wednesday)</td>
-                  <td>BCH4024</td>
-                </tr>
-                <tr>
-                  <td>(Thursday)</td>
-                  <td>IDS4930</td>
-                </tr>
-                <tr>
-                  <td>(Friday)</td>
-                  <td>BCH4024</td>
-                </tr>
-              </tbody>
-            </table><!-- mobileTable -->
-
-            <table class="mobileTable">
-              <thead>
-                <tr>
-                  <th>Period: 7</th>
-                  <th>1:55 a.m. to 2:45 p.m.</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>(Thursday)</td>
-                  <td>IDS4930</td>
-                </tr>
-              </tbody>
-            </table>
-
-            <?php include("{$table}ClassOne_desktop.php"); ?><!-- 2017 cohort -->
-            <h4>Group Dates:</h4>
-            <h5>2017 PHPB Cohort Professional Development Group:</h5>
-            <?php include("{$table}ClassOneDevelopment.php"); ?><!-- 2017 cohort development group -->
+            <?php include("include/current/schedule_2017.php"); ?>
           </dd>
         </dl>
         <dl>
@@ -94,16 +43,26 @@
             <span>2018 Cohort Spring 2019 Schedule</span>
           </dt>
           <dd>
-            <?php include("{$table}ClassTwo.php"); ?><!-- 2018 cohort table schedule -->
-            <h4>2018 PHPB Cohort Professional Development Group</h4>
-            <?php include("{$table}ClassTwoDevelopment.php"); ?>
+            <?php include("include/current/schedule_2018.php"); ?>
           </dd>
         </dl>
-        <div id="yourApplication"><?php require_once("image/yourApplication.svg"); ?></div>
-        <p id="yourApplicationGraph">The information bubbles above are links!</p>
+
+        <?php include("include/current/policiesAndConduct.php"); ?>
+
+      </div><!-- shell -->
+      <div class="clear"></div>
+
+      <!-- overall container for bottom half -->
+      <div id="additionalResources">
+
+        <div id="graphicContainer">
+          <p id="yourApplicationGraph"><b>The information bubbles below are links!</b></p>
+          <div id="yourApplicationBubbleGraphic">
+            <?php require_once("image/yourApplication.svg"); ?>
+          </div>
+        </div><!--graphic container -->
 
         <div id="resources">
-
           <div class="resourceLinks">
             <h4>Additional Resources:</h4>
             <ul>
@@ -114,21 +73,12 @@
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/leadership-resources/" target="_blank">Leadership Resources</a></li>
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/letter-of-recommendation-resources/" target="_blank">Letter of Recommendation Resources</a></li>
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/professional-organizations/" target="_blank">Professional Organizations</a></li>
-
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/summer-opportunities/" target="_blank">Summer Opportunities</a></li>
               <li><a href="http://www.advising.ufl.edu/pre-health/pre-health-resources/pre-health-links/test-preparation-resources/" target="_blank">Test Preparation Resources</a></li>
-
             </ul>
           </div><!-- resource links -->
         </div><!-- resources -->
-      </div><!-- shell -->
-      <div class="clear"></div>
-
-
-
-
-
-
+      </div><!-- additional resources -->
 
 
 <?php require_once("include/footer.php");?>

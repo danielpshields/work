@@ -322,7 +322,7 @@
 	</a>
 </g>
 <g id="bubbleAcademic">
-	<a xlink:href="advising.php" xlink:alt="Academic Entrance Exams" xlink:title="Academic Entrance Exams">
+	<a xlink:href="courses.php" xlink:alt="Academic Entrance Exams" xlink:title="Academic Entrance Exams">
 	<circle id="link_x5F_academics" class="st14" cx="248.2" cy="77.1" r="75.6"/>
 	<g>
 		<rect x="191.3" y="41.2" class="st7" width="114.5" height="22.5"/>

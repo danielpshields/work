@@ -4,20 +4,6 @@ table {
   text-align: center;
 }
 
-table.classTable {
-  /* width: 100%; */
-  display: none;
-}
-
-#mobileTable {
-  display: block;
-}
-
-table.classTable td {
-  /* font-size: .1rem; */
-}
-
-
 .arrow { /* image for drop downs */
   width: 1rem;
   margin-right: .5rem;
@@ -59,7 +45,16 @@ table.classTable td {
   text-decoration: underline;
 }
 
-#yourApplication {
+#policiesAndConduct a {
+  color: #2A5DB0;
+}
+
+#additionalResources {
+  margin-top: 2.81rem;
+
+}
+
+#yourApplicationBubbleGraphic {
   /* width: 60%; */
   width: 90%;
   background: none;
@@ -69,32 +64,20 @@ table.classTable td {
 p#yourApplicationGraph {
   margin-top: 2rem;
   margin-bottom: 2.8rem;
+  border: 1px solid orange;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px #a0a0a0;
 }
 
 #resources {
   width: 100%;
 }
-
-#flexForResourcesLinks {
-  width: 100%;
-}
-
-
-#graphicContainer {
-  /* flex-child container for the resources Graphic */
-}
-
-#resourceGraphic {
-  width: 80%;
-  display: block;
-  margin: auto;
-  margin-top: 1.5rem;
-  max-width: 450px;
-}
-
+/*
 .resourceLinks {
   width: 100%;
-}
+} */
 
 #resources ul {
   width: 100%;
@@ -143,7 +126,7 @@ p#yourApplicationGraph {
     display: block;
   }
 
-  #yourApplication {
+  #yourApplicationBubbleGraphic {
     width: 60%;
     margin-bottom: 3rem;
   }
@@ -163,12 +146,30 @@ p#yourApplicationGraph {
     border-right: 1px solid #E28F41;
   }
 
-
-
 }
 
 @media screen and (min-width: 992px) {
 
+  #additionalResources {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    /* background: red; */
+  }
+
+  #resources {
+    width: 30%;
+    /* background: blue; */
+  }
+
+  #graphicContainer {
+    /* background: green; */
+    width: 60%;
+  }
+
+  #yourApplicationBubbleGraphic {
+    width: 80%;
+  }
 
 
 }
