@@ -14,7 +14,7 @@
 
     <p>Our inaugural class was small, but successful! Of the six students who applied, all six were admitted.</p>
 
-    <h4>2014 PHPB Cohort</h4>
+    <h4>2014 PHPB Cohort &mdash; 100&#37; Admission</h4>
 
     <div class="cohortProfiles">
 

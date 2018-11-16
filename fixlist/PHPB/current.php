@@ -34,7 +34,7 @@
             <span>2017 Cohort Spring 2019 Schedule</span>
           </dt>
           <dd>
-            <?php include("include/current/schedule_2017.php"); ?>
+            <?php include("include/current/tableClassOne.php"); ?>
           </dd>
         </dl>
         <dl>
@@ -43,14 +43,11 @@
             <span>2018 Cohort Spring 2019 Schedule</span>
           </dt>
           <dd>
-            <?php include("include/current/schedule_2018.php"); ?>
+            <?php include("include/current/tableClassTwo.php"); ?>
           </dd>
         </dl>
 
         <?php include("include/current/policiesAndConduct.php"); ?>
-
-      </div><!-- shell -->
-      <div class="clear"></div>
 
       <!-- overall container for bottom half -->
       <div id="additionalResources">
@@ -80,5 +77,7 @@
         </div><!-- resources -->
       </div><!-- additional resources -->
 
+    </div><!-- shell -->
+    <div class="clear"></div>
 
 <?php require_once("include/footer.php");?>

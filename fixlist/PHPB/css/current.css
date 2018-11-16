@@ -35,6 +35,12 @@ table {
   border-top: 1px solid #d0d0d0;
 }
 
+
+table.classTable {
+  width: 100%;
+}
+
+
 .shell dt {
   font-size: 1.3rem;
   color: #6C9AC3;
@@ -112,22 +118,14 @@ p#yourApplicationGraph {
 }
 
 #onlineCourseInTable {
-  text-align: left;
-  padding-left: 1.2rem;
+  text-align: center;
+  /* padding-left: 1.2rem; */
 }
 
 @media screen and (min-width: 600px) {
 
-  #mobileTable {
-    display: none;
-  }
-
-  table.classTable {
-    display: block;
-  }
-
   #yourApplicationBubbleGraphic {
-    width: 60%;
+    width: 50%;
     margin-bottom: 3rem;
   }
 
@@ -150,26 +148,7 @@ p#yourApplicationGraph {
 
 @media screen and (min-width: 992px) {
 
-  #additionalResources {
-    display: flex;
-    justify-content: space-around;
-    /* align-items: flex-start; */
-    /* background: red; */
-  }
 
-  #resources {
-    width: 30%;
-    /* background: blue; */
-  }
-
-  #graphicContainer {
-    /* background: green; */
-    width: 60%;
-  }
-
-  #yourApplicationBubbleGraphic {
-    width: 80%;
-  }
 
 
 }

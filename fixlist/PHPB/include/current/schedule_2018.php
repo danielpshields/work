@@ -1,7 +1,11 @@
 <table class="mobileTable">
   <thead>
     <tr>
-      <th colspan="2">Monday</th>
+      <th class="headerTH" colspan="2">Monday</th>
+    </tr>
+    <tr>
+      <th>Meeting Time</th>
+      <th>Class Section</th>
     </tr>
   </thead>
   <tbody>
@@ -23,7 +27,11 @@
 <table class="mobileTable">
   <thead>
     <tr>
-      <th colspan="2">Tuesday</th>
+      <th class="headerTH" colspan="2">Tuesday</th>
+    </tr>
+    <tr>
+      <th>Meeting Time</th>
+      <th>Class Section</th>
     </tr>
   </thead>
   <tbody>
@@ -45,7 +53,11 @@
 <table class="mobileTable">
   <thead>
     <tr>
-      <th colspan="2">Wednesday</th>
+      <th class="headerTH" colspan="2">Wednesday</th>
+    </tr>
+    <tr>
+      <th>Meeting Time</th>
+      <th>Class Section</th>
     </tr>
   </thead>
   <tbody>
@@ -67,7 +79,11 @@
 <table class="mobileTable">
   <thead>
     <tr>
-      <th colspan="2">Thursday</th>
+      <th class="headerTH" colspan="2">Thursday</th>
+    </tr>
+    <tr>
+      <th>Meeting Time</th>
+      <th>Class Section</th>
     </tr>
   </thead>
   <tbody>
@@ -86,6 +102,24 @@
     <tr>
       <td><b>Period E1</b><br>7:20 p.m. to 8:10 p.m.</td>
       <td>ISC2400L</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="mobileTable">
+  <thead>
+    <tr>
+      <th class="headerTH" colspan="2">Online</th>
+    </tr>
+    <tr>
+      <th>Meeting Time</th>
+      <th>Class Section</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Online Course</td>
+      <td>SYG2000</td>
     </tr>
   </tbody>
 </table>

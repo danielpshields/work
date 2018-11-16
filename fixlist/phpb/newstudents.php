@@ -35,6 +35,8 @@
 
   <ul>
 
+    <li>Contact the <a href="mailto:phpostbac@clas.ufl.edu">PHPB Director</a> for instructions to submit a non-degree application.</li>
+
     <li>You will need to complete a "non-degree" seeking application through <a href="http://www.admissions.ufl.edu/apply/more">Admissions</a>. Registration is during drop/add, usually the second day of classes. You will register for these yourself, but please contact us if you have any difficulty. There are no guarantees that seats will be available.</li>
 
     <li>If you are taking these at another institution, please have an official transcript sent to UF Registrar and an unofficial copy of your grades sent to the PBPB coordinator as soon as possible. You cannot begin fall courses in August without submitting final grades. </li>

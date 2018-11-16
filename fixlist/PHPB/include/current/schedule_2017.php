@@ -2,7 +2,11 @@
             <table class="mobileTable">
               <thead>
                 <tr>
-                  <th colspan="2">Monday</th>
+                  <th class="headerTH" colspan="2">Monday</th>
+                </tr>
+                <tr>
+                  <th>Meeting Time</th>
+                  <th>Class Section</th>
                 </tr>
               </thead>
               <tbody>
@@ -28,7 +32,11 @@
             <table class="mobileTable">
               <thead>
                 <tr>
-                  <th colspan="2">Tuesday</th>
+                  <th class="headerTH" colspan="2">Tuesday</th>
+                </tr>
+                <tr>
+                  <th>Meeting Time</th>
+                  <th>Class Section</th>
                 </tr>
               </thead>
               <tbody>
@@ -51,7 +59,11 @@
             <table class="mobileTable">
               <thead>
                 <tr>
-                  <th colspan="2">Wednesday</th>
+                  <th class="headerTH" colspan="2">Wednesday</th>
+                </tr>
+                <tr>
+                  <th>Meeting Time</th>
+                  <th>Class Section</th>
                 </tr>
               </thead>
               <tbody>
@@ -77,7 +89,11 @@
             <table class="mobileTable">
               <thead>
                 <tr>
-                  <th colspan="2">Thursday</th>
+                  <th class="headerTH" colspan="2">Thursday</th>
+                </tr>
+                <tr>
+                  <th>Meeting Time</th>
+                  <th>Class Section</th>
                 </tr>
               </thead>
               <tbody>
@@ -108,7 +124,11 @@
             <table class="mobileTable">
               <thead>
                 <tr>
-                  <th colspan="2">Friday</th>
+                  <th class="headerTH" colspan="2">Friday</th>
+                </tr>
+                <tr>
+                  <th>Meeting Time</th>
+                  <th>Class Section</th>
                 </tr>
               </thead>
               <tbody>
