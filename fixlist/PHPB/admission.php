@@ -54,10 +54,14 @@ $image = $page;
         <li><b>Complete the <a href="" target="_blank">PostBacCAS Application</a>, selecting UF as the program and the specific track for which you are applying.</b></li>
         <li>Complete the <a href="https://www.applyweb.com/uflpostb/index.ftl" target="_blank">University of Florida Post-Baccalaureate Application.</a></li>
       </ol>
+
         <p>When filling out the application, please indicate:</p>
-        <p class="center"><b>Type:</b><br>“PreHealth Postbac Program"</p>
-        <p class="center"><b>College:</b><br>Liberal Arts and Sciences (UGLAS)</p>
-        <p class="center"><b>Major:</b><br>LAS PostBac Med School Prereq (LAS_PB4)</b></p>
+        <div id="indicate_application">
+          <p><b>Type:</b><br>“PreHealth Postbac Program"</p>
+          <p><b>College:</b><br>Liberal Arts and Sciences (UGLAS)</p>
+          <p><b>Major:</b><br>LAS PostBac Med School Prereq (LAS_PB4)</b></p>
+        </div><!-- indicate application -->
+
       <ol start="3">
         <li>Send official transcripts from each institution you've attended to both PostBacCAS and UF Admissions:</li>
       </ol>
@@ -78,7 +82,7 @@ $image = $page;
 
   <div class="bubble">
     <p class="big">2019</p>
-    <p>Fall Application Cycle via <a href="https://postbaccas.liaisoncas.com/applicant-ux/#/login" target="_blank">PostBacCAS</a></p>
+    <p>Fall Application Cycle via: <a href="https://postbaccas.liaisoncas.com/applicant-ux/#/login" target="_blank">PostBacCAS</a></p>
     <p>Opened August 15, 2018</p>
   </div>
 

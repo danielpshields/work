@@ -20,18 +20,13 @@
                 </p>
                 <div id="socialMediaContainer">
                   <div id="socialMediaIcons">
-                    <div class="socialmedia" id="iconTwitter">
-                      <a href="https://twitter.com/UFPHPB" title="UF PH PostBac">
-                      <img alt="Twitter logo" src="images/t.png" height="30px" width="30px">
-                      </a>
-                    </div><!-- Twitter Icon -->
                     <div class="socialmedia" id="iconFB">
-                      <a href="https://www.facebook.com/UFPreHealthPostBac" title="UF Pre-Health Postbac Program on Facebook">
-                        <img alt="Facebook logo" src="images/fb.png" height="30px" width="30px">
+                      <a href="https://www.facebook.com/UFPreHealthPostBac" target="_blank" title="UF Pre-Health Postbac Program on Facebook">
+                        <img src="images/fb.png" alt="Facebook logo">
                       </a>
-                    </div><!-- Facebook Icon -->
+                    </div><!-- social media (icon) -->
                     <div class="clear"></div>
-                  </div><!-- # Social Media Section -->
-                </div><!-- # social media icon borders -->
-              </div> <!-- # Contact Section -->
+                  </div><!-- Social Media Section -->
+                </div><!-- social media Container -->
+              </div> <!-- Contact Section -->
             </div><!-- side bar -->

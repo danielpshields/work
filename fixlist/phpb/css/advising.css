@@ -1,5 +1,6 @@
 table {
   margin-top: 2rem;
+  width: 87%;
 }
 
 th, td {
@@ -7,6 +8,6 @@ th, td {
   text-align: center;
 }
 
-#googleBlue {
+.shell a {
   color: #2A5DB0;
 }

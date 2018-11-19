@@ -1,11 +1,10 @@
-/* ol li {
-  font-weight: bold;
-} */
-
 h2 {
   margin-top: 1.8rem;
 }
 
+.shell a, a.googleColor {
+    color: #2A5DB0;
+}
 
 @media screen and (min-width: 600px) {
 

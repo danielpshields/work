@@ -34,11 +34,10 @@
 
     <h2>PostBacCAS Applications</h2>
 
-
     <p>If you are <b>applying to other post-bac programs that require a PostBacCAS application in addition to  UF PHPB</b> - Follow the steps below to be sure your application is considered complete:</p>
     <ol>
-      <li>Complete the <a href="https://postbaccas.liaisoncas.com/applicant-ux/#/login" target="_blank">PostBacCAS Application</a>, selecting UF as the program for which you are applying.</li>
-      <li>Complete the <a href="https://www.applyweb.com/uflpostb/index.ftl" target="_blank">University of Florida Post-Baccalaureate Application</a>.</li>
+      <li>Complete the <a class="googleColor" href="https://postbaccas.liaisoncas.com/applicant-ux/#/login" target="_blank">PostBacCAS Application</a>, selecting UF as the program for which you are applying.</li>
+      <li>Complete the <a class="googleColor" href="https://www.applyweb.com/uflpostb/index.ftl" target="_blank">University of Florida Post-Baccalaureate Application</a>.</li>
       <p>When filling out the application, <b>be sure to select "PHPB" as your Postbaccalaureate type.</b></p>
       <li>Send official transcripts from each institution you've attended to:</li>
       <p>

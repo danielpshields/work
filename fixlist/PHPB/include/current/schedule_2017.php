@@ -2,7 +2,7 @@
             <table class="mobileTable">
               <thead>
                 <tr>
-                  <th class="headerTH" colspan="2">Monday</th>
+                  <th class="headerTH" colspan="2">Mondays</th>
                 </tr>
                 <tr>
                   <th>Meeting Time</th>
@@ -32,7 +32,7 @@
             <table class="mobileTable">
               <thead>
                 <tr>
-                  <th class="headerTH" colspan="2">Tuesday</th>
+                  <th class="headerTH" colspan="2">Tuesdays</th>
                 </tr>
                 <tr>
                   <th>Meeting Time</th>
@@ -59,7 +59,7 @@
             <table class="mobileTable">
               <thead>
                 <tr>
-                  <th class="headerTH" colspan="2">Wednesday</th>
+                  <th class="headerTH" colspan="2">Wednesdays</th>
                 </tr>
                 <tr>
                   <th>Meeting Time</th>
@@ -89,7 +89,7 @@
             <table class="mobileTable">
               <thead>
                 <tr>
-                  <th class="headerTH" colspan="2">Thursday</th>
+                  <th class="headerTH" colspan="2">Thursdays</th>
                 </tr>
                 <tr>
                   <th>Meeting Time</th>
@@ -124,7 +124,7 @@
             <table class="mobileTable">
               <thead>
                 <tr>
-                  <th class="headerTH" colspan="2">Friday</th>
+                  <th class="headerTH" colspan="2">Fridays</th>
                 </tr>
                 <tr>
                   <th>Meeting Time</th>

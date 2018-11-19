@@ -35,9 +35,8 @@ table {
   border-top: 1px solid #d0d0d0;
 }
 
-
 table.classTable {
-  width: 100%;
+  display: none;
 }
 
 
@@ -80,10 +79,6 @@ p#yourApplicationGraph {
 #resources {
   width: 100%;
 }
-/*
-.resourceLinks {
-  width: 100%;
-} */
 
 #resources ul {
   width: 100%;
@@ -123,6 +118,16 @@ p#yourApplicationGraph {
 }
 
 @media screen and (min-width: 600px) {
+
+
+  table.mobileTable {
+    display: none;
+  }
+
+  table.classTable {
+    display: table;
+  }
+
 
   #yourApplicationBubbleGraphic {
     width: 50%;

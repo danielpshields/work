@@ -14,8 +14,6 @@
         <p>Once admitted, an individualized academic plan will be completed for each student taking into account previously completed courses.</p>
         <p>All courses five or more years old or with less than a B earned must be retaken.</p>
         <p>If there are other courses required for a professional school that are not part of the PHPB curriculum, these may be taken following completion of PHPB.  There is no guarantee of taking these courses at UF.</p>
-      </div><!-- shell -->
-      <div class="clear"></div>
 
       <h3>Pre-Matriculation</h3>
       <p>All students admitted to PHPB must complete:</p>
@@ -25,6 +23,8 @@
         <li>Online or in-residence enrollment at UF is possible. Taking these at UF will provide the best preparation for taking PHPB chemistry and math courses.</li>
         <li>Please contact us for more information.</li>
       </ul>
+    </div><!-- shell -->
+    <div class="clear"></div>
 
       <section>
         <h3>Course Schedule</h3>
@@ -240,7 +240,7 @@
       <p>There is access to select electives through the College of Liberal Arts & Sciences and UF College of Medicine.</p>
       <h3>Other Professions</h3>
       <p>Need: <b>MCB3020/L, APK2100C, and/or APK2105C</b></p>
-      <p>Thess courses may be taken after completion of PHPB as a non-degree seeking student. There is no guarantee this course can be taken at UF. Students interested in taking these courses at UF should contact the <a href="http://microcell.ufl.edu/" target="_blank">departments</a> that offer the courses.</p>
+      <p>Thess courses may be taken after completion of PHPB as a non-degree seeking student. There is no guarantee this course can be taken at UF. Students interested in taking these courses at UF should contact the <a class="googleColor" href="http://microcell.ufl.edu/" target="_blank">departments</a> that offer the courses.</p>
 
 
 <?php require_once("include/footer.php"); ?>

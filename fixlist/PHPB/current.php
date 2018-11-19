@@ -35,6 +35,7 @@
           </dt>
           <dd>
             <?php include("include/current/tableClassOne.php"); ?>
+            <?php include("include/current/schedule_2017.php"); ?>
           </dd>
         </dl>
         <dl>
@@ -44,6 +45,7 @@
           </dt>
           <dd>
             <?php include("include/current/tableClassTwo.php"); ?>
+            <?php include("include/current/schedule_2018.php"); ?>
           </dd>
         </dl>
 

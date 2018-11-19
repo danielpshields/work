@@ -38,11 +38,6 @@
 			margin-bottom: 1.4rem;
 		}
 
-		/* "Social Media Icons" is the icons' overall spacing container */
-		#socialMediaIcons {
-			margin: 0;
-		}
-
 	}
 
 	@media screen and (min-width: 992px) {

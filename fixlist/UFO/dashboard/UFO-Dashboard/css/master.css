@@ -26,6 +26,7 @@ html {
 header {
   background: #00529b; /* blue */
   background: #dd661e; /* orange */
+	display: -webkit-flex;
   display: flex;
   justify-content: space-between;
 }

@@ -1,7 +1,7 @@
 
 window.onscroll = function() {
   myFunction()
-  myFunctionMobile()
+  // myFunctionMobile()
 };
 
 var header = document.getElementById("myHeader");

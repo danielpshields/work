@@ -93,6 +93,7 @@
 	/* features features features features features  */
 
 	.features {
+		display: -webkit-flex;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;

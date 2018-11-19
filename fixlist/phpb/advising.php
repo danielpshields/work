@@ -15,8 +15,7 @@ require_once("include/header.php");
           <th>Thursday</th>
         </tr>
         <tr>
-          <td>8 a.m. to 11:30 a.m.</td>
-          <td>8 a.m. to 11:30 a.m.</td>
+          <td colspan="2">8 a.m. to 11:30 a.m.</td>
         </tr>
       </table>
 
@@ -25,15 +24,15 @@ require_once("include/header.php");
       <p>The director is also available Monday through Friday if you ever have questions that need to be answered. During your first semester you will take a pre-health seminar course to gain more in-depth knowledge about the profession. Professional development groups will encourage the knowledge and skills needed for application and interviews. The director will assist you step by step with what is needed for a competitive application.</p>
 
       <h3>Phone Advising</h3>
-      <p>To speak with the PHPB Director please call 352-273-4083 to schedule a phone appointment.</p>
-      <p><b>Students</b> may email at:  phpostbac@clas.ufl.edu</p>
+      <p>To speak with the PHPB Director please call (352) 273-4083 to schedule a phone appointment.</p>
+      <p><b>Students</b> may email at: <a href="mailto:phpostbac@clas.ufl.edu">phpostbac@clas.ufl.edu</a></p>
       <p><b>Walk-in</b> and <b>phone advising</b> are generally for advising questions of 15 minutes or less. If you have numerous or lengthy questions please schedule an appointment.</p>
+
+      <h3>Appointments</h3>
+      <p>Call (352) 273-4083 to schedule an appointment.</p>
 
     </div><!-- shell -->
     <div class="clear"></div>
 
-    <h3>Appointments</h3>
-    <p>Call (352) 273-4083 to schedule an appointment.</p>
-  
 
 <?php require_once("include/footer.php"); ?>
