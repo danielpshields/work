@@ -57,7 +57,7 @@
         <div id="graphicContainer">
           <p id="yourApplicationGraph"><b>The information bubbles below are links!</b></p>
           <div id="yourApplicationBubbleGraphic">
-            <?php require_once("image/yourApplication.svg"); ?>
+            <?php echo file_get_contents("image/yourApplication.svg"); ?>
           </div>
         </div><!--graphic container -->
 
