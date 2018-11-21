@@ -17,11 +17,21 @@
 
       <p>Students considering all health professions are welcome. However, for professions other than medicine, some pre-requisite courses are not included in our standard curriculum. These courses are taken after completion of the PHPB program.</p>
 
-      <p>Fall admission only.  Applicants with pre-professional courses five or more years old and/or with less than a B should expect to repeat those courses as part of PHBP. The following categories of students will be considered:</p>
+      <p>Fall admission only. Applicants with pre-professional courses five or more years old and/or with less than a B should expect to repeat those courses as part of PHBP. The following categories of students will be considered:</p>
+
 
 
     </div><!-- shell -->
     <div class="clear"></div>
+
+
+    <div class="bubbleWrap">
+      <div id="quoteBubble" class="bubble">
+        <img id="quotes" src="image/quotes.svg" alt="">
+        <p id="thickQuoteLetters">As a Career Changer, the PHPB Program saved me precious time and resources. Instead of pursuing a second four-year Bachelors degree, the PHPB Program's curriculum allowed me to complete the necessary pre-requisites in two years. I can confidently say the program's rigor prepared me for the academic challenges of dental school. More importantly, the individual advising and mentorship I received helped me become a more desirable, well-rounded, and competitive applicant. Thank you PHPB for playing an instrumental role in helping me achieve my goal of attending the University of Florida College of Dentistry!"</p>
+        <p>Karley Post, 2014 PHPB Cohort, University of Florida, College of Dentistry</p>
+      </div><!-- bubble -->
+    </div><!-- bubble wrap -->
 
 
       <div class="bubbleWrap">
@@ -35,12 +45,12 @@
           <p>Attempted a maximum of three science courses early in undergraduate earning less than a B with no further attempts in science courses. These students must demonstrate an upward academic trend in completion of their undergraduate degree.</p>
           <p class="center">OR</p>
           <p>Took pre-requisite courses greater than five years prior to PHPB admission and wish to repeat these for application.</p>
-          </div><!-- list graph container -->
+        </div><!-- bubble -->
         <div class="clear"></div>
       </div><!-- bubble wrap -->
 
     <div id="mobileFeatures"><?php include_once("include/mobileFeatures.php"); ?></div>
-  </div>    <!-- container -->
+    </div><!-- container -->
     <div id="desktopFeatures"><?php include_once("include/desktopFeatures.php"); ?></div>
 
 <?php require_once("include/footer.php"); ?>
