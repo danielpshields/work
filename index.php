@@ -10,8 +10,21 @@
       <article class="lonesomeNote">
         <h2>2018</h2>
         <h4>November</h4>
+        <h5>Week 28</h5>
+        <ul>
+          <li><a href="ln/18/11/26.html">181126</a></li>
+        </ul>
+
         <h5>Week 27</h5>
         <ul>
+          <li><a href="ln/18/11/25.html">181125</a></li>
+          <li><a href="ln/18/11/24.html">181124</a></li>
+        </ul>
+        <ul>
+          <li><a href="ln/18/11/23.html">181123</a></li>
+          <li><a href="ln/18/11/22.html">181122</a></li>
+          <li><a href="ln/18/11/21.html">181121</a></li>
+          <li><a href="ln/18/11/20.html">181120</a></li>
           <li><a href="ln/18/11/19.html">181119</a></li>
         </ul>
 
