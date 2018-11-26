@@ -449,6 +449,46 @@ a#apply:hover p {
 	margin-top: 1.6rem;
 }
 
+/* quote quote quote quote */
+/* quote quote quote quote */
+/* quote quote quote quote */
+/* quote quote quote quote */
+
+.quoteBubble {
+	width: 84%;
+	margin: auto;
+	margin-top: 2.81rem;
+	border-left: .3rem solid #1C68AC; /* darkest blue */
+}
+
+
+.st1{fill:#B1F5DB;}
+
+
+.quote_icon_container {
+ display: none;
+}
+
+.mobile_quote_icon {
+	width: 15%;
+	margin: auto;
+}
+
+
+p.quoteSlug {
+	font-style: italic;
+	font-size: 1.1rem;
+	color: #999;
+	width: 92%;
+	padding-left: .5rem;
+}
+
+p.quote_signature {
+	font-size: 1.2rem;
+	color: #727272;
+}
+
+
 
 /* footer  footer   footer   footer   footer   footer */
 /* footer  footer   footer   footer   footer   footer */

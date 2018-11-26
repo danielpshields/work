@@ -26,6 +26,52 @@
 			width: 98%;
 		}
 
+
+		/* quote quote quote quote */
+		/* quote quote quote quote */
+		/* quote quote quote quote */
+		/* quote quote quote quote */
+
+
+		.quoteBubble {
+			border-left: .3rem solid #5B9BD5; /* blue */
+		}
+
+		.mobile_quote_icon {
+			width: 8%;
+		}
+
+		/* .quoteBubble {
+			display: flex;
+			justify-content: space-between;
+			width: 84%;
+			margin: auto;
+			border: 1px solid #1C68AC;
+			box-shadow: 20px 20px 20px #f0f0f0;
+		} */
+
+		/* .st1{fill:#11B376;} */
+
+		/* .quote_icon_container {
+			width: 5%;
+		}
+
+		.alignBottom {
+			align-self: flex-end;
+		}
+
+
+		p.quoteSlug {
+			font-style: italic;
+			color: #999;
+		} */
+
+
+
+
+		/* END. quote quote quote quote */
+
+
 		footer li {
 			float: left;
 			border-right: 1px solid #777;
