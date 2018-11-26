@@ -61,19 +61,6 @@
 	padding-bottom: 0;
 }
 
-#quotes {
-	width: 45%;
-	display: block;
-	margin: 3rem auto 2.8rem auto;
-}
-
-#thickQuoteLetters {
-	font-weight: 500;
-	font-size: 1.4rem;
-	margin-bottom: 2rem;
-}
-
-
 @media screen and (min-width: 600px) {
 
 		video {

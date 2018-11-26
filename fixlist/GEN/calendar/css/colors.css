@@ -69,6 +69,10 @@ p {
   background: #77abff; /* pale blue core feature list */
 }
 
+#phpb_bubble_blue {
+  background: #5b9bd5;
+}
+
 #passiveBlue {
   background: #5779b2; /* passive blue */
 }
