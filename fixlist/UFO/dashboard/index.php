@@ -3,7 +3,7 @@
 	$stylesheet = $title;
 	require_once("include/header.php");
 ?>
-		<h2>Dashboard</h2>
+		<h2>Home</h2>
 
 		<dl>
 			<dt>

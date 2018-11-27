@@ -26,26 +26,10 @@
 				<?php include("image/uf_signature.svg"); ?>
 			</a>
 		</div>
+
 	</header>
 
-	<dl id="mobileNavigation">
-		<dt>
-			<span>menu</span>
-		</dt>
-		<dd>
-			<ul>
-				<?php
-				$pages = array ("index", "minutes", "articles", "resources", "members");
-				foreach ($pages as $key) {
-					if ($key !== $title) { ?>
-						<li><a href="<?php echo $key . ".php"; ?>"><?php if ($key === "index") { echo "home"; } else {echo $key;} ?></a></li>
-					<?php
-					}
-				}
-				?>
-			</ul>
-		</dd>
-	</dl>
+
 	<div class="clear"></div>
 	<!-- body content -->
 	<div id="content">
