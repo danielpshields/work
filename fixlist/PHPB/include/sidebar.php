@@ -6,6 +6,7 @@
                 <li><a href="newstudents.php">Newly Admitted Students</a></li>
                 <li><a href="current.php">Current Students</a></li>
                 <li><a href="alumni.php">Alumni Success</a></li>
+                <li><a href="faculty.php">Faculty</a></li>
                 <li><a href="contact.php">Contact</a></li>
               </ul>
               <div id="contactSection">

@@ -423,6 +423,14 @@ a#apply:hover p {
 .bubble {
   background: #5b9bd5;
   border: .6rem solid #2573ba;
+	/* background: #3078BB;
+	border: .6rem solid #9AC4E5; */
+
+	/* The bubble fails the color contrast standards */
+	/* The bubble fails the color contrast standards */
+	/* The bubble fails the color contrast standards */
+ 	/* The bubble fails the color contrast standards */
+
   margin: 1rem auto;
   padding-bottom: 3rem;
 	width: 87%;

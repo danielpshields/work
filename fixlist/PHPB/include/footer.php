@@ -11,6 +11,7 @@
             <a href="faq.php">FAQ</a> |
             <a href="advising.php">Advising</a> |
             <a href="alumni.php">Alumni Success</a> |
+            <a href="faculty.php">Faculty</a> |
             <a href="contact.php">Contact Us</a> |
             <a href="newstudents.php">Newly Admitted Students</a> |
             <a href="current.php">Current Students</a> |

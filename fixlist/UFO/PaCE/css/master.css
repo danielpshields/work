@@ -12,23 +12,24 @@ html {
 }
 
 body {
-  width: 90%;
+  width: 100%;
   max-width: 980px;
   margin: auto;
 }
 
 header {
   border-bottom: 4px solid #f79646;
-  box-shadow: 10px 10px 10px #c0c0c0;
+  /* box-shadow: 10px 10px 10px #c0c0c0; */
 }
 
 #uf_logo {
-  width: 17rem;
+  width: 5rem;
   float: left;
+  /* border: 1px solid red; */
 }
 
 h1 {
-  color: #444;
+  color: #333;
   font-size: 1rem;
   float: right;
 }
@@ -36,6 +37,7 @@ h1 {
 h2 {
   color: #444;
   font-size: 1rem;
+  text-decoration: underline;
 }
 
 a {
@@ -44,6 +46,35 @@ a {
 
 ul, ol {
   margin-left: 2.5rem;
+}
+
+.monospace {
+  font-family: monospace, monospace;
+  font-size: 1.2rem;
+}
+
+.inputShell {
+  border: 1px solid gray;
+  width: 84%;
+  margin: 2rem auto;
+  padding: 1.5rem 0 1rem 0;
+  box-shadow: 10px 10px 20px #c0c0c0;
+  background: #e0e0e0;
+}
+
+.inputShell input {
+  display: block;
+  margin: auto;
+  width: 84%;
+  padding: .35rem .5rem;
+  letter-spacing: .5px;
+}
+
+.inputShell label {
+  text-align: center;
+  /* background: red; */
+  display: block;
+  margin-top: .3rem;
 }
 
 .clear {

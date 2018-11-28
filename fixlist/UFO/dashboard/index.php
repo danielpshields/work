@@ -3,8 +3,6 @@
 	$stylesheet = $title;
 	require_once("include/header.php");
 ?>
-		<h2>Home</h2>
-
 		<dl>
 			<dt>
 				<img src="image/circle_arrow.png" class="arrow">

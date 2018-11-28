@@ -63,7 +63,8 @@ table.classTable {
   /* width: 60%; */
   width: 90%;
   background: none;
-  margin: 2rem auto 0 auto;;
+  margin: 2rem auto 0 auto;
+
 }
 
 p#yourApplicationGraph {
@@ -131,6 +132,9 @@ p#yourApplicationGraph {
 
   #yourApplicationBubbleGraphic {
     width: 50%;
+    min-width: 50%;
+    height: 500px;
+    width: 500px;
     margin-bottom: 3rem;
   }
 

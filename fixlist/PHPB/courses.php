@@ -61,8 +61,8 @@
               <td>3</td>
             </tr>
             <tr>
-              <td>IDS4930</td>
-              <td>Pre-Health Seminar</td>
+              <td>IDS4930*</td>
+              <td>Pre-Health Seminar*</td>
               <td>2</td>
             </tr>
             <tr>
@@ -173,8 +173,8 @@
               <td>3</td>
             </tr>
             <tr>
-              <td>IDS4930</td>
-              <td>Innovations in Healthcare</td>
+              <td>IDS4930*</td>
+              <td>Innovations in Healthcare*</td>
               <td>3</td>
             </tr>
             <tr>
@@ -217,8 +217,8 @@
               <td>2</td>
             </tr>
             <tr>
-              <td>IDS4930</td>
-              <td>Health Equity Here & Abroad</td>
+              <td>IDS4930*</td>
+              <td>Health Equity Here & Abroad*</td>
               <td>3</td>
             </tr>
             <tr>
@@ -235,7 +235,27 @@
             </tr>
           </tbody>
         </table>
+
+        <h3>PHBP Unique Courses*</h3>
+        <ul>
+
+          <li><b><u>Pre-Health Seminar</u></b></li>
+          <p>The PHPB seminar seeks to explore some of the humanistic issues related to patients, professions and the self.  Our purpose is to recognize and encompass the concepts of basic dignity afforded to all we seek to care for.   The seminar utilize narratives, case studies, media, the arts, and guest speakers to examine the human story in its interaction with healthcare. The goal of this class is to provide insights into the perspectives of patients and providers as they relate to issues such as culture, hope, uncertainty, death and dying.  Students will be invited to read, think, create to expand their understanding of how social, medical and humanistic realities shape world views, relationships and decision making.</p>
+
+          <li><b><u>Innovations in Healthcare</u></b></li>
+          <p>Students explore and practice steps of the design thinking process and problem solving as it relates to healthcare and its settings in the community.  You will develop skills as ethnographers, visual thinkers, strategists, and storytellers through a hybrid of discussions and collaborative projects. Students are placed in community settings to identify and create solutions to an organizations issues.</p>
+
+          <li><b><u>Bioethics</u></b></li>
+          <p>Medical Bioethics provides students with a very intensive review of the dynamic field of bioethics in the areas of medical practice and research. This course offers students the opportunity to learn about many biomedical ethics issues and the impact of these issues in medicine and research.</p>
+
+          <li><b><u>Health Equity in the U.S. and Abroad</u></b></li>
+          <p>This course is designed to introduce students to the various factors influencing human health conditions around the world. Current global health topics and country or region specific health issues will be the focus of the course.</p>
+
+          <li><b><u>Genetics and Health</u></b></li>
+          <p>PHPB students have the opportunity to attend (no credits earned) the UF, College of Medicine, BMS6003 Genetics and Health course coordinated by Dr. Brian Harfe..  Dr. Harfe graciously invites PHPB cohorts to attend the class during fall semester so students get a sense of the excellence awaiting students at UF.</p>
+        </ul>
       </section>
+
 
       <p>There is access to select electives through the College of Liberal Arts & Sciences and UF College of Medicine.</p>
       <h3>Other Professions</h3>
