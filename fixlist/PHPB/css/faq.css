@@ -18,7 +18,7 @@
   background: white;
   padding-bottom: 0rem;
   padding-left: .5rem;
-  color: #478eff;
+  color: #004CC7;
 }
 
 .shell dt:hover {
@@ -42,4 +42,8 @@
   margin-bottom: 2.5rem;
   padding-left: .5rem;
   background: white;
+}
+
+.shell dd a {
+  color: #2A5DB0;
 }

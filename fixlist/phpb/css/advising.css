@@ -11,3 +11,8 @@ th, td {
 .shell a {
   color: #2A5DB0;
 }
+
+#slugH2 {
+  margin-top: 2rem;
+  margin-bottom: 1.7rem;
+}

@@ -9,7 +9,6 @@
 
     <h2>Financial Information</h2>
     <p>This step in your medical education represents an important and significant investment.</p>
-    <p>PHPB is a self-funded program.</p>
     <p>Tuition for the program is:</p>
     <ul>
       <li>$400 per credit hour plus additional fees (approximately $60 per credit hour) for Florida residents and</li>
