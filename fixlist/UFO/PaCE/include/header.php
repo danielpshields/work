@@ -18,10 +18,7 @@
   <body>
     <header>
       <div id="uf_logo">
-        <?php require("image/uf_logo.svg"); ?>
-
-
-
+        <?php //require("image/uf_logo.svg"); ?>
       </div>
       <!-- <img src="image/uf_logo.png" alt=""> -->
       <h1>PaCE Transition Form</h1>
@@ -31,7 +28,5 @@
       <li><a href="a.php">a</a></li>
       <li><a href="b.php">b</a></li>
       <li><a href="c.php">c</a></li>
-      <div class="clear">
-
-      </div>
+      <div class="clear"></div>
     </nav>

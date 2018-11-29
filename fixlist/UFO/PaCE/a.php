@@ -15,7 +15,7 @@
 
 ?>
 
-  <h3>Welcome, <?php echo $firstName; ?></h3>
+  <h2>Welcome, <?php echo $firstName; ?></h2>
   <p>Please enter your UF ID number:</p>
   <form class="inputShell" action="a.php" method="post">
     <input type="text" name="ufId" value="" placeholder="########">

@@ -41,3 +41,31 @@
 
 Signatures:
  _________________________ 		_______________________________
+
+
+
+
+
+
+
+   <h2><?php echo $firstName; ?> please read through these:</h2>
+
+     <h3>Terms of Transition</h3>
+
+     <p>In order to transition to campus, you must meet all conditions of the Pathway to Campus Enrollment (PaCE) Contract:</p>
+
+     <ul>
+       <li>Earn a total of 60 credits (up to 45 credits may come from previous college credits earned through AP, IB, Dual Enrollment, or other accelerated methods)</li>
+
+       <li>Enroll in UF Online for at least two semesters and earn at least 15 credit hours through UF Online</li>
+
+       <li>Complete all prerequisite or tracking requirements with required grades for your selected PaCE major</li>
+
+       <li>The University of Florida reserves the right to ask for additional information and the right to deny the request for transition to campus.</li>
+
+       <li>If you have any questions about your eligibility or the transition process, please contact your academic advisor.</li>
+     </ul>
+
+     <form class="" action="c.php" method="post">
+       <input type="submit" name="submit" value="I Accept">
+     </form>
