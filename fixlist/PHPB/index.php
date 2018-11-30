@@ -13,7 +13,7 @@
 
       <p>The University of Florida's Pre-health Post-Baccalaureate Program (PHPB) offers dedicated and motivated students an opportunity to complete comprehensive academic and professional preparation for admission to healthcare professional schools.</p>
 
-      <p>PHBP is a two-year program that offers courses, step-by-step advising, professional development groups at a pace that aims to support holistic academic, professional and personal growth. Students develop the skills and competencies to be well-prepared for application to healthcare professional graduate school such as medical, dental and veterinary medicine. Once admitted students receive an individualized academic plan.  A professional development plan is completed in the first semester to lay out concrete steps students need to take to build an individualized competitive application.</p>
+      <p>PHBP is a two-year program that offers courses, step-by-step advising, professional development groups at a pace that aims to support holistic academic, professional and personal growth. Students develop the skills and competencies to be well-prepared for application to healthcare professional graduate school such as medical, dental and veterinary medicine. Once admitted, students receive an individualized academic plan.  A professional development plan is completed in the first semester to lay out concrete steps students need to take to build an individualized competitive application.</p>
 
       <?php
         $open  = file_get_contents("image/svg/quote_open.svg");

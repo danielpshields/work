@@ -5,7 +5,7 @@
   if (isset($_POST['submit'])) {
     $id = $_POST["ufId"];
     if ($id !== $UFID) {
-      $error = "please try again";
+      $error = "ID was incorrect, please try again!";
     } else {
       header("Location: c.php");
       $svg = include("image/uf_logo.svg");
@@ -16,9 +16,9 @@
 ?>
 
   <!-- <h2>Welcome, <?php echo $firstName; ?>!</h2> -->
-  <h2>Welcome, Alex!</h2>
-  <p>Please enter your UF ID number:</p>
+  <h2>Hello, Alex!</h2>
   <form class="inputShell" action="a.php" method="post">
+    <p>Please enter your UF ID number:</p>
     <input type="text" name="ufId" value="" placeholder="########">
     <label for="ufId">UF ID number</label>
     <p><?php echo $error; ?></p>

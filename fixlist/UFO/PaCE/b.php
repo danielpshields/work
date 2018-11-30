@@ -18,10 +18,20 @@
        <label for="paceMajor">PaCE Major*</label>
      </div>
 
-     <div class="inputShell">
-       <input type="text" name="phoneNumber" value="" placeholder="( *** ) *** - ****">
-       <label for="phoneNumber">Phone Number</label>
-     </div>
+
+
+
+     <form action="c.php" method="post">
+
+         <div class="inputShell">
+           <input type="text" name="college" value="" placeholder="Agriculture, Arts, Business...">
+           <label for="college">College*</label>
+         </div>
+
+         <div class="inputShell">
+           <input type="text" name="paceMajor" value="" placeholder="Accounting, Music, Zoology">
+           <label for="paceMajor">PaCE Major*</label>
+         </div>
 
 
      <input id="submitButton" type="submit" name="submit" value="submit">
