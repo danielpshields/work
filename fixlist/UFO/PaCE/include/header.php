@@ -14,19 +14,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PaCE Transition Form</title>
     <link rel="stylesheet" href="css/master.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
   <body>
     <header>
-      <div id="uf_logo">
-        <?php //require("image/uf_logo.svg"); ?>
-      </div>
-      <!-- <img src="image/uf_logo.png" alt=""> -->
-      <h1>PaCE Transition Form</h1>
+      <h1><a href="a.php">PaCE Transition Form</a></h1>
+      <a href="c.php">
+        <img src="image/uf_logo.png" alt="">
+      </a>
       <div class="clear"></div>
     </header>
-    <nav>
+    <!-- <nav>
       <li><a href="a.php">a</a></li>
       <li><a href="b.php">b</a></li>
       <li><a href="c.php">c</a></li>
       <div class="clear"></div>
-    </nav>
+    </nav> -->

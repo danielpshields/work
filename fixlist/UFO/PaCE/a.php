@@ -7,7 +7,7 @@
     if ($id !== $UFID) {
       $error = "please try again";
     } else {
-      header("Location: b.php");
+      header("Location: c.php");
       $svg = include("image/uf_logo.svg");
       exit;
     }
@@ -15,7 +15,8 @@
 
 ?>
 
-  <h2>Welcome, <?php echo $firstName; ?></h2>
+  <!-- <h2>Welcome, <?php echo $firstName; ?>!</h2> -->
+  <h2>Welcome, Alex!</h2>
   <p>Please enter your UF ID number:</p>
   <form class="inputShell" action="a.php" method="post">
     <input type="text" name="ufId" value="" placeholder="########">

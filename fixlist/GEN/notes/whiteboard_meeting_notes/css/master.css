@@ -1,4 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: .5rem 1rem;
+  color: #333;
+}
+
+#slugImage {
+  border: 1px solid #555;
+}
+
+
 img {
   display: block;
   margin: auto;
+  width: 100%;
+}
+
+.centerSlug {
+  text-align: center;
+  font-style: italic;
+  width: 84%;
+  margin: auto;
+  margin-top: .5rem;
+}
+
+h2 {
+  color: #444;
+  margin: 1rem 0 .5rem 1rem;
+}
+
+p {
+  margin: .5rem 1rem 1rem 1rem;
+}
+
+i {
+  color: #737373;
+}
+
+.meetingShell {
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #999;
+  box-shadow: .1rem .1rem .5rem #a0a0a0;
+  margin-top: 1.5rem;
+}
+
+.marginTopImage {
+  margin-top: .3rem;
+}
+
+footer {
+  border-top: 1px solid #a0a0a0;
+  margin-top: 2rem;
+  padding: 1.5rem 0 2.5rem 0;
 }

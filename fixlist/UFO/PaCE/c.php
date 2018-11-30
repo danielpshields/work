@@ -1,71 +1,58 @@
 <?php require("include/header.php"); ?>
 
-    <h2>Transition Decision and Statement of Understanding</h2>
-    <p>Please read and initial either Option A or Option B</p>
+    <!-- <h2>Transition Decision and Statement of Understanding</h2> -->
+    <!-- <h2>Hello, <?php echo $firstName; ?></h2> -->
+    <h2>Please select your preferred transition:</h2>
 
-      <p>Option A. ______ I give permission for my advisor to transition me to campus enrollment for the
+    <div class="transitionOptionShell">
 
-      <b><?php echo "\$semester/\$term"; ?></b>
+      <h3>Residential</h3>
 
-      <select class="" name="">
-        <option value="spring">spring</option>
-        <option value="summer">summer</option>
-        <option value="fall">fall</option>
+      <p class="transitionOptionAboutGraphs">Indicates that you intend to transition to a residential UF program.</p>
 
-      </select>
+      <form action="residential.php" method="post">
+        <input class="selectOptionButton" type="submit" name="submit" value="Residential Transition">
+      </form>
 
-      term in the PaCE major I listed above.
-      ______ I understand that I must meet the following conditions in order to transition to campus:
+      <dl>
+        <dt>
+          <img src="image/arrow.png" alt="">
+          <span>learn more</span>
+        </dt>
+        <dd>
+          <h4>Residential Transition:</h4>
+          <p>A residential transition entails lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </dd>
+      </dl>
 
-  <ol>
-    <li><?php echo "INSERT * \$STIPULATION"; ?></li>
-    <li><?php echo "INSERT * \$STIPULATION"; ?></li>
-    <li><?php echo "INSERT * \$STIPULATION"; ?></li>
-  </ol>
-  <input type="checkbox">
-  If I want to return to UF Online in the future, I understand that I must reapply to UF Online.
+    </div><!-- transition option shell -->
 
+      <p class="centerSlug">or</p>
 
+    <div class="transitionOptionShell">
+      <h3>UF Online</h3>
 
-  <input type="checkbox">
-  If I want to start on campus in a non-PaCE major, I understand that I must apply to campus as a transfer student in that major by the published transfer deadline, and be accepted into that major.
-
-
-
-  <input type="checkbox">
-  If I am currently enrolled in any UF Online courses for upcoming semesters, I will drop those courses before I submit this contract to my advisor.
-
-
-  Option B. _____ I would like to remain in UF Online in the __________________ UF Online degree program. If I want to enroll in a campus degree program, I understand that I will need to reapply as a campus transfer.
+      <p class="transitionOptionAboutGraphs">Indicates that you intend to transition to into the UF Online program.</p>
 
 
-Signatures:
- _________________________ 		_______________________________
+      <form action="ufo.php" method="post">
+        <input class="selectOptionButton" type="submit" name="submit" value="UF Online Transition">
+      </form>
+
+      <dl>
+        <dt>
+          <img src="image/arrow.png" alt="">
+          <span>learn more</span>
+        </dt>
+        <dd>
+          <h4>UF Online Transition:</h4>
+          <p>A UF Online transition entails lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </dd>
+      </dl>
+
+    </div><!-- transition option shell -->
 
 
+    <p id="contactAdvisorSlug">Need help? Contact an <a href="#">advisor</a></p>
 
-
-
-
-
-   <h2><?php echo $firstName; ?> please read through these:</h2>
-
-     <h3>Terms of Transition</h3>
-
-     <p>In order to transition to campus, you must meet all conditions of the Pathway to Campus Enrollment (PaCE) Contract:</p>
-
-     <ul>
-       <li>Earn a total of 60 credits (up to 45 credits may come from previous college credits earned through AP, IB, Dual Enrollment, or other accelerated methods)</li>
-
-       <li>Enroll in UF Online for at least two semesters and earn at least 15 credit hours through UF Online</li>
-
-       <li>Complete all prerequisite or tracking requirements with required grades for your selected PaCE major</li>
-
-       <li>The University of Florida reserves the right to ask for additional information and the right to deny the request for transition to campus.</li>
-
-       <li>If you have any questions about your eligibility or the transition process, please contact your academic advisor.</li>
-     </ul>
-
-     <form class="" action="c.php" method="post">
-       <input type="submit" name="submit" value="I Accept">
-     </form>
+<?php require("include/footer.php"); ?>
