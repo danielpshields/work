@@ -14,7 +14,9 @@ html {
 body {
   width: 100%;
   max-width: 980px;
+  width: 320px;
   margin: auto;
+  box-shadow: .3rem .3rem .5rem #f0f0f0;
 }
 
 header {
@@ -38,7 +40,7 @@ header img {
 h2 {
   font-weight: 600;
   letter-spacing: 0;
-  color: #444;
+  color: #575757;
   font-size: 1.6rem;
   margin-top: 2rem;
   /* margin-top: 0; */
@@ -51,13 +53,13 @@ p {
   margin: 1rem;
   padding-right: 1rem;
   font-size: 1rem;
-  color: #555;
+  color: #3f3f3f;
   font-weight: 400;
   line-height: 1.21053;
 }
 
 h3 {
-  color: #555;
+  color: #454545;
   margin-left: 1rem;
 }
 
@@ -87,7 +89,6 @@ ul, ol {
   margin: auto;
   margin-top: 1.5rem;
   padding: 1rem 0 1rem 0;
-  background: #fcfcfc;
 }
 
 .inputShell input {
@@ -104,6 +105,7 @@ ul, ol {
   /* background: red; */
   display: block;
   margin-top: .3rem;
+  margin-bottom: 0;
   color: #555;
 }
 
@@ -125,7 +127,7 @@ ul, ol {
 }
 
 .inputShell li {
-  color: #666;
+  color: #3f3f3f;
   line-height: 1.5;
   padding-right: 1rem;
   margin-bottom: 1rem;
@@ -152,8 +154,19 @@ input.checkBox {
   /* float: left; */
 }
 
+#thankYou {
+  border: 2px solid #32CD32;
+  box-shadow: .3rem .3rem 1rem #c0c0c0;
+  text-align: center;
+  padding: 0;
+  width: 84%;
+  padding: .3rem .5rem;
+  margin: auto;
+  border-radius: .3rem;
+}
 
-#submitButton {
+
+.submitButton {
   display: block;
   margin: auto;
   margin-top: 2.3rem;
@@ -174,11 +187,12 @@ input.checkBox {
 }
 
 .transitionOptionShell h3 {
-  color: #3a3a3a;
+  color: #fff;
+  background: #C85F09;
 }
 
 .transitionOptionAboutGraphs, .inputShell p {
-  color: #737373;
+  color: #3f3f3f;
   font-size: 1rem;
 }
 
@@ -200,7 +214,7 @@ input.checkBox {
   width: 84%;
   margin: auto;
   margin-top: 2.81rem;
-  color: #999;
+  color: #6E6E6E;
   font-style: italic;
   font-size: .8rem;
 
@@ -230,7 +244,7 @@ dd h3 {
 .centerSlug {
   text-align: center;
   font-style: italic;
-  color: #737373;
+  color: #575757;
   font-size: 1rem;
   margin-top: 1.5rem;
 }
@@ -257,6 +271,9 @@ footer p {
 	transform: rotate(180deg);
 	}
 
+#marginTop {
+  margin-top: 1.3rem;
+}
 
 .clear {
   clear: both;

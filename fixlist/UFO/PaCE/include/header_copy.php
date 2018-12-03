@@ -1,10 +1,20 @@
 <?php
-  $date_auto    = date("Y-m-d H:i:s");
+  $date_auto    = date("m-d-Y");
+  $UFID         = "40811353";
+  $nameBusiness = "Catalano,Alex Hunter";
+  $email        = "acatalano2@ufl.edu";
+  $firstName    = "Alex";
+  $lastName     = "Catalano";
+
   $UFID         = $_SERVER['HTTP_UFSHIB_UFID'];
-  $email        = $_SERVER['HTTP_UFSHIB_MAIL'];
+  $date_auto    = date("Y-m-d H:i:s");
   $nameBusiness = $_SERVER['HTTP_UFSHIB_BUSINESSNAME'];
-  $firstName    = $_SERVER['HTTP_UFSHIB_GIVENNAME'];
+  $email        = $_SERVER['HTTP_UFSHIB_MAIL'];
   $nameGiven    = $_SERVER['HTTP_UFSHIB_GIVENNAME']." ".$_SERVER['HTTP_UFSHIB_SN'];
+  $nameGivenShort    = $_SERVER['HTTP_UFSHIB_GIVENNAME'];
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +28,7 @@
   </head>
   <body>
     <header>
-      <h1><a href="index.php">PaCE Transition Form</a></h1>
+      <h1><a href="a.php">PaCE Transition Form</a></h1>
       <a href="c.php">
         <img src="image/uf_logo.png" alt="">
       </a>

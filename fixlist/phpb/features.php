@@ -36,36 +36,37 @@
 
     </div><!-- quote bubble -->
 
-
-
     <div class="bubbleWrap">
       <div id="courses" class="bubble">
-        <h3>PHBP Unique Courses &#124; IDS4930</h3>
+        <h3>PHPB Unique Courses &#124; IDS4930</h3>
 
         <dl>
           <dt>
             <img src="image/icons/arrow.png" alt="arrow icon">
             <span>Pre-Health Seminar</span>
+            <span class="idsCreditSlug">2 credits</span>
             <div class="clear"></div>
           </dt>
           <dd>
-            <p>The PHPB seminar seeks to explore some of the humanistic issues related to patients, professions and the self.  Our purpose is to recognize and encompass the concepts of basic dignity afforded to all we seek to care for.   The seminar utilize narratives, case studies, media, the arts, and guest speakers to examine the human story in its interaction with healthcare. The goal of this class is to provide insights into the perspectives of patients and providers as they relate to issues such as culture, hope, uncertainty, death and dying.  Students will be invited to read, think, create to expand their understanding of how social, medical and humanistic realities shape world views, relationships and decision making.</p>
+            <p>The PHPB seminar seeks to explore some of the humanistic issues related to patients, professions and the self. Our purpose is to recognize and encompass the concepts of basic dignity afforded to all we seek to care for. The seminar utilizes narratives, case studies, media, the arts, and guest speakers to examine the human story in its interaction with healthcare. The goal of this class is to provide insights into the perspectives of patients and providers as they relate to issues such as culture, hope, uncertainty, death and dying. Students will be invited to read, think, create to expand their understanding of how social, medical and humanistic realities shape world views, relationships and decision making.</p>
            </dd>
         </dl>
         <dl>
           <dt>
             <img src="image/icons/arrow.png" alt="arrow icon">
             <span>Innovations in Healthcare</span>
+            <span class="idsCreditSlug">3 credits</span>
             <div class="clear"></div>
           </dt>
           <dd>
-            <p>Students explore and practice steps of the design thinking process and problem solving as it relates to healthcare and its settings in the community.  You will develop skills as ethnographers, visual thinkers, strategists, and storytellers through a hybrid of discussions and collaborative projects. Students are placed in community settings to identify and create solutions to an organizations issues.</p>
+            <p>Students explore and practice steps in the design thinking process and problem solving as it relates to healthcare and its settings in the community. You will develop skills as ethnographers, visual thinkers, strategists, and storytellers through a hybrid of discussions and collaborative projects. Students are placed in community settings to identify and create solutions to an organizations issues.</p>
           </dd>
         </dl>
         <dl>
           <dt>
             <img src="image/icons/arrow.png" alt="arrow icon">
             <span>Bioethics</span>
+            <span class="idsCreditSlug">3 credits</span>
             <div class="clear"></div>
           </dt>
           <dd>
@@ -76,6 +77,7 @@
           <dt>
             <img src="image/icons/arrow.png" alt="arrow icon">
             <span>Health Equity in the U.S. and Abroad</span>
+            <span class="idsCreditSlug">3 credits</span>
             <div class="clear"></div>
           </dt>
           <dd>
@@ -86,10 +88,11 @@
           <dt>
             <img src="image/icons/arrow.png" alt="arrow icon">
             <span>Genetics and Health</span>
+            <span class="idsCreditSlug">0 credits</span>
             <div class="clear"></div>
           </dt>
           <dd>
-            <p>PHPB students have the opportunity to attend (no credits earned) the UF, College of Medicine, BMS6003 Genetics and Health course coordinated by Dr. Brian Harfe..  Dr. Harfe graciously invites PHPB cohorts to attend the class during fall semester so students get a sense of the excellence awaiting students at UF. <i>The BMS6003 Genetics and Health course is the first course that 1st Year Medical students take during their training.</i></p>
+            <p>PHPB students have the opportunity to attend, at no charge, (no credits earned) the UF, College of Medicine, BMS6003 Genetics and Health course coordinated by Dr. Brian Harfe. Dr. Harfe graciously invites PHPB cohorts to attend the class during fall semester so students get a sense of the excellence awaiting students at UF. <i>The BMS6003 Genetics and Health course is the first course that 1st Year Medical students take during their training.</i></p>
           </dd>
         </dl>
       </div><!-- bubble -->
@@ -108,7 +111,7 @@
     </div><!-- bubble -->
     <div class="bubble">
       <h3>Professional Development Groups</h3>
-      <p>PHPB students meet on a monthly basis to develop the non-academic skills and competencies professional schools are looking for. This is includes but is not limited to entrance exam questions, reflective writing, health coping skills and communication skills. The PHPB Assistant helps to lead these groups and provides insight into the application process.</p>
+      <p>PHPB students meet on a monthly basis to develop the non-academic skills and competencies professional schools are looking for. This includes but is not limited to a review of entrance exam questions, reflective writing, health coping skills and communication skills. The PHPB Assistant helps to lead these groups and provides insight into the application process.</p>
     </div><!-- bubble -->
     <div class="bubble">
       <h3>Small Interest Groups</h3>

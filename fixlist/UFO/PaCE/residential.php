@@ -4,16 +4,17 @@
   <p>Please fill out the fields below to proceed with your residential transition</p>
 
   <form action="thankyou.php" method="post">
-      <div class="inputShell">
-        <p>Please indicate your current college</p>
-        <input type="text" name="college" value="" placeholder="Agriculture, Arts, Business...">
-        <label for="college">College</label>
-      </div>
 
       <div class="inputShell">
-        <input type="text" name="paceMajor" value="" placeholder="Accounting, Music, Zoology">
+        <h3>Current Information</h3>
+
+        <p>Please indicate your current college and PaCE major:</p>
+        <input type="text" name="college" value="" placeholder="Agriculture, Arts, Business...">
+        <label for="college">College</label>
+
+        <input id="marginTop" type="text" name="paceMajor" value="" placeholder="Accounting, Music, Zoology">
         <label for="paceMajor">PaCE Major</label>
-      </div>
+      </div><!-- input shell -->
 
       <div class="inputShell">
         <h3>When</h3>
@@ -24,14 +25,14 @@
          <option value="summer">summer</option>
          <option value="fall">fall</option>
        </select>
-     </div>
+     </div><!-- input shell -->
 
      <div id="stipulations" class="inputShell">
        <h3>Stipulations</h3>
        <ol>
-         <li>[<?php echo "INSERT * \$STIPULATION"; ?>]</li>
-         <li>[<?php echo "INSERT * \$STIPULATION"; ?>]</li>
-         <li>[<?php echo "INSERT * \$STIPULATION"; ?>]</li>
+         <li><i>[<?php echo "INSERT * \$STIPULATION"; ?>]</i></li>
+         <li><i>[<?php echo "INSERT * \$STIPULATION"; ?>]</i></li>
+         <li><i>[<?php echo "INSERT * \$STIPULATION"; ?>]</i></li>
        </ol>
        <p>Please check the box to indicate that I understand that I must meet the conditions listed above in order to transition to campus.</p>
        <input class="checkBox" type="checkbox" name="" value="">
@@ -40,7 +41,7 @@
      <div class="inputShell">
        <h3>UF Online</h3>
        <p>Please check the box to indicate that I understand that if I want to return to UF Online in the future, I understand that I must reapply to UF Online.</p>
-       <p>And to acknowledge that I understand that if I am currently enrolled in any UF Online courses for upcoming semesters, I will drop those courses before I submit this contract to my advisor.</p>
+       <p>...and to acknowledge that I understand that if I am currently enrolled in any UF Online courses for upcoming semesters, I will drop those courses before I submit this contract to my advisor.</p>
        <input class="checkBox" type="checkbox" name="" value="">
     </div><!-- input shell -->
 
@@ -69,7 +70,7 @@
 
     </div><!-- input shell -->
 
-    <input id="submitButton" type="submit" name="submit" value="Submit">
+    <input class="submitButton" type="submit" name="submit" value="Submit">
 
    </form>
 

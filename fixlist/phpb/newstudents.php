@@ -15,19 +15,15 @@
     <p>Some of you were admitted with the requirement that you complete Pre-Calculus (MAC1147) and Intro to Chemistry (CHM1025). If you were admitted to the <u>ReStart</u> program these <u>must</u> be taken at UF and completed with grades of B or above. Both courses are available online and in person.</p>
     <p>If you were admitted to the "<u>Career Changer</u>" track you are encouraged to take these at UF, but they may be taken at any institution. These must be completed with grades of B or above. Course equivalents must be pre-approved by the PHPB Director.</p>
 
-    <p>To take courses at UF:</p>
+    <p>To take the MAC1147 and CHM1025 at UF:</p>
     <ul>
-
-      <li>Please contact the <a href="mailto:phpostbac@clas.ufl.edu">PHPB Director</a> for this process.</li>
-
-      <li>Registration is during drop/add, usually the second day of classes. You will register for these courses yourself, but please contact the PHPB Director if you have any difficulty. There are no guarantees that seats will be available.</li>
-
-      <li>If you are taking these at another institution, please have the courses pre-approved by the PHPB Director for equivalency prior to taking these courses. Upon completion send an official transcript to the UF Registrar and an unofficial copy of your grades sent to the PBPB director immediately upon completion. These courses must be completed with a grade prior to beginning PHPB in August.</li>
-
-      <li>You may take MAC1147 via <a href="http://flexible.dce.ufl.edu/" target="_blank">Flexible Learning</a> which is an online option with flexible start dates. Please go to: <a href="http://flexible.dce.ufl.edu/" target="_blank">http://flexible.dce.ufl.edu/</a> for registration information.</li>
+      <li>You must first be admitted to PHPB to take these courses as a non-degree seeking student at UF.</li>
+      <li>If you are taking these courses during spring semester you will need to let the Director know.  Please contact the <a href="mailto:phpostbac@clas.ufl.edu">PHPB Director</a> for information this process.</li>
+      <li>If you are taking the courses in the summer, please go to <a href="https://admissions.ufl.edu/apply/more/" target="_blank">https://admissions.ufl.edu/apply/more/</a> where you will find the Non-Degree application to complete.</li>
+      <li>Once your non-degree application has been approved,  you will register for MAC1147 and/or CHM1025 yourself during drop/add, usually on the second day of classes. Contact the PHPB Director if you have any difficulty. There are no guarantees that seats will be available.</li>
+      <li>If you are taking these at another institution, please have the courses pre-approved by the PHPB Director for equivalency prior to taking these courses. Upon completion, send an official transcript to the UF Registrar and an unofficial copy to the PBPB Director. These courses must be completed with a grade prior to beginning PHPB in August.</li>
+      <li>You may take MAC1147 via Flexible Learning which is an online option with flexible start dates. Please go to: <a href="http://flexible.dce.ufl.edu/" target="_blank">http://flexible.dce.ufl.edu/</a> for registration information.</li>
     </ul>
-
-
   </div><!-- shell -->
   <div class="clear"></div>
 

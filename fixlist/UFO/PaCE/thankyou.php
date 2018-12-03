@@ -1,19 +1,25 @@
 <?php require("include/header.php"); ?>
 
   <h2>Thank you for submitting the form, <?php echo $firstName; ?>!</h2>
-  <p>Your information has been accepted!</p>
 
+  <p id="thankYou">Your information has been accepted!</p>
 
-  <form action="index.html" method="post">
+  <form action="https://admissions.ufl.edu/learn/pace/" method="post">
 
-    <p>Please provide a preferred phone number if you would like to be contacted by phone.</p>
     <div class="inputShell">
       <h3>Contact Informaton</h3>
+
+      <p>Please provide a preferred phone number if you'd like to be reached by phone.</p>
+
       <input type="text" name="phoneNumber" value="" placeholder="( *** ) *** - ****">
+
       <label for="phoneNumber">Phone Number</label>
-      <input type="text" value="<?php echo $email; ?>">
-      <label for="email">Email</label>
-    </div>
+
+
+    </div><!-- input shell -->
+
+    <input class="submitButton" type="submit" name="submit" value="submit">
+
   </form>
 
 <?php require("include/footer.php"); ?>
