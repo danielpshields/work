@@ -8,6 +8,35 @@
 
     <h2>Program Features</h2>
     <p>Our mission is to empower and support college graduates who are interested in pursuing admission to a healthcare graduate school. We welcome students from all backgrounds and celebrate the diversity that non-traditional students bring to the university. As a student in the program you will experience a range of features that will help you on your path to success.</p>
+    <div class="quoteBubble">
+
+      <?php
+        $open  = file_get_contents("image/svg/quote_open.svg");
+        $quote_close = file_get_contents("image/svg/quote_close.svg");
+      ?>
+
+      <!-- <div class="quote_icon_container">
+        <?php //echo $open; ?>
+      </div> -->
+      <!-- quote icon container -->
+
+      <div class="mobile_quote_icon">
+        <?php echo $open; ?>
+      </div><!-- mobile quote icon -->
+
+
+
+      <p class="quoteSlug">As a Career Changer, the PHPB Program saved me precious time and resources. Instead of pursuing a second four-year Bachelors degree, the PHPB Program's curriculum allowed me to complete the necessary pre-requisites in two years. I can confidently say the program's rigor prepared me for the academic challenges of dental school. More importantly, the individual advising and mentorship I received helped me become a more desirable, well-rounded, and competitive applicant. Thank you PHPB for playing an instrumental role in helping me achieve my goal of attending the University of Florida College of Dentistry!</p>
+
+      <div class="quote_icon_container alignBottom">
+        <?php echo $quote_close; ?>
+      </div><!-- quote icon container -->
+
+      <p class="quote_signature">Karley Post<br>2014 PHPB Cohort<br>University of Florida, College of Dentistry</p>
+
+    </div><!-- quote bubble -->
+
+
 
     <div class="bubbleWrap">
       <div id="courses" class="bubble">

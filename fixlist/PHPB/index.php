@@ -33,13 +33,13 @@
 
 
 
-        <p class="quoteSlug">As a Career Changer, the PHPB Program saved me precious time and resources. Instead of pursuing a second four-year Bachelors degree, the PHPB Program's curriculum allowed me to complete the necessary pre-requisites in two years. I can confidently say the program's rigor prepared me for the academic challenges of dental school. More importantly, the individual advising and mentorship I received helped me become a more desirable, well-rounded, and competitive applicant. Thank you PHPB for playing an instrumental role in helping me achieve my goal of attending the University of Florida College of Dentistry!</p>
+        <p class="quoteSlug">“One of the most important parts of UF’s PHPB is its ability to set the framework for what medical schools are expecting from applicants and how to achieve them whilst in the program. Its unique classes and advising showcase how much they really know about the application process. For me, the PHPB’s advising and mentorship are really where the program shines. I sincerely believe my access to Bobbi (Roberta Knickerbocker) changed the trajectory of my medical school career. After my first year of the program, she endorsed what I felt at the time to be my wild aspirations for medical school programs. The vote of confidence from someone with her knowledge of the field propelled me to continue making the most competitive application I could.  Moreover, the quality of the PHPB’s basic sciences faculty and their eagerness to assist in my application was essential to my current success. For me, starting with a complete career change and little biomedical science background, UF PHPB’s preparation was worth every cent."</p>
 
         <div class="quote_icon_container alignBottom">
           <?php echo $quote_close; ?>
         </div><!-- quote icon container -->
 
-        <p class="quote_signature">Karley Post<br>2014 PHPB Cohort, University of Florida, College of Dentistry</p>
+        <p class="quote_signature">Ricky Madhavan<br>2014 PHPB Cohort<br>Harvard Medical School</p>
 
       </div><!-- quote bubble -->
 
