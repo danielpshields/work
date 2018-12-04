@@ -48,7 +48,7 @@
             <div class="clear"></div>
           </dt>
           <dd>
-            <p>The PHPB seminar seeks to explore some of the humanistic issues related to patients, professions and the self. Our purpose is to recognize and encompass the concepts of basic dignity afforded to all we seek to care for. The seminar utilizes narratives, case studies, media, the arts, and guest speakers to examine the human story in its interaction with healthcare. The goal of this class is to provide insights into the perspectives of patients and providers as they relate to issues such as culture, hope, uncertainty, death and dying. Students will be invited to read, think, create to expand their understanding of how social, medical and humanistic realities shape world views, relationships and decision making.</p>
+            <p>The PHPB seminar seeks to explore some of the humanistic issues related to patients, professions and the self. Our purpose is to recognize and encompass the concepts of basic dignity afforded to all we seek to care for. The seminar utilizes narratives, case studies, media, the arts, and guest speakers to examine the human story in its interaction with healthcare. The goal of this class is to provide insights into the perspectives of patients and providers as they relate to issues such as culture, hope, uncertainty, death and dying. Students will be invited to read, think, and create to expand their understanding of how social, medical and humanistic realities shape world views, relationships and decision making.</p>
            </dd>
         </dl>
         <dl>
@@ -59,7 +59,7 @@
             <div class="clear"></div>
           </dt>
           <dd>
-            <p>Students explore and practice steps in the design thinking process and problem solving as it relates to healthcare and its settings in the community. You will develop skills as ethnographers, visual thinkers, strategists, and storytellers through a hybrid of discussions and collaborative projects. Students are placed in community settings to identify and create solutions to an organizations issues.</p>
+            <p>Students explore and practice steps in the design thinking process and problem solving as it relates to healthcare and its settings in the community. You will develop skills as ethnographers, visual thinkers, strategists, and storytellers through a hybrid of discussions and collaborative projects. Students are placed in community settings to identify and create solutions to an organization's issues.</p>
           </dd>
         </dl>
         <dl>

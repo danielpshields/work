@@ -18,7 +18,7 @@
     <p>To take the MAC1147 and CHM1025 at UF:</p>
     <ul>
       <li>You must first be admitted to PHPB to take these courses as a non-degree seeking student at UF.</li>
-      <li>If you are taking these courses during spring semester you will need to let the Director know.  Please contact the <a href="mailto:phpostbac@clas.ufl.edu">PHPB Director</a> for information this process.</li>
+      <li>If you are taking these courses during spring semester you will need to let the Director know. Please contact the <a href="mailto:phpostbac@clas.ufl.edu">PHPB Director</a> for information regarding this process.</li>
       <li>If you are taking the courses in the summer, please go to <a href="https://admissions.ufl.edu/apply/more/" target="_blank">https://admissions.ufl.edu/apply/more/</a> where you will find the Non-Degree application to complete.</li>
       <li>Once your non-degree application has been approved,  you will register for MAC1147 and/or CHM1025 yourself during drop/add, usually on the second day of classes. Contact the PHPB Director if you have any difficulty. There are no guarantees that seats will be available.</li>
       <li>If you are taking these at another institution, please have the courses pre-approved by the PHPB Director for equivalency prior to taking these courses. Upon completion, send an official transcript to the UF Registrar and an unofficial copy to the PBPB Director. These courses must be completed with a grade prior to beginning PHPB in August.</li>
@@ -28,20 +28,6 @@
   <div class="clear"></div>
 
   <div id="subShell">
-
-    <p>If you will not be in Gainesville during the summer, these courses are typically offered online. To take them at UF:</p>
-
-    <ul>
-
-      <li>Contact the <a href="mailto:phpostbac@clas.ufl.edu">PHPB Director</a> for instructions to submit a non-degree application.</li>
-
-      <li>You will need to complete a "non-degree" seeking application through <a href="http://www.admissions.ufl.edu/apply/more">Admissions</a>. Registration is during drop/add, usually the second day of classes. You will register for these yourself, but please contact us if you have any difficulty. There are no guarantees that seats will be available.</li>
-
-      <li>If you are taking these at another institution, please have an official transcript sent to UF Registrar and an unofficial copy of your grades sent to the PBPB coordinator as soon as possible. You cannot begin fall courses in August without submitting final grades. </li>
-
-      <li>You may also take MAC1147 via <a href="http://flexible.dce.ufl.edu/">Flexible Learning</a> which is an online option with flexible start dates. Please see their website for registration information.</li>
-
-    </ul>
 
     <h3>Also:</h3>
 
