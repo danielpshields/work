@@ -49,6 +49,7 @@
         <ul>
           <li>phonePIN: <b>12345#</b></li>
           <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox</a></li>
+          <li><a href="https://css-tricks.com/transforms-on-svg-elements/" target="_blank">SVG</a></li>
           <li>\\ad.ufl.edu\clas\web\sites\clas\prehealthpostbac" target="_blank">CLAS/PostBac</li>
         </ul>
       </div>
