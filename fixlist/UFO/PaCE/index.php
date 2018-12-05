@@ -15,13 +15,13 @@
 
 ?>
 
-  <h2>Hello, <?php echo $nameGiven; ?>!</h2>
+  <h2>Hello, <?php echo $firstName; ?>!</h2>
   <form  action="index.php" method="post">
     <div class="inputShell">
       <p>Please enter your UF ID number:</p>
       <input type="text" name="ufId" value="" placeholder="########">
       <label for="ufId">UF ID number</label>
-      <p><?php echo $error; ?></p>
+      <p id="loginError"><?php echo $error; ?></p>
     </div><!-- input shell -->
     <input class="submitButton" type="submit" name="submit" value="submit">
   </form>

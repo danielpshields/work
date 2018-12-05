@@ -2,9 +2,9 @@
   $date_auto    = date("Y-m-d H:i:s");
   $UFID         = $_SERVER['HTTP_UFSHIB_UFID'];
   $email        = $_SERVER['HTTP_UFSHIB_MAIL'];
-  $nameBusiness = $_SERVER['HTTP_UFSHIB_BUSINESSNAME'];
   $firstName    = $_SERVER['HTTP_UFSHIB_GIVENNAME'];
   $nameGiven    = $_SERVER['HTTP_UFSHIB_GIVENNAME']." ".$_SERVER['HTTP_UFSHIB_SN'];
+  $nameBusiness = $_SERVER['HTTP_UFSHIB_BUSINESSNAME'];
 ?>
 
 <!DOCTYPE html>
@@ -24,6 +24,8 @@
       </a>
       <div class="clear"></div>
     </header>
+
+
     <!-- <nav>
       <li><a href="a.php">a</a></li>
       <li><a href="b.php">b</a></li>

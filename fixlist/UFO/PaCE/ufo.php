@@ -14,7 +14,26 @@
 
       <input id="marginTop" type="text" name="paceMajor" value="" placeholder="Accounting, Music, Zoology">
       <label for="paceMajor">PaCE Major</label>
-    </div>
+    </div><!-- input shell -->
+
+    <div class="inputShell">
+
+    <ul>
+      <li>Anthropology</li>
+      <li>Biology</li>
+      <li>Computer Science</li>
+      <li>Criminology</li>
+      <li>Geography</li>
+      <li>Geology</li>
+      <li>Psychology</li>
+      <li>Sociology</li>
+    </ul>
+
+
+
+    </div><!-- input shell -->
+
+
 
     <div class="inputShell">
 

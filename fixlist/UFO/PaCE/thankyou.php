@@ -1,8 +1,8 @@
 <?php require("include/header.php"); ?>
 
-  <h2>Thank you for submitting the form, <?php echo $firstName; ?>!</h2>
+  <h2>Thank you for submitting the form!</h2>
 
-  <p id="thankYou">Your information has been accepted!</p>
+  <p id="thankYou">Your information has been accepted, <?php echo $firstName; ?>!</p>
 
   <form action="https://admissions.ufl.edu/learn/pace/" method="post">
 
