@@ -5,6 +5,8 @@
   $firstName    = $_SERVER['HTTP_UFSHIB_GIVENNAME'];
   $nameGiven    = $_SERVER['HTTP_UFSHIB_GIVENNAME']." ".$_SERVER['HTTP_UFSHIB_SN'];
   $nameBusiness = $_SERVER['HTTP_UFSHIB_BUSINESSNAME'];
+  // include("glid_local.php");
+
 ?>
 
 <!DOCTYPE html>
@@ -14,13 +16,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PaCE Transition Form</title>
     <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/<?php echo $page; ?>.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
   <body>
     <header>
       <h1><a href="index.php">PaCE Transition Form</a></h1>
-      <a href="c.php">
-        <img src="image/uf_logo.png" alt="">
+      <!-- <h1>PaCE Transition Form</h1> -->
+      <a href="sign.php">
+        <img src="image/uf_logo.svg" alt="">
       </a>
       <div class="clear"></div>
     </header>

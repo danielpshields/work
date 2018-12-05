@@ -28,8 +28,10 @@ header {
 }
 
 h1 {
-  color: #737373;
+  color: #333;
   font-size: .8em;
+  font-weight: 400;
+  margin-top: .4rem;
 }
 
 header img {
@@ -38,10 +40,11 @@ header img {
 
 
 h2 {
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 0;
-  color: #727272;
-  font-size: 1.8rem;
+  color: #666;
+  /* color: #006200; */
+  font-size: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: 1rem;
@@ -49,7 +52,7 @@ h2 {
 }
 
 p {
-  margin: 1rem;
+  margin: 1rem 0 2rem 1rem;
   padding-right: 1rem;
   font-size: 1rem;
   color: #3f3f3f;
@@ -75,24 +78,33 @@ ul, ol {
   margin-left: 2.5rem;
 }
 
-.monospace {
-  font-family: monospace, monospace;
-  font-size: 1.2rem;
-}
-
 .inputShell {
   border: 1px solid #a0a0a0;
+  border-top: 1px solid #999;
   border-bottom: 1px solid #666;
   box-shadow: 0.1rem 0.1rem 0.5rem #a0a0a0;
+  border-radius: .1rem;
   width: 84%;
   margin: auto;
   margin-top: 1.5rem;
-  padding: 1rem 0 1rem 0;
+  padding: 0 0 2rem 0;
+}
+
+.inputShell h3 {
+  background: #C85F09;
+  background: #B95809;
+  color: #fff;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0;
+  padding: .7rem 0 .7rem 1rem;
 }
 
 .inputShell input {
   display: block;
   margin: auto;
+  margin-top: 1.5rem;
   width: 84%;
   padding: .35rem .5rem;
   letter-spacing: .5px;
@@ -109,16 +121,18 @@ ul, ol {
 }
 
 .inputShell select {
-  width: 60%;
+  width: 84%;
   margin-left: 1rem;
   color: #333;
   letter-spacing: .5px;
-  text-transform: capitalize;
   padding: .5rem;
 }
 
 .inputShell p {
   line-height: 1.5;
+  color: #3f3f3f;
+  font-size: 1.3rem;
+  margin: 1.9rem 1rem 1.8rem 1rem;
 }
 
 .inputShell ol, .inputShell ul {
@@ -128,8 +142,23 @@ ul, ol {
 .inputShell li {
   color: #3f3f3f;
   line-height: 1.5;
+  font-size: 1.3rem;
   padding-right: 1rem;
   margin-bottom: 1rem;
+}
+
+.inputShell dl {
+  margin-top: 2.3rem;
+}
+
+input.submitButton {
+  display: block;
+  margin: 2rem auto;
+  width: 84%;
+  font-size: 1.2rem;
+  padding: .7rem 0;
+  color: #444;
+  background: linear-gradient(white, #D0DBF5);
 }
 
 .checkBoxShell {
@@ -158,6 +187,11 @@ input.checkBox {
   color: #3c65a8;
 }
 
+dd p {
+ font-size: 1rem;
+ color: #444;
+}
+
 #thankYou {
   border: 2px solid #32CD32;
   box-shadow: .3rem .3rem 1rem #c0c0c0;
@@ -167,61 +201,6 @@ input.checkBox {
   padding: .5rem .5rem;
   margin: auto;
   border-radius: .3rem;
-}
-
-
-.submitButton {
-  display: block;
-  margin: auto;
-  margin-top: 2.3rem;
-  width: 50%;
-  font-size: 1.2rem;
-  padding: .7rem 0;
-  color: #444;
-}
-
-.transitionOptionShell {
-  border: 1px solid #a0a0a0;
-  border-bottom: 1px solid #666;
-  box-shadow: 0.1rem 0.1rem 0.5rem #a0a0a0;
-  width: 80%;
-  margin: auto;
-  margin-top: 1.5rem;
-  padding: 1rem 0 1rem 0;
-}
-
-.transitionOptionShell h3 {
-  color: #fff;
-  background: #C85F09;
-}
-
-.transitionOptionAboutGraphs, .inputShell p {
-  color: #3f3f3f;
-  font-size: 1rem;
-}
-
- dd p {
-   font-size: 1rem;
-   color: #444;
- }
-
-.selectOptionButton {
-  display: block;
-  margin: auto;
-  margin-bottom: 1rem;
-  /* padding: .5rem 1.5rem; */
-  text-align: center;
-  width: 60%;
-}
-
-#contactAdvisorSlug {
-  width: 84%;
-  margin: auto;
-  margin-top: 2.81rem;
-  color: #6E6E6E;
-  font-style: italic;
-  font-size: .8rem;
-
 }
 
 dt {
@@ -275,10 +254,11 @@ footer p {
 	transform: rotate(180deg);
 	}
 
-#marginTop {
-  margin-top: 1.3rem;
-}
-
 .clear {
   clear: both;
+}
+
+.monospace {
+  font-family: monospace, monospace;
+  font-size: 1.2rem;
 }

@@ -1,4 +1,7 @@
-<?php require("include/header.php"); ?>
+<?php
+  $page = "thankyou";
+  require("include/header.php");
+?>
 
   <h2>Thank you for submitting the form!</h2>
 
@@ -9,7 +12,7 @@
     <div class="inputShell">
       <h3>Contact Informaton</h3>
 
-      <p>Please provide a preferred phone number if you'd like to be reached by phone.</p>
+      <p>If you'd like to be contacted by phone, please provide a preferred phone number.</p>
 
       <input type="text" name="phoneNumber" value="" placeholder="( *** ) *** - ****">
 

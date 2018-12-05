@@ -1,4 +1,4 @@
-<?php include("include/header.php"); ?>
+<?php include("../include/header.php"); ?>
 
 <br>
     <?php echo $UFID         ; ?><br>
@@ -10,4 +10,4 @@
 
 <input style="height: 300px; width: 300px; display: block; margin: auto; margin-top: 2rem;" type="checkbox" name="checky" value="checky">
 
-<?php include("include/footer.php"); ?>
+<?php include("../include/footer.php"); ?>
