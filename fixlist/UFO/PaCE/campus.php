@@ -10,7 +10,7 @@
   <form action="thankyou.php" method="post">
 
       <div class="inputShell">
-        <h3>Current Information</h3>
+        <h3 class="orange">Current Information</h3>
 
         <p>Please indicate your current college and PaCE major:</p>
 
@@ -39,7 +39,7 @@
       </div><!-- input shell -->
 
       <div class="inputShell">
-        <h3>When</h3>
+        <h3 class="blue">When</h3>
         <p>I give permission for my advisor to transition me to campus enrollment in the PaCE major I listed above for the following term:</p>
        <select required class="" name="">
          <option disabled selected value>select a semester</option>
@@ -50,7 +50,7 @@
      </div><!-- input shell -->
 
      <div id="stipulations" class="inputShell">
-       <h3>Stipulations</h3>
+       <h3 class="orange">Stipulations</h3>
        <ol>
          <li><i>[<?php echo "INSERT * \$STIPULATION"; ?>]</i></li>
          <li><i>[<?php echo "INSERT * \$STIPULATION"; ?>]</i></li>
@@ -61,7 +61,7 @@
      </div><!-- input shell -->
 
      <div class="inputShell">
-       <h3>UF Online</h3>
+       <h3 class="blue">UF Online</h3>
        <p>Please check the box to indicate that I understand that if I want to return to UF Online in the future, I understand that I must reapply to UF Online.</p>
        <input required class="checkBox" type="checkbox" name="" value="">
        <div class="divider"></div>
@@ -72,7 +72,7 @@
 
     <div class="inputShell">
 
-      <h3>PaCE</h3>
+      <h3 class="orange">PaCE</h3>
       <p>Please check the box to acknowledge that if I want to start on campus in a non-PaCE major, I understand that I must apply to campus as a transfer student in that major by the published transfer deadline, and be accepted into that major.</p>
       <input required class="checkBox" type="checkbox" name="" value="">
 
@@ -80,7 +80,7 @@
 
     <div class="inputShell">
 
-      <h3>Terms of Transition</h3>
+      <h3 class="blue">Terms of Transition</h3>
 
       <p>In order to transition to campus, you must meet all conditions of the Pathway to Campus Enrollment (PaCE) Contract:</p>
 
@@ -91,6 +91,10 @@
         <li>The University of Florida reserves the right to ask for additional information and the right to deny the request for transition to campus.</li>
         <li>If you have any questions about your eligibility or the transition process, please contact your academic advisor.</li>
       </ul>
+
+      <p>I understand the terms of transition:</p>
+
+      <input required class="checkBox" type="checkbox" name="transitionTerms" value="">
 
     </div><!-- input shell -->
 

@@ -28,5 +28,11 @@
       <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model" target="_blank">MOZ DOM</a></li>
       <li><a href="https://www.digitalocean.com/community/tutorials/understanding-data-types-in-javascript" target="_blank">Data Types</a></li>
     </ul>
+
+
+    <h2>And Mozilla</h2>
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank">Mozilla on JavaScript</a></li>
+    </ul>
   </body>
 </html>
