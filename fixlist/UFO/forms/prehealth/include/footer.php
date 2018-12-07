@@ -1,5 +1,5 @@
 <footer>
-  <p>Pre-Health Disclaimer &copy; <a href="hold/glid.php">UF Online</a></p>
+  <p>Pre-Health Disclaimer &copy; UF Online</p>
 </footer>
 
 

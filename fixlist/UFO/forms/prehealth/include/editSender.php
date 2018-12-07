@@ -193,7 +193,9 @@ class FGContactForm
           $advisor = $majors[$selectedMajor];
         }
 
-        $this->mailer->Subject =  "To: " . ucfirst($advisor) . " | Contact form submission from $this->name";
+        // edits the header
+
+        $this->mailer->Subject =  "Pre-Health Disclaimer from $this->name";
         // $this->mailer->Subject = "To" . $color . "Contact form submission from $this->name";
 
         $this->mailer->From = $this->GetFromAddress();
@@ -349,7 +351,7 @@ class FGContactForm
                    '<meta http-equiv=Content-Type content="text/html; charset=utf-8">';
          $retstr .= $this->GetMailStyle();
          $retstr .= '</head><body>';
-         $retstr .= "<img src=\"https://advising.ufl.edu/images/$hex.png\">";
+         // $retstr .= "<img src=\"https://advising.ufl.edu/images/$hex.png\">";
          return $retstr;
     }
     function GetHTMLFooterPart()
@@ -363,8 +365,13 @@ class FGContactForm
         $formsubmission = $this->FormSubmissionToMail();
         $extra_info = $this->ExtraInfoToMail();
         $footer = $this->GetHTMLFooterPart();
-
-        $message = $header."Submission from 'contact us' form:<p>$formsubmission</p><hr/>$extra_info".$footer;
+        //this edits the email's message body
+        //this edits the email's message body
+        //this edits the email's message body
+        //this edits the email's message body
+        //this edits the email's message body
+        //this edits the email's message body
+        $message = $header."<b>About the Submitter</b><br><br><p>$formsubmission</p><hr/>$extra_info".$footer;
 
         return $message;
     }

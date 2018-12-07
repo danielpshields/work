@@ -1,8 +1,8 @@
 <?php
   // where should the form's information go?
-  $emailThisTo = "acatalano2@ufl.edu";
+  $emailThisTo = "dsking@ufl.edu";
   // then, after submitting:
-  $redirectTo = "form.php";
+  $redirectTo = "success.php";
 
   $date_auto = date("Y-m-d H:i:s");
   $name=$_SERVER["HTTP_UFSHIB_BUSINESSNAME"];

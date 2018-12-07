@@ -66,8 +66,10 @@ p {
 }
 
 h3 {
-  color: #454545;
-  margin-left: 1rem;
+  color: #555;
+  margin: auto;
+  width: 84%;
+  max-width: 40rem;
 }
 
 h4 {
@@ -274,6 +276,13 @@ footer p {
   padding: 0;
   text-align: center;
 }
+
+pre {
+  width: 84%;
+  max-width: 40rem;
+  margin: auto;
+}
+
 
 .arrow {
   width: 1rem;

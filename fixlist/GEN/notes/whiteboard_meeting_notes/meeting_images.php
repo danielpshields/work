@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>meeting images</title>
-    <link rel="stylesheet" href="css/master.css">
-  </head>
-  <body>
-    <div class="container">
+<?php require("include/header.php"); ?>
 
-      <h1>Whiteboard Images</h1>
       <img id="slugImage" src="image/whiteboard.gif" alt="">
       <p class="centerSlug">Calendar / General Discussion Meetings</p>
 
@@ -30,12 +20,29 @@
 
 
       <div class="meetingShell">
-        <img src="image/03.jpg" alt="">
+        <a href="exploded.php">
+          <img src="image/03.jpg" alt="">
+        </a>
         <h2>Meeting 3</h2>
         <p><i>Nov. 29, 2018</i></p>
       </div><!-- meeting shell -->
 
-    </div><!-- container -->
+      <div class="meetingShell">
+        <img src="image/04.jpg" alt="">
+        <h2>Meeting 4</h2>
+        <p><i>Dec. 05, 2018</i></p>
+      </div><!-- meeting shell -->
+
+
+      <!--
+      <div class="meetingShell">
+        <img src="image/" alt="">
+        <h2>Meeting No</h2>
+        <p><i>date</i></p>
+      </div>
+      <!- - meeting shell -->
+
+    </div><!-- overall page container -->
     <footer>
       <p class="centerSlug"><?php echo date('M j, Y'); ?></p>
     </footer>

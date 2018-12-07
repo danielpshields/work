@@ -1,11 +1,11 @@
 <?php
-  $date_auto    = date("Y-m-d H:i:s");
-  $UFID         = $_SERVER['HTTP_UFSHIB_UFID'];
-  $email        = $_SERVER['HTTP_UFSHIB_MAIL'];
-  $firstName    = $_SERVER['HTTP_UFSHIB_GIVENNAME'];
-  $nameGiven    = $_SERVER['HTTP_UFSHIB_GIVENNAME']." ".$_SERVER['HTTP_UFSHIB_SN'];
-  $nameBusiness = $_SERVER['HTTP_UFSHIB_BUSINESSNAME'];
-  // include("glid_local.php");
+  // $date_auto    = date("Y-m-d H:i:s");
+  // $UFID         = $_SERVER['HTTP_UFSHIB_UFID'];
+  // $email        = $_SERVER['HTTP_UFSHIB_MAIL'];
+  // $firstName    = $_SERVER['HTTP_UFSHIB_GIVENNAME'];
+  // $nameGiven    = $_SERVER['HTTP_UFSHIB_GIVENNAME']." ".$_SERVER['HTTP_UFSHIB_SN'];
+  // $nameBusiness = $_SERVER['HTTP_UFSHIB_BUSINESSNAME'];
+  include("glid_local.php");
 ?>
 
 <!DOCTYPE html>
@@ -22,20 +22,9 @@
   <body>
     <header>
       <div class="container">
-
         <h1><a href="index.php">PaCE Transition Form</a></h1>
-
-        <a href="sign.php">
+        <a href="signup.php">
           <img src="image/uf_logo.svg" alt="">
         </a>
-
       </div>
     </header>
-
-
-    <!-- <nav>
-      <li><a href="a.php">a</a></li>
-      <li><a href="b.php">b</a></li>
-      <li><a href="c.php">c</a></li>
-      <div class="clear"></div>
-    </nav> -->

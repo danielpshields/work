@@ -1,46 +1,22 @@
 <?php
-
-/*
-  About Email();
-
-    1. "form.php":
-      - form template, (+) add fields / inputs here within form
-
-      1.2. "include/inputTirggers.php":
-        - input / fields required to submit the form
-        - display error information
-          - Error Information: the field responses are lost upon triggering an error
-            - use variables to store the information
-            - use "required" "<input required type="">" for prelimary validations
-
-    2. "includes/email.php":
-      - edit the form recipient
-      - edit the types of files submitted
-
-    3. "includes/editSender.php":
-
-      - edit: Subject
-      - line 178
-
-      - edit: contents and style
-      - line 284
-
-      - edit: sender
-      - line 336
-
-      - edit: validations
-      - line 348
-
-    4. "includes/mailEngine.php":
-      - code that sends the email
-      - See raw code in the email "alex alex alex"
-
-*/
-
   require_once("include/email.php");
-  require_once("include/header.php");
-
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Email</title>
+	<link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Email</h1>
+		</header>
+		<div class="content">
+
 
   <form action='<?php echo $formproc->GetSelfScript(); ?>' method='post' enctype="multipart/form-data" accept-charset='UTF-8'>
 
@@ -55,7 +31,6 @@
       <option value="psychology">Psychology</option>
       <option value="sociology">Sociology</option>
     </select>
-
 
     <br>
     <br>

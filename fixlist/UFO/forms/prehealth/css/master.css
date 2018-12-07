@@ -187,6 +187,10 @@ input.submitButton {
   max-width: 20rem;
 }
 
+input.submitButton:hover {
+  cursor: pointer;
+}
+
 .checkBoxShell {
   width: 70%;
   margin: auto;
@@ -226,6 +230,7 @@ dd p {
   width: 84%;
   padding: .6rem .8rem;
   margin: auto;
+  margin-top: 2.81rem;
   border-radius: .3rem;
   font-size: 1.3rem;
 }
