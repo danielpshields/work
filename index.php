@@ -10,7 +10,21 @@
       <article class="lonesomeNote">
         <h2>2018</h2>
         <h4>December</h4>
+
+        <h5>Week 30</h5>
+        <ul>
+          <!-- <li><a href="ln/18/12/14.html">181214</a></li> -->
+          <!-- <li><a href="ln/18/12/13.html">181213</a></li> -->
+          <!-- <li><a href="ln/18/12/12.html">181212</a></li> -->
+          <!-- <li><a href="ln/18/12/11.html">181211</a></li> -->
+          <li><a href="ln/18/12/10.html">181210</a></li>
+        </ul>
+
         <h5>Week 29</h5>
+        <ul>
+          <li><a href="ln/18/12/09.html">181209</a></li>
+          <li><a href="ln/18/12/08.html">181208</a></li>
+        </ul>
         <ul>
           <li><a href="ln/18/12/07.html">181207</a></li>
           <li><a href="ln/18/12/06.html">181206</a></li>
