@@ -6,8 +6,6 @@
   $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
   if (mysqli_connect_errno()) {
     die("connection failed");
-  } else {
-    echo "connection succesful!";
   }
 
   $page = "signup";
@@ -26,43 +24,30 @@
     }
   }
 
+  // $query = "SELECT * FROM ticket WHERE id = 2";
+  // $result = mysqli_query($connection, $query);
+  // if (!$result) { die("Database query failed"); }
+  // while ($row = mysqli_fetch_assoc($result)) {
+  //    $alex = $row['user'];
+  //  }
 ?>
 
-  <?php
-
-    $query = "SELECT * FROM users";
-    $result = mysqli_query($connection, $query);
-    if (!$result) { die("Database query failed"); }
-   ?>
-
-
-  <h2>Hello, <?php echo $firstName; ?>!</h2>
-  <h3>Please create a username and password:</h3>
-
+  <!-- <h2>Hello, <?php echo ucfirst($alex); ?>!</h2> -->
+  <!-- <h2>Please select a password:</h2> -->
+  <h2>Welcome, <?php echo $firstName; ?>!</h2>
   <form action="signup.php" method="post">
     <div class="inputShell">
-
-      <label for="username">Username:</label>
-      <input type="text" name="username" value="<?php echo $username; ?>">
-      <label for="password">Password:</label>
+      <input type="text" name="username" value="<?php echo $user ; ?>" disabled>
+      <label for="username">Username</label>
+      <p>Please select a password:</p>
       <input type="password" name="password" value="">
-      <label for="passwordCheck">Re-enter Password:</label>
+      <label for="password">Password:</label>
       <input type="password" name="passwordCheck" value="">
+      <label for="passwordCheck">Re-enter Password:</label>
       <p><?php echo $passwordMatch; ?></p>
     </div><!-- input shell -->
     <input class="submitButton" type="submit" name="submit" value="submit">
   </form>
-
-  <p>wah</p>
-
-  <?php
-
-    while ($row = mysqli_fetch_assoc($result)) {
-       $alex = $row['username'];
-     }
-  ?>
-
-  <p>I was taking a walk with <?php echo $alex; ?> the other day</p>
 
 <?php require("include/footer.php") ;?>
 <?php mysqli_close($connection); ?>

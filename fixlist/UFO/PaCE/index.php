@@ -3,7 +3,8 @@
   require("include/header.php");
 ?>
 
-  <!-- <h2>Hello, <?php echo $firstName ;?>!</h2> -->
+  <h2>Hello, <?php echo $firstName ;?>!</h2>
+
 
     <h2>Please select your preferred transition:</h2>
 
