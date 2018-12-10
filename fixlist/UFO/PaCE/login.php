@@ -8,7 +8,7 @@
   <form action="ticket.php" method="post">
     <div class="inputShell">
 
-      <input type="text" name="username" value="AAAA" disabled>
+      <input type="text" name="username" value="<?php echo $user; ?>" disabled>
       <label for="username">Username</label>
 
       <input type="password" name="password" value="">
