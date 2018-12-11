@@ -1,54 +1,71 @@
 <?php
+$dbhost = "localhost";
+$dbuser = "root";
+$dbpass = "";
+$dbname = "pace";
+$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+if (mysqli_connect_errno()) {
+  die("connection failed");
+}
+
   $page = "ticket";
+  $root = "";
   require("include/header.php");
 ?>
 
-  <h2>Ticket</h2>
-  <p>Hello, <?php echo $firstName; ?></p>
-
+  <h2>Create a <b>stipulation ticket</b> for the student</h2>
 
   <form class="" action="ticket.php" method="post">
     <div class="inputShell">
-      <input type="text" name="student_id" value="" placeholder="add student ID">
-      <label for="student_id">Add a Student ID</label>
+      <h3 class="orange">Student / Recipient</h3>
+      <input type="text" name="student_email" value="" placeholder="student's email address">
+      <label for="student_email">Add student's email</label>
+      <input required type="text" name="student_id" value="" placeholder="student's UF ID">
+      <label for="student_id">Add student's ID</label>
     </div>
 
-
     <div class="inputShell">
-      <h3 class="blue">Stipulation</h3>
-
-      <p></p>
-      <select class="" name="">
-        <option value="input" selected disabled>Select a Course</option>
-        <option value="grade_a">a</option>
-        <option value="grade_b">b</option>
-        <option value="grade_c">c</option>
-        <option value="grade_d">d</option>
-        <option value="grade_f">f</option>
-      </select>
-
-      <p></p>
-
-      <select class="" name="">
-        <option value="input" selected disabled>Select a Grade</option>
-        <option value="grade_a">a</option>
-        <option value="grade_b">b</option>
-        <option value="grade_c">c</option>
-        <option value="grade_d">d</option>
-        <option value="grade_f">f</option>
-      </select>
-
+      <?php $number = "One"; ?>
+      <?php include("include/stipulation.php") ;?>
     </div><!-- input shell -->
 
-    <div class="inputShell">
-      <h3><a href="">Add Stipulation (+)</a></h3>
 
-    </div>
+    <div id="stipulation">
+      <div class="inputShell">
+        <?php $number = "Two"; ?>
+        <?php include("include/stipulation.php") ;?>
+      </div><!-- input shell -->
+    </div><!-- stipulation -->
+    <h3 id="clickTicket">add area 2</h3>
 
-    <?php onSubmit: email(); ?>
+
+    <div id="stipulationTwo">
+      <div class="inputShell">
+        <?php $number = "Three"; ?>
+        <?php include("include/stipulation.php") ;?>
+      </div><!-- input shell -->
+    </div><!-- orange -->
+    <h3 id="clickTicketTwo">add area 3</h3>
 
 
-    <input class="submitButton" type="submit" name="submit" value="submit">
+    <div id="stipulationThree">
+      <div class="inputShell">
+        <?php $number = "Four"; ?>
+        <?php include("include/stipulation.php") ;?>
+      </div><!-- input shell -->
+    </div><!-- orange -->
+    <h3 id="clickTicketThree">add area 4</h3>
+
+
+    <div id="stipulationFour">
+      <div class="inputShell">
+        <?php $number = "Five"; ?>
+        <?php include("include/stipulation.php") ;?>
+      </div><!-- input shell -->
+    </div><!-- orange -->
+    <h3 id="clickTicketFour">add area 5</h3>
+
+    <input class="submitButton" type="submit" name="submit" value="email ticket">
   </form>
 
 </div><!-- display: none; -->

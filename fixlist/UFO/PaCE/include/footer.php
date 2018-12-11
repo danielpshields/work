@@ -5,4 +5,5 @@
 
   </body>
   <script type="text/javascript" src="scripts/dropdown.js"></script>
+  <script type="text/javascript" src="scripts/show.js"></script>
 </html>

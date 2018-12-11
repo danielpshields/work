@@ -189,6 +189,10 @@ input.submitButton {
   max-width: 20rem;
 }
 
+input.submitButton:hover {
+  cursor: pointer;
+}
+
 .checkBoxShell {
   width: 70%;
   margin: auto;

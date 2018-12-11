@@ -1,6 +1,5 @@
 <?php
-  $root = "../";
-  $page = "template";
+  $page = "settings";
   require("include/header.php");
 ?>
 
