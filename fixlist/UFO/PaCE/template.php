@@ -1,7 +1,7 @@
 <?php
-  $root = "../";
+  $root = "";
   $page = "template";
-  require("include/header.php");
+  require("{$path}include/header.php");
 ?>
 
-<?php require("include/footer.php") ;?>
+<?php require("{$path}include/footer.php") ;?>

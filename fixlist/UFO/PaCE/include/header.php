@@ -14,7 +14,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PaCE Transition Form</title>
+    <title>PaCE Transition Form | <?php echo ucfirst($page); ?></title>
     <link rel="stylesheet" href="<?php echo $root; ?>css/master.css">
     <link rel="stylesheet" href="<?php echo $root; ?>css/<?php echo $page; ?>.css">
     <link rel="stylesheet" href="<?php echo $root; ?>css/resize.css">
@@ -23,8 +23,8 @@
   <body>
     <header>
       <div class="container">
-        <h1><a href="<?php echo $root; ?>login.php">PaCE Transition Form</a></h1>
-        <a href="index.php">
+        <h1>Welcome, <a href="<?php echo $root; ?>dashboard.php"><?php echo $user; ?></a></h1>
+        <a href="<?php echo $root; ?>login.php">
           <img src="<?php echo $root; ?>image/uf_logo.svg" alt="">
         </a>
       </div>
