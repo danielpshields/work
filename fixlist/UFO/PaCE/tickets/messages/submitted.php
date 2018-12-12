@@ -9,7 +9,7 @@
 
   <h2>You've created the <b><?php echo $formType; ?></b> form, <?php echo $firstName; ?>!</h2>
 
-  <p class="thankYou">The <?php echo $formType; ?> form has been emailed to the student:<br> <?php echo $student; ?></p>
+  <p class="thankYou">The <?php echo $formType; ?> form has been emailed to the student:<br><br><?php echo $student; ?><br><?php echo $email; ?><br><br></p>
 
   <p>A record of the transaction can be found on the <a href="<?php echo $root; ?>records.php">records page</a></p>
 
