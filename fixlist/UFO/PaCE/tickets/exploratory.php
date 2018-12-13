@@ -3,7 +3,8 @@
   $page = "exploratory";
   require("{$root}include/header.php");
 ?>
-  <h2>Exploratory</h2>
+  <h2>Exploratory Ticket</h2>
+  <h3>Create an <b>exploratory</b> ticket for a student:</h3>
 
   <form class="" action="messages/submitted.php" method="post">
 
@@ -11,8 +12,6 @@
       <h3 class="orange">Student / Recipient</h3>
       <input type="text" name="student_email" value="" placeholder="student's email address">
       <label for="student_email">Add student's email</label>
-      <input type="text" name="student_id" value="" placeholder="student's UF ID">
-      <label for="student_id">Add student's ID</label>
     </div><!-- input shell -->
 
     <div class="inputShell">

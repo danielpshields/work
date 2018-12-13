@@ -1,4 +1,5 @@
 <?php
+  $root = "../../";
   $page = "online";
   require("include/header.php");
 ?>

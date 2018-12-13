@@ -1,7 +1,7 @@
 <?php
-  $root = "";
+  $root = "../../";
   $page = "index";
-  require("include/header.php");
+  require("{$root}include/header.php");
 ?>
 
   <h2>Hello, <?php echo $firstName ;?>!</h2>
@@ -58,4 +58,4 @@
 
     <p id="contactAdvisorSlug">Need help? Contact an <a href="#">advisor</a></p>
 
-<?php require("include/footer.php"); ?>
+<?php require("{$root}include/footer.php"); ?>

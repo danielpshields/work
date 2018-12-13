@@ -1,6 +1,6 @@
 <?php
   $root = "";
-  $page = "Dashboard";
+  $page = "dashboard";
   require("include/header.php");
 ?>
   <h2>Advisor Dashboard</h2>
@@ -21,7 +21,7 @@
         <ul>
           <li><a href="tickets/transition.php">Transition</a></li>
           <p style="font-size: .8rem;"><i><a href="">remove ticket</a></i></p>
-          <li><a href="tickets/missingRequirements.php">Missing Requirements</a></li>
+          <li><a href="tickets/requirements.php">Missing Requirements</a></li>
           <p style="font-size: .8rem;"><i><a href="">remove ticket</a></i></p>
           <li><a href="tickets/exploratory.php">Exploratory</a></li>
           <p style="font-size: .8rem;"><i><a href="">remove ticket</a></i></p>
@@ -79,7 +79,7 @@
       <div id="ticketEdit">
         <img src="image/check-form.png" alt="check form icon">
         <ul>
-          <li><a href="">tickets records</a></li>
+          <li><a href="records.php">tickets records</a></li>
         </ul>
       </div><!-- ticket edit -->
 

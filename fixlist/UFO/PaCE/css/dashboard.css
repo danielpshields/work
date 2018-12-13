@@ -24,6 +24,7 @@
   color: #555;
   background: linear-gradient(white,#e0e0e0);
   padding: .5rem 0 .5rem 0;
+  font-size: .9rem;
 }
 
 #navDashboard li:hover {

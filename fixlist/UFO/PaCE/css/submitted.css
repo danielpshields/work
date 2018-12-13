@@ -1,3 +1,11 @@
 .thankYou {
   margin-bottom: 2.81rem;
 }
+
+#ticketLinkSlug {
+  font-size: .8rem;
+}
+
+#ticketLinkSlug a {
+  word-wrap: break-word;
+}

@@ -1,27 +1,17 @@
 <?php
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "pace";
-$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
-if (mysqli_connect_errno()) {
-  die("connection failed");
-}
-
   $page = "ticket";
   $root = "../";
   require("{$root}include/header.php");
 ?>
 
-  <h2>Create a <b>stipulation ticket</b> for the student</h2>
+  <h2>Transition Ticket</h2>
+  <h3>Create a <b>transition</b> ticket for the student:</h3>
 
   <form class="" action="messages/submitted.php" method="post">
     <div class="inputShell">
       <h3 class="orange">Student / Recipient</h3>
       <input required type="text" name="student_email" value="" placeholder="student's email address">
       <label for="student_email">Add student's email</label>
-      <input type="text" name="student_id" value="" placeholder="student's UF ID">
-      <label for="student_id">Add student's ID</label>
     </div>
 
     <div class="inputShell">
