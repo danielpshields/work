@@ -4,18 +4,14 @@
   require("{$root}include/header.php");
 ?>
 
-  <h2>Advisor Records:<BR><?php echo ucfirst($advisor); ?> Raymond</h2>
+  <h2>Advisor Records: <u><?php echo ucfirst($advisor); ?> Raymond</u></h2>
 
 <h3>Transition</h3>
   <table>
     <tr>
       <th>&nbsp;</th>
-      <th>&nbsp;</th>
-      <th>&nbsp;</th>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
   </table>
@@ -24,12 +20,8 @@
   <table>
     <tr>
       <th>&nbsp;</th>
-      <th>&nbsp;</th>
-      <th>&nbsp;</th>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
   </table>
@@ -38,12 +30,8 @@
   <table>
     <tr>
       <th>&nbsp;</th>
-      <th>&nbsp;</th>
-      <th>&nbsp;</th>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
   </table>

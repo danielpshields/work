@@ -1,13 +1,9 @@
-$(document).ready(function(){
-
-  $("#tickets").click(function(){
-      $("#show_tickets").toggle();
-      $("#show_tickets").siblings().hide();
-  });
-
-  $("#records").click(function(){
-      $("#show_records").toggle();
-      $("#show_records").siblings().hide();
-  });
-
-});
+// $(document).ready(function(){
+//
+//   $("#tickets").click(function(){
+//     $("#add_remove_tickets").toggle();
+//     $("#my_tickets").toggle();
+//   });
+//
+//
+// });

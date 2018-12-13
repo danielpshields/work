@@ -115,6 +115,10 @@ ul, ol {
   background: #002270;
 }
 
+h3.black {
+  color: #444;
+}
+
 .inputShell input {
   display: block;
   margin: auto;

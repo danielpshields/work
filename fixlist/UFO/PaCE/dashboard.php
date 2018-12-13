@@ -7,68 +7,53 @@
 
   <div class="inputShell">
     <h3 class="blue">Dashboard Options</h3>
+
     <div id="navDashboard">
       <ul>
-        <li id="tickets">Add (+)</li>
-        <li id="records">Remove (-)</li>
+        <li id="tickets">Ticket (add/remove)</li>
       </ul>
     </div><!-- nav dashboard -->
 
+
+    <h2>My Tickets</h2>
     <div class="wrap">
 
-      <div id="show_tickets">
-        <h2>Make a Ticket:</h2>
+      <div id="my_tickets">
         <ul>
-          <li><a href="tickets/transition.php">Transition</a></li>
-          <p style="font-size: .8rem;"><i><a href="">remove ticket</a></i></p>
+          <li>PaCE <a href="tickets/transition.php">Transition</a></li>
+        </ul>
+
+
+          <ul>
+            <li>make ticket</li>
+            <li>see records</li>
+            <li>remove ticket</li>
+          </ul>
+
+
+
           <li><a href="tickets/requirements.php">Missing Requirements</a></li>
           <p style="font-size: .8rem;"><i><a href="">remove ticket</a></i></p>
           <li><a href="tickets/exploratory.php">Exploratory</a></li>
           <p style="font-size: .8rem;"><i><a href="">remove ticket</a></i></p>
         </ul>
-        <p style="font-size: .8rem; text-align: right;"><i><a href="">(+) add ticket</a></i></p>
 
       </div><!-- show Tickets -->
 
-      <div id="show_records">
-        <h2>Tickets</h2>
-        <form class="" action="dashboard.php" method="post">
-            <h3 class="blue">Remove My Tickets:</h3>
-            <ul>
-              <li><a href="tickets/transition.php">Transition</a></li>
-              <p style="font-size: .8rem;"><i><a href="">remove ticket</a></i></p>
+      <div id="add_remove_tickets">
+        <h3 class="black">Available Tickets</h3>
 
-              <input class="checkBox" type="checkbox" value="">
-              <li><a href="tickets/missingRequirements.php">Missing Requirements</a></li>
-              <p style="font-size: .8rem;"><i><a href="">remove ticket</a></i></p>
+        <h4>PaCE</h4>
+          <li>Exploratory</li>
+          <p class="aboutTicket">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e quis nostrud exercitation..</p>
+          <li>Missing Requirements</li>
+          <li>Transition</li>
+        <h4>Pre-Health</h4>
+          <li>Pre-Health Disclaimer</li>
+        <h4>UFO</h4>
+          <li>Readmission</li>
 
-              <input class="checkBox" type="checkbox" value="">
-              <li><a href="tickets/exploratory.php">Exploratory</a></li>
-              <p style="font-size: .8rem;"><i><a href="">remove ticket</a></i></p>
-
-              <input class="checkBox" type="checkbox" value="">
-            </ul>
-
-            <h3 class="orange">Add Tickets:</h3>
-            <ul>
-              <li><a href="tickets/transition.php">Transition</a></li>
-              <p style="font-size: .8rem;"><i><a href="">remove ticket</a></i></p>
-
-              <input class="checkBox" type="checkbox" value="">
-              <li><a href="tickets/missingRequirements.php">Missing Requirements</a></li>
-              <p style="font-size: .8rem;"><i><a href="">remove ticket</a></i></p>
-
-              <input class="checkBox" type="checkbox" value="">
-              <li><a href="tickets/exploratory.php">Exploratory</a></li>
-              <p style="font-size: .8rem;"><i><a href="">remove ticket</a></i></p>
-
-              <input class="checkBox" type="checkbox" value="">
-            </ul>
-          <input class="submitButton" type="submit" name="submit" value="submit">
-        </form>
-
-
-      </div><!-- show Records -->
+      </div><!-- add remove tickets-->
 
     </div><!-- wrap -->
 
