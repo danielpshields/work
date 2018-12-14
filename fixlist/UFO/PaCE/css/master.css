@@ -77,6 +77,13 @@ h4 {
   margin-left: 1rem;
 }
 
+h5 {
+  color: #333;
+  width: 84%;
+  margin: 2.81rem auto;
+  max-width: 40rem;
+}
+
 a {
   color: #2A5DB0;
 }
@@ -113,6 +120,11 @@ ul, ol {
 
 .blue {
   background: #002270;
+}
+
+li.red {
+  font-weight: bold;
+  color: darkred;
 }
 
 h3.black {

@@ -6,57 +6,69 @@
   <h2>Advisor Dashboard</h2>
 
   <div class="inputShell">
-    <h3 class="blue">Dashboard Options</h3>
 
-    <div id="navDashboard">
-      <ul>
-        <li id="tickets">Ticket (add/remove)</li>
-      </ul>
-    </div><!-- nav dashboard -->
+    <h3 class="blue">My Tickets</h3>
 
-
-    <h2>My Tickets</h2>
-    <div class="wrap">
-
-      <div id="my_tickets">
+      <div class="ticketShell">
+        <h4>Transition</h4>
         <ul>
-          <li>PaCE <a href="tickets/transition.php">Transition</a></li>
+          <li><a href="records/.php">see records</a></li>
+          <li>remove ticket</li>
+          <li><a href="tickets/transition.php">new ticket</a></li>
         </ul>
+      </div><!-- ticket shell -->
 
-
-          <ul>
-            <li>make ticket</li>
-            <li>see records</li>
-            <li>remove ticket</li>
-          </ul>
-
-
-
-          <li><a href="tickets/requirements.php">Missing Requirements</a></li>
-          <p style="font-size: .8rem;"><i><a href="">remove ticket</a></i></p>
-          <li><a href="tickets/exploratory.php">Exploratory</a></li>
-          <p style="font-size: .8rem;"><i><a href="">remove ticket</a></i></p>
+      <div class="ticketShell">
+        <h4>Missing Requirements</h4>
+        <ul>
+          <li><a href="records/requirements.php">see records</a></li>
+          <li>remove ticket</li>
+          <li><a href="tickets/requirements.php">new ticket</a></li>
         </ul>
+      </div><!-- ticket shell -->
 
-      </div><!-- show Tickets -->
+      <div class="ticketShell">
+        <h4>Exploratory</h4>
+        <ul>
+          <li><a href="records/exploratory.php">see records</a></li>
+          <li>remove ticket</li>
+          <li><a href="tickets/exploratory.php">new ticket</a></li>
+        </ul>
+      </div><!-- ticket shell -->
 
-      <div id="add_remove_tickets">
-        <h3 class="black">Available Tickets</h3>
+
+    </div><!-- input shell -->
+
+
+
+    <div class="inputShell">
+
+      <div id="tickets_available">
+        <h3 class="orange">Available Tickets</h3>
 
         <h4>PaCE</h4>
-          <li>Exploratory</li>
+        <ul>
+          <li>Exploratory Ticket</li>
           <p class="aboutTicket">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e quis nostrud exercitation..</p>
-          <li>Missing Requirements</li>
-          <li>Transition</li>
+          <li>Missing Requirements Ticket</li>
+          <p class="aboutTicket">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e quis nostrud exercitation..</p>
+          <li>Transition Ticket</li>
+          <p class="aboutTicket">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e quis nostrud exercitation..</p>
+        </ul>
+
         <h4>Pre-Health</h4>
+        <ul>
           <li>Pre-Health Disclaimer</li>
+          <p class="aboutTicket">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e quis nostrud exercitation..</p>
+        </ul>
+
         <h4>UFO</h4>
-          <li>Readmission</li>
+        <ul>
+          <li>Readmission Form</li>
+          <p class="aboutTicket">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e quis nostrud exercitation..</p>
+        </ul>
 
       </div><!-- add remove tickets-->
-
-    </div><!-- wrap -->
-
 
 
     <div id="settings">
@@ -79,4 +91,13 @@
   </div><!-- input shell -->
 
 
+
 <?php require("include/footer.php") ;?>
+
+
+<!-- <div id="navDashboard">
+  <ul>
+    <li id="tickets">Ticket (add/remove)</li>
+  </ul>
+</div> -->
+<!-- nav dashboard -->

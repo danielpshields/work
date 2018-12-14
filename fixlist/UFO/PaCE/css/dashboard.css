@@ -3,48 +3,55 @@
   border-radius: .3rem;
 }
 
+.ticketShell {
+  border: 1px solid #32425b;
+  border-radius: .4rem;
+  overflow: hidden;
+  width: 90%;
+  margin: 2rem auto;
+  box-shadow: .3rem .4rem .8rem #a0a0a0;
+}
 
-#navDashboard ul, #navDashboard li {
+
+.ticketShell h4 {
+  background: white;
+  border-bottom: 1px solid #a0a0a0;
+  box-shadow: 0rem .1rem .8rem #a0a0a0;
+  width: 100%;
+  margin: auto;
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding: 1rem 0 .9rem 1.5rem;
+  color: #444;
+  letter-spacing: 1.2px;
+}
+
+#tickets_available h4 {
+  background: #444;
+  width: 100%;
   margin: 0;
-  padding: 0;
-}
-
-#navDashboard ul {
-  width: 100%;
-}
-
-#navDashboard li {
-  text-align: center;
-  list-style: none;
-  border: 1px solid #999;
-  color: #555;
-  background: linear-gradient(white,#e0e0e0);
-  padding: .5rem 0 .5rem 0;
-  font-size: .9rem;
-  width: 100%;
-  max-width: none;
-}
-
-#navDashboard li:hover {
-  cursor: pointer;
-  background: #f0f0f0;
-  background: linear-gradient(#e0e0e0,#f0f0f0);
+  padding: 1.2rem 0 1.2rem 1.5rem;
+  color: white;
+  font-weight: 100;
+  font-size: 1.1rem;
+  border-top: .4rem solid #333;
 }
 
 
 
-#my_tickets {
+/* #my_tickets {
+display: none;
   display: block;
-  display: none;
 }
 
 #add_remove_tickets {
   display: block;
-}
+} */
 
 p.aboutTicket {
   color: #575757;
   width: 84%;
+  font-size: 1rem;
   /* margin: 0; */
 }
 
@@ -96,14 +103,6 @@ p.aboutTicket {
   width: 100%;
   margin-top: .3rem;
   /* background: red; */
-}
-
-
-h4 {
-  background: #333;
-  width: 100%;
-  margin: auto;
-  color: white;
 }
 
 @media screen and (min-width: 600px) {
