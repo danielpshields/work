@@ -1,14 +1,14 @@
 <?php
   $root = "../../";
   $page = "campus";
-  require("include/header.php");
+  require("{$root}include/header.php");
 
 ?>
 
   <h2>Transition Form:<br><b>Campus</b></h2>
   <p>Please fill out the fields below to proceed with your transition to campus.</p>
 
-  <form action="tickets/messages/thankyou.php" method="post">
+  <form action="../messages/thankyou.php" method="post">
 
       <div class="inputShell">
         <h3 class="orange">Current Information</h3>
@@ -118,4 +118,4 @@
    </form>
 
 
-<?php include("include/footer.php"); ?>
+<?php include("{$root}include/footer.php"); ?>

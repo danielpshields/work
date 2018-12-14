@@ -1,14 +1,14 @@
 <?php
   $root = "../../";
   $page = "online";
-  require("include/header.php");
+  require("{$root}include/header.php");
 ?>
 
   <h2>Transition Form:<br><b>UF Online</b></h2>
   <p>Please fill out the fields below to proceed with your transition to UF Online.</p>
 
 
-  <form action="thankyou.php" method="post">
+  <form action="../messages/thankyou.php" method="post">
 
     <div class="inputShell">
       <h3 class="blue">Current Information</h3>
@@ -56,4 +56,4 @@
     <input class="submitButton" type="submit" name="submit" value="submit">
 
   </form>
-<?php require("include/footer.php"); ?>
+<?php require("{$root}include/footer.php"); ?>

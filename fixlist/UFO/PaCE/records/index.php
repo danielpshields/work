@@ -1,5 +1,5 @@
 <?php
-  $root = "";
+  $root = "../";
   $page = "records";
   require("{$root}include/header.php");
 ?>

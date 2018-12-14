@@ -7,39 +7,44 @@
 
   <div class="inputShell">
 
-    <h3 class="blue">My Tickets</h3>
+    <h3 class="blue">My Tickets (<?php echo 3; ?>)</h3>
 
       <div class="ticketShell">
         <h4>Transition</h4>
-        <ul>
-          <li><a href="records/.php">see records</a></li>
-          <li>remove ticket</li>
-          <li><a href="tickets/transition.php">new ticket</a></li>
-        </ul>
+        <p class="button"><a href="tickets/transition.php">new transition</a></p>
+        <p class="recordsButton"><a href="records/index.php">records</a></p>
       </div><!-- ticket shell -->
 
       <div class="ticketShell">
         <h4>Missing Requirements</h4>
-        <ul>
-          <li><a href="records/requirements.php">see records</a></li>
-          <li>remove ticket</li>
-          <li><a href="tickets/requirements.php">new ticket</a></li>
-        </ul>
+        <p class="button"><a href="tickets/requirements.php">new missing requirements</a></p>
+        <p class="recordsButton"><a href="records/index.php">records</a></p>
       </div><!-- ticket shell -->
 
       <div class="ticketShell">
         <h4>Exploratory</h4>
-        <ul>
-          <li><a href="records/exploratory.php">see records</a></li>
-          <li>remove ticket</li>
-          <li><a href="tickets/exploratory.php">new ticket</a></li>
-        </ul>
+        <p class="button"><a href="tickets/exploratory.php">new exploratory</a></p>
+        <p class="recordsButton"><a href="records/index.php">records</a></p>
       </div><!-- ticket shell -->
 
+      <div id="settings">
 
+        <div id="ticketEdit">
+          <img src="image/check-form.png" alt="check form icon">
+          <ul>
+            <li><a href="records.php">tickets records</a></li>
+          </ul>
+        </div><!-- ticket edit -->
+
+        <div id="userEdit">
+          <img src="image/user.png" alt="user settings icon">
+          <ul>
+            <li><a href="settings.php">user settings</a></li>
+          </ul>
+        </div><!-- user edit -->
+
+      </div><!-- Settings -->
     </div><!-- input shell -->
-
-
 
     <div class="inputShell">
 
@@ -71,23 +76,7 @@
       </div><!-- add remove tickets-->
 
 
-    <div id="settings">
 
-      <div id="ticketEdit">
-        <img src="image/check-form.png" alt="check form icon">
-        <ul>
-          <li><a href="records.php">tickets records</a></li>
-        </ul>
-      </div><!-- ticket edit -->
-
-      <div id="userEdit">
-        <img src="image/user.png" alt="user settings icon">
-        <ul>
-          <li><a href="settings.php">user settings</a></li>
-        </ul>
-      </div><!-- user edit -->
-
-    </div><!-- Settings -->
   </div><!-- input shell -->
 
 
