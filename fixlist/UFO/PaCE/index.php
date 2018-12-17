@@ -2,6 +2,19 @@
   $root = "";
   $page = "login";
   require("include/header.php");
+
+  /*
+
+    Database
+
+    C (R) U D
+
+    1. onSubmit - send to new page if {
+       - the password matches the db_password
+     }
+
+  */
+
 ?>
   <h2>Hello, <?php echo $firstName; ?>!</h2>
   <h3>Please login:</h3>

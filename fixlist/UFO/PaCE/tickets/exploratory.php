@@ -11,7 +11,7 @@
     <div class="inputShell">
       <h3 class="orange">Student / Recipient</h3>
       <input type="text" name="student_email" value="" placeholder="student's email address">
-      <label for="student_email">Add student's email</label>
+      <label for="student_email">Add student's gatorlink email</label>
     </div><!-- input shell -->
 
     <div class="inputShell">

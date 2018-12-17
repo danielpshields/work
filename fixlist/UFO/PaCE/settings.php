@@ -11,16 +11,12 @@
         <h3 class="blue">Edit Password</h3>
         <input type="text" name="" value="">
         <label for="">previous password</label>
-
         <div class="divider"></div>
-
-        <input type="text" name="" value="">
-        <label for="">new password</label>
         <input type="text" name="" value="">
         <label for="">new password</label>
       </div><!-- input shell -->
 
-    
+
       <input class="submitButton" type="submit" name="submit" value="submit">
 
     </form>

@@ -4,7 +4,10 @@
   require("{$root}include/header.php");
 ?>
 
-  <h2>Advisor Records: <u><?php echo ucfirst($advisor); ?> Raymond</u></h2>
+  <h2>Records:</h2>
+  <ul class="monospace">
+    <li><?php echo ucfirst($advisor); ?> Raymond</li>
+  </ul>
 
 <h3>Transition</h3>
   <table>

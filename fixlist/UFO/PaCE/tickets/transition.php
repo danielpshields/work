@@ -10,8 +10,8 @@
   <form class="" action="messages/submitted.php" method="post">
     <div class="inputShell">
       <h3 class="orange">Student / Recipient</h3>
-      <input required type="text" name="student_email" value="" placeholder="student's email address">
-      <label for="student_email">Add student's email</label>
+      <input required type="text" name="student_email" value="" placeholder="***@ufl.edu">
+      <label for="student_email">Add student's gatorlink email</label>
     </div>
 
     <div class="inputShell">
