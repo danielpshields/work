@@ -17,6 +17,6 @@
       See the form here:<br><a href="<?php echo $ticketPath . $formType; ?>"><?php echo $student . " " . $formType; ?></a></p>
   </div>
 
-  <p>A record of the transaction can be found on the <a href="<?php echo $root; ?>records.php">records page</a></p>
+  <p>A record of the transaction can be found on the <a href="<?php echo $root; ?>records/index.php">records page</a></p>
 
 <?php require("{$root}include/footer.php"); ?>

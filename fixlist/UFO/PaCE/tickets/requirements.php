@@ -17,7 +17,22 @@
     </div><!-- input shell -->
 
     <div class="inputShell">
-        <h3 class="blue">Course &amp; Grade</h3>
+        <h3 class="blue">Major</h3>
+
+        <p></p>
+        <select class="" name="">
+          <option value="input" selected disabled>Select a Major</option>
+          <option value="math">math</option>
+          <option value="science">science</option>
+          <option value="history">history</option>
+          <option value="social studies">social studies</option>
+        </select>
+
+    </div><!-- input shell -->
+
+
+    <div class="inputShell">
+        <h3 class="orange">Course</h3>
 
         <p></p>
         <select class="" name="">
@@ -26,28 +41,47 @@
           <option value="science">science</option>
           <option value="history">history</option>
           <option value="social studies">social studies</option>
-          <option value="gym">gym</option>
         </select>
 
-        <p></p>
-
-        <select class="" name="">
-          <option value="input" selected disabled>Select a Grade</option>
-          <option value="grade_a">a</option>
-          <option value="grade_b">b</option>
-          <option value="grade_c">c</option>
-          <option value="grade_d">d</option>
-          <option value="grade_f">f</option>
-        </select>
     </div><!-- input shell -->
 
 
+    <div class="inputShell">
+        <h3 class="blue">GPA</h3>
 
+        <p></p>
+        <select class="" name="">
+          <option value="input" selected disabled>Needed</option>
+          <option value="math">math</option>
+          <option value="science">science</option>
+          <option value="history">history</option>
+          <option value="social studies">social studies</option>
+        </select>
+
+    </div><!-- input shell -->
+
+
+    <p style="margin-top: 32px;">email(<br>
+      <i>You have not met the transition requirements for the <a href="#">SELECTED</a> major.</i><br>
+      <i>You will need a <b>$certainGPA</b>
+    </p>
+
+    <div class="inputShell">
+
+      <ul>
+        <li>UF GPA</li>
+        <li>Major GPA</li>
+      </ul>
+
+    </div>
+
+<!--
     <div class="inputShell">
       <h3 class="blue">Text Input</h3>
       <h4>Areas of Focus:</h4>
       <textarea name="name" rows="8"></textarea>
-    </div><!-- input shell -->
+    </div> -->
+    <!-- input shell -->
 
 
 

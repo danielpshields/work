@@ -14,11 +14,13 @@
       <label for="student_email">Add student's gatorlink email</label>
     </div><!-- input shell -->
 
+
     <div class="inputShell">
-      <h3 class="blue">Text Input</h3>
-      <h4>Areas of Focus:</h4>
-      <textarea name="name" rows="8"></textarea>
-    </div><!-- input shell -->
+      <h3 class="blue">Email();</h3>
+      <p><?php echo $requirements = "Nicole's email..."; ?></p>
+    </div>
+
+
     <input hidden type="text" name="formType" value="exploratory">
     <input class="submitButton" type="submit" name="submit" value="submit">
   </form>

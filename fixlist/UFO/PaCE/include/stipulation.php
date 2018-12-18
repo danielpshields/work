@@ -1,5 +1,9 @@
 <h3 class="blue">Stipulation <?php echo $number; ?></h3>
 
+
+<textarea name="<?php echo $advisor; ?>" rows="8" cols="80" placeholder="insert stipulation"></textarea>
+
+
 <p></p>
 <select class="" name="">
   <option value="input" selected disabled>Select a Course</option>
