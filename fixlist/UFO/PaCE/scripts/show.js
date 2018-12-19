@@ -1,111 +1,43 @@
-// NO jQuery
+$(document).ready(function(){
 
-// get elements from DOM, make variables
-var clicker = document.querySelector('#clickTicket');
-var myText = document.querySelector('#stipulation');
+  $(".hideTheKids").children().hide();
 
-// hide the stipulation
-myText.style.display = 'none';
+  $("#addCourseTwo").hide();
+  $("#addCourseThree").hide();
 
-// make clickticket work
-clicker.addEventListener('click', showAndHide);
+  $( "#addCourse" ).click(function() {
+    $( "#newOptions" ).show();
+    $("#addCourse").hide();
+    $("#addCourseTwo").show();
+  });
 
-function showAndHide() {
-  if (myText.classList.contains('showing')) {
-    // hide it
-    myText.style.display = 'none';
-    // remove class
-    myText.classList.remove('showing');
-  } else {
-    // show it
-    myText.style.display = '';
-    // add class
-    myText.classList.add('showing');
-    clicker.style.display = 'none';
-  }
-}
+  $( "#addCourseTwo" ).click(function() {
+    $("#newOptionsTwo").show();
+    $("#addCourseTwo").hide();
+    $("#addCourseThree").show();
+  });
 
+  $( "#addCourseThree" ).click(function() {
+    $("#newOptionsThree").show();
+    $("#addCourseThree").hide();
+    $("#addCourseFour").show();
+  });
 
-// NO jQuery Scipt pt. ii
+  $( "#addCourseFour" ).click(function() {
+    $("#newOptionsFour").show();
+    $("#addCourseFour").hide();
+    $("#addCourseFive").show();
+  });
 
-// get elements from DOM, make variables
-var clickTicketTwo = document.querySelector('#clickTicketTwo');
-var myTextTwo = document.querySelector('#stipulationTwo');
+  $( "#addCourseFive" ).click(function() {
+    $("#newOptionsFive").show();
+    $("#addCourseFive").hide();
+    $("#addCourseSix").show();
+  });
 
-// hide the stipulation
-myTextTwo.style.display = 'none';
+  $( "#addCourseSix" ).click(function() {
+    $("#newOptionsSix").show();
+    $("#addCourseSix").hide();
+  });
 
-// make clickticket work
-clickTicketTwo.addEventListener('click', showAndHideTwo);
-
-function showAndHideTwo() {
-  if (myTextTwo.classList.contains('showingTwo')) {
-    // hide it
-    myTextTwo.style.display = 'none';
-    // remove class
-    myTextTwo.classList.remove('showingTwo');
-  } else {
-    // show it
-    myTextTwo.style.display = '';
-    // add class
-    myTextTwo.classList.add('showingTwo');
-    clickTicketTwo.style.display = 'none';
-
-  }
-}
-
-
-// NO jQuery Scipt pt. iii
-
-// get elements from DOM, make variables
-var clickTicketThree = document.querySelector('#clickTicketThree');
-var myTextThree = document.querySelector('#stipulationThree');
-
-// hide the stipulation
-myTextThree.style.display = 'none';
-
-// make clickticket work
-clickTicketThree.addEventListener('click', showAndHideThree);
-
-function showAndHideThree() {
-  if (myTextThree.classList.contains('showingThree')) {
-    // hide it
-    myTextThree.style.display = 'none';
-    // remove class
-    myTextThree.classList.remove('showingThree');
-  } else {
-    // show it
-    myTextThree.style.display = '';
-    // add class
-    myTextThree.classList.add('showingThree');
-    clickTicketThree.style.display = 'none';
-  }
-}
-
-
-// NO jQuery Scipt pt. iv
-
-// get elements from DOM, make variables
-var clickTicketFour = document.querySelector('#clickTicketFour');
-var myTextFour = document.querySelector('#stipulationFour');
-
-// hide the stipulation
-myTextFour.style.display = 'none';
-
-// make clickticket work
-clickTicketFour.addEventListener('click', showAndHideFour);
-
-function showAndHideFour() {
-  if (myTextFour.classList.contains('showingFour')) {
-    // hide it
-    myTextFour.style.display = 'none';
-    // remove class
-    myTextFour.classList.remove('showingFour');
-  } else {
-    // show it
-    myTextFour.style.display = '';
-    // add class
-    myTextFour.classList.add('showingFour');
-    clickTicketFour.style.display = 'none';
-  }
-}
+});

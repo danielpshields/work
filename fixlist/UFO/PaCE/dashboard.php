@@ -30,7 +30,7 @@
       </div><!-- ticket shell -->
 
       <div class="ticketShell">
-        <h4>Exploratory*</h4>
+        <h4>Exploratory Students</h4>
         <ul>
           <li><img src="image/edit.png"><a href="tickets/exploratory.php">ticket</a></li>
           <li><img src="image/database.png"><a href="records/index.php">records</a></li>

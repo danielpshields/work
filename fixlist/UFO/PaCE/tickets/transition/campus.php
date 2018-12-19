@@ -102,6 +102,12 @@
     </div><!-- input shell -->
 
     <div class="inputShell">
+      <h3 class="orange">Failure Notice</h3>
+      <p>If I fail a class, or fail to meet the transfer requirements in any way, I will inform my advisor: <a href="#">Nicole Raymond</a></p>
+      <input class="checkBox" type="checkbox" name="" value="">
+    </div><!-- input shell -->
+
+    <div class="inputShell">
       <h3 id="phone">Contact Information</h3>
 
       <p>If your advisor needs to reach out to you regarding this form, please provide a preferred phone number.</p>

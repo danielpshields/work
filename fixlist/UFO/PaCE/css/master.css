@@ -237,12 +237,13 @@ h4 {
 
 textarea {
   display: block;
-  margin: auto;
-  margin-top: 1rem;
-  width: 90%;
+  width: 100%;
+  border: none;
+  margin: 0;
+  width: 100%;
   padding: 1rem;
   font-size: 1.3rem;
-  color: purple;
+  color: #333;
 }
 
 
@@ -341,6 +342,17 @@ pre {
   margin: auto;
 }
 
+p.addCourse {
+  width: 84%;
+  font-size: .8rem;
+  text-align: right;
+  font-style: italic;
+}
+
+.addCourse a {
+  color: #2A5DB0;
+}
+
 
 .arrow {
   width: 1rem;
@@ -360,4 +372,28 @@ pre {
 .monospace {
   font-family: monospace, monospace;
   font-size: 1.2rem;
+}
+
+p.tiny {
+  font-size: .8rem;
+}
+.black {
+  color: #333;
+  background: #e6e6e6;
+}
+
+.text {
+  padding-bottom: 0;
+}
+
+select.course {
+  margin-top: .8rem;
+}
+
+@media screen and (min-width: 600px) {
+
+  textarea {
+
+  }
+
 }
