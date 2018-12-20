@@ -2,9 +2,6 @@ $(document).ready(function(){
 
   $(".hideTheKids").children().hide();
 
-  $("#addCourseTwo").hide();
-  $("#addCourseThree").hide();
-
   $( "#addCourse" ).click(function() {
     $( "#newOptions" ).show();
     $("#addCourse").hide();

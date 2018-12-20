@@ -1,0 +1,16 @@
+#welcomeSlug {
+  margin-top: 2rem;
+  font-style: italic;
+  color: #555;
+}
+
+#contactAdvisorSlug {
+  width: 84%;
+  max-width: 33rem;
+  margin: auto;
+  margin-top: 2.81rem;
+  color: #6E6E6E;
+  font-style: italic;
+  font-size: .8rem;
+  /* background: red; */
+}
