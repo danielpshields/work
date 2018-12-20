@@ -1,19 +1,21 @@
 <?php
+
   // where should the form's information go?
-  $emailThisTo = "dsking@ufl.edu";
+  $emailThisTo = $to;
   // then, after submitting:
-  $redirectTo = "success.php";
+  $redirectTo = "{$root}tickets/messages/thankyou.php";
 
   $date_auto = date("Y-m-d H:i:s");
-  $name=$_SERVER["HTTP_UFSHIB_BUSINESSNAME"];
-  include ("include/editSender.php");
+  // $name= $_SERVER["HTTP_UFSHIB_BUSINESSNAME"];
+  $name= $nameBusiness;
+  include ("body.php");
 
   $formproc = new FGContactForm();
 
   //1. Add your email address here. You can add more than one receipient.
-  $formproc->AddRecipient($emailThisTo); //<<---Put your email address here
+  $formproc->AddRecipient($emailThisTo);
 
-  //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
+  //2. For better security. Get a random string from this link: http://tinyurl.com/randstr
   // and put it here
   $formproc->SetFormRandomKey('xdvgMTQYvH3VfOm');
 

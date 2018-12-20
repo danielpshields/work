@@ -31,10 +31,14 @@
 
       <div class="ticketShell">
         <h4>Exploratory Students</h4>
-        <ul>
-          <li><img src="image/edit.png"><a href="tickets/exploratory.php">ticket</a></li>
-          <li><img src="image/database.png"><a href="records/index.php">records</a></li>
-        </ul>
+        <form class="" action="<?php echo $root; ?>tickets/exploratory.php" method="post">
+          <input type="text" name="name" value="" placeholder="student's name">
+          <label for="name">Add student's name</label>
+          <input type="email" name="email" value="" placeholder="student's email address">
+          <label for="email">Add student's gatorlink email</label>
+          <input type="hidden" name="formType" value="exploratory">
+          <input class="submitButton" type="submit" name="submit" value="create email">
+        </form>
         <p class="removeTicket"><a href="dashboard.php">remove ticket</a></p>
       </div><!-- ticket shell -->
 

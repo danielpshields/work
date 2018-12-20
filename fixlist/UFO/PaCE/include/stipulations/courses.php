@@ -30,5 +30,4 @@
       <p id="addCourseSix" class="addCourse"><i>(+) add course</i></p>
     </div>
 
-
   </div><!-- input shell -->

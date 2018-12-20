@@ -5,8 +5,7 @@
   // $firstName    = $_SERVER['HTTP_UFSHIB_GIVENNAME'];
   // $nameGiven    = $_SERVER['HTTP_UFSHIB_GIVENNAME']." ".$_SERVER['HTTP_UFSHIB_SN'];
   // $nameBusiness = $_SERVER['HTTP_UFSHIB_BUSINESSNAME'];
-  $advisor = "nicole";
-  $student = "alex";
+  // include("glid.php");
   include("glid_local.php");
   $user = strstr($email, "@", true);
 ?>

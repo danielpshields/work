@@ -1,6 +1,6 @@
 <?php
-  $page = "ticket";
   $root = "../";
+  $page = "ticket";
   require("{$root}include/header.php");
 ?>
 
