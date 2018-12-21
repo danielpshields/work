@@ -1,5 +1,5 @@
     <footer>
-      <p>PaCE Transition Form &copy; <a href="hold/glid.php">UF Online</a></p>
+      <p>PaCE Transition Form &copy; <a href="<?php echo $root; ?>hold/glid.php">UF Online</a></p>
     </footer>
 
 

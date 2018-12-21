@@ -175,27 +175,10 @@ class FGContactForm
 
         $this->mailer->CharSet = 'utf-8';
 
-
-        foreach ($_POST as $key => $value) {
-
-          $majors = array (
-            "anthropology"    => "laura",
-            "biology"         => "dylan",
-            "computerScience" => "fallen",
-            "criminology"     => "laura",
-            "geography"       => "dylan",
-            "geology"         => "dylan",
-            "psychology"      => "fallen",
-            "sociology"       => "nicole"
-          );
-
-          $selectedMajor = $_POST['major'];
-          $advisor = $majors[$selectedMajor];
-        }
-
         // edits the header
 
-        $this->mailer->Subject =  "Pre-Health Disclaimer from $this->name";
+        // $this->mailer->Subject =  "PaCE Testing Emails from $this->name";
+        $this->mailer->Subject =  "PaCE Testing Emails (Exploratory)";
         // $this->mailer->Subject = "To" . $color . "Contact form submission from $this->name";
 
         $this->mailer->From = $this->GetFromAddress();
@@ -285,6 +268,8 @@ class FGContactForm
         return $ret_str;
     }
 
+
+    // IP Address
     function ExtraInfoToMail()
     {
         $ret_str='';
@@ -295,45 +280,20 @@ class FGContactForm
         return $ret_str;
     }
 
-    // set the styles for the email
-    // set the styles for the email
-    // set the styles for the email
-    // set the styles for the email
-    // set the styles for the email
+// set the styles for the email
+// set the styles for the email
+// set the styles for the email
+// set the styles for the email
+// set the styles for the email
+// set the styles for the email
+// set the styles for the email
+// set the styles for the email
 
 
     function GetMailStyle()
     {
 
         $retstr = "\n<style>";
-
-        foreach ($_POST as $key => $value) {
-
-          $majors = array (
-            "anthropology"    => "laura",
-            "biology"         => "dylan",
-            "computerScience" => "fallen",
-            "criminology"     => "laura",
-            "geography"       => "dylan",
-            "geology"         => "dylan",
-            "psychology"      => "fallen",
-            "sociology"       => "nicole"
-          );
-
-          $advisors = array(
-            "dylan"  => "#1e5419;",
-            "fallen" => "#797979;",
-            "laura"  => "#5e2d96;",
-            "nicole" => "#1073e3;"
-          );
-
-          $selectedMajor = $_POST['major'];
-          $advisor = $majors[$selectedMajor];
-          $hex = $advisors[$advisor];
-
-          $retstr .= ".label {color: $hex}";
-
-        }
 
         $retstr .= "
           body,.label,.value { font-family:Arial,Verdana; } ".
@@ -352,6 +312,7 @@ class FGContactForm
          $retstr .= $this->GetMailStyle();
          $retstr .= '</head><body>';
          // $retstr .= "<img src=\"https://advising.ufl.edu/images/$hex.png\">";
+         $retstr .= $emailBodyFormType;
          return $retstr;
     }
     function GetHTMLFooterPart()
@@ -365,13 +326,19 @@ class FGContactForm
         $formsubmission = $this->FormSubmissionToMail();
         $extra_info = $this->ExtraInfoToMail();
         $footer = $this->GetHTMLFooterPart();
-        //this edits the email's message body
-        //this edits the email's message body
-        //this edits the email's message body
-        //this edits the email's message body
-        //this edits the email's message body
-        //this edits the email's message body
-        $message = $header."<b>About the Submitter</b><br><br><p>$formsubmission</p><hr/>$extra_info".$footer;
+
+//this edits the email's message body
+//this edits the email's message body
+//this edits the email's message body
+//this edits the email's message body
+//this edits the email's message body
+//this edits the email's message body
+
+        global $emailBodyFormType;
+
+        $message = $header.$emailBodyFormType.$footer;
+
+        // $message = $emailBodyFormType;
 
         return $message;
     }

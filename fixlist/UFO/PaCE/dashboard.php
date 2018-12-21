@@ -1,7 +1,7 @@
 <?php
   $root = "";
   $page = "dashboard";
-  require("include/header.php");
+  require("{$root}include/header.php");
 
   /*
 
@@ -32,9 +32,9 @@
       <div class="ticketShell">
         <h4>Exploratory Students</h4>
         <form class="" action="<?php echo $root; ?>tickets/exploratory.php" method="post">
-          <input type="text" name="name" value="" placeholder="student's name">
+          <input type="text" name="name" value="<?php echo $firstName; ?>" placeholder="student's name">
           <label for="name">Add student's name</label>
-          <input type="email" name="email" value="" placeholder="student's email address">
+          <input type="email" name="email" value="<?php echo $email; ?>" placeholder="student's email address">
           <label for="email">Add student's gatorlink email</label>
           <input type="hidden" name="formType" value="exploratory">
           <input class="submitButton" type="submit" name="submit" value="create email">

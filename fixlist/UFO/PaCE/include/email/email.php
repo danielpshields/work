@@ -6,8 +6,10 @@
   $redirectTo = "{$root}tickets/messages/thankyou.php";
 
   $date_auto = date("Y-m-d H:i:s");
+
   // $name= $_SERVER["HTTP_UFSHIB_BUSINESSNAME"];
-  $name= $nameBusiness;
+  // $name= $nameBusiness;
+
   include ("body.php");
 
   $formproc = new FGContactForm();

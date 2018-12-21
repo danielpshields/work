@@ -3,14 +3,15 @@
   $page = "glid";
   include("{$root}include/header.php"); ?>
 
-<br>
-    <?php echo $UFID         ; ?><br>
-    <?php echo $email        ; ?><br>
-    <?php echo $firstName   ; ?> <br>
-    <?php echo $nameGiven    ; ?><br>
-    <?php echo $nameBusiness ; ?><br>
-
-
-<input style="height: 300px; width: 300px; display: block; margin: auto; margin-top: 2rem;" type="checkbox" name="checky" value="checky">
+  <div id="variablesShell">
+    <ul>
+      <li><?php echo $date_auto    ; ?></li>
+      <li><?php echo $UFID         ; ?></li>
+      <li><?php echo $email        ; ?></li>
+      <li><?php echo $firstName    ; ?></li>
+      <li><?php echo $nameGiven    ; ?></li>
+      <li><?php echo $nameBusiness ; ?></li>
+    </ul>
+  </div><!-- variables shell -->
 
 <?php include("{$root}include/footer.php"); ?>

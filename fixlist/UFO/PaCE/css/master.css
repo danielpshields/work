@@ -6,6 +6,16 @@
   -webkit-box-sizing: border-box;
 }
 
+p#localHost {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: none;
+  color: #333;
+  background: #FFBDBD;
+  text-align: center;
+}
+
 html {
   font-size: 16px;
   font-family: "SF Pro Display",SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
