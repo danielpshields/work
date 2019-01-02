@@ -336,7 +336,7 @@ class FGContactForm
 
         global $emailBodyFormType;
 
-        $message = $header.$emailBodyFormType.$footer;
+        $message = $header.$emailBodyFormType.$sendTwo.$footer;
 
         // $message = $emailBodyFormType;
 

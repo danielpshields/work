@@ -3,6 +3,15 @@
   $page = "dashboard";
   require("{$root}include/header.php");
 
+  if (isset($_POST['exploratoryEmail'])) {
+    echo "<pre>";
+    print_r($_POST);
+    echo "</pre>";
+    $name = $_POST['name'];
+    include("test/email.php");
+  }
+
+
   /*
 
    Database
@@ -31,14 +40,16 @@
 
       <div class="ticketShell">
         <h4>Exploratory Students</h4>
-        <form class="" action="<?php echo $root; ?>tickets/exploratory.php" method="post">
+        <form class="" action="dashboard.php" method="post">
           <input type="text" name="name" value="<?php echo $firstName; ?>" placeholder="student's name">
           <label for="name">Add student's name</label>
           <input type="email" name="email" value="<?php echo $email; ?>" placeholder="student's email address">
           <label for="email">Add student's gatorlink email</label>
           <input type="hidden" name="formType" value="exploratory">
-          <input class="submitButton" type="submit" name="submit" value="create email">
+          <input class="submitButton" type="submit" name="exploratoryEmail" value="send email">
         </form>
+        <!-- .checkTicket Class doesn't exist -->
+        <p class="checkTicket"><a href="">test email yourself</a></p>
         <p class="removeTicket"><a href="dashboard.php">remove ticket</a></p>
       </div><!-- ticket shell -->
 

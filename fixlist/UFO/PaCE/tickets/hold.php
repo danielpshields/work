@@ -52,28 +52,10 @@
 
   <p>Note: This communication may contain information that is legally protected from unauthorized</p>
 
+  <p>NOTE: This communication may contain information that is legally protected from unauthorized disclosure. If you are not the intended recipient, please note that any dissemination, distribution or copying of this communication is strictly prohibited. If you have received this message in error, you should notify the sender immediately by telephone or by return email and delete this message from your computer.</p>
+
   ';
 ?>
-
-
-<?php
-  $emailBodyFormType = '<p>hello</p>';
-?>
-
-  <p><?php echo $emailBodyFormType . " : " . strlen($emailBodyFormType); ?></p>
-  <!--
-
-    3078 failed
-
-    3073 passes
-
-  -->
-
-
-
-
-  <?php $troubleMaker = '<p>NOTE: This communication may contain information that is legally protected from unauthorized disclosure. If you are not the intended recipient, please note that any dissemination, distribution or copying of this communication is strictly prohibited. If you have received this message in error, you should notify the sender immediately by telephone or by return email and delete this message from your computer.</p>'; ?>
-
 
   <?php
     include("{$root}include/email/email.php");

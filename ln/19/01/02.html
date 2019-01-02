@@ -37,14 +37,53 @@
 
       <h3>lunch</h3>
       <ul>
-        <li></li>
+        <li>walked home to grab the foot rest!</li>
+        <li>nice lunch chickpeas and tomatoes and veggies</li>
       </ul>
 
       <h3>afternoon</h3>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>[UFO] PaCE</li>
+        <ul>
+          <li>the email form is having trouble with redirects. I tested the strlen(); but it turned out to be unrelated. There's some other possibilities like the actual length of the rendered line. But I don't know if it's the actual base email(); or if it's in the housing for the emailWAttachment(); that's been recycled. Math for that:</li>
+
+  <!--
+
+  Redirects:
+
+    3078 (gen formatting) fails
+    3073 (gen formatting) passes
+
+    136  (one line / <p> ) == passes
+    1088 (one line / <p> ) == passes
+    2142 (one line / <p> ) == passes
+
+    4265 (one line / <p> ) == fails
+    3078 (one line / <p> ) == fails
+    3066 (one line / <p> ) == fails
+    2876 (one line / <p> ) == fails
+    2771 (one line / <p> ) == fails
+    2653 (one line / <p> ) == fails
+
+    2454 (one line / <p> ) == passes
+    2500 (one line / <p> ) == passes
+
+    2556 (one line / <p> ) == fails
+    2535 (one line / <p> ) == fails
+    2516 (one line / <p> ) == fails
+    2476 (one line / <p> ) == fails
+
+
+    at this point:
+
+    There is no correlation between the string length and the redirect's success
+
+    unhappy face :(
+  -->
+          <li>set up a test/shell to see about building a new email function</li>
+        </ul>
+        <li>started writing own email(); it's going well. there's something about passing in a variable -- i think into an html format -- it's weird -- only because it did actually submit a version using a variable defined on the same page. neat stuff :)</li>
+        <li>[ln] close wednesday (190102, 3:44 p.m.)</li>
       </ul>
 
       <h3>after</h3>

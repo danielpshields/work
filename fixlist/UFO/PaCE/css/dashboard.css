@@ -39,6 +39,16 @@
   margin-right: 1rem;
 }
 
+p.checkTicket {
+  font-size: .8rem;
+  text-align: left;
+  font-style: italic;
+}
+
+.checkTicket a {
+  color: #186318;
+}
+
 p.removeTicket {
   font-size: .8rem;
   text-align: right;
