@@ -8,15 +8,39 @@
   <!-- O B P G L W -->
 
       <article class="lonesomeNote">
+        <h2>2019</h2>
+
+        <h4>January</h4>
+
+        <h5>Week 33</h5>
+
+        <ul>
+          <li><a href="ln/19/01/06.html">190106</a></li>
+          <li><a href="ln/19/01/05.html">190105</a></li>
+        </ul>
+
+        <ul>
+          <li><a href="ln/19/01/04.html">190104</a></li>
+          <li><a href="ln/19/01/03.html">190103</a></li>
+          <li><a href="ln/19/01/02.html">190102</a></li>
+          <li><a href="ln/19/01/01.html">190101</a></li>
+        </ul>
+
+        <h5>Week 32</h5>
+
+        <ul>
+          <li>Chirstmas Break</li>
+        </ul>
+
+
         <h2>2018</h2>
         <h4>December</h4>
-
         <h5>Week 31</h5>
         <ul>
           <li><a href="ln/18/12/23.html">181223</a></li>
           <li><a href="ln/18/12/22.html">181222</a></li>
         </ul>
-        
+
         <ul>
           <li><a href="ln/18/12/21.html">181221</a></li>
           <li><a href="ln/18/12/20.html">181220</a></li>
