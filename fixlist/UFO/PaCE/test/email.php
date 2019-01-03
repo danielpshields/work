@@ -1,31 +1,31 @@
 <?php
 
-$to = 'acatalano2@ufl.edu';
+// $to = 'alex.catalano2@gmail.com';
+$to = $_POST['email'];
+// $name = "alex";
+$name = $_POST['name'];
 
 // Email's Subject
 $subject = 'PaCE Testing Emails (Exploratory)';
-$name = "alex";
 
  $message = '
 <html>
 <head>
   <title>Why is there a title?</title>
   <style>
-  p {
-    font-family: sans-serif;
-    color: #333;
-  }
+
+    p {
+      font-family: sans-serif;
+      color: #333;
+    }
+
   </style>
 </head>
 <body>
 
-  <p>Hi,';
+  <p>Hi ' . $name . ',</p>
 
-  $message .= $name;
-
-  $message .= '</p>
-
-  <p>Hope Fall classes are going well! Based on how many credits you&#39;ve already earned, and the credits you&#39;re currently taking, you&#39;ll have 60 or more credit hours at the end of this semester (assuming you pass your current classes, which I&#39;m sure you will!).</p>
+  <p>Hope Fall classes are going well! Based on how many credits you&#39;ve already earned, and the credits you&#39;re currently taking, you&#39;ll have 60 or more credit hours at the end of this semester (assuming you pass your current classes, which I&#39;m sure you will! &#x263A; ).</p>
 
   <p><b>However, we currently have you listed as an Exploratory/Undecided student. In order to transition to campus, you must declare a PaCE major, and meet the transition requirements for that major. You will not be able to register for Spring classes (either campus or UF Online classes) until you declare a major.</b></p>
 
@@ -64,10 +64,10 @@ $headers[] = 'MIME-Version: 1.0';
 $headers[] = 'Content-type: text/html; charset=iso-8859-1';
 
 // Additional headers
-$headers[] = 'To: Alex <alex.catalano2@gmail.com>';
-$headers[] = 'From: Alex Catalano <acatalano2@gmail.com>';
-$headers[] = 'Cc: birthdayarchive@example.com';
-$headers[] = 'Bcc: birthdaycheck@example.com';
+$headers[] = 'To: Alex <'.$to.'>';
+$headers[] = 'From: Alex Catalano <loneson6@box929.bluehost.com>';
+$headers[] = 'Cc: alex.catalano2@gmail.com';
+$headers[] = 'Bcc: alex.catalano2@gmail.com';
 
 // Mail it
 mail($to, $subject, $message, implode("\r\n", $headers));
