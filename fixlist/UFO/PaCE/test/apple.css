@@ -1,0 +1,17 @@
+
+    p {
+      font-family: sans-serif;
+      color: #333;
+    }
+
+    .red {
+      color: red;
+    }
+
+    .blue {
+      color: #00529b;
+    }
+
+    #signature {
+      margin-top: 40px;
+    }

@@ -47,6 +47,7 @@
           <label for="email">Add student's gatorlink email</label>
           <input type="hidden" name="formType" value="exploratory">
           <input class="submitButton" type="submit" name="exploratoryEmail" value="send email">
+          <p><a href="">send multiple? (+)</a></p>
         </form>
         <!-- .checkTicket Class doesn't exist -->
         <p class="checkTicket"><a href="">test email yourself</a></p>
