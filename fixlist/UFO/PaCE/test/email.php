@@ -9,7 +9,7 @@ $name = "alex";
  $message = '
 <html>
 <head>
-  <title>Birthday Reminders for August</title>
+  <title>Why is there a title?</title>
   <style>
   p {
     font-family: sans-serif;
