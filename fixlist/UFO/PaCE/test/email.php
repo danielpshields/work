@@ -1,4 +1,5 @@
 <?php
+// bcc | students
 
 // $to = 'alex.catalano2@gmail.com';
 $to = $_POST['email'];
