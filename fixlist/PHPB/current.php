@@ -27,7 +27,23 @@
             </tr>
           </tbody>
         </table>
+
+        <p class="graphSlug"><u>Professional Groups:</u></p>
+        <ul>
+          <li><b>2017 Cohort</b> - January 22 AMCAS WORKSHOP & February 26 1:30 p.m. to 3 p.m. 2024 Farrior Hall</li>
+          <li><b>2018 Cohort</b> - January 30 &amp; February 27  1 p.m. to 2:30 p.m. 2024 Farrior Hall</li>
+        </ul>
+
+
+
         <h3>Class &amp; Tutoring Schedules</h3><!-- drop down -->
+
+        <p class="graphSlug"><u>Tutoring:</u><br><br>Go to Sylvia's office 1041 Farrior</p>
+        <ul>
+          <li><b>2017 Cohort</b> - Wednesdays 11:30 a.m. to 12:30 p.m.</li>
+          <li><b>2018 Cohort</b> - Tuesdays 2 p.m. to 4 p.m.</li>
+        </ul>
+
         <dl id="noBottomBorder">
           <dt>
             <img src="image/arrow.jpg" class="arrow">

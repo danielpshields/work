@@ -12,6 +12,20 @@
 
         <h4>January</h4>
 
+        <h5>Week 34</h5>
+        <ul>
+          <li><a href="ln/19/01/13.html">190113</a></li>
+          <li><a href="ln/19/01/12.html">190112</a></li>
+        </ul>
+
+        <ul>
+          <li><a href="ln/19/01/11.html">190111</a></li>
+          <li><a href="ln/19/01/10.html">190110</a></li>
+          <li><a href="ln/19/01/09.html">190109</a></li>
+          <li><a href="ln/19/01/08.html">190108</a></li>
+          <li><a href="ln/19/01/07.html">190107</a></li>
+        </ul>
+
         <h5>Week 33</h5>
 
         <ul>

@@ -50,6 +50,13 @@ table.classTable {
   text-decoration: underline;
 }
 
+/* for the tutoring slug */
+p.graphSlug {
+  margin-bottom: 1.8rem;
+  font-size: 1.3rem;
+  color: #333;
+}
+
 #policiesAndConduct a {
   color: #2A5DB0;
 }
@@ -116,6 +123,10 @@ p#yourApplicationGraph {
 #onlineCourseInTable {
   text-align: center;
   /* padding-left: 1.2rem; */
+}
+
+.mobileTable .headerTH {
+  font-size: 2rem;
 }
 
 @media screen and (min-width: 600px) {

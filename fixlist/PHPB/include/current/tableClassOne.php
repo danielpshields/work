@@ -55,7 +55,7 @@
       	<td>11:45 a.m. to 12:35 p.m.</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td>Tutoring 11:30-12:30</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
     </tr>
@@ -74,7 +74,7 @@
       <td>7</td>
     	<td>1:55 a.m. to 2:45 p.m.</td>
       <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>Professional Grp. 1/22 & 2/26 2-3:30 2024 Farrior</td>
       <td>&nbsp;</td>
       <td>IDS4930</td>
       <td>&nbsp;</td>

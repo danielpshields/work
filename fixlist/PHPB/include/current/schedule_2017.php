@@ -5,26 +5,26 @@
                   <th class="headerTH" colspan="2">Mondays</th>
                 </tr>
                 <tr>
-                  <th>Meeting Time</th>
                   <th>Class Section</th>
+                  <th>Meeting Time</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><b>Period 6</b><br>12:50 p.m. to 1:40 p.m</td>
                   <td>BCH4024</td>
+                  <td><b>Period 6</b><br>12:50 p.m. to 1:40 p.m</td>
                 </tr>
                 <tr>
+                  <td>CHM2211L</td>
                   <td><b>Period 8</b><br>3 p.m. to 3:50 p.m.</td>
-                  <td>CHM2211L</td>
                 </tr>
                 <tr>
+                  <td>CHM2211L</td>
                   <td><b>Period 9</b><br>4:05 p.m. to 4:55 p.m.</td>
-                  <td>CHM2211L</td>
                 </tr>
                 <tr>
-                  <td><b>Period 10</b><br>5:10 p.m. to 6 p.m</td>
                   <td>CHM2211L</td>
+                  <td><b>Period 10</b><br>5:10 p.m. to 6 p.m</td>
                 </tr>
               </tbody>
             </table>
@@ -35,22 +35,30 @@
                   <th class="headerTH" colspan="2">Tuesdays</th>
                 </tr>
                 <tr>
-                  <th>Meeting Time</th>
                   <th>Class Section</th>
+                  <th>Meeting Time</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><b>Period 6</b><br>12:50 p.m. to 1:40 p.m</td>
                   <td>BCH4024</td>
+                  <td><b>Period 6</b><br>12:50 p.m. to 1:40 p.m</td>
                 </tr>
                 <tr>
+                  <td>Professional Group</td>
+                  <td>
+                    1/22 & 2/26<br>
+                    2 p.m. to 3:30 p.m.<br>
+                    2024 Farrior
+                  </td>
+                </tr>
+                <tr>
+                  <td>PCB3063</td>
                   <td><b>Period 9</b><br>4:05 p.m. to 4:55 p.m.</td>
-                  <td>PCB3063</td>
                 </tr>
                 <tr>
-                  <td><b>Period 10</b><br>5:10 p.m. to 6 p.m.</td>
                   <td>PCB3063</td>
+                  <td><b>Period 10</b><br>5:10 p.m. to 6 p.m.</td>
                 </tr>
               </tbody>
             </table>
@@ -62,26 +70,30 @@
                   <th class="headerTH" colspan="2">Wednesdays</th>
                 </tr>
                 <tr>
-                  <th>Meeting Time</th>
                   <th>Class Section</th>
+                  <th>Meeting Time</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><b>Period 6</b><br>12:50 p.m. to 1:40 p.m</td>
+                  <td>Tutoring</td>
+                  <td><b>Period 5</b><br>11:30 a.m. to 12:30 p.m.</td>
+                </tr>
+                <tr>
                   <td>BCH4024</td>
+                  <td><b>Period 6</b><br>12:50 p.m. to 1:40 p.m</td>
                 </tr>
                 <tr>
+                  <td>CHM2211L</td>
                   <td><b>Period 8</b><br>3 p.m. to 3:50 p.m.</td>
-                  <td>CHM2211L</td>
                 </tr>
                 <tr>
+                  <td>CHM2211L</td>
                   <td><b>Period 9</b><br>4:05 p.m. to 4:55 p.m.</td>
-                  <td>CHM2211L</td>
                 </tr>
                 <tr>
-                  <td><b>Period 10</b><br>5:10 p.m. to 6 p.m</td>
                   <td>CHM2211L</td>
+                  <td><b>Period 10</b><br>5:10 p.m. to 6 p.m</td>
                 </tr>
               </tbody>
             </table>
@@ -92,30 +104,30 @@
                   <th class="headerTH" colspan="2">Thursdays</th>
                 </tr>
                 <tr>
-                  <th>Meeting Time</th>
                   <th>Class Section</th>
+                  <th>Meeting Time</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  <td>IDS4930</td>
                   <td><b>Period 6</b><br>12:50 p.m. to 1:40 p.m.</td>
-                  <td>IDS4930</td>
                 </tr>
                 <tr>
+                  <td>IDS4930</td>
                   <td><b>Period 7</b><br>1:55 a.m. to 2:45 p.m.</td>
-                  <td>IDS4930</td>
                 </tr>
                 <tr>
+                  <td>IDS4930</td>
                   <td><b>Period 8</b><br>3 p.m. to 3:50 p.m.</td>
-                  <td>IDS4930</td>
                 </tr>
                 <tr>
+                  <td>PCB3063</td>
                   <td><b>Period 9</b><br>4:05 p.m. to 4:55 p.m.</td>
-                  <td>PCB3063</td>
                 </tr>
                 <tr>
-                  <td><b>Period 10</b><br>5:10 p.m. to 6 p.m.</td>
                   <td>PCB3063</td>
+                  <td><b>Period 10</b><br>5:10 p.m. to 6 p.m.</td>
                 </tr>
               </tbody>
             </table>
@@ -127,14 +139,14 @@
                   <th class="headerTH" colspan="2">Fridays</th>
                 </tr>
                 <tr>
-                  <th>Meeting Time</th>
                   <th>Class Section</th>
+                  <th>Meeting Time</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><b>Period 6</b><br>12:50 p.m. to 1:40 p.m</td>
                   <td>BCH4024</td>
+                  <td><b>Period 6</b><br>12:50 p.m. to 1:40 p.m</td>
                 </tr>
               </tbody>
             </table>

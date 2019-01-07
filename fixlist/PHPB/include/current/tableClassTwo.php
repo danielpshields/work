@@ -56,7 +56,7 @@
         <td>12:50 -1:40 p.m.</td>
         <td>STA2023</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td>Professional Groups<br>1/30 & 2/27<br>1-2:30<br>2024 Farrior</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
     </tr>
@@ -65,7 +65,7 @@
         <td>7</td>
         <td>1:55 p.m. to 2:45 p.m.</td>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td rowspan="2">Tutoring<br>2 p.m. to 4 p.m.</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -74,7 +74,7 @@
         <td>8</td>
         <td>3 p.m. to 3:50 p.m.</td>
         <td>CHM2046</td>
-        <td>&nbsp;</td>
+
         <td>CHM2046</td>
         <td>CHM2046</td>
         <td>&nbsp;</td>
