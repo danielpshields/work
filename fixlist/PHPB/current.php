@@ -30,7 +30,7 @@
 
         <p class="graphSlug"><u>Professional Groups:</u></p>
         <ul>
-          <li><b>2017 Cohort</b> - January 22 AMCAS WORKSHOP & February 26 1:30 p.m. to 3 p.m. 2024 Farrior Hall</li>
+          <li><b>2017 Cohort</b> - January 22 AMCAS WORKSHOP &amp; February 26  2 p.m. to 3:30 p.m. 2024 Farrior Hall</li>
           <li><b>2018 Cohort</b> - January 30 &amp; February 27  1 p.m. to 2:30 p.m. 2024 Farrior Hall</li>
         </ul>
 

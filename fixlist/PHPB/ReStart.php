@@ -29,7 +29,7 @@
 
         <section>
           <h2 id="formHeader">PHPB ReStart Application</h2>
-          <img id="phpbLogo" src="images/phpb.png" alt="PHPB Logo">
+          <img id="phpbLogo" src="image/phpb.png" alt="PHPB Logo">
           <div class="clear"></div>
           <!-- start form -->
           <form action='<?php echo $formproc->GetSelfScript(); ?>' method='post' enctype="multipart/form-data" accept-charset='UTF-8'>

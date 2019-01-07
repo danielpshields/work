@@ -1,10 +1,5 @@
-<html>
-<head>
-  <title>Why is there a title?</title>
-  <style><?php echo  $css; ?></style>
-</head>
-<body>
-  <?php $name = "alex"; ?>
+
+  <?php $name = 'alex'; ?>
 
   <p>Hi ' . <?php echo $name; ?> . ',</p>
 
@@ -37,6 +32,3 @@
 
 
   <p>NOTE: This communication may contain information that is legally protected from unauthorized disclosure. If you are not the intended recipient, please note that any dissemination, distribution or copying of this communication is strictly prohibited. If you have received this message in error, you should notify the sender immediately by telephone or by return email and delete this message from your computer.</p>
-
-</body>
-</html>
