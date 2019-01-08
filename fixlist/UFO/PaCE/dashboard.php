@@ -46,7 +46,7 @@
           <input type="email" name="email" value="<?php echo $email; ?>" placeholder="student's email address">
           <label for="email">Add student's gatorlink email</label>
           <input type="hidden" name="formType" value="exploratory">
-          <input class="submitButton" type="submit" name="exploratoryEmail" value="send email">
+          <input tabindex="1" class="submitButton" type="submit" name="exploratoryEmail" value="send email">
           <p><a href="">send multiple? (+)</a></p>
         </form>
         <!-- .checkTicket Class doesn't exist -->
