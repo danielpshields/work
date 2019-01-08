@@ -25,6 +25,11 @@
   <h2>Transition Ticket</h2>
   <h3>Create a <b>transition</b> ticket for the student:</h3>
 
+  <p>
+    <script>document.write("alex");</script>
+
+  </p>
+
   <form class="" action="messages/submitted.php" method="post">
 
           <div class="inputShell">

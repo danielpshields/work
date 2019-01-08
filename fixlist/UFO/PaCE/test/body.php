@@ -2,9 +2,13 @@
 </head>
 <body>
 
-   <p>Hi, </p>
+  <script type="text/javascript">
+  var alex = "alex";
+  </script>
 
-   <?php echo $test; ?>
+  <p>Hi, <script type="text/javascript">document.write("alex");</script></p>
+   <p>Hi, <script type="text/javascript">document.write(alex);</script></p>
+
 
    <p>Hope Fall classes are going well! Based on how many credits you&#39;ve already earned, and the credits you&#39;re currently taking, you&#39;ll have 60 or more credit hours at the end of this semester (assuming you pass your current classes, which I&#39;m sure you will!).</p>
 

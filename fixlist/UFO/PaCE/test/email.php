@@ -2,13 +2,16 @@
 <?php
 $subject = 'PaCE Testing Emails (Exploratory)';
 $name = $_POST['name'];
-$to = "acatalano2@ufl.edu";
+$to = "alex.catalano2@gmail.com";
 // Email's Subject
+include("test/variables.php");
 
 
 $message  = file_get_contents("test/header.php");
 $message .= file_get_contents("test/style.css");
-$message .= file_get_contents("test/body.php");
+$message .= file_get_contents('test/body.php');
+//apples sends from include
+$message .= $alex;
 $message .= $name;
 
 
