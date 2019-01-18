@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: sans-serif;
 }
 
 html {font-size: 16px;}
@@ -14,8 +15,37 @@ h1, h2, h3, p {
   margin: 25px auto;
 }
 
+h1 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+h2 {
+  color: #353535;
+}
+
+
+p {
+  color: #383838;
+}
+
+header {
+  border-bottom: 1px solid #333;
+}
+
+.slug {
+  font-size: 1.1rem;
+  width: 84%;
+  margin: 2.81rem auto;
+}
+
+ol, ul {
+
+}
+
 li {
   line-height: 1.7;
+  color: #383838;
 }
 
 section {

@@ -1,3 +1,6 @@
+<?php
+  $root = "../../../";
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -26,20 +29,30 @@
       <ul>
         <li>[ln] catch up through the sick time, still sick :(</li>
         <li>[ln] open Friday (190118, 9 a.m.)</li>
-        <li></li>
+        <li>[meeting] spoke with dan</li>
+        <li>[meeting] bobbi w/ Dan</li>
         <li></li>
       </ul>
 
       <h3>lunch</h3>
       <ul>
-        <li></li>
+        <li>[publix]</li>
       </ul>
 
       <h3>afternoon</h3>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>[UFO] DB:</li>
+        <ol>
+          <li>Exploratory : submit username and date to "exploratory" table | pull stips</li>
+          <li>Transitional: submit stips | pull stips</li>
+          <li>Requirements: submit stips | pull stips</li>
+        </ol>
+        <li>[PHPB] rundown</li>
+        <ul>
+          <li><a href="<?php echo $root; ?>fixlist/GEN/notes/PHPB/cms.html" target="_blank">cms.html</a></li>
+        </ul>
+        <li>got sent home :)</li>
+        <li>[ln] close Friday (190118, 4:25 p.m.)</li>
       </ul>
 
       <h3>after</h3>
