@@ -68,9 +68,9 @@
       <footer>
         <nav>
           <ul>
-            <li><a href=".html">last</a></li>
+            <li><a href="17.html">last</a></li>
             <p>&#124;</p>
-            <li><a href="../../../index.php">next</a></li>
+            <li><a href="19.html">next</a></li>
             <div class="clear"></div>
           </ul>
         </nav>

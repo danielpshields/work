@@ -41,7 +41,7 @@
             <li>|</li>
             <li><a href="<?php echo $path; ?>index.php">index</a></li>
             <li>|</li>
-            <li><a href="../<?php echo $path; ?>home/fixlist/transactions.php">Transactions</a></li>
+            <li><a href="../<?php echo $path; ?>home/fixlist.php" target="_blank">[home] fixlist</a></li>
           </ul>
 
           <ul id="navAdminLinks">

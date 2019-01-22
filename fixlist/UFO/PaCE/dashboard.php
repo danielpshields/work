@@ -11,16 +11,7 @@
     include("test/email.php");
   }
 
-
-  /*
-
-   Database
-
-   C (R) U D
-
-   1. Cookie: Logged in
-
-  */
+  /* DB: C (R) U D 1. Cookie: Logged in */
 
 ?>
   <h2>Advisor Dashboard</h2>
@@ -52,6 +43,9 @@
         <!-- .checkTicket Class doesn't exist -->
         <p class="checkTicket"><a href="">test email yourself</a></p>
         <p class="removeTicket"><a href="dashboard.php">remove ticket</a></p>
+        <ul>
+          <li><img src="image/database.png"><a href="records/index.php"> exploratory records</a></li>
+        </ul>
       </div><!-- ticket shell -->
 
       <div class="ticketShell">
