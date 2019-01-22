@@ -13,13 +13,17 @@
 
 
 
-    <ul>
+    <table>
       <?php
       while($row = mysqli_fetch_assoc($spitResults)) { ?>
-        <li><?php echo $row['email']; ?></li>
+        <tr>
+          <td><?php echo $row['name']; ?></td>
+          <td><?php echo $row['email']; ?></td>
+          <td><?php echo $row['date']; ?></td>
+        </tr>
       <?php } ?>
-    </ul>
-    <p><a href=".php">insertion form</a></p>
+    </table>
+    
   </body>
 </html>
 <?php
