@@ -1,6 +1,6 @@
-<input type="text" name="" value="" placeholder="add course">
+<input type="text" name="courseNeeded" value="" placeholder="add course">
 
-<select class="course" name="">
+<select class="course" name="gradeNeeded">
   <option value="input" selected disabled>grade needed</option>
   <option value="grade_a">2.5</option>
   <option value="grade_b">2.8</option>

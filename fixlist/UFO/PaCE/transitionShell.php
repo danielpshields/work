@@ -15,22 +15,15 @@
 
   <!-- <form class="" action="messages/submitted.php" method="post"> -->
   <form class="" action="transition.php" method="post">
-    <!-- 1 -->
     <?php include("{$root}include/recipient.php"); ?>
-
-    <!-- 2 -->
     <div class="inputShell">
-      <h3 class="blue">Stipulation</h3>
-      <?php include("{$root}include/stipulations/statement.php"); ?>
-      <?php include("{$root}include/stipulations/courses.php"); ?>
-
-    </div>
-
-    <!-- 3 -->
-    <div class="inputShell">
-      <input type="text" name="text" value="" placeholder="text values">
-      <input type="submit" name="submit" value="submit">
-    </div><!-- input shell -->
+    <h3 class="blue">Stipulation</h3>
+    <?php include("{$root}include/stipulations/statement.php"); ?>
+    <?php include("{$root}include/stipulations/courses.php"); ?>
+    <?php include("{$root}include/stipulations/gpa_requirement.php"); ?>
+    </div><!-- input shell | there are two of these through includes -->
+    <input hidden type="text" name="formType" value="transition">
+    <input class="submitButton" type="submit" name="submit" value="email ticket">
   </form>
 
 </div><!-- display: none; -->
