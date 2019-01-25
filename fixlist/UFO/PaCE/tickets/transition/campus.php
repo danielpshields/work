@@ -61,17 +61,36 @@
          <!-- pulls in the stipulation variables to keep this page shorter -->
          <?php include("{$root}include/stipulationVariables.php"); ?>
 
+         <!-- main stipulation statement -->
+         <p><?php echo $stipulation; ?></p>
 
          <?php
 
-         foreach ($categories as $key) {
-           if (!empty($key)) {
-             echo '<p>'.$key.'</p>';
-           }
-         }
+           foreach ($categories as $key) {
+             if (!empty($key)) {
+               echo '<p>'.$key.'</p>';
+             }
+          }
 
          ?>
 
+         <table>
+           <thead>
+             <tr>
+               <th colspan="2">Overall GPAs</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td>Major</td>
+               <td><?php echo $gpaMajor; ?></td>
+             </tr>
+             <tr>
+               <td>UF</td>
+               <td><?php echo $gpaUF; ?></td>
+             </tr>
+           </tbody>
+         </table>
 
        </div><!-- stipulation dark -->
 
