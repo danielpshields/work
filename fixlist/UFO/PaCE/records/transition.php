@@ -4,7 +4,7 @@
   $page = "records";
   require("{$root}include/header.php");
 ?>
-  <h2>Records: Exploratory</h2>
+  <h2>Records: <?php echo "Transition"; ?></h2>
 <?php
   $query = "SELECT * FROM transition";
   $spitResults = mysqli_query($connection, $query);
@@ -14,6 +14,28 @@
 
     <h3>Sping 2019</h3>
     <table>
+      <thead>
+        <tr>
+          <th>email</th>
+          <th>stipulation</th>
+          <th>course</th>
+          <th>course2</th>
+          <th>course3</th>
+          <th>course4</th>
+          <th>course5</th>
+          <th>course6</th>
+          <th>course7</th>
+          <th>grade</th>
+          <th>grade2</th>
+          <th>grade3</th>
+          <th>grade4</th>
+          <th>grade5</th>
+          <th>grade6</th>
+          <th>grade7</th>
+          <th>gpaMajor</th>
+          <th>gpaUF</th>
+        </tr>
+      </thead>
       <?php
       while($row = mysqli_fetch_assoc($spitResults)) { ?>
         <tr>

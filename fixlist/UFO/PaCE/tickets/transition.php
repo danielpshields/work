@@ -24,15 +24,17 @@
 
     $gpaMajor    = $_POST['gpaMajor'];
     $gpaUF       = $_POST['gpaUF'];
-    
+
     require("{$root}include/db.php");
 
     $query       = "INSERT INTO transition (email, stipulation, course, course2, course3, course4, course5, course6, course7, grade, grade2, grade3, grade4, grade5, grade6, grade7, gpaMajor, gpaUF) VALUES ('{$email}', '{$stipulation}', '{$course}', '{$course2}', '{$course3}', '{$course4}', '{$course5}', '{$course6}', '{$course7}', '{$grade}', '{$grade2}', '{$grade3}', '{$grade4}', '{$grade5}', '{$grade6}', '{$grade7}', '{$gpaMajor}', '{$gpaUF}')";
 
     $spitResults = mysqli_query($connection, $query);
-
     if (!$spitResults) { die ("query failed"); }
 
+    // $email
+    // include("test/email.php");
+    // emailstudent($theresALinkWaiting);
 }
 
 ?>

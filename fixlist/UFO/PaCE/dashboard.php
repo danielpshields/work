@@ -37,7 +37,7 @@
         <ul>
           <li><img src="image/database.png"><a href="records/index.php"> exploratory records</a></li>
         </ul>
-        
+
 
         <p class="removeTicket"><a href="dashboard.php">remove ticket</a></p>
 
@@ -48,7 +48,7 @@
         <h4>Transition</h4>
         <ul>
           <li><img src="image/edit.png"><a href="tickets/transition.php">ticket</a></li>
-          <li><img src="image/database.png"><a href="records/index.php">records</a></li>
+          <li><img src="image/database.png"><a href="records/transition.php">records</a></li>
         </ul>
         <p class="removeTicket"><a href="dashboard.php">remove ticket</a></p>
       </div><!-- ticket shell -->

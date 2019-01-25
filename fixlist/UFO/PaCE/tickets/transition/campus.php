@@ -2,7 +2,12 @@
   $root = "../../";
   $page = "campus";
   require("{$root}include/header.php");
-
+  require("{$root}include/db.php");
+  $email = "info@alexcatalano.com";
+  $query       = "SELECT * FROM transition WHERE email = ";
+  $query      .=  "'" . $email . "'";
+  $spitResults = mysqli_query($connection, $query);
+  if (!$spitResults) { die ("query failed"); }
 ?>
 
   <h2>Transition Form:<br><b>Campus</b></h2>
@@ -52,11 +57,24 @@
 
      <div id="stipulations" class="inputShell">
        <h3 class="orange">Stipulations</h3>
-       <ol>
-         <li><i>[<?php echo "INSERT * \$STIPULATION"; ?>]</i></li>
-         <li><i>[<?php echo "INSERT * \$STIPULATION"; ?>]</i></li>
-         <li><i>[<?php echo "INSERT * \$STIPULATION"; ?>]</i></li>
-       </ol>
+       <div class="stipulationDark">
+         <!-- pulls in the stipulation variables to keep this page shorter -->
+         <?php include("{$root}include/stipulationVariables.php"); ?>
+
+
+         <?php
+
+         foreach ($categories as $key) {
+           if (!empty($key)) {
+             echo '<p>'.$key.'</p>';
+           }
+         }
+
+         ?>
+
+
+       </div><!-- stipulation dark -->
+
        <p>If I do not meet these stipulations, my transition to campus will be rescinded.</p>
        <input class="checkBox" type="checkbox" name="" value="">
      </div><!-- input shell -->
