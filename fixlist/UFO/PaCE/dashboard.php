@@ -20,28 +20,6 @@
 
     <h3 class="blue">Tickets &amp; Records</h3>
 
-      <div class="ticketShell">
-        <h4>Exploratory Students</h4>
-        <form class="" action="dashboard.php" method="post">
-          <input type="text" name="name" value="" placeholder="student's name">
-          <label for="name">Add student's name</label>
-          <input type="email" name="email" value="" placeholder="student's email address">
-          <label for="email">Add student's gatorlink email</label>
-          <input type="hidden" name="formType" value="exploratory">
-          <input tabindex="1" class="submitButton" type="submit" name="exploratoryEmail" value="send email">
-          <p><a href="">send multiple? (+)</a></p>
-        </form>
-        <!-- .checkTicket Class doesn't exist -->
-        <p class="checkTicket"><a href="">test email yourself</a></p>
-
-        <ul>
-          <li><img src="image/database.png"><a href="records/index.php"> exploratory records</a></li>
-        </ul>
-
-
-        <p class="removeTicket"><a href="dashboard.php">remove ticket</a></p>
-
-      </div><!-- ticket shell -->
 
 
       <div class="ticketShell">
@@ -53,6 +31,28 @@
         <p class="removeTicket"><a href="dashboard.php">remove ticket</a></p>
       </div><!-- ticket shell -->
 
+      <div class="ticketShell">
+        <h4>Exploratory Students</h4>
+        <form class="" action="dashboard.php" method="post">
+          <input type="text" name="name" value="" placeholder="student's name">
+          <label for="name">Add student's name</label>
+          <input type="email" name="email" value="" placeholder="student's email address">
+          <label for="email">Add student's gatorlink email</label>
+          <input type="hidden" name="formType" value="exploratory">
+          <input tabindex="1" class="submitButton" type="submit" name="exploratoryEmail" value="send email">
+          <p><s><a href="">send multiple? (+)</a></s></p>
+        </form>
+        <!-- .checkTicket Class doesn't exist -->
+        <p class="checkTicket"><a href=""><s>test email yourself</a></s></p>
+
+        <ul>
+          <li><img src="image/database.png"><a href="records/exploratory.php">exploratory records</a></li>
+        </ul>
+
+
+        <p class="removeTicket"><s><a href="dashboard.php">remove ticket</a></s></p>
+
+      </div><!-- ticket shell -->
 
 
       <div class="ticketShell">

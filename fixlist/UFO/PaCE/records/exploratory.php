@@ -24,10 +24,10 @@
       <?php } ?>
     </table>
 
+    <p class="marginTop"><a href="../dashboard.php">Back to dashboard</a></p>
+
     <div class="inputShell">
-
       <div class="ticketShell">
-
         <h4>Exploratory Students</h4>
         <form class="" action="dashboard.php" method="post">
           <input type="text" name="name" value="" placeholder="student's name">

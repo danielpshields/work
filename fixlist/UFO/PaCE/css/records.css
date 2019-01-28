@@ -11,3 +11,17 @@ h3 {
   color: #383838;
   margin-bottom: 1.5rem;
 }
+
+.red {
+  color: #AD0000;
+  background: white;
+  text-align: center;
+}
+
+.green {
+  background: #32CD32;
+  background: #afedaf;
+  color: white;
+  color: #333;
+  text-align: center;
+}

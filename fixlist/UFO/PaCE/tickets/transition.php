@@ -3,23 +3,39 @@
   $page = "ticket";
   require("{$root}include/header.php");
   if (isset($_POST['submit'])) {
+
+    //handle empty strings:
+    /*
+    i think there's a way around this by just redirecting page
+    if not, then if statement through array
+    */
+    // $course  = ""; $grade   = ""; $course2 = ""; $grade2  = ""; $course3 = ""; $grade3  = ""; $course4 = ""; $grade4  = ""; $course5 = ""; $grade5  = ""; $course6 = ""; $grade6  = ""; $course7 = ""; $grade7  = "";
+
+    $submitted   = $_POST['submitted'];
+
+    // recipient
     $email       = $_POST['email'];
     $stipulation = $_POST['stipulation'];
 
     $course      = $_POST['course'];
-    $course2     = $_POST['course1'];
-    $course3     = $_POST['course2'];
-    $course4     = $_POST['course3'];
-    $course5     = $_POST['course4'];
-    $course6     = $_POST['course5'];
-    $course7     = $_POST['course6'];
-
     $grade       = $_POST['grade'];
+
+    $course2     = $_POST['course2'];
     $grade2      = $_POST['grade2'];
+
+    $course3     = $_POST['course3'];
     $grade3      = $_POST['grade3'];
+
+    $course4     = $_POST['course4'];
     $grade4      = $_POST['grade4'];
+
+    $course5     = $_POST['course5'];
     $grade5      = $_POST['grade5'];
+
+    $course6     = $_POST['course6'];
     $grade6      = $_POST['grade6'];
+
+    $course7     = $_POST['course7'];
     $grade7      = $_POST['grade7'];
 
     $gpaMajor    = $_POST['gpaMajor'];
@@ -27,7 +43,57 @@
 
     require("{$root}include/db.php");
 
-    $query       = "INSERT INTO transition (email, stipulation, course, course2, course3, course4, course5, course6, course7, grade, grade2, grade3, grade4, grade5, grade6, grade7, gpaMajor, gpaUF) VALUES ('{$email}', '{$stipulation}', '{$course}', '{$course2}', '{$course3}', '{$course4}', '{$course5}', '{$course6}', '{$course7}', '{$grade}', '{$grade2}', '{$grade3}', '{$grade4}', '{$grade5}', '{$grade6}', '{$grade7}', '{$gpaMajor}', '{$gpaUF}')";
+    $query       = "INSERT INTO transition (
+
+      submitted,
+
+      email,
+      stipulation,
+
+      course,
+      grade,
+
+      course2,
+      grade2,
+
+      course3,
+      grade3,
+
+      course4,
+      grade4,
+
+      course5,
+      grade5,
+
+      course6,
+      grade6,
+
+      course7,
+      grade7,
+
+      gpaMajor,
+      gpaUF
+    ) VALUES (
+        '{$submitted}',
+        '{$email}',
+        '{$stipulation}',
+        '{$course}',
+        '{$grade}',
+        '{$course2}',
+        '{$grade2}',
+        '{$course3}',
+        '{$grade3}',
+        '{$course4}',
+        '{$grade4}',
+        '{$course5}',
+        '{$grade5}',
+        '{$course6}',
+        '{$grade6}',
+        '{$course7}',
+        '{$grade7}',
+        '{$gpaMajor}',
+        '{$gpaUF}'
+      )";
 
     $spitResults = mysqli_query($connection, $query);
     if (!$spitResults) { die ("query failed"); }
@@ -40,8 +106,8 @@
 ?>
 
   <h2>Transition Ticket</h2>
-  <h3>Create a <b>transition</b> ticket for the student:</h3>
 
+  <h3>Create a <b>transition</b> ticket for the student:</h3>
 
   <form class="" action="transition.php" method="post">
 
@@ -74,8 +140,8 @@
       </select>
 
       <?php
-        $course = 1;
-        $grade  = 1;
+        $course = 2;
+        $grade  = 2;
       ?>
 
       <div class="hideTheKids">
@@ -158,37 +224,38 @@
     </div><!-- input shell -->
 
 
-  <div class="inputShell">
-    <h3 class="black">GPA Requirements</h3>
+    <div class="inputShell">
+      <h3 class="black">GPA Requirements</h3>
 
-    <p>Select needed GPAs:</p>
+      <p>Select needed GPAs:</p>
 
-    <select class="" name="gpaMajor">
-      <option value="input" selected disabled>Major GPA</option>
-      <option value="2.5">2.5</option>
-      <option value="2.8">2.8</option>
-      <option value="3.0">3.0</option>
-      <option value="3.3">3.3</option>
-      <option value="3.5">3.5</option>
-    </select>
+      <select class="" name="gpaMajor">
+        <option value="input" selected disabled>Major GPA</option>
+        <option value="2.5">2.5</option>
+        <option value="2.8">2.8</option>
+        <option value="3.0">3.0</option>
+        <option value="3.3">3.3</option>
+        <option value="3.5">3.5</option>
+      </select>
 
-    <label for="">Major GPA</label>
+      <label for="">Major GPA</label>
 
-    <select class="" name="gpaUF">
-      <option value="input" selected disabled>UF GPA</option>
-      <option value="2.5">2.5</option>
-      <option value="2.8">2.8</option>
-      <option value="3.0">3.0</option>
-      <option value="3.3">3.3</option>
-      <option value="3.5">3.5</option>
-    </select>
-    <label for="">UF GPA</label>
+      <select class="" name="gpaUF">
+        <option value="input" selected disabled>UF GPA</option>
+        <option value="2.5">2.5</option>
+        <option value="2.8">2.8</option>
+        <option value="3.0">3.0</option>
+        <option value="3.3">3.3</option>
+        <option value="3.5">3.5</option>
+      </select>
+      <label for="">UF GPA</label>
 
     </div><!-- input shell -->
 
 
-
+    <input hidden type="text" name="submitted" value="0">
     <input class="submitButton" type="submit" name="submit" value="submit">
   </form>
+
 
 <?php require("{$root}include/footer.php") ;?>
