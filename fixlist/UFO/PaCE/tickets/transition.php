@@ -79,11 +79,13 @@
 
       <select class="course" name="grade">
         <option value="input" selected disabled>grade needed</option>
-        <option value="2.5">2.5</option>
-        <option value="2.8">2.8</option>
-        <option value="3.0">3.0</option>
-        <option value="3.3">3.3</option>
-        <option value="3.5">3.5</option>
+        <option value="A">A</option>
+        <option value="Aminus">A-</option>
+        <option value="Bplus">B+</option>
+        <option value="B">B</option>
+        <option value="Bminus">B-</option>
+        <option value="Cplus">C+</option>
+        <option value="C">C</option>
       </select>
 
       <?php
@@ -96,66 +98,78 @@
           <input type="text" name="course<?php echo $course++; ?>" value="" placeholder="add course">
           <select class="course" name="grade<?php echo $grade++; ?>">
             <option value="input" selected disabled>grade needed</option>
-            <option value="2.5">2.5</option>
-            <option value="2.8">2.8</option>
-            <option value="3.0">3.0</option>
-            <option value="3.3">3.3</option>
-            <option value="3.5">3.5</option>
+            <option value="A">A</option>
+            <option value="Aminus">A-</option>
+            <option value="Bplus">B+</option>
+            <option value="B">B</option>
+            <option value="Bminus">B-</option>
+            <option value="Cplus">C+</option>
+            <option value="C">C</option>
           </select>
         </div><!-- add course: No. 2 -->
         <div id="newOptionsTwo" class="newOptions">
           <input type="text" name="course<?php echo $course++; ?>" value="" placeholder="add course">
           <select class="course" name="grade<?php echo $grade++; ?>">
             <option value="input" selected disabled>grade needed</option>
-            <option value="2.5">2.5</option>
-            <option value="2.8">2.8</option>
-            <option value="3.0">3.0</option>
-            <option value="3.3">3.3</option>
-            <option value="3.5">3.5</option>
+            <option value="A">A</option>
+            <option value="Aminus">A-</option>
+            <option value="Bplus">B+</option>
+            <option value="B">B</option>
+            <option value="Bminus">B-</option>
+            <option value="Cplus">C+</option>
+            <option value="C">C</option>
           </select>
         </div><!-- add course: No. 3 -->
         <div id="newOptionsThree" class="newOptions">
           <input type="text" name="course<?php echo $course++; ?>" value="" placeholder="add course">
           <select class="course" name="grade<?php echo $grade++; ?>">
             <option value="input" selected disabled>grade needed</option>
-            <option value="2.5">2.5</option>
-            <option value="2.8">2.8</option>
-            <option value="3.0">3.0</option>
-            <option value="3.3">3.3</option>
-            <option value="3.5">3.5</option>
+            <option value="A">A</option>
+            <option value="Aminus">A-</option>
+            <option value="Bplus">B+</option>
+            <option value="B">B</option>
+            <option value="Bminus">B-</option>
+            <option value="Cplus">C+</option>
+            <option value="C">C</option>
           </select>
         </div><!-- add course: No. 4 -->
         <div id="newOptionsFour" class="newOptions">
           <input type="text" name="course<?php echo $course++; ?>" value="" placeholder="add course">
           <select class="course" name="grade<?php echo $grade++; ?>">
             <option value="input" selected disabled>grade needed</option>
-            <option value="2.5">2.5</option>
-            <option value="2.8">2.8</option>
-            <option value="3.0">3.0</option>
-            <option value="3.3">3.3</option>
-            <option value="3.5">3.5</option>
+            <option value="A">A</option>
+            <option value="Aminus">A-</option>
+            <option value="Bplus">B+</option>
+            <option value="B">B</option>
+            <option value="Bminus">B-</option>
+            <option value="Cplus">C+</option>
+            <option value="C">C</option>
           </select>
         </div><!-- add course: No. 5 -->
         <div id="newOptionsFive" class="newOptions">
           <input type="text" name="course<?php echo $course++; ?>" value="" placeholder="add course">
           <select class="course" name="grade<?php echo $grade++; ?>">
             <option value="input" selected disabled>grade needed</option>
-            <option value="2.5">2.5</option>
-            <option value="2.8">2.8</option>
-            <option value="3.0">3.0</option>
-            <option value="3.3">3.3</option>
-            <option value="3.5">3.5</option>
+            <option value="A">A</option>
+            <option value="Aminus">A-</option>
+            <option value="Bplus">B+</option>
+            <option value="B">B</option>
+            <option value="Bminus">B-</option>
+            <option value="Cplus">C+</option>
+            <option value="C">C</option>
           </select>
         </div><!-- add course: No. 6 -->
         <div id="newOptionsSix" class="courseRequirements newOptions">
           <input type="text" name="course<?php echo $course++; ?>" value="" placeholder="add course">
           <select class="course" name="grade<?php echo $grade++; ?>">
             <option value="input" selected disabled>grade needed</option>
-            <option value="2.5">2.5</option>
-            <option value="2.8">2.8</option>
-            <option value="3.0">3.0</option>
-            <option value="3.3">3.3</option>
-            <option value="3.5">3.5</option>
+            <option value="A">A</option>
+            <option value="Aminus">A-</option>
+            <option value="Bplus">B+</option>
+            <option value="B">B</option>
+            <option value="Bminus">B-</option>
+            <option value="Cplus">C+</option>
+            <option value="C">C</option>
           </select>
         </div><!-- add course: No. 7 -->
       </div><!-- hide the kids -->
@@ -178,22 +192,20 @@
 
       <select class="" name="gpaMajor">
         <option value="input" selected disabled>Major GPA</option>
+        <option value="2.0">2.0</option>
         <option value="2.5">2.5</option>
-        <option value="2.8">2.8</option>
+        <option value="2.75">2.75</option>
         <option value="3.0">3.0</option>
-        <option value="3.3">3.3</option>
-        <option value="3.5">3.5</option>
       </select>
 
       <label for="">Major GPA</label>
 
       <select class="" name="gpaUF">
         <option value="input" selected disabled>UF GPA</option>
+        <option value="2.0">2.0</option>
         <option value="2.5">2.5</option>
-        <option value="2.8">2.8</option>
+        <option value="2.75">2.75</option>
         <option value="3.0">3.0</option>
-        <option value="3.3">3.3</option>
-        <option value="3.5">3.5</option>
       </select>
       <label for="">UF GPA</label>
 

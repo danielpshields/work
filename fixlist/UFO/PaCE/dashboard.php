@@ -34,9 +34,11 @@
       <div class="ticketShell">
         <h4>Exploratory Students</h4>
 
-        <form class="" action="dashboard.php" method="post">        
-            <input type="text" name="name" value="" placeholder="student's name">
-            <label for="name">Add student's name</label>
+        <form class="" action="dashboard.php" method="post">
+            <input type="text" name="firstName" value="" placeholder="student's first name">
+            <label for="name">Add student's first name</label>
+            <input type="text" name="lastName" value="" placeholder="student's last name">
+            <label for="name">Add student's last name</label>
             <input type="email" name="email" value="" placeholder="student's email address">
             <label for="email">Add student's gatorlink email</label>
             <input type="hidden" name="formType" value="exploratory">
