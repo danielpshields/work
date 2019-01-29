@@ -16,7 +16,7 @@
       <p>Indicates that you intend to transition to a residential UF program.</p>
 
       <form action="campus.php" method="post">
-        <input class="submitButton" type="submit" name="submit" value="Transition to Campus">
+        <input class="submitButton" type="submit" name="campusTransition" value="Transition to Campus">
       </form>
 
       <dl>
@@ -39,7 +39,7 @@
       <p>Indicates that you intend to transition into a fully online <a href="https://ufonline.ufl.edu/degrees/undergraduate/" target="_blank">UF Online degree program</a>.</p>
 
       <form action="online.php" method="post">
-        <input class="submitButton" type="submit" name="submit" value="UF Online Transition">
+        <input class="submitButton" type="submit" name="onlineTransition" value="UF Online Transition">
       </form>
 
       <dl>

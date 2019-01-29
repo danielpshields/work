@@ -42,29 +42,29 @@
           <th>grade7</th>
           <th>gpaMajor</th>
           <th>gpaUF</th>
-          <th>paceMajor</th>
-          <th>semester</th>
-          <th>phone</th>
         </tr>
       </thead>
       <?php
       while($row = mysqli_fetch_assoc($spitResults)) { ?>
         <tr>
-          <?php
-            $submitted = $row['submitted'];
-            if ($submitted == 1) {
-              echo "<td class=\"green\">";
-              echo "&#10004;";
-              echo "</td>";
-            } else {
-              echo "<td class=\"red\">";
-              echo "&ndash;";
-              echo "</td>";
-            }
-          ?>
-<!-- set the variables here and call them in broken displays through DIVs -->
-<!-- set the variables here and call them in broken displays through DIVs -->
-<!-- set the variables here and call them in broken displays through DIVs -->
+
+
+            <?php
+
+              $submitted = $row['submitted'];
+              if ($submitted == 1) {
+                echo "<td class=\"green\">";
+                echo "&#10004;";
+                echo "</td>";
+              } else {
+                echo "<td class=\"red\">";
+                echo "&ndash;";
+                echo "</td>";
+              }
+
+
+            ?>
+
           <td><?php echo $row['email']; ?></td>
           <td><?php echo $row['stipulation']; ?></td>
           <td><?php echo $row['course']; ?></td>
@@ -83,10 +83,8 @@
           <td><?php echo $row['grade7']; ?></td>
           <td><?php echo $row['gpaMajor']; ?></td>
           <td><?php echo $row['gpaUF']; ?></td>
-          <td><?php echo $row['paceMajor']; ?></td>
-          <td><?php echo $row['semester']; ?></td>
-          <td><?php echo $row['phone']; ?></td>
         </tr>
+        <?php $foo = $row['stipulation']; ?>
       <?php } ?>
     </table>
 

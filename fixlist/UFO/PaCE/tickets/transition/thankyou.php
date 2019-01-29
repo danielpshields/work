@@ -3,7 +3,6 @@
   $root = "../../";
   require("{$root}include/header.php");
   require("{$root}include/db.php");
-  $email     = "apple@alex.com";
   $query     = "UPDATE transition SET submitted = 1 WHERE email = ";
   $query    .= "'" . $email . "'";
   $spitResults = mysqli_query($connection, $query);

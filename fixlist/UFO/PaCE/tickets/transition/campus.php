@@ -3,7 +3,6 @@
   $page = "campus";
   require("{$root}include/header.php");
   require("{$root}include/db.php");
-  $email = "info@alexcatalano.com";
   $query       = "SELECT * FROM transition WHERE email = ";
   $query      .=  "'" . $email . "'";
   $spitResults = mysqli_query($connection, $query);
@@ -13,20 +12,31 @@
   // $read  = "UPDATE transition SET read = 1 WHERE email = ";
   // $read .= $email;
 
+  if (isset($_POST['submit'])) {
+    $paceMajor    = $_POST['paceMajor'];
+
+    $querytwo     = "UPDATE transition SET paceMajor = ";
+    $querytwo    .= $paceMajor;
+    $querytwo    .= " WHERE email = ";
+    $querytwo    .= "'" . $email . "'";
+    $spitResults  = mysqli_query($connection, $querytwo);
+    header("Location: thankyou.php");
+    exit;
+  }
 
 ?>
 
   <h2>Transition Form:<br><b>Campus</b></h2>
   <p>Please fill out the fields below to proceed with your transition to campus.</p>
 
-  <form action="thankyou.php" method="post">
+  <form action="campus.php" method="post">
 
       <div class="inputShell">
         <h3 class="orange">Current Information</h3>
 
         <p>Please indicate your current  PaCE major:</p>
 
-        <select class="" name="">
+        <select required class="" name="paceMajor">
           <option disabled selected value>Select a major</option>
           <option value="africanAmericanStudies">African American Studies</option>
           <option value="anthropology">Anthropology</option>
@@ -53,7 +63,7 @@
       <div class="inputShell">
         <h3 class="blue">When</h3>
         <p>I give permission for my advisor to transition me to campus enrollment in the PaCE major I listed above for the following term:</p>
-       <select class="" name="">
+       <select required class="" name="semester">
          <option disabled selected value>select a semester</option>
          <option value="spring">Spring</option>
          <option value="summer">Summer A/C</option>
@@ -155,7 +165,7 @@
 
       <p>If your advisor needs to reach out to you regarding this form, please provide a preferred phone number.</p>
       <p><i>Your advisor will reach out to your UF email address as well if there are any updates regarding your transition to campus.</i></p>
-      <input type="text" name="phoneNumber" value="" placeholder="( *** ) *** - ****">
+      <input required type="text" name="phone" value="" placeholder="( *** ) *** - ****">
 
       <label for="phoneNumber">Phone Number</label>
 

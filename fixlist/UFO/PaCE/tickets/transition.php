@@ -2,105 +2,52 @@
   $root = "../";
   $page = "ticket";
   require("{$root}include/header.php");
-  if (isset($_POST['submit'])) {
+  require("{$root}include/db.php");
 
+  if (isset($_POST['submit'])) {
+    ob_start();
     //handle empty strings:
     /*
     i think there's a way around this by just redirecting page
     if not, then if statement through array
     */
     // $course  = ""; $grade   = ""; $course2 = ""; $grade2  = ""; $course3 = ""; $grade3  = ""; $course4 = ""; $grade4  = ""; $course5 = ""; $grade5  = ""; $course6 = ""; $grade6  = ""; $course7 = ""; $grade7  = "";
-
     $submitted   = $_POST['submitted'];
-
     // recipient
     $email       = $_POST['email'];
     $stipulation = $_POST['stipulation'];
-
     $course      = $_POST['course'];
     $grade       = $_POST['grade'];
-
     $course2     = $_POST['course2'];
     $grade2      = $_POST['grade2'];
-
     $course3     = $_POST['course3'];
     $grade3      = $_POST['grade3'];
-
     $course4     = $_POST['course4'];
     $grade4      = $_POST['grade4'];
-
     $course5     = $_POST['course5'];
     $grade5      = $_POST['grade5'];
-
     $course6     = $_POST['course6'];
     $grade6      = $_POST['grade6'];
-
     $course7     = $_POST['course7'];
     $grade7      = $_POST['grade7'];
-
     $gpaMajor    = $_POST['gpaMajor'];
     $gpaUF       = $_POST['gpaUF'];
+    $paceMajor   = $_POST['paceMajor'];
+    $semester    = $_POST['semester'];
+    $phone       = $_POST['phone'];
 
-    require("{$root}include/db.php");
 
-    $query       = "INSERT INTO transition (
-
-      submitted,
-
-      email,
-      stipulation,
-
-      course,
-      grade,
-
-      course2,
-      grade2,
-
-      course3,
-      grade3,
-
-      course4,
-      grade4,
-
-      course5,
-      grade5,
-
-      course6,
-      grade6,
-
-      course7,
-      grade7,
-
-      gpaMajor,
-      gpaUF
-    ) VALUES (
-        '{$submitted}',
-        '{$email}',
-        '{$stipulation}',
-        '{$course}',
-        '{$grade}',
-        '{$course2}',
-        '{$grade2}',
-        '{$course3}',
-        '{$grade3}',
-        '{$course4}',
-        '{$grade4}',
-        '{$course5}',
-        '{$grade5}',
-        '{$course6}',
-        '{$grade6}',
-        '{$course7}',
-        '{$grade7}',
-        '{$gpaMajor}',
-        '{$gpaUF}'
-      )";
-
+    $query       = "INSERT INTO transition (submitted,email,stipulation,course,grade,course2,grade2,course3,grade3,course4,grade4,course5,grade5,course6,grade6,course7,grade7,gpaMajor,gpaUF,paceMajor,semester,phone) VALUES ('{$submitted}','{$email}','{$stipulation}','{$course}','{$grade}','{$course2}','{$grade2}','{$course3}','{$grade3}','{$course4}','{$grade4}','{$course5}','{$grade5}','{$course6}','{$grade6}','{$course7}','{$grade7}','{$gpaMajor}','{$gpaUF}', '{$paceMajor}', '{$semster}', '{$phone}')";
     $spitResults = mysqli_query($connection, $query);
-    if (!$spitResults) { die ("query failed"); }
+    if (!$spitResults) { die ("query failed"); } else {
+    }
 
     // $email
     // include("test/email.php");
     // emailstudent($theresALinkWaiting);
+
+    header("Location: ../records/transition.php");
+    exit;
 }
 
 ?>
@@ -258,4 +205,11 @@
   </form>
 
 
-<?php require("{$root}include/footer.php") ;?>
+<?php
+  require("{$root}include/footer.php");
+
+  if (isset($_POST['submit'])) {
+    mysqli_close($connection);
+  }
+
+?>
