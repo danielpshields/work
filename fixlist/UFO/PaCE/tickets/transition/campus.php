@@ -10,13 +10,32 @@
 
 
   if (isset($_POST['submit'])) {
-    header("Location: thankyou.php");
+
+    $paceMajor = $_POST['paceMajor'];
+    $semester  = $_POST['semester'];
+    $phone     = $_POST['phone'];
+
+    $newQuery     = "UPDATE transition SET ";
+
+    $newQuery    .= "semester = ";
+    $newQuery    .= "'" . $semester . "',";
+
+    $newQuery    .= "paceMajor = ";
+    $newQuery    .= "'" . $paceMajor . "',";
+
+    $newQuery    .= "phone = ";
+    $newQuery    .= "'" . $phone . "'";
+
+    $newQuery    .= " WHERE email = ";
+    $newQuery    .= "'" . $email . "'";
+    $spitNewQuery = mysqli_query($connection, $newQuery);
+
+    header("Location: ../../records/transition.php");
     exit;
   }
 
 ?>
 
-  <p><?php echo $email; ?></p>
   <h2>Transition Form:<br><b>Campus</b></h2>
   <p>Please fill out the fields below to proceed with your transition to campus.</p>
 
