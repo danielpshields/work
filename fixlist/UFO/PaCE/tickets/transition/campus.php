@@ -17,6 +17,9 @@
 
     $newQuery     = "UPDATE transition SET ";
 
+    $newQuery    .= "studentID = ";
+    $newQuery    .= "'" . $UFID . "',";
+
     $newQuery    .= "semester = ";
     $newQuery    .= "'" . $semester . "',";
 
@@ -30,7 +33,7 @@
     $newQuery    .= "'" . $email . "'";
     $spitNewQuery = mysqli_query($connection, $newQuery);
 
-    header("Location: ../../records/transition.php");
+    header("Location: thankyou.php");
     exit;
   }
 
