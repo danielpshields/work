@@ -8,24 +8,15 @@
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
 
-  // if you want to see if they opened the document
-  // $read  = "UPDATE transition SET read = 1 WHERE email = ";
-  // $read .= $email;
 
   if (isset($_POST['submit'])) {
-    $paceMajor    = $_POST['paceMajor'];
-
-    $querytwo     = "UPDATE transition SET paceMajor = ";
-    $querytwo    .= $paceMajor;
-    $querytwo    .= " WHERE email = ";
-    $querytwo    .= "'" . $email . "'";
-    $spitResults  = mysqli_query($connection, $querytwo);
     header("Location: thankyou.php");
     exit;
   }
 
 ?>
 
+  <p><?php echo $email; ?></p>
   <h2>Transition Form:<br><b>Campus</b></h2>
   <p>Please fill out the fields below to proceed with your transition to campus.</p>
 
@@ -54,10 +45,7 @@
           <option value="statistics">Statistics</option>
           <option value="sustainabilityStudies">Sustainability Studies</option>
           <option value="womensStudies">Women's Studies</option>
-
         </select>
-
-
       </div><!-- input shell -->
 
       <div class="inputShell">

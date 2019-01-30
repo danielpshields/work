@@ -3,8 +3,10 @@
   $root = "../../";
   require("{$root}include/header.php");
   require("{$root}include/db.php");
-  $query     = "UPDATE transition SET submitted = 1 WHERE email = ";
-  $query    .= "'" . $email . "'";
+  $query  = "UPDATE transition SET studentID = ";
+  $query .= "'" . $UFID . "'";
+  $query .= " WHERE email = ";
+  $query .= "'" . $email . "'";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die("error connecting"); }
 ?>

@@ -23,7 +23,7 @@
     <table>
       <thead>
         <tr>
-          <th>Submitted</th>
+          <th>student ID</th>
           <th>email</th>
           <th>stipulation</th>
           <th>course</th>
@@ -34,12 +34,6 @@
           <th>grade3</th>
           <th>course4</th>
           <th>grade4</th>
-          <th>course5</th>
-          <th>grade5</th>
-          <th>course6</th>
-          <th>grade6</th>
-          <th>course7</th>
-          <th>grade7</th>
           <th>gpaMajor</th>
           <th>gpaUF</th>
           <th>paceMajor</th>
@@ -51,10 +45,10 @@
       while($row = mysqli_fetch_assoc($spitResults)) { ?>
         <tr>
           <?php
-            $submitted = $row['submitted'];
-            if ($submitted == 1) {
+            $studentID = $row['studentID'];
+            if ($studentID) {
               echo "<td class=\"green\">";
-              echo "&#10004;";
+              echo $studentID;
               echo "</td>";
             } else {
               echo "<td class=\"red\">";
@@ -62,9 +56,6 @@
               echo "</td>";
             }
           ?>
-<!-- set the variables here and call them in broken displays through DIVs -->
-<!-- set the variables here and call them in broken displays through DIVs -->
-<!-- set the variables here and call them in broken displays through DIVs -->
           <td><?php echo $row['email']; ?></td>
           <td><?php echo $row['stipulation']; ?></td>
           <td><?php echo $row['course']; ?></td>
@@ -75,12 +66,6 @@
           <td><?php echo $row['grade3']; ?></td>
           <td><?php echo $row['course4']; ?></td>
           <td><?php echo $row['grade4']; ?></td>
-          <td><?php echo $row['course5']; ?></td>
-          <td><?php echo $row['grade5']; ?></td>
-          <td><?php echo $row['course6']; ?></td>
-          <td><?php echo $row['grade6']; ?></td>
-          <td><?php echo $row['course7']; ?></td>
-          <td><?php echo $row['grade7']; ?></td>
           <td><?php echo $row['gpaMajor']; ?></td>
           <td><?php echo $row['gpaUF']; ?></td>
           <td><?php echo $row['paceMajor']; ?></td>

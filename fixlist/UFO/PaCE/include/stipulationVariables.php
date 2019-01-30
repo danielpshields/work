@@ -14,30 +14,15 @@
    $course4  = $row['course4'];
    $grade4   = $row['grade4'];
 
-   $course5  = $row['course5'];
-   $grade5   = $row['grade5'];
-
-   $course6  = $row['course6'];
-   $grade6   = $row['grade6'];
-
-   $course7  = $row['course7'];
-   $grade7   = $row['grade7'];
-
    $gpaMajor = $row['gpaMajor'];
    $gpaUF    = $row['gpaUF'];
 
-   // $stipulation, $course , $grade  , $course2, $grade2 , $course3, $grade3 , $course4 , $grade4, $course5 , $grade5 , $course6, $grade6, $course7, $grade7, $gpaMajor, $gpaUF
-
-   // $stipulation, $gpaMajor, $gpaUF
 
    $categories = array(
       $course , $grade,
       $course2, $grade2,
       $course3, $grade3,
-      $course4, $grade4,
-      $course5, $grade5,
-      $course6, $grade6,
-      $course7, $grade7
+      $course4, $grade4
     );
 
 
