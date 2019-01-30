@@ -10,12 +10,12 @@
     <p id="localHost">local host</p>
     <?php
     $date_auto    = "2018-12-20 09:27:49";
-    $UFID         = "4830145";
+    $UFID         = "40811353";
     // $email        = "marthagator@ufl.edu";
     $firstName    = "Martha";
     $nameGiven    = "Martha Gator";
     $nameBusiness = "Gator,Martha Allie";
 
-    $to    = "alex@apple.com";
+    $to    = "stephen@sales.com";
     $email = $to;
   } ?>

@@ -122,7 +122,7 @@
             <option value="C">C</option>
           </select>
         </div><!-- add course: No. 4 -->
-  
+
       </div><!-- hide the kids -->
 
       <p id="addCourse" class="addCourse"><i>(+) add course</i></p>
@@ -145,6 +145,8 @@
         <option value="2.75">2.75</option>
         <option value="3.0">3.0</option>
       </select>
+
+      
 
       <label for="">Major GPA</label>
 
