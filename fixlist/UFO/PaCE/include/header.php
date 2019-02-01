@@ -17,7 +17,7 @@
   <body>
     <header>
       <div class="container">
-        <h1>Welcome, <a href="<?php echo $root; ?>dashboard.php"><?php echo ucfirst($user); ?></a></h1>
+        <h1>Welcome, <a href="<?php echo $root; ?>dashboard.php"><?php echo $user; ?></a></h1>
         <a href="<?php echo $root; ?>index.php">
           <img src="<?php echo $root; ?>image/uf_logo.svg" alt="">
         </a>

@@ -1,7 +1,7 @@
 <?php
   $root = "";
   $page = "login";
-  require("include/header.php");
+  require("{$root}include/header.php");
 
   /*
 
