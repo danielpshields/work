@@ -16,6 +16,6 @@
     $nameGiven    = "Martha Gator";
     $nameBusiness = "Gator,Martha Allie";
 
-    $to    = "stephen@sales.com";
+    $to    = "outlaw@jail.com";
     $email = $to;
   } ?>
