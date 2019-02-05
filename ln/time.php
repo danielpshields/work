@@ -1,3 +1,10 @@
+<?php
+  $early = 30;
+  $lunch = 60;
+  $break = 15;
+  $noBreak = $early + $lunch + ($break * 2);
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -7,12 +14,11 @@
   </head>
   <body>
 
-    <?php
-      $early = 30;
-      $lunch = 60;
-      $break = 15;
-      $noBreak = $early + $lunch + ($break * 2); ?>
-    ?>
+
+    <input type="button" name="clockin" value="clock in">
+    <input type="button" name="lunchout" value="lunch out">
+    <input type="button" name="lunchin" value="lunch in">
+    <input type="button" name="clockout" value="clock out">
 
 
     <table>
