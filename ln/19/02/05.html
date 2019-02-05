@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LN &#124; 190205_tuesday</title>
+    <link rel="icon" type="image/png" href="../../image/picon.png">
+    <link rel="stylesheet" href="../../../css/ln.css">
+  </head>
+  <body>
+    <div class="container">
+      <ul>
+        <li><a href="../../../index.php">index</a></li>
+      </ul>
+
+      <h1>190205_tuesday</h1>
+
+      <div class="clear">
+        <h3>pre</h3>
+        <ul>
+          <li>bleh, tired</li>
+        </ul>
+      </div>
+
+      <h3>morning</h3>
+      <ul>
+        <li>7:36 a.m.</li>
+        <li>[ln] open Tuesday (190205, 7:52 a.m.)</li>
+        <li>[study] javascript, played with the object Math.functions();</li>
+        <li>[budget] cleared bank | paid off credit card, $614.66, transferred $499.94 to savings</li>
+        <li>[ln, "time"] reconfigured math</li>
+        <li>[ledger] [home, ah(fixlist);] there probably needs to be a better name for that</li>
+        <li>[UFO, PaCE]</li>
+        <ul>
+          <li>figuring out where I'm at (10:20 a.m.)</li>
+          <li>changed "/test/" => "/email/"</li>
+          <ul>
+            <li>email.php had to change where it was pulling the stylesheet from because it's pulling from file_get_contents() on an absolute path from the root document</li>
+          </ul>
+          <li>[campus.php] styling the stipulation form, then need to limit its empty values (10:33 a.m.)</li>
+          <li>making a copy: campus_copy to remove the DB connects and hard code the styles, added (campus_hardCoded, campus_db)</li>
+          <li>campus_db is listening to "/include/stipulationVariables.php"</li>
+          <li>test email to UF server: sent (10:24 a.m.) recieved (10:42 a.m.)</li>
+          <li>looped through associative array pulling from DB to form table for stipulation results</li>
+          <li>created new campus_hardCoded to work on styling, then going back to limit results to !empty</li>
+        </ul>
+        <li>[index, video] added "lights.mp4"</li>
+        <li>[UFO, PaCE]</li>
+        <ul>
+          <li>still styling stipulations</li>
+          <li>finished styling v1 (12:44 p.m.)</li>
+          <li>limit printing to (!empty)</li>
+          <li>the form submission started failing. the apostrophe seemed to be the biggest issue, I changed the coalation, then tried htmlspecialchars and htmlentities, but those had no effect. mysqli_real_escape_string seemed to work. I'm a little cautious though because I don't feel like an apostrophe has always been present with the submission has failed.</li>
+          <li>but a small apostrophe did fail. Fixed at (1:59 p.m.)</li>
+        </ul>
+        <li>got a request from Bobbi to change the form submission formatting</li>
+        <li>[UFO, PaCE]</li>
+        <ul>
+          <li>[campus.php] submitting as empty, there are written notes for this to go back to the records page after the campus page to remove printing empty sets</li>
+        </ul>
+        <li>[meeting, Dan] garage cleaning -- cleaner function ();</li>
+        <li>[ln] close Tuesday (190205, 5:06 p.m.)</li>
+      </ul>
+
+      <h3>lunch</h3>
+      <ul>
+        <li></li>
+      </ul>
+
+      <h3>afternoon</h3>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+      <h3>after</h3>
+      <ul>
+        <li></li>
+      </ul>
+
+      <h3>late</h3>
+      <ul>
+        <li></li>
+      </ul>
+
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="04.html">last</a></li>
+            <p>&#124;</p>
+            <li><a href="../../../index.php">next</a></li>
+            <div class="clear"></div>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>

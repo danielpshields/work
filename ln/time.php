@@ -21,6 +21,7 @@
     <input type="button" name="clockout" value="clock out">
 
 
+
     <table>
       <tr>
         <th>date</th>
@@ -40,7 +41,7 @@
         <!-- this is such wrong math lol -->
         <!-- <td><?php //echo ($day - $lunch) - $break * 2; ?></td> -->
         <td><?php echo $noBreak; ?> minutes</td>
-        <td><?php echo 5 * $noBreak; ?> minutes</td>
+        <td>5 hours</td>
       </tr>
       <tr>
         <td>Monday Feb. 4	</td><!-- probably need to put this into a database -- could be local -->
@@ -48,21 +49,34 @@
         <td></td>
         <td></td>
         <td>5 p.m.</td>
-        <!-- this is such wrong math lol -->
-        <!-- <td><?php //echo ($day - $lunch) - $break * 2; ?></td> -->
         <td><?php echo $noBreak; ?> minutes</td>
-        <td>5 </td>
+        <td><?php echo $flex = ((5 * 60) + 30 + 60) / 60; ?></td>
       </tr>
+
+
+      <tr>
+        <td>Tuesday Feb. 5</td>
+        <td>7:36 a.m.</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <!-- this is such wrong math lol -->
+        <td></td>
+        <td><?php echo $flex; ?></td>
+      </tr>
+
+
+
+      <!-- loop through this ... i think it'll have to be two pages, one to enter, two to display, it's almost exactly what's happening with [lnote]
       <tr>
         <td><?php echo date('l M. j'); ?></td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
-        <!-- this is such wrong math lol -->
         <td></td>
         <td>5</td>
-      </tr>
+      </tr> -->
 
     </table>
 
