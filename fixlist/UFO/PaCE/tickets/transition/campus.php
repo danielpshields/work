@@ -2,20 +2,54 @@
   $root = "../../";
   $page = "campus";
   require("{$root}include/header.php");
+  require("{$root}include/db.php");
+  $query       = "SELECT * FROM transition WHERE email = ";
+  $query      .=  "'" . $email . "'";
+  $spitResults = mysqli_query($connection, $query);
+  if (!$spitResults) { die ("query failed"); }
+
+
+  if (isset($_POST['submit'])) {
+
+    $paceMajor = $_POST['paceMajor'];
+    $semester  = $_POST['semester'];
+    $phone     = $_POST['phone'];
+
+    $newQuery     = "UPDATE transition SET ";
+
+    $newQuery    .= "studentID = ";
+    $newQuery    .= "'" . $UFID . "',";
+
+    $newQuery    .= "semester = ";
+    $newQuery    .= "'" . $semester . "',";
+
+    $newQuery    .= "paceMajor = ";
+    $newQuery    .= "'" . $paceMajor . "',";
+
+    $newQuery    .= "phone = ";
+    $newQuery    .= "'" . $phone . "'";
+
+    $newQuery    .= " WHERE email = ";
+    $newQuery    .= "'" . $email . "'";
+    $spitNewQuery = mysqli_query($connection, $newQuery);
+
+    header("Location: thankyou.php");
+    exit;
+  }
 
 ?>
 
   <h2>Transition Form:<br><b>Campus</b></h2>
   <p>Please fill out the fields below to proceed with your transition to campus.</p>
 
-  <form action="../messages/thankyou.php" method="post">
+  <form action="campus.php" method="post">
 
       <div class="inputShell">
         <h3 class="orange">Current Information</h3>
 
         <p>Please indicate your current  PaCE major:</p>
 
-        <select class="" name="">
+        <select required class="" name="paceMajor">
           <option disabled selected value>Select a major</option>
           <option value="africanAmericanStudies">African American Studies</option>
           <option value="anthropology">Anthropology</option>
@@ -33,16 +67,13 @@
           <option value="statistics">Statistics</option>
           <option value="sustainabilityStudies">Sustainability Studies</option>
           <option value="womensStudies">Women's Studies</option>
-
         </select>
-
-
       </div><!-- input shell -->
 
       <div class="inputShell">
         <h3 class="blue">When</h3>
         <p>I give permission for my advisor to transition me to campus enrollment in the PaCE major I listed above for the following term:</p>
-       <select class="" name="">
+       <select required class="" name="semester">
          <option disabled selected value>select a semester</option>
          <option value="spring">Spring</option>
          <option value="summer">Summer A/C</option>
@@ -52,11 +83,43 @@
 
      <div id="stipulations" class="inputShell">
        <h3 class="orange">Stipulations</h3>
-       <ol>
-         <li><i>[<?php echo "INSERT * \$STIPULATION"; ?>]</i></li>
-         <li><i>[<?php echo "INSERT * \$STIPULATION"; ?>]</i></li>
-         <li><i>[<?php echo "INSERT * \$STIPULATION"; ?>]</i></li>
-       </ol>
+       <div class="stipulationDark">
+         <!-- pulls in the stipulation variables to keep this page shorter -->
+         <?php include("{$root}include/stipulationVariables.php"); ?>
+
+         <!-- main stipulation statement -->
+         <p><?php echo $stipulation; ?></p>
+
+         <?php
+
+           foreach ($categories as $key) {
+             if (!empty($key)) {
+               echo '<p>'.$key.'</p>';
+             }
+          }
+
+         ?>
+
+         <table>
+           <thead>
+             <tr>
+               <th colspan="2">Overall GPAs</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td>Major</td>
+               <td><?php echo $gpaMajor; ?></td>
+             </tr>
+             <tr>
+               <td>UF</td>
+               <td><?php echo $gpaUF; ?></td>
+             </tr>
+           </tbody>
+         </table>
+
+       </div><!-- stipulation dark -->
+
        <p>If I do not meet these stipulations, my transition to campus will be rescinded.</p>
        <input class="checkBox" type="checkbox" name="" value="">
      </div><!-- input shell -->
@@ -112,7 +175,7 @@
 
       <p>If your advisor needs to reach out to you regarding this form, please provide a preferred phone number.</p>
       <p><i>Your advisor will reach out to your UF email address as well if there are any updates regarding your transition to campus.</i></p>
-      <input type="text" name="phoneNumber" value="" placeholder="( *** ) *** - ****">
+      <input required type="text" name="phone" value="" placeholder="( *** ) *** - ****">
 
       <label for="phoneNumber">Phone Number</label>
 

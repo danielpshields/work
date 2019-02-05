@@ -2,17 +2,17 @@
   $root = "";
   $page = "dashboard";
   require("{$root}include/header.php");
-
   if (isset($_POST['exploratoryEmail'])) {
-    echo "<pre>";
-    print_r($_POST);
-    echo "</pre>";
-    $name = $_POST['name'];
+    $name  = $_POST['name'];
+    $email = $_POST['email'];
+
+    require("{$root}include/db.php");
+
+    $query = "INSERT INTO exploratory (name, email) VALUES ('{$name}', '{$email}')";
+    $spitResults = mysqli_query($connection, $query);
+    if (!$spitResults) { die ("query failed"); }
     include("test/email.php");
   }
-
-  /* DB: C (R) U D 1. Cookie: Logged in */
-
 ?>
   <h2>Advisor Dashboard</h2>
 
@@ -20,33 +20,43 @@
 
     <h3 class="blue">Tickets &amp; Records</h3>
 
+
+
       <div class="ticketShell">
         <h4>Transition</h4>
         <ul>
           <li><img src="image/edit.png"><a href="tickets/transition.php">ticket</a></li>
-          <li><img src="image/database.png"><a href="records/index.php">records</a></li>
+          <li><img src="image/database.png"><a href="records/transition.php">records</a></li>
         </ul>
-        <p class="removeTicket"><a href="dashboard.php">remove ticket</a></p>
+        <p class="removeTicket"><a href="dashboard.php"><s>remove ticket</s></a></p>
       </div><!-- ticket shell -->
 
       <div class="ticketShell">
         <h4>Exploratory Students</h4>
+
         <form class="" action="dashboard.php" method="post">
-          <input type="text" name="name" value="<?php echo $firstName; ?>" placeholder="student's name">
-          <label for="name">Add student's name</label>
-          <input type="email" name="email" value="<?php echo $email; ?>" placeholder="student's email address">
-          <label for="email">Add student's gatorlink email</label>
-          <input type="hidden" name="formType" value="exploratory">
-          <input tabindex="1" class="submitButton" type="submit" name="exploratoryEmail" value="send email">
-          <p><a href="">send multiple? (+)</a></p>
-        </form>
-        <!-- .checkTicket Class doesn't exist -->
-        <p class="checkTicket"><a href="">test email yourself</a></p>
-        <p class="removeTicket"><a href="dashboard.php">remove ticket</a></p>
+            <input type="text" name="firstName" value="" placeholder="student's first name">
+            <label for="name">Add student's first name</label>
+            <input type="text" name="lastName" value="" placeholder="student's last name">
+            <label for="name">Add student's last name</label>
+            <input type="email" name="email" value="" placeholder="student's email address">
+            <label for="email">Add student's gatorlink email</label>
+            <input type="hidden" name="formType" value="exploratory">
+            <input tabindex="1" class="submitButton" type="submit" name="exploratoryEmail" value="send email">
+          </form>
+
+
         <ul>
-          <li><img src="image/database.png"><a href="records/index.php"> exploratory records</a></li>
+          <li><img src="image/database.png"><a href="records/exploratory.php">exploratory records</a></li>
         </ul>
+        <p><s><a href="">send multiple? (+)</a></s></p>
+        <!-- .checkTicket Class doesn't exist -->
+        <p class="checkTicket"><a href=""><s>test email yourself</a></s></p>
+
+
+        <p class="removeTicket"><s><a href="dashboard.php">remove ticket</a></s></p>
       </div><!-- ticket shell -->
+
 
       <div class="ticketShell">
         <h4>Missing Requirements</h4>
@@ -54,7 +64,7 @@
           <li><img src="image/edit.png"><a href="tickets/requirements.php">ticket</a></li>
           <li><img src="image/database.png"><a href="records/index.php">records</a></li>
         </ul>
-        <p class="removeTicket"><a href="dashboard.php">remove ticket</a></p>
+        <p class="removeTicket"><a href="dashboard.php"><s>remove ticket</s></a></p>
       </div><!-- ticket shell -->
 
 
@@ -75,4 +85,9 @@
 
     </div><!-- input shell -->
 
-<?php require("include/footer.php") ;?>
+<?php
+  require("include/footer.php");
+  if (isset($_POST['exploratoryEmail'])) {
+    mysqli_close($connection);
+  }
+?>

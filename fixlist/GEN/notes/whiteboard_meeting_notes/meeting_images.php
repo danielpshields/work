@@ -34,6 +34,21 @@
       </div><!-- meeting shell -->
 
 
+
+      <div class="meetingShell">
+        <img src="image/05.jpg" alt="">
+        <h2>Meeting 5</h2>
+        <p><i>Jan. 7, 2019</i></p>
+      </div><!-- meeting shell -->
+
+      <div class="meetingShell">
+        <img src="image/06.jpg" alt="">
+        <img src="image/07.jpg" alt="">
+        <h2>Meeting 6</h2>
+        <p><i>Jan. 23, 2019</i></p>
+      </div><!-- meeting shell -->
+
+
       <!--
       <div class="meetingShell">
         <img src="image/" alt="">

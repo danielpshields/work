@@ -2,10 +2,9 @@
   $page = "thankyou";
   $root = "../../";
   require("{$root}include/header.php");
-  $formType = "blank";
 ?>
 
-  <h2>Thank you for submitting the <b><u><?php echo $formType; ?></b></u> form!</h2>
+  <h2>Thank you for submitting the <?php echo "Transition to Campus"; ?> form!</h2>
 
   <p id="thankYou">Your information has been accepted, <?php echo $firstName; ?>!</p>
 

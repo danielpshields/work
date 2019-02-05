@@ -6,7 +6,10 @@ if(isset($_POST['submit'])) {
   $query  = "INSERT INTO exploratory (name, email) VALUES ('{$name}', '{$email}')";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
+} else {
+  $connection = "b";
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -23,11 +26,12 @@ if(isset($_POST['submit'])) {
     </form>
     <ul>
       <li><a href="#">here</a></li>
-      <li><a href="database_results.php">exploratory recordsinclude/</a></li>
+      <li><a href="records/index.php">exploratory recordsinclude/</a></li>
     </ul>
   </body>
 </html>
 <?php
-
-  mysqli_close($connection);
+  if (isset($_POST['submit'])) {
+    mysqli_close($connection);
+  }
 ?>
