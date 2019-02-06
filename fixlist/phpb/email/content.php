@@ -7,6 +7,6 @@
  </style>
 </head>
 <body>
-  <?php include("transitionReceipt.php"); ?>
+  <?php include("submission.php"); ?>
 </body>
 </html>

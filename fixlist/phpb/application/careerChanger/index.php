@@ -34,14 +34,12 @@
             <h3>About You</h3>
             <h4>Area of Study:</h4>
             <div class="checkBoxes">
-              <input type="checkbox" name="predental_study" value="selected_predental">
+              <input type="checkbox" name="studied_preDental" value="studied_preDental">
               <label for="">Pre-Dental</label>
-              <input class="clear" type="checkbox" name="premedical_study" value="selected_premedical">
+              <input class="clear" type="checkbox" name="studied_preMedical" value="studied_preMedical">
               <label for="">Pre-Medical</label>
-              <input class="clear" type="checkbox" name="preveterinary_study" value="selected_preveterinary">
+              <input class="clear" type="checkbox" name="studied_preVeterinary" value="studied_preVeterinary">
               <label for="">Pre-Veterinary</label>
-              <input class="clear" type="checkbox" name="other_study" value="otherExperience">
-              <label for="other_study">Other</label>
               <div class="clear"></div>
               <p>If other, please indicate:</p>
               <input id="textInput" type="text" name="other_previous_experience" value="">

@@ -1,8 +1,8 @@
 <?php
   $early = 30;
   $lunch = 60;
-  $break = 15;
-  $noBreak = $early + $lunch + ($break * 2);
+//  $break = 15;
+  $noBreak = $early + $lunch;
 ?>
 
 <!DOCTYPE html>
@@ -33,7 +33,7 @@
         <th>total</th>
       </tr>
       <tr>
-        <td>start | 190204_monday</td><!-- probably need to put this into a database -- could be local -->
+        <td>start | 190204_monday</td><!-- probably need to put this into a database - - could be local -->
         <td>7:30 a.m.</td>
         <td></td>
         <td></td>
@@ -44,13 +44,13 @@
         <td>5 hours</td>
       </tr>
       <tr>
-        <td>Monday Feb. 4	</td><!-- probably need to put this into a database -- could be local -->
+        <td>Monday Feb. 4	</td><!-- probably need to put this into a database - - could be local -->
         <td>7:30 a.m.</td>
         <td></td>
         <td></td>
         <td>5 p.m.</td>
         <td><?php echo $noBreak; ?> minutes</td>
-        <td><?php echo $flex = ((5 * 60) + 30 + 60) / 60; ?></td>
+        <td><?php echo $flex = ((5 * 60) + 30 + 60); ?> minutes</td>
       </tr>
 
 
@@ -59,15 +59,29 @@
         <td>7:36 a.m.</td>
         <td></td>
         <td></td>
+        <td>5:06</td>
+        <td><?php echo $flex += 90; ?> minutes</td>
+        <td><?php echo $total = $flex / 60; ?> hours</td>
+      </tr>
+
+      <tr>
+        <td>Wednesday Feb. 6</td>
+        <td>7:25 a.m.</td>
         <td></td>
-        <!-- this is such wrong math lol -->
         <td></td>
-        <td><?php echo $flex; ?></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
 
 
 
-      <!-- loop through this ... i think it'll have to be two pages, one to enter, two to display, it's almost exactly what's happening with [lnote]
+
+
+      <!--
+
+          loop through this ... i think it'll have to be two pages, one to enter, two to display, it's almost exactly what's happening with [lnote]
+
       <tr>
         <td><?php echo date('l M. j'); ?></td>
         <td></td>
@@ -76,7 +90,9 @@
         <td></td>
         <td></td>
         <td>5</td>
-      </tr> -->
+      </tr>
+
+     -->
 
     </table>
 
