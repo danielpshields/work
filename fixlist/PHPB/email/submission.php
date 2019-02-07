@@ -1,34 +1,19 @@
 <div class="container">
 
+  <?php require("functions.php"); ?>
 
-  <h1>ReStart Application Submission</h1>
-  <p>Submitted: <?php echo $date = "Feb. 6"; ?></p>
-
-
-  <div id="flexy">
-
-
-  <!-- name -->
-  <table>
-    <thead>
-      <tr>
-        <th>Applicant Name</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><?php echo ucfirst($name); ?></td>
-      </tr>
-    </tbody>
-  </table>
-
+  <h1>PHPB ReStart Application</h1>
+  <h2>Applicant: <i><?php echo ucfirst($name); ?>
+  <?php just($suffix_name); ?></i></h2>
+  <?php paragraph("UF ID", $UF_ID); ?>
+  <p>Submitted: <?php echo $date = "Feb. 7"; ?></p>
 
   <?php
     if (!empty($studied_preVeterinary) || !empty($studied_preMedical) || !empty($studied_preDental)) { ?>
     <table>
       <thead>
         <tr>
-          <th>Previous Area(s) of Study</th>
+          <th>Previously Studied</th>
         </tr>
       </thead>
       <tbody>
@@ -48,6 +33,14 @@
       </tbody>
     </table>
     <?php } ?>
+
+    <?php table("Other Areas of Study", $studied_other); ?>
+
+    <?php
+    if (!empty($year_of_entry)) {
+      echo "<p><b>Year of Entry</b>: " . $year_of_entry . " </p>";
+    }
+    ?>
 
 
   <!--

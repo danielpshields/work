@@ -76,12 +76,12 @@
 
       <tr>
         <td><?php echo date('l M. j'); ?></td>
-        <td>(8:54 a.m.)</td>
+        <td>(8:54 a.m.</td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
-        <td>5</td>
+        <td>5:08 p.m.</td>
       </tr>
 
 
