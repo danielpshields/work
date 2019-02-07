@@ -71,7 +71,7 @@
         <td></td>
         <td></td>
         <td></td>
-        <td>5:14 p.m., 6:42 p.m.</td>
+        <td>5:14 p.m., (6:42 p.m. to 8:06 p.m.)</td>
       </tr>
 
 
