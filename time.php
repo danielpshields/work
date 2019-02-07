@@ -76,7 +76,7 @@
 
       <tr>
         <td><?php echo date('l M. j'); ?></td>
-        <td></td>
+        <td>(8:54 a.m.)</td>
         <td></td>
         <td></td>
         <td></td>
