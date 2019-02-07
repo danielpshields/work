@@ -66,15 +66,23 @@
 
       <tr>
         <td>Wednesday Feb. 6</td>
-        <td>7:25 a.m.</td>
+        <td>(7:25 a.m.</td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
-        <td>5:14 p.m., (6:42 p.m. to 8:06 p.m.)</td>
+        <td>5:14 p.m.) (6:42 p.m. to 8:06 p.m.) (10:40 p.m. to 11:55 p.m.)</td>
       </tr>
 
-
+      <tr>
+        <td><?php echo date('l M. j'); ?></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>5</td>
+      </tr>
 
 
 
