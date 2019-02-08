@@ -3,9 +3,7 @@
     include("../../email/email.php");
   }
 ?>
-<!-- <pre>
-  <?php// print_r($_POST); ?>
-</pre> -->
+
 <?php
   $root = "../../";
   $application = "ReStart Program";

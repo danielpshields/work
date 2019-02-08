@@ -1,6 +1,6 @@
 <?php
 
-  function just($var) {
+  function justValue($var) {
     if (!empty($var)) {
       echo $var;
     }
@@ -29,6 +29,44 @@
       echo "    </tr>";
       echo "  </tbody>";
       echo "</table>";
+    }
+  }
+
+
+  // if (!empty($other_names)) {
+  //   <tr>
+  //     <td>Other names</td>
+  //     <td><?php echo $other_names; </td>
+  //   </tr>
+  //  }
+
+  function aRow($title, $var) {
+
+    if (!empty($var)) {
+      echo "<tr>";
+      echo "  <td>" . $title . "</td>";
+      echo "  <td>" . $var .   "</td>";
+      echo "</tr>";
+    }
+
+  }
+
+  $personalInfo = array(
+    $other_names,
+    $date_of_birth,
+    $city_of_birth,
+    $state_of_birth,
+    $country_of_birth,
+    $citizenship,
+    $email,
+    $phone_home,
+    $phone_work,
+    $phone_mobile
+  );
+
+  foreach ($personalInfo as $key) {
+    if (empty($key)) {
+      $zeroPersonalInfo = true;
     }
   }
 
