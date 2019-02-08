@@ -1,8 +1,8 @@
 <?php
 
 // $to        = $email;
-$to        = "alex.catalano2@gmail.com";
-$subject   = 'PHPH ReStart Application Submission';
+$to        = "";
+$subject   = 'PHPH Application Submission';
 $message   = messageContent("content.php");
 
 // To send HTML mail, the Content-type header must be set

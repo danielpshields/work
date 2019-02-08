@@ -1,15 +1,13 @@
 <?php
-  if (isset($_POST['submit'])) {
-    include("../../email/email.php");
-  }
-?>
-
-<?php
   $root = "../../";
   $application = "ReStart Program";
   require_once("{$root}include/applicationHeader.php");
+  if (isset($_POST['submit'])) {
+    include("../../email/email.php");
+    header("Location: ../../thankyou.php");
+    exit;
+  }
 ?>
-
       <div id="content">
 
         <h1>Application: ReStart Program</h1>
@@ -26,7 +24,7 @@
           <!-- start form -->
           <form action="index.php" method="post" accept-charset="UTF-8">
             <p>Full name<b>&#42;</b></p>
-            <!-- required --><input type="text" name="name" placeholder="First Middle Last" tabindex="2">
+            <input required type="text" name="name" placeholder="First Middle Last" tabindex="2">
             <h3>About You</h3>
             <h4>Area of Study:</h4>
             <div class="checkBoxes">
@@ -58,7 +56,7 @@
             <p>Sex:</p>
             <input type="text" name="sex" value="">
             <p>Date of Birth:<b>&#42;</b></p>
-            <!-- required --><input type="text" name="date_of_birth" value="">
+            <input required  type="text" name="date_of_birth" value="">
             <p>City of Birth:</p>
             <input type="text" name="city_of_birth" value="">
             <p>State of Birth:</p>
@@ -71,9 +69,9 @@
 
             <p>Do you have dual citizenship:</p>
             <div class="binaryBoxes">
-              <input class="cba" onchange="cbChangeA(this)" type="checkbox" name="yes_dual_citizenship" value="">
+              <input class="cba" onchange="cbChangeA(this)" type="checkbox" name="yes_dual_citizenship" value="yes_dual_citizenship">
               <p>Yes</p>
-              <input class="cba" onchange="cbChangeA(this)" type="checkbox" name="no_dual_citizenship" value="">
+              <input class="cba" onchange="cbChangeA(this)" type="checkbox" name="no_dual_citizenship" value="no_dual_citizenship">
               <p>No</p>
               <div class="clear"></div>
             </div><!-- binary boxes -->
@@ -93,15 +91,15 @@
             <h3>Contact Info</h3>
             <h4>Mailing Address</h4>
             <p>Street: <b>&#42;</b></p>
-            <!-- required --><input class="longWidthInput" type="text" name="street_address" value="">
+            <input required  class="longWidthInput" type="text" name="street_address" value="">
             <p>City: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="city_mailing" value="">
+            <input required  type="text" name="city_mailing" value="">
             <p>State: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="state_mailing" value="">
+            <input required  type="text" name="state_mailing" value="">
             <p>Country: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="country_mailing" value="">
+            <input required  type="text" name="country_mailing" value="">
             <p>Zip: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="zip_mailing" value="">
+            <input required  type="text" name="zip_mailing" value="">
             <h4>Permanent Address <i>(if different from Mailing Address)</i></h4>
             <p>Street:</p>
             <input class="longWidthInput" type="text" name="street_permanent" value="">
@@ -114,7 +112,7 @@
             <p>Zip:</p>
             <input type="text" name="zip_permanent" value="">
             <p>Email address: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="email" value="">
+            <input required  type="text" name="email" value="">
             <p>Home Phone:</p>
             <input type="text" name="phone_home" value="">
             <p>Mobile Phone:</p>
@@ -131,35 +129,35 @@
             <p>Evaluators may be any non-family member who knows you in an academic or professional capacity.</p>
             <h4>Evaluator No. 1</h4>
             <p>Name: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="evaluator_one_name" value="">
+            <input required  type="text" name="evaluator_one_name" value="">
             <p>Street: <b>&#42;</b></p>
-            <!-- required --><input class="longWidthInput" type="text" name="evaluator_one_street" value="">
+            <input required  class="longWidthInput" type="text" name="evaluator_one_street" value="">
             <p>City: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="evaluator_one_city" value="">
+            <input required  type="text" name="evaluator_one_city" value="">
             <p>State: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="evaluator_one_state" value="">
+            <input required  type="text" name="evaluator_one_state" value="">
             <p>Zip: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="evaluator_one_zip" value="">
+            <input required  type="text" name="evaluator_one_zip" value="">
             <p>Phone: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="evaluator_one_phone" value="">
+            <input required  type="text" name="evaluator_one_phone" value="">
             <p>Email: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="evaluator_one_email" value="">
+            <input required  type="text" name="evaluator_one_email" value="">
 
             <h4>Evaluator No. 2</h4>
             <p>Name: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="evaluator_two_name" value="">
+            <input required  type="text" name="evaluator_two_name" value="">
             <p>Street: <b>&#42;</b></p>
-            <!-- required --><input class="longWidthInput" type="text" name="evaluator_two_street" value="">
+            <input required  class="longWidthInput" type="text" name="evaluator_two_street" value="">
             <p>City: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="evaluator_two_city" value="">
+            <input required  type="text" name="evaluator_two_city" value="">
             <p>State: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="evaluator_two_state" value="">
+            <input required  type="text" name="evaluator_two_state" value="">
             <p>Zip: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="evaluator_two_zip" value="">
+            <input required  type="text" name="evaluator_two_zip" value="">
             <p>Phone: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="evaluator_two_phone" value="">
+            <input required  type="text" name="evaluator_two_phone" value="">
             <p>Email: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="evaluator_two_email" value="">
+            <input required  type="text" name="evaluator_two_email" value="">
             <div class="clear"></div>
           </section>
 
@@ -167,13 +165,13 @@
             <h3>Educational Background: <i>Universities Attended</i></h3>
             <h4>Institution No. 01</h4>
             <p>Institution: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="educational_background_one_institution" value="">
+            <input required  type="text" name="educational_background_one_institution" value="">
             <p>Major: <b>&#42;</b></p>
-            <!-- required --><input type="text" name="educational_background_one_major" value="">
+            <input required  type="text" name="educational_background_one_major" value="">
             <p>From (date): <b>&#42;</b></p>
-            <!-- required --><input type="text" name="educational_background_one_start_date" value="">
+            <input required  type="text" name="educational_background_one_start_date" value="">
             <p>To (date): <b>&#42;</b></p>
-            <!-- required --><input type="text" name="educational_background_one_end_date" value="">
+            <input required  type="text" name="educational_background_one_end_date" value="">
             <p>Degree Earned:</p>
             <input type="text" name="educational_background_one_degree_earned" value="">
             <p>Date Earned/will earn:</p>
@@ -337,11 +335,11 @@
             <p>Describe your decision to pursue a career in healthcare. What was your previous career? Explain why you decided to
               change to healthcare? What factors contributed to your decision? What do you hope to contribute to your profession
               and others through a career in healthcare? <b>&#42;</b></p>
-              <!-- required --><textarea name="essay_why_healthcare" rows="8"></textarea>
+              <textarea required name="essay_why_healthcare" rows="8"></textarea>
               <p>What are your strengths, qualities or attributes that will contribute both to your success at UF and in healthcare? <b>&#42;</b></p>
-              <!-- required --><textarea name="essay_qualities_strengths" rows="8"></textarea>
+              <textarea required name="essay_qualities_strengths" rows="8"></textarea>
               <p>Why do you want to attend the UF Pre-health Post-Baccalaureate Program (PHPB)? <b>&#42;</b></p>
-              <!-- required --><textarea name="essay_why_interested" rows="8"></textarea>
+              <textarea required name="essay_why_interested" rows="8"></textarea>
               <p>Please explain your previous academic difficulty including what has changed since you last took science courses that would indicate your ability to be successful in the ReStart Program.</p>
               <textarea name="essay_previous_grades" rows="8"></textarea>
               <p>Is there anything else you wish the admission committee to know?</p>
@@ -353,7 +351,7 @@
 
           <div id="certify">
             <p>I certify that the above information is current, complete and accurate to the best of my knowledge. <b>&#42;</b></p>
-            <!-- required --><input  type="checkbox" name="certified" value="certify">
+            <input required  type="checkbox" name="certified" value="certify">
             <div class="clear"></div>
           </div><!-- certify -->
 

@@ -1,15 +1,15 @@
 <?php
-  if (isset($_POST['submit'])) {
-    $name = $_POST['name'];
-  }
-?>
-<pre>
-  <?php print_r($_POST); ?>
-</pre>
-<?php
+
   $root = "../../";
   $application = "Career Changers";
   require_once("{$root}include/applicationHeader.php");
+
+  if (isset($_POST['submit'])) {
+    include("../../email/email.php");
+    header("Location: ../../thankyou.php");
+    exit;
+  }
+
 ?>
 
 

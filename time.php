@@ -81,9 +81,20 @@
         <td></td>
         <td></td>
         <td></td>
-        <td>5:08 p.m.) (9:28 p.m.)</td>
+        <td>5:08 p.m.) (9:28 p.m. to midnight)</td>
       </tr>
 
+
+
+            <tr>
+              <td><?php echo date('l M. j'); ?></td>
+              <td>7 a.m.</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>5</td>
+            </tr>
 
 
       <!--
