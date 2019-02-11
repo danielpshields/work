@@ -15,10 +15,10 @@
   <body>
 
 
-    <input type="button" name="clockin" value="clock in">
-    <input type="button" name="lunchout" value="lunch out">
-    <input type="button" name="lunchin" value="lunch in">
-    <input type="button" name="clockout" value="clock out">
+    <input type="button" name="start" value="start">
+    <input type="button" name="stop" value="stop">
+    <input type="button" name="debit_start" value="debit_start">
+    <input type="button" name="debit_stop" value="debit_stop">
 
 
 
@@ -75,7 +75,7 @@
       </tr>
 
       <tr>
-        <td><?php echo date('l M. j'); ?></td>
+        <td>Thursday Feb. 7</td>
         <td>(8:54 a.m.</td>
         <td></td>
         <td></td>
@@ -86,16 +86,28 @@
 
 
 
-            <tr>
-              <td><?php echo date('l M. j'); ?></td>
-              <td>(7 a.m. to 8:56 a.m.)</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>5</td>
-            </tr>
+      <tr>
+        <td>Friday Feb. 8</td>
+        <td>(7 a.m. to 8:56 a.m.)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>5</td>
+      </tr>
 
+
+
+
+        <tr>
+          <td><?php echo date('l M. j'); ?></td>
+          <td>8:02 a.m.</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>5</td>
+        </tr>
 
       <!--
 
