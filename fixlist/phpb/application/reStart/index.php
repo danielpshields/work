@@ -1,6 +1,6 @@
 <?php
   $root = "../../";
-  $application = "ReStart Program";
+  $application = "ReStart";
   require_once("{$root}include/applicationHeader.php");
   if (isset($_POST['submit'])) {
     include("../../email/email.php");
@@ -9,16 +9,15 @@
   }
 ?>
       <div id="content">
-
-        <h1>Application: ReStart Program</h1>
+        <h1>Application: <?php echo $application; ?> Program</h1>
         <div class="freeGraphs">
           <p>The form is interactive. Please fill it out and hit submit when finished.</p>
           <p><b>or</b></p>
-          <p>If you wish to print the form, please download it: <a href="docs/ReStart.pdf" target="_blank" tabindex="1"><b>here</b></a></p>
+          <p>If you wish to print the form, please download it: <a href="docs/<?php echo $application; ?>.pdf" target="_blank" tabindex="1"><b>here</b></a></p>
         </div><!-- header graphs -->
 
         <section>
-          <h2 id="formHeader">PHPB ReStart Application</h2>
+          <h2 id="formHeader">PHPB <?php echo $application; ?> Application</h2>
           <img id="phpbLogo" src="<?php echo $root; ?>image/phpb.png" alt="PHPB Logo">
           <div class="clear"></div>
           <!-- start form -->
@@ -96,10 +95,10 @@
             <input required  type="text" name="city_mailing" value="">
             <p>State: <b>&#42;</b></p>
             <input required  type="text" name="state_mailing" value="">
-            <p>Country: <b>&#42;</b></p>
-            <input required  type="text" name="country_mailing" value="">
             <p>Zip: <b>&#42;</b></p>
             <input required  type="text" name="zip_mailing" value="">
+            <p>Country: <b>&#42;</b></p>
+            <input required  type="text" name="country_mailing" value="">
             <h4>Permanent Address <i>(if different from Mailing Address)</i></h4>
             <p>Street:</p>
             <input class="longWidthInput" type="text" name="street_permanent" value="">
@@ -107,10 +106,10 @@
             <input type="text" name="city_permanent" value="">
             <p>State:</p>
             <input type="text" name="state_permanent" value="">
-            <p>Country:</p>
-            <input type="text" name="country_permanent" value="">
             <p>Zip:</p>
             <input type="text" name="zip_permanent" value="">
+            <p>Country:</p>
+            <input type="text" name="country_permanent" value="">
             <p>Email address: <b>&#42;</b></p>
             <input required  type="text" name="email" value="">
             <p>Home Phone:</p>
@@ -340,7 +339,7 @@
               <textarea required name="essay_qualities_strengths" rows="8"></textarea>
               <p>Why do you want to attend the UF Pre-health Post-Baccalaureate Program (PHPB)? <b>&#42;</b></p>
               <textarea required name="essay_why_interested" rows="8"></textarea>
-              <p>Please explain your previous academic difficulty including what has changed since you last took science courses that would indicate your ability to be successful in the ReStart Program.</p>
+              <p>Please explain your previous academic difficulty including what has changed since you last took science courses that would indicate your ability to be successful in the <?php echo $application; ?> Program.</p>
               <textarea name="essay_previous_grades" rows="8"></textarea>
               <p>Is there anything else you wish the admission committee to know?</p>
               <textarea name="essay_additional_information" rows="8"></textarea>
