@@ -101,13 +101,24 @@
 
         <tr>
           <td><?php echo date('l M. j'); ?></td>
-          <td>8:02 a.m.</td>
+          <td>(8:02 a.m.</td>
           <td></td>
           <td></td>
           <td></td>
           <td></td>
-          <td>5</td>
+          <td>4:38 p.m.)</td>
         </tr>
+
+        <tr>
+          <td><?php echo date('l M. j'); ?></td>
+          <td>(9 a.m.</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
 
       <!--
 
