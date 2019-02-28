@@ -3,21 +3,25 @@
 
 function messageContent($file) {
     ob_start();
-    //this needs to be set when the UF Database is connected
-    $name     = $_POST['name'];
 
+    $name     = $_POST['name'];
     $paceMajor = $_POST['paceMajor'];
     $semester  = $_POST['semester'];
-    $phone     = $_POST['phone']
+    $phone     = $_POST['phone'];
 
     //file get contents has to come from the master calling document root
     $css = file_get_contents("../../email/stylesheet.css");
     // $css = file_get_contents("../../test/hope.html");
     $set = "set.php setting in the email";
+    //includes in sent content
+    echo $set;
     //pulls in the content.php file through
     require($file);
     return ob_get_clean();
 }
 
+// includes in where email is being called from
+echo "hello world";
+//names matter, can't be same as other in entire structure -- reference PHP manual
 include("engine.php");
 ?>
