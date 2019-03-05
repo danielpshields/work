@@ -15,7 +15,7 @@
     $semester  = $_POST['semester'];
     $phone     = $_POST['phone'];
 
-    $newQuery     = "UPDATE transition SET ";
+    $newQuery     = "UPDATE pace_transition SET ";
 
     $newQuery    .= "studentID = ";
     $newQuery    .= "'" . $UFID . "',";

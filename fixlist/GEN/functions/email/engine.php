@@ -10,7 +10,7 @@ $headers[] = 'MIME-Version: 1.0';
 $headers[] = 'Content-type: text/html; charset=iso-8859-1';
 // Additional headers
 $headers[] = 'To: Alex <'.$to.'>';
-$headers[] = 'From: Alex Catalano <loneson6@box929.bluehost.com>';
+$headers[] = 'From: Alex Catalano <advising.ufl.edu@ufl.edu>';
 // $headers[] = 'Cc: acatalano2@ufl.edu';
 // $headers[] = 'Bcc: alex.catalano2@gmail.com';
 // send it
