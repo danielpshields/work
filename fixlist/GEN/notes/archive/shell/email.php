@@ -1,6 +1,6 @@
 <?php
 
-mail('alex.catalano2@gmail.com', 'the subject', 'the message', null,
+mail('', 'the subject', 'the message', null,
    '-falex@alexcatalano.com');
 
 require("include/header.php");  ?>

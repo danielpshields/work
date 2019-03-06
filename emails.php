@@ -17,7 +17,7 @@
     <tbody>
       <tr>
         <td>gmail</td>
-        <td>alex.catalano2@gmail.com</td>
+        <td></td>
       </tr>
       <tr>
         <td>forwardsGmail</td>

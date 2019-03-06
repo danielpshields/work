@@ -20,7 +20,7 @@
     <div class='label'>Password :</div>
     <div class='value'>ger </div>
     <div class='label'>Email :</div>
-    <div class='value'>alex.catalano2@gmail.com </div>
+    <div class='value'> </div>
     <div class='label'>Submit :</div>
     <div class='value'>submit this information </div>
   </p>

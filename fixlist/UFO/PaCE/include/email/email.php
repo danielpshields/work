@@ -2,7 +2,7 @@
 
   // where should the form's information go?
   // $emailThisTo = $to;
-  $emailThisTo = "alex.catalano2@gmail.com, acatalano2@ufl.edu";
+  $emailThisTo = ", acatalano2@ufl.edu";
 
 
   // then, after submitting:
