@@ -15,6 +15,9 @@
   <body>
 
 
+    + 30 hours (32.5)
+
+
     <input type="button" name="start" value="start">
     <input type="button" name="stop" value="stop">
     <input type="button" name="debit_start" value="debit_start">
