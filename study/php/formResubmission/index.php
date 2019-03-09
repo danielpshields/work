@@ -15,7 +15,7 @@
     <h1>Form Resubmission</h1>
 
     <form action="catch.php" method="post">
-      <input type="text" name="item" value="">
+      <input type="text" name="item" value="" required>
       <input type="submit" name="submit" value="submit">
     </form>
 
