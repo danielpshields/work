@@ -1,17 +1,8 @@
 <?php
-
   require("db.php");
   $readDB = "SELECT * FROM resubmission";
   $read = mysqli_query($connection, $readDB);
   if (!$read) { die ("query failed"); }
-
-  if (isset($_POST['delete'])) {
-    $deleteItem = "DELETE FROM resubmission WHERE id = ";
-    $deleteItem .= "'" . $id . "'";
-    $delete = mysqli_query($connection, $deleteItem);
-  }
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -28,12 +19,19 @@
       <input type="submit" name="submit" value="submit">
     </form>
 
-    <ul>
-      <?php
-      while ($row = mysqli_fetch_assoc($read)) { ?>
-        <li><?php echo $row['item']; ?></li>
-      <?php }
-      ?>
-    </ul>
+
+      <ul>
+        <?php
+        while ($row = mysqli_fetch_assoc($read)) {
+        ?>
+        <form class="" action="catch.php" method="post">
+          <li><?php echo $row['id'] . ". " .$row['item']; ?></li>
+          <input type="submit" name="delete" value="<?php echo $rid = $row['id']; ?>">
+        </form>
+        <?php } ?>
+      </ul>
+
+
+
   </body>
 </html>

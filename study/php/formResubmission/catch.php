@@ -10,4 +10,13 @@
     exit;
   }
 
+  if (isset($_POST['delete'])) {
+    $id = $_POST['delete'];
+    $deleteItem  = "DELETE FROM resubmission WHERE id = ";
+    $deleteItem .= $id;
+    $delete = mysqli_query($connection, $deleteItem);
+    header("Location: index.php");
+    exit;
+  }
+
 ?>
