@@ -17,6 +17,10 @@
 
     + 30 hours (32.5)
 
+    + 5.25 (saturday and sunday)
+
+    = 35.25 hours
+
 
     <input type="button" name="start" value="start">
     <input type="button" name="stop" value="stop">
