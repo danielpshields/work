@@ -19,19 +19,16 @@
       <input type="submit" name="submit" value="submit">
     </form>
 
-
-      <ul>
-        <?php
-        while ($row = mysqli_fetch_assoc($read)) {
-        ?>
-        <form class="" action="catch.php" method="post">
-          <li><?php echo $row['id'] . ". " .$row['item']; ?></li>
-          <input type="submit" name="delete" value="<?php echo $rid = $row['id']; ?>">
-        </form>
-        <?php } ?>
-      </ul>
-
-
+    <ul>
+      <?php
+      while ($row = mysqli_fetch_assoc($read)) {
+      ?>
+      <form class="" action="catch.php" method="post">
+        <li><?php echo $row['id'] . ". " .$row['item']; ?></li>
+        <input type="submit" name="delete" value="<?php echo $rid = $row['id']; ?>">
+      </form>
+      <?php } ?>
+    </ul>
 
   </body>
 </html>
