@@ -10,7 +10,7 @@ require("db.php");
     $query = "INSERT INTO login (username, password, cookie) VALUES ('{$username}', '{$password}', '{$cookie}')";
     $write = mysqli_query($connection, $query);
 
-    $name   = "key";
+    $name   = "cookie";
     $value  = "user" . $username;
     $expire = time() + (60*60*24*7);
     setcookie($name, $value, $expire);
