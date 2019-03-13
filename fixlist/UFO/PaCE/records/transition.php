@@ -2,82 +2,144 @@
   require("../include/db.php");
   $root = "../";
   $page = "records";
-  require("{$root}include/header.php");
-  $query = "SELECT * FROM transition";
+  $pageName = "Records: Transition";
+  require("{$root}include/header/header.php");
+  include("{$root}include/credentials.php");
+  $scriptName = $page;
+  $query = "SELECT * FROM pace_transition ORDER BY id ASC";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
-  require("{$root}include/recordsHeader.php");
-
+  include("{$root}include/header/admin_nav.php");
 ?>
 
-    <h2>Records: <?php echo "Transition"; ?></h2>
 
-    <!-- <div style="width: 320px; margin: auto; margin-top: 32px; padding-top: 16px; border: 1px solid red;"> -->
-      <!-- <p>This page should be the one that allows the form to be sent</p> -->
-      <!-- <p>ie: submit form to "acatalano2@ufl.edu"?</p> -->
-      <!-- <p>make a dropdown here</p> -->
-      <!-- <input class="submitButton" type="submit" name="submit" value="submit"> -->
-    <!-- </div> -->
+  <div id="records_container">
+    <div id="tickets_container">
+      <h2>All Records</h2>
 
-    <h3>Sping 2019</h3>
-    <table>
-      <thead>
-        <tr>
-          <th>student ID</th>
-          <th>email</th>
-          <th>stipulation</th>
-          <th>course</th>
-          <th>grade</th>
-          <th>course2</th>
-          <th>grade2</th>
-          <th>course3</th>
-          <th>grade3</th>
-          <th>course4</th>
-          <th>grade4</th>
-          <th>gpaMajor</th>
-          <th>gpaUF</th>
-          <th>paceMajor</th>
-          <th>semester</th>
-          <th>phone</th>
-        </tr>
-      </thead>
+
       <?php
-      while($row = mysqli_fetch_assoc($spitResults)) { ?>
-        <tr>
-          <?php
-            $studentID = $row['studentID'];
-            if ($studentID) {
-              echo "<td class=\"green\">";
-              echo $studentID;
-              echo "</td>";
-            } else {
-              echo "<td class=\"red\">";
-              echo "&ndash;";
-              echo "</td>";
-            }
-          ?>
-          <td><?php echo $row['email']; ?></td>
-          <td><?php echo $row['stipulation']; ?></td>
-          <td><?php echo $row['course']; ?></td>
-          <td><?php echo $row['grade']; ?></td>
-          <td><?php echo $row['course2']; ?></td>
-          <td><?php echo $row['grade2']; ?></td>
-          <td><?php echo $row['course3']; ?></td>
-          <td><?php echo $row['grade3']; ?></td>
-          <td><?php echo $row['course4']; ?></td>
-          <td><?php echo $row['grade4']; ?></td>
-          <td><?php echo $row['gpaMajor']; ?></td>
-          <td><?php echo $row['gpaUF']; ?></td>
-          <td><?php echo $row['paceMajor']; ?></td>
-          <td><?php echo $row['semester']; ?></td>
-          <td><?php echo $row['phone']; ?></td>
-        </tr>
-      <?php } ?>
-    </table>
+       $getmajor = $_GET['major'];
+       $majorList = array (
+         "africanAmericanStudies" => "African American Studies",
+          "computerScience"       => "Computer Science",
+          "sustainabilityStudies" => "Sustainability Studies",
+          "womensStudies"         => "Women's Studies"
+       );
+       foreach ($majorList as $key => $value) {
+         if ($getmajor == $key) {
+           $getmajor = $value;
+         }
+       }
+       ?>
+       <p id="copyText">Transition eligible in <?php echo ucfirst($getmajor);  ?> eot 191, <?php echo $_GET['condition']; ?>, <?php echo $_GET['gpaUF']; ?> UF/<?php echo $_GET['gpaMajor']; ?>ppGPA, em'd form.</p>
 
-    <p style="margin-top: 2rem;"><a href="../tickets/transition/"><b>Sample Ticket</b></a></p>
+      <?php
+      // rows
+      while($row = mysqli_fetch_assoc($spitResults)) {
+        $conditionsExist = true;
+        // columns
+        require("record_variables.php");
+        $breakCreated = explode("|", $formCreated);
+        $monthDay     = $breakCreated[0];
+        $hourTime     = $breakCreated[1];
+        ?>
+          <div class="barrier">
+            <dl>
+              <dt>
+                <div class="barrierHeader">
+                  <?php
+                    if ($submitted == 0) { $formUpdated = false; ?>
+                    <p class="pending">pending</p>
+                  <?php }  else if ($submitted == 1) { $formUpdated = true;  ?>
+                    <p class="submitted">submitted</p>
+                  <?php } else if ($submitted == 2)  { $formUpdated = true; ?>
+                    <p class="approved">approved</p>
+                  <?php } else if ($submitted == 3) { $formUpdated = true;  ?>
+                    <p class="ufoSelected">UF Online</p>
+                  <?php }?>
+                  <div class="studentIdentification">
+                    <p class="studentID"><?php echo $studentID; ?></p>
+                    <h3><?php echo $student_email; ?></h3>
+                  </div><!-- student Identification -->
+                  <p class="timeCreated"><?php echo $monthDay; ?></p>
+                </div><!-- barrier header -->
+              </dt><!-- Barrier Header Dropdown -->
+              <dd>
+                <?php include("guts.php") ?>
+                <?php
+                  if ($formUpdated) {
+                    $break_submitted = explode("|", $formSubmitted);
+                    $monthDay     = $break_submitted[0];
+                    $hourTime     = $break_submitted[1];
+                    ?>
+                    <div class="formCreated">
+                      <p>student submitted: <b><?php echo $monthDay . "</b> at <b>" . $hourTime; ?></i></b></p>
+                    </div><!-- form created -->
+                <?php } else { ?>
+                  <div class="formCreated">
+                    <p>ticket is pending</p>
+                  </div><!-- form created -->
+                <?php }?>
+              </dd>
+              <div class="notes">
+                <?php
+                $loopNotes    = "SELECT * FROM pace_student_notes WHERE email = ";
+                $loopNotes   .= "'" . $student_email . "'";
+                $getNoteCountQuery = mysqli_query($connection, $loopNotes);
+                ?>
+                <p class="note_theConstant"><a href="<?php echo $root; ?>records/notes.php?id=<?php echo $studentID; ?>&email=<?php echo htmlentities($student_email); ?>"><?php
+                $i = 0;
+                while ($thisRow = mysqli_fetch_assoc($getNoteCountQuery)) {
+                   $i++;
+                }
+                if ($i > 0) {
+                  echo "notes (" . $i . ")";
+                } else {
+                  echo "new note";
+                }
+                ?>
+              </a></p>
+                <div class="note_variants">
+                  <div class="variantsContainer">
+                    <p><!--<a href="<?php echo $root; ?>records/edit.php?id=<?php echo $studentID; ?>&email=<?php echo htmlentities($student_email); ?>">-->edit<!--</a>--></p>
+                    <p>
+                      <?php
+                        if ($submitted == 0) {
+                          echo "pending";
+                        } else if ($submitted == 1) {
+                          echo "<a href=\"approve.php?id=" . $studentID . "&email=" . htmlentities($student_email) . "\"><span class=\"approved\"><b>approve</b></span></a>";
+                        } else if ($submitted == 2 || $submitted == 3)  {
+                          echo "approved";
+                        }
+                      ?>
+                    </p>
+                  </div><!-- variants container -->
+                </div><!-- note variants -->
+              </div>
+            </dl>
+          </div><!-- master result Barrier -->
 
-    <!-- <p><?php echo $foo; ?></p> -->
+          <?php if (empty($row)) { echo "empty row"; } ?>
+          <?php } ?><!-- end Grande while $row assoc -->
+          <?php if (!$conditionsExist) { ?>
+          <div class="inputShell">
+            <h3 class="black">Records: Transition</h3>
+            <p>No transition tickets have been created!</p>
+            <ul>
+              <li><b><a href="<?php echo $root; ?>ticket/transition.php">Make a transition ticket</a></b></li>
+            </ul>
+          </div>
+        <?php } ?>
+
+      </div><!-- tickets Container -->
+
+      <?php include("{$root}records/sortNav.php"); ?>
+
+    </div><!-- records Container -->
+
+
+
 
 <?php
   include("{$root}include/footer.php");

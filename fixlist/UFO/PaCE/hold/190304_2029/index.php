@@ -1,0 +1,55 @@
+<?php
+  $root = "";
+  $page = "login";
+  $pageName = "CLAS UF Online: PaCE";
+  $key = "pace_admin";
+  require("{$root}include/header/header.php");
+  require("{$root}include/db.php");
+  if (isset($_POST['submit'])) {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    // $query  = "INSERT INTO pace_users (username, password) VALUES ".
+    // $query .= "('" . $username . "', ";
+    // $query .= "'" . $password . "')";
+    // $createPassword = mysqli_query($connection, $query);
+    // if (!$createPassword) die ("query failed");
+
+    $readCredentials = "SELECT * FROM pace_users";
+    $readEm = mysqli_query($connection, $readCredentials);
+    while ($row = mysqli_fetch_assoc($readEm)) {
+       $stored_username = $row['username'];
+       $stored_password = $row['password'];
+
+       if ($username === $stored_username && $password === $stored_password) {
+        echo "they match";
+        $cookName   = "key";
+        $cookValue  = "pace_admin";
+        $cookExpire = time() + (60*60*24*7*4);
+        setcookie($cookName, $cookValue, $cookExpire);
+        header("Location: dashboard.php");
+        exit;
+
+       } else {
+         $miss = true;
+
+       }
+    }
+  }
+?>
+
+  <form action="index.php" method="post">
+    <div class="inputShell">
+      <h3 class="blue">Login</h3>
+      <input type="text" name="username" value="<?php echo $user; ?>">
+      <label for="username">Username</label>
+      <input type="password" name="password" value="">
+      <label for="password">Password</label>
+      <?php if ($miss) { ?>
+        <p>Incorrect credentials! Please try again</p>
+      <?php } ?>
+    </div><!-- input shell -->
+    <input class="submitButton" type="submit" name="submit" value="submit">
+    <!-- <p><i>Not a user?</i> <a href="signup.php">sign up</a></p> -->
+  </form>
+
+<?php require("include/footer.php") ;?>

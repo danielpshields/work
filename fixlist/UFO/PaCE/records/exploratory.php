@@ -1,45 +1,43 @@
 <?php
   require("../include/db.php");
   $root = "../";
-  $page = "records";
-  require("{$root}include/header.php");
-  $query = "SELECT * FROM exploratory";
+  $page = "exploratory";
+  $pageName = "Records: Exploratory";
+  require("{$root}include/header/header.php");
+  include("{$root}include/credentials.php");
+  $query = "SELECT * FROM pace_exploratory";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
-  require("{$root}include/recordsHeader.php");
-?>
-  <h2>Records: Exploratory</h2>
-<?php
+  include("{$root}include/header/admin_nav.php");
 ?>
 
-
-    <h3>Sping 2019</h3>
-    <table>
-      <?php
-      while($row = mysqli_fetch_assoc($spitResults)) { ?>
+  <div id="exploratory_container" class="container">
+      <table>
         <tr>
-          <td><?php echo $row['name']; ?></td>
-          <td><?php echo $row['email']; ?></td>
-          <td><?php echo $row['date']; ?></td>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Date</th>
         </tr>
-      <?php } ?>
-    </table>
-
-    <p class="marginTop"><a href="../dashboard.php">Back to dashboard</a></p>
-
-    <div class="inputShell">
-      <div class="ticketShell">
+        <?php
+        while($row = mysqli_fetch_assoc($spitResults)) { ?>
+          <tr>
+            <td><?php echo $row['name']; ?></td>
+            <td><?php echo $row['email']; ?></td>
+            <td><?php echo $row['date']; ?></td>
+          </tr>
+        <?php } ?>
+      </table>
+      <div id="exploratoryShell" class="ticketShell">
         <h4>Exploratory Students</h4>
-        <form class="" action="dashboard.php" method="post">
-          <input type="text" name="name" value="" placeholder="student's name">
-          <label for="name">Add student's name</label>
-          <input type="email" name="email" value="" placeholder="student's email address">
+        <form class="" action="<?php echo $root; ?>processor.php" method="post">
+          <input  type="text" name="name" value="" placeholder="student's first name" required>
+          <label for="name">Add student's first name</label>
+          <input type="email" name="email" value="" placeholder="student's email address" required>
           <label for="email">Add student's gatorlink email</label>
-          <input type="hidden" name="formType" value="exploratory">
-          <input tabindex="1" class="submitButton" type="submit" name="exploratoryEmail" value="send email">
+          <input tabindex="1" class="submitButton" type="submit" name="exploratorySubmit" value="send email">
         </form>
-      </div><!-- ticket shell -->
-    </div><!-- input shell -->
+      </div><!-- exploratory ticket shell -->
+    </div><!-- container -->
 
 
 <?php

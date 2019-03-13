@@ -1,0 +1,30 @@
+
+.thankYou {
+  border: 2px solid #32CD32;
+  box-shadow: .3rem .3rem 1rem #c0c0c0;
+  width: 90%;
+  max-width: 33rem;
+  padding: .6rem .8rem 1.3rem .8rem;
+  margin: auto;
+  margin-top: 2.5rem;
+  border-radius: .3rem;
+  font-size: 1.3rem;
+}
+
+.thankYou h3 {
+  color: #333;
+  font-size: 1.8rem;
+  margin: 1.5rem auto 1.5rem auto;
+}
+
+
+.thankYou p {
+  color: #454545;
+  margin: 0 auto 1rem auto;
+  width: 84%;
+  max-width: 40rem;
+}
+
+#thankYouSignature {
+  margin-top: 1.5rem;
+}

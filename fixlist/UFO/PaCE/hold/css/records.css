@@ -1,0 +1,60 @@
+table {
+  margin: auto;
+}
+
+table, tr, th, td {
+  border: 1px solid #333;
+  padding: .4rem;
+  width: 100%;
+  max-width: 50rem;
+}
+
+h3 {
+  color: #383838;
+  margin-bottom: 1.5rem;
+}
+
+.red {
+  color: #AD0000;
+  background: white;
+  text-align: center;
+}
+
+.green {
+  background: #32CD32;
+  background: #afedaf;
+  color: white;
+  color: #333;
+  text-align: center;
+}
+
+#recordsNav ul {
+  margin: 0;
+  margin: auto;
+  margin-top: .5rem;
+  width: 50%;
+  max-width: 40rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+#recordsNav li {
+  list-style: none;
+  border: 1px solid #999;
+  padding: .3rem 0;
+  border-radius: .2rem;
+  margin: 0;
+}
+
+#recordsNav li a {
+  display: inline;
+  height: 100%;
+  padding: .3rem 2rem;
+  width: 100%;
+
+}
+
+#recordsNav li:hover {
+  border: 1px solid #333;
+  box-shadow: .3rem .3rem .8rem #c0c0c0;
+}

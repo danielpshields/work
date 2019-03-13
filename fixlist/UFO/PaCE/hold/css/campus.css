@@ -1,0 +1,22 @@
+#phone {
+  color: #fff;
+  background: #1A60FF;
+}
+
+.stipulationDark {
+  background: #333;
+}
+
+.stipulationDark p, .stipulationDark li {
+  color: white;
+}
+
+.stipulationDark table {
+  margin: auto;
+}
+
+.stipulationDark table, .stipulationDark tr, .stipulationDark th, .stipulationDark td {
+  border: 1px solid white;
+  padding: .3rem;
+  color: white;
+}
