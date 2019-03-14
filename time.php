@@ -14,12 +14,7 @@
   </head>
   <body>
 
-
-    + 30 hours (32.5)
-
-    + 5.25 (saturday and sunday)
-
-    = 35.25 hours
+    = 41.25 hours
 
 
     <input type="button" name="start" value="start">
