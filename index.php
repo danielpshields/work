@@ -6,7 +6,7 @@
 ?>
 
   <!-- O B P G L W -->
-  
+
       <article class="library">
 
         <h2>Library</h2>
