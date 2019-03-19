@@ -3,6 +3,7 @@
   $application = "Career Changers";
   require_once("{$root}include/applicationHeader.php");
   if (isset($_POST['submit'])) {
+    $email = $_POST['email'];
     include("../../email/email.php");
     header("Location: ../../thankyou.php");
     exit;
