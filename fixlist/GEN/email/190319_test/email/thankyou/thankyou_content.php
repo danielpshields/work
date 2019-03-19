@@ -7,6 +7,6 @@
  </style>
 </head>
 <body>
-  <?php include("submission.php"); ?>
+  <?php include("thankyou_response.php"); ?>
 </body>
 </html>
