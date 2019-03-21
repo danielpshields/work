@@ -1,7 +1,7 @@
 <?php
 
-$username = "";
-$password = "";
+$username = "" /* real credentials usually go here */;
+$password = "" /* real credentials usually go here */;
 
 $server   = "dir.ufl.edu";
 // $server   = "ldaps://ldap.ad.ufl.edu";
