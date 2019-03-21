@@ -469,7 +469,14 @@ p.addCourse:hover {
   text-decoration: underline;
 }
 
+.barrier th {
+  background: #d0d0d0;
+}
 
+.tiny {
+  font-size: .85rem;
+  color: #555;
+}
 
 @media screen and (min-width: 600px) {
 

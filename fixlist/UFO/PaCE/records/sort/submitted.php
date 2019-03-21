@@ -3,10 +3,11 @@
   require("{$root}include/db.php");
   $page = "records";
   $pageName = "Records: Transition";
+  $dataPage = "submitted";
   require("{$root}include/header/header.php");
   include("{$root}include/credentials.php");
   $scriptName = $page;
-  $query = "SELECT * FROM pace_transition WHERE submitted = 1 ORDER BY id ASC";
+  $query = "SELECT * FROM pace_transition WHERE submitted = 1 ORDER BY formSubmitted DESC";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
   include("{$root}include/header/admin_nav.php");
@@ -84,7 +85,7 @@
             </a></p>
               <div class="note_variants">
                 <div class="variantsContainer">
-                  <p><!--<a href="<?php echo $root; ?>records/edit.php?id=<?php echo $studentID; ?>&email=<?php echo htmlentities($student_email); ?>">-->edit<!--</a>--></p>
+                  <p><?php echo $studentID; ?></p>
                   <p>
                     <?php
                       if ($submitted == 0) {
@@ -119,6 +120,7 @@
     </div><!-- tickets Container -->
 
     <?php include("{$root}records/sortNav.php"); ?>
+
 
   </div><!-- records Container -->
 

@@ -3,10 +3,11 @@
   require("{$root}include/db.php");
   $page = "records";
   $pageName = "Records: Transition";
+  $dataPage = "approved";
   require("{$root}include/header/header.php");
   include("{$root}include/credentials.php");
   $scriptName = $page;
-  $query = "SELECT * FROM pace_transition WHERE submitted = 2 ORDER BY id ASC";
+  $query = "SELECT * FROM pace_transition WHERE submitted = 2 ORDER BY timeApproved DESC";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
   include("{$root}include/header/admin_nav.php");

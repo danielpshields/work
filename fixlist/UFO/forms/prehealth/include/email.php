@@ -1,6 +1,6 @@
 <?php
   // where should the form's information go?
-  $emailThisTo = "acatalano2@ufl.edu";
+  $emailThisTo = "dsking@ufl.edu";
   // then, after submitting:
   $redirectTo = "success.php";
 
