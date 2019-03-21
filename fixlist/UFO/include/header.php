@@ -7,7 +7,7 @@ include("{$root}include/functions.php");
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PaCE Transition | <?php echo ucfirst($pageName); ?></title>
+    <title><?php echo ucfirst($pageName); ?></title>
     <link rel="shortcut icon" type="image/x-ico" href="<?php echo $root; ?>image/favicon.ico"/>
     <link rel="stylesheet" href="<?php echo $root; ?>css/master.css">
     <link rel="stylesheet" href="<?php echo $root; ?>css/<?php echo $page; ?>.css">
@@ -23,7 +23,7 @@ include("{$root}include/functions.php");
     </div>
     <header>
       <div class="container">
-        <a href="<?php echo $root; ?>records/transition.php">
+        <a href="<?php echo $root; ?>dashboard.php">
           <img src="<?php echo $root; ?>image/uf_logo.svg" alt="">
         </a>
         <?php if ($page != "login") { ?>

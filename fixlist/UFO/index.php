@@ -1,22 +1,11 @@
 <?php
-  // header("Location: dashboard.php");
-  // exit;
   $root = "";
   $page = "login";
-  $pageName = "CLAS UF Online: PaCE";
-  $key = "pace_admin";
-  require("{$root}include/header/header.php");
-  require("{$root}include/db.php");
+  $pageName = "CLAS UF Online";
+  require("{$root}include/header.php");
   if (isset($_POST['submit'])) {
-    // CREATE USERS
     $username = $_POST['username'];
     $password = $_POST['password'];
-    // $query  = "INSERT INTO pace_users (username, password) VALUES ".
-    // $query .= "('" . $username . "', ";
-    // $query .= "'" . $password . "')";
-    // $createPassword = mysqli_query($connection, $query);
-    // if (!$createPassword) die ("query failed");
-
     $readCredentials = "SELECT * FROM pace_users";
     $readEm = mysqli_query($connection, $readCredentials);
     if (!$readEm) die ("query failed");
