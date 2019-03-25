@@ -1,0 +1,10 @@
+#stripText textarea {
+  border: 1px solid #555;
+  margin: 2.81rem auto;
+}
+
+#stripText textarea::placeholder{
+  font-size: .78rem;
+  line-height: 1;
+  color: #555;
+}

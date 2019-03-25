@@ -1,13 +1,15 @@
 <?php
   $root  = "../";
+  $path  = "";
   $title = "Petitions";
   $page  = "petitions";
-  $style = "";
+  $style = "petition";
   require("{$root}include/header.php");
  ?>
 
  <div class="page">
    <?php include("{$path}include/nav.php"); ?>
+   <img src="<?php echo $path; ?>image/warning.png" alt="">
 
    <div id="studentInformation">
      <table>

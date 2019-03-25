@@ -10,7 +10,9 @@
 
   <div class="page">
     <?php include("{$path}include/nav.php"); ?>
-
+    <?php if (true) { ?>
+      <p>there are zero records</p>
+    <?php } ?>
   </div><!-- page -->
 
 
