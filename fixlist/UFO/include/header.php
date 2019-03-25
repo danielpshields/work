@@ -7,17 +7,17 @@ include("{$root}include/functions.php");
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php echo ucfirst($pageName); ?></title>
+    <title>UF Online <?php echo ucfirst($title); ?></title>
     <link rel="shortcut icon" type="image/x-ico" href="<?php echo $root; ?>image/favicon.ico"/>
     <link rel="stylesheet" href="<?php echo $root; ?>css/master.css">
     <link rel="stylesheet" href="<?php echo $root; ?>css/<?php echo $page; ?>.css">
-    <link rel="stylesheet" href="<?php echo $root; ?>css/<?php echo $style; ?>.css">
+    <link rel="stylesheet" href="<?php echo $path; ?>css/<?php echo $style; ?>.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
   <body>
     <div class="secondaryNav">
       <div class="container">
-        <h2><?php echo $pageName; ?></h2>
+        <h2>UF Online <?php echo $title; ?></h2>
       <!--  <span><a id="sampleTicket" href="<?php //echo $root; ?>ticket/transition/">Sample Ticket</a></span>-->
       </div><!-- container -->
     </div>

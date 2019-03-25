@@ -20,7 +20,13 @@
     return substr($email, 0, -$truncate);
   }
 
-  $serverEmail = $_SERVER['HTTP_UFSHIB_MAIL'];
+
+  if (isset($_SERVER['HTTP_UFSHIB_MAIL'])) {
+    $serverEmail = $_SERVER['HTTP_UFSHIB_MAIL'];
+  } else {
+    $serverEmail = "";
+  }
+
 
   function credentialCheck() {
     foreach ($users as $key) {

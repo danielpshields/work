@@ -46,6 +46,11 @@ header {
   margin: auto;
 }
 
+.page {
+  max-width: 61.25rem;
+  margin: auto;
+}
+
 h1 {
   color: #333;
   font-size: .8em;
@@ -399,6 +404,11 @@ p.tiny {
   color: #333;
   background: #e6e6e6;
 }
+
+.gray {
+  color: #333;
+}
+
 
 .text {
   padding-bottom: 0;

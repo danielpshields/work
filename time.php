@@ -14,7 +14,7 @@
   </head>
   <body>
 
-    = 36 hours
+    = 28 hours
 
 
     <input type="button" name="start" value="start">
