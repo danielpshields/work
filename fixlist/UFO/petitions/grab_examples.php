@@ -38,5 +38,15 @@
   Reason for Appt: Summer/Fall courses; field school questions
 </pre>
 
+<pre>
+  Appointment Notes:
+  Name:  Alexandra (Alex) Schmidt
+  Major:  CJ
+  Phone:  813-541-4414
+  UF Email:  schmidta@ufl.edu
+  Status:  Continuing
+  Reason for Appt: Reg question
+</pre>
+
   </div><!-- page -->
 <?php require("{$root}include/footer.php") ;?>

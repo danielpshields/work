@@ -7,3 +7,16 @@
     <li><b><a href="<?php echo $root; ?>petitions/create.php">create petition</a></b></li>
   </ul>
 </nav>
+
+<?php
+    $holdText =
+    "Appointment Notes:\r
+    Name:  First (Nickname) Last\n
+    Major:  MJR\n
+    Phone:  000-000-0000\n
+    UF Email:  address@ufl.edu\n
+    Status:  Continuing\n
+    Reason for Appt: Reg question\n
+    Other: Additional Information\n
+    ";
+?>

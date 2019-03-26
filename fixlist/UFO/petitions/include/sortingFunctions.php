@@ -1,8 +1,9 @@
 <?php
 
-  $stripped = true;
+  $infoUnsorted = false;
   $post  = $_POST['stripText'];
   function getName($post, $start, $end){
+    $post = " " . $post;
     $initial   = strpos($post,"Name:");
     $initial   = $initial + strlen("Name:");
     $inbetween = strpos($post,"Major:",$initial) - $initial;

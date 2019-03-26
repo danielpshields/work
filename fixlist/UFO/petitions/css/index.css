@@ -1,0 +1,39 @@
+.shell {
+  border: 1px solid #999;
+  max-width: 20rem;
+  margin: auto;
+  box-shadow: .3rem .3rem .8rem #c0c0c0;
+  border-radius: .13rem;
+
+}
+
+.shell ul {
+  margin: 0;
+  padding: 0;
+}
+
+.shell ul li {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  list-style: none;
+}
+
+.shell ul li a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding: 1rem 0;
+  background: #f1f1f1;
+}
+
+.shell:hover {
+  border: 1px solid #444;
+  font-weight: bold;
+}
+
+.shell ul li a:hover {
+  background: #fff;
+  color: #356bc4;
+}

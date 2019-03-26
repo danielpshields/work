@@ -9,6 +9,12 @@
   color: #555;
 }
 
-#setUp input {
-  width: 400px;
+#studentInformation {
+  margin-bottom: 2.81rem;
+}
+
+table, tr, th, td {
+  border: 1px solid #999;
+  padding: .8rem;
+  border-collapse: collapse;
 }
