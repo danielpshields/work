@@ -1,11 +1,12 @@
 <?php
 
+// $server   = "ldaps://ldap.ad.ufl.edu";
+// $server   = "ldaps://UFDC-SSRB02.ad.ufl.edu";
+
 $username = "" /* real credentials usually go here */;
 $password = "" /* real credentials usually go here */;
 
 $server   = "dir.ufl.edu";
-// $server   = "ldaps://ldap.ad.ufl.edu";
-// $server   = "ldaps://UFDC-SSRB02.ad.ufl.edu";
 
 $ds=ldap_connect($server);
 

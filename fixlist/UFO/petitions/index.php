@@ -8,7 +8,6 @@
  ?>
 
   <div class="page">
-    <h2 class="gray">Petitions</h2>
     <?php include("{$path}include/nav.php"); ?>
 
     <p>

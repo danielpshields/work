@@ -2,7 +2,7 @@
   $root  = "../";
   $path  = "";
   $title = "Petition Records";
-  $page  = "";
+  $page  = "petitions";
   $style = "";
   require("{$root}include/header.php");
  ?>
