@@ -58,30 +58,32 @@
 
    <?php } else { ?>
 
+     <?php if (!isset($advisorLoggedIn)) { ?>
     <img src="<?php echo $path; ?>image/warning.png" alt="">
     <p><i>form status</i>
       the columns as stages, initialized, sent, receieved, commented, approved, denied
     </p>
+    <?php } ?>
 
     <div id="studentInformation">
       <table>
         <tr>
           <td><b>Name:</b></td>
-          <td><?php echo $student_name; ?></td>
+          <td><input type="text" value="<?php echo $student_name; ?>"></td>
         </tr>
         <?php if (!empty($student_ID)) { ?>
         <tr>
           <td><b>UFID:</b></td>
-          <td><?php echo $student_ID;  ?></td>
+          <td><input type="text" value="<?php echo $student_ID;  ?>"></td>
         </tr>
         <?php } ?>
         <tr>
           <td><b>Email:</b></td>
-          <td><?php echo $student_email; ?></td>
+          <td><input type="text" value="<?php echo $student_email; ?>"></td>
         </tr>
         <tr>
           <td><b>Phone:</b></td>
-          <td><?php echo $student_phone; ?></td>
+          <td><input type="text" value="<?php echo $student_phone; ?>"></td>
         </tr>
         <tr>
           <td colspan="2"><?php echo "date: " . $date_auto; ?></td>
@@ -100,19 +102,41 @@
      </thead>
      <tbody>
        <tr>
-         <td>A</td>
-         <td>Petition to drop the following course(s) from the current term by the published deadline:
-           Course Prefix/Code: 		Course #:
-           Course Prefix/Code: 	  Course #:
+         <!-- <td>A <img src="image/icons/rain.png"></td> -->
+         <td>A <img src="image/icons/cancel.png"></td>
+         <td>
+
+           <p><b>Petition to drop</b> the following course(s) from the current term by the published deadline:</p>
+
+<?php $i = 0; ?>
+
+           <form class="" action="index.html" method="post">
+             <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
+             <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
+
+             <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
+             <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
+
+             <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
+             <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
+
+             <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
+             <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
+
+             <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
+             <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
+           </form>
+
          </td>
          <td>
-           <li>Submit by the current semester’s published deadline, this can be found in the UF Undergraduate Catalog under “Dates and Deadlines.”</li>
-
-         **You should continue participating in the course(s) until you know the results of your petition.**
+           <ul>
+             <li>Submit by the current semester’s published deadline, this can be found in the UF Undergraduate Catalog under “Dates and Deadlines.”</li>
+           </ul>
+           <p>**You should continue participating in the course(s) until you know the results of your petition.**</p>
          </td>
        </tr>
        <tr>
-         <td>B</td>
+         <td>B <img src="image/icons/handcuffs.png"></td>
          <td>Continuation in CLAS on Academic Probation
            Major: ____________
          </td>
@@ -123,7 +147,7 @@
          </td>
        </tr>
        <tr>
-         <td>C</td>
+         <td>C <img src="image/icons/route.png"></td>
          <td>
            Continuation in CLAS Major
 
@@ -135,7 +159,7 @@
          <td>•	Reach out to your undergraduate coordinator for your major and request they submit electronic feedback.</td>
        </tr>
        <tr>
-         <td>D</td>
+         <td>D <img src="image/icons/escape.png"></td>
          <td>Petition to Break Residency</td>
          <td>
            •	If your petition is approved:
@@ -143,13 +167,13 @@
          </td>
        </tr>
        <tr>
-         <td>E</td>
+         <td>E <img src="image/icons/moving.png"></td>
          <td>Dual Enroll at ________________ to take
          (institution)</td>
          <td>&nbsp;</td>
        </tr>
        <tr>
-         <td>F</td>
+         <td>F <img src="image/icons/information.png"></td>
          <td>Other<br>____</td>
          <td>•	Discuss your petition with your academic advisor to determine if you should use this form. The advisor will instruct you what to list underneath “Other” if reasons necessitate a petition. Examples of “Other” reasons: S/U after the deadline, Catalog Year change, additional flexible learning classes</td>
        </tr>
