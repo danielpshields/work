@@ -4,44 +4,63 @@
   $title = "Create Petition";
   $page  = "petitions";
   $style = "create";
+  $tabIndex = 1;
   $post  = "";
   $student_name  = "";
   $student_email = "";
   $student_phone = "";
-  $id = "";
+  $student_ID    = "";
   $infoUnsorted  = true;
   require("{$root}include/header.php");
-  if (isset($_POST['submit'])) {
-    include("{$path}include/sortingFunctions.php");
+
+  if (isset($_POST['strip_submit'])) {
+    $infoUnsorted = false;
+    include("{$path}include/stripSubmit.php");
+  }
+
+  if (isset($_POST['manual_submit'])) {
+    $infoUnsorted = false;
+    $student_name  = $_POST['manual_student_name'];
+    $student_email = $_POST['manual_student_email'];
+    $student_phone = $_POST['manual_student_phone'];
+    $student_ID    = $_POST['manual_student_id'];
   }
  ?>
  <div class="page">
    <?php include("{$path}include/nav.php"); ?>
 
+    <!-- only load the inputs if all empty -->
     <?php if ($infoUnsorted) { ?>
 
-      <form id="stripText" action="create.php" method="post">
-        <textarea name="stripText" rows="8" cols="80" placeholder="<?php echo $holdText; ?>" tabindex="1"></textarea>
-        <input class="submitButton" type="submit" name="submit" value="pull text" tabindex="2">
-      </form>
+      <div id="infoUnsorted">
 
-     <form id="setUp" action="create.php" method="post">
-       Name : <input type="text" name="" value="<?php echo $student_name; ?>"><br>
-       Email: <input type="text" name="" value="<?php echo $student_email; ?>"><br>
-       Phone: <input type="text" name="" value="<?php echo $student_phone; ?>"><br>
-       <input  class="submitButton"type="submit" name="submitText" value="submitText">
-     </form>
+        <form class="addInfoBox" action="create.php" method="post">
+          <h3>Advisior Notes <i>(Strip)</i></h3>
+          <input type="text" name="strip_student_id" value="" placeholder="12344321" tabindex="<?php echo $tabIndex++; ?>">
+          <p>UFID</p>
+          <textarea name="stripText" rows="8" placeholder="<?php echo $holdText; ?>" tabindex="<?php echo $tabIndex++; ?>"></textarea>
+          <input class="submitButton" type="submit" name="strip_submit" value="Pull Content" tabindex="<?php echo $tabIndex++; ?>">
+        </form>
 
-
+        <form class="addInfoBox" action="create.php" method="post">
+          <h3>Manual Input</h3>
+          <input type="text" name="manual_student_name"  value="" placeholder="Martha Gator" tabindex="<?php echo $tabIndex++; ?>">
+          <p>Name</p>
+          <input type="text" name="manual_student_id"    value="" placeholder="12344321" tabindex="<?php echo $tabIndex++; ?>">
+          <p>UFID</p>
+          <input type="text" name="manual_student_email" value="" placeholder="mgator@ufl.edu" tabindex="<?php echo $tabIndex++; ?>">
+          <p>Email</p>
+          <input type="text" name="manual_student_phone" value="" placeholder="202-555-0154" tabindex="<?php echo $tabIndex++; ?>">
+          <p>Phone</p>
+          <input class="submitButton" type="submit" name="manual_submit" value="Enter Text" tabindex="<?php echo $tabIndex++; ?>">
+        </form>
+      </div><!-- info unsorted -->
 
    <?php } else { ?>
 
-
-
     <img src="<?php echo $path; ?>image/warning.png" alt="">
     <p><i>form status</i>
-      <!-- the columns as stages, initialized, sent, receieved, commented, approved, denied -->
-
+      the columns as stages, initialized, sent, receieved, commented, approved, denied
     </p>
 
     <div id="studentInformation">
@@ -50,10 +69,10 @@
           <td><b>Name:</b></td>
           <td><?php echo $student_name; ?></td>
         </tr>
-        <?php if (!empty($id)) { ?>
+        <?php if (!empty($student_ID)) { ?>
         <tr>
           <td><b>UFID:</b></td>
-          <td><?php echo $UFID;  ?></td>
+          <td><?php echo $student_ID;  ?></td>
         </tr>
         <?php } ?>
         <tr>

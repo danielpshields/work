@@ -7,5 +7,6 @@ only nicole can approve
 contacted state is NULL from ticket creation in multiple locations
 
 [records/pending.php] mass differentiation? only send to two in list to test
-  - remove all, and just add back one by one
+  - remove all, and just add back one by one (seconded)
   - when email($pending) - the updated "removed" state does not revert the manually "removed"/popped student emails, leaving the pending.php field as empty
+  -

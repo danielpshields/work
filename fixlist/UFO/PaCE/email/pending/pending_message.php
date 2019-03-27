@@ -2,7 +2,7 @@
 
   <p>Dear <?php echo ucfirst(strtolower($recipeintName)); ?>,</p>
 
-  <p><a href="https://advising.ufl.edu/UFO/PaCE/ticket/transition/index.php">https://advising.ufl.edu/UFO/PaCE/transition/</a><br><b>PaCE Transition Contract</b></p>
+  <p><a href="https://www.advising.ufl.edu/UFO/PaCE/ticket/transition/index.php">https://www.advising.ufl.edu/UFO/PaCE/ticket/transition/index.php</a><br><b>PaCE Transition Contract</b></p>
 
   <p>Your PaCE Transition Contract is still outstanding. Please follow the link to fill out the form.</p>
 

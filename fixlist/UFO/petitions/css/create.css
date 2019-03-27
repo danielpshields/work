@@ -1,20 +1,75 @@
-#stripText textarea {
-  border: 1px solid #555;
-  margin: 2.81rem auto;
+
+/* first major container */
+#infoUnsorted {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 3rem;
 }
 
-#stripText textarea::placeholder{
+/* form holding containers for pulling name, email and phone number from advsing notes  */
+.addInfoBox {
+  width: 44%;
+  border: .3rem solid #c0c0c0;
+  border-radius: .3rem;
+  box-shadow: .3rem .3rem 1rem #c0c0c0;
+}
+
+.addInfoBox h3 {
+  color: #494949;
+  font-weight: bold;
+  margin: 1rem auto 1.5rem auto;
+  font-size: 1.5rem;
+}
+
+.addInfoBox textarea {
+  border: 1px solid #c0c0c0;
+  width: 84%;
+  margin: 0 auto 2.81rem auto;
+}
+
+.addInfoBox textarea::placeholder{
   font-size: .78rem;
   line-height: 1;
   color: #555;
 }
 
+.addInfoBox input[type=text] {
+  width: 84%;
+  display: block;
+  margin: 0 auto .5rem auto;
+  padding: .7rem 0 .7rem .7rem;
+}
+
+.addInfoBox input[type=text]::placeholder{
+  font-family: monospace;
+}
+
+.addInfoBox p {
+  margin-bottom: 1.2rem;
+  padding-left: .25rem;
+  font-size: .65rem;
+  /* color: #333; */
+}
+
+
+.addInfoBox .submitButton {
+
+}
+
+/* start Page ii  start Page ii  start Page ii  start Page ii  */
+
 #studentInformation {
+  display: block;
   margin-bottom: 2.81rem;
 }
+
 
 table, tr, th, td {
   border: 1px solid #999;
   padding: .8rem;
   border-collapse: collapse;
+}
+
+#petitionTable {
+  display: block;
 }

@@ -9,20 +9,27 @@ $password = "KjTExb96E2";
 // $username = "";
 // $password = "";
 
-$server   = "dir.ufl.edu";
+// $server   = "dir.ufl.edu";
 // $server   = "ldaps://ldap.ufl.edu";
 // $server   = "ldaps://UFDC-SSRB02.ad.ufl.edu";
+
+$ds=ldap_connect($server);
+
+// CN=TSS-AAC-SE-LDAP,OU=_Accounts-Service,OU=AAC,OU=Customers,OU=TSS,OU=
+// > Units,OU=UFIT,OU=Departments,OU=UF,DC=ad,DC=ufl,DC=edu
 
 
 $ds=ldap_connect($server);  // must be a valid LDAP servere
 
+ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3);
 
 
 if ($ds) {
 
     $r=ldap_bind($ds, $username, $password);     // this is an "anonymous" bind, typically
 
-     $sr=ldap_search($ds, "ou=People, dc=ufl, dc=edu", "uid=acatalano2");
+     $sr=ldap_search($ds, "CN=TSS-AAC-SE-LDAP,OU=_Accounts-Service,OU=AAC,OU=Customers,OU=TSS,OU=
+     > Units,OU=UFIT,OU=Departments,OU=UF,DC=ad,DC=ufl,DC=edu", "uid=acatalano2");
 
     $info = ldap_get_entries($ds, $sr);
 
@@ -37,9 +44,9 @@ if ($ds) {
         // echo $info[$i]["employeenumber"][0] . "<br>";
         // echo $info[$i]["number"][0] . "<br>";
         // echo $info[$i]["telephonenumber"][0] . "<br>";
-        // echo "<pre>";
-        // print_r($info[$i]);
-        // echo "</pre>";
+        echo "<pre>";
+        print_r($info[$i]);
+        echo "</pre>";
     }
 
     // echo "<pre>";
