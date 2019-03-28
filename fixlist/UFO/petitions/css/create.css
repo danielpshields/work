@@ -61,22 +61,36 @@
 /* start Page ii  start Page ii  start Page ii  start Page ii  */
 
 
-#page_ii h2 {
-background: black;
+#page_ii h3 {
+  max-width: none;
+  width: 100%;
+  background: #a0a0a0;
 }
 
-#HEADSECTION {
-  DISPLAY: FLEX;
+#ticket_head  {
+  display: flex;
+  justify-content: space-between;
 }
 
+#ticket_option_selection {
+  width: 70%;
+  background: red;
+}
+
+ #ticket_option_selection {
+   display: flex;
+   justify-content: space-around;
+ }
 #FILLEDTICKETSTUFF {
   border: 1px dashed gray;
 }
 
 
-#studentInformation {
+#student_information {
   display: block;
   margin-bottom: 2.81rem;
+  background: blue;
+  width: 17.6rem;
 }
 
 

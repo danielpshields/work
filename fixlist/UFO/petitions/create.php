@@ -30,7 +30,7 @@
    <?php include("{$path}include/nav.php"); ?>
 
     <!-- only load the inputs if all empty -->
-    <?php if ($infoUnsorted) { ?>
+    <?php if (!$infoUnsorted) { ?>
 
       <div id="infoUnsorted">
 
@@ -57,9 +57,8 @@
 
       </div><!-- unsorted information section -->
 
-   <?php } else {
+   <?php } else { ?>
 
-      if (!isset($advisorLoggedIn)) { ?>
 
         <ul id="statusBar">
           <li style="background: #7AC0FF;">initialized</li>
@@ -68,135 +67,150 @@
           <li style="background: #FFC470;">approved/denied</li>
         </ul>
 
-    <?php } ?>
 
     <div id="page_ii">
 
+      <h3>Ticket Information</h3>
+
+      <div id="ticket_head">
 
 
-    <h2 class="gray">Ticket Information</h2>
+        <div id="student_information">
+          <table>
+            <tr>
+              <td><b>Name:</b></td>
+              <td><input type="text" value="<?php echo $student_name; ?>"></td>
+            </tr>
+            <?php if (!empty($student_ID)) { ?>
+            <tr>
+              <td><b>UFID:</b></td>
+              <td><input type="text" value="<?php echo $student_ID;  ?>"></td>
+            </tr>
+            <?php } ?>
+            <tr>
+              <td><b>Email:</b></td>
+              <td><input type="text" value="<?php echo $student_email; ?>"></td>
+            </tr>
+            <tr>
+              <td><b>Phone:</b></td>
+              <td><input type="text" value="<?php echo $student_phone; ?>"></td>
+            </tr>
+            <tr>
+              <td colspan="2"><?php echo "date: " . $date_auto; ?></td>
+            </tr>
+          </table>
+        </div><!-- student information -->
 
-    <div id="studentInformation">
+        <div id="ticket_option_selection">
+          <?php $option = 0; ?>
+          <div class=""><?php echo $option++; ?>              <p style="color: green;">&#10004;</p>
+</div>
+          <div class=""><?php echo $option++; ?></div>
+          <div class=""><?php echo $option++; ?></div>
+          <div class=""><?php echo $option++; ?></div>
+          <div class=""><?php echo $option++; ?></div>
+          <div class=""><?php echo $option++; ?></div>
+        </div><!-- ticket option selection -->
+
+      </div><!-- ticket Head -->
 
 
-      <table>
-        <tr>
-          <td><b>Name:</b></td>
-          <td><input type="text" value="<?php echo $student_name; ?>"></td>
-        </tr>
-        <?php if (!empty($student_ID)) { ?>
-        <tr>
-          <td><b>UFID:</b></td>
-          <td><input type="text" value="<?php echo $student_ID;  ?>"></td>
-        </tr>
-        <?php } ?>
-        <tr>
-          <td><b>Email:</b></td>
-          <td><input type="text" value="<?php echo $student_email; ?>"></td>
-        </tr>
-        <tr>
-          <td><b>Phone:</b></td>
-          <td><input type="text" value="<?php echo $student_phone; ?>"></td>
-        </tr>
-        <tr>
-          <td colspan="2"><?php echo "date: " . $date_auto; ?></td>
-        </tr>
-      </table>
-    </div><!-- student information -->
+     <table id="petitionTable">
+       <thead>
+         <tr>
+           <th>CIRCLE</th>
+           <th>COMPLETE APPROPRIATE SECTION</th>
+           <th>TO HAVE YOUR PETITION REVIEWED, YOU MUST:</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <!-- <td>A <img src="image/icons/rain.png"></td> -->
+           <td>A <img src="image/icons/cancel.png"></td>
+           <td>
 
-
-   <table id="petitionTable">
-     <thead>
-       <tr>
-         <th>CIRCLE</th>
-         <th>COMPLETE APPROPRIATE SECTION</th>
-         <th>TO HAVE YOUR PETITION REVIEWED, YOU MUST:</th>
-       </tr>
-     </thead>
-     <tbody>
-       <tr>
-         <!-- <td>A <img src="image/icons/rain.png"></td> -->
-         <td>A <img src="image/icons/cancel.png"></td>
-         <td>
-
-           <p><b>Petition to drop</b> the following course(s) from the current term by the published deadline:</p>
+             <p><b>Petition to drop</b> the following course(s) from the current term by the published deadline:</p>
 
 <?php $i = 0; ?>
 
-          <p id="addCoursesOption"><i>(+) add courses</i></p>
-           <form action="index.html" method="post">
+            <p id="addCoursesOption"><i>(+) add courses</i></p>
+             <form action="index.html" method="post">
 
-             <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
-             <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
+               <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
+               <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
 
-             <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
-             <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
+               <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
+               <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
 
-             <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
-             <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
+               <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
+               <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
 
-             <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
-             <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
+               <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
+               <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
 
-             <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
-             <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
-           </form>
+               <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
+               <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
+             </form>
 
-         </td>
-         <td>
-           <p style="color: green;">&#10004;</p>
-         </td>
-       </tr>
-       <tr>
-         <td>B <img src="image/icons/handcuffs.png"></td>
-         <td>Continuation in CLAS on Academic Probation
-           Major: ____________
-         </td>
-         <td>
-           •	Meet with an advisor to discuss:
-           	GPA needed to remove all deficit points
-           	A realistic plan of how to get on-track for your major by the end of your next term of enrollment
-         </td>
-       </tr>
-       <tr>
-         <td>C <img src="image/icons/route.png"></td>
-         <td>
-           Continuation in CLAS Major
+           </td>
+           <td>
+             <input type="checkbox" name="" value="">
+             <p>add <b>drop</b> stipulation</p>
 
-           Off-track two consecutive terms in  __(major)__
+             <p>AND THEN THIS COLUMN DISAPPEARS</p>
 
-           ☐Two unsuccessful attempts of required course(s) for major:
-           Course(s) __ __
-         </td>
-         <td>•	Reach out to your undergraduate coordinator for your major and request they submit electronic feedback.</td>
-       </tr>
-       <tr>
-         <td>D <img src="image/icons/escape.png"></td>
-         <td>Petition to Break Residency</td>
-         <td>
-           •	If your petition is approved:
-             	Submit a transient form at www.floridashines.org for state colleges and universities or attach a hard copy transient form found at http://registrar.ufl.edu/forms.html for private or out-of-state institutions.
-         </td>
-       </tr>
-       <tr>
-         <td>E <img src="image/icons/moving.png"></td>
-         <td>Dual Enroll at ________________ to take
-         (institution)</td>
-         <td>&nbsp;</td>
-       </tr>
-       <tr>
-         <td>F <img src="image/icons/information.png"></td>
-         <td>Other<br>____</td>
-         <td>•	Discuss your petition with your academic advisor to determine if you should use this form. The advisor will instruct you what to list underneath “Other” if reasons necessitate a petition. Examples of “Other” reasons: S/U after the deadline, Catalog Year change, additional flexible learning classes</td>
-       </tr>
-     </tbody>
-   </table>
+           </td>
+         </tr>
+         <tr>
+           <td>B <img src="image/icons/handcuffs.png"></td>
+           <td>Continuation in CLAS on Academic Probation
+             Major: ____________
+           </td>
+           <td>
+             •	Meet with an advisor to discuss:
+             	GPA needed to remove all deficit points
+             	A realistic plan of how to get on-track for your major by the end of your next term of enrollment
+           </td>
+         </tr>
+         <tr>
+           <td>C <img src="image/icons/route.png"></td>
+           <td>
+             Continuation in CLAS Major
 
-   Decision Date:<br>
-   Approved  ☐	Denied ☐<br>
-   Deferred/Resubmit by:
+             Off-track two consecutive terms in  __(major)__
 
-   <h3>Comments and Conditions:</h3>
+             ☐Two unsuccessful attempts of required course(s) for major:
+             Course(s) __ __
+           </td>
+           <td>•	Reach out to your undergraduate coordinator for your major and request they submit electronic feedback.</td>
+         </tr>
+         <tr>
+           <td>D <img src="image/icons/escape.png"></td>
+           <td>Petition to Break Residency</td>
+           <td>
+             •	If your petition is approved:
+               	Submit a transient form at www.floridashines.org for state colleges and universities or attach a hard copy transient form found at http://registrar.ufl.edu/forms.html for private or out-of-state institutions.
+           </td>
+         </tr>
+         <tr>
+           <td>E <img src="image/icons/moving.png"></td>
+           <td>Dual Enroll at ________________ to take
+           (institution)</td>
+           <td>&nbsp;</td>
+         </tr>
+         <tr>
+           <td>F <img src="image/icons/information.png"></td>
+           <td>Other<br>____</td>
+           <td>•	Discuss your petition with your academic advisor to determine if you should use this form. The advisor will instruct you what to list underneath “Other” if reasons necessitate a petition. Examples of “Other” reasons: S/U after the deadline, Catalog Year change, additional flexible learning classes</td>
+         </tr>
+       </tbody>
+     </table>
+
+     Decision Date:<br>
+     Approved  ☐	Denied ☐<br>
+     Deferred/Resubmit by:
+
+     <h3>Comments and Conditions:</h3>
 
   <?php } ?>
 
