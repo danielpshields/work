@@ -35,14 +35,6 @@
       <div id="infoUnsorted">
 
         <form class="addInfoBox" action="create.php" method="post">
-          <h3>Advisior Notes <i>(Strip)</i></h3>
-          <input type="text" name="strip_student_id" value="" placeholder="12344321" tabindex="<?php echo $tabIndex++; ?>">
-          <p>UFID</p>
-          <textarea name="stripText" rows="8" placeholder="<?php echo $holdText; ?>" tabindex="<?php echo $tabIndex++; ?>"></textarea>
-          <input class="submitButton" type="submit" name="strip_submit" value="Pull Content" tabindex="<?php echo $tabIndex++; ?>">
-        </form>
-
-        <form class="addInfoBox" action="create.php" method="post">
           <h3>Manual Input</h3>
           <input type="text" name="manual_student_name"  value="" placeholder="Martha Gator" tabindex="<?php echo $tabIndex++; ?>">
           <p>Name</p>
@@ -54,18 +46,39 @@
           <p>Phone</p>
           <input class="submitButton" type="submit" name="manual_submit" value="Enter Text" tabindex="<?php echo $tabIndex++; ?>">
         </form>
-      </div><!-- info unsorted -->
 
-   <?php } else { ?>
+        <form class="addInfoBox" action="create.php" method="post">
+          <h3>Advisior Notes <i>(Strip)</i></h3>
+          <input type="text" name="strip_student_id" value="" placeholder="12344321" tabindex="<?php echo $tabIndex++; ?>">
+          <p>UFID</p>
+          <textarea name="stripText" rows="8" placeholder="<?php echo $holdText; ?>" tabindex="<?php echo $tabIndex++; ?>"></textarea>
+          <input class="submitButton" type="submit" name="strip_submit" value="Pull Content" tabindex="<?php echo $tabIndex++; ?>">
+        </form>
 
-     <?php if (!isset($advisorLoggedIn)) { ?>
-    <img src="<?php echo $path; ?>image/warning.png" alt="">
-    <p><i>form status</i>
-      the columns as stages, initialized, sent, receieved, commented, approved, denied
-    </p>
+      </div><!-- unsorted information section -->
+
+   <?php } else {
+
+      if (!isset($advisorLoggedIn)) { ?>
+
+        <ul id="statusBar">
+          <li style="background: #7AC0FF;">initialized</li>
+          <li style="background: #8985FF;">sent</li>
+          <li style="background: #FFDD70;">receieved/commented</li>
+          <li style="background: #FFC470;">approved/denied</li>
+        </ul>
+
     <?php } ?>
 
+    <div id="page_ii">
+
+
+
+    <h2 class="gray">Ticket Information</h2>
+
     <div id="studentInformation">
+
+
       <table>
         <tr>
           <td><b>Name:</b></td>
@@ -110,7 +123,9 @@
 
 <?php $i = 0; ?>
 
-           <form class="" action="index.html" method="post">
+          <p id="addCoursesOption"><i>(+) add courses</i></p>
+           <form action="index.html" method="post">
+
              <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
              <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
 
@@ -129,10 +144,7 @@
 
          </td>
          <td>
-           <ul>
-             <li>Submit by the current semester’s published deadline, this can be found in the UF Undergraduate Catalog under “Dates and Deadlines.”</li>
-           </ul>
-           <p>**You should continue participating in the course(s) until you know the results of your petition.**</p>
+           <p style="color: green;">&#10004;</p>
          </td>
        </tr>
        <tr>
@@ -187,6 +199,9 @@
    <h3>Comments and Conditions:</h3>
 
   <?php } ?>
+
+    </div><!-- page_ii -->
+
   </div><!-- page -->
 
   <!-- <input type="submit" name="createPetition" value="Create Petition"> -->

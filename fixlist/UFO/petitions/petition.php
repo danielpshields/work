@@ -9,6 +9,45 @@
 
  <div class="page">
    <?php include("{$path}include/nav.php"); ?>
+
+
+   <?php if (!isset($hide)) { ?>
+
+
+     <div id="a_drop">
+
+       1. display courses || options for courses
+
+
+       Submit by the current semester’s published deadline, this can be found in the <a href="#" target="_blank">UF Undergraduate Catalog under “Dates and Deadlines.”</a>
+       **You should continue participating in the course(s) until you know the results of your petition.**
+     </div>
+
+     <div id="b_">
+
+     </div>
+
+     <div id="c_">
+
+     </div>
+
+     <div id="d_">
+
+     </div>
+
+     <div id="e_">
+
+     </div>
+
+     <div id="f_">
+
+     </div>
+
+
+
+
+   <?php } ?>
+
    <img src="<?php echo $path; ?>image/warning.png" alt="">
 
    <div id="studentInformation">

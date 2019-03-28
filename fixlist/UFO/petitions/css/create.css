@@ -57,6 +57,22 @@
 }
 
 /* start Page ii  start Page ii  start Page ii  start Page ii  */
+/* start Page ii  start Page ii  start Page ii  start Page ii  */
+/* start Page ii  start Page ii  start Page ii  start Page ii  */
+
+
+#page_ii h2 {
+background: black;
+}
+
+#HEADSECTION {
+  DISPLAY: FLEX;
+}
+
+#FILLEDTICKETSTUFF {
+  border: 1px dashed gray;
+}
+
 
 #studentInformation {
   display: block;
@@ -72,4 +88,17 @@ table, tr, th, td {
 
 #petitionTable {
   display: block;
+}
+
+#statusBar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+}
+
+#statusBar li {
+  width: 25%;
+  list-style: none;
+  text-align: center;
 }

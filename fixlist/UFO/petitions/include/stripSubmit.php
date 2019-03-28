@@ -23,7 +23,7 @@
     }
 
     //  get email
-    if (strpos($value, "@ufl.edu")) {
+    if (preg_match('/@.*./', $value) == true) {
       $student_email = $value;
     }
 
