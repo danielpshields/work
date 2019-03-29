@@ -30,7 +30,7 @@
    <?php include("{$path}include/nav.php"); ?>
 
     <!-- only load the inputs if all empty -->
-    <?php if (!$infoUnsorted) { ?>
+    <?php if ($infoUnsorted) { ?>
 
       <div id="infoUnsorted">
 

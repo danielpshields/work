@@ -4,7 +4,7 @@ make the sortNav numbers links to their respective Pages -- eliminate the duplic
 show submitted status on the majors layout page
 only nicole can approve
 
-contacted state is NULL from ticket creation in multiple locations
+contacted state is NULL from ticket creation in multiple locations (SECONDED) this matters for updates
 
 [records/pending.php] mass differentiation? only send to two in list to test
   - remove all, and just add back one by one (seconded)
