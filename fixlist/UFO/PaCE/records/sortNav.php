@@ -49,7 +49,7 @@
     <!-- <form id="searchStudent" action="<?php // echo $root; ?>records/ldap.php" method="post"> -->
     <form id="searchStudent" action="<?php echo $root; ?>records/record.php" method="post">
       <input id="searchEmail" type="text" name="searchFor" value="" placeholder="email or student ID" required>
-      <input id="searchSubmit" type="submit">
+      <input id="searchSubmit" type="submit" name="submitSearchFor" value="Submit">
     </form>
 
     <ul id="recordsView_desktop">

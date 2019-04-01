@@ -1,6 +1,6 @@
 
 
-  <p>Dear <?php echo ucfirst(strtolower($name)); ?>!</p>
+  <p>Dear <?php echo ucfirst(strtolower($name)); ?>,</p>
 
   <p>https://advising.ufl.edu/yourTicket/<br><b>PaCE Transition Contract</b></p>
 

@@ -2,11 +2,13 @@
 
   <p>Dear <?php echo ucfirst(strtolower($recipeintName)); ?>,</p>
 
-  <p><a href="https://www.advising.ufl.edu/UFO/PaCE/ticket/transition/index.php">https://www.advising.ufl.edu/UFO/PaCE/ticket/transition/index.php</a><br><b>PaCE Transition Contract</b></p>
+  <p>You have not yet completed your PaCE transition contract. Please utilize this link to fill out the form: <a href="https://www.advising.ufl.edu/UFO/PaCE/ticket/transition/index.php">https://advising.ufl.edu/UFO/PaCE/transition/</a></p>
 
-  <p>Your PaCE Transition Contract is still outstanding. Please follow the link to fill out the form.</p>
+  <p>You have a registration hold on your account, and this hold will prevent future registration until you complete the form. Please complete this form ASAP! If you are intending to change majors, and do not want to transition to campus in your current CLAS major, please let me know, and I will no longer send you email reminders about completing the form.</p>
 
-  <p>Please let me know if you have any questions or are unsure about anything!</p>
+  <p>Please let me know if you have any questions or are unsure about anything! If you&#39;d like to schedule an appointment with me, you can do so by calling us at 352-294-2205.</p>
+
+  <p>Best,</p>
 
   <p class="signature"><b><span class="red">Nicole Raymond</span> | <span class="blue">Academic Advisor, UF Online and PaCE</span></b><br>
   University of Florida College of Liberal Arts &amp; Sciences | Academic Advising Center<br>

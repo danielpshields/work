@@ -1,6 +1,7 @@
 <?php
 
 $to        = $email;
+
 $subject   = 'PaCE Transition Reminder';
 
 $message   = messageContent("{$emailType}content.php");

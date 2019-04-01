@@ -35,8 +35,8 @@
       $hourTime     = $breakCreated[1];
       ?>
         <div class="barrier">
-          <dl>
-            <dt>
+          <!-- <dl>
+            <dt> -->
               <div class="barrierHeader">
                 <?php
                   if ($submitted == 0) { $formUpdated = false; ?>
@@ -49,14 +49,11 @@
                   <p class="ufoSelected">UF Online</p>
                 <?php }?>
                 <div class="studentIdentification">
-                  <p class="studentID"><?php echo $studentID; ?></p>
+                  <p><?php echo $studentID; ?></a></p>
                   <h3><?php echo $student_email; ?></h3>
                 </div><!-- student Identification -->
                 <p class="timeCreated"><?php echo $monthDay; ?></p>
               </div><!-- barrier header -->
-            </dt><!-- Barrier Header Dropdown -->
-            <dd>
-              <?php include("{$root}records/guts.php") ?>
               <?php
                 if ($formUpdated) {
                   $break_submitted = explode("|", $formSubmitted);
@@ -66,12 +63,7 @@
                   <div class="formCreated">
                     <p>student submitted: <b><?php echo $monthDay . "</b> at <b>" . $hourTime; ?></i></b></p>
                   </div><!-- form created -->
-              <?php } else { ?>
-                <div class="formCreated">
-                  <p>ticket is pending</p>
-                </div><!-- form created -->
-              <?php }?>
-            </dd>
+              <?php } ?>
             <div class="notes">
               <?php
               $loopNotes    = "SELECT * FROM pace_student_notes WHERE email = ";
@@ -92,7 +84,7 @@
             </a></p>
               <div class="note_variants">
                 <div class="variantsContainer">
-                  <p><!--<a href="<?php echo $root; ?>records/edit.php?id=<?php echo $studentID; ?>&email=<?php echo htmlentities($student_email); ?>">-->edit<!--</a>--></p>
+                  <p>null</p>
                   <p>
                     <?php
                       if ($submitted == 0) {
@@ -107,7 +99,7 @@
                 </div><!-- variants container -->
               </div><!-- note variants -->
             </div>
-          </dl>
+          <!-- </dl> -->
         </div><!-- master result Barrier -->
 
         <?php if (empty($row)) { echo "empty row"; } ?>

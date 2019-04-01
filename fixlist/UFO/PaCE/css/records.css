@@ -24,6 +24,23 @@
   font-family: monospace;
 }
 
+#copyTheId {
+  color: #2755A0;
+  text-decoration: none;
+}
+
+
+#copyTheId:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#copyTheId:active {
+  color: #478af7;
+}
+
+/* <p onclick="myFunction()">Copy id</button> */
+
 #tickets_container {
   width: 75%;
 

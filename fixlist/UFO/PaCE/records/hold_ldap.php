@@ -1,24 +1,44 @@
 <?php
+  require("../include/functions.php");
+  // echo "<pre>";
+  // print_r($_POST);
+  // echo "</pre>";
+  $searchFor = $_POST['searchFor'];
+
+  if (is_numeric($searchFor)) {
+    $id = $searchFor;
+    // echo "it's a number" . $id;
+    $searchForID = true;
+  } else {
+    $name = cleanEmail($searchFor);
+    // echo "it's a string" . $name;
+    $searchForName = true;
+  }
+
+
+
+  echo "<br><br><br>";
 
 $username = "TSS-AAC-SE-LDAP@ad.ufl.edu";
 $password = "KjTExb96E2";
 $server   = "dir.ufl.edu";
 
+
 // $username = "TSS-AAC-SE-LDAP@ad.ufl.edu";
 // $password = "KjTExb96E2";
 // $server   = "ldaps://ldap.ad.ufl.edu";
 
-
 $ds=ldap_connect($server);  // must be a valid LDAP servere
-
-
 
 if ($ds) {
 
-    $r=ldap_bind($ds, $username, $password);     // this is an "anonymous" bind, typically
-    // $sr=ldap_search($ds, "dc=ufl,dc=edu", "uid=acatalano2");
-    // $sr=ldap_search($ds, "dc=ad,dc=ufl,dc=edu", "cn=jfh");
-     $sr=ldap_search($ds, "dc=ufl,dc=edu", "uid=nraymond");
+    $r=ldap_bind($ds, $username, $password); //bind
+    if ($searchForName) {
+      $sr=ldap_search($ds, "dc=ufl,dc=edu", "uid={$name}");
+    }
+    if ($searchForID) {
+      $sr=ldap_search($ds, "dc=ufl,dc=edu", "uidnumber={$id}");
+    }
 
     $info = ldap_get_entries($ds, $sr);
 
@@ -33,9 +53,7 @@ if ($ds) {
         echo $info[$i]["employeenumber"][0] . "<br>";
         echo $info[$i]["number"][0] . "<br>";
         echo $info[$i]["telephonenumber"][0] . "<br>";
-        echo "<pre>";
-        print_r($info[$i]);
-        echo "</pre>";
+
     }
 
     ldap_close($ds);

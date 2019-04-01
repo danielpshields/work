@@ -3,7 +3,6 @@
   require("{$root}include/db.php");
   $page = "records";
   $pageName = "Records: Transition";
-  $dataPage = "submitted";
   require("{$root}include/header/header.php");
   include("{$root}include/credentials.php");
   $scriptName = $page;

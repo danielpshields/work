@@ -41,7 +41,8 @@
       </div><!-- pending master email list -->
 
           <?php
-            $alreadyContacted = "SELECT * FROM pace_transition WHERE contacted = 1 AND submitted = 0";
+          //names removed from Email($all); list
+            $alreadyContacted = "SELECT * FROM pace_transition WHERE contacted = 2 AND submitted = 0";
             $contactedQuery   = mysqli_query($connection, $alreadyContacted);
             if (mysqli_num_rows($contactedQuery)) { ?>
 
