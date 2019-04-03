@@ -1,0 +1,29 @@
+#welcomeSlug {
+  margin-top: 2rem;
+  font-style: italic;
+  color: #555;
+}
+
+#contactAdvisorSlug {
+  width: 84%;
+  max-width: 33rem;
+  margin: auto;
+  margin-top: 2.81rem;
+  color: #6E6E6E;
+  font-style: italic;
+  font-size: .8rem;
+  /* background: red; */
+}
+
+dl:hover {
+  cursor: pointer;
+}
+
+dt span {
+  color: #2A5DB0; /* google blue */
+  color: #b02a2a; /* equivilant red */
+  color: #942424;
+  color: #3c4575;
+  text-decoration: underline;
+  font-style: italic;
+}

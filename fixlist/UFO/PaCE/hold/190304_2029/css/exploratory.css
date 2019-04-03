@@ -1,0 +1,121 @@
+.inputShell {
+  padding-bottom: .4rem;
+  border-radius: .4rem;
+}
+
+.ticketShell {
+  border-radius: .4rem;
+  border: 1px solid #aaa;
+  max-width: 18rem;
+  margin: 1.9rem 0 2rem 0;
+  box-shadow: .3rem .4rem .8rem #a0a0a0;
+}
+
+.ticketShell h4 {
+  color: #fff;
+  background: #333;
+  margin: auto;
+  /* border-bottom: .2rem solid #d0d0d0; */
+  border-radius: .4rem .4rem 0 0;
+  padding: .9rem 0 .9rem 1.25rem;
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+}
+
+.ticketShell p {
+  margin: 0;
+  padding: .6rem 0 .6rem 1rem;
+  width: 100%;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 600;
+  /* border: 1px solid #555; */
+}
+
+
+table, tr, th, td {
+  border: 1px solid #333;
+  padding: .4rem;
+}
+
+.barrier table {
+  width: 100%;
+  max-width: 25rem;
+  margin: 2rem auto;
+}
+
+thead {
+  background: #d0d0d0;
+}
+
+th, td {
+  text-align: center;
+}
+.filled tr th {
+  background: white;
+  color: #26539C;
+  background: #A2D590;
+  color: #333;
+}
+
+/* new styles  */
+/* new styles  */
+/* new styles  */
+
+#exploratory_container {
+  justify-content: space-around;
+}
+
+
+table {
+  margin-top: 1.9rem;
+}
+
+table, tr, th, td {
+  padding: .6rem;
+  color: #333;
+}
+
+#exploratoryShell {
+  width: 20rem;
+}
+
+#exploratoryShell h4 {
+  margin-bottom: 1rem;
+}
+
+#exploratoryShell input[type="text"], #exploratoryShell input[type="email"] {
+  display: block;
+  margin: auto;
+  padding: .4rem;
+  margin-top: .5rem;
+  width: 75%;
+}
+
+#exploratoryShell label {
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 100%;
+  /* max-width: 11rem; */
+  color: #444;
+  margin-top: .3rem;
+}
+
+#exploratoryShell .submitButton {
+  margin-top: 1.75rem;
+}
+
+
+#exploratoryRecordsLink {
+  border-top: 1px dotted #666;
+}
+
+.ticketShell p a {
+  text-decoration: none;
+}
+
+.ticketShell p a:hover {
+  text-decoration: underline;
+}
