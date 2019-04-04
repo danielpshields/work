@@ -14,14 +14,12 @@
   </head>
   <body>
 
-    = 20 hours
-
+    = 12 hours
 
     <input type="button" name="start" value="start">
     <input type="button" name="stop" value="stop">
     <input type="button" name="debit_start" value="debit_start">
     <input type="button" name="debit_stop" value="debit_stop">
-
 
 
     <table>
