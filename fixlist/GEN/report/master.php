@@ -1,4 +1,9 @@
 
+<h3>Redirects</h3>
+<ul>
+  <li>PHP redirects work</li>
+</ul>
+
 <h3>TabIndex</h3>
 <input type="" tabindex="<?php echo $tabIndex++; ?>">
 
