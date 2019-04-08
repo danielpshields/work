@@ -14,11 +14,17 @@ include("include/env.php");
   </head>
   <?php $email = ""; ?>
   <body>
-    <h1>Test Approve Message</h1>
-    <form action="shell.php" method="post">
-      <input type="hidden" name="message" value="hiddenMessage">
-      <input type="hidden" name="foo" value="<?php echo $email; ?>">
-      <input type="submit" name="submit" value="submit">
-    </form>
+    <h1>mail/eppn</h1>
+
+    <?php
+    echo "mail: ";
+    echo $HTTP_UFSHIB_MAIL     = $_SERVER['HTTP_UFSHIB_MAIL'];
+    echo "<br><br>";
+    echo "eppn: ";
+    echo $HTTP_UFSHIB_EPPN     = $_SERVER['HTTP_UFSHIB_EPPN'];
+    echo "<br><br>";
+    ?>
+
+
   </body>
 </html>

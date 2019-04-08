@@ -58,14 +58,14 @@
         <td>HTTP_UFSHIB_MAIL</td>
         <td>agavrilos@ufl.edu</td>
       </tr>
-      <tr>
+      <!-- <tr>
         <td>REDIRECT_UFShib_eppn</td>
         <td>agavrios@ufl.edu </td>
       </tr>
       <tr>
         <td>REDIRECT_UFShib_mail</td>
         <td>agavrilos@ufl.edu</td>
-      </tr>
+      </tr> -->
     </table>
 
     <ul>

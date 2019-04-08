@@ -1,24 +1,15 @@
 <?php
-    // $REDIRECT_UFShib_eppn   = "agavrios@ufl.edu";
-    // $REDIRECT_UFShib_mail   = "agavrilos@ufl.edu";
-    // $my_eppn   = "acatalano2@ufl.edu";
-    // $my_mail   = "acatalano@advising.edu";
-    // $studentID = "40811353";
-    // $eppn  = "agavrios@ufl.edu";
-    // $mail  = "agavrilos@ufl.edu";
-
-
-    $createdFor = "nraymond@ufl.edu";
-    $createdFor = "nraymond@advising.ufl.edu";
+    // $createdFor = "nraymond@ufl.edu";
+    // $createdFor = "nraymond@advising.ufl.edu";
     $createdFor = "acatalano2@ufl.edu";
 
     $loggedIn = false;
 
-    $eppn = "nraymond@ufl.edu";
-    $mail = "nraymond@advising.ufl.edu";
+    $HTTP_UFSHIB_MAIL     = $_SERVER['HTTP_UFSHIB_MAIL'];
+    $HTTP_UFSHIB_EPPN     = $_SERVER['HTTP_UFSHIB_EPPN'];
 
     $emails = array(
-      "$eppn" => "$mail"
+      "$HTTP_UFSHIB_MAIL" => "$HTTP_UFSHIB_EPPN"
     );
 
     foreach ($emails as $key => $value) {
@@ -40,7 +31,7 @@
     <?php if ($loggedIn) { ?>
 
     <div class="window">
-      <p><?php echo $createdFor . " | " . $eppn; ?></p>
+      <p><?php echo "login successful"; ?></p>
       <img src="image/kitty.jpg" alt="">
       <img src="image/kitty.png" alt="">
     </div><!-- window -->
@@ -52,20 +43,20 @@
     <table>
       <tr>
         <td>HTTP_UFSHIB_EPPN</td>
-        <td>     agavrios@ufl.edu </td>
+        <td>agavrios@ufl.edu </td>
       </tr>
       <tr>
         <td>HTTP_UFSHIB_MAIL</td>
         <td>agavrilos@ufl.edu</td>
       </tr>
-      <tr>
+      <!-- <tr>
         <td>REDIRECT_UFShib_eppn</td>
         <td>agavrios@ufl.edu </td>
       </tr>
       <tr>
         <td>REDIRECT_UFShib_mail</td>
         <td>agavrilos@ufl.edu</td>
-      </tr>
+      </tr> -->
     </table>
 
     <ul>

@@ -4,14 +4,17 @@
   $pageName    = "Transition: Campus";
   require("{$root}include/header/header.php");
   require("{$root}include/db.php");
-  $query       = "SELECT * FROM pace_transition WHERE email = ";
-  $query      .=  "'" . $email . "'";
+  $query       = "SELECT * FROM pace_transition WHERE studentID = ";
+  $query      .=  "'" . $UFID . "'";
+
+
+
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
   if (isset($_POST['submit'])) {
     $semester     = $_POST['semester'];
     $phone        = $_POST['phone'];
-    $phone        = mysqli_real_escape_string($phone);
+    $phone        = mysqli_real_escape_string($connection, $phone);
     $newQuery     = "UPDATE pace_transition SET ";
     $newQuery    .= " semester = ";
     $newQuery    .= "'" . $semester . "',";
@@ -20,8 +23,8 @@
     $newQuery    .= " formSubmitted = ";
     $newQuery    .= "'" . $timeStamp . "',";
     $newQuery    .= " submitted = 1";
-    $newQuery    .= " WHERE email = ";
-    $newQuery    .= "'" . $email . "'";
+    $newQuery    .= " WHERE studentID = ";
+    $newQuery    .= "'" . $UFID . "'";
     $spitNewQuery = mysqli_query($connection, $newQuery);
     require("../../email/receipt/campus/email.php");
     header("Location: success.php");

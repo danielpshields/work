@@ -1,5 +1,7 @@
 
   <div id="sortNav">
+    <p style="border: 1px solid black; margin-bottom: 1.5rem;"><a href="<?php echo $root; ?>ticket/transition.php">New Ticket</a></p>
+
     <dl class="">
       <dt>
         Show Majors

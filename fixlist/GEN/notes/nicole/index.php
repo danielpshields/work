@@ -19,6 +19,11 @@
       </header>
 
       <ul>
+        <li><a href="https://www.reddit.com/r/movies/comments/baut70/netflix_isnt_killing_movie_theaters_the_audience/?utm_source=share&utm_medium=web2x" target="_blank"><span class="date">04/08</span> &#124; Streaming vs. Cinemas</a></li>
+        <li><a href="https://whiskeyriversoap.com/products/soap-for-grammar-police" target="_blank"><span class="date">04/08</span> &#124; Grammar Soap</a></li>
+      </ul>
+
+      <ul>
         <li><a href="http://mantoujoe.blogspot.com/2017/12/trader-joes-pink-pomelo-grapefruit-hand.html" target="_blank"><span class="date">03/23</span> &#124; Trader Joes Hand Soap</a></li>
         <li><a href="https://www.reddit.com/r/funny/comments/b4ob2r/someone_took_the_harry_potter_theme_of_the_bridal/" target="_blank"><span class="date">03/23</span> &#124; Harry Potter Bridal Shower</a></li>
       </ul>

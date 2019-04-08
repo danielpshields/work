@@ -25,6 +25,7 @@
       "$REDIRECT_UFShib_mail" => "$REDIRECT_UFShib_eppn"
     );
 
+    // absolutely ensures $email is root EPPN @ufl.edu
     foreach ($emails as $key => $value) {
       if ($email == $key || $email == $value) {
         $email = $HTTP_UFSHIB_EPPN;
