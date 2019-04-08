@@ -1,4 +1,39 @@
+html {
+  font-size: 40px;
+  font-family: monospace;
+}
+
 body {
-  width: 800px;
+  width: 980px;
   margin: auto;
+}
+
+table, tr, td, th {
+  border: 1px solid #999;
+  padding: 15px;
+  border-collapse: collapse;
+}
+
+h1, p {
+  color: #333;
+}
+
+img {
+  width: 150px;
+}
+
+li {
+  font-size: 16px;
+}
+
+.window {
+  border: 1px solid #b0b0b0;
+  margin-bottom: 25px;
+  padding: 15px;
+  box-shadow: 5px 5px 14px #b0b0b0;
+}
+
+.window p {
+  font-size: 39px;
+  margin-top: 0;
 }

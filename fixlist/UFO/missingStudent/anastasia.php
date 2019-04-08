@@ -8,7 +8,7 @@
 
     <p>HTTP_UFSHIB_EPPN     agavrios@ufl.edu </p>
     <p>REDIRECT_UFShib_eppn agavrios@ufl.edu </p>
-    <p>HTTP_UFSHIB_MAIL :   agavrilos@ufl.edu</p>
+    <p>HTTP_UFSHIB_MAIL     agavrilos@ufl.edu</p>
     <p>HTTP_UFSHIB_MAIL     agavrilos@ufl.edu</p>
     <p>REDIRECT_UFShib_mail agavrilos@ufl.edu</p>
 
