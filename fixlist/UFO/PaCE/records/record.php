@@ -40,6 +40,7 @@
 
     $getRecord = "SELECT * FROM pace_transition WHERE email = '{$student}'";
     $spitRecord = mysqli_query($connection, $getRecord);
+
   } else if (isset($_POST['createTicket'])) {
     ob_start();
     $studentID   = $_POST['UFID_transition'];
@@ -76,12 +77,30 @@
 
 <script type="text/javascript" src="<?php echo $root; ?>scripts/showHideRecord.js"></script>
 
-
+  <!-- no records and whoIS -->
   <div id="records_container">
     <div id="tickets_container">
-
       <?php if (!mysqli_num_rows($spitRecord) ) { ?>
         <div class="inputShell" id="noRecordMessage">
+          <?php if ($searchFor == "whoIS") { ?>
+            <h3 class="black"><?php
+            if (isset($whoIS)) {
+              echo $whoIS;
+            } else {
+              echo "print_env";
+            }
+            ?></h3>
+            <p style="font-family: monospace;">
+              <?php
+                echo $_SERVER['HTTP_UFSHIB_BUSINESSNAME'] . "<br>";
+                echo $_SERVER['HTTP_UFSHIB_GIVENNAME']." ".$_SERVER['HTTP_UFSHIB_SN'] . "<br>";
+                echo $_SERVER['HTTP_UFSHIB_GIVENNAME'] . "<br>";
+                echo $_SERVER['HTTP_UFSHIB_UFID'] . "<br>";
+                echo "(EPPN) " . $_SERVER['HTTP_UFSHIB_EPPN'] . "<br>";
+                echo "(MAIL) " . $_SERVER['HTTP_UFSHIB_MAIL'] . "<br>";
+              ?>
+            </p>
+          <?php } else { ?>
           <h3 class="black">No Record Found</h3>
           <?php if ($searchForName) { ?>
             <p class="lightSlugGraph">The UFID, <i><?php echo $student; ?></i>, does not have a ticket</p>
@@ -91,6 +110,9 @@
             <p class="lightSlugGraph">The address, <i><?php echo $UID; ?></i>, does not have a ticket</p>
             <p>Create a ticket for UF ID No. <b id="createStudentTicket"><?php echo $UID; ?></b>?</p>
           <?php } ?>
+
+          <?php } ?>
+
         </div><!-- input shell IN !found -->
 
         <div id="newTicketDropdown">

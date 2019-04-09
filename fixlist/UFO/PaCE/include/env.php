@@ -8,26 +8,49 @@
   $currentMonthDay = $breakCreated[0];
   $currentHourTime = $breakCreated[1];
 
-  //this is designed to be exploded
+  //this is designed to be exploded | what?
   $scriptName = "";
 
   if (isset($_SERVER['HTTP_UFSHIB_UFID'])) {
-    $date_auto    = date("Y-m-d H:i:s");
-    $UFID         = $_SERVER['HTTP_UFSHIB_UFID'];
-    $email        = $_SERVER['HTTP_UFSHIB_MAIL'];
-    $HTTP_UFSHIB_MAIL     = $_SERVER['HTTP_UFSHIB_MAIL'];
-    $HTTP_UFSHIB_EPPN     = $_SERVER['HTTP_UFSHIB_EPPN'];
-    $REDIRECT_UFShib_eppn = $_SERVER['REDIRECT_UFShib_eppn'];
-    $REDIRECT_UFShib_mail = $_SERVER['REDIRECT_UFShib_mail'];
+    $date_auto        = date("Y-m-d H:i:s");
+    $UFID             = $_SERVER['HTTP_UFSHIB_UFID'];
+    $HTTP_UFSHIB_MAIL = $_SERVER['HTTP_UFSHIB_MAIL'];
+    $HTTP_UFSHIB_EPPN = $_SERVER['HTTP_UFSHIB_EPPN'];
+
+    $shib = $_SERVER['HTTP_UFSHIB_MAIL'];
+    $eppn = $_SERVER['HTTP_UFSHIB_EPPN'];
 
     $emails = array(
-      "$HTTP_UFSHIB_EPPN"     => "$HTTP_UFSHIB_MAIL",
-      "$REDIRECT_UFShib_mail" => "$REDIRECT_UFShib_eppn"
+      "$HTTP_UFSHIB_EPPN" => "$HTTP_UFSHIB_MAIL"
     );
 
-    foreach ($emails as $key => $value) {
-      if ($email == $key || $email == $value) {
-        $email = $HTTP_UFSHIB_EPPN;
+    // foreach ($emails as $eppn => $shib) {
+    //   if ($email == $eppn || $email == $shib) {
+    //     $email = $HTTP_UFSHIB_EPPN;
+    //   }
+    // }
+
+    //check the database to see if either email exists
+    $setEmailDB = "SELECT email FROM pace_transition";
+    $checkEmail = mysqli_query($connection, $setEmailDB);
+    while ($row = mysqli_fetch_assoc($checkEmail)) {
+
+      $db_mail = $row['email'];
+
+      if ($db_mail === $eppn) {
+        $email = $eppn;
+        $whoIS = "<b>whoIS</b> eppn: " . $email;
+        break;
+      } else if ($db_mail === $shib) {
+        $email = $shib;
+        $whoIS = "<b>whoIS</b> shib: " . $email;
+        break;
+      } else {
+        include("{$root}include/admin_navCreds.php");
+        if (!$canStay) {
+          header("Location: https://www.advising.ufl.edu/uf-online/");
+          exit;
+        }
       }
     }
 

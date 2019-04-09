@@ -29,11 +29,5 @@ include("{$root}include/functions.php");
         <?php if ($page != "login") { ?>
           <h1>Welcome, <?php echo $firstName; ?></h1>
         <?php } ?>
-
       </div>
     </header>
-
-    <?php
-  //   $test = $_COOKIE['test'];
-//     echo $test;
-    ?>

@@ -7,10 +7,8 @@
 <h3>TabIndex</h3>
 <input type="" tabindex="<?php echo $tabIndex++; ?>">
 
-
 <h3>Icons</h3>
 flaticon</a>
-
 
 <h3> pregmatch vs. strpos</h3>
 <?php
@@ -19,7 +17,6 @@ if (preg_match('/@.*./', $value) == true) {
   $student_email = $value;
 }
 ?>
-
 
 <h3>Print Between Two Function:</h3>
 <?php
@@ -32,9 +29,10 @@ if (preg_match('/@.*./', $value) == true) {
     $inbetween = strpos($post,"Major:",$initial) - $initial;
     return substr($post,$initial,$inbetween);
   }
-
 ?>
-
+<ul>
+  <li>strpos, substr(1,2,3) is another way to do this -- link from lnote?</li>
+</ul>
 
 <h3>PrintEnv Email();</h3>
 <?php
@@ -51,9 +49,10 @@ if (preg_match('/@.*./', $value) == true) {
     return ob_get_clean();
   }
 
-
   foreach ($variables as $key => $value) {
     echo $key . " : " . $value . "<br>";
   }
 
 ?>
+
+<h3>printenv added to search | UFO/PaCE/records/record.php search: "whoIS"</h3>

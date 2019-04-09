@@ -1,4 +1,5 @@
 <?php
+  $serverEPPN  = $_SERVER['HTTP_UFSHIB_EPPN'];
   $serverEmail = $_SERVER['HTTP_UFSHIB_MAIL'];
   $users = array(
     "nraymond@advising.ufl.edu",
@@ -11,7 +12,7 @@
     "danshields@ufl.edu"
   );
   foreach ($users as $key) {
-    if ($key === $serverEmail) {
+    if ($key === $serverEmail || $key === $serverEPPN) {
       $canStay = true;
     }
   }

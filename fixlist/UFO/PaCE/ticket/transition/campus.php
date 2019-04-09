@@ -4,10 +4,8 @@
   $pageName    = "Transition: Campus";
   require("{$root}include/header/header.php");
   require("{$root}include/db.php");
-  $query       = "SELECT * FROM pace_transition WHERE studentID = ";
-  $query      .=  "'" . $UFID . "'";
-
-
+  $query       = "SELECT * FROM pace_transition WHERE email = ";
+  $query      .=  "'" . $email . "'";
 
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
@@ -23,8 +21,8 @@
     $newQuery    .= " formSubmitted = ";
     $newQuery    .= "'" . $timeStamp . "',";
     $newQuery    .= " submitted = 1";
-    $newQuery    .= " WHERE studentID = ";
-    $newQuery    .= "'" . $UFID . "'";
+    $newQuery    .= " WHERE email = ";
+    $newQuery    .= "'" . $email . "'";
     $spitNewQuery = mysqli_query($connection, $newQuery);
     require("../../email/receipt/campus/email.php");
     header("Location: success.php");
