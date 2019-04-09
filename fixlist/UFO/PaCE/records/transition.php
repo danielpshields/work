@@ -11,9 +11,7 @@
   $query = "SELECT * FROM pace_transition ORDER BY formCreated DESC";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
-  include("{$root}include/header/admin_nav.php");
 ?>
-
 
   <div id="records_container">
     <div id="tickets_container">
@@ -21,14 +19,8 @@
       <?php
       $contacted      = "SELECT * FROM pace_transition WHERE submitted = 0 AND contacted = 0";
       $contactedQuery = mysqli_query($connection, $contacted);
-      if (mysqli_num_rows($contactedQuery)) { ?>
-        <div id="emailPendingLink">
-          <p><a href="<?php echo $root; ?>records/pending.php">Email Pending Students Page</a></p>
-        </div><!-- email pending students link -->
-      <?php } ?>
-      <?php
-       $getmajor = $_GET['major'];
-       $majorList = array (
+      $getmajor = $_GET['major'];
+      $majorList = array (
          "africanAmericanStudies" => "African American Studies",
           "computerScience"       => "Computer Science",
           "sustainabilityStudies" => "Sustainability Studies",

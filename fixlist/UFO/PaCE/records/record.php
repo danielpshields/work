@@ -10,7 +10,6 @@
   $query = "SELECT * FROM pace_transition";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
-  include("{$root}include/header/admin_nav.php");
 
   if (isset($_POST['approveFromNotes'])) {
     $studentEmail = $_POST['studentEmail'];

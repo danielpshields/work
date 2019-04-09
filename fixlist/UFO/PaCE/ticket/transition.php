@@ -178,6 +178,7 @@
     <input class="submitButton" type="submit" name="submit" value="submit">
   </form>
 
+  <?php include("{$root}records/sortNav.php"); ?>
 
 <?php
   require("{$root}include/footer.php");

@@ -66,7 +66,7 @@ series: [{
 <table>
 <tbody>
   <tr>
-    <th>Pending Tickets</th>
+    <th><a href="<?php echo $root; ?>records/sort/pending.php">Pending Tickets</a></th>
   </tr>
   <tr>
     <td><?php echo $pending; ?></td>
@@ -77,7 +77,7 @@ series: [{
 <table>
 <tbody>
   <tr>
-    <th>Student Submitted</th>
+    <th><a href="<?php echo $root; ?>records/sort/submitted.php">Student Submitted</a></th>
   </tr>
   <tr>
     <td><?php echo $responded; ?></td>
@@ -85,11 +85,22 @@ series: [{
 </tbody>
 </table>
 
+<table>
+  <tbody>
+    <tr>
+      <th><a href="<?php echo $root; ?>records/sort/approved.php">UF Online</a></th>
+    </tr>
+    <tr>
+      <td><?php echo $approved; ?></td>
+    </tr>
+  </tbody>
+</table>
+
 
 <table>
   <tbody>
     <tr>
-      <th>Advisor Approved</th>
+      <th><a href="<?php echo $root; ?>records/sort/approved.php">Advisor Approved</a></th>
     </tr>
     <tr>
       <td><?php echo $approved; ?></td>
@@ -100,10 +111,10 @@ series: [{
 <table>
   <tbody>
     <tr>
-      <th>Total Tickets</th>
+      <th><a href="<?php echo $root; ?>records/transition.php">Total Tickets</a></th>
     </tr>
     <tr>
-      <td id="darkTotal"><?php echo $sent; ?></td>
+      <td><?php echo $sent; ?></td>
     </tr>
   </tbody>
 </table>
