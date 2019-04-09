@@ -20,9 +20,9 @@
     $shib = $_SERVER['HTTP_UFSHIB_MAIL'];
     $eppn = $_SERVER['HTTP_UFSHIB_EPPN'];
 
-    $emails = array(
-      "$HTTP_UFSHIB_EPPN" => "$HTTP_UFSHIB_MAIL"
-    );
+    // $emails = array(
+    //   "$HTTP_UFSHIB_EPPN" => "$HTTP_UFSHIB_MAIL"
+    // );
 
     // foreach ($emails as $eppn => $shib) {
     //   if ($email == $eppn || $email == $shib) {
@@ -33,6 +33,9 @@
     //check the database to see if either email exists
     $setEmailDB = "SELECT email FROM pace_transition";
     $checkEmail = mysqli_query($connection, $setEmailDB);
+    if (!$checkEmail) {die("check email failed");}
+
+
     while ($row = mysqli_fetch_assoc($checkEmail)) {
 
       $db_mail = $row['email'];

@@ -2,11 +2,10 @@
   $root        = "../../";
   $page        = "campus";
   $pageName    = "Transition: Campus";
-  require("{$root}include/header/header.php");
   require("{$root}include/db.php");
+  require("{$root}include/header/header.php");
   $query       = "SELECT * FROM pace_transition WHERE email = ";
   $query      .=  "'" . $email . "'";
-
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
   if (isset($_POST['submit'])) {
@@ -31,6 +30,7 @@
   //Variables FROM pace_transition Table pulled in
   include("{$root}include/stipulations/variables.php");
 ?>
+
 <form action="campus.php" method="post">
   <!-- <input type="hidden" name="firstName" value="<?php //echo $firstName; ?>"> -->
   <input type="hidden" name="name" value="<?php echo $studentName; ?>">
