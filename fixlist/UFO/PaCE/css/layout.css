@@ -1,0 +1,115 @@
+#page_container {
+  display: flex;
+  justify-content: space-between;
+  width: 61.25rem;
+  margin: auto;
+}
+
+/* left column / Page content  */
+#content_container {
+  width: 75%;
+}
+
+#content_container h2 {
+  color: #333;
+  width: 84%;
+  max-width: 61.25rem;
+  margin: auto;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+
+
+/* right column container */
+#sortNav_container {
+  padding-top: 3rem;
+}
+
+/* link buttons */
+/* link buttons */
+/* link buttons */
+.navButton {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  /* text-align: center; */
+  width: 100%;
+  max-width: none;
+  border: 2px solid #f79646;
+  border-radius: .4rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  font-weight: bold;
+  box-shadow: .3rem .3rem .8rem #c0c0c0;
+}
+
+.navButton p {
+  margin: 0;
+}
+
+.navButton a {
+  text-decoration: none;
+  color: #2755A0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0;
+}
+
+.navButton a:hover {
+  text-decoration: underline;
+}
+
+.navButton:hover {
+  border: 2px solid #ed7e23;
+  box-shadow: .35rem .35rem .8rem #a0a0a0;
+}
+
+.navButton_image {
+  width: 13%;
+  margin-right: 1.5rem;
+}
+
+.navButton_image img {
+  display: block;
+  margin: auto;
+  margin-top: .8rem;
+  width: 100%;
+}
+
+#emailPending {
+  border: 2px solid #db5346;
+}
+
+#navButton_records {
+  border: 2px solid #5480BE;
+}
+
+
+/* search navigation */
+/* search navigation */
+/* search navigation */
+
+#searchStudent {
+  margin-top: .7rem;
+}
+
+#searchEmail {
+  width: 99%;
+  display: block;
+  margin: auto;
+  border: 1px solid #9cabc1;
+  border-radius: .3rem;
+  /* margin-top: .4rem; */
+  padding: .4rem;
+  box-shadow: .2rem .2rem .5rem #d0d0d0;
+}
+
+#searchSubmit {
+  display: block;
+  margin: auto;
+  width: 35%;
+  margin-top: .55rem;
+  padding: .2rem .3rem;
+}

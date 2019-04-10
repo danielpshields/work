@@ -6,15 +6,14 @@
   require("{$root}include/header/header.php");
   include("{$root}include/credentials.php");
   $scriptName = $page;
-  $query = "SELECT * FROM pace_transition WHERE submitted = 1 ORDER BY formSubmitted DESC";
+  $query = "SELECT * FROM pace_transition WHERE submitted = 3 ORDER BY formSubmitted DESC";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
 ?>
 
-
   <div id="records_container">
     <div id="tickets_container">
-      <h2>Submitted Tickets</h2>
+      <h2>Students Who Chose to Remain in UF Online</h2>
     <?php
     // rows
     while($row = mysqli_fetch_assoc($spitResults)) {
@@ -107,11 +106,11 @@
         <div class="inputShell">
           <h3 class="black">Submitted Tickets</h3>
           <p class="bigNumber">0</p>
-          <p>Zero tickets are currently awaiting approval</p>
-          <!-- <ul>
+          <p>Zero tickets are currently submitted</p>
+          <ul>
             <li><b><a href="mailto:acatalano2@ufl.edu?subject=Yo, Let's make that email function&body=Yo it's time to make the email timer reminder email function.">Send a reminder email?</a></b></li>
-          </ul> -->
-          <!-- <p><i>add records</i></p> -->
+          </ul>
+          <p><i>add records</i></p>
         </div>
       <?php } ?>
 

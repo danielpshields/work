@@ -1,5 +1,16 @@
   <div id="sortNav">
 
+    <?php if ($page == "ticket") { ?>
+
+      <div id="navButton_records" class="navButton">
+        <p><a href="<?php echo $root; ?>records/transition.php">Records</a></p>
+        <div class="navButton_image">
+            <img src="<?php echo $root; ?>image/database.png" alt="">
+        </div><!-- ticket button image -->
+      </div><!-- newTicket_sortNav -->
+
+    <?php } else { ?>
+
     <div class="navButton">
       <p><a href="<?php echo $root; ?>ticket/transition.php">New Ticket</a></p>
       <div class="navButton_image">
@@ -7,12 +18,30 @@
       </div><!-- ticket button image -->
     </div><!-- newTicket_sortNav -->
 
+    <?php } ?>
+
     <!-- <form id="searchStudent" action="<?php // echo $root; ?>records/ldap.php" method="post"> -->
     <form id="searchStudent" action="<?php echo $root; ?>records/record.php" method="post">
       <input id="searchEmail" type="text" name="searchFor" value="" placeholder="email or student ID" required>
       <input id="searchSubmit" type="submit" name="submitSearchFor" value="Submit">
     </form>
 
+
+    <!-- <ul id="recordsView_desktop">
+      <li style="border: 1.5px solid #555; margin-bottom: 3px;"><a href="<?php echo $root; ?>records/transition.php">all records</a></li>
+      <li style="border: 1.5px solid #891b1b; margin-bottom: 3px;"><a href="<?php echo $root; ?>records/sort/pending.php">pending</a></li>
+      <li style="border: 1.5px solid #258224; margin-bottom: 3px;"><a href="<?php echo $root; ?>records/sort/submitted.php">student submitted</a></li>
+      <li style="border: 1.5px solid #fff71c; margin-bottom: 3px;"><a href="#">remain UFO</a></li>
+      <li style="border: 1.5px solid #508ded;"><a href="<?php echo $root; ?>records/sort/approved.php">advisor approved</a></li>
+    </ul> -->
+    <!-- <li style="color: #990000;">Case / PDF</li> -->
+    <ul id="recordsView_desktop">
+      <li style="border: 1.5px solid #555; margin-bottom: 3px;"><a href="<?php echo $root; ?>records/transition.php">all records</a></li>
+      <li style="border: 1.5px solid #EA4335; margin-bottom: 3px;"><a href="<?php echo $root; ?>records/sort/pending.php">pending</a></li>
+      <li style="border: 1.5px solid #34A853; margin-bottom: 3px;"><a href="<?php echo $root; ?>records/sort/submitted.php">student submitted</a></li>
+      <li style="border: 1.5px solid #FBBC05; margin-bottom: 3px;"><a href="<?php echo $root; ?>records/sort/ufonline.php">remain UFO</a></li>
+      <li style="border: 1.5px solid #508ded;"><a href="<?php echo $root; ?>records/sort/approved.php">advisor approved</a></li>
+    </ul>
 
     <?php
 
@@ -27,6 +56,12 @@
 
       $approvedTotal = "SELECT * FROM pace_transition WHERE submitted = 2";
       $approvedTickets = mysqli_query($connection, $approvedTotal);
+
+      // 0 = pending
+      // 1 = submitted
+      // 2 = approved
+      // 3 = ufonline
+
 
       $sent      = 0;
       $peding    = 0;
@@ -49,16 +84,65 @@
         $approved++;
       }
 
+      $difference = $sent - ($responded + $approved);
+      $percentage = (round($approved / $sent, 3)) * 100 . "%";
 
-      include("{$root}records/data/all.php");
+      ?>
 
-    ?>
+    <script src="<?php echo $root; ?>scripts/highcharts.js"></script>
+    <div id="container" style=" height: 200px; max-width: 200px; margin: 0 auto;"></div>
+    <script type="text/javascript">
 
+        var approved   = <?php echo json_encode($approved); ?>;
+        var difference = <?php echo json_encode($difference); ?>;
+        var submitted  = <?php echo json_encode($responded); ?>;
 
+        var percentage = <?php echo json_encode($percentage); ?>;
+        Highcharts.setOptions({
+         colors: ['#7cb5ec', '#90ed7d', '#434348']
+        });
+        Highcharts.chart('container', {
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: 0,
+            plotShadow: false
+        },
+        title: {
+            text: percentage,
+            align: 'center',
+            verticalAlign: 'middle',
+            y: 40
+        },
 
+        plotOptions: {
+            pie: {
+                dataLabels: {
+                    enabled: false,
+                    distance: -50,
+                    style: {
+                        fontWeight: 'normal',
+                        color: 'white'
+                    }
+                },
+                startAngle: -90,
+                endAngle: 90,
+                center: ['50%', '75%'],
+                size: '110%'
+            }
+        },
+        series: [{
+            type: 'pie',
+            name: '',
+            innerSize: '50%',
+            data: [
+                ['Approved', approved],
+                ['Submitted', submitted],
+                ['Pending', difference],
+            ]
+        }]
+        });
 
-
-
+    </script>
 
     <dl class="">
       <dt>
@@ -113,18 +197,11 @@
           <!-- id="emailPendingLink"> -->
           <p><a href="<?php echo $root; ?>records/pending.php">Email Pending</a></p>
           <div class="navButton_image">
-            <a href="<?php echo $root; ?>records/pending.php"><img src="<?php echo $root; ?>image/envelope.png" alt=""></a>
+            <img src="<?php echo $root; ?>image/envelope.png" alt="">
           </div>
         </div><!-- nav button -->
     <?php } ?>
 
-    <!-- <ul id="recordsView_desktop">
-      <li style="border: 1.5px solid #555; margin-bottom: 3px;"><a href="<?php echo $root; ?>records/transition.php">all records</a></li>
-      <li style="border: 1.5px solid #891b1b; margin-bottom: 3px;"><a href="<?php echo $root; ?>records/sort/pending.php">pending</a></li>
-      <li style="border: 1.5px solid #258224; margin-bottom: 3px;"><a href="<?php echo $root; ?>records/sort/submitted.php">student submitted</a></li>
-      <li style="border: 1.5px solid #508ded;"><a href="<?php echo $root; ?>records/sort/approved.php">advisor approved</a></li>
-    </ul> -->
-    <!-- <li style="color: #990000;">Case / PDF</li> -->
 
     <?php include("{$root}include/header/admin_nav.php"); ?>
 

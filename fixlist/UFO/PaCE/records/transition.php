@@ -5,6 +5,7 @@
   $dataPage = "all";
   $pageName = "Records: Transition";
   require("{$root}include/header/header.php");
+  // why are there two script names?
   $scriptName = "majors";
   include("{$root}include/credentials.php");
   $scriptName = $page;

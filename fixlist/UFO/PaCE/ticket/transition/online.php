@@ -2,13 +2,14 @@
   $root = "../../";
   $page = "online";
   $pageName = "Transition: UF Online";
-  require("{$root}include/header/header.php");
   require("{$root}include/db.php");
+  require("{$root}include/header/header.php");
 
   if (isset($_POST['submit'])) {
 
     $ufoMajor = $_POST['ufoMajor'];
     $phone    = $_POST['phone'];
+    $phone    = mysqli_real_escape_string($connection, $phone);
     $name     = $_POST['name'];
 
     $query  = "UPDATE pace_transition SET ";

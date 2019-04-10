@@ -2,15 +2,11 @@
   $root = "../../";
   $page = "transition";
   $pageName = "Transition Options";
+  require("{$root}include/db.php");
   require("{$root}include/header/header.php");
   $scriptName = $page;
   include("{$root}include/admin_navCreds.php");
 ?>
-
-  <?php if ($canStay) {
-    include("{$root}include/header/admin_nav.php");
-  } ?>
-
 
     <div class="inputShell">
       <h3 class="orange">Campus</h3>

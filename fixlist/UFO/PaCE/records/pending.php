@@ -11,7 +11,6 @@
   $query = "SELECT * FROM pace_transition WHERE submitted = 0 AND contacted = 0 ORDER BY email ASC";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
-  include("{$root}include/header/admin_nav.php");
 ?>
 
   <div id="records_container">
