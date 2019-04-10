@@ -2,6 +2,7 @@
   $page = "success";
   $pageName = "Thank You!";
   $root = "../../";
+  require("{$root}include/db.php");
   require("{$root}include/header/header.php");
   include("{$root}include/admin_navCreds.php");
 ?>

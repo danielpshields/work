@@ -6,7 +6,7 @@
   require("{$root}include/header/header.php");
   include("{$root}include/credentials.php");
   $scriptName = $page;
-  $query = "SELECT * FROM pace_transition WHERE submitted = 1 ORDER BY formSubmitted DESC";
+  $query = "SELECT * FROM pace_transition WHERE submitted = 1 || submitted = 3 ORDER BY formSubmitted DESC";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
 ?>
@@ -33,7 +33,7 @@
                   if ($submitted == 0) { $formUpdated = false; ?>
                   <p class="pending">pending</p>
                 <?php }  else if ($submitted == 1) { $formUpdated = true;  ?>
-                  <p class="submitted">submitted</p>
+                  <p class="submitted">Campus</p>
                 <?php } else if ($submitted == 2)  { $formUpdated = true; ?>
                   <p class="approved">approved</p>
                 <?php } else if ($submitted == 3) { $formUpdated = true;  ?>
@@ -88,9 +88,9 @@
                     <?php
                       if ($submitted == 0) {
                         echo "pending";
-                      } else if ($submitted == 1) {
-                        echo "<a href=\"" . $root . "records/approve.php?id=" . $studentID . "&email=" . htmlentities($student_email) . "\"><span class=\"approved\"><b>approve</b></span></a>";
-                      } else if ($submitted == 2 || $submitted == 3)  {
+                      } else if ($submitted == 1  || $submitted == 3) {
+                        echo "<a href=\"" . $root . "records/approve.php?id=" . $studentID . "&submitted=" . $submitted . "&email=" . htmlentities($student_email) . "\"><span class=\"approved\"><b>approve</b></span></a>";
+                      } else if ($submitted == 2 || $submitted == 4)  {
                         echo "approved";
                       }
                     ?>

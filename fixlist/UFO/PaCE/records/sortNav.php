@@ -36,32 +36,50 @@
     </ul> -->
     <!-- <li style="color: #990000;">Case / PDF</li> -->
     <ul id="recordsView_desktop">
-      <li style="border: 1.5px solid #555; margin-bottom: 3px;"><a href="<?php echo $root; ?>records/transition.php">all records</a></li>
-      <li style="border: 1.5px solid #EA4335; margin-bottom: 3px;"><a href="<?php echo $root; ?>records/sort/pending.php">pending</a></li>
-      <li style="border: 1.5px solid #34A853; margin-bottom: 3px;"><a href="<?php echo $root; ?>records/sort/submitted.php">student submitted</a></li>
-      <li style="border: 1.5px solid #FBBC05; margin-bottom: 3px;"><a href="<?php echo $root; ?>records/sort/ufonline.php">remain UFO</a></li>
-      <li style="border: 1.5px solid #508ded;"><a href="<?php echo $root; ?>records/sort/approved.php">advisor approved</a></li>
+      <li id="link_allRecords">
+        <a href="<?php echo $root; ?>records/transition.php">all records</a>
+      </li>
+      <li id="link_pending">
+        <a href="<?php echo $root; ?>records/sort/pending.php">pending tickets</a>
+      </li>
+      <li id="link_studentSubmitted">
+        <a href="<?php echo $root; ?>records/sort/submitted.php">submitted tickets</a>
+      </li>
+      <li id="link_remainUFO">
+        <a href="<?php echo $root; ?>records/sort/ufonline.php">UFO approved</a>
+      </li>
+      <li id="link_advisorApproved">
+        <a href="<?php echo $root; ?>records/sort/approved.php">Campus approved</a>
+      </li>
     </ul>
 
     <?php
 
-      $sentTotal  = "SELECT * FROM pace_transition";
-      $printTotal = mysqli_query($connection, $sentTotal);
+      // total sent instances
+      $sentTotal       = "SELECT * FROM pace_transition";
+      $printTotal      = mysqli_query($connection, $sentTotal);
 
-      $pendingCount = "SELECT * FROM pace_transition WHERE submitted = 0";
-      $printPending = mysqli_query($connection, $pendingCount);
+      // pending count
+      $pendingCount    = "SELECT * FROM pace_transition WHERE submitted = 0";
+      $printPending    = mysqli_query($connection, $pendingCount);
 
-      $submittedTotal = "SELECT * FROM pace_transition WHERE submitted = 1 OR submitted = 3";
-      $printResponded = mysqli_query($connection, $submittedTotal);
-
-      $approvedTotal = "SELECT * FROM pace_transition WHERE submitted = 2";
+      // total approved
+      $approvedTotal   = "SELECT * FROM pace_transition WHERE submitted = 2";
       $approvedTickets = mysqli_query($connection, $approvedTotal);
 
-      // 0 = pending
-      // 1 = submitted
-      // 2 = approved
-      // 3 = ufonline
+      // UF Online and Campus
+      $submittedTotal  = "SELECT * FROM pace_transition WHERE submitted = 1 OR submitted = 3";
+      $printResponded  = mysqli_query($connection, $submittedTotal);
 
+      // 0 = pending
+
+      // 1 = campus
+      // 2 = approved
+
+      // 3 = ufonline
+      // 4 = ufonline approved
+
+      //contacted = int; is a whole thing
 
       $sent      = 0;
       $peding    = 0;
@@ -85,7 +103,7 @@
       }
 
       $difference = $sent - ($responded + $approved);
-      $percentage = (round($approved / $sent, 3)) * 100 . "%";
+      $percentage = (round($approved / $sent, 3)) * 100 . "% approved";
 
       ?>
 

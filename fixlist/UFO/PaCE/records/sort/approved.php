@@ -9,7 +9,6 @@
   $query = "SELECT * FROM pace_transition WHERE submitted = 2 ORDER BY timeApproved DESC";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
-  include("{$root}include/header/admin_nav.php");
 ?>
 
   <div id="records_container">

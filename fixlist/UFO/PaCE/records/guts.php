@@ -6,7 +6,7 @@ if (!empty($ufoMajor)) {  ?>
     <p><b><?php echo $ufoMajor; ?></b></p>
   </div>
   <!-- barrier header -->
-<?php } ?>
+<?php } else { ?>
 <table class="transitionTable" id="conditionsPaceMajor">
   <thead>
     <tr>
@@ -107,6 +107,7 @@ if (!empty($semester)) { ?>
 <!-- </div> response container | commented because styling looked off, needs time. I wanted to set it apart -->
 
 <?php } ?><!-- student response -->
+<?php } ?><!-- else for if student selects UF Online -->
 
 
 <?php

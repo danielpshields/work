@@ -131,11 +131,11 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  border: 1px solid #555;
   border-radius: .3rem;
   /* padding: .5rem 1rem; */
   background: #fff;
   color: #585858;
+  margin-bottom: 3px;
 }
 
 #recordsView_desktop li a {
@@ -151,6 +151,34 @@
   background: #f0f0f0;
   text-decoration: underline;
 }
+
+#link_allRecords {
+  border: 1.5px solid #555;
+}
+
+#link_pending {
+  border: 1.5px solid #EA4335;
+}
+
+#link_studentSubmitted  {
+  border: 1.5px solid #34A853;
+}
+
+#link_remainUFO  {
+  border: 1.5px solid #FBBC05;
+
+}
+
+#link_advisorApproved {
+  border: 1.5px solid #508ded;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
 
 
 h3 {
@@ -241,8 +269,13 @@ p.ufoSelected {
   border-right: 1px solid #888;
   background: #fff;
   color: #0e47a3; /* beautiful blue contrast */
-  background: #A9C8F9;
-  color: #333;
+  background: #fff591;
+  background: #ffdd9b;
+  background: #90D68F;
+  background: #FFF;
+  background: #C8E9C8;
+  font-weight: bold;
+  color: #265C23;
 }
 
 

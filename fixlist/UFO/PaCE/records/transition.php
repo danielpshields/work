@@ -57,11 +57,11 @@
                     if ($submitted == 0) { $formUpdated = false; ?>
                     <p class="pending">pending</p>
                   <?php }  else if ($submitted == 1) { $formUpdated = true;  ?>
-                    <p class="submitted">submitted</p>
-                  <?php } else if ($submitted == 2)  { $formUpdated = true; ?>
+                    <p class="submitted">campus</p>
+                  <?php } else if ($submitted == 2 || $submitted == 4)  { $formUpdated = true; ?>
                     <p class="approved">approved</p>
                   <?php } else if ($submitted == 3) { $formUpdated = true;  ?>
-                    <p class="ufoSelected">UF Online</p>
+                    <p class="ufoSelected">uf online</p>
                   <?php }?>
                   <div class="studentIdentification">
                     <p class="studentID"><?php echo $studentID; ?></p>
@@ -112,9 +112,9 @@
                       <?php
                         if ($submitted == 0) {
                           echo "pending";
-                        } else if ($submitted == 1) {
-                          echo "<a href=\"approve.php?id=" . $studentID . "&email=" . htmlentities($student_email) . "\"><span class=\"approved\"><b>approve</b></span></a>";
-                        } else if ($submitted == 2 || $submitted == 3)  {
+                        } else if ($submitted == 1 || $submitted == 3) {
+                          echo "<a href=\"approve.php?id=" . $studentID . "&submitted=" . $submitted . "&email=" . htmlentities($student_email) . "\"><span class=\"approved\"><b>approve</b></span></a>";
+                        } else if ($submitted == 2 || $submitted == 4)  {
                           echo "approved";
                         }
                       ?>

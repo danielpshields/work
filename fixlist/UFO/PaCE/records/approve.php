@@ -2,18 +2,19 @@
   $root = "../";
   $page = "approve";
   $pageName = "Records: Approve";
+  require("{$root}include/db.php");
   require("{$root}include/header/header.php");
   include("{$root}include/credentials.php");
-  require("{$root}include/db.php");
 
   $studentEmail_get = $_GET['email'];
+  $transitionType   = $_GET['submitted'];
 
   $readConditions = "SELECT * FROM pace_transition WHERE email = ";
   $readConditions .= "'" . $studentEmail_get . "'";
   $spitResults = mysqli_query($connection, $readConditions);
   include("{$root}include/stipulations/variables.php");
 
-  if (isset($_POST['submit'])) {
+  if (isset($_POST['campus_submit'])) {
     $studentEmail_post = $_POST['email'];
     $query  = "UPDATE pace_transition SET submitted = 2, timeApproved = '$timeStamp' WHERE email = ";
     $query .= "'" . $studentEmail_post . "'";
@@ -23,16 +24,49 @@
     header("Location: {$root}records/transition.php");
     exit;
   }
-  include("{$root}include/header/admin_nav.php");
+
+  if (isset($_POST['ufo_submit'])) {
+    $studentEmail_post = $_POST['email'];
+    $query  = "UPDATE pace_transition SET submitted = 4, timeApproved = '$timeStamp' WHERE email = ";
+    $query .= "'" . $studentEmail_post . "'";
+    $updateApproved = mysqli_query($connection, $query);
+    if(!$updateApproved) { die ("query failed"); }
+    include("{$root}email/approve/ufo/ufo_email.php");
+    header("Location: {$root}records/transition.php");
+    exit;
+  }
+
 ?>
-<form action="<?php echo $root; ?>records/<?php echo $page; ?>.php" method="post">
-  <?php require("{$root}include/approvalForm.php"); ?>
-<div class="inputShell">
-  <h3 class="blue">Approve</h3>
-    <p>Would you like to approve <b><?php echo $studentEmail_get; ?></b> for transition?</p>
-    <input class="checkBox" type="checkbox" name="approve" value="approved" required>
-    <input class="submitButton" type="submit" name="submit" value="submit">
-  </form>
-</div>
+
+      <p>submitted = <?php echo $transitionType; ?></p>
+
+      <?php if ($transitionType == 3) { ?>
+
+        <form action="<?php echo $root; ?>records/<?php echo $page; ?>.php" method="post">
+          <input type="hidden" name="studentName" value="<?php echo $studentName; ?>">
+
+          <input type="hidden" name="email" value="<?php echo $studentEmail_get; ?>">
+
+          <div class="inputShell">
+          <h3 class="blue">UF Online Approval</h3>
+          <p>Would you like to approve <b><?php echo $studentEmail_get; ?></b> to remain in UF Online?</p>
+          <input class="checkBox" type="checkbox" name="approve" value="approved" required>
+          <input class="submitButton" type="submit" name="ufo_submit" value="submit">
+          </form>
+        </div><!-- input shell -->
+
+      <?php  } else { ?>
+
+      <form action="<?php echo $root; ?>records/<?php echo $page; ?>.php" method="post">
+        <?php require("{$root}include/approvalForm.php"); ?>
+        <div class="inputShell">
+          <h3 class="blue">Campus Approval</h3>
+            <p>Would you like to approve <b><?php echo $studentEmail_get; ?></b> for transition?</p>
+            <input class="checkBox" type="checkbox" name="approve" value="approved" required>
+            <input class="submitButton" type="submit" name="campus_submit" value="submit">
+            </form>
+      </div><!-- input shell -->
+      <?php } ?>
+
 
 <?php require("{$root}include/footer.php") ;?>
