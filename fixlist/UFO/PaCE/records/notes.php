@@ -37,7 +37,6 @@
   $showTheNotes = mysqli_query($connection, $displayNotes);
   if (!$showTheNotes) { die ("show the notes query failed"); }
   $scriptName = "notes";
-  include("{$root}include/header/admin_nav.php");
 ?>
   <div class="notes_container">
       <div class="barrier">

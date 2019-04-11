@@ -253,8 +253,9 @@ p.submitted {
   border-right: 1px solid #888;
   color: #fff;
   background: #006100;
-  background: #90D68F; /* light green */
-  color: #333;
+  background: #C8E9C8;
+  font-weight: bold;
+  color: #265C23;
 }
 
 p.approved {
@@ -267,15 +268,16 @@ p.approved {
 
 p.ufoSelected {
   border-right: 1px solid #888;
-  background: #fff;
-  color: #0e47a3; /* beautiful blue contrast */
-  background: #fff591;
-  background: #ffdd9b;
   background: #90D68F;
-  background: #FFF;
   background: #C8E9C8;
   font-weight: bold;
   color: #265C23;
+}
+
+p.ufoApproved {
+  border-right: 1px solid #888;
+  background: #ffdd9b;
+  font-weight: bold;
 }
 
 
@@ -559,7 +561,7 @@ p.bigNumber {
 }
 
 #sortNav dt:hover {
-  background: #e0e0e0;
+  background: #f0f0f0;
   cursor: pointer;
   text-decoration: underline;
 }

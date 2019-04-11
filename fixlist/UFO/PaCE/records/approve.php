@@ -36,11 +36,7 @@
     exit;
   }
 
-?>
-
-      <p>submitted = <?php echo $transitionType; ?></p>
-
-      <?php if ($transitionType == 3) { ?>
+     if ($transitionType == 3) { ?>
 
         <form action="<?php echo $root; ?>records/<?php echo $page; ?>.php" method="post">
           <input type="hidden" name="studentName" value="<?php echo $studentName; ?>">

@@ -113,3 +113,114 @@
   margin-top: .55rem;
   padding: .2rem .3rem;
 }
+
+
+/* nav Sort items */
+/* nav Sort items */
+/* nav Sort items */
+
+#recordsView_desktop {
+  margin: 1.5rem auto 0 auto;
+  border: 1px solid #666;
+  background: #d0d0d0;
+  padding: .5rem;
+  border-radius: .3rem;
+  box-shadow: .3rem .3rem .8rem #c0c0c0;
+}
+
+#recordsView_desktop li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-radius: .3rem;
+  /* padding: .5rem 1rem; */
+  background: #fff;
+  color: #585858;
+  margin-bottom: 3px;
+}
+
+#recordsView_desktop li a {
+  color: #585858;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: .5rem 1rem;
+  text-decoration: none;
+}
+
+#recordsView_desktop li a:hover {
+  background: #f0f0f0;
+  text-decoration: underline;
+}
+
+#link_allRecords {
+  border: 1.5px solid #555;
+}
+
+#link_pending {
+  border: 1.5px solid #EA4335;
+}
+
+#link_studentSubmitted  {
+  border: 1.5px solid #34A853;
+}
+
+#link_remainUFO  {
+  border: 1.5px solid #FBBC05;
+
+}
+
+#link_advisorApproved {
+  border: 1.5px solid #508ded;
+  margin-bottom: 0;
+}
+
+
+/* Majors  */
+/* Majors  */
+/* Majors  */
+
+
+dt:hover {
+  cursor: pointer;
+}
+
+
+#sortNav dt {
+  border: 2px solid #888;
+  border-top: 3px solid #81d680;
+  border-right: 3px solid #d35852;
+  border-bottom: 2px solid #ead141;
+  border-left: 3px solid #7296e5;
+  padding: 1rem 0 1rem 1rem;
+  border-radius: .4rem;
+  color: #2755A0;
+  font-weight: bold;
+  margin-bottom: .6rem;
+  box-shadow: .25rem .25rem .5rem #e0e0e0;
+  text-decoration: none;
+}
+
+#sortNav dt:hover {
+  background: #f0f0f0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#sortNav dd td {
+  font-size: .9rem;
+  padding: 0;
+}
+
+#sortNav dd td a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding: .4rem;
+}
+
+#sortNav dd td a:hover {
+  background: #d0d0d0;
+}

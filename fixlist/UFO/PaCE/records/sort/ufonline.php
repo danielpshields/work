@@ -31,13 +31,15 @@
                 <?php
                   if ($submitted == 0) { $formUpdated = false; ?>
                   <p class="pending">pending</p>
-                <?php }  else if ($submitted == 1) { $formUpdated = true;  ?>
+                <?php } else if ($submitted == 1) { $formUpdated = true;  ?>
                   <p class="submitted">submitted</p>
-                <?php } else if ($submitted == 2 || $submitted == 4)  { $formUpdated = true; ?>
+                <?php } else if ($submitted == 2) { $formUpdated = true; ?>
                   <p class="approved">approved</p>
                 <?php } else if ($submitted == 3) { $formUpdated = true;  ?>
                   <p class="ufoSelected">UF Online</p>
-                <?php }?>
+                <?php } else if ($submitted == 4) { $formUpdated = true; ?>
+                  <p class="ufoApproved">approved</p>
+                <?php } ?>
                 <div class="studentIdentification">
                   <p class="studentID"><?php echo $studentID; ?></p>
                   <h3><?php echo $student_email; ?></h3>

@@ -12,7 +12,6 @@
   $query = "SELECT * FROM pace_transition ORDER BY formCreated DESC";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
-  include("{$root}include/header/admin_nav.php");
 ?>
   <?php
     include("{$root}records/majors/index.php");
@@ -86,12 +85,17 @@
             <?php
             while ($row = mysqli_fetch_assoc($majors)) { ?>
             <tr>
-              <td><?php echo $row['name']; ?></td>
-              <td><?php echo truncation($row['email']); ?></td>
+              <?php
+                $id    = $row['studentID'];
+                $email = $row['email'];
+              ?>
+              <td><a href="<?php echo $root . 'records/record.php?getFromMajors=' . $id . '&email=' . $email; ?>"><?php echo $row['name']; ?></td>
+              <td><a href="mailto:<?php echo $row['email']; ?>"><?php echo truncation($row['email']); ?></td>
               <td><?php echo $row['studentID']; ?></td>
             </tr>
             <?php } ?>
           </table>
+
         </div><!-- stipulation table -->
 
       <?php } ?>
