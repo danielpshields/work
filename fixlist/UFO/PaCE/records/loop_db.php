@@ -75,7 +75,7 @@
                         if ($submitted == 0) {
                           echo "pending";
                         } else if ($submitted == 1 || $submitted == 3) {
-                          echo "<a href=\"approve.php?id=" . $db_ID . "&submitted=" . $submitted . "&email=" . htmlentities($db_email) . "\"><span class=\"approved\"><b>approve</b></span></a>";
+                          echo "<a href=\"" . $root . "records/approve.php?id=" . $db_ID . "&submitted=" . $submitted . "&email=" . htmlentities($db_email) . "\"><span class=\"approved\"><b>approve</b></span></a>";
                         } else if ($submitted == 2 || $submitted == 4)  {
                           echo "approved";
                         }
