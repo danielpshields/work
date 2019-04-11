@@ -1,14 +1,15 @@
 <?php
   require("../include/db.php");
   $root = "../";
-  $page = "records";
+  $page = "layout";
+  $style = "record";
   $dataPage = "all";
   $pageName = "Records: Transition";
   $style = "majors";
   require("{$root}include/header/header.php");
-  $scriptName = "majors";
   include("{$root}include/credentials.php");
   $scriptName = $page;
+  $scriptName = "majors";
   $query = "SELECT * FROM pace_transition ORDER BY formCreated DESC";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
@@ -26,8 +27,8 @@
 
   ?>
 
-  <div id="records_container">
-    <div id="tickets_container">
+  <div id="page_container">
+    <div id="content_container">
       <h2 style="margin-bottom: 1.81rem;">PaCE Transition Major<?php if (!$_GET) { echo "s";} else { $get = true; echo ": <b>" . ucfirst($major) . "</b>"; } ?></h2>
       <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
       <script src="<?php echo $root; ?>scripts/highcharts.js"></script>

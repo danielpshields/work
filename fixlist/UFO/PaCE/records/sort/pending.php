@@ -15,9 +15,7 @@
   <div id="page_container">
     <div id="content_container">
       <h2>Pending Tickets</h2>
-
       <?php require("{$root}records/loop_db.php"); ?>
-
     </div><!-- tickets Container -->
 
     <?php include("{$root}records/sortNav.php"); ?>

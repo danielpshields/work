@@ -1,20 +1,20 @@
 <?php
   require("../include/db.php");
   $root = "../";
-  $page = "records";
+  $page = "layout";
   $style = "pending";
   $pageName = "Records: Transition";
   require("{$root}include/header/header.php");
-  $scriptName = "majors";
   include("{$root}include/credentials.php");
   $scriptName = $page;
+  $scriptName = "majors";
   $query = "SELECT * FROM pace_transition WHERE submitted = 0 AND contacted = 0 ORDER BY email ASC";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
 ?>
 
-  <div id="records_container">
-    <div id="tickets_container">
+  <div id="page_container">
+    <div id="content_container">
       <h2>Email Pending Tickets</h2>
 
       <?php if (mysqli_num_rows($spitResults)) { ?>

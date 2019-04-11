@@ -145,6 +145,10 @@ p.timeCreated, p.timeSubmitted {
   letter-spacing: 1px;
 }
 
+#individualRecord p.timeCreated {
+  width: 18%;
+}
+
 .barrier table {
   width: 95%;
   max-width: 25rem;

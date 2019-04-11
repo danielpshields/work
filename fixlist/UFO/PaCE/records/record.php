@@ -6,10 +6,16 @@
   $dataPage = "all";
   $pageName = "Records: Search Results";
   require("{$root}include/header/header.php");
+  $scriptName = "majors";
 ?>
 <?php
   if (isset($_POST['submitSearchFor'])) {
     $searchTerm = $_POST['searchFor'];
+  } else if (isset($_GET['getFromMajors'])) {
+    $searchTerm = $_GET['email'];
+  } else {
+    header("Location: {$root}records/transition.php");
+    exit;
   }
   $searchForRecord = "SELECT * FROM pace_transition WHERE email = '{$searchTerm}'";
   $checkRecords    = mysqli_query($connection, $searchForRecord);
@@ -25,12 +31,11 @@
     <div id="page_container">
       <div id="content_container">
 
+        <h2 id="recordSlug">Record: <a href="<?php echo $root . 'records/notes.php?id='. $db_ID . '&email=' . $db_email; ?>"><u><?php echo $db_email; ?></u></a></h2>
+
+        <div id="tickets_container">
+
         <?php if ($recordMatchExists) { ?>
-
-          <h2 id="recordSlug">Record: <a href="<?php echo $root . 'records/notes.php?id='. $db_ID . '&email=' . $db_email; ?>"><u><?php echo $db_email; ?></u></a></h2>
-
-          <div id="tickets_container">
-
 
           <div class="barrier" id="individualRecord">
             <div class="barrierHeader">
@@ -97,7 +102,7 @@
       </div><!-- tickets container -->
     </div><!-- content container -->
     <?php include("{$root}records/sortNav.php"); ?>
-  </div>
+  </div><!-- page container -->
 
 
 <?php require("{$root}include/footer.php") ;?>

@@ -8,7 +8,6 @@
   $query = "SELECT * FROM pace_exploratory";
   $spitResults = mysqli_query($connection, $query);
   if (!$spitResults) { die ("query failed"); }
-  include("{$root}include/header/admin_nav.php");
 ?>
 
   <div id="exploratory_container" class="container">
