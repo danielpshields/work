@@ -88,11 +88,13 @@ h2 a {
 
 h3 {
   color: #575757;
+  color: #383838;
   font-weight: 300;
   margin: auto;
   width: 84%;
   max-width: 40rem;
   font-size: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 p {
@@ -136,8 +138,7 @@ ul, ol {
   border-radius: .1rem;
   width: 90%;
   max-width: 29rem;
-  margin: auto;
-  margin-top: 2.81rem;
+  margin: 2.81rem auto 2rem auto;
   padding: 0 0 2rem 0;
 }
 
@@ -149,6 +150,11 @@ ul, ol {
   margin: 0;
   padding: .7rem 0 .7rem 1rem;
 }
+
+.inputShell p {
+  font-size: 1.1rem;
+}
+
 
 .orange {
   background: #B95809;
@@ -225,6 +231,36 @@ h3.black {
   margin: 1.8rem auto;
 }
 
+table, tr, th, td {
+  border: 1px solid #333;
+  padding: .4rem;
+}
+
+thead { background: #d0d0d0; }
+
+th, td {
+  text-align: center;
+}
+
+tr, td, th, .barrier, .barrierHeader, .studentIdentification, .inputShell, .notes_records {
+  background: white;
+}
+
+thead.phoneTableHeading tr th {
+  background: #A2D590;
+  color: #333;
+}
+
+th.blueTableHeader {
+  background: #C3CBE0;
+}
+
+
+
+dt:hover {
+  cursor: pointer;
+}
+
 .inputShell dl {
   margin: 2.5rem auto 1rem auto;
   width: 93%;
@@ -288,36 +324,31 @@ textarea {
 }
 
 
-#loginError {
-  color: #A30000;
-  color: #3c65a8;
+
+
+.red {
+  color: #AD0000;
+  background: white;
+  text-align: center;
 }
 
-/* dd p {
- font-size: 1rem;
- color: #444;
-} */
-
-/* dt {
-  color: #2A5DB0;
-  font-weight: 100;
-  font-size: .8rem;
-  text-decoration: underline;
-  margin-left: 1rem;
+.green {
+  background: #32CD32;
+  background: #afedaf;
+  color: white;
+  color: #333;
+  text-align: center;
 }
 
-dd {
-  padding-top: 1.5rem;
+p.bigNumber {
+  font-size: 11rem;
+  width: 100%;
+  margin: 2rem auto 0 auto;
+  padding: 0;
+  line-height: 1;
+  text-align: center;
+  color: #c0c0c0;
 }
-
-dt img {
-  width: .55rem;
-  margin-right: .3rem;
-}
-
-dd h3 {
-  color: #444;
-} */
 
 .centerSlug {
   text-align: center;

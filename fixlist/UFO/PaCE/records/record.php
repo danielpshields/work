@@ -29,7 +29,10 @@
 
           <h2 id="recordSlug">Record: <a href="<?php echo $root . 'records/notes.php?id='. $db_ID . '&email=' . $db_email; ?>"><u><?php echo $db_email; ?></u></a></h2>
 
-          <div class="barrier">
+          <div id="tickets_container">
+
+
+          <div class="barrier" id="individualRecord">
             <div class="barrierHeader">
               <?php
                   $approvedTime  = $row['timeApproved'];
@@ -63,7 +66,7 @@
               <div class="identifyVariables">
                 <p id="ledeName">"<?php echo ucfirst($db_name); ?>"</p>
                 <h3><?php echo $db_ID; ?></h3>
-                <p class="studentID"><?php echo $db_email; ?></p>
+                <p class="studentEmail"><?php echo $db_email; ?></p>
               </div>
               <?php include("{$root}/include/guts.php"); ?>
               <?php
@@ -92,8 +95,9 @@
 
         <?php } // if record exists ?>
       </div><!-- tickets container -->
-      <?php include("{$root}records/sortNav.php"); ?>
-    </div><!-- records container -->
+    </div><!-- content container -->
+    <?php include("{$root}records/sortNav.php"); ?>
+  </div>
 
 
 <?php require("{$root}include/footer.php") ;?>

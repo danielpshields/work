@@ -101,7 +101,7 @@ if (!empty($ufoMajor)) {  ?>
 //student response
 if (!empty($semester)) { ?>
   <table>
-    <thead class="filled">
+    <thead class="phoneTableHeading">
       <tr>
         <th>Semester</th>
         <th>Phone</th>

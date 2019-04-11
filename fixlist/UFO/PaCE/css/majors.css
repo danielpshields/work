@@ -1,3 +1,17 @@
+#majorSummaryGraph {
+  font-size: 2.4rem;
+  margin-top: 2rem;
+  color: #555;
+}
+
+#majorSummaryGraph span {
+  font-size: 10rem;
+  letter-spacing: -1px;
+  color: #888;
+  padding-right: .851rem;
+}
+
+
 p#majorSummaryGraph {
   margin: 1rem auto;
 }

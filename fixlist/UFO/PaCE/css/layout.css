@@ -21,7 +21,8 @@
 
 
 /* right column container */
-#sortNav_container {
+#sortNav {
+  width: 23%;
   padding-top: 3rem;
 }
 
@@ -78,7 +79,7 @@
   width: 100%;
 }
 
-#emailPending {
+#navButton_emailPending {
   border: 2px solid #db5346;
 }
 
@@ -119,7 +120,7 @@
 /* nav Sort items */
 /* nav Sort items */
 
-#recordsView_desktop {
+#sortNav_sortLinksUL {
   margin: 1.5rem auto 0 auto;
   border: 1px solid #666;
   background: #d0d0d0;
@@ -128,7 +129,7 @@
   box-shadow: .3rem .3rem .8rem #c0c0c0;
 }
 
-#recordsView_desktop li {
+#sortNav_sortLinksUL li {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -140,7 +141,7 @@
   margin-bottom: 3px;
 }
 
-#recordsView_desktop li a {
+#sortNav_sortLinksUL li a {
   color: #585858;
   display: inline-block;
   width: 100%;
@@ -149,43 +150,33 @@
   text-decoration: none;
 }
 
-#recordsView_desktop li a:hover {
+#sortNav_sortLinksUL li a:hover {
   background: #f0f0f0;
   text-decoration: underline;
 }
 
-#link_allRecords {
+#button_allRecords {
   border: 1.5px solid #555;
 }
 
-#link_pending {
+#button_pending {
   border: 1.5px solid #EA4335;
+  border: 2px solid #9E0000;
+
 }
 
-#link_studentSubmitted  {
+#button_studentSubmitted  {
   border: 1.5px solid #34A853;
 }
 
-#link_remainUFO  {
+#button_remainUFO  {
   border: 1.5px solid #FBBC05;
-
 }
 
-#link_advisorApproved {
+#button_advisorApproved {
   border: 1.5px solid #508ded;
   margin-bottom: 0;
 }
-
-
-/* Majors  */
-/* Majors  */
-/* Majors  */
-
-
-dt:hover {
-  cursor: pointer;
-}
-
 
 #sortNav dt {
   border: 2px solid #888;
@@ -225,108 +216,16 @@ dt:hover {
   background: #d0d0d0;
 }
 
-/* ticketShells */
-/* ticketShells */
-/* ticketShells */
-
-
-.barrier {
+table#majorsTableNav {
+  border-collapse: collapse;
+  border: 4px solid #d0d0d0;
   width: 100%;
-  border: 1px solid #888;
-  border: 1px solid #333;
-  max-width: 40rem;
-  margin: auto;
-  margin-top: 2.81rem;
-  border-radius: .2rem;
-  /* box-shadow: .3rem .3rem .8rem #f0f0f0; */
+  box-shadow: 0.3rem 0.3rem 0.8rem #d0d0d0;
+  margin-bottom: 1rem;
 }
 
-.barrierHeader, .ufoSubmission {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  outline-color: #888;
-  outline-color: #333;
-  outline-style: solid;
-  outline-width: 1px;
-}
-
-.barrierHeader h3 {
-  margin: 0;
-  width: 78%;
-  font-size: 1.1rem;
-  padding: .7rem;
-  font-weight: 600;
-  color: #333;
-  color: #444;
-  color: #555;
-  text-align: left;
-}
-
-.barrierHeader p {
-  width: 22%;
-  margin: 0;
-  padding: .7rem;
-}
-.barrierHeader p {
-  width: 80%;
-}
-
-p.pending {
-  background: #eee;
-  color: #9E0000;
-  border-right: 1px solid #888;
-}
-
-p.submitted {
-  font-weight: bold;
-  border-right: 1px solid #888;
-  background: #90D68F;
-  color: #333;
-}
-
-p.approved {
-  border-right: 1px solid #888;
-  background: #fff;
-  color: #0e47a3; /* beautiful blue contrast */
-  background: #A9C8F9;
-}
-
-p.ufoSelected {
-  border-right: 1px solid #888;
-  font-weight: bold;
-  background: #A9C8F9;
-  color: #333;
-}
-
-p.ufoApproved {
-  border-right: 1px solid #888;
-  background: #ffdd9b;
-  font-weight: bold;
-}
-
-
-th.blueTableHeader {
-  background: #C3CBE0;
-}
-
-
-/* if Remain in UF Online in ticketShell */
-.ufoSubmission {
-  background: #EDF3F8; /* blue light contrast */
-  padding-top: .5rem;
-  padding-bottom: .4rem;
-  width: 95%;
-  margin: 2rem auto;
-}
-
-.ufoSubmission p {
-  margin: .6rem auto .6rem auto;
-}
-
-/* graph to highlight as heading */
-.ufoMajor {
-  font-weight: bold;
-  color: #00529b;
-  border-right: 1px solid #888;
+#majorsTableNav td {
+  border: 1px solid #999;
+  font-size: .9rem;
+  padding: 0;
 }

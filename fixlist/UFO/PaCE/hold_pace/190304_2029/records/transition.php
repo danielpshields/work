@@ -66,7 +66,7 @@
                 </div><!-- form created -->
               <?php }?>
             </dd>
-            <div class="notes">
+            <div class="barrier_notes">
               <?php
               $loopNotes    = "SELECT * FROM pace_student_notes WHERE email = ";
               $loopNotes   .= "'" . $student_email . "'";

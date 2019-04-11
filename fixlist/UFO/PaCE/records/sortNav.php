@@ -1,6 +1,6 @@
   <div id="sortNav">
 
-    <?php if ($page == "ticket") { ?>
+    <?php if ($state == "ticket") { ?>
 
       <div id="navButton_records" class="navButton">
         <p><a href="<?php echo $root; ?>records/transition.php">Records</a></p>
@@ -35,20 +35,20 @@
       <li style="border: 1.5px solid #508ded;"><a href="<?php echo $root; ?>records/sort/approved.php">advisor approved</a></li>
     </ul> -->
     <!-- <li style="color: #990000;">Case / PDF</li> -->
-    <ul id="recordsView_desktop">
-      <li id="link_allRecords">
+    <ul id="sortNav_sortLinksUL">
+      <li id="button_allRecords">
         <a href="<?php echo $root; ?>records/transition.php">all records</a>
       </li>
-      <li id="link_pending">
+      <li id="button_pending">
         <a href="<?php echo $root; ?>records/sort/pending.php">pending tickets</a>
       </li>
-      <li id="link_studentSubmitted">
+      <li id="button_studentSubmitted">
         <a href="<?php echo $root; ?>records/sort/submitted.php">submitted tickets</a>
       </li>
-      <li id="link_remainUFO">
+      <li id="button_remainUFO">
         <a href="<?php echo $root; ?>records/sort/ufonline.php">UFO approved</a>
       </li>
-      <li id="link_advisorApproved">
+      <li id="button_advisorApproved">
         <a href="<?php echo $root; ?>records/sort/approved.php">Campus approved</a>
       </li>
     </ul>
@@ -209,16 +209,14 @@
     </dl>
 
 
-    <?php
-    if (mysqli_num_rows($contactedQuery)) { ?>
-        <div class="navButton" id="emailPending">
-          <!-- id="emailPendingLink"> -->
+
+        <div class="navButton" id="navButton_emailPending">
           <p><a href="<?php echo $root; ?>records/pending.php">Email Pending</a></p>
           <div class="navButton_image">
             <img src="<?php echo $root; ?>image/envelope.png" alt="">
           </div>
         </div><!-- nav button -->
-    <?php } ?>
+
 
 
     <?php include("{$root}include/header/admin_nav.php"); ?>

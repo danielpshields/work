@@ -1,0 +1,888 @@
+
+
+#majors {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#records_container {
+  display: flex;
+  justify-content: space-between;
+  width: 61.25rem;
+  margin: auto;
+}
+
+#sortNav {
+    padding-top: 3rem;
+}
+
+#majors {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#copyText {
+  width: 74%;
+  margin: auto;
+  margin-top: 2.3rem;
+  padding: 0;
+  color: #555;
+  font-family: monospace;
+}
+
+#tickets_container {
+  width: 75%;
+
+}
+
+#tickets_container h2 {
+  color: #333;
+  width: 84%;
+  max-width: 61.25rem;
+  margin: auto;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+
+
+#sortNav {
+  width: 23%;
+}
+
+
+#recordsView_desktop {
+  margin: 1.4rem auto 0 auto;
+  border: 1px solid #666;
+  background: #d0d0d0;
+  padding: .5rem;
+  border-radius: .3rem;
+  box-shadow: .3rem .3rem .8rem #c0c0c0;
+}
+
+#recordsView_desktop li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border: 1px solid #555;
+  border-radius: .3rem;
+  /* padding: .5rem 1rem; */
+  background: #fff;
+  color: #585858;
+}
+
+#recordsView_desktop li a {
+  color: #585858;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: .5rem 1rem;
+  text-decoration: none;
+}
+
+#recordsView_desktop li a:hover {
+  background: #f0f0f0;
+  text-decoration: underline;
+}
+
+
+h3 {
+  color: #383838;
+  margin-bottom: 1.5rem;
+}
+
+.inputShell {
+  margin-bottom: 2rem;
+}
+
+.inputShell p {
+  font-size: 1.1rem;
+}
+
+dt:hover {
+  cursor: pointer;
+}
+
+
+.studentIdentification {
+  /* background: #4286f4; */
+  width: 63%;
+  display: flex;
+  justify-content: space-between;
+}
+
+p.timeCreated, p.timeSubmitted {
+  margin: 0;
+  padding-top: .9rem;
+  width: 14%;
+  /* background: red; */
+  text-align: center;
+  font-size: .85rem;
+  color: #575757;
+  letter-spacing: 1px;
+}
+
+.barrier table {
+  max-width: 25rem;
+  margin: 2rem auto;
+}
+
+.barrier table {
+  width: 95%;
+  margin: 2rem auto;
+}
+
+
+table, tr, th, td {
+  border: 1px solid #333;
+  padding: .4rem;
+}
+
+thead { background: #d0d0d0; }
+
+th, td {
+  text-align: center;
+}
+.filled tr th {
+  background: white;
+  color: #26539C;
+  background: #A2D590;
+  color: #333;
+}
+
+#conditionsPaceMajor th {
+  background: #C3CBE0;
+}
+
+.coursesTable tr:nth-child(even) {background: #F1F5FE;}
+.coursesTable tr:nth-child(odd) {background: #FFF;}
+.coursesTable th {
+  background: #d0d0d0;
+}
+
+tr, td, th, .barrier, .barrierHeader, .studentIdentification, .inputShell, .notes_records {
+  background: white;
+}
+
+
+
+
+#conditionsPaceMajor th {
+  background: #C3CBE0;
+}
+
+.coursesTable tr:nth-child(even) {background: #F1F5FE;}
+.coursesTable tr:nth-child(odd) {background: #FFF;}
+
+.coursesTable th {
+  background: #d0d0d0;
+}
+
+.writtenCondition {
+  margin: 0 auto;
+  margin-bottom: 1px;
+}
+
+.writtenConditionHeaderWrap {
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: .3rem;
+}
+
+.writtenCondition h3 {
+  width: 100%;
+  font-weight: bold;
+  max-width: 25rem;
+  margin: auto;
+  padding: .6rem 0;
+  color: #3d3d3d;
+}
+
+.writtenCondition p {
+  background: white;
+  padding: 1rem .4rem;
+  max-width: 25rem;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  margin-bottom: .4rem;
+  font-style: italic;
+  color: #545454;
+}
+
+p#zeroStips {
+  color: #651A1A;
+  color: #962727;
+  color: #25406b;
+  /* background: linear-gradient(white, #FAFAFA); */
+  background: white;
+  color: #335694;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 1.5rem 0;
+  font-weight: 600;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #999;
+  font-style: italic;
+  /* font-size: 1.5rem; */
+}
+
+/* response container  */
+/* #response {
+  background: #d0d0d0;
+}
+
+#response table {
+  background: white;
+} */
+
+
+
+.formCreated {
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #999;
+  width: 100%;
+  /* background: #1b52aa; */
+}
+
+.formCreated p {
+  text-align: right;
+  margin: 0;
+  padding: .4rem .8rem .4rem 0;
+  width: 100%;
+  max-width: none;
+  font-style: italic;
+  color: #3e5882;
+  color: #454545;
+  font-size: .9rem;
+}
+
+
+.red {
+  color: #AD0000;
+  background: white;
+  text-align: center;
+}
+
+.green {
+  background: #32CD32;
+  background: #afedaf;
+  color: white;
+  color: #333;
+  text-align: center;
+}
+
+.notes {
+  width: 100%;
+  /* max-width: 22rem; */
+  padding: .4rem 0;
+  margin: auto;
+  display: flex;
+  /* background: red; */
+  justify-content: space-between;
+}
+
+.notes img {
+  display: inline;
+  margin: auto;
+  /* background: green; */
+}
+
+.notes p {
+  /* text-align: center; */
+  margin-bottom: 0;
+  font-style: italic;
+  font-size: .9rem;
+}
+
+.notes a {
+  font-weight: 400;
+}
+
+.note_theConstant {
+  width: 22%;
+  /* background: green; */
+  text-align: center;
+  border-right: 1px solid #b0b0b0;
+}
+
+.note_variants {
+  width: 78%;
+  /* background: blue; */
+}
+
+.variantsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: auto;
+}
+
+span.approve {
+  font-style: initial;
+}
+
+p.bigNumber {
+  font-size: 11rem;
+  width: 100%;
+  margin: 2rem auto 0 auto;
+  padding: 0;
+  line-height: 1;
+  text-align: center;
+  color: #c0c0c0;
+}
+
+#sortNav table {
+  border-collapse: collapse;
+  border: 4px solid #d0d0d0;
+  width: 100%;
+  box-shadow: .3rem .3rem .8rem #d0d0d0;
+  margin-bottom: 1rem;
+}
+
+#sortNav table tr th {
+  background: #c9c9c9;
+  /* font-weight: 300; */
+}
+
+#sortNav table tr td {
+  border: 1px solid #999;
+}
+
+#sortNav dt {
+  border: 1px solid #c0c0c0;
+  padding: 1rem 0 1rem 1rem;
+  border-radius: .4rem;
+  color: #2755A0;
+  font-weight: bold;
+}
+
+#sortNav dt:hover {
+  background: #e0e0e0;
+  text-decoration: underline;
+}
+
+#sortNav dt h3:hover {
+  text-decoration: underline;
+}
+
+#sortNav dd td {
+  font-size: .9rem;
+  padding: 0;
+}
+
+#sortNav dd td a {
+
+}
+
+#sortNav dd td a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding: .4rem;
+}
+
+#sortNav dd td a:hover {
+  background: #d0d0d0;
+}
+
+
+.recordsView_desktop {
+  width: 50%;
+  margin: 1rem auto 1.5rem auto;
+}
+
+.recordsView_desktop ul {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 0;
+}
+
+.recordsView_desktop li {
+  list-style: none;
+}
+
+h3 {
+  color: #383838;
+  margin-bottom: 1.5rem;
+}
+
+.notes_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background: #333;
+  max-width: 61.25rem;
+  margin: auto;
+  margin-top: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+.barrier {
+  display: block;
+  border: 1px solid #222;
+  box-shadow: .3rem .3rem .8rem #888;
+  max-width: 30rem;
+  min-width: 22rem;
+  margin: 0 auto;
+  margin-top: 2.8rem;
+  border-radius: .2rem;
+}
+
+.inputShell {
+  /* margin-bottom: 2rem; */
+  margin: 0 auto;
+  margin-top: 1rem;
+  display: block;
+}
+
+.inputShell p {
+  font-size: 1.1rem;
+}
+
+.barrierHeader, .ufoSubmission {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  outline-color: #888;
+  outline-color: #333;
+  outline-style: solid;
+  outline-width: 1px;
+}
+
+
+
+.identifyVariables {
+  border-bottom: 1px solid #c0c0c0;
+  padding-bottom: .5rem;
+  padding-left: 1.6rem;
+}
+
+.identifyVariables h3 {
+  margin: 0;
+  /* margin-top: .8rem; */
+  width: 78%;
+  padding: .7rem;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #333;
+}
+
+p.studentID {
+  margin: 0;
+  margin-bottom: 0rem;
+  width: 78%;
+  padding: .7rem;
+  color: #575757;
+  font-size: .9rem;
+  font-style: italic;
+}
+
+.studentIdentification {
+  /* background: #4286f4; */
+  width: 63%;
+  display: flex;
+  justify-content: space-between;
+}
+
+p.timeCreated, p.timeSubmitted {
+  margin: 0;
+  padding-top: .9rem;
+  width: 20%;
+  /* background: red; */
+  text-align: center;
+  font-size: .85rem;
+  color: #575757;
+  letter-spacing: 1px;
+}
+
+.ufoSubmission {
+  background: #D1FFD1; /* green hospital */
+  background: #EDF3F8; /* blue light contrast */
+  padding-top: .5rem;
+  padding-bottom: .4rem;
+}
+
+.ufoSubmission p {
+  margin: .6rem auto .6rem auto;
+}
+
+/* graph to highlight as heading */
+.ufoMajor {
+  font-weight: bold;
+  color: #00529b;
+  border-right: 1px solid #888;
+}
+
+#notes h3 {
+  background: linear-gradient(#9400D3, #4B0082);
+  background: #E4B3F5;
+  color: #333;
+}
+
+.barrier table {
+  max-width: 25rem;
+  margin: 2rem auto;
+}
+
+.barrier table, .ufoSubmission {
+  width: 95%;
+  margin: 2rem auto;
+}
+
+
+.ufoSubmission {
+  padding: 0 1rem;
+}
+
+table, tr, th, td {
+  border: 1px solid #333;
+  padding: .4rem;
+}
+
+thead { background: #d0d0d0; }
+
+th, td {
+  text-align: center;
+}
+.filled tr th {
+  background: white;
+  color: #26539C;
+  background: #A2D590;
+  color: #333;
+}
+
+#conditionsPaceMajor th {
+  background: #C3CBE0;
+}
+
+.coursesTable tr:nth-child(even) {background: #F1F5FE;}
+.coursesTable tr:nth-child(odd) {background: #FFF;}
+.coursesTable th {
+  background: #d0d0d0;
+}
+
+tr, td, th, .barrier, .barrierHeader, .studentIdentification, .inputShell, .notes_records {
+  background: white;
+}
+
+
+.writtenCondition {
+  margin: 0 auto;
+  margin-bottom: 1px;
+}
+
+.writtenConditionHeaderWrap {
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: .3rem;
+}
+
+.writtenCondition h3 {
+  width: 100%;
+  font-weight: bold;
+  max-width: 25rem;
+  margin: auto;
+  padding: .6rem 0 .6rem .7rem;
+  color: #3d3d3d;
+}
+
+.writtenCondition p {
+  background: white;
+  padding: 1rem .4rem;
+  max-width: 25rem;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  margin-bottom: .4rem;
+  font-style: italic;
+  color: #545454;
+}
+
+p#zeroStips {
+  color: #651A1A;
+  color: #962727;
+  color: #25406b;
+  /* background: linear-gradient(white, #FAFAFA); */
+  background: white;
+  color: #335694;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 1.5rem 0;
+  font-weight: 600;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #999;
+  font-style: italic;
+  /* font-size: 1.5rem; */
+}
+
+.formCreated {
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #999;
+  width: 100%;
+  /* background: #1b52aa; */
+}
+
+.formCreated p {
+  text-align: right;
+  margin: 0;
+  padding: .4rem .8rem .4rem 0;
+  width: 100%;
+  max-width: none;
+  font-style: italic;
+  color: #3e5882;
+  color: #454545;
+  font-size: .9rem;
+}
+
+
+.red {
+  color: #AD0000;
+  background: white;
+  text-align: center;
+}
+
+.green {
+  background: #32CD32;
+  background: #afedaf;
+  color: white;
+  color: #333;
+  text-align: center;
+}
+
+
+#approveFromNotes h3 {
+  width: 100%;
+  color: #333;
+  background: #A9C8F9;
+  padding: .7rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-top: 2px solid #333;
+}
+
+#approveFromNotes p {
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+input.checkBox#approveStatement {
+  display: block;
+  height: 1.1rem;
+  width: 1.1rem;
+  transform: scale(1.6);
+  /* margin-left: 50%; */
+  margin: auto;
+  width: 29%;
+  background: black;
+}
+
+.inputShell textarea {
+  border: 1px solid #555;
+}
+dt:hover {
+  cursor: pointer;
+}
+
+.notes_records dt p i {
+  color: #2755A0;
+  text-decoration: underline;
+}
+
+.notes_records dt p i:hover {
+  color: #5d98f7;
+  text-decoration: none;
+}
+
+
+#history_container {
+  border-top: 1px solid #a0a0a0;
+  padding-top: 2rem;
+}
+
+#history {
+  margin: auto;
+}
+
+#history th {
+  background: #C9C9C9;
+  color: #333;
+}
+
+#history td {
+  padding: .6rem;
+}
+
+
+#searchStudent {
+  margin-top: .6rem;
+}
+
+#searchEmail {
+  width: 99%;
+  display: block;
+  margin: auto;
+  border: 1px solid #c0c0c0;
+  border-radius: .3rem;
+  /* margin-top: .4rem; */
+  padding: .4rem;
+}
+
+#searchSubmit {
+  display: block;
+  margin: auto;
+  width: 35%;
+  margin-top: .4rem;
+  padding: .2rem .3rem;
+}
+
+#noRecordMessage {
+  margin-top: 2.81rem;
+  border: 2px solid #a0a0a0;
+  /* width: 84%; */
+  box-shadow: .4rem .4rem .8rem #d0d0d0;
+  border-radius: .2rem;
+}
+
+
+#sortNav table {
+  border-collapse: collapse;
+  border: 4px solid #d0d0d0;
+  width: 100%;
+  box-shadow: .3rem .3rem .8rem #d0d0d0;
+  margin-bottom: 1rem;
+}
+
+#sortNav table tr th {
+  background: #c9c9c9;
+  /* font-weight: 300; */
+}
+
+#sortNav table tr td {
+  border: 1px solid #999;
+}
+
+#sortNav dt {
+  border: 2px solid #888;
+  border-top: 3px solid #81d680;
+  border-right: 3px solid #d35852;
+  border-bottom: 2px solid #ead141;
+  border-left: 3px solid #7296e5;
+  padding: 1rem 0 1rem 1rem;
+  border-radius: .4rem;
+  color: #2755A0;
+  font-weight: bold;
+  margin-bottom: .6rem;
+  box-shadow: .25rem .25rem .5rem #e0e0e0;
+  text-decoration: none;
+}
+
+#sortNav dt:hover {
+  background: #e0e0e0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#sortNav dd td {
+  font-size: .9rem;
+  padding: 0;
+}
+
+#sortNav dd td a {
+
+}
+
+#sortNav dd td a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding: .4rem;
+}
+
+#sortNav dd td a:hover {
+  background: #d0d0d0;
+}
+
+#searchStudent {
+  margin-top: .7rem;
+}
+
+#searchEmail {
+  width: 99%;
+  display: block;
+  margin: auto;
+  border: 1px solid #9cabc1;
+  border-radius: .3rem;
+  /* margin-top: .4rem; */
+  padding: .4rem;
+  box-shadow: .2rem .2rem .5rem #d0d0d0;
+}
+
+#searchSubmit {
+  display: block;
+  margin: auto;
+  width: 35%;
+  margin-top: .55rem;
+  padding: .2rem .3rem;
+}
+
+#majorSummaryGraph {
+  font-size: 2.3em;
+  margin-top: 2rem;
+  color: #555;
+}
+
+#majorSummaryGraph span {
+  font-size: 8rem;
+  color: #888;
+  padding-right: .851rem;
+}
+
+#noRecordMessage {
+  padding-bottom: .7rem;
+}
+
+#noRecordMessage p {
+  font-size: 1.2rem;
+}
+#noRecordMessage .lightSlugGraph {
+  font-size: 1rem;
+}
+
+/* innappropriately named hideShow ID */
+#newTicketDropdown {
+  display: none;
+}
+
+#createStudentTicket {
+  color: #2755A0;
+  text-decoration: underline;
+}
+
+#createStudentTicket:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #3a68b2;
+  /* color: #153d7f; */
+}
+
+#newOptionsThree {
+  padding-bottom: 2rem;
+}
+
+
+/* spitting leftovers  */
+/* spitting leftovers  */
+/* spitting leftovers  */
+/* spitting leftovers add these to specific pages  */
+
+
+#loginError {
+  color: #A30000;
+  color: #3c65a8;
+}
