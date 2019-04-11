@@ -17,12 +17,14 @@
     header("Location: {$root}records/transition.php");
     exit;
   }
-  $searchForRecord = "SELECT * FROM pace_transition WHERE email = '{$searchTerm}'";
+  $searchForRecord = "SELECT * FROM pace_transition WHERE email = '{$searchTerm}' OR studentID = '{$searchTerm}'";
   $checkRecords    = mysqli_query($connection, $searchForRecord);
   if (!$checkRecords) {die("Query Failed: search for records");}
+  // check the records for a match of email or student id
   while ($row = mysqli_fetch_assoc($checkRecords)) {
     $db_email = $row['email'];
-    if ($searchTerm === $db_email) {
+    $db_ID    = $row['studentID'];
+    if ($searchTerm === $db_email || $searchTerm == $db_ID) {
       $recordMatchExists = true;
       include("{$root}include/variables.php");
     }
@@ -31,7 +33,7 @@
     <div id="page_container">
       <div id="content_container">
 
-        <h2 id="recordSlug">Record: <a href="<?php echo $root . 'records/notes.php?id='. $db_ID . '&email=' . $db_email; ?>"><u><?php echo $db_email; ?></u></a></h2>
+        <h2 id="recordSlug">Record: <?php if (!$recordMatchExists) { echo "\"" . $searchTerm . "\""; } else { ?> <a href="<?php echo $root . 'records/notes.php?id='. $db_ID . '&email=' . $db_email; ?>"><u><?php echo $db_email; ?></u></a><?php } ?></h2>
 
         <div id="tickets_container">
 
@@ -95,8 +97,38 @@
 
           </div><!-- barrier End left side -->
 
+        <?php } else if ($searchTerm == "whoIS") { ?>
+          <div class="inputShell">
+
+          <h3 class="black"><?php
+            if (isset($whoIS)) {
+              echo $whoIS;
+            } else {
+              echo "print_env";
+            }
+          ?></h3>
+          <p style="font-family: monospace;">
+            <?php
+              echo $_SERVER['HTTP_UFSHIB_BUSINESSNAME'] . "<br>";
+              echo $_SERVER['HTTP_UFSHIB_GIVENNAME']." ".$_SERVER['HTTP_UFSHIB_SN'] . "<br>";
+              echo $_SERVER['HTTP_UFSHIB_GIVENNAME'] . "<br>";
+              echo $_SERVER['HTTP_UFSHIB_UFID'] . "<br>";
+              echo "(EPPN) " . $_SERVER['HTTP_UFSHIB_EPPN'] . "<br>";
+              echo "(MAIL) " . $_SERVER['HTTP_UFSHIB_MAIL'] . "<br>";
+            ?>
+          </p>
+        </div><!-- who is input shell -->
         <?php } else { ?>
-          <p>no record was found</p>
+
+          <div class="inputShell">
+            <h3 class="black">No Ticket Found</h3>
+            <p>Would you like to create a ticket for <?php echo $searchTerm; ?>?</p>
+            <form action="<?php echo $root; ?>ticket/transition.php" method="post">
+              <input type="hidden" name="record" value="<?php echo $searchTerm; ?>">
+              <input class="submit_button" type="submit" name="createTicketFromRecord" value="Create Ticket">
+            </form>
+          </div><!-- input shell for no record found -->
+
 
         <?php } // if record exists ?>
       </div><!-- tickets container -->

@@ -279,3 +279,19 @@ p#zeroStips {
 span.approve {
   font-style: initial;
 }
+
+input.submit_button {
+  width: 10rem;
+  padding: .5rem 0;
+  background: linear-gradient(#f0f0f0,#e0e0e0);
+  color: #2755A0;
+  box-shadow: .3rem .3rem .8rem #c0c0c0;
+  border: 1px solid #999;
+  border-radius: .2rem;
+}
+input.submit_button:hover {
+  cursor: pointer;
+  box-shadow: .3rem .3rem .8rem #a0a0a0;
+  background: linear-gradient(#f8f8f8,#e8e8e8);
+  border: 1px solid #777;
+}

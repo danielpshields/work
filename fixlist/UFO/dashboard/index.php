@@ -59,7 +59,7 @@ print'
 	<li><a href="docs/MajorsbyStartDate.xlsx">Majors by Start Date</a> (XLSX, 14KB)</li>
 	<!-- <li><a href="docs/MajorsbyTerm.xlsx" target="_blank">UF Online Majors by Term</a> (XLSX, 14KB)</li> -->
 	<li><a href="https://uflorida.sharepoint.com/sites/ufonline/Shared Documents/Forms/AllItems.aspx?viewpath=%2Fsites%2Fufonline%2FShared%20Documents%2FForms%2FAllItems%2Easpx&id=%2Fsites%2Fufonline%2FShared%20Documents%2FFile%20Sharing%2FExternal%2FUFO_Student_Demographics%2F2018">Spring 2018 UF Online Student Demographics</a></li>
-	<li><a href="https://cns-sql-reports.ad.ufl.edu/APIT_ReportMgr/Pages/Folder.aspx?ItemPath=%2fUFOnlineReports&ViewMode=Detail" target="_blank">UF Online Self-Service Reports</a>: Best viewed in Firefox or Internet Explorer.</li>
+	<li><a href="http://cns-sql-reports.ad.ufl.edu/APIT_ReportMgr/Pages/Folder.aspx?ItemPath=%2fCS+Reports" target="_blank">UF Online Self-Service Reports</a>: Best viewed in Firefox or Internet Explorer.</li>
 	<li><a href="http://handbook.ufonline.ufl.edu/advising/" target="_blank">UF Online Handbook</a></li>
 </ul>
 

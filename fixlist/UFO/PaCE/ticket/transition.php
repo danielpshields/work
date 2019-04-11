@@ -12,6 +12,10 @@
   include("{$root}include/credentials.php");
   // $scriptName = $page;
 
+$title = "";
+if (isset($_POST['createTicketFromRecord'])) {
+    $title = $_POST['record'];
+}
 
 
   if (isset($_POST['submit'])) {

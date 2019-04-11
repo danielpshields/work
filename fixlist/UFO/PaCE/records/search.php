@@ -15,6 +15,15 @@
   <div id="page_container">
     <div id="content_container">
 
+      <h2>Search</h2>
+
+      <form action="ldap.php" method="post">
+        <input type="text" name="searchFor" value="">
+        <input type="submit" name="submit" value="submit">
+      </form>
+
+
+
     </div><!-- tickets container -->
     <?php include("{$root}records/sortNav.php"); ?>
   </div><!-- records container -->
