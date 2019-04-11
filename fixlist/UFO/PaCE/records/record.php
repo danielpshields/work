@@ -27,7 +27,7 @@
 
         <?php if ($recordMatchExists) { ?>
 
-          <h2>Record: <u><?php echo $db_email; ?></u></h2>
+          <h2 id="recordSlug">Record: <a href="<?php echo $root . 'records/notes.php?id='. $db_ID . '&email=' . $db_email; ?>"><u><?php echo $db_email; ?></u></a></h2>
 
           <div class="barrier">
             <div class="barrierHeader">
@@ -75,11 +75,15 @@
                   <div class="formCreated">
                     <p>Student submitted: <b><?php echo $monthDay_submitted . "</b> at <b>" . $hourTime_submitted; ?></i></b></p>
                   </div><!-- form created -->
-              <?php } else { ?>
-                <div class="formCreated">
-                  <p>ticket is pending</p>
-                </div><!-- form created -->
-              <?php } ?>
+                  <?php } else if ($submitted == 2 || $submitted == 4) { ?>
+                    <div class="formCreated">
+                      <p>Advisor Approved: <?php echo $approvedStamp; ?></p>
+                    </div>
+                  <?php } else { ?>
+                    <div class="formCreated">
+                      <p>ticket is pending</p>
+                    </div><!-- form created -->
+                  <?php } ?>
 
           </div><!-- barrier End left side -->
 

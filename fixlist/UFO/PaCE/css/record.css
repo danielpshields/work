@@ -870,3 +870,8 @@ dt:hover {
 #newOptionsThree {
   padding-bottom: 2rem;
 }
+
+
+h2#recordSlug a {
+  color: #333;
+}

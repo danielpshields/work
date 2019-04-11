@@ -16,6 +16,7 @@
   $ufoMajor         = $row['ufoMajor'];
   $formCreated      = $row['formCreated'];
   $formSubmitted    = $row['formSubmitted'];
+  $timeApproved     = $row['timeApproved'];
   $phone            = $row['phone'];
   $submitted        = $row['submitted'];
   $db_name          = $row['name'];
@@ -100,5 +101,11 @@
       $gpasExist = true;
     }
   }
+
+  // getApproved
+  $breakApproved = explode("|", $timeApproved);
+  $date_approved = $breakApproved[0];
+  $time_approved = $breakApproved[1];
+  $approvedStamp = $date_approved . " " . $time_approved;
 
 ?>

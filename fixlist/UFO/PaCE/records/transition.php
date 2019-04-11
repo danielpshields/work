@@ -1,7 +1,8 @@
 <?php
   require("../include/db.php");
   $root = "../";
-  $page = "records";
+  $page     = "records";
+  $style    = "layout";
   $dataPage = "all";
   $pageName = "Records: Transition";
   require("{$root}include/header/header.php");
@@ -44,7 +45,7 @@
       while($row = mysqli_fetch_assoc($spitResults)) {
         $conditionsExist = true;
         // columns
-        require("record_variables.php");
+        require("{$root}include/variables.php");
         $breakCreated = explode("|", $formCreated);
         $monthDay     = $breakCreated[0];
         $hourTime     = $breakCreated[1];
@@ -66,14 +67,14 @@
                     <p class="ufoApproved">approved</p>
                   <?php } ?>
                   <div class="studentIdentification">
-                    <p class="studentID"><?php echo $studentID; ?></p>
-                    <h3><?php echo $student_email; ?></h3>
+                    <p class="studentID"><?php echo $db_ID; ?></p>
+                    <h3><?php echo $db_email; ?></h3>
                   </div><!-- student Identification -->
                   <p class="timeCreated"><?php echo $monthDay; ?></p>
                 </div><!-- barrier header -->
               </dt><!-- Barrier Header Dropdown -->
               <dd>
-                <?php include("guts.php") ?>
+                <?php include("{$root}include/guts.php") ?>
                 <?php
                   if ($formUpdated) {
                     $break_submitted = explode("|", $formSubmitted);
@@ -92,10 +93,10 @@
               <div class="notes">
                 <?php
                 $loopNotes    = "SELECT * FROM pace_student_notes WHERE email = ";
-                $loopNotes   .= "'" . $student_email . "'";
+                $loopNotes   .= "'" . $db_email . "'";
                 $getNoteCountQuery = mysqli_query($connection, $loopNotes);
                 ?>
-                <p class="note_theConstant"><a href="<?php echo $root; ?>records/notes.php?id=<?php echo $studentID; ?>&email=<?php echo htmlentities($student_email); ?>"><?php
+                <p class="note_theConstant"><a href="<?php echo $root; ?>records/notes.php?id=<?php echo $db_ID; ?>&email=<?php echo htmlentities($db_email); ?>"><?php
                 $i = 0;
                 while ($thisRow = mysqli_fetch_assoc($getNoteCountQuery)) {
                    $i++;
@@ -109,13 +110,13 @@
               </a></p>
                 <div class="note_variants">
                   <div class="variantsContainer">
-                    <p><!--<a href="<?php echo $root; ?>records/edit.php?id=<?php echo $studentID; ?>&email=<?php echo htmlentities($student_email); ?>">--><?php echo $studentID; ?><!--</a>--></p>
+                    <p><!--<a href="<?php echo $root; ?>records/edit.php?id=<?php echo $db_ID; ?>&email=<?php echo htmlentities($db_email); ?>">--><?php echo $db_ID; ?><!--</a>--></p>
                     <p>
                       <?php
                         if ($submitted == 0) {
                           echo "pending";
                         } else if ($submitted == 1 || $submitted == 3) {
-                          echo "<a href=\"approve.php?id=" . $studentID . "&submitted=" . $submitted . "&email=" . htmlentities($student_email) . "\"><span class=\"approved\"><b>approve</b></span></a>";
+                          echo "<a href=\"approve.php?id=" . $db_ID . "&submitted=" . $submitted . "&email=" . htmlentities($db_email) . "\"><span class=\"approved\"><b>approve</b></span></a>";
                         } else if ($submitted == 2 || $submitted == 4)  {
                           echo "approved";
                         }

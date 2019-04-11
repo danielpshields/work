@@ -72,9 +72,10 @@
           <h3><?php echo $studentID; ?></h3>
           <p class="studentID"><?php echo $student_email; ?></p>
         </div>
-        <?php include("guts.php"); ?>
+        <?php include("{$root}include/guts.php"); ?>
         <?php
-          if ($submitted == 1 || $submitted == 2) {
+          if ($submitted >= 1) {
+            $formSubmitted = $row['formSubmitted'];
             $break_submitted = explode("|", $formSubmitted);
             $monthDay_submitted = $break_submitted[0];
             $hourTime_submitted = $break_submitted[1];
