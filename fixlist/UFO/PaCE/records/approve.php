@@ -39,13 +39,13 @@
      if ($transitionType == 3) { ?>
 
         <form action="<?php echo $root; ?>records/<?php echo $page; ?>.php" method="post">
-          <input type="hidden" name="studentName" value="<?php echo $studentName; ?>">
-
-          <input type="hidden" name="email" value="<?php echo $studentEmail_get; ?>">
-
           <div class="inputShell">
           <h3 class="blue">UF Online Approval</h3>
           <p>Would you like to approve <b><?php echo $studentEmail_get; ?></b> to remain in UF Online?</p>
+          <input type="hidden" name="name" value="<?php echo $studentName; ?>">
+          <input type="hidden" name="id" value="<?php echo $student_ID; ?>">
+          <input type="hidden" name="major" value="<?php echo $ufoMajor; ?>">
+          <input type="hidden" name="email" value="<?php echo $db_email; ?>">
           <input class="checkBox" type="checkbox" name="approve" value="approved" required>
           <input class="submitButton" type="submit" name="ufo_submit" value="submit">
           </form>
@@ -57,7 +57,7 @@
         <?php require("{$root}include/approvalForm.php"); ?>
         <div class="inputShell">
           <h3 class="blue">Campus Approval</h3>
-            <p>Would you like to approve <b><?php echo $studentEmail_get; ?></b> for transition?</p>
+            <p>Would you like to approve <b><?php echo $studentEmail_get; ?></b> to transition to campus?</p>
             <input class="checkBox" type="checkbox" name="approve" value="approved" required>
             <input class="submitButton" type="submit" name="campus_submit" value="submit">
             </form>

@@ -2,6 +2,19 @@
 
 <p>I have processed this form for you to remain in UF Online. Your advising holds have been removed, and you should now be able to register for your UF Online classes. I am copying the UF Online OneStop on this email so they can add this transition contract to your file. Below, you'll see the summary of the transition contract you previously submitted, which you can keep for your records. If you have any issues with registration, please let me know.</p>
 
+<h2>Remain in UF Online</h2>
+
+<p><b><u>UF ID: <?php echo $student_ID; ?></u></b></p>
+
+<p>I would like to remain in UF Online in the <b><?php echo $ufoMajor; ?></b> UF Online degree program.</p>
+<p>If I want to enroll in a campus degree program, I understand that I will need to reapply as a campus transfer.</p>
+
+<h2>Conditions</h2>
+<p>I understand that there may be conditions I need to meet in order to stay in good academic standing in my UF Online major, and my advisor will follow up with me to notify me of these conditions.</p>
+
+
+
+
 <p>Best,</p>
 
 

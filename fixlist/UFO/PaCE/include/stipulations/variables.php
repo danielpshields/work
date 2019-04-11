@@ -15,6 +15,8 @@
     $phone       = $row['phone'];
     $studentName = $row['name'];
     $student_ID  = $row['studentID'];
+    $db_email    = $row['email'];
+    $ufoMajor    = $row['ufoMajor'];
 
     $allMajors = array(
       "africanAmericanStudies" => "African American Studies",

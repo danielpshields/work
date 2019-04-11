@@ -17,7 +17,7 @@
                     if ($submitted == 0) { $formUpdated = false; ?>
                     <p class="pending">pending</p>
                   <?php } else if ($submitted == 1) { $formUpdated = true;  ?>
-                    <p class="submitted">campus</p>
+                    <p class="submitted">submitted</p>
                   <?php } else if ($submitted == 2) { $formUpdated = true; ?>
                     <p class="approved">approved</p>
                   <?php } else if ($submitted == 3) { $formUpdated = true;  ?>

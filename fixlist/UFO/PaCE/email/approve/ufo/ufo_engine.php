@@ -10,7 +10,8 @@ $headers[] = 'Content-type: text/html; charset=iso-8859-1';
 // Additional headers
 $headers[] = 'To: <'.$to.'>';
 $headers[] = 'From: Nicole Raymond <nraymond@advising.ufl.edu>';
-// $headers[] = 'Cc: claspace@advising.ufl.edu';
+$headers[] = 'Cc: onestop@ufonline.ufl.edu';
+$headers[] = 'Cc: claspace@advising.ufl.edu';
 $headers[] = 'Bcc: acatalano2@ufl.edu';
 // $headers[] = 'Bcc: ';
 // send it

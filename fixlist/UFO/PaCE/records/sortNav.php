@@ -103,7 +103,7 @@
       }
 
       $difference = $sent - ($responded + $approved);
-      $percentage = (round($approved / $sent, 3)) * 100 . "% approved";
+      $percentage = (round($approved / $sent, 3)) * 100 . "%";
 
       ?>
 

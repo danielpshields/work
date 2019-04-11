@@ -19,6 +19,10 @@
   font-size: 1.6rem;
 }
 
+#copyText {
+  margin-top: 1.5rem;
+}
+
 
 /* right column container */
 #sortNav {

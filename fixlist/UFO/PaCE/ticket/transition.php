@@ -11,15 +11,19 @@
   $scriptName = "majors";
   include("{$root}include/credentials.php");
   // $scriptName = $page;
+
+
+
   if (isset($_POST['submit'])) {
-    include("{$root}records/record_variables.php");
-    // $formCreated = $_POST['formCreated'];
+    include("{$root}records/createTicket.php");
+    $formCreated = $_POST['formCreated'];
     $query  = "INSERT INTO pace_transition ";
     $query .= "(studentID,name,email,stipulation,course,grade,course2,grade2,course3,grade3,course4,grade4,gpaMajor,gpaUF,paceMajor,semester,phone,submitted,formCreated) VALUES ('{$studentID}', '{$name}', '{$email}','{$stipulation}','{$course}','{$grade}','{$course2}','{$grade2}','{$course3}','{$grade3}','{$course4}','{$grade4}','{$gpaMajor}','{$gpaUF}', '{$paceMajor}', '{$semster}', '{$phone}', '0','{$timeStamp}')";
     $spitResults = mysqli_query($connection, $query);
     if (!$spitResults) { die ("query failed"); }
     include("{$root}email/ticket/transition/transition_email.php");
     redirectTo("{$root}records/transition.php?major=" . $paceMajor . "&condition=" . $stipulation . "&gpaUF=" . $gpaUF . "&gpaMajor=" . $gpaMajor);
+
   }
 ?>
 
