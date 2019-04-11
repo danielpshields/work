@@ -97,81 +97,6 @@ dt:hover {
   cursor: pointer;
 }
 
-.barrier {
-  width: 100%;
-  border: 1px solid #888;
-  border: 1px solid #333;
-  max-width: 40rem;
-  margin: auto;
-  margin-top: 2.81rem;
-  border-radius: .2rem;
-  /* box-shadow: .3rem .3rem .8rem #f0f0f0; */
-}
-
-.barrierHeader, .ufoSubmission {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  outline-color: #888;
-  outline-color: #333;
-  outline-style: solid;
-  outline-width: 1px;
-}
-
-.barrierHeader h3 {
-  margin: 0;
-  width: 78%;
-  font-size: 1.1rem;
-  padding: .7rem;
-  font-weight: 600;
-  color: #333;
-  color: #444;
-  color: #555;
-  text-align: left;
-}
-
-p.studentID {
-  color: #575757;
-  font-size: .9rem;
-  font-style: italic;
-}
-
-.barrierHeader p {
-  width: 22%;
-  margin: 0;
-  padding: .7rem;
-}
-
-p.pending {
-  background: #eee;
-  color: #9E0000;
-  border-right: 1px solid #888;
-}
-
-p.submitted {
-  border-right: 1px solid #888;
-  color: #fff;
-  background: #006100;
-  background: #90D68F; /* light green */
-  color: #333;
-}
-
-p.approved {
-  border-right: 1px solid #888;
-  background: #fff;
-  color: #0e47a3; /* beautiful blue contrast */
-  background: #A9C8F9;
-  color: #333;
-}
-
-p.ufoSelected {
-  border-right: 1px solid #888;
-  background: #fff;
-  color: #0e47a3; /* beautiful blue contrast */
-  background: #A9C8F9;
-  color: #333;
-}
-
 
 .studentIdentification {
   /* background: #4286f4; */
@@ -191,31 +116,12 @@ p.timeCreated, p.timeSubmitted {
   letter-spacing: 1px;
 }
 
-.ufoSubmission {
-  background: #D1FFD1; /* green hospital */
-  background: #EDF3F8; /* blue light contrast */
-  padding-top: .5rem;
-  padding-bottom: .4rem;
-}
-
-.ufoSubmission p {
-  margin: .6rem auto .6rem auto;
-}
-
-/* graph to highlight as heading */
-.ufoMajor {
-  font-weight: bold;
-  color: #00529b;
-  border-right: 1px solid #888;
-}
-
-
 .barrier table {
   max-width: 25rem;
   margin: 2rem auto;
 }
 
-.barrier table, .ufoSubmission {
+.barrier table {
   width: 95%;
   margin: 2rem auto;
 }
@@ -570,45 +476,6 @@ p.studentID {
   font-size: .9rem;
   font-style: italic;
 }
-
-.barrierHeader p {
-  width: 80%;
-  margin: 0;
-  padding: .7rem;
-}
-
-
-p.pending {
-  background: #eee;
-  color: #9E0000;
-  border-right: 1px solid #888;
-}
-
-p.submitted {
-  border-right: 1px solid #888;
-  color: #333;
-  background: #006100;
-  background: #90D68F;
-}
-
-p.approved {
-  border-right: 1px solid #888;
-  background: #fff;
-  color: #0e47a3; /* beautiful blue contrast */
-  background: #A9C8F9;
-  color: #333;
-  background: #A9C8F9;
-}
-
-p.ufoSelected {
-  border-right: 1px solid #888;
-  background: #fff;
-  color: #0e47a3; /* beautiful blue contrast */
-  background: #A9C8F9;
-  color: #333;
-}
-
-
 
 .studentIdentification {
   /* background: #4286f4; */

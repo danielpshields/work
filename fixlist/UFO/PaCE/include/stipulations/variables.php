@@ -14,7 +14,7 @@
     $semester    = $row['semester'];
     $phone       = $row['phone'];
     $studentName = $row['name'];
-    $student_ID   = $row['studentID'];
+    $student_ID  = $row['studentID'];
 
     $allMajors = array(
       "africanAmericanStudies" => "African American Studies",

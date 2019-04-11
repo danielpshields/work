@@ -1,5 +1,24 @@
 <?php
 
+  $serverEPPN  = $_SERVER['HTTP_UFSHIB_EPPN'];
+  $serverEmail = $_SERVER['HTTP_UFSHIB_MAIL'];
+  $users = array(
+    "nraymond@advising.ufl.edu",
+    "nraymond@ufl.edu",
+    "acatalano2@ufl.edu",
+    "acatalano@advising.ufl.edu",
+    "gkepic@advising.ufl.edu",
+    "gkepic@ufl.edu",
+    "danshields@advising.ufl.edu",
+    "danshields@ufl.edu"
+  );
+
+  foreach ($users as $key) {
+    if ($key === $serverEPPN || $key === $serverEmail) {
+      $canStay = true;
+    }
+  }
+
   $timeStamp    = date('n/j/y|g:i a'); // 2/27/2019|11:31 am
   $breakCreated = explode("|", $timeStamp);
   $monthDay     = $breakCreated[0];
@@ -19,16 +38,6 @@
 
     $shib = $_SERVER['HTTP_UFSHIB_MAIL'];
     $eppn = $_SERVER['HTTP_UFSHIB_EPPN'];
-
-    // $emails = array(
-    //   "$HTTP_UFSHIB_EPPN" => "$HTTP_UFSHIB_MAIL"
-    // );
-
-    // foreach ($emails as $eppn => $shib) {
-    //   if ($email == $eppn || $email == $shib) {
-    //     $email = $HTTP_UFSHIB_EPPN;
-    //   }
-    // }
 
     //check the database to see if either email exists
     $setEmailDB = "SELECT email FROM pace_transition";

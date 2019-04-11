@@ -1,10 +1,20 @@
 <?php
 //UF Online Transition Path
 if (!empty($ufoMajor)) {  ?>
-  <div class="ufoSubmission">
-    <p class="ufoMajor">Selected <i>UF Online</i> Transition</p>
-    <p><b><?php echo $ufoMajor; ?></b></p>
-  </div>
+  <table>
+    <thead>
+      <tr>
+        <th class="blueTableHeader">UF Online Major</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><?php echo $ufoMajor; ?></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <!-- barrier header -->
 <?php } else { ?>
 <table class="transitionTable" id="conditionsPaceMajor">
@@ -111,7 +121,7 @@ if (!empty($semester)) { ?>
 
 
 <?php
-  if (!empty($stipulation)) {
+  if (!empty($writtenCondition)) {
       $stips = true;
 ?>
 
@@ -119,7 +129,7 @@ if (!empty($semester)) { ?>
   <div class="writtenConditionHeaderWrap">
     <h3>Written Condition</h3>
   </div><!-- written condition header wrap -->
-  <p>"<?php echo ucfirst($stipulation); ?>"</p>
+  <p>"<?php echo ucfirst($writtenCondition); ?>"</p>
 </div><!-- written condition -->
 <!-- written condition is the whole div -->
 

@@ -1,109 +1,95 @@
 <?php
-  $root = "../";
   require("../include/db.php");
-  $page = "record";
+  $root  = "../";
+  $page  = "layout";
+  $style = "record";
   $dataPage = "all";
-  $pageName = "Records: Transition";
+  $pageName = "Records: Search Results";
   require("{$root}include/header/header.php");
-  include("{$root}include/credentials.php");
-  $scriptName = "records";
 ?>
-
 <?php
-// Queries
-
-//spit results
-  $query       = "SELECT * FROM pace_transition";
-  $spitResults = mysqli_query($connection, $query);
-  if (!$spitResults) { die ("spit results query failed"); }
-
-//student records
-  $studentRecord     = "SELECT * FROM pace_transition WHERE email = '{$studentEmail}'";
-  $spitStudentRecord = mysqli_query($connection, $studentRecord);
-  if (!$spitStudentRecord) { die ("student records query failed"); }
-
-?>
-
-<?php
-// same-page $_POST variables
-
-//[record.php] post submission to update / approve student ticket from notes
-  if (isset($_POST['approveFromNotes'])) {
-    $studentEmail = $_POST['studentEmail'];
-    $updateSubmitted = "UPDATE pace_transition SET submitted = 2 WHERE email = '{$studentEmail}'";
-    $update = mysqli_query($connection, $updateSubmitted);
-    if (!$update) {die("update from notes query failed"); }
-    include("{$root}email/approve/approve_email.php");
-    redirectTo("{$root}records/record.php?studentEmail={$studentEmail}");
+  if (isset($_POST['submitSearchFor'])) {
+    $searchTerm = $_POST['searchFor'];
   }
-
-
-//[record.php] post submission to create a new ticket, vars are in includes file
-  if (isset($_POST['createTicket'])) {
-    include("createTicket.php");
-  }
-
-?>
-
-<?php
-// searchFor for LDAP = [sortNav.php] email or student id
-
-  if (isset($_POST['searchFor']) {
-    $searchedTerm = $_POST['searchFor'];
-    if (is_numeric($searchedTerm)) {
-      $numeric_ID      = $searchedTerm;
-      $searchedTerm_ID = true;
-    } else {
-      $verbal_ID         = $searchedTerm;
-      $givenName         = cleanEmail($searchedTerm);
-      $searchedTerm_Name = true;
+  $searchForRecord = "SELECT * FROM pace_transition WHERE email = '{$searchTerm}'";
+  $checkRecords    = mysqli_query($connection, $searchForRecord);
+  if (!$checkRecords) {die("Query Failed: search for records");}
+  while ($row = mysqli_fetch_assoc($checkRecords)) {
+    $db_email = $row['email'];
+    if ($searchTerm === $db_email) {
+      $recordMatchExists = true;
+      include("{$root}include/variables.php");
     }
   }
 ?>
+    <div id="page_container">
+      <div id="content_container">
 
-<?php
-// [majors.php] show student, who's in the system's, record
-  if (isset($_GET['getFromMajors'])) {
-    $fromMajor_id    = $_GET['getFromMajors'];
-    $fromMajor_email = $_GET['email'];
-  }
-?>
+        <?php if ($recordMatchExists) { ?>
 
-<script type="text/javascript" src="<?php echo $root; ?>scripts/showHideRecord.js"></script>
-<!-- no records and whoIS -->
+          <h2>Record: <u><?php echo $db_email; ?></u></h2>
 
-  <div id="records_container">
-    <div id="tickets_container">
+          <div class="barrier">
+            <div class="barrierHeader">
+              <?php
+                  $approvedTime  = $row['timeApproved'];
+                  $breakApproved = explode("|", $approvedTime);
+                  $date_approved = $breakApproved[0];
+                  $time_approved = $breakApproved[1];
+                  $approved = $date_approved . " " . $time_approved;
+                ?>
+                <?php
+                  if ($submitted == 0) {  ?>
+                  <p class="pending">pending</p>
+                <?php } else if ($submitted == 1) { ?>
+                  <?php $studentSubmitted = true; ?>
+                  <p class="submitted">submitted</p>
+                <?php } else if ($submitted == 2) { ?>
+                  <p class="approved">approved</p>
+                <?php } else if ($submitted == 3) { ?>
+                  <?php $studentSubmitted = true; ?>
+                  <p class="ufoSelected">UF Online</p>
+                <?php } else if ($submitted == 4) { ?>
+                  <p class="ufoApproved">approved</p>
+                <?php }
+                $breakCreated = explode("|", $formCreated);
+                $monthDay     = $breakCreated[0];
+                $hourTime     = $breakCreated[1];
+                ?>
+                <p class="timeCreated"><?php echo $monthDay; ?></p>
+              </div><!-- barrier header -->
 
-      <?php
-        // if there are no records found for student
-        include("noRecordFound.php");
-      ?>
+
+              <div class="identifyVariables">
+                <p id="ledeName">"<?php echo ucfirst($db_name); ?>"</p>
+                <h3><?php echo $db_ID; ?></h3>
+                <p class="studentID"><?php echo $db_email; ?></p>
+              </div>
+              <?php include("{$root}/include/guts.php"); ?>
+              <?php
+                if ($submitted == 1) {
+                  $break_submitted = explode("|", $formSubmitted);
+                  $monthDay_submitted = $break_submitted[0];
+                  $hourTime_submitted = $break_submitted[1];
+                  ?>
+                  <div class="formCreated">
+                    <p>Student submitted: <b><?php echo $monthDay_submitted . "</b> at <b>" . $hourTime_submitted; ?></i></b></p>
+                  </div><!-- form created -->
+              <?php } else { ?>
+                <div class="formCreated">
+                  <p>ticket is pending</p>
+                </div><!-- form created -->
+              <?php } ?>
+
+          </div><!-- barrier End left side -->
+
+        <?php } else { ?>
+          <p>no record was found</p>
+
+        <?php } // if record exists ?>
+      </div><!-- tickets container -->
+      <?php include("{$root}records/sortNav.php"); ?>
+    </div><!-- records container -->
 
 
-
-
-
-<?php
-include("newTicketDropdown.php");
-} //
-include("ticketExists.php");
-include("approveFromNotes.php"); ?>
-</div><!-- barrier End left side -->
-<?php } ?>
-</div><!-- tickets Container -->
-<?php include("{$root}records/sortNav.php"); ?>
-</div><!-- records Container -->
-
-
-
-<?php
-  include("whoIS.php");
-  // don't let this page be view empty -- there's another way to do this.
-  // else { redirectTo("{$root}records/transition.php"); }
-?>
-
-<?php
-include("{$root}include/footer.php");
-mysqli_close($connection);
-?>
+<?php require("{$root}include/footer.php") ;?>

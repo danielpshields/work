@@ -243,43 +243,7 @@ p.studentID {
   padding: .7rem;
 }
 
-p.pending {
-  background: #eee;
-  color: #9E0000;
-  border-right: 1px solid #888;
-}
-
-p.submitted {
-  border-right: 1px solid #888;
-  color: #fff;
-  background: #006100;
-  background: #C8E9C8;
-  font-weight: bold;
-  color: #265C23;
-}
-
-p.approved {
-  border-right: 1px solid #888;
-  background: #fff;
-  color: #0e47a3; /* beautiful blue contrast */
-  background: #A9C8F9;
-  color: #333;
-}
-
-p.ufoSelected {
-  border-right: 1px solid #888;
-  background: #90D68F;
-  background: #C8E9C8;
-  font-weight: bold;
-  color: #265C23;
-}
-
-p.ufoApproved {
-  border-right: 1px solid #888;
-  background: #ffdd9b;
-  font-weight: bold;
-}
-
+/* p.approved  */
 
 .studentIdentification {
   /* background: #4286f4; */

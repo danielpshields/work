@@ -7,27 +7,27 @@
 if ($ds) {
 
     $r=ldap_bind($ds, $username, $password); //bind
-    if ($searchForName) {
-      $sr=ldap_search($ds, "dc=ufl,dc=edu", "uid={$givenName}");
+    if ($searchedTerm_Name) {
+      $sr=ldap_search($ds, "dc=ufl,dc=edu", "uid={$verbal_ID}");
     }
-    if ($searchForID) {
-      $sr=ldap_search($ds, "dc=ufl,dc=edu", "uidnumber={$UID}");
+    if ($searchedTerm_ID) {
+      $sr=ldap_search($ds, "dc=ufl,dc=edu", "uidnumber={$numeric_ID}");
     }
 
     $info = ldap_get_entries($ds, $sr);
 
     for ($i=0; $i<$info["count"]; $i++) {
         // echo $info[$i]["dn"] . "<br>";
-        $ldap_givenName = $info[$i]["givenname"][0];
-        $info[$i]["uid"][0] . "<br>";
-        $info[$i]["cn"][0] . "<br>";
-        $info[$i]["displayname"][0] . "<br>";
-        $ldap_email = $info[$i]["mail"][0] . "<br>";
-        $ldap_UID = $info[$i]["uidnumber"][0];
-        $info[$i]["employeenumber"][0] . "<br>";
-        $info[$i]["number"][0] . "<br>";
-        $info[$i]["telephonenumber"][0] . "<br>";
+        // $info[$i]["uid"][0] . "<br>";
+        // $info[$i]["cn"][0] . "<br>";
+        // $info[$i]["displayname"][0] . "<br>";
+        // $info[$i]["employeenumber"][0] . "<br>";
+        // $info[$i]["number"][0] . "<br>";
+        // $info[$i]["telephonenumber"][0] . "<br>";
 
+        $ldap_email = $info[$i]["mail"][0];
+        $ldap_name  = $info[$i]["givenname"][0];
+        $ldap_ID    = $info[$i]["uidnumber"][0];
     }
 
     ldap_close($ds);

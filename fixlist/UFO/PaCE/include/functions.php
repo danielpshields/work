@@ -19,5 +19,12 @@
   return substr($email, 0, -$truncate);
 }
 
+function noCanStay() {
+  if (!$canStay) {
+    header("Location: https://www.advising.ufl.edu/uf-online/");
+    exit;
+  }
+}
+
 
 ?>
