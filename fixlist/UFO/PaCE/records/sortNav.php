@@ -35,77 +35,96 @@
       <li style="border: 1.5px solid #508ded;"><a href="<?php echo $root; ?>records/sort/approved.php">advisor approved</a></li>
     </ul> -->
     <!-- <li style="color: #990000;">Case / PDF</li> -->
+
     <ul id="sortNav_sortLinksUL">
       <li id="button_allRecords">
-        <a href="<?php echo $root; ?>records/transition.php">all records</a>
+        <a href="<?php echo $root; ?>records/transition.php">all records <span class="sort_tinyNumberSlug"><?php echo $sent; ?></span></a>
       </li>
       <li id="button_pending">
-        <a href="<?php echo $root; ?>records/sort/pending.php">pending tickets</a>
+        <a href="<?php echo $root; ?>records/sort/pending.php">pending tickets <span class="sort_tinyNumberSlug"><?php echo $pending; ?></span></a>
       </li>
       <li id="button_studentSubmitted">
-        <a href="<?php echo $root; ?>records/sort/submitted.php">submitted tickets</a>
+        <a href="<?php echo $root; ?>records/sort/submitted.php">submitted tickets <span class="sort_tinyNumberSlug"><?php echo $responded; ?></span></a>
       </li>
       <li id="button_remainUFO">
-        <a href="<?php echo $root; ?>records/sort/ufonline.php">UFO approved</a>
+        <a href="<?php echo $root; ?>records/sort/ufonline.php">UFO approved <span class="sort_tinyNumberSlug"><?php echo $ufoTotal; ?></span></a>
       </li>
       <li id="button_advisorApproved">
-        <a href="<?php echo $root; ?>records/sort/approved.php">Campus approved</a>
+        <a href="<?php echo $root; ?>records/sort/approved.php">Campus approved <span class="sort_tinyNumberSlug"><?php echo $campusTotal; ?></span></a>
       </li>
     </ul>
 
     <?php
 
-      // total sent instances
-      $sentTotal       = "SELECT * FROM pace_transition";
-      $printTotal      = mysqli_query($connection, $sentTotal);
+    // total sent instances
+    $sentTotal       = "SELECT * FROM pace_transition";
+    $printTotal      = mysqli_query($connection, $sentTotal);
 
-      // pending count
-      $pendingCount    = "SELECT * FROM pace_transition WHERE submitted = 0";
-      $printPending    = mysqli_query($connection, $pendingCount);
+    // pending count
+    $pendingCount    = "SELECT * FROM pace_transition WHERE submitted = 0";
+    $printPending    = mysqli_query($connection, $pendingCount);
 
-      // total approved
-      $approvedTotal   = "SELECT * FROM pace_transition WHERE submitted = 2";
-      $approvedTickets = mysqli_query($connection, $approvedTotal);
+    // total approved
+    $campus_approvedTotal   = "SELECT * FROM pace_transition WHERE submitted = 2";
+    $campus_approvedTickets = mysqli_query($connection, $campus_approvedTotal);
 
-      // UF Online and Campus
-      $submittedTotal  = "SELECT * FROM pace_transition WHERE submitted = 1 OR submitted = 3";
-      $printResponded  = mysqli_query($connection, $submittedTotal);
+    // total approved
+    $ufo_approvedTotal   = "SELECT * FROM pace_transition WHERE submitted = 4";
+    $ufo_approvedTickets = mysqli_query($connection, $ufo_approvedTotal);
 
-      // 0 = pending
+    // total approved
+    $approvedTotal   = "SELECT * FROM pace_transition WHERE submitted = 2 OR submitted = 4";
+    $approvedTickets = mysqli_query($connection, $approvedTotal);
 
-      // 1 = campus
-      // 2 = approved
+    // UF Online and Campus
+    $submittedTotal  = "SELECT * FROM pace_transition WHERE submitted = 1 OR submitted = 3";
+    $printResponded  = mysqli_query($connection, $submittedTotal);
 
-      // 3 = ufonline
-      // 4 = ufonline approved
+    // 0 = pending
 
-      //contacted = int; is a whole thing
+    // 1 = campus
+    // 2 = campus approved
 
-      $sent      = 0;
-      $peding    = 0;
-      $responded = 0;
-      $approved  = 0;
+    // 3 = ufonline
+    // 4 = ufonline approved
 
-      while ($row = mysqli_fetch_assoc($printTotal)) {
-        $sent++;
-      }
+    //contacted = int; is a whole thing
 
-      while ($row = mysqli_fetch_assoc($printPending)) {
-        $pending++;
-      }
+    $sent            = 0;
+    $pending          = 0;
+    $responded       = 0;
+    $campus_approved = 0;
+    $ufo_approved    = 0;
+    $approved        = 0;
 
-      while ($row = mysqli_fetch_assoc($printResponded)) {
-        $responded++;
-      }
+    while ($row = mysqli_fetch_assoc($printTotal)) {
+      $sent++;
+    }
 
-      while ($row = mysqli_fetch_assoc($approvedTickets)) {
-        $approved++;
-      }
+    while ($row = mysqli_fetch_assoc($printPending)) {
+      $pending++;
+    }
 
-      $difference = $sent - ($responded + $approved);
-      $percentage = (round($approved / $sent, 3)) * 100 . "%";
+    while ($row = mysqli_fetch_assoc($printResponded)) {
+      $responded++;
+    }
 
-      ?>
+    while ($row = mysqli_fetch_assoc($campus_approvedTickets)) {
+      $campus_approved++;
+    }
+
+    while ($row = mysqli_fetch_assoc($ufo_approvedTickets)) {
+      $ufo_approved++;
+    }
+
+    while ($row = mysqli_fetch_assoc($approvedTickets)) {
+      $approved++;
+    }
+
+    $difference = $sent - ($responded + $approved);
+    $percentage = (round($approved / $sent, 3)) * 100 . "%";
+
+    ?>
 
     <script src="<?php echo $root; ?>scripts/highcharts.js"></script>
     <div id="container" style=" height: 200px; max-width: 200px; margin: 0 auto;"></div>

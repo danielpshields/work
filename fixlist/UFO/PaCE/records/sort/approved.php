@@ -14,7 +14,8 @@
 
     <div id="page_container">
       <div id="content_container">
-      <h2>Approved Tickets</h2>
+        <?php include("{$root}records/data/index.php"); ?>
+        <h2>Approved: Campus <span class="tinyNumberSlug">(<?php echo $campusTotal; ?>)</span></h2>
     <?php require("{$root}records/loop_db.php"); ?>
     </div><!-- tickets Container -->
 

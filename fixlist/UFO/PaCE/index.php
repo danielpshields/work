@@ -1,6 +1,6 @@
 <?php
-  // header("Location: dashboard.php");
-  // exit;
+  header("Location: records/transition.php");
+  exit;
   $root = "";
   $page = "login";
   $pageName = "CLAS UF Online: PaCE";

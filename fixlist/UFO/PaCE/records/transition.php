@@ -17,7 +17,11 @@
 
   <div id="page_container">
     <div id="content_container">
-      <h2>All Records</h2>
+
+      <?php include("{$root}records/data/index.php"); ?>
+      <h2>All Records <span class="tinyNumberSlug">(<?php echo $sent; ?>)</span></h2>
+
+
       <?php
       // for advisor to have a statement to copy after making new ticket
       $getmajor = $_GET['major'];

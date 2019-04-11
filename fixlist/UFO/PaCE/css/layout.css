@@ -181,6 +181,21 @@
   margin-bottom: 0;
 }
 
+.tinyNumberSlug {
+  font-size: .94rem;
+  color: #575757;
+  font-style: italic;
+}
+
+.sort_tinyNumberSlug {
+  font-size: .9rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+
+
+
 #sortNav dt {
   border: 2px solid #888;
   border-top: 3px solid #81d680;

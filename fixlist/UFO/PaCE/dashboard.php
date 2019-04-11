@@ -1,4 +1,6 @@
 <?php
+  header("Location: records/transition.php");
+  exit;
   $root = "";
   $page = "dashboard";
   $pageName = "PaCE Dashboard";

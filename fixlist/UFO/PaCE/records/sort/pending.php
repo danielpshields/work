@@ -14,7 +14,8 @@
 
   <div id="page_container">
     <div id="content_container">
-      <h2>Pending Tickets</h2>
+      <?php include("{$root}records/data/index.php"); ?>
+      <h2>Pending Tickets <span class="tinyNumberSlug">(<?php echo $pending; ?>)</span></h2>
       <?php require("{$root}records/loop_db.php"); ?>
     </div><!-- tickets Container -->
 

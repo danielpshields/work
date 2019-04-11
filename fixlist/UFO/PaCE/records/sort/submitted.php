@@ -15,7 +15,8 @@
 
   <div id="page_container">
     <div id="content_container">
-      <h2>Submitted Tickets</h2>
+      <?php include("{$root}records/data/index.php"); ?>
+      <h2>Submitted Tickets <span class="tinyNumberSlug">(<?php echo $responded; ?>)</span></h2>
       <?php if (!mysqli_num_rows($spitResults)) { ?>
         <div class="inputShell">
             <h3 class="black">Submitted Tickets</h3>

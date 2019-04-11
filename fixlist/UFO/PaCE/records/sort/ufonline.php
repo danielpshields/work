@@ -14,7 +14,8 @@
 
 <div id="page_container">
   <div id="content_container">
-      <h2>Approved: UF Online</h2>
+    <?php include("{$root}records/data/index.php"); ?>
+    <h2>Approved: UF Online <span class="tinyNumberSlug">(<?php echo $ufoTotal; ?>)</span></h2>
       <?php require("{$root}records/loop_db.php"); ?>
     </div><!-- tickets Container -->
 
