@@ -100,6 +100,10 @@ table, tr, th, td {
   border-collapse: collapse;
 }
 
+td img {
+  width: 30px;
+}
+
 #petitionTable {
   display: block;
 }

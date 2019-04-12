@@ -103,8 +103,9 @@
 
         <div id="ticket_option_selection">
           <?php $option = 0; ?>
-          <div class=""><?php echo $option++; ?>              <p style="color: green;">&#10004;</p>
-</div>
+          <div class=""><?php echo $option++; ?>
+            <p style="color: green;">&#10004;</p>
+          </div>
           <div class=""><?php echo $option++; ?></div>
           <div class=""><?php echo $option++; ?></div>
           <div class=""><?php echo $option++; ?></div>
