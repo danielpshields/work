@@ -2,11 +2,12 @@
 
   $serverEPPN  = $_SERVER['HTTP_UFSHIB_EPPN'];
   $serverEmail = $_SERVER['HTTP_UFSHIB_MAIL'];
+
   $users = array(
     "nraymond@advising.ufl.edu",
     "nraymond@ufl.edu",
-    // "acatalano2@ufl.edu",
-    // "acatalano@advising.ufl.edu",
+    "acatalano2@ufl.edu",
+    "acatalano@advising.ufl.edu",
     "gkepic@advising.ufl.edu",
     "gkepic@ufl.edu",
     "danshields@advising.ufl.edu",
@@ -16,8 +17,12 @@
   foreach ($users as $key) {
     if ($key === $serverEPPN || $key === $serverEmail) {
       $canStay = true;
+      break;
+    } else {
+      $canStay = false;
     }
   }
+
 
   $timeStamp    = date('n/j/y|g:i a'); // 2/27/2019|11:31 am
   $breakCreated = explode("|", $timeStamp);
@@ -58,11 +63,10 @@
         $whoIS = "<b>whoIS</b> shib: " . $email;
         break;
       } else {
-        include("{$root}include/admin_navCreds.php");
-        if (!$canStay) {
-          header("Location: https://www.advising.ufl.edu/uf-online/");
-          exit;
-        }
+        // if (!$canStay) {
+        //   header("Location: https://www.advising.ufl.edu/uf-online/");
+        //   exit;
+        // }
       }
     }
 

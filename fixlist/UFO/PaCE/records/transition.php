@@ -6,6 +6,7 @@
   $dataPage = "all";
   $pageName = "Records: Transition";
   require("{$root}include/header/header.php");
+  noCanStay();
   // why are there two script names?
   $scriptName = "majors";
   include("{$root}include/credentials.php");

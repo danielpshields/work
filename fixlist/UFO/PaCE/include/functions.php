@@ -20,6 +20,8 @@
 }
 
 function noCanStay() {
+  global $canStay;
+
   if (!$canStay) {
     header("Location: https://www.advising.ufl.edu/uf-online/");
     exit;

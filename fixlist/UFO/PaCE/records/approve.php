@@ -4,11 +4,9 @@
   $pageName = "Records: Approve";
   require("{$root}include/db.php");
   require("{$root}include/header/header.php");
-  include("{$root}include/credentials.php");
-
+  noCanStay();
   $studentEmail_get = $_GET['email'];
   $transitionType   = $_GET['submitted'];
-
   $readConditions = "SELECT * FROM pace_transition WHERE email = ";
   $readConditions .= "'" . $studentEmail_get . "'";
   $spitResults = mysqli_query($connection, $readConditions);

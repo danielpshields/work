@@ -13,6 +13,7 @@
   $infoUnsorted  = true;
   require("{$root}include/header.php");
 
+
   if (isset($_POST['strip_submit'])) {
     $infoUnsorted = false;
     include("{$path}include/stripSubmit.php");
@@ -25,12 +26,22 @@
     $student_phone = $_POST['manual_student_phone'];
     $student_ID    = $_POST['manual_student_id'];
   }
+
+  $getSet = false;
+
+  $option = "";
+  if (isset($_GET['getSet'])) {
+    $infoUnsorted = false;
+    $getSet = true;
+    $option = $_GET['option'];
+  }
+
  ?>
  <div class="page">
    <?php include("{$path}include/nav.php"); ?>
 
     <!-- only load the inputs if all empty -->
-    <?php if ($infoUnsorted) { ?>
+    <?php if ($infoUnsorted && !$getSet) { ?>
 
       <div id="infoUnsorted">
 
@@ -57,8 +68,24 @@
 
       </div><!-- unsorted information section -->
 
-   <?php } else { ?>
+   <?php } else {
 
+        //keep the GET values
+
+        $savedInfo  = "&id="    . $student_ID;
+        $savedInfo .= "&name="  . $student_name;
+        $savedInfo .= "&email=" . $student_email;
+        $savedInfo .= "&phone=" . $student_phone;
+
+        if (empty($student_ID)) {
+          $getRely   = true;
+          $get_ID    = $_GET['id'];
+          $get_name  = $_GET['name'];
+          $get_email = $_GET['email'];
+          $get_phone = $_GET['phone'];
+        }
+
+    ?>
 
         <!-- <ul id="statusBar">
           <li style="background: #7AC0FF;">initialized</li>
@@ -76,103 +103,45 @@
 
 
     <div id="page_ii">
-      <h2>Ticket Information</h2>
+      <h2>Create Ticket</h2>
+      <!-- <h3>Select Petition Options</h3> -->
       <div id="ticket_head">
-
         <table id="petitionTable">
           <thead>
             <tr>
-              <th>Select</th>
-              <th>Petition Options</th>
+              <th colspan="2">Select Options</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <!-- <td>A <img src="image/icons/rain.png"></td> -->
-              <td><img src="image/icons/cancel.png"></td>
-              <td>
-                <h3>Drop Courses</h3>
-                <p>Petition to drop the following course(s) from the current term by the published deadline:</p>
-
-                <?php $i = 0; ?>
-
-                <p id="addCoursesOption"><i>(+) add courses</i></p>
-                <form action="index.html" method="post">
-
-                  <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
-                  <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
-<!--
-                  <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
-                  <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
-
-                  <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
-                  <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
-
-                  <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
-                  <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
-
-                  <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
-                  <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;"> -->
-                </form>
-
-              </td>
-
-            </tr>
-            <tr>
-              <td><img src="image/icons/handcuffs.png"></td>
-              <td>
-                <h3>Academic Probation</h3>
-                <input type="text" name="" value="" placeholder="Major">
-              </td>
-
-            </tr>
-            <tr>
-              <td><img src="image/icons/route.png"></td>
-              <td>
-                <h3>Off-Track Continuation</h3>
-                Continuation in CLAS Major
-
-                Off-track two consecutive terms in:
-                <br>
-                <input type="text" name="" value="" placeholder="major">
-                <br>
-
-                ☐Two unsuccessful attempts of required course(s) for major:
-                <br>
-                Course(s):
-                <br>
-                <input type="text" name="" value="course one">
-                <br>
-                <input type="text" name="" value="course two">
-              </td>
-            </tr>
-            <tr>
-              <td><img src="image/icons/escape.png"></td>
-              <td><h3 title="• If your petition is approved:	Submit a transient form at www.floridashines.org for state colleges and universities or attach a hard copy transient form found at http://registrar.ufl.edu/forms.html for private or out-of-state institutions.
-">Petition to Break Residency</h3></td>
-
-            </tr>
-            <tr>
-              <td><img src="image/icons/moving.png"></td>
-              <td>
-                <h3>Dual Enrollment</h3>
-                  <input type="text" name="" value="" placeholder="other institution name">
-              </td>
-              </tr>
+            <?php if (!$option == "drop") { ?>
               <tr>
-                <td><img src="image/icons/information.png"></td>
-                <td><h3>Other</h3></td>
+              <td><img src="image/icons/drop.png"></td>
+              <td><a href="<?php echo $path; ?>create.php?getSet=true&option=drop<?php echo $savedInfo; ?>">Drop Courses</a></td>
               </tr>
-              <tr>
-                <td><img src="image/icons/comments.png"></td>
-                <td>
-                  <h3>Comments:</h3>
-                  <textarea name="name" placeholder="there should be a second view where stipulations are input"></textarea>
-                  <input type="submit" name="commentsSubmit" value="add comments">
-                </td>
-              </tr>
-            </tbody>
-          </table>
+            <?php } ?>
+
+            <tr>
+              <td><img src="image/icons/probation.png"></td>
+              <td><a href="<?php echo $path; ?>create.php?getSet=true&option=probation">Academic Probation</a></td>
+            </tr>
+            <tr>
+              <td><img src="image/icons/track.png"></td>
+              <td><a href="<?php echo $path; ?>create.php?getSet=true&option=track">Off-Track Continuation</a></td>
+            </tr>
+            <tr>
+              <td><img class="image_addOption_larger" src="image/icons/break.png"></td>
+              <td><a href="<?php echo $path; ?>create.php?getSet=true&option=break">Petition to Break Residency</a></td>
+            </tr>
+            <tr>
+              <td><img class="image_addOption_larger" src="image/icons/dual.png"></td>
+              <td><a href="<?php echo $path; ?>create.php?getSet=true&option=dual">Dual Enrollment</a></td>
+            </tr>
+            <tr>
+              <td><img src="image/icons/other.png"></td>
+              <td><a href="<?php echo $path; ?>create.php?getSet=true&option=other">Other</a></td>
+            </tr>
+          </tbody>
+        </table>
 
 <!-- student information / TICKET SETUP -->
 <!-- student information / TICKET SETUP -->
@@ -181,42 +150,50 @@
           <div id="student_information">
             <table>
               <tr>
-                <td colspan="2"><i><?php echo "date: " . $date_auto; ?></i></td>
+                <th colspan="2">Ticket Information</th>
               </tr>
               <tr>
                 <td><b>Name:</b></td>
-                <td><input type="text" value="<?php echo $student_name; ?>"></td>
+                <td><input type="text" value="<?php echo isset($getRely) ? $get_name  : $student_name; ?>"></td>
               </tr>
-              <?php if (!empty($student_ID)) { ?>
               <tr>
                 <td><b>UFID:</b></td>
-                <td><input type="text" value="<?php echo $student_ID;  ?>"></td>
+                <td><input type="text" value="<?php echo isset($getRely) ? $get_ID    : $student_ID; ?>"></td>
               </tr>
-              <?php } ?>
               <tr>
                 <td><b>Email:</b></td>
-                <td><input type="text" value="<?php echo $student_email; ?>"></td>
+                <td><input type="text" value="<?php echo isset($getRely) ? $get_email : $student_email; ?>"></td>
               </tr>
               <tr>
                 <td><b>Phone:</b></td>
-                <td><input type="text" value="<?php echo $student_phone; ?>"></td>
+                <td><input type="text" value="<?php echo isset($getRely) ? $get_phone : $student_phone; ?>"></td>
+              </tr>
+              <tr>
+                <td><b>Major:</b></td>
+                <td><input type="text" value=""></td>
               </tr>
             </table>
+            <p><i><?php echo "date: " . $date_auto; ?></i></p>
 
+            <?php if ($getSet) { ?>
 
-            <div id="ticket_option_selection">
-              <?php $option = 0; ?>
-              <div class=""><?php echo $option++; ?>
-                <p style="color: green;">&#10004;</p>
-              </div>
-              <div class=""><?php echo $option++; ?></div>
-              <div class=""><?php echo $option++; ?></div>
-              <div class=""><?php echo $option++; ?></div>
-              <div class=""><?php echo $option++; ?></div>
-              <div class=""><?php echo $option++; ?></div>
-            </div><!-- ticket option selection -->
+              <div id="ticket_option_selection">
+                <table>
+                  <tr>
+                    <th colspan="3">Selected Options</th>
+                  </tr>
+                  <tr>
+                    <td><img src="<?php echo $path; ?>image/icons/<?php echo $option; ?>.png"></td>
+                    <td><?php echo $option; ?></td>
+                    <td><a href="">remove</a></td>
+                  </tr>
 
-            <input type="submit" name="submit" value="submit">
+                </table>
+              </div><!-- ticket option selection -->
+            <?php } ?>
+
+                <input type="submit" name="submit" value="submit">
+              </form>
 
           </div><!-- student information -->
       </div><!-- ticket Head -->

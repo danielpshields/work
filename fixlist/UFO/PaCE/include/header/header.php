@@ -27,7 +27,7 @@ include("{$root}include/functions.php");
           <img src="<?php echo $root; ?>image/uf_logo.svg" alt="">
         </a>
         <?php if ($page != "login") { ?>
-          <h1>Welcome, <?php echo $firstName; ?></h1>
+          <h1>Welcome, <?php echo $firstName; ?><?php if ($canStay) { echo " <i>(admin)</i>"; } ?></h1>
         <?php } ?>
       </div>
     </header>

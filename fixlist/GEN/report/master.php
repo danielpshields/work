@@ -1,4 +1,20 @@
 
+<p>REF: petitions/create.php</p>
+<h3>Naming: class and id</h3>
+<ul>
+  <li>leading with feature_name</li>
+  <li>image_dualEnrollment</li>
+  <li>button_addToDualForm</li>
+</ul>
+
+<h3>Turnary Operator to save submitted information</h3>
+<ul>
+  <li><input type="text" value="<?php echo isset($getRely) ? $get_name : $student_name; ?>"></li>
+</ul>
+
+
+
+
 <h3>Redirects</h3>
 <ul>
   <li>PHP redirects work</li>

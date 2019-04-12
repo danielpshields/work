@@ -5,6 +5,7 @@
   $style = "record";
   $pageName = "Records: Transition";
   require("{$root}include/header/header.php");
+  noCanStay();
   include("{$root}include/credentials.php");
   $scriptName = "majors";
   $query = "SELECT * FROM pace_transition WHERE submitted = 2 ORDER BY timeApproved DESC";

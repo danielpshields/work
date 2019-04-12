@@ -6,6 +6,7 @@
   $dataPage = "all";
   $pageName = "Records: Search Results";
   require("{$root}include/header/header.php");
+  noCanStay();
   $scriptName = "majors";
 ?>
 <?php

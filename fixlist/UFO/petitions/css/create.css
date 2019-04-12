@@ -64,7 +64,12 @@
 #page_ii h2 {
   max-width: none;
   width: 100%;
-  background: #a0a0a0;
+  color: #333;
+  font-size: 1.5rem;
+  background: #d0d0d0;
+  padding: .5rem 0 .5rem .8rem;
+  line-height: 1;
+  margin-bottom: 1.5rem;
 }
 
 #petitionTable h3 {
@@ -95,6 +100,12 @@ table, tr, th, td {
 
 td img {
   width: 30px;
+  display: block;
+  margin: auto;
+}
+
+.image_addOption_larger {
+  width: 45px;
 }
 
 #petitionTable {
@@ -121,6 +132,7 @@ td img {
   display: block;
   margin-bottom: 2.81rem;
   width: 17.6rem;
+  border: 1px solid #c0c0c0;
   box-shadow: .3rem .3rem .8rem #c0c0c0;
 }
 

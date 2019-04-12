@@ -4,8 +4,8 @@
   $users = array(
     "nraymond@advising.ufl.edu",
     "nraymond@ufl.edu",
-    "acatalano2@ufl.edu",
-    "acatalano@advising.ufl.edu",
+    // "acatalano2@ufl.edu",
+    // "acatalano@advising.ufl.edu",
     "gkepic@advising.ufl.edu",
     "gkepic@ufl.edu",
     "danshields@advising.ufl.edu",

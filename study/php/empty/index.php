@@ -10,6 +10,8 @@
   }
   echo "<br>";
 
+$return = "";
+
   if ($return == 0) {
     echo "return equals zero";
   }

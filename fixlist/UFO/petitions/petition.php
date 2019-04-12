@@ -115,11 +115,22 @@
         <td>Petition to drop the following course(s) from the current term by the published deadline:
           Course Prefix/Code: 		Course #:
           Course Prefix/Code: 	  Course #:
+
+          <?php $i = 0; ?>
+          <p id="addCoursesOption"><i>(+) add courses</i></p>
+          <form action="index.html" method="post">
+            <input type="text" name="drop_course_prefix_<?php echo ++$i; ?>" value="" placeholder="Prefix/Code">
+            <input type="text" name="drop_course_number_<?php echo $i; ?>" value="" placeholder="Course  &#35;">
+          </form>
+
+
         </td>
         <td>
           <li>Submit by the current semester’s published deadline, this can be found in the UF Undergraduate Catalog under “Dates and Deadlines.”</li>
 
         **You should continue participating in the course(s) until you know the results of your petition.**
+
+
         </td>
       </tr>
       <tr>
@@ -144,6 +155,24 @@
           Course(s) __ __
         </td>
         <td>•	Reach out to your undergraduate coordinator for your major and request they submit electronic feedback.</td>
+
+        <h3>Off-Track Continuation</h3>
+        Continuation in CLAS Major
+
+        Off-track two consecutive terms in:
+        <br>
+        <input type="text" name="" value="" placeholder="major">
+        <br>
+
+        ☐Two unsuccessful attempts of required course(s) for major:
+        <br>
+        Course(s):
+        <br>
+        <input type="text" name="" value="course one">
+        <br>
+        <input type="text" name="" value="course two">
+
+
       </tr>
       <tr>
         <td>D</td>
@@ -172,7 +201,11 @@
   Deferred/Resubmit by:
 
   <h3>Comments and Conditions:</h3>
+  <img src="image/icons/comments.png">
 
+    <h3>Comments:</h3>
+    <textarea name="name" placeholder="there should be a second view where stipulations are input"></textarea>
+    <input type="submit" name="commentsSubmit" value="add comments">
 </div><!-- container -->
 
 

@@ -6,6 +6,7 @@
   $pageName = "Records: Transition";
   require("{$root}include/header/header.php");
   include("{$root}include/credentials.php");
+  noCanStay();
   $scriptName = "majors";
   $query = "SELECT * FROM pace_transition WHERE submitted = 4 ORDER BY formSubmitted DESC";
   $spitResults = mysqli_query($connection, $query);
