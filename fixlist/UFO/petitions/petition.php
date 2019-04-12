@@ -11,6 +11,16 @@
    <?php include("{$path}include/nav.php"); ?>
 
 
+   <div class="">
+     Decision Date: <input type="text" name="" value="" placeholder="<?php echo date('m/d/y'); ?>">
+     <br>
+
+     <!-- .status doesn't exist -->
+     <div class="status">
+       Approved  ☐	Denied ☐ | Deferred/Resubmit by: <input type="text" name="" value="" placeholder="date">
+     </div>
+   </div>
+
    <?php if (!isset($hide)) { ?>
 
 

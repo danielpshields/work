@@ -61,10 +61,18 @@
 /* start Page ii  start Page ii  start Page ii  start Page ii  */
 
 
-#page_ii h3 {
+#page_ii h2 {
   max-width: none;
   width: 100%;
   background: #a0a0a0;
+}
+
+#petitionTable h3 {
+  margin: 0;
+  padding: 0;
+  max-width: none;
+  font-weight: bold;
+  color: #333;
 }
 
 #ticket_head  {
@@ -72,26 +80,11 @@
   justify-content: space-between;
 }
 
-#ticket_option_selection {
-  width: 70%;
-  background: red;
-}
 
- #ticket_option_selection {
-   display: flex;
-   justify-content: space-around;
- }
 #FILLEDTICKETSTUFF {
   border: 1px dashed gray;
 }
 
-
-#student_information {
-  display: block;
-  margin-bottom: 2.81rem;
-  background: blue;
-  width: 17.6rem;
-}
 
 
 table, tr, th, td {
@@ -113,10 +106,29 @@ td img {
   justify-content: space-between;
   width: 100%;
   margin: 0;
+  margin-bottom: 1.5rem;
 }
 
 #statusBar li {
   width: 25%;
   list-style: none;
   text-align: center;
+}
+
+
+/* student information / ticket compilation */
+#student_information {
+  display: block;
+  margin-bottom: 2.81rem;
+  width: 17.6rem;
+  box-shadow: .3rem .3rem .8rem #c0c0c0;
+}
+
+
+#ticket_option_selection {
+  width: 70%;
+  background: red;
+ display: flex;
+ margin: auto;
+ justify-content: space-around;
 }
