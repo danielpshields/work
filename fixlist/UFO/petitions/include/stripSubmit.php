@@ -24,7 +24,7 @@
 // $parsed = get_string_between($fullstring, '[tag]', '[/tag]');
 //echo $parsed; // (result = dog)
 
-  $student_name = trim(getName($post, "Name:", "Major:"));
+  $post_name = trim(getName($post, "Name:", "Major:"));
 
   $split = explode(" ", $post);
 
@@ -33,16 +33,16 @@
     // get phone number
     if (substr_count($value, "-") > 1) {
       $phone = $value;
-      $student_phone = substr($phone, 0,12);
+      $post_phone = substr($phone, 0,12);
     }
 
     //  get email
     if (preg_match('/@.*./', $value) == true) {
-      $student_email = $value;
+      $post_email = $value;
     }
 
   }
 
-  $student_ID = $_POST['strip_student_id'];
+  $post_ID = $_POST['strip_student_id'];
 
 ?>

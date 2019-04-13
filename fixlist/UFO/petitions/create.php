@@ -6,94 +6,92 @@
   $style = "create";
   $tabIndex = 1;
   $post  = "";
-  $student_name  = "";
-  $student_email = "";
-  $student_phone = "";
-  $student_ID    = "";
-  $infoUnsorted  = true;
+  $post_name  = "";
+  $post_email = "";
+  $post_phone = "";
+  $post_ID    = "";
+  $alphnfoUnsorted  = true;
   require("{$root}include/header.php");
 
 
   if (isset($_POST['strip_submit'])) {
-    $infoUnsorted = false;
+    $alphnfoUnsorted = false;
     include("{$path}include/stripSubmit.php");
   }
 
   if (isset($_POST['manual_submit'])) {
-    $infoUnsorted = false;
-    $student_name  = $_POST['manual_student_name'];
-    $student_email = $_POST['manual_student_email'];
-    $student_phone = $_POST['manual_student_phone'];
-    $student_ID    = $_POST['manual_student_id'];
+    $alphnfoUnsorted = false;
+    $post_name  = $_POST['manual_student_name'];
+    $post_email = $_POST['manual_student_email'];
+    $post_phone = $_POST['manual_student_phone'];
+    $post_ID    = $_POST['manual_student_id'];
   }
 
   $getSet = false;
-
-  $option = "";
-  $option1 = "";
-  $option2 = "";
-  $option3 = "";
-  $option4 = "";
-  $option5 = "";
-  $option6 = "";
-  $optionA = "";
-  $optionB = "";
-  $optionC = "";
-  $optionD = "";
-  $optionE = "";
-  $optionF = "";
-
-
-  $i = "A";
-  $petitionOptions = array(
-    "drop"      => "Drop Courses",
-    "probation" => "Academic Probation",
-    "track"     => "Off-Track Continuation",
-    "break"     => "Petition to Break Residency",
-    "dual"      => "Dual Enrollment",
-    "other"     => "Other"
-  );
-
   if (isset($_GET['getSet'])) {
     $getSet = true;
-    $infoUnsorted = false;
-
-    $savedUserInformation  = "&id="    . $student_ID;
-    $savedUserInformation .= "&name="  . $student_name;
-    $savedUserInformation .= "&email=" . $student_email;
-    $savedUserInformation .= "&phone=" . $student_phone;
-    $getString = $savedUserInformation;
-
-    foreach ($petitionOptions as $key => $value) {
-      if (isset($_GET['option'.$i])) {
-        $fooOption = $_GET['option'.$i];
-        $barOption = "&option" . $i . "=";
-        if ($key == $fooOption) {
-          echo $getString .= $barOption . $fooOption;
-        }
-      }
-    }
-
-    echo "<pre>";
-    print_r($_GET);
-    echo "</pre>";
-
+    $alphnfoUnsorted = false;
   }
+
+
 
  ?>
  <div class="page">
    <?php include("{$path}include/nav.php"); ?>
 
     <!-- only load the inputs if all empty -->
-    <?php if ($infoUnsorted && !$getSet) {  include("{$path}include/create_unsorted.php");  } else {
+    <?php
 
-        if (empty($student_ID)) {
+    if ($alphnfoUnsorted && !$getSet) {
+
+      include("{$path}include/create_unsorted.php");
+
+    } else {
+
+      $alph = "A";
+      $petitionOptions = array(
+        "drop"      => "Drop Courses",
+        "probation" => "Academic Probation",
+        "track"     => "Off-Track Continuation",
+        "break"     => "Petition to Break Residency",
+        "dual"      => "Dual Enrollment",
+        "other"     => "Other"
+      );
+
+
+        // post vars exist
+        if (!empty($post_ID)) {
+          $savedUserInformation  = "&id="    . $post_ID;
+          $savedUserInformation .= "&name="  . $post_name;
+          $savedUserInformation .= "&email=" . $post_email;
+          $savedUserInformation .= "&phone=" . $post_phone;
+          // foreach ($petitionOptions as $key => $value) {
+          //   $savedUserInformation .= "&option" . $alph++ . "=";
+          // }
+        } else {
+          // post -- post vars -- set the information string to a get string
           $getRely   = true;
           $get_ID    = $_GET['id'];
           $get_name  = $_GET['name'];
           $get_email = $_GET['email'];
           $get_phone = $_GET['phone'];
+          $savedUserInformation  = "&id="    . $_GET['id'];
+          $savedUserInformation .= "&name="  . $_GET['name'];
+          $savedUserInformation .= "&email=" . $_GET['email'];
+          $savedUserInformation .= "&phone=" . $_GET['phone'];
+          $options = array();
+          foreach ($petitionOptions as $key => $value) {
+            if (isset($_GET[$key])) {
+              $savedUserInformation .= "&" . $key . "=true";
+              array_push($options, $key);
+            }
+          }
         }
+
+        echo "<pre>";
+        print_r($options);
+        echo "</pre>";
+
     ?>
 
     <ul id="statusBar">
@@ -116,15 +114,32 @@
           <tbody>
 
           <?php
-            foreach ($petitionOptions as $key => $value) {
-          ?>
-              <tr>
-                <td><img src="image/icons/<?php echo $key; ?>.png"></td>
-                <td><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation; ?>&option<?php echo $i . "=" . $key; ?>"><?php echo $value; ?></a></td>
-              </tr>
-          <?php
-              $i++;
+
+          if (!empty($options)) {
+            echo "options has stuff<Br>";
+            foreach ($options as $number => $option) {
+              echo $option;
+              if ($option != $key) { ?>
+                <tr>
+                  <td><img src="image/icons/<?php echo $key; ?>.png"></td>
+                  <td><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation . "&" . $key . "=true"; ?>"><?php echo $value; ?></a></td>
+                </tr>
+<?php
+break;
+              }
             }
+          }
+
+
+            // <!-- foreach ($petitionOptions as $key => $value) { -->
+
+          ?>
+
+
+          <?php
+
+            $alph++;
+           // }
           ?>
 
           </tbody>
@@ -137,19 +152,19 @@
               </tr>
               <tr>
                 <td><b>Name:</b></td>
-                <td><input type="text" value="<?php echo isset($getRely) ? $get_name  : $student_name; ?>"></td>
+                <td><input type="text" value="<?php echo isset($getRely) ? $get_name  : $post_name; ?>"></td>
               </tr>
               <tr>
                 <td><b>UFID:</b></td>
-                <td><input type="text" value="<?php echo isset($getRely) ? $get_ID    : $student_ID; ?>"></td>
+                <td><input type="text" value="<?php echo isset($getRely) ? $get_ID    : $post_ID; ?>"></td>
               </tr>
               <tr>
                 <td><b>Email:</b></td>
-                <td><input type="text" value="<?php echo isset($getRely) ? $get_email : $student_email; ?>"></td>
+                <td><input type="text" value="<?php echo isset($getRely) ? $get_email : $post_email; ?>"></td>
               </tr>
               <tr>
                 <td><b>Phone:</b></td>
-                <td><input type="text" value="<?php echo isset($getRely) ? $get_phone : $student_phone; ?>"></td>
+                <td><input type="text" value="<?php echo isset($getRely) ? $get_phone : $post_phone; ?>"></td>
               </tr>
               <!-- <tr>
                 <td><b>Major:</b></td>
@@ -168,7 +183,7 @@
 
 
                     <!-- <tr>
-                      <td><img src="<?php echo $path; ?>image/icons/<?php echo $option . $i; ?>.png"></td>
+                      <td><img src="<?php echo $path; ?>image/icons/<?php echo $option . $alph; ?>.png"></td>
                       <td><?php echo $option; ?></td>
                       <td><a href="">remove</a></td>
                     </tr>
