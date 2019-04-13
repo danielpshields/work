@@ -1,4 +1,9 @@
-
+/* <ul id="statusBar">
+  <li style="background: #7AC0FF;">initialized</li>
+  <li style="background: #8985FF;">sent</li>
+  <li style="background: #FFDD70;">receieved/commented</li>
+  <li style="background: #FFC470;">approved/denied</li>
+</ul>  */
 /* first major container */
 #infoUnsorted {
   display: flex;

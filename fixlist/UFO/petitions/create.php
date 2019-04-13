@@ -30,10 +30,54 @@
   $getSet = false;
 
   $option = "";
+  $option1 = "";
+  $option2 = "";
+  $option3 = "";
+  $option4 = "";
+  $option5 = "";
+  $option6 = "";
+  $optionA = "";
+  $optionB = "";
+  $optionC = "";
+  $optionD = "";
+  $optionE = "";
+  $optionF = "";
+
+
+  $i = "A";
+  $petitionOptions = array(
+    "drop"      => "Drop Courses",
+    "probation" => "Academic Probation",
+    "track"     => "Off-Track Continuation",
+    "break"     => "Petition to Break Residency",
+    "dual"      => "Dual Enrollment",
+    "other"     => "Other"
+  );
+
   if (isset($_GET['getSet'])) {
-    $infoUnsorted = false;
     $getSet = true;
-    $option = $_GET['option'];
+    $infoUnsorted = false;
+
+    $savedUserInformation  = "&id="    . $student_ID;
+    $savedUserInformation .= "&name="  . $student_name;
+    $savedUserInformation .= "&email=" . $student_email;
+    $savedUserInformation .= "&phone=" . $student_phone;
+    $getString = $savedUserInformation;
+
+    foreach ($petitionOptions as $key => $value) {
+      if (isset($_GET['option'.$i])) {
+        $fooOption = $_GET['option'.$i];
+        $barOption = "&option" . $i . "=";
+        if ($key == $fooOption) {
+          echo $getString .= $barOption . $fooOption;
+        }
+      }
+    }
+
+    echo "<pre>";
+    print_r($_GET);
+    echo "</pre>";
+
   }
 
  ?>
@@ -41,41 +85,7 @@
    <?php include("{$path}include/nav.php"); ?>
 
     <!-- only load the inputs if all empty -->
-    <?php if ($infoUnsorted && !$getSet) { ?>
-
-      <div id="infoUnsorted">
-
-        <form class="addInfoBox" action="create.php" method="post">
-          <h3>Manual Input</h3>
-          <input type="text" name="manual_student_name"  value="" placeholder="Martha Gator" tabindex="<?php echo $tabIndex++; ?>">
-          <p>Name</p>
-          <input type="text" name="manual_student_id"    value="" placeholder="12344321" tabindex="<?php echo $tabIndex++; ?>">
-          <p>UFID</p>
-          <input type="text" name="manual_student_email" value="" placeholder="mgator@ufl.edu" tabindex="<?php echo $tabIndex++; ?>">
-          <p>Email</p>
-          <input type="text" name="manual_student_phone" value="" placeholder="202-555-0154" tabindex="<?php echo $tabIndex++; ?>">
-          <p>Phone</p>
-          <input class="submitButton" type="submit" name="manual_submit" value="Enter Text" tabindex="<?php echo $tabIndex++; ?>">
-        </form>
-
-        <form class="addInfoBox" action="create.php" method="post">
-          <h3>Advisior Notes <i>(Strip)</i></h3>
-          <input type="text" name="strip_student_id" value="" placeholder="12344321" tabindex="<?php echo $tabIndex++; ?>">
-          <p>UFID</p>
-          <textarea name="stripText" rows="8" placeholder="<?php echo $holdText; ?>" tabindex="<?php echo $tabIndex++; ?>"></textarea>
-          <input class="submitButton" type="submit" name="strip_submit" value="Pull Content" tabindex="<?php echo $tabIndex++; ?>">
-        </form>
-
-      </div><!-- unsorted information section -->
-
-   <?php } else {
-
-        //keep the GET values
-
-        $savedInfo  = "&id="    . $student_ID;
-        $savedInfo .= "&name="  . $student_name;
-        $savedInfo .= "&email=" . $student_email;
-        $savedInfo .= "&phone=" . $student_phone;
+    <?php if ($infoUnsorted && !$getSet) {  include("{$path}include/create_unsorted.php");  } else {
 
         if (empty($student_ID)) {
           $getRely   = true;
@@ -84,23 +94,14 @@
           $get_email = $_GET['email'];
           $get_phone = $_GET['phone'];
         }
-
     ?>
 
-        <!-- <ul id="statusBar">
-          <li style="background: #7AC0FF;">initialized</li>
-          <li style="background: #8985FF;">sent</li>
-          <li style="background: #FFDD70;">receieved/commented</li>
-          <li style="background: #FFC470;">approved/denied</li>
-        </ul> -->
-
-        <ul id="statusBar">
-          <li style="background: #7AC0FF;">initialize</li>
-          <li style="background: #FFF; color: #a0a0a0; border: 1px dotted #a0a0a0;">sent</li>
-          <li style="background: #FFF; color: #a0a0a0; border: 1px dotted #a0a0a0;">receieved/commented</li>
-          <li style="background: #FFF; color: #a0a0a0; border: 1px dotted #a0a0a0;">approved/denied</li>
-        </ul>
-
+    <ul id="statusBar">
+      <li style="background: #7AC0FF;">initialize</li>
+      <li style="background: #FFF; color: #a0a0a0; border: 1px dotted #a0a0a0;">sent</li>
+      <li style="background: #FFF; color: #a0a0a0; border: 1px dotted #a0a0a0;">receieved/commented</li>
+      <li style="background: #FFF; color: #a0a0a0; border: 1px dotted #a0a0a0;">approved/denied</li>
+    </ul>
 
     <div id="page_ii">
       <h2>Create Ticket</h2>
@@ -113,39 +114,21 @@
             </tr>
           </thead>
           <tbody>
-            <?php if (!$option == "drop") { ?>
-              <tr>
-              <td><img src="image/icons/drop.png"></td>
-              <td><a href="<?php echo $path; ?>create.php?getSet=true&option=drop<?php echo $savedInfo; ?>">Drop Courses</a></td>
-              </tr>
-            <?php } ?>
 
-            <tr>
-              <td><img src="image/icons/probation.png"></td>
-              <td><a href="<?php echo $path; ?>create.php?getSet=true&option=probation">Academic Probation</a></td>
-            </tr>
-            <tr>
-              <td><img src="image/icons/track.png"></td>
-              <td><a href="<?php echo $path; ?>create.php?getSet=true&option=track">Off-Track Continuation</a></td>
-            </tr>
-            <tr>
-              <td><img class="image_addOption_larger" src="image/icons/break.png"></td>
-              <td><a href="<?php echo $path; ?>create.php?getSet=true&option=break">Petition to Break Residency</a></td>
-            </tr>
-            <tr>
-              <td><img class="image_addOption_larger" src="image/icons/dual.png"></td>
-              <td><a href="<?php echo $path; ?>create.php?getSet=true&option=dual">Dual Enrollment</a></td>
-            </tr>
-            <tr>
-              <td><img src="image/icons/other.png"></td>
-              <td><a href="<?php echo $path; ?>create.php?getSet=true&option=other">Other</a></td>
-            </tr>
+          <?php
+            foreach ($petitionOptions as $key => $value) {
+          ?>
+              <tr>
+                <td><img src="image/icons/<?php echo $key; ?>.png"></td>
+                <td><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation; ?>&option<?php echo $i . "=" . $key; ?>"><?php echo $value; ?></a></td>
+              </tr>
+          <?php
+              $i++;
+            }
+          ?>
+
           </tbody>
         </table>
-
-<!-- student information / TICKET SETUP -->
-<!-- student information / TICKET SETUP -->
-<!-- student information / TICKET SETUP -->
 
           <div id="student_information">
             <table>
@@ -168,10 +151,10 @@
                 <td><b>Phone:</b></td>
                 <td><input type="text" value="<?php echo isset($getRely) ? $get_phone : $student_phone; ?>"></td>
               </tr>
-              <tr>
+              <!-- <tr>
                 <td><b>Major:</b></td>
                 <td><input type="text" value=""></td>
-              </tr>
+              </tr> -->
             </table>
             <p><i><?php echo "date: " . $date_auto; ?></i></p>
 
@@ -182,11 +165,17 @@
                   <tr>
                     <th colspan="3">Selected Options</th>
                   </tr>
-                  <tr>
-                    <td><img src="<?php echo $path; ?>image/icons/<?php echo $option; ?>.png"></td>
-                    <td><?php echo $option; ?></td>
-                    <td><a href="">remove</a></td>
-                  </tr>
+
+
+                    <!-- <tr>
+                      <td><img src="<?php echo $path; ?>image/icons/<?php echo $option . $i; ?>.png"></td>
+                      <td><?php echo $option; ?></td>
+                      <td><a href="">remove</a></td>
+                    </tr>
+         -->
+
+
+
 
                 </table>
               </div><!-- ticket option selection -->
