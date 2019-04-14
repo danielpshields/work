@@ -31,6 +31,14 @@
 ?>
 
 
+<h3>Foreach Naming Consistency</h3>
+<ul>
+  <li>petition options = petiion => description</li>
+  <li>selected options = number  => option</li>
+  <li>menu options     = name    => definition</li>
+</ul>
+
+
 <p>REF: petitions/create.php</p>
 <h3>Naming: class and id</h3>
 <ul>

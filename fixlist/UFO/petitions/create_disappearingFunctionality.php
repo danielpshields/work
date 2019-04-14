@@ -87,15 +87,20 @@
           $savedUserInformation .= "&email=" . $_GET['email'];
           $savedUserInformation .= "&phone=" . $_GET['phone'];
           $resetGET = $savedUserInformation;
-
           $selectedOptions = array();
-          foreach ($petitionOptions as $petition => $description) {
-            if (isset($_GET[$petition])) {
-              $savedUserInformation .= "&" . $petition . "=true";
-              array_push($selectedOptions, $petition);
+          foreach ($petitionOptions as $key => $value) {
+
+            if (isset($_GET[$key])) {
+              $savedUserInformation .= "&" . $key . "=true";
+              array_push($selectedOptions, $key);
             }
           }
         }
+
+        // echo "<pre>";
+        // print_r($selectedOptions);
+        // echo "</pre>";
+
     ?>
 
     <ul id="statusBar">
@@ -115,33 +120,32 @@
             </tr>
           </thead>
           <tbody>
-            <?php
-             $menuOptions = array();
-             foreach ($selectedOptions   as $number   => $option) {
-               foreach ($petitionOptions as $petition => $description) {
-                 if (!in_array($petition, $selectedOptions)) {
-                   $menuOptions[$petition] = $description;
-                 }
-               }
-               break;
-             }
+           <?php
+              $menuOptions = array();
+              foreach ($selectedOptions   as $number   => $option) {
+                foreach ($petitionOptions as $petition => $description) {
+                  if (!in_array($petition, $selectedOptions)) {
+                    $menuOptions[$petition] = $description;
+                  }
+                }
+                break;
+              }
 
-             if (empty($menuOptions)) {
-               foreach ($petitionOptions as $key => $value) { ?>
-                 <tr>
-                   <td><img src="image/icons/<?php echo $key; ?>.png"></td>
-                   <td><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation . "&" . $key . "=true"; ?>"><?php echo $value; ?></a></td>
-                 </tr>
-               <?php }
-             } else {
-               foreach ($menuOptions as $petition => $description) { ?>
-                 <tr>
-                   <td><img src="image/icons/<?php echo $petition; ?>.png"></td>
-                   <td><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation . "&" . $petition . "=true"; ?>"><?php echo $description; ?></a></td>
-                 </tr>
-             <?php }
-            } ?>
-
+              if (empty($menuOptions)) {
+                foreach ($petitionOptions as $key => $value) { ?>
+                  <tr>
+                    <td><img src="image/icons/<?php echo $key; ?>.png"></td>
+                    <td><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation . "&" . $key . "=true"; ?>"><?php echo $value; ?></a></td>
+                  </tr>
+                <?php }
+              } else {
+                foreach ($menuOptions as $petition => $description) { ?>
+                  <tr>
+                    <td><img src="image/icons/<?php echo $petition; ?>.png"></td>
+                    <td><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation . "&" . $petition . "=true"; ?>"><?php echo $description; ?></a></td>
+                  </tr>
+              <?php }
+             } ?>
 
           </tbody>
         </table>
@@ -181,7 +185,7 @@
               <div id="ticket_option_selection">
                 <table>
                   <tr>
-                    <th colspan="2">Selected Options</th>
+                    <th colspan="3">Selected Options</th>
                   </tr>
                   <?php
                   foreach ($selectedOptions as $key => $value) {
@@ -191,6 +195,7 @@
                         <tr>
                           <td><img src="<?php echo $path; ?>image/icons/<?php echo $value; ?>.png"></td>
                           <td><?php echo $description; ?></td>
+                          <td><a href="#"><i>(delete)</i></a></td>
                         </tr>
                         <?php
                       }
@@ -217,22 +222,6 @@
     <?php } ?>
 
   </div><!-- page -->
-
-  <?php
-  echo "<pre>";
-    print_r($petitionOptions);
-  echo "</pre>";
-
-  echo "<pre>";
-    print_r($selectedOptions);
-  echo "</pre>";
-
-  echo "<pre>";
-    print_r($menuOptions);
-  echo "</pre>";
-
-
-  ?>
 
   <!-- <input type="submit" name="createPetition" value="Create Petition"> -->
 
