@@ -144,7 +144,7 @@ td img {
 
 #ticket_option_selection {
   width: 70%;
-  background: red;
+  background: #d2ffc9;
  display: flex;
  margin: auto;
  justify-content: space-around;

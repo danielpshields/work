@@ -33,7 +33,14 @@
     $alphnfoUnsorted = false;
   }
 
+  // $petitionOptions;
+  // $selectedOptions;
+  // $menuOptions;
 
+  // if ($) {
+  //   $selectMenu  = false;
+  //   $displayMenu = true;
+  // }
 
  ?>
  <div class="page">
@@ -82,6 +89,7 @@
           $resetGET = $savedUserInformation;
           $selectedOptions = array();
           foreach ($petitionOptions as $key => $value) {
+
             if (isset($_GET[$key])) {
               $savedUserInformation .= "&" . $key . "=true";
               array_push($selectedOptions, $key);
@@ -119,6 +127,12 @@
                   if (!in_array($petition, $selectedOptions)) {
                     $menuOptions[$petition] = $description;
                   }
+
+                  $i = 0;
+                  echo $i;
+                  $i++;
+
+
                 }
                 break;
               }
@@ -183,9 +197,10 @@
                   foreach ($selectedOptions as $key => $value) {
                     foreach ($petitionOptions as $petition => $description) {
                       if ($value == $petition) { ?>
+
                         <tr>
                           <td><img src="<?php echo $path; ?>image/icons/<?php echo $value; ?>.png"></td>
-                          <td><?php echo $value; ?></td>
+                          <td><?php echo $description; ?></td>
                           <td><a href="#"><i>(delete)</i></a></td>
                         </tr>
                         <?php
@@ -193,17 +208,8 @@
                     }
                   }
                   ?>
-
-                    <!--
-                      <tr>
-                        <td><img src="<?php echo $path; ?>image/icons/<?php echo $option . $alph; ?>.png"></td>
-                        <td><?php echo $option; ?></td>
-                        <td><a href="">remove</a></td>
-                      </tr>
-                    -->
-
                     <tr>
-                      <td id="resetGET" colspan="3"><a href="create.php?getSet=true<?php echo $resetGET; ?>">reset options</a></td>
+                      <td id="resetGET" colspan="3"><a href="create.php?getSet=true<?php echo $resetGET; ?>">reset selections</a></td>
                     </tr>
 
 
