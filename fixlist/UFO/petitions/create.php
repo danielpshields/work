@@ -10,9 +10,9 @@
   $post_email = "";
   $post_phone = "";
   $post_ID    = "";
+  $selectedOptions    = array();
   $alphnfoUnsorted  = true;
   require("{$root}include/header.php");
-
 
   if (isset($_POST['strip_submit'])) {
     $alphnfoUnsorted = false;
@@ -79,18 +79,19 @@
           $savedUserInformation .= "&name="  . $_GET['name'];
           $savedUserInformation .= "&email=" . $_GET['email'];
           $savedUserInformation .= "&phone=" . $_GET['phone'];
-          $options = array();
+          $resetGET = $savedUserInformation;
+          $selectedOptions = array();
           foreach ($petitionOptions as $key => $value) {
             if (isset($_GET[$key])) {
               $savedUserInformation .= "&" . $key . "=true";
-              array_push($options, $key);
+              array_push($selectedOptions, $key);
             }
           }
         }
 
-        echo "<pre>";
-        print_r($options);
-        echo "</pre>";
+        // echo "<pre>";
+        // print_r($selectedOptions);
+        // echo "</pre>";
 
     ?>
 
@@ -103,7 +104,17 @@
 
     <div id="page_ii">
       <h2>Create Ticket</h2>
-      <!-- <h3>Select Petition Options</h3> -->
+      <?php
+
+        echo "<pre>";
+        print_r($petitionOptions);
+        echo "</pre>";
+
+        echo "<pre>";
+        print_r($selectedOptions);
+        echo "</pre>";
+
+      ?>
       <div id="ticket_head">
         <table id="petitionTable">
           <thead>
@@ -113,34 +124,82 @@
           </thead>
           <tbody>
 
-          <?php
+<!--
+            $selectedOptions = a, b
 
-          if (!empty($options)) {
-            echo "options has stuff<Br>";
-            foreach ($options as $number => $option) {
-              echo $option;
-              if ($option != $key) { ?>
+            $petitionOptions = a, b, c, d, e, f
+-->
+           <?php
+
+              $menuOptions = array();
+
+              foreach ($selectedOptions as $n => $option) {
+
+                  foreach ($petitionOptions as $petition => $d) {
+
+                      if (!in_array($petition, $selectedOptions)) {
+                        echo $petition . "<br>";
+                        array_push($menuOptions, $petition);
+                      }
+
+                    }
+                    break;
+                }
+
+             ?>
+
+
+
+
+
+
+
+
+
+
+             <pre>
+               <?php print_r($menuOptions); ?>
+             </pre>
+
+            <?php foreach ($petitionOptions as $key => $value) { ?>
+
                 <tr>
                   <td><img src="image/icons/<?php echo $key; ?>.png"></td>
                   <td><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation . "&" . $key . "=true"; ?>"><?php echo $value; ?></a></td>
                 </tr>
-<?php
-break;
-              }
-            }
-          }
+
+            <?php } ?>
 
 
-            // <!-- foreach ($petitionOptions as $key => $value) { -->
-
-          ?>
 
 
-          <?php
 
-            $alph++;
-           // }
-          ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+              <td id="resetGET" colspan="2"><a href="create.php?getSet=true<?php echo $resetGET; ?>">reset options</a></td>
+            </tr>
+
+
+
+
+
+
 
           </tbody>
         </table>
@@ -166,10 +225,12 @@ break;
                 <td><b>Phone:</b></td>
                 <td><input type="text" value="<?php echo isset($getRely) ? $get_phone : $post_phone; ?>"></td>
               </tr>
-              <!-- <tr>
-                <td><b>Major:</b></td>
-                <td><input type="text" value=""></td>
-              </tr> -->
+              <!--
+                <tr>
+                  <td><b>Major:</b></td>
+                  <td><input type="text" value=""></td>
+                </tr>
+              -->
             </table>
             <p><i><?php echo "date: " . $date_auto; ?></i></p>
 
@@ -180,17 +241,28 @@ break;
                   <tr>
                     <th colspan="3">Selected Options</th>
                   </tr>
+                  <?php
+                  foreach ($selectedOptions as $key => $value) {
+                    foreach ($petitionOptions as $petition => $description) {
+                      if ($value == $petition) { ?>
+                        <tr>
+                          <td><img src="<?php echo $path; ?>image/icons/<?php echo $value; ?>.png"></td>
+                          <td><?php echo $value; ?></td>
+                          <td><a href="#"><i>(delete)</i></a></td>
+                        </tr>
+                        <?php
+                      }
+                    }
+                  }
+                  ?>
 
-
-                    <!-- <tr>
-                      <td><img src="<?php echo $path; ?>image/icons/<?php echo $option . $alph; ?>.png"></td>
-                      <td><?php echo $option; ?></td>
-                      <td><a href="">remove</a></td>
-                    </tr>
-         -->
-
-
-
+                    <!--
+                      <tr>
+                        <td><img src="<?php echo $path; ?>image/icons/<?php echo $option . $alph; ?>.png"></td>
+                        <td><?php echo $option; ?></td>
+                        <td><a href="">remove</a></td>
+                      </tr>
+                    -->
 
                 </table>
               </div><!-- ticket option selection -->
@@ -205,7 +277,6 @@ break;
     </div><!-- page_ii -->
 
     <?php } ?>
-
 
   </div><!-- page -->
 

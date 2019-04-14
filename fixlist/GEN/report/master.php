@@ -1,4 +1,16 @@
 
+
+<h3>Save State while building GET string</h3>
+<?php
+  $string  = "?get=true";
+  $string .= "&name=alex";
+  $resetGet = $string;
+  $string .= "&selection=mathematics";
+ ?>
+<li><a href="create.php?getSet=true<?php echo $resetGET; ?>">reset get</a></li>
+
+
+
 <p>REF: petitions/create.php</p>
 <h3>Naming: class and id</h3>
 <ul>
