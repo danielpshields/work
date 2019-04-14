@@ -104,17 +104,6 @@
 
     <div id="page_ii">
       <h2>Create Ticket</h2>
-      <?php
-
-        echo "<pre>";
-        print_r($petitionOptions);
-        echo "</pre>";
-
-        echo "<pre>";
-        print_r($selectedOptions);
-        echo "</pre>";
-
-      ?>
       <div id="ticket_head">
         <table id="petitionTable">
           <thead>
@@ -123,83 +112,32 @@
             </tr>
           </thead>
           <tbody>
-
-<!--
-            $selectedOptions = a, b
-
-            $petitionOptions = a, b, c, d, e, f
--->
            <?php
-
               $menuOptions = array();
-
-              foreach ($selectedOptions as $n => $option) {
-
-                  foreach ($petitionOptions as $petition => $d) {
-
-                      if (!in_array($petition, $selectedOptions)) {
-                        echo $petition . "<br>";
-                        array_push($menuOptions, $petition);
-                      }
-
-                    }
-                    break;
+              foreach ($selectedOptions   as $number   => $option) {
+                foreach ($petitionOptions as $petition => $description) {
+                  if (!in_array($petition, $selectedOptions)) {
+                    $menuOptions[$petition] = $description;
+                  }
                 }
+                break;
+              }
 
-             ?>
-
-
-
-
-
-
-
-
-
-
-             <pre>
-               <?php print_r($menuOptions); ?>
-             </pre>
-
-            <?php foreach ($petitionOptions as $key => $value) { ?>
-
-                <tr>
-                  <td><img src="image/icons/<?php echo $key; ?>.png"></td>
-                  <td><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation . "&" . $key . "=true"; ?>"><?php echo $value; ?></a></td>
-                </tr>
-
-            <?php } ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <tr>
-              <td id="resetGET" colspan="2"><a href="create.php?getSet=true<?php echo $resetGET; ?>">reset options</a></td>
-            </tr>
-
-
-
-
-
-
+              if (empty($menuOptions)) {
+                foreach ($petitionOptions as $key => $value) { ?>
+                  <tr>
+                    <td><img src="image/icons/<?php echo $key; ?>.png"></td>
+                    <td><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation . "&" . $key . "=true"; ?>"><?php echo $value; ?></a></td>
+                  </tr>
+                <?php }
+              } else {
+                foreach ($menuOptions as $petition => $description) { ?>
+                  <tr>
+                    <td><img src="image/icons/<?php echo $petition; ?>.png"></td>
+                    <td><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation . "&" . $petition . "=true"; ?>"><?php echo $description; ?></a></td>
+                  </tr>
+              <?php }
+             } ?>
 
           </tbody>
         </table>
@@ -263,6 +201,11 @@
                         <td><a href="">remove</a></td>
                       </tr>
                     -->
+
+                    <tr>
+                      <td id="resetGET" colspan="3"><a href="create.php?getSet=true<?php echo $resetGET; ?>">reset options</a></td>
+                    </tr>
+
 
                 </table>
               </div><!-- ticket option selection -->

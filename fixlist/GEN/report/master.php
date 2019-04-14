@@ -9,6 +9,26 @@
  ?>
 <li><a href="create.php?getSet=true<?php echo $resetGET; ?>">reset get</a></li>
 
+<h3>Display only unchosen:</h3>
+<?php
+  $menuOptions = array();
+  foreach ($selectedOptions as $n => $option) {
+    foreach ($petitionOptions as $petition => $d) {
+      if (!in_array($petition, $selectedOptions)) {
+        array_push($menuOptions, $petition);
+      }
+    }
+    break;
+  }
+
+  //had to use the old school way:
+
+  $fruit['grape'] = 'fruit';
+
+  $menuOptions[$petition] = $description;
+
+
+?>
 
 
 <p>REF: petitions/create.php</p>
