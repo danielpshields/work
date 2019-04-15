@@ -83,9 +83,7 @@
           foreach ($petitionOptions as $petition => $description) {
             if (isset($_GET[$petition])) {
               $savedUserInformation .= "&" . $petition . "=true";
-              $selectedOptions[] = $petition;
-              // array_push($selectedOptions, $petition);
-
+              array_push($selectedOptions, $petition);
             }
           }
         }
@@ -109,30 +107,23 @@
           </thead>
           <tbody>
             <?php
-              $menuOptions = array();
-              foreach ($selectedOptions   as $option) {
-                foreach ($petitionOptions as $petition => $description) {
-                  if (!in_array($petition, $selectedOptions)) {
-                    $menuOptions[$petition] = $description;
-                  }
-                }
-                break;
-              }
-            ?>
+             $menuOptions = array();
+             foreach ($selectedOptions   as $number   => $option) {
+               foreach ($petitionOptions as $petition => $description) {
+                 if (!in_array($petition, $selectedOptions)) {
+                   $menuOptions[$petition] = $description;
+                 }
+               }
+               break;
+             }
 
-            <?php foreach ($petitionOptions as $petition => $description) { ?>
-
+            foreach ($petitionOptions as $petition => $description) { ?>
               <tr>
-                <td>
-                  <?php if (isset($_GET[$petition])) {
-                    echo "&#10004;";
-                  } else {
-                    ?><img src="image/icons/<?php echo $petition; ?>.png"></td><?php
-                  } ?>
-                </td>
+                <?php if ($)
+                <td><img src="image/icons/<?php echo $petition; ?>.png"></td>
+                <td><img src="image/icons/<?php echo $petition; ?>.png"></td>
                 <td><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation . "&" . $petition . "=true"; ?>"><?php echo $description; ?></a></td>
               </tr>
-
             <?php } ?>
 
           </tbody>
@@ -211,18 +202,22 @@
   </div><!-- page -->
 
   <?php
-  //
-  // echo "<pre>";
-  //   print_r($petitionOptions);
-  // echo "</pre>";
-  //
-  // echo "<pre>";
-  //   print_r($selectedOptions);
-  // echo "</pre>";
-  //
-  // echo "<pre>";
-  //   print_r($menuOptions);
-  // echo "</pre>";
+
+  echo $petition . " " . $option . " " . $name . "<br>";
+
+
+
+  echo "<pre>";
+    print_r($petitionOptions);
+  echo "</pre>";
+
+  echo "<pre>";
+    print_r($selectedOptions);
+  echo "</pre>";
+
+  echo "<pre>";
+    print_r($menuOptions);
+  echo "</pre>";
 
 
   ?>
