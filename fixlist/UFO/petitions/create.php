@@ -191,7 +191,7 @@
               <div id="ticket_option_selection">
                 <table>
                   <tr>
-                    <th colspan="2">Selected Options</th>
+                    <th colspan="3">Selected Options</th>
                   </tr>
                   <?php
                   foreach ($selectedOptions as $key => $value) {
@@ -201,6 +201,7 @@
                         <tr>
                           <td><img src="<?php echo $path; ?>image/icons/<?php echo $value; ?>.png"></td>
                           <td><?php echo $description; ?></td>
+                          <td class="delete"><i><a href="">(delete)</a></i></td>
                         </tr>
                         <?php
                       }

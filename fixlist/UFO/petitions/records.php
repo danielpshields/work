@@ -15,9 +15,18 @@
 
   <div class="page">
     <?php include("{$path}include/nav.php"); ?>
+
     <?php if (mysqli_num_rows($checkResultsDB)) { ?>
-    <?php include("{$path}petitions/include/variables.php"); ?>
-      <li><?php echo $db_advisor_name; ?></li>
+      <ul>
+
+      <?php while ($row = mysqli_fetch_assoc($checkResultsDB)) {
+        include("{$path}include/variables.php"); ?>
+        <li><?php echo $db_advisor_name; ?></li>
+      <?php } ?>
+
+      </ul>
+
+
     <?php } else { ?>
       <p>there are zero records</p>
     <?php } ?>

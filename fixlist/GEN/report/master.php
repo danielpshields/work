@@ -26,25 +26,21 @@
   }
 
   //had to use the old school way:
-
   $fruit['grape'] = 'fruit';
 
   $menuOptions[$petition] = $description;
-
-
 ?>
 
 
 <h3>Foreach Naming Consistency && other logic names</h3>
 <ul>
-  <li>petition options = petiion => description</li>
-  <li>selected options = number  => option</li>
-  <li>menu options     = name    => definition</li>
+  <li>petition options = petition => description</li>
+  <li>selected options = number   => option</li>
+  <li>menu options     = name     => menu</li>
 </ul>
-
 <ul>
   <li>$db_advisor_name       = $row['advisor_name'];</li>
-  <li>UFO/include/env.php -- and vars.php -- VARS.PHP!</li>
+  <li>UFO/petitions/include/env.php -- and vars.php -- VARS.PHP!</li>
 </ul>
 
 
