@@ -122,28 +122,27 @@
 
             <?php foreach ($petitionOptions as $petition => $description) { ?>
 
+              <?php if (isset($_GET[$petition])) { ?>
               <tr>
-                <td>
-                  <?php if (isset($_GET[$petition])) {
-                    echo "&#10004;";
-                  } else {
-                    ?><img src="image/icons/<?php echo $petition; ?>.png"></td><?php
-                  } ?>
-                </td>
-                <td>
-                  <?php if (isset($_GET[$petition])) {
-                    echo $description;
-                  } else {
-                    ?><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation . "&" . $petition . "=true"; ?>"><?php echo $description; ?></a><?php
-                  } ?>
-                </td>
+                <td id="selectedCheckmark">&#10004;</td>
+                <td id="selectedOption"><?php echo $description; ?></td>
               </tr>
-
-            <?php } ?>
-
+              <?php } else { ?>
+              <tr>
+                <td><img src="image/icons/<?php echo $petition; ?>.png"></td>
+                <td><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation . "&" . $petition . "=true"; ?>"><?php echo $description; ?></a></td>
+              </tr>
+            <?php }
+          }
+           if (!empty($menuOptions) || !empty($selectedOptions)) { ?>
+            <tr>
+              <td id="resetGET" colspan="3"><a href="create.php?getSet=true<?php echo $resetGET; ?>">reset selections</a></td>
+            </tr>
+          <?php } ?>
           </tbody>
         </table>
 
+        <form action="petition.php" method="post">
           <div id="student_information">
             <table>
               <tr>
@@ -165,16 +164,16 @@
                 <td><b>Phone:</b></td>
                 <td><input type="text" value="<?php echo isset($getRely) ? $get_phone : $post_phone; ?>"></td>
               </tr>
-              <!--
-                <tr>
-                  <td><b>Major:</b></td>
-                  <td><input type="text" value=""></td>
-                </tr>
-              -->
+
+              <!-- <tr>
+                <td><b>Major:</b></td>
+                <td><input type="text" value="" placeholder="Major"></td>
+              </tr> -->
+
             </table>
             <p><i><?php echo "date: " . $date_auto; ?></i></p>
 
-            <?php if ($getSet) { ?>
+            <?php if (!empty($menuOptions) || !empty($selectedOptions)) { ?>
 
               <div id="ticket_option_selection">
                 <table>
@@ -195,11 +194,6 @@
                     }
                   }
                   ?>
-                    <tr>
-                      <td id="resetGET" colspan="3"><a href="create.php?getSet=true<?php echo $resetGET; ?>">reset selections</a></td>
-                    </tr>
-
-
                 </table>
               </div><!-- ticket option selection -->
             <?php } ?>
