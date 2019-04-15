@@ -14,6 +14,19 @@
   $alphnfoUnsorted  = true;
   require("{$root}include/header.php");
 
+  if (isset($_POST['submit'])) {
+    $advisor_name  = $name_firstLast;
+    $advisor_ID    = $employee_ID;
+    $advisor_email = $MAIL;
+    $createTicket  = "INSERT INTO ufo_petitions ";
+    $createTicket .= "(advisor_name, advisor_ID, advisor_email) ";
+    $createTicket .= "VALUES ";
+    $createTicket .= "('{$advisor_name}', '{$advisor_ID}', '{$advisor_email}')";
+    $addTicketDB  = mysqli_query($connection, $createTicket);
+    if (!$addTicketDB) {die ("add ticket failed"); }
+    redirectTo("{$root}petitions/petition.php");
+  }
+
   if (isset($_POST['strip_submit'])) {
     $alphnfoUnsorted = false;
     include("{$path}include/stripSubmit.php");
@@ -142,7 +155,7 @@
           </tbody>
         </table>
 
-        <form action="petition.php" method="post">
+        <form action="create.php" method="post">
           <div id="student_information">
             <table>
               <tr>
@@ -150,19 +163,19 @@
               </tr>
               <tr>
                 <td><b>Name:</b></td>
-                <td><input type="text" value="<?php echo isset($getRely) ? $get_name  : $post_name; ?>"></td>
+                <td><input type="text" name="create_name" value="<?php echo isset($getRely) ? $get_name  : $post_name; ?>"></td>
               </tr>
               <tr>
                 <td><b>UFID:</b></td>
-                <td><input type="text" value="<?php echo isset($getRely) ? $get_ID    : $post_ID; ?>"></td>
+                <td><input type="text" name="create_ID" value="<?php echo isset($getRely) ? $get_ID    : $post_ID; ?>"></td>
               </tr>
               <tr>
                 <td><b>Email:</b></td>
-                <td><input type="text" value="<?php echo isset($getRely) ? $get_email : $post_email; ?>"></td>
+                <td><input type="text" name="create_email" value="<?php echo isset($getRely) ? $get_email : $post_email; ?>"></td>
               </tr>
               <tr>
                 <td><b>Phone:</b></td>
-                <td><input type="text" value="<?php echo isset($getRely) ? $get_phone : $post_phone; ?>"></td>
+                <td><input type="text" name="create_phone" value="<?php echo isset($getRely) ? $get_phone : $post_phone; ?>"></td>
               </tr>
 
               <!-- <tr>

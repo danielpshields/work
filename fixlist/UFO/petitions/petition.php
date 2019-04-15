@@ -1,17 +1,48 @@
 <?php
   $root  = "../";
   $path  = "";
-  $title = "Petitions";
+  $title = "Petition";
   $page  = "petitions";
   $style = "petition";
   require("{$root}include/header.php");
  ?>
 
- <div class="page">
-   <?php include("{$path}include/nav.php"); ?>
+  <div class="page">
+    <?php include("{$path}include/nav.php"); ?>
+    <!-- <pre>
+      <?php print_r($_POST); ?>
+    </pre> -->
+    
+   <!-- <img src="<?php echo $path; ?>image/warning.png" alt=""> -->
 
+   <div id="studentInformation">
+     <table>
+       <tr>
+         <td><b>Name:</b></td>
+         <td><?php echo $_POST['create_name']; ?></td>
+       </tr>
+       <tr>
+         <td><b>UFID:</b></td>
+         <td><?php echo $_POST['create_ID'];  ?></td>
+       </tr>
+       <tr>
+         <td><b>Email:</b></td>
+         <td><?php echo $_POST['create_email']; ?></td>
+       </tr>
 
-   <div class="">
+       <tr>
+         <td><b>Phone:</b></td>
+         <td><?php echo $_POST['create_phone']; ?></td>
+       </tr>
+
+       <tr>
+         <td colspan="2"><?php echo "date: " . $date_auto; ?></td>
+       </tr>
+     </table>
+
+   </div><!-- student information -->
+
+   <div style="margin: 30px auto;">
      Decision Date: <input type="text" name="" value="" placeholder="<?php echo date('m/d/y'); ?>">
      <br>
 
@@ -21,67 +52,18 @@
      </div>
    </div>
 
-   <?php if (!isset($hide)) { ?>
 
-
-     <div id="a_drop">
-
-       1. display courses || options for courses
-
-
-       Submit by the current semester’s published deadline, this can be found in the <a href="#" target="_blank">UF Undergraduate Catalog under “Dates and Deadlines.”</a>
-       **You should continue participating in the course(s) until you know the results of your petition.**
-     </div>
-
-     <div id="b_">
-
-     </div>
-
-     <div id="c_">
-
-     </div>
-
-     <div id="d_">
-
-     </div>
-
-     <div id="e_">
-
-     </div>
-
-     <div id="f_">
-
-     </div>
+   <div id="a_drop">
+     <ol>
+       <li>display courses || options for courses</li>
+     </ol>
+     <p>Submit by the current semester’s published deadline, this can be found in the <a href="#" target="_blank">UF Undergraduate Catalog under “Dates and Deadlines.”</a></p>
+     <p><i>**You should continue participating in the course(s) until you know the results of your petition.**</i></p>
+   </div>
 
 
 
 
-   <?php } ?>
-
-   <img src="<?php echo $path; ?>image/warning.png" alt="">
-
-   <div id="studentInformation">
-     <table>
-       <tr>
-         <td><b>Name:</b></td>
-         <td><?php echo $nameGiven; ?></td>
-       </tr>
-       <tr>
-         <td><b>UFID:</b></td>
-         <td><?php echo $UFID;  ?></td>
-       </tr>
-       <tr>
-         <td><b>Email:</b></td>
-         <td><?php echo $email; ?></td>
-       </tr>
-       <tr>
-         <td colspan="2"><?php echo "date: " . $date_auto; ?></td>
-       </tr>
-     </table>
-
-     Phone:  <?php echo ""; ?><br>
-
-   </div><!-- student information -->
 
     <?php if (true) { ?>
       <h3>Student Signature*:</h3>

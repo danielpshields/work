@@ -1,4 +1,8 @@
-
+<h3>$root vs. $path</h3>
+<ul>
+  <li>the rarity of path -- stylesheet -- probably images</li>
+  <li>literally just contridicted myself -- path for includes variables </li>
+</ul>
 
 <h3>Save State while building GET string</h3>
 <?php
@@ -31,11 +35,16 @@
 ?>
 
 
-<h3>Foreach Naming Consistency</h3>
+<h3>Foreach Naming Consistency && other logic names</h3>
 <ul>
   <li>petition options = petiion => description</li>
   <li>selected options = number  => option</li>
   <li>menu options     = name    => definition</li>
+</ul>
+
+<ul>
+  <li>$db_advisor_name       = $row['advisor_name'];</li>
+  <li>UFO/include/env.php -- and vars.php -- VARS.PHP!</li>
 </ul>
 
 

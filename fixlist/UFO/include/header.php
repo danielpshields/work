@@ -1,6 +1,7 @@
 <?php
-include("{$root}include/env.php");
-include("{$root}include/functions.php");
+  include("{$root}include/db.php");
+  include("{$root}include/env.php");
+  include("{$root}include/functions.php");
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -27,7 +28,7 @@ include("{$root}include/functions.php");
           <img src="<?php echo $root; ?>image/uf_logo.svg" alt="">
         </a>
         <?php if ($page != "login") { ?>
-          <h1>Welcome, <?php echo $firstName; ?></h1>
+          <h1>Welcome, <?php echo $name_first; ?></h1>
         <?php } ?>
 
       </div>
