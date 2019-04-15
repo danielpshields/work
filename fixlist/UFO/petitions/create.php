@@ -130,7 +130,13 @@
                     ?><img src="image/icons/<?php echo $petition; ?>.png"></td><?php
                   } ?>
                 </td>
-                <td><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation . "&" . $petition . "=true"; ?>"><?php echo $description; ?></a></td>
+                <td>
+                  <?php if (isset($_GET[$petition])) {
+                    echo $description;
+                  } else {
+                    ?><a href="<?php echo $path; ?>create.php?getSet=true<?php echo $savedUserInformation . "&" . $petition . "=true"; ?>"><?php echo $description; ?></a><?php
+                  } ?>
+                </td>
               </tr>
 
             <?php } ?>
