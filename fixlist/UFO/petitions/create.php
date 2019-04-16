@@ -4,6 +4,7 @@
   $title = "Petition: Create";
   $page  = "petitions";
   $style = "create";
+  $footerName = "CLAS UF Online Petition";
   $tabIndex = 1;
   $post  = "";
   $post_name  = "";
@@ -11,7 +12,7 @@
   $post_phone = "";
   $post_ID    = "";
   $selectedOptions    = array();
-  $alphnfoUnsorted  = true;
+  $infoUnsorted  = true;
   require("{$root}include/header.php");
 
   if (isset($_POST['submit'])) {
@@ -28,12 +29,12 @@
   }
 
   if (isset($_POST['strip_submit'])) {
-    $alphnfoUnsorted = false;
+    $infoUnsorted = false;
     include("{$path}include/stripSubmit.php");
   }
 
   if (isset($_POST['manual_submit'])) {
-    $alphnfoUnsorted = false;
+    $infoUnsorted = false;
     $post_name  = $_POST['manual_student_name'];
     $post_email = $_POST['manual_student_email'];
     $post_phone = $_POST['manual_student_phone'];
@@ -43,23 +44,19 @@
   $getSet = false;
   if (isset($_GET['getSet'])) {
     $getSet = true;
-    $alphnfoUnsorted = false;
+    $infoUnsorted = false;
   }
 
  ?>
  <div class="page">
    <?php include("{$path}include/nav.php"); ?>
-
     <!-- only load the inputs if all empty -->
     <?php
-
-    if ($alphnfoUnsorted && !$getSet) {
+    if ($infoUnsorted && !$getSet) {
 
       include("{$path}include/create_unsorted.php");
 
     } else {
-
-      $alph = "A";
       $petitionOptions = array(
         "drop"      => "Drop Courses",
         "probation" => "Academic Probation",
@@ -68,7 +65,6 @@
         "dual"      => "Dual Enrollment",
         "other"     => "Other"
       );
-
 
         // post vars exist
         if (!empty($post_ID)) {
@@ -90,7 +86,7 @@
           $savedUserInformation .= "&name="  . $_GET['name'];
           $savedUserInformation .= "&email=" . $_GET['email'];
           $savedUserInformation .= "&phone=" . $_GET['phone'];
-          $resetGET = $savedUserInformation;
+          $resetGET  = $savedUserInformation;
 
           $selectedOptions = array();
           foreach ($petitionOptions as $petition => $description) {
@@ -163,11 +159,11 @@
               </tr>
               <tr>
                 <td><b>Name:</b></td>
-                <td><input type="text" name="create_name" value="<?php echo isset($getRely) ? $get_name  : $post_name; ?>"></td>
+                <td><input type="text" name="create_name" value="<?php  echo isset($getRely) ? $get_name  : $post_name; ?>"></td>
               </tr>
               <tr>
                 <td><b>UFID:</b></td>
-                <td><input type="text" name="create_ID" value="<?php echo isset($getRely) ? $get_ID    : $post_ID; ?>"></td>
+                <td><input type="text" name="create_ID" value="<?php echo    isset($getRely) ? $get_ID    : $post_ID; ?>"></td>
               </tr>
               <tr>
                 <td><b>Email:</b></td>
