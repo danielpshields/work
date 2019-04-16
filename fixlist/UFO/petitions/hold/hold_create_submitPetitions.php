@@ -25,12 +25,12 @@
     $create_email       = $_POST['create_email'];
     $create_phone       = $_POST['create_phone'];
 
-    $petition_drop      = isset($_POST['petition_drop'])      ?  $_POST['petition_drop']      : 0;
-    $petition_probation = isset($_POST['petition_probation']) ?  $_POST['petition_probation'] : 0;
-    $petition_track     = isset($_POST['petition_track'])     ?  $_POST['petition_track']     : 0;
-    $petition_break     = isset($_POST['petition_break'])     ?  $_POST['petition_break']     : 0;
-    $petition_dual      = isset($_POST['petition_dual'])      ?  $_POST['petition_dual']      : 0;
-    $petition_other     = isset($_POST['petition_other'])     ?  $_POST['petition_other']     : 0;
+    $petition_drop      = isset($_POST['petition_drop'])      ?  $_POST['petition_drop']      : "";
+    $petition_probation = isset($_POST['petition_probation']) ?  $_POST['petition_probation'] : "";
+    $petition_track     = isset($_POST['petition_track'])     ?  $_POST['petition_track']     : "";
+    $petition_break     = isset($_POST['petition_break'])     ?  $_POST['petition_break']     : "";
+    $petition_dual      = isset($_POST['petition_dual'])      ?  $_POST['petition_dual']      : "";
+    $petition_other     = isset($_POST['petition_other'])     ?  $_POST['petition_other']     : "";
 
     $createTicket  = "INSERT INTO ufo_petitions ";
     $createTicket .= "(advisor_name, advisor_ID, advisor_email, student_name, student_ID, student_email, student_phone, petition_drop, petition_probation, petition_track, petition_break, petition_dual, petition_other) ";
@@ -71,6 +71,14 @@
       include("{$path}include/create_unsorted.php");
 
     } else {
+      $petitionOptions = array(
+        "drop"      => "Drop Courses",
+        "probation" => "Academic Probation",
+        "track"     => "Off-Track Continuation",
+        "break"     => "Petition to Break Residency",
+        "dual"      => "Dual Enrollment",
+        "other"     => "Other"
+      );
 
         // post vars exist
         if (!empty($post_ID)) {

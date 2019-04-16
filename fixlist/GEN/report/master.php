@@ -57,9 +57,6 @@
   <li><input type="text" value="<?php echo isset($getRely) ? $get_name : $student_name; ?>"></li>
 </ul>
 
-
-
-
 <h3>Redirects</h3>
 <ul>
   <li>PHP redirects work</li>

@@ -1,12 +1,11 @@
-#studentInformation {
-  font-family: monospace, monospace;
-}
 
 nav#innerNav {
-  margin: .5rem auto 2.81rem auto;
+  /* margin: .5rem auto 2.81rem auto; */
+  margin: .5rem auto 1.5rem auto;
 }
 
 nav#innerNav ul {
+  margin: 0 auto;
   display: flex;
   justify-content: space-around;
 }

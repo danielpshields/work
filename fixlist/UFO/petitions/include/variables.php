@@ -1,5 +1,13 @@
-
 <?php
+
+$petitionOptions = array(
+  "drop"      => "Drop Courses",
+  "probation" => "Academic Probation",
+  "track"     => "Off-Track Continuation",
+  "break"     => "Petition to Break Residency",
+  "dual"      => "Dual Enrollment",
+  "other"     => "Other"
+);
 
 // while ($row = mysqli_fetch_assoc($checkResultsDB)) {
 
