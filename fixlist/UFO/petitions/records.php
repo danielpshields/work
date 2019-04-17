@@ -13,18 +13,24 @@
   }
  ?>
   <div class="page">
-    <?php include("{$path}include/nav.php"); ?>
+    <!-- <?php include("{$path}include/nav.php"); ?> -->
     <?php if (mysqli_num_rows($checkResultsDB)) { ?>
       <?php while ($row = mysqli_fetch_assoc($checkResultsDB)) {
         include("{$path}include/variables.php"); ?>
         <div class="record">
           <?php
-            if (isset($db_student_name)) {
-              echo $db_student_name;
+            if (isset($db_student_name)) { ?>
+
+              <a href="petition.php?studentEmail=<?php echo $db_student_email; ?>"><?php echo $db_student_name . "</a>";
             } else {
               echo "STUDENT RECORD NOT FOUND";
             }
-          ?> created by <?php echo $db_advisor_name; ?>
+          ?>
+          created by <?php echo $db_advisor_name;
+          ?>
+          <!-- <ul>
+            <li><a href="#">comments</a></li>
+          </ul> -->
         </div><!-- record -->
       <?php } ?>
     <?php } else { ?>

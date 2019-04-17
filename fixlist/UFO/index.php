@@ -30,7 +30,7 @@
 
   <form action="index.php" method="post">
     <div class="inputShell">
-      <h3 class="blue">PaCE Admin Login</h3>
+      <h3 class="blue">CLAS UF Online Admin Login</h3>
       <?php if ($miss) { ?>
         <p>Apologies! Administrative credentials are needed to access this part of the Site</p>
       <?php } ?>

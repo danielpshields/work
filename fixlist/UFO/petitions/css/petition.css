@@ -2,11 +2,20 @@
   opacity: .8;
 }
 
-input[type="checkbox"] {
+#h3_petitionHeading {
+  width: 84%;
+  max-width: none;
+  margin: 2.81rem auto 1.6rem auto;
+  color: #222;
+  font-size: 1.5rem;
+}
+
+#input_checkbox_signature {
   height: 35px;
   width:  35px;
   display: block;
   margin: auto;
+  margin-bottom: 1rem;
 }
 
 #input_submit_signature {
@@ -18,6 +27,8 @@ input[type="checkbox"] {
 
 #studentInformation {
   font-family: monospace, monospace;
+  /* border: 1px solid red; */
+  padding: 1rem 0 0 1.25rem;
 }
 
 #petitionContainer {
@@ -34,4 +45,70 @@ input[type="checkbox"] {
 #popUp_studentSignature {
     border: 1px solid #a0a0a0;
     padding: 1.5rem 0;
+    width: 60%;
+    margin: 1.5rem auto;
+    box-shadow: .5rem .5rem 1rem #c0c0c0;
+}
+
+#popUp_studentSignature h3 {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+}
+
+#instructions {
+  width: 84%;
+  margin: 1.5rem auto 0 auto;
+  padding: 1.5rem 2rem 1.5rem 2.5rem;
+  border: 1px solid #c0c0c0;
+  box-shadow: .3rem .3rem .8rem #c0c0c0;
+}
+
+#instructions li {
+  margin: .5rem 0 0 0;
+  padding: 0;
+}
+
+
+#petition_bottom_statusBar {
+  border-bottom: 1px solid #999;
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 1.5rem; */
+  padding: .5rem 1rem;
+  /* box-shadow: .1rem .1rem .4rem #c0c0c0; */
+}
+
+/* petition styles */
+/* petition styles */
+/* petition styles */
+
+.container_petition {
+  border: 1px solid #c0c0c0;
+  box-shadow: .3rem .3rem .8rem #c0c0c0;
+  width: 84%;
+  margin: 1rem auto 1.5rem auto;
+  padding: 2.81rem 0;
+}
+
+.container_petition h4 {
+  width: 84%;
+  max-width: 40rem;
+  font-size: 1.8rem;
+  margin: 0 auto 1.5rem auto;
+  color: #424242;
+  font-weight: 200;
+}
+
+.container_petition ul {
+  width: 84%;
+  margin: auto;
+  max-width: 40rem;
+}
+
+
+form {
+  width: 84%;
+  max-width: 40rem;
+  margin: auto;
 }

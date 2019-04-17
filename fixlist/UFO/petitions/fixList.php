@@ -1,3 +1,14 @@
+!file upload
+!majors
+
+
+
+
+
+<!-- wednesday: 190417 -->
+
+
+
 petition what is a decision date?
   - final, timestamp
   "deferred":    (additional materials, re-contacted for clarification, further filling...)
@@ -16,4 +27,4 @@ what piece of information is 100 percent required / necessary
 <!-- - - -  -->
 
 
-change footer 
+change footer

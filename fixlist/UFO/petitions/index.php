@@ -8,11 +8,12 @@
  ?>
 
   <div class="page">
-    <?php include("{$path}include/nav.php"); ?>
+    <!-- <?php include("{$path}include/nav.php"); ?> -->
 
     <div class="shell">
       <ul>
         <li><a href="<?php echo $path; ?>create.php">Create Petition</a></li>
+        <li><a href="<?php echo $path; ?>records.php">Records</a></li>
       </ul>
     </div>
 

@@ -11,7 +11,7 @@
   $post_email         = "";
   $post_phone         = "";
   $post_ID            = "";
-
+  include("{$path}include/variables.php");
   $selectedOptions = array();
   $infoUnsorted  = true;
   require("{$root}include/header.php");
@@ -39,7 +39,7 @@
 
     $addTicketDB  = mysqli_query($connection, $createTicket);
     if (!$addTicketDB) {die ("add ticket failed"); }
-    redirectTo("{$root}petitions/petition.php");
+    redirectTo("{$root}petitions/records.php");
   }
 
   if (isset($_POST['strip_submit'])) {

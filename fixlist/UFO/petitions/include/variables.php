@@ -22,6 +22,7 @@ $petitionOptions = array(
   $db_student_phone      = $row['student_phone'];
   $db_student_major      = $row['student_major'];
 
+  $db_student_signature  = $row['student_signature'];
 
   $db_petition_drop      = $row['petition_drop'];
   $db_petition_probation = $row['petition_probation'];
@@ -32,7 +33,17 @@ $petitionOptions = array(
   $db_advisor_comments   = $row['advisor_comments'];
   $db_time_created       = $row['time_created'];
 
+
 // }
+
+  $list_allPetitions = array(
+    "drop"      => $db_petition_drop,
+    "probation" => $db_petition_probation,
+    "track"     => $db_petition_track,
+    "break"     => $db_petition_break,
+    "dual"      => $db_petition_dual,
+    "other"     => $db_petition_other
+  );
 
   $list_allVariables = array(
     $db_advisor_name,

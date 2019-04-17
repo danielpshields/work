@@ -1,3 +1,14 @@
+<h3>processor.php</h3>
+[petition.php > processor.php] needed a redirect to affect the "pop up" box
+
+
+
+<!-- end 190416 -->
+<!-- end 190416 -->
+<!-- end 190416 -->
+<!-- end 190416 -->
+
+
 <h3>$root vs. $path</h3>
 <ul>
   <li>the rarity of path -- stylesheet -- probably images</li>

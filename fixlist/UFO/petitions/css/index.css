@@ -1,8 +1,6 @@
 .shell {
-  border: 1px solid #999;
   max-width: 20rem;
   margin: auto;
-  box-shadow: .3rem .3rem .8rem #c0c0c0;
   border-radius: .13rem;
 
 }
@@ -13,11 +11,14 @@
 }
 
 .shell ul li {
+  border: 1px solid #999;
   margin: 0;
   padding: 0;
   width: 100%;
   text-align: center;
   list-style: none;
+  box-shadow: .3rem .3rem .8rem #c0c0c0;
+  margin-top: .5rem;
 }
 
 .shell ul li a {
@@ -29,11 +30,11 @@
 }
 
 .shell:hover {
-  border: 1px solid #444;
-  font-weight: bold;
 }
 
 .shell ul li a:hover {
+  border: 1px solid #444;
+  font-weight: bold;
   background: #fff;
   color: #356bc4;
 }
