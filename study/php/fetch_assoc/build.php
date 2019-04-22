@@ -17,14 +17,16 @@
       $list[] = $row;
   }
 
-  // echo "<pre>";
-  // print_r($list);
-  // echo "</pre>";
+  ksort($list);
+  echo '<pre>';
+  print_r($list);
+  echo '</pre>';
 
-  // arsort($list);
 
   foreach ($list as $key) {
+    echo $key['item'] . '<br>';
     echo $key['sort'] . '<br>';
+    echo $key['id'] . '<br>';
   }
 
 ?>
