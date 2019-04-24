@@ -1,0 +1,56 @@
+html {
+  font-size: 16px;
+  overflow-y: scroll;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+}
+
+h1, li, p {
+  color: #333;
+}
+
+h2 {
+  color: #383838;
+}
+
+h3 {
+  color: #444;
+}
+
+h4 {
+  color: #282828;
+}
+
+
+.actionItem {
+  font-weight: bold;
+}
+
+.complete {
+  color: green;
+  text-align: center;
+}
+
+table, tr, th, td {
+  border: 1px solid #333;
+  padding: .6rem;
+  border-collapse: collapse;
+}
+
+th {
+  color: #333;
+}
+
+a {
+  color: #2755A0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

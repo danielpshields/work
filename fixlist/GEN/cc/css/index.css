@@ -1,0 +1,17 @@
+#actionSection {
+  border: 1px solid #c0c0c0;
+  box-shadow: .3rem .3rem .8rem #c0c0c0;
+  width: 84%;
+  margin: auto;
+  margin-top: 2.81rem;
+  padding: 0 2rem 2rem;
+}
+
+#actionSection table {
+  margin: auto;
+}
+
+li {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
