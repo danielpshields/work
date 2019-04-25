@@ -1,3 +1,4 @@
+<?php include("{$root}include/functions.php"); ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>

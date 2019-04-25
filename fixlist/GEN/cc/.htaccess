@@ -1,0 +1,5 @@
+DirectoryIndex index.php
+AuthType shibboleth
+ShibRequireSession on
+ShibUseHeaders On
+require valid-user # for all gatorlink IDs

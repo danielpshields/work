@@ -1,0 +1,12 @@
+DirectoryIndex index.php
+AuthType shibboleth
+ShibRequireSession on
+ShibUseHeaders On
+
+require eppn danshields@ufl.edu
+require eppn acatalano2@ufl.edu
+require eppn dsking@ufl.edu
+require eppn shannon.kelly-aac@ufl.edu
+
+
+#valid-user # for all gatorlink IDs

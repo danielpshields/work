@@ -1,4 +1,9 @@
 <?php
+  if (empty($_GET)) {
+    header("Location: index.php");
+    exit;
+  }
+
   $root  = "../";
   $path  = "";
   $title = "Petition";

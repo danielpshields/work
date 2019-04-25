@@ -157,6 +157,23 @@
           </tbody>
         </table>
 
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">Student's Major</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2">
+                <input type="text" value="" placeholder="Major">
+                <br>
+                <input type="submit" name="submit_major" value="submit">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
         <form action="create.php" method="post">
           <div id="student_information">
             <table>
@@ -179,11 +196,6 @@
                 <td><b>Phone:</b></td>
                 <td><input type="text" name="create_phone" value="<?php echo isset($getRely) ? $get_phone : $post_phone; ?>"></td>
               </tr>
-
-              <!-- <tr>
-                <td><b>Major:</b></td>
-                <td><input type="text" value="" placeholder="Major"></td>
-              </tr> -->
 
             </table>
             <p><i><?php echo "date: " . $date_auto; ?></i></p>
