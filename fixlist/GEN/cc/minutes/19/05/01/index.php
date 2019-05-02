@@ -25,8 +25,43 @@
     <li>alex is leaving, meeting with web services, getting that all together</li>
     <li>beyond120: met with christine about global engagement</li>
     <li>wordpress: updated to 5.1</li>
-    <li></li>
+    <li>social media: added shannon to AAC Facebook</li>
+    <li>prep sheet finalization: in progression</li>
+    <li>joe's Newsletter: on hiatus</li>
+    <ul>
+      <li>shannon and dan met to discuss this</li>
+    </ul>
+    <li>video services: media site portal manager training, managing media site, schedule and record presentations,</li>
+    <ol>
+      <li>document what was learned</li>
+      <li>discuss roles with LT</li>
+    </ol>
+    <p>Shnnon: will this be open to other people Media Site Portal Mangement Role</p>
   </ul>
+
+  <h4>Dylan</h4>
+  <ul>
+    <li>Started major cheat sheets for UF Online</li>
+  </ul>
+
+  <h4>Shannon</h4>
+  <ul>
+    <li>Shannon: I ate Chick-Fil-A</li>
+  </ul>
+
+
+  <h4>Alex</h4>
+  <ul>
+    <li>Dan clapped</li>
+  </ul>
+
+  <h3>Back Issues:</h3>
+  <ul>
+    <li>liason actionss</li>
+  </ul>
+
+  <h3>Theology / Philosophy</h3>
+
 
   <h3>Action Items</h3>
   <table>
