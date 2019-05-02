@@ -30,6 +30,12 @@ ul li {
   line-height: 1.6;
 }
 
+img {
+  max-width: 320px;
+  border: 1px solid #c0c0c0;
+  box-shadow: .3rem .3rem .8rem #c0c0c0;
+}
+
 .actionItem {
   font-weight: bold;
 }

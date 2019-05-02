@@ -9,6 +9,8 @@
   <ul>
     <li>alex</li>
     <li>dan</li>
+    <li>shannon</li>
+    <li>dylan</li>
   </ul>
 
   <h3>Old Business</h3>
@@ -46,21 +48,22 @@
 
   <h4>Shannon</h4>
   <ul>
-    <li>Shannon: I ate Chick-Fil-A</li>
+    <li>Shannon: "I ate Chick-Fil-A"</li>
   </ul>
 
 
   <h4>Alex</h4>
   <ul>
+    <li>Farewell message</li>
     <li>Dan clapped</li>
   </ul>
 
   <h3>Back Issues:</h3>
   <ul>
-    <li>liason actionss</li>
+    <li>liason actions and group configuration</li>
+    <li>General communications philosophy</h3>
   </ul>
 
-  <h3>Theology / Philosophy</h3>
 
 
   <h3>Action Items</h3>
@@ -71,9 +74,7 @@
       <th>status</th>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td colspan="3"><i>Zero</i> action items were set</td>
     </tr>
   </table>
 
