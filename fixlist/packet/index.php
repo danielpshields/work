@@ -5,26 +5,25 @@
     <h1>Packet: Academic Advising Center Web Developer I</h1>
 
     <img src="<?php echo $root; ?>image/cc.png" alt="">
-    <figcaption>General: Communications Committee</figcaption>
-    <ul>
-      <li><a href="https://www.advising.ufl.edu/cc/index.php" target="_blank">https://www.advising.ufl.edu/cc/index.php</a></li>
-    </ul>
+    <figcaption><a href="https://www.advising.ufl.edu/cc/index.php" target="_blank">General: <b>Communications Committee</b></a></figcaption>
+
 
     <img src="<?php echo $root; ?>image/phpb.png" alt="">
-    <figcaption>PHPB</figcaption>
+    <figcaption><a href="https://phpb.clas.ufl.edu/" target="_blank"><b>PHPB</b></a></figcaption>
     <ul>
-      <li><a href="https://phpb.clas.ufl.edu/" target="_blank">https://phpb.clas.ufl.edu/</a></li>
-      <ul>
-        <li>Alumni Success</li>
-        <li>general cleaning</li>
-      </ul>
+      <li>\\ad.ufl.edu\clas\web\sites\clas.phpb</li>
+    </ul>
+    <ul>
+      <li>Alumni Success</li>
+      <li>general cleaning</li>
     </ul>
 
-
     <img src="<?php echo $root; ?>image/ufo.png" alt="">
-    <figcaption>UFO</figcaption>
+    <figcaption><a href="https://www.advising.ufl.edu/UFO/PaCE/records/transition.php" target="_blank">UFO</a></figcaption>
     <ul>
-      <li><a href="https://www.advising.ufl.edu/UFO/PaCE/records/transition.php" target="_blank">https://www.advising.ufl.edu/UFO/PaCE/records/transition.php</a></li>
+      <li>pre-health acknowledgement</li>
+      <li>Gen Acknowledgement</li>
+      <li>PaCE Transition</li>
     </ul>
 
   </body>
