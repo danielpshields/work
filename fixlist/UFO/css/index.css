@@ -1,0 +1,29 @@
+.page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  border: 1px solid #c0c0c0;
+  box-shadow: .3rem .3rem .8rem #c0c0c0;
+  width: 32%;
+  border-radius: .3rem;
+  margin-top: 1.5rem;
+  padding: 0 0 1rem 0;
+
+}
+
+.form p {
+  margin-bottom: 1rem;
+}
+
+.form img {
+  width: 99%;
+  display: block;
+  margin: auto;
+}
+
+.form li {
+  color: #444;
+  line-height: 1.6;
+}

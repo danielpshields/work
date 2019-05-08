@@ -22,6 +22,12 @@
 
 
   } else {
-    echo "you're on localhost";
+    // echo "you're on localhost";
+    $page = "index";
+    $path = "";
+    $style ="";
+    $title = "";
+    $footerName = "";
+    $name_first = "localhost admin";
   }
 ?>
