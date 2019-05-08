@@ -18,7 +18,10 @@
 <body>
 	<div class="container">
 		<header>
-			<h1>UF Online Acknowledgement Form</h1>
+			<div class="container_header">
+				<h1>UF Online | <i>Readmission Acknowledgement Form</i></h1>
+				<p id="container_header">Welcome, <?php echo $nameGivenShort; ?></p>
+			</div><!-- header container -->
 
 			<nav>
 				<ul<?php if ($submitted == true) {echo " style=\"display: none;\"";	} ?>>

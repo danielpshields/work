@@ -6,7 +6,7 @@
 .form {
   border: 1px solid #c0c0c0;
   box-shadow: .3rem .3rem .8rem #c0c0c0;
-  width: 32%;
+  width: 31%;
   border-radius: .3rem;
   margin-top: 1.5rem;
   padding: 0 0 1rem 0;
@@ -17,13 +17,27 @@
   margin-bottom: 1rem;
 }
 
+.form p a {
+  font-weight: bold;
+}
+
 .form img {
-  width: 99%;
+  width: 90%;
   display: block;
   margin: auto;
+  border: 2px solid #c0c0c0;
+  border-radius: .25rem;
+  margin-top: 1rem;
+  box-shadow: 0 .3rem .8rem #c0c0c0;
+  margin-bottom: 1.2rem;
 }
 
 .form li {
   color: #444;
   line-height: 1.6;
+}
+
+.form h3 {
+  font-weight: bold;
+  margin: 1.3rem auto .5rem auto;
 }

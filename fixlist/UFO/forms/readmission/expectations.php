@@ -12,7 +12,7 @@
 
   <form class="" action="curriculum.php" method="post">
 		<section>
-		  <h2><span class="orange"><?php echo $thisPage; ?>.</span> Expectation to Remain in UF Online:</h2>
+		  <h2><?php echo $thisPage; ?>. Expectation to Remain in UF Online:</h2>
 		  <p>UF Online students are expected to graduate through UF Online.</p>
 		  <ul>
 		    <li>Admission to UF Online prevents taking any <b>residential</b> courses at the University of Florida or switching back to the UF residential program.</li>

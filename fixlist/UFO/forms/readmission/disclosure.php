@@ -9,7 +9,7 @@
 	require_once("include/header.php");
 ?>
 		<section>
-		  <h2><span class="orange"><?php echo $thisPage; ?>.</span> Health Professions Disclosure</h2>
+		  <h2><?php echo $thisPage; ?>. Health Professions Disclosure</h2>
       <form class="" action="expectations.php" method="post">
   		  <p>UF Online Majors in the College of Liberal Arts and Sciences (CLAS) <b>were not</b> designed to accommodate students interested in pursuing a career in a health profession such as: pre-med, pre-dent, pre-vet, PA, or Pharmacy.</p>
   		  <p>It is <b>not advisable</b> for CLAS UF Online students to complete pre-professional courses through UF Online or as a transient student; UF Online does not offer all of these courses, and professional schools may not accept these courses, or may view them with diminished competitiveness.</p>

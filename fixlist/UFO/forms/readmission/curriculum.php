@@ -15,7 +15,7 @@
 
 		<section>
 
-		  <h2><span class="orange"><?php echo $thisPage; ?>.</span> Curriculum:</h2>
+		  <h2><?php echo $thisPage; ?>. Curriculum:</h2>
 
 		  <p>Please note the degree options available in UF Online compared to UF residential:</p>
 

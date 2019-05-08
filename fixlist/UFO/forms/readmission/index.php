@@ -5,10 +5,8 @@
 	require_once("include/header.php");
 ?>
 
-  <p>Welcome, <?php echo $nameGivenShort; ?>.</p>
-
 	<form class="" action="disclosure.php" method="post">
-		<input type="submit" name="formZero" value="Start Form">
+		<input id="input_startForm" type="submit" name="formZero" value="Start Form">
 	</form>
 
 <?php require_once("include/footer.php"); ?>

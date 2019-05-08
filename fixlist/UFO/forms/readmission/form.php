@@ -7,9 +7,9 @@
   require_once("include/email.php");
 	require_once("include/header.php");
 ?>
-      <h2><span class="orange"><?php echo $thisPage; ?>.</span> Statement</h2>
 
       <section>
+        <h2><?php echo $thisPage; ?>. Statement</h2>
         <form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' enctype="multipart/form-data" accept-charset='UTF-8'>
 
           <div style="display: none;">

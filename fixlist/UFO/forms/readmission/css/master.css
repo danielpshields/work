@@ -16,38 +16,58 @@ html {
 body {
   background: #ffefdd;
   background: #5f89af;
+  background: white;
   overflow-y: scroll;
 }
 
 .container {
   width: 100%;
   margin: auto;
-  max-width: 980px;
+  /* max-width: 980px; */
   background: white;
 }
 
 header {
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #999;
   margin-bottom: 1.5rem;
-  background: #efa158;
   background: white;
   color: #efa158;
 }
 
-h1 {
-  font-size: 1.8rem;
-  padding-bottom: 1rem;
-  padding-top: .9rem;
-  color: #333;
-  color: #d67c28; /* orange */
+.container_header {
   width: 87%;
   margin: auto;
+  max-width: 61.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.container_header h1 {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  padding-top: .9rem;
+  color: #d67c28; /* orange */
+}
+
+p#container_header {
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
+  width: 100px;
+  color: #575757;
+  font-size: .75rem;
+}
+
+h1 i {
+  font-size: 1rem;
+  font-weight: 100;
 }
 
 nav {
   padding-bottom: 1rem;
   padding-top: 1rem;
-  border-top: 1px solid #4b6896;
+  border-top: 1px solid #999;
 }
 
 nav ul {
@@ -93,8 +113,9 @@ h2 {
   width: 87%;
   margin: auto;
   margin-bottom: 1.3rem;
-  font-size: 1.3rem;
-  color: #2d2d2d;
+  font-size: 2rem;
+  color: #494949;
+
 }
 
 p {
@@ -125,6 +146,13 @@ input {
   outline-style: solid;
   outline-width: 2px;
   background: white;
+}
+
+#input_startForm {
+  width: 300px;
+  color: #555;
+  font-size: 1.5rem;
+  font-weight: 100;
 }
 
 input:hover {
@@ -194,6 +222,19 @@ fieldset {
   text-decoration: none;
 }
 
+section {
+  max-width: 51.25rem;
+  margin: auto;
+}
+
+section p {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  color: #555;
+}
+
 .displayNone {
   display: none;
 }
@@ -203,8 +244,10 @@ fieldset {
 }
 
 footer {
-  margin-top: 2rem;
+  margin-top: 2.71rem;
+  padding-top: 1.5rem;
   padding-bottom: 1rem;
+  border-top: 1px solid #e0e0e0;
 }
 
 
