@@ -99,7 +99,7 @@ h5.noPictureProfile {
     outline-width: 1px;
     outline-color: #f0f0f0;
     padding-top: 1.3rem;
-    /* box-shadow: 10px 5px 5px #f0f0f0; */
+    box-shadow: .2rem .2rem .7rem #d0d0d0;
   }
 
   .personPictureName {
@@ -117,6 +117,7 @@ h5.noPictureProfile {
     width: 50%;
     display: block;
     margin: auto;
+    box-shadow: .3rem .3rem .8rem #c0c0c0;
   }
 
   h5.noPictureProfile {

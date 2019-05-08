@@ -2,8 +2,9 @@
 
   <?php require("functions.php"); ?>
 
-  <h1>PHPB ReStart Application</h1>
-  <p><i>Submitted: <?php echo date('M j.'); ?></i></p>
+  <h1>PHPB <?php echo $application; ?> Application</h1>
+  <p><i>Submitted: <?php echo date('M. j'); ?></i></p>
+  <?php $name = $firstName . " " . $middleName . " " . $lastName; ?>
   <h2>Applicant: <i><?php echo ucwords($name); ?>
   <?php justvalue($suffix_name); ?></i></h2>
   <?php paragraph("UF ID", $UF_ID); ?>

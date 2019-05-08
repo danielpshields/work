@@ -389,7 +389,8 @@ td {
 #apply:hover {
 	color: #f0f0f0;
 	background: linear-gradient(#51a9ee,#147bcd);
-	cursor: pointer;
+	/* cursor: pointer; */
+	cursor: auto;
 }
 
 #apply a:active {

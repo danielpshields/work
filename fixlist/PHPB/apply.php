@@ -7,14 +7,14 @@
 
   <div class="shell">
 
-    <p>2019 Fall Application Cycle is now open!<br><b>Deadline: Feb. 15, 2019</b></p>
-
+    <!-- <p>2019 Fall Application Cycle is now open!<br><b>Deadline: March 31, 2019</b></p> -->
+    <p>Application will open again in August 2019</p>
 
     <!-- UF Application -->
     <h2>UF Application</h2>
     <p>If you are <b>applying to UF PHPB ONLY</b> (or UF PHPB and schools that do not require a PostBacCAS application) please follow the steps below to be sure your application is complete:</p>
     <ol>
-      <li>Complete either the <a href="http://clas.ufl.edu/prehealthpostbac/CareerChanger.php" target="_blank">UF PHPB Career Changer Application</a>  or <a href="http://clas.ufl.edu/prehealthpostbac/ReStart.php" target="_blank">ReStart Applications</a> and email it to <a href="mailto:phpostbac@clas.ufl.edu">phpostbac@clas.ufl.edu</a>. Please include a copy of your unofficial transcripts with your application.</li>
+      <li>Complete either the <a href="application/careerchanger/index.php" target="_blank">UF PHPB Career Changer Application</a>  or <a href="application/restart/index.php" target="_blank">ReStart Applications</a> and email it to <a href="mailto:phpostbac@clas.ufl.edu">phpostbac@clas.ufl.edu</a>. Please include a copy of your unofficial transcripts with your application.</li>
       <li>Complete the <a href="https://admissions.ufl.edu/apply/more" target="_blank">University of Florida Post-Baccalaureate Application</a> and submit the application fee.</li>
       <p>When filling out the application, <b>be sure to select "PHPB" as your Postbaccalaureate type.</b></p>
       <li>Send official transcripts from each institution you've attended to:</li>

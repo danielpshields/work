@@ -27,10 +27,10 @@
     }
 
 
-    // if ($canStay) {
-    //   echo "<br>canStay = true";
-    // } else {
-    //   echo "<br>canStay = false";
-    // }
+    if ($canStay) {
+      echo "<br>canStay = true";
+    } else {
+      echo "<br>canStay = false";
+    }
 
 ?>

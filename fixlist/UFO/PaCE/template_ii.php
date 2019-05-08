@@ -1,27 +1,24 @@
 <?php
   require("../include/db.php");
   $root = "../";
-  $page     = "layout";
-  $style    = "record";
+  $page = "records";
   $dataPage = "all";
-  $pageName = "Records: Transition";
+  $pageName = "Records: Search Results";
   require("{$root}include/header/header.php");
-  $scriptName = "majors";
-  $query = "SELECT * FROM pace_transition ORDER BY formCreated DESC";
-  $spitResults = mysqli_query($connection, $query);
-  if (!$spitResults) { die ("query failed"); }
+  // why are there two script names?
+  include("{$root}include/credentials.php");
 ?>
-
-  <div id="page_container">
-    <div id="content_container">
-
-    </div><!-- tickets container -->
-    <?php include("{$root}records/sortNav.php"); ?>
-  </div><!-- records container -->
-
-
-
 <?php
-  include("{$root}include/footer.php");
-  mysqli_close($connection);
+if (isset($_POST['submitSearchFor'])) {
+  $searchTerm = $_POST['searchFor'];
+}
 ?>
+
+<div id="records_container">
+  <div id="tickets_container">
+    <h2><?php echo $searchTerm; ?></h2>
+
+
+  </div><!-- tickets container -->
+  <?php include("{$root}records/sortNav.php"); ?>
+</div><!-- records container -->

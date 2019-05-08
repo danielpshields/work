@@ -3,9 +3,10 @@
   $application = "Career Changers";
   require_once("{$root}include/applicationHeader.php");
   if (isset($_POST['submit'])) {
-    $email = $_POST['email'];
     include("../../email/email.php");
-    header("Location: ../../thankyou.php");
+    $name = $_POST['firstName'];
+    $email = $_POST['email'];
+    header("Location: {$root}thankyou.php?email=" . $email . "&firstName=" . $name);
     exit;
   }
 ?>
@@ -14,7 +15,7 @@
   <div class="freeGraphs">
     <p>The form is interactive. Please fill it out and hit submit when finished.</p>
     <p><b>or</b></p>
-    <p>If you wish to print the form, please download it: <a href="docs/CareerChanger.pdf" target="_blank" tabindex="1"><b>here</b></a></p>
+    <p>If you wish to print the form, please download it: <a href="<?php echo $root; ?>docs/CareerChanger.pdf" target="_blank"><b>here</b></a></p>
   </div><!-- header graphs -->
 
   <section>
@@ -23,8 +24,12 @@
     <div class="clear"></div>
     <!-- start form -->
     <form action="index.php" method="post" accept-charset="UTF-8">
-      <p>Full name<b>&#42;</b></p>
-      <input required type="text" name="name" placeholder="First Middle Last" tabindex="2">
+      <p>Name<b>&#42;</b> <span class="tiny">(* = required field)</span></p>
+      <div id="names_container">
+        <input type="text" name="firstName" placeholder="First Name*" required>
+        <input id="middleNameInput" type="text" name="middleName" placeholder="Middle Name">
+        <input type="text" name="lastName" placeholder="Last Name*" required>
+      </div><!-- name container -->
       <h3>About You</h3>
       <h4>Area of Study:</h4>
       <div class="checkBoxes">
@@ -111,7 +116,7 @@
       <input type="text" name="zip_permanent" value="">
       <p>Country:</p>
       <input type="text" name="country_permanent" value="">
-      <p>Email address: <b>&#42;</b></p>
+      <p><b>Email address: &#42;</b></p>
       <input required  type="text" name="email" value="">
       <p>Home Phone:</p>
       <input type="text" name="phone_home" value="">
@@ -240,12 +245,14 @@
 
     <section>
       <h3>Additional Information</h3>
-      <p>Have you ever applied to medical/dental/veterinary medical or other healthcare programs?</p>
+      <p>Have you ever applied to medical/dental/veterinary medical or other healthcare programs?*</p>
       <div class="binaryBoxes">
-        <input class="cbc" onchange="cbChangeC(this)" type="checkbox" name="yes_previously_applied" value="">
+        <!-- <input class="cbc" onchange="cbChangeC(this)" type="checkbox" name="yes_previously_applied" value="">
         <p>Yes</p>
         <input class="cbc" onchange="cbChangeC(this)" type="checkbox" name="no_previously_applied" value="">
-        <p>No</p>
+        <p>No</p> -->
+
+        <input style="max-width: 25rem;" required type="text" name="yes_previously_applied" value="" placeholder="yes / no">
         <div class="clear"></div>
       </div><!-- binary boxes -->
       <p>If yes, list where and when:</p>
@@ -279,18 +286,18 @@
     </section>
 
     <section>
-      <h3>Professional and Volunteer Experiences</h3>
+      <h3>Professional and Volunteer Experiences*</h3>
       <h4>Organization One</h4>
-      <p>Organization:</p>
-      <input type="text" name="volunteer_experience_one_organization" value="">
+      <p>Organization:*</p>
+      <input required type="text" name="volunteer_experience_one_organization" value="">
       <p>Contact Person:</p>
       <input type="text" name="volunteer_experience_one_contact_name" value="">
       <p>Address:</p>
       <input class="longWidthInput" type="text" name="volunteer_experience_one_contact_address" value="">
       <p>Dates of Experiences:</p>
       <input type="text" name="volunteer_experience_one_dates" value="">
-      <p>Description of Duties:</p>
-      <textarea name="volunteer_experience_one_duties" rows="8"></textarea>
+      <p>Description of Duties:*</p>
+      <textarea name="volunteer_experience_one_duties" rows="8" placeholder="If none, please explain here"></textarea>
 
       <h4>Organization Two</h4>
       <p>Organization:</p>
@@ -361,7 +368,7 @@
     </div><!-- free graphs -->
     <p id="address">UF Office of Admission<br>PO Box 114000<br>Gainesville, FL 32611</p>
 
-    <input id="submit" type='submit' name='submit' value='submit this information' tabindex="10">
+    <input id="submit" type='submit' name='submit' value='submit this information'>
 </form><!-- form -->
 </div><!-- content -->
   </body>

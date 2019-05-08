@@ -41,7 +41,7 @@
 
       <li>Each semester you will be registered for your courses by the PHPB Program Coordinator. Your courses will be in section separate from undergraduate students and you do not need to be concerned about seat availability.</li>
 
-    <li>Classes begin August 20, 2019. See "<a href="https://catalog.ufl.edu/UGRD/dates-deadlines/" target="_blank">Dates and Deadlines</a>" for more information.</li>
+      <li>Classes begin August 20, 2019. See "<a href="https://catalog.ufl.edu/UGRD/dates-deadlines/" target="_blank">Dates and Deadlines</a>" for more information.</li>
 
       <li>HOLDS:  upon admission and each semester you will have holds placed on your records.  Go to <a href="https://student.ufl.edu/">https://student.ufl.edu/</a> and under the "Holds" link read the corresponding text and get these removed.  If you get a hold for "Mandatory Insurance" please let the PHPB Coordinator know.  As PHPB you are exempt from this requirement.  However if you need health insurance you may opt to accept this and the cost will be included with your tuition bill.  When you get your tuition invoice please be sure to review it carefully to make sure this charge is accurate for you specifically.  There will always be a "LS REGISTRATION ADJUST" hold on your records.  I place that holds while you are in PHPB.  Don't worry about that hold.We will have an orientation on the first day of classes. <strong>This is mandatory</strong>. Not attending orientation will result in not matriculating to PHPB. Your classes will start in the afternoon.</li>
 
@@ -52,7 +52,28 @@
       <li>To prepare for starting PHPB, please review the workshops and resources at the <a href="https://teachingcenter.ufl.edu/study-skills/video-resources/">UF Teaching Center</a>. THIS WILL CONTRIBUTE TO YOUR SUCCESS AT UF.</li>
 
       <li>One of the expectations of PHPB is that students will be engaged in clinical volunteering and community service while in the program. This fills quickly. I recommend you start looking for these for fall now. View the <a href="current.php#additionalResources">Pre-Health Resources</a> to begin looking for places in Gainesville to do this. We will talk more about this during orientation. Information regarding orientation will be sent to you.</li>
+      <li>Federal Mandatory Healthcare Insurance Requirement</li>
+      <div id="temp">
+        <p>Please review the information regarding Mandatory Health Insurance</p>
+        <p><a href="https://healthcompliance.shcc.ufl.edu/home/" target="_blank">https://healthcompliance.shcc.ufl.edu/home/</a></p>
+        <p><span style="color: #c45911;">Students in PHPB are enrolled in a non-degree seeking program and therefore are exempt from this requirement.</span></p>
+        <p>However, you may need to address a hold and paperwork related to this requirement.</p>
+        <p><a href="http://studentinsurance.shcc.ufl.edu/waiver-requirements/" target="_blank">http://studentinsurance.shcc.ufl.edu/waiver-requirements/</a></p>
+        <ol>
+          <li>Upon admission you will receive a onetime hold on your records where you acknowledge the federal requirements.  You will remove yourself.  Follow the directions in the paragraph of the hold.</li>
+          <li>Each semester you will need to check to see if you are being charged for insurance via your tuition bill.  </li>
+          <li>If you want health insurance, just pay your tuition bill. </li>
+          <li>If you do not want the student insurance through the University of Florida, you will need to submit a waiver form online per directions.   </li>
+          <li>Please monitor this each semester and submit another waiver whenever charged for the insurance.  </li>
+          <li>Please be sure to let the insurance office know you are exempt from this requirement due to PHPB being a ‘non-degree’ earning program. </li>
+        </ol>
+        <p><a href="https://healthcompliance.shcc.ufl.edu/insurance/waiver/" target="_blank">https://healthcompliance.shcc.ufl.edu/insurance/waiver/</a></p>
+        <p>If you have any questions, please contact the UF Health Compliance Office</p>
+      </div><!-- temp healthcare -->
     </ol>
+
+
+
 
   </div><!--subShell -->
 

@@ -258,6 +258,10 @@ textarea {
   clear: both;
 }
 
+#names_container input {
+  width: 50%;
+}
+
 @media screen and (min-width: 650px) {
 
   nav ul li {
@@ -307,6 +311,15 @@ textarea {
     padding: .4rem .3rem .3rem .3rem;
   }
 
+  #names_container input[type="text"] {
+    width: 50%;
+  }
+
+  #middleNameInput {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
   textarea {
     width: 85%;
   }
@@ -315,4 +328,10 @@ textarea {
     width: 60%;
   }
 
+}
+
+.tiny {
+	color: #575757;
+	font-size: .9rem;
+  font-style: italic;
 }

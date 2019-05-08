@@ -5,6 +5,7 @@
   require("{$root}include/db.php");
   require("{$root}include/header/header.php");
   $scriptName = $page;
+  include("{$root}include/admin_navCreds.php");
 ?>
 
     <div class="inputShell">

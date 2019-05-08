@@ -1,6 +1,11 @@
 <?php
   // include("include/env.php");
-  $thanks = "Thank you for applying to the Pre-Health Post-Baccalaureate Program (PHPB)!";
+  $name = "";
+  if (isset($_GET['email'])) {
+    $email = $_GET['email'];
+    $name  = ", " . ucfirst(strtolower($_GET['firstName']));
+    include("email/thankyou/thankyou_email.php");
+  }
 ?>
 
 <!DOCTYPE html>
@@ -20,6 +25,6 @@
       </div>
     </header>
 
-    <p id="thankYou"><?php echo $thanks; ?></p>
+    <p id="thankYou">Success! We've received your application<?php echo $name; ?>!<br><span id="tiny">Thank you for applying to the Pre-Health Post-Baccalaureate Program (PHPB)!</span></p>
 
 <?php require_once("include/footer.php"); ?>

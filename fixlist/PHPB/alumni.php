@@ -7,12 +7,30 @@
 ?>
 
 <div class="shell">
-
   <h2>Alumni Success</h2>
+  <h3>Cohorts</h3>
+  <p>Our inaugural class was small, but successful! Of the six students who applied, all six were admitted.</p>
+    <?php  /*
 
-    <h3>Cohorts</h3>
+    About Alumni Profiles:
 
-    <p>Our inaugural class was small, but successful! Of the six students who applied, all six were admitted.</p>
+      Part 1 of 2: Alumni Profiles
+
+          1. Profile
+              - <div class="profile"></div><!-- profile -->
+                  - is a "block" containing one person's information / personal profile
+
+          2. Images:
+              - file size:      1 x 1 crop ratio
+              - file location: ".../image/cohort/first_last.jpg"
+              - file naming:   "first_last.jpg"
+
+      Part 2 of 2: Interviewed / Accepted
+
+          1. Interviewed / Accepted:
+              - file location: ".../include/accepted.php"
+
+    */ ?>
 
     <h4>2014 PHPB Cohort &mdash; 100&#37; Admission</h4>
 
@@ -215,6 +233,27 @@
     <div class="clear"></div>
 
 
+        <div class="profile">
+          <div class="personPictureName">
+            <img src="image/cohort/judi_fusco.jpg" alt="">
+            <h5>Judi Fusco</h5>
+          </div><!-- personPictureName -->
+          <ul class="personInfo">
+            <li>
+              <b>Undergrad Major:</b>
+              <br>Health Science; Psychology
+            </li>
+            <li>
+              <b>Previous Field/Career:</b>
+              <br>Student
+            </li>
+            <li>
+              <b>Medical School Attending:</b>
+              <br><a href="https://www.pcom.edu/" target="_blank">Philadelphia College of Osteopathic Medicine</a>
+            </li>
+          </ul>
+          <div class="clear"></div>
+        </div><!-- profile -->
 
     <div class="profile">
       <div class="personPictureName">
@@ -334,6 +373,31 @@
       <div class="clear"></div>
     </div><!-- profile -->
 
+
+    <div class="profile">
+      <div class="personPictureName">
+        <img src="image/cohort/schoenfelder_tom.jpg" alt="">
+        <h5>Tom Schoenfelder</h5>
+      </div><!-- personPictureName -->
+      <ul class="personInfo">
+        <li>
+          <b>Undergrad Major:</b>
+          <br>Marketing
+        </li>
+        <li>
+          <b>Previous Field/Career:</b>
+          <br>Non-profit athletic equipment supply for Little League teams
+        </li>
+        <li>
+          <b>Medical School Attending:</b>
+          <br><a href="https://som.rowan.edu/" target="_blank">Rowan School of Osteopathic Medicine</a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div><!-- profile -->
+
+
+
     <div class="profile">
       <div class="personPictureName">
         <img src="image/cohort/ryu_wada.jpg" alt="">
@@ -377,6 +441,98 @@
       </ul>
       <div class="clear"></div>
     </div><!-- profile -->
+    <div class="clear"></div>
+
+    <h4>2016 Cohort</h4>
+    <div class="profile">
+      <div class="personPictureName">
+        <img src="image/cohort/jeremiah_owens.jpg" alt="">
+        <h5>Jeremiah Owens</h5>
+      </div><!-- personPictureName -->
+      <ul class="personInfo">
+        <li>
+          <b>Undergrad Major:</b>
+          <br>Psychology
+        </li>
+        <li><b>Previous Field/Career:</b>
+          <br>Law Enforcement</li>
+        <li>
+          <b>Medical School Attending:</b>
+          <br><a href="https://www.vetmed.ufl.edu/" target="_blank">University of Florida College of Veterinary Medicine</a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div><!-- profile -->
+
+    <div class="profile">
+      <div class="personPictureName">
+        <img src="image/cohort/sylvia_tsang.jpg" alt="">
+        <h5>Sylvia Tsang</h5>
+      </div><!-- personPictureName -->
+      <ul class="personInfo">
+        <li>
+          <b>Undergrad Major:</b>
+          <br>B.S. in Economics
+        </li>
+        <li>
+          <b>Graduate Degree:</b>
+          <br>M.A. in International Business
+        </li>
+        <li>
+          <b>Previous Field/Career:</b>
+          <br>Actuarial Analyst
+
+        </li>
+        <li>
+          <b>Medical School Attending:</b>
+          <br><a href="https://med.ufl.edu/" target="_blank">University of Florida</a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div><!-- profile -->
+
+    <div class="profile">
+      <div class="personPictureName">
+        <img src="image/cohort/nora_marie_wartan.jpg" alt="">
+        <h5>Nora Marie Wartan</h5>
+      </div><!-- personPictureName -->
+      <ul class="personInfo">
+        <li>
+          <b>Undergrad Major:</b>
+          <br>English Literature
+        </li>
+        <li>
+          <b>Medical School Attending:</b>
+          <br><a href="https://www.rosalindfranklin.edu/academics/chicago-medical-school/" target="_blank">Chicago Medical School at Rosalind Franklin University of Medicine and Science</a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div><!-- profile -->
+
+
+    <div class="clear"></div>
+
+    <h4>2017 Cohort</h4>
+    <div class="profile">
+      <div class="personPictureName">
+        <img src="image/cohort/sydney_dupre.jpg" alt="">
+        <h5>Sydney DuPre</h5>
+      </div><!-- personPictureName -->
+      <ul class="personInfo">
+        <li>
+          <b>Undergrad Major:</b>
+          <br>Finance
+        </li>
+        <li><b>Previous Field/Career:</b>
+          <br>Financial Analyst</li>
+        <li>
+          <b>Medical School Attending:</b>
+          <br><a href="https://www.baylor.edu/dpt/" target="_blank">Baylor’s Doctor of Physical Therapy Program</a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div><!-- profile -->
+
 
     <div class="clear"></div>
   </div><!-- cohort profiles -->

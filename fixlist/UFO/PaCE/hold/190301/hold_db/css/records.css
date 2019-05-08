@@ -1,0 +1,221 @@
+h3 {
+  color: #383838;
+  margin-bottom: 1.5rem;
+}
+
+.inputShell {
+  margin-bottom: 2rem;
+}
+
+.inputShell p {
+  font-size: 1.1rem;
+}
+
+dt:hover {
+  cursor: pointer;
+}
+
+.barrier {
+  width: 100%;
+  border: 1px solid #888;
+  max-width: 40rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: .2rem;
+  /* box-shadow: .3rem .3rem .8rem #f0f0f0; */
+}
+
+.barrierHeader, .ufoSubmission {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  outline-color: #888;
+  outline-style: solid;
+  outline-width: 1px;
+}
+
+.barrierHeader h3 {
+  margin: 0;
+  width: 78%;
+  font-size: 1.1rem;
+  padding: .7rem;
+  font-weight: 400;
+}
+
+.barrierHeader p {
+  width: 22%;
+  margin: 0;
+  padding: .7rem;
+}
+
+
+p.pending {
+  background: #eee;
+  color: #9E0000;
+  border-right: 1px solid #888;
+}
+
+p.submitted {
+  border-right: 1px solid #888;
+  color: #fff;
+  background: #006100;
+}
+
+p.timeCreated, p.timeSubmitted {
+  margin: 0;
+  padding: .9rem .7rem 0 0;
+  width: inherit;
+  font-size: .85rem;
+  color: #575757;
+  letter-spacing: 1px;
+}
+
+.ufoSubmission {
+  background: #D1FFD1; /* green hospital */
+  background: #EDF3F8; /* blue light contrast */
+  padding-top: .5rem;
+  padding-bottom: .4rem;
+}
+
+.ufoSubmission p {
+  margin: .6rem auto .6rem auto;
+}
+
+/* graph to highlight as heading */
+.ufoMajor {
+  font-weight: bold;
+  color: #00529b;
+  border-right: 1px solid #888;
+}
+
+
+
+
+table, tr, th, td {
+  border: 1px solid #333;
+  padding: .4rem;
+}
+
+.barrier table {
+  width: 100%;
+  max-width: 25rem;
+  margin: 2rem auto;
+}
+
+thead {
+  background: #d0d0d0;
+}
+
+th, td {
+  text-align: center;
+}
+.filled tr th {
+  background: white;
+  color: #26539C;
+  background: #A2D590;
+  color: #333;
+}
+
+#conditionsPaceMajor th {
+  background: #C3CBE0;
+}
+
+.coursesTable tr:nth-child(even) {background: #F1F5FE;}
+.coursesTable tr:nth-child(odd) {background: #FFF;}
+
+.coursesTable th {
+  background: #d0d0d0;
+}
+
+.writtenCondition {
+  margin: 0 auto;
+  margin-bottom: 1px;
+}
+
+.writtenConditionHeaderWrap {
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: .3rem;
+}
+
+.writtenCondition h3 {
+  width: 100%;
+  font-weight: bold;
+  max-width: 25rem;
+  margin: auto;
+  padding: .6rem 0;
+  color: #3d3d3d;
+}
+
+.writtenCondition p {
+  background: white;
+  padding: 1rem .4rem;
+  max-width: 25rem;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  margin-bottom: .4rem;
+  font-style: italic;
+  color: #545454;
+}
+
+p#zeroStips {
+  color: #651A1A;
+  color: #962727;
+  color: #25406b;
+  /* background: linear-gradient(white, #FAFAFA); */
+  background: white;
+  color: #335694;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 1.5rem 0;
+  font-weight: 600;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #999;
+  font-style: italic;
+  /* font-size: 1.5rem; */
+}
+
+/* response container  */
+/* #response {
+  background: #d0d0d0;
+}
+
+#response table {
+  background: white;
+} */
+
+
+
+.formCreated {
+  border-top: 1px solid #d0d0d0;
+  width: 100%;
+  /* background: #1b52aa; */
+}
+
+.formCreated p {
+  text-align: right;
+  margin: 0;
+  padding: .4rem .8rem .4rem 0;
+  width: 100%;
+  max-width: none;
+  font-style: italic;
+  color: #3e5882;
+  color: #454545;
+  font-size: .9rem;
+}
+
+
+.red {
+  color: #AD0000;
+  background: white;
+  text-align: center;
+}
+
+.green {
+  background: #32CD32;
+  background: #afedaf;
+  color: white;
+  color: #333;
+  text-align: center;
+}

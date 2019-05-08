@@ -3,7 +3,9 @@ function messageContent($file) {
     ob_start();
 
 
-    $name                                             = $_POST['name'];
+    $firstName                                        = $_POST['firstName'];
+    $middleName                                       = $_POST['middleName'];
+    $lastName                                         = $_POST['lastName'];
     $suffix_name                                      = $_POST['suffix_name'];
     $UF_ID                                            = $_POST['UF_ID'];
     $studied_preDental                                = $_POST['studied_preDental'];
