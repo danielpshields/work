@@ -42,6 +42,12 @@
               </ul>
             </td>
           </tr>
+          <tr>
+            <td>Laura Beth Lancaster</td>
+            <td>Dylan King</td>
+            <td>Fallen Lee</td>
+            <td>Nicole Raymond</td>
+          </tr>
         </tbody>
       </table>
 

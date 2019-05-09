@@ -27,11 +27,8 @@
         <a href="<?php echo $root; ?>dashboard.php">
           <img src="<?php echo $root; ?>image/uf_logo.svg" alt="">
         </a>
-        <?php if ($page != "login") { ?>
-          <h1>Welcome, <?php echo $name_first; ?></h1>
-        <?php } ?>
-
-      </div>
+        <h1>Welcome, <?php echo $name_first; ?></h1>
+      </div><!-- container -->
     </header>
 
     <?php

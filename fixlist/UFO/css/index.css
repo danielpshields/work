@@ -41,3 +41,12 @@
   font-weight: bold;
   margin: 1.3rem auto .5rem auto;
 }
+
+.form h4 {
+  font-weight: 100;
+  width: 84%;
+  margin: 1.3rem auto .4rem auto;
+  font-size: .75rem;
+  text-transform: uppercase;
+  color: #222;
+}

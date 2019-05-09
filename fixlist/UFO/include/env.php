@@ -1,11 +1,12 @@
 <?php
 
-  if (isset($_SERVER['HTTP_UFSHIB_UFID'])) {
+  if (isset($_SERVER['HTTP_UFSHIB_EPPN'])) {
 
     $employee_ID          = $_SERVER['HTTP_UFSHIB_UFID'];
     $MAIL                 = $_SERVER['HTTP_UFSHIB_MAIL'];
     $EPPN                 = $_SERVER['HTTP_UFSHIB_EPPN'];
     $name_first           = $_SERVER['HTTP_UFSHIB_GIVENNAME'];
+
     $name_firstLast       = $_SERVER['HTTP_UFSHIB_GIVENNAME']." ".$_SERVER['HTTP_UFSHIB_SN'];
     $name_lastFirstMiddle = $_SERVER['HTTP_UFSHIB_BUSINESSNAME'];
 
