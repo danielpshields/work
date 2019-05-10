@@ -54,7 +54,6 @@ ul li {
 .page {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #c0c0c0;
   padding-bottom: 2rem;
   margin-bottom: 1.5rem;
 }
@@ -66,10 +65,6 @@ ul li {
   padding: 1rem 0 1.5rem 0;
   width: 30%;
   align-self: flex-start;
-}
-
-#ufo_container_department {
-  padding-bottom: 0;
 }
 
 .container_department img {
@@ -132,10 +127,10 @@ a:hover {
 }
 
 footer {
-  border-top: 1px solid #c0c0c0;
+  border-top: 1px solid #e0e0e0;
   margin-top: 1.7rem;
   margin-bottom: 2.81rem;
-  padding-top: .7rem;
+  padding-top: 1.5rem;
 }
 
 footer p {
