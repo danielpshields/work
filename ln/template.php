@@ -1,6 +1,7 @@
 <?php
   $root  = "../../";
   $spent = 0;
+  $total = $spent;
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,9 +13,10 @@
   </head>
   <body>
     <div class="container">
-      <ul>
-        <li><a href="../../../index.php">index</a></li>
-      </ul>
+      <header>
+        <p>ln</p>
+        <p><?php echo $total; ?></p>
+      </header>
 
       <h1>template</h1>
 

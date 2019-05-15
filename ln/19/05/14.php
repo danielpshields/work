@@ -1,22 +1,24 @@
 <?php
-  $root = "../../";
+  $root  = "../../";
+  $spent = 0;
+  $total = $spent;
+  include("{$root}include/db.php");
+  $readDB = "SELECT credit FROM account";
+  $read   = mysqli_query($connection, $readDB);
+  $date = "190514_tuesday";
 ?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>LN &#124; 190514_tuesday</title>
+    <title>LN &#124; <?php echo $date; ?></title>
     <link rel="icon" type="image/png" href="../../image/picon.png">
     <link rel="stylesheet" href="<?php echo $root; ?>css/master.css">
   </head>
   <body>
     <div class="container">
-      <ul>
-        <li><a href="../../../index.php">index</a></li>
-      </ul>
-
-      <h1>190514_tuesday</h1>
-
+      <?php include("{$root}include/header.php"); ?>
+      <h2></h2>
       <ul>
         <li>baked banana bread</li>
         <li>printed third knob for printer level adjust</li>
@@ -37,7 +39,7 @@
       </ul>
 
       <form action="<?php echo $root; ?>processor.php" method="post">
-        <input type="submit" name="total" value="<?php echo "$" . $spent; ?>" tabindex="1">
+        <input type="submit" name="spent" value="<?php echo "$" . $spent; ?>" tabindex="1">
       </form>
 
       <footer>

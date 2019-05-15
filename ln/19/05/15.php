@@ -1,6 +1,11 @@
 <?php
   $root  = "../../";
   $spent = 0;
+  $total = $spent;
+  include("{$root}include/db.php");
+  $readDB = "SELECT credit FROM account";
+  $read   = mysqli_query($connection, $readDB);
+  $date = "190515_wednesday";
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,12 +17,7 @@
   </head>
   <body>
     <div class="container">
-      <ul>
-        <li><a href="../../../index.php">index</a></li>
-      </ul>
-
-      <h1>190515_wednesday</h1>
-
+      <?php include("{$root}include/header.php"); ?>
       <ul>
         <li>configured LN. Added $spent as total for form submission to processor page</li>
         <li>Tim Young stopped by, chatted</li>
@@ -31,10 +31,12 @@
         <li>Lynda: wordpress</li>
         <li>food sick :(</li>
         <li>lynda: wordpress</li>
+        <li>[print] lens/filter</li>
+        <li>[lnote] ln totals</li>
       </ul>
 
       <form action="<?php echo $root; ?>processor.php" method="post">
-        <input type="submit" name="total" value="<?php echo "$" . $spent; ?>" tabindex="1">
+        <input type="submit" name="spent" value="<?php echo "$" . $spent; ?>" tabindex="1">
       </form>
 
       <footer>

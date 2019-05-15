@@ -1,11 +1,11 @@
 <?php
 
-  include("../include/db.php"); // DB connection
+  include("include/db.php"); // DB connection
 
-  if (isset($_POST['total'])) {
-    // $total = $_POST['total'];
-    // $write = "INSERT INTO lonesome_account () VALUES ('{$total}')";
-    echo "total has been set";
+  if (isset($_POST['spent'])) {
+    $spent = substr($_POST['spent'], 1);
+    $write = "INSERT INTO account (credit) VALUES ('{$spent}')";
+    $addAm = mysqli_query($connection, $write);
   }
 
 
