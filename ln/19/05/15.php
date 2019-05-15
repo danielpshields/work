@@ -25,7 +25,12 @@
         <li>practice: wordpress</li>
         <li>sound issues</li>
         <li>battery drawing</li>
-        
+        <li>Salad Place: $<?php echo $spent = 17.29; ?></li>
+        <li>Starbucks: $<?php echo $spent += 2.84; ?></li>
+        <li>Efren wordpress discussion</li>
+        <li>Lynda: wordpress</li>
+        <li>food sick :(</li>
+        <li>lynda: wordpress</li>
       </ul>
 
       <form action="<?php echo $root; ?>processor.php" method="post">
