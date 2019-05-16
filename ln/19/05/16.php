@@ -5,12 +5,15 @@
   include("{$root}include/db.php");
   $readDB = "SELECT credit FROM account";
   $read   = mysqli_query($connection, $readDB);
-  $date = "";
+  $date = "190516_thursday";
   include("{$root}include/header.php");
 ?>
 
       <ul>
-        <li></li>
+        <li>Efren: chat about webpage not loading and start/restart | microprocessors</li>
+        <li>Starbucks: $<?php echo $spent = 2.84; ?></li>
+        <li>Wells Fargo: credit card</li>
+        <li>wordpress: essential training</li>
       </ul>
 
       <form action="<?php echo $root; ?>processor.php" method="post">
@@ -20,7 +23,7 @@
       <footer>
         <nav>
           <ul>
-            <li><a href=".php">last</a></li>
+            <li><a href="15.php">last</a></li>
             <p>&#124;</p>
             <li><a href="../../../index.php">next</a></li>
             <div class="clear"></div>

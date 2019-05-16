@@ -33,6 +33,10 @@
         <li>lynda: wordpress</li>
         <li>[print] lens/filter</li>
         <li>[lnote] ln totals</li>
+        <li>[fly] basin park, crashed drone a bunch, had to search in ditch, forgot SD card</li>
+        <li>[groceries] bread run, water exploded, bread run, expensive</li>
+        <li>[print] spindle</li>
+        <li>[lnote] return after REM/ADD/DEL</li>
       </ul>
 
       <form action="<?php echo $root; ?>processor.php" method="post">
@@ -44,7 +48,7 @@
           <ul>
             <li><a href="14.php">last</a></li>
             <p>&#124;</p>
-            <li><a href="../../../index.php">next</a></li>
+            <li><a href="16.php">next</a></li>
             <div class="clear"></div>
           </ul>
         </nav>
