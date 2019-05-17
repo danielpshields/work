@@ -14,6 +14,12 @@
         <li>Starbucks: $<?php echo $spent = 2.84; ?></li>
         <li>Wells Fargo: credit card</li>
         <li>wordpress: essential training</li>
+        <li>made bread</li>
+        <li>h2, h3 discussion (group -> efren) general theory, overview and granular</li>
+        <li>flexbox vs. bootstrap discussion</li>
+        <li>[clean]</li>
+        <li>[symmetry] "blue flower", light tests, general planning</li>
+        <li>bed @ 10 p.m.</li>
       </ul>
 
       <form action="<?php echo $root; ?>processor.php" method="post">
@@ -25,7 +31,7 @@
           <ul>
             <li><a href="15.php">last</a></li>
             <p>&#124;</p>
-            <li><a href="../../../index.php">next</a></li>
+            <li><a href="17.php">next</a></li>
             <div class="clear"></div>
           </ul>
         </nav>

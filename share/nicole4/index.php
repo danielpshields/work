@@ -19,6 +19,10 @@
       </header>
 
       <ul>
+        <li>https://www.reddit.com/r/movies/comments/bppy7f/i_keep_all_my_cinema_tickets_to_stick_in_this/?utm_source=share&utm_medium=web2x</li>
+      </ul>
+
+      <ul>
         <li><a href="https://www.reddit.com/r/movies/comments/baut70/netflix_isnt_killing_movie_theaters_the_audience/?utm_source=share&utm_medium=web2x" target="_blank"><span class="date">04/08</span> &#124; Streaming vs. Cinemas</a></li>
         <li><a href="https://whiskeyriversoap.com/products/soap-for-grammar-police" target="_blank"><span class="date">04/08</span> &#124; Grammar Soap</a></li>
       </ul>
