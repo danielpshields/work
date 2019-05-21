@@ -20,6 +20,12 @@
         <li>email account woes, credentials locked out, primary account "acatalano@advising.ufl.edu", contacted keith baker</li>
         <li><a href="<?php echo $root; ?>../fixlist/fixlist.php" target="_blank">create work document</a></li>
         <li>email account woes</li>
+        <li>[blog] <a href="http://alexcatalano.com/blog/19/05/19/sunsets.php" target="_blank">sunsets</a></li>
+        <li>mom talk about bills</li>
+        <li>[meeting] chaired</li>
+        <li>[<a href="http://alexcatalano.com/blog/19/05/19/sunsets.php" target="_blank">blog</a>]</li>
+        <li>emailed Mindy</li>
+        <li>emailed Matt</li>
       </ul>
 
       <form action="<?php echo $root; ?>processor.php" method="post">
@@ -31,7 +37,7 @@
           <ul>
             <li><a href="17.php">last</a></li>
             <p>&#124;</p>
-            <li><a href="../../../index.php">next</a></li>
+            <li><a href="21.php">next</a></li>
             <div class="clear"></div>
           </ul>
         </nav>
