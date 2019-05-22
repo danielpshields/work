@@ -24,6 +24,8 @@
         <li>lunch Pita Pit <?php echo $spent += 10.90; ?></li>
         <li>[study] wp essential training</li>
         <li>[work] downloaded wordpress to localhost, edited php.ini</li>
+        <li>[want] reformatting</li>
+        <li>cleaning for the inspection thing</li>
       </ul>
 
       <form action="<?php echo $root; ?>processor.php" method="post">
