@@ -5,17 +5,15 @@
   include("{$root}include/db.php");
   $readDB = "SELECT credit FROM account";
   $read   = mysqli_query($connection, $readDB);
-  $date = "190522_wednesday";
+  $date = "190524_friday";
   include("{$root}include/header.php");
 ?>
 
       <ul>
-        <li>sickly -- something with the nostril</li>
-        <li>cleaning for the inspection</li>
-        <li>wordpress beat down</li>
-        <li>home early</li>
-        <li>Jim indian cuisine</li>
-        <li>mindy messages</li>
+        <li>sick morning</li>
+        <li>publix</li>
+        <li>office @ 1 p.m.</li>
+        <li>[ln] open Friday (190524, 1:29 p.m.)</li>
       </ul>
 
       <form action="<?php echo $root; ?>processor.php" method="post">
@@ -25,7 +23,7 @@
       <footer>
         <nav>
           <ul>
-            <li><a href="21.php">last</a></li>
+            <li><a href="22.php">last</a></li>
             <p>&#124;</p>
             <li><a href="../../../index.php">next</a></li>
             <div class="clear"></div>
