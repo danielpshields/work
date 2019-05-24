@@ -14,6 +14,14 @@
         <li>publix</li>
         <li>office @ 1 p.m.</li>
         <li>[ln] open Friday (190524, 1:29 p.m.)</li>
+        <li>efren meeting</li>
+        <li>jonathan meeting</li>
+        <li>efren meeting</li>
+        <li>emails</li>
+        <li>wordpress study</li>
+        <ul>
+          <li>child themes w/ morten</li>
+        </ul>
       </ul>
 
       <form action="<?php echo $root; ?>processor.php" method="post">
