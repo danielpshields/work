@@ -11,9 +11,15 @@
 
       <ul>
         <li>filled water bottle at work</li>
+        <li>ordered BH: #1057671876</li>
         <li>wants and travel plans</li>
         <li>[schedule] [lnote]</li>
         <li>[meeting] Efren | <a href="<?php echo $root; ?>work/meeting/image/19/05/generalStructure.jpg">white board meeting about site structure</a></li>
+        <li>[lnote] added fixlist count to header</li>
+        <li>added <a href="<?php echo $root; ?>home/blog/fixlist.php">blog concept</a></li>
+        <li>third monitor added</li>
+        <li>comb websites for errors</li>
+        <li>scott harper chat</li>
       </ul>
 
       <form action="<?php echo $root; ?>processor.php" method="post">

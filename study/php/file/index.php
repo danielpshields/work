@@ -1,5 +1,5 @@
 <?php
-    $site = file('https://alexcatalano.com/');
+    $site = file('http://alexcatalano.com/convert.php');
 
     foreach($site as $key => $value) {
       echo $key . " " . htmlspecialchars($value) . "<br>";
