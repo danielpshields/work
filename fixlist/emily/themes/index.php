@@ -15,6 +15,7 @@
     <!--  <h3>Errors:</h3>
       <ul>
         <li>(https://history.ufl.edu/) Slidshow button z-index failure (LIVE mobile and desktop)</li>
+        <li>(https://test.clas.ufl.edu/stat-dc/) justify-content: space-between; for two items</li>
         <li>nav li | unclickable heading</li>
         <ul>
           <li>works if there's no dropdown items</li>
@@ -38,6 +39,8 @@
       </ul>
       <h3>Notes:</h3>
       <ul>
+        <li>(songs) </li>
+        <li>Physics: test-qtp has quantum theory project</li>
         <li>Physics: parent:parent with zero nav elements</li>
         <li>how do we check for outdated content? (/jst/) Fall 2018 course schedule</li>
         <li>Do nav lis have to drop down? (clas-news)</li>
@@ -53,6 +56,7 @@ Deprecated: Function create_function() is deprecated in /web/test/wp-content/plu
       <ul>
         <li>English: test/prod</li>
         <li>History of Capitalism</li>
+        <li>https://test.clas.ufl.edu/psych-wellness/</li>
         <ul>
           <li>there are six english sites</li>
         </ul>
@@ -84,10 +88,10 @@ Deprecated: Function create_function() is deprecated in /web/test/wp-content/plu
             <td>Sites</td>
             <td><?php echo $siteCount_test; ?></td>
           </tr>
-          <tr>
-            <td>Null</td>
+          <!-- <tr>
+            <td>null</td>
             <td><?php echo $countSites_countNull_test; ?></td>
-          </tr>
+          </tr> -->
           <tr>
             <td>navigation</td>
             <td><?php echo $arraysAve_test; ?></td>
@@ -116,8 +120,8 @@ Deprecated: Function create_function() is deprecated in /web/test/wp-content/plu
       </div>
 
       <div class="">
-        <h2>Diff</h2>
-        <h3>Common</h3>
+        <h3>diff</h3>
+        <h3>common</h3>
 
 
 

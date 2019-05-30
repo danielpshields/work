@@ -35,18 +35,18 @@ $sites_clasTheme_test = array(
   "/physics-het/"            => 0,
   "/physics-ift/"            => 0,
   "/physics-qtp/"            => 0,
-  "/phys-ihepa/"             => 0,
-  "/polisci/"                => 0,
-  "/psych-wellness/"         => 0,
+  "/phys-ihepa/"             => 6,
+  "/polisci/"                => 7,
+  "/psych-wellness/"         => 4,
   "/sanibel-symposium/"      => 0,
   "/songs/"                  => 0,
-  "/spanport/"               => 0,
-  "/spohp-ogus/"             => 0,
-  "/stat-dc/"                => 0,
-  "/stat-fass/"              => 0,
-  "/sustainability/"         => 0,
+  "/spanport/"               => 7,
+  "/spohp-ogus/"             => 6,
+  "/stat-dc/"                => 2,
+  "/stat-fass/"              => 4,
+  "/sustainability/"         => 5,
   "/unittest/"               => 0,
-  "/writing/"                => 0
+  "/writing/"                => 5
 );
   $siteCount_test = 0;
   $count_navLis_test = array();
@@ -65,6 +65,7 @@ $sites_clasTheme_test = array(
     "https://test.clas.ufl.edu/commsTemplateTest/",
     "https://test.clas.ufl.edu/jonsTestSite/",
     "https://test.clas.ufl.edu/communicationstemplate/",
+    "https://test.clas.ufl.edu/unittest/"
   );
 
 
@@ -79,7 +80,7 @@ $sites_clasTheme_test = array(
 
   //Create variable: Average
   $arraysSum_test = array_sum($count_navLis_test);
-  $arraysAve_test = round(($arraysSum_test / $count), 1);
+  $arraysAve_test = round(($arraysSum_test / $count), 2);
 
 
 // production
