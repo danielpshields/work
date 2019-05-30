@@ -12,7 +12,7 @@
       include("siteList.php");
     ?>
     <div id="container_about_errors">
-      <h3>Errors:</h3>
+    <!--  <h3>Errors:</h3>
       <ul>
         <li>(https://history.ufl.edu/) Slidshow button z-index failure (LIVE mobile and desktop)</li>
         <li>nav li | unclickable heading</li>
@@ -31,9 +31,15 @@
         <li>nav | no indication of current page</li>
         <li>clas-news | Content hidden</li>
         <li><b>redirect map needed</b> history-capitalism redirects to history</li>
+        <li>English: , Humanties:Humanities-grants, Parent:Children vs. Parent:Parent is actually parent to parent</li>
+        <ul>
+          <li>"jonsTestSite" => "test.clas/users/jon"</li>
+        </ul>
       </ul>
       <h3>Notes:</h3>
       <ul>
+        <li>Physics: parent:parent with zero nav elements</li>
+        <li>how do we check for outdated content? (/jst/) Fall 2018 course schedule</li>
         <li>Do nav lis have to drop down? (clas-news)</li>
         <li>limit dropdown items</li>
         <li>sub-sub-menus</li>
@@ -46,38 +52,77 @@ Deprecated: Function create_function() is deprecated in /web/test/wp-content/plu
       <h3>Notable Sites:</h3>
       <ul>
         <li>English: test/prod</li>
+        <li>History of Capitalism</li>
         <ul>
           <li>there are six english sites</li>
         </ul>
         <li>english ".../ethics-public/" | "about us / contact" is on the far left in the nav</li>
       </ul>
       <h3>Favorite URL:</h3>
-      <li>https://test.clas.ufl.edu/advising/advising/advising-services/</li>
-    </div>
+      <ul>
+        <li>https://test.clas.ufl.edu/advising/advising/advising-services/</li>
+      </ul>-->
+      <!-- <h3>Disregard:</h3>
+      <ul>
+        <li>https://test.clas.ufl.edu/jonsTestSite/</li>
+      </ul>
+      <h3>Parent:Parent</h3>
+      <ul>
+        <li>English (6)</li>
+        <li>Physics (6)</li>
+      </ul>
+    </div><!- - container errors -->
 
     <div id="container_lists">
       <div class="">
-        <h2>Test Sites: <span class="siteCount">(<?php echo $i; ?>)</span></h2>
-        <?php
-        echo "<ul>";
-        foreach ($sites_clasTheme_test as $key => $value) {
-          $URL_testSite = "https://test.clas.ufl.edu" . $value;
-          echo "<li><a href=\"{$URL_testSite}\" target=\"_blank\">{$key}</a> ({$value})</li>";
-        }
-        echo "</ul>";
+        <h2>Test Sites</h2>
+        <table>
+          <tr>
+            <th colspan="2">Stats</th>
+          </tr>
+          <tr>
+            <td>Sites</td>
+            <td><?php echo $siteCount_test; ?></td>
+          </tr>
+          <tr>
+            <td>Null</td>
+            <td><?php echo $countSites_countNull_test; ?></td>
+          </tr>
+          <tr>
+            <td>navigation</td>
+            <td><?php echo $arraysAve_test; ?></td>
+          </tr>
+        </table>
+
+        <ul>
+          <?php
+          foreach ($sites_clasTheme_test as $key => $value) {
+            $URL_testSite = "https://test.clas.ufl.edu" . $key;
+            echo "<li><a href=\"{$URL_testSite}\" target=\"_blank\">{$key}</a></li>";
+          }
          ?>
+       </ul>
        </div>
       <div class="">
-        <h2>Production Sites:</h2>
+        <h2>Production Sites <span class="siteCount"><?php echo $count_prod; ?></a></h2>
         <?php
         echo "<ul>";
-        foreach ($sites_clasTheme_prod as $key) {
+        foreach ($sites_clasTheme_prod as $key => $value) {
           $URL_prod = "https://clas.ufl.edu" . $key;
           echo "<li><a href=\"{$URL_prod}\" target=\"_blank\">{$key}</a></li>";
         }
         echo "</ul>";
          ?>
       </div>
+
+      <div class="">
+        <h2>Diff</h2>
+        <h3>Common</h3>
+
+
+
+      </div>
+
     </div><!-- container lists -->
 
     <footer><p>end</p></footer>

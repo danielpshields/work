@@ -24,6 +24,10 @@ h3 {
   color: #383838;
 }
 
+b {
+  color: #444;
+}
+
 li {
   line-height: 1.5;
 }
@@ -37,6 +41,28 @@ a:hover {
 a:visited {
   color: #2A5DB0;
 }
+
+table, tr, th, td {
+  border: 1px solid #c0c0c0;
+  padding: .5rem;
+  border-collapse: collapse;
+}
+
+table {
+  margin-bottom: 1rem;
+}
+
+th {
+  color: #575757;
+  background: #bad4ff;
+}
+
+/* #bad4ff blue   */
+/* #e7c9ff purple */
+/* #ffd4d3 red    */
+/* #bdffba green   */
+
+
 
 footer {
   border-top: 1px solid #c0c0c0;

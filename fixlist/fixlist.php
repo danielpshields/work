@@ -6,6 +6,13 @@
   </head>
   <body>
     <h1>FixList</h1>
+    <h2>General</h2>
+    <ul>
+      <li>backup schedule</li>
+      <li>meeting schedule (and types)</li>
+      <li>site count (using themes)</li>
+      <li>theme diffs</li>
+    </ul>
     <h2>WordPress</h2>
     <ul>
       <li>[social media] utilize resources for a cohesive network</li>

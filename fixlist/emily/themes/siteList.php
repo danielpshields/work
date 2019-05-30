@@ -1,62 +1,4 @@
 <?php
-$i = 0;
-
-$sites_clasTheme_prod = array(
-  "/aiis/",
-  "/astronomy/",
-  "/augment/",
-  "/biology-fraser/",
-  "/clas-advancement/",
-  "/clas-comms/",
-  "/clascomtemplate/",
-  "/clas-dean/",
-  "/clas-dsc/",
-  "/clas-PHPB/",
-  "/clas-recognition-ceremony/",
-  "/clas-researchoffice/",
-  "/classc/",
-  "/classics-garden-conference/",
-  "/collegechampions/",
-  "/economics/",
-  "/electionscience/",
-  "/english/",
-  "/english-comics/",
-  "/english-cw/",
-  "/english-film/",
-  "/english-imagetext/",
-  "/english-ipsa/",
-  "/EnglishLanguageInstitute/",
-  "/geology/",
-  "/globalislam/",
-  "/history/",
-  "/history-capitalism/",
-  "/humanities/",
-  "/humanities-ethics-in-the-public-sphere/",
-  "/humanities-grants/",
-  "/jewish-studies/",
-  "/languagestudio/",
-  "/math/",
-  "/math-narg/",
-  "/mediaservices/",
-  "/phil-aiethics/",
-  "/physics-efrc/",
-  "/physics-scinews/",
-  "/polisci/",
-  "/psych-sourcesofstrength/",
-  "/soccrim/",
-  "/songs/",
-  "/spanishportuguese/",
-  "/spohp/",
-  "/spohp-ogus/",
-  "/Stat-Club/",
-  "/stat-fass/",
-  "/sustainability/",
-  "/ums/",
-  "/vrsocialgood/",
-  "/writing/"
-);
-
-
 
 $sites_clasTheme_test = array(
   "/advising/"               => 8,
@@ -80,35 +22,127 @@ $sites_clasTheme_test = array(
   "/history/"                => 7,
   "/history-capitalism/"     => 0,
   "/humanities/"             => 6,
-  "/humanities-grants/",
-  "/jonsTestSite/",
-  "/jst/",
-  "/languages/",
-  "/linguistics/",
-  "/math/",
-  "/mathtest/",
-  "/philosophy/",
-  "/phys-ccms/",
-  "/phys-cmt/",
-  "/physics-het/",
-  "/physics-ift/",
-  "/physics-qtp/",
-  "/phys-ihepa/",
-  "/polisci/",
-  "/psych-wellness/",
-  "/sanibel-symposium/",
-  "/songs/",
-  "/spanport/",
-  "/spohp-ogus/",
-  "/stat-dc/",
-  "/stat-fass/",
-  "/sustainability/",
-  "/unittest/",
-  "/writing/"
+  "/humanities-grants/"      => 5,
+  "/jonsTestSite/"           => 0,
+  "/jst/"                    => 6,
+  "/languages/"              => 4,
+  "/linguistics/"            => 7,
+  "/math/"                   => 6,
+  "/mathtest/"               => 0,
+  "/philosophy/"             => 6,
+  "/phys-ccms/"              => 0,
+  "/phys-cmt/"               => 5,
+  "/physics-het/"            => 0,
+  "/physics-ift/"            => 0,
+  "/physics-qtp/"            => 0,
+  "/phys-ihepa/"             => 0,
+  "/polisci/"                => 0,
+  "/psych-wellness/"         => 0,
+  "/sanibel-symposium/"      => 0,
+  "/songs/"                  => 0,
+  "/spanport/"               => 0,
+  "/spohp-ogus/"             => 0,
+  "/stat-dc/"                => 0,
+  "/stat-fass/"              => 0,
+  "/sustainability/"         => 0,
+  "/unittest/"               => 0,
+  "/writing/"                => 0
 );
+  $siteCount_test = 0;
+  $count_navLis_test = array();
+  foreach ($sites_clasTheme_test as $key => $value) {
+    //math for total number of Sites
+    $siteCount_test++;
 
-  foreach ($sites_clasTheme_test as $key) {
-    $i++;
+    //math for getting average
+    if ($value > 0) {
+      $count_navLis_test[] = $value;
+    }
+  }
+
+  //removing null sites from the total count
+  $countSites_removeNull_test = array(
+    "https://test.clas.ufl.edu/commsTemplateTest/",
+    "https://test.clas.ufl.edu/jonsTestSite/",
+    "https://test.clas.ufl.edu/communicationstemplate/",
+  );
+
+
+  // count NULL test sites
+  $countSites_countNull_test = count($countSites_removeNull_test);
+  $siteCount_test = $siteCount_test - $countSites_countNull_test;
+  // loop through just the numbers over zero in list
+  $count = 0;
+  foreach ($count_navLis_test as $key) {
+    $count++;
+  }
+
+  //Create variable: Average
+  $arraysSum_test = array_sum($count_navLis_test);
+  $arraysAve_test = round(($arraysSum_test / $count), 1);
+
+
+// production
+// production
+// production
+  $sites_clasTheme_prod = array(
+    "/aiis/"                       => 0,
+    "/astronomy/"                  => 0,
+    "/augment/"                    => 0,
+    "/biology-fraser/"             => 0,
+    "/clas-advancement/"           => 0,
+    "/clas-comms/"                 => 0,
+    "/clascomtemplate/"            => 0,
+    "/clas-dean/"                  => 0,
+    "/clas-dsc/"                   => 0,
+    "/clas-PHPB/"                  => 0,
+    "/clas-recognition-ceremony/"  => 0,
+    "/clas-researchoffice/"        => 0,
+    "/classc/"                     => 0,
+    "/classics-garden-conference/" => 0,
+    "/collegechampions/" => 0,
+    "/economics/" => 0,
+    "/electionscience/" => 0,
+    "/english/" => 0,
+    "/english-comics/" => 0,
+    "/english-cw/" => 0,
+    "/english-film/" => 0,
+    "/english-imagetext/" => 0,
+    "/english-ipsa/" => 0,
+    "/EnglishLanguageInstitute/" => 0,
+    "/geology/" => 0,
+    "/globalislam/" => 0,
+    "/history/" => 0,
+    "/history-capitalism/" => 0,
+    "/humanities/" => 0,
+    "/humanities-ethics-in-the-public-sphere/" => 0,
+    "/humanities-grants/" => 0,
+    "/jewish-studies/" => 0,
+    "/languagestudio/" => 0,
+    "/math/" => 0,
+    "/math-narg/" => 0,
+    "/mediaservices/" => 0,
+    "/phil-aiethics/" => 0,
+    "/physics-efrc/" => 0,
+    "/physics-scinews/" => 0,
+    "/polisci/" => 0,
+    "/psych-sourcesofstrength/" => 0,
+    "/soccrim/" => 0,
+    "/songs/" => 0,
+    "/spanishportuguese/" => 0,
+    "/spohp/" => 0,
+    "/spohp-ogus/" => 0,
+    "/Stat-Club/" => 0,
+    "/stat-fass/" => 0,
+    "/sustainability/" => 0,
+    "/ums/" => 0,
+    "/vrsocialgood/" => 0,
+    "/writing/" => 0
+  );
+
+  $count_prod = 0;
+  foreach ($sites_clasTheme_prod as $key) {
+    $count_prod++;
   }
 
 ?>
