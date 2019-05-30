@@ -16,6 +16,11 @@
       <ul>
         <li>(https://history.ufl.edu/) Slidshow button z-index failure (LIVE mobile and desktop)</li>
         <li>(https://test.clas.ufl.edu/stat-dc/) justify-content: space-between; for two items</li>
+        <li>nav li | individual heading items cant be isolated in highlights</li>
+        <li>nav | no indication of current page</li>
+        <li>clas-news | Content hidden</li>
+      </ul>
+      <ul>
         <li>nav li | unclickable heading</li>
         <ul>
           <li>works if there's no dropdown items</li>
@@ -28,9 +33,6 @@
         <li>nav li | cursor: pointer (wasn't able to duplicate this)</li>
         <li>nav li | y-overflow: scroll</li>
         <li>nav li (mobile) | y-overflow: scroll (becomes a double scroll bar)</li>
-        <li>nav li | individual heading items cant be isolated in highlights</li>
-        <li>nav | no indication of current page</li>
-        <li>clas-news | Content hidden</li>
         <li><b>redirect map needed</b> history-capitalism redirects to history</li>
         <li>English: , Humanties:Humanities-grants, Parent:Children vs. Parent:Parent is actually parent to parent</li>
         <ul>
