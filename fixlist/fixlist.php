@@ -6,6 +6,15 @@
   </head>
   <body>
     <h1>FixList</h1>
+
+header
+body
+footer split into nav top for departments bottom for unchanging clas
+
+
+
+
+
     <h2>General</h2>
     <ul>
       <li>backup schedule</li>
