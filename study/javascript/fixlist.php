@@ -11,3 +11,30 @@
   <ul>
     <li>"typeof" -- gets the data type</li>
   </ul>
+
+
+  <h2><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_switch" target="_blank">Switch</a></h2>
+  <p><i>check <a href="switch/index.php">study notes</a></i></p>
+
+  <pre>
+    <script type="text/javascript">
+
+    switch (variable) {
+      case "some value":
+    		//statement;
+    		//statement;
+     		//statement;
+  		break;
+      case "another value":
+    		//statement
+    		//statement
+    		//statement
+  		break;
+      default:
+      	//statement
+      	//statement
+      	//statement
+    	break;
+    }
+    </script>
+  </pre>
