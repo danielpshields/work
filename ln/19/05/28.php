@@ -19,7 +19,10 @@
         <li>added <a href="<?php echo $root; ?>home/blog/fixlist.php">blog concept</a></li>
         <li>third monitor added</li>
         <li>comb websites for errors</li>
-        <li>scott harper chat</li>
+        <li>scott harper chat re AAC</li>
+        <li>[lnote] fixlist count loop, reduced two queries to one</li>
+        <li>[lnote] added purchase states</li>
+        <li>[ah] surplus scraper</li>
       </ul>
 
       <form action="<?php echo $root; ?>processor.php" method="post">
@@ -29,9 +32,9 @@
       <footer>
         <nav>
           <ul>
-            <li><a href=".php">last</a></li>
+            <li><a href="26.php">last</a></li>
             <p>&#124;</p>
-            <li><a href="../../../index.php">next</a></li>
+            <li><a href="29.php">next</a></li>
             <div class="clear"></div>
           </ul>
         </nav>
