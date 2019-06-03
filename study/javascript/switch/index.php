@@ -2,6 +2,30 @@
 <html>
 <body>
 
+
+    <pre>
+      <script type="text/javascript">
+
+      switch (variable) {
+        case "some value":
+      		//statement;
+      		//statement;
+       		//statement;
+    		break;
+        case "another value":
+      		//statement
+      		//statement
+      		//statement
+    		break;
+        default:
+        	//statement
+        	//statement
+        	//statement
+      	break;
+      }
+      </script>
+    </pre>
+
   <h2>Example One:</h2>
 
 <p id="demo"></p>

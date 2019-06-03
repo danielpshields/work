@@ -1,0 +1,29 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  background: #f0f0f0;
+}
+* {
+  box-sizing: inherit;
+}
+body {
+  background: white;
+  color: #333;
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 1rem auto;
+  padding-bottom: 1rem;
+  box-shadow: 4px 4px 9px #c0c0c0;
+  padding: .4rem 1rem 1rem 1rem;
+}
+li {
+  list-style: none;
+  line-height: 1.4;
+}
+p {
+  line-height: 1.4;
+}
+#narration {
+  padding: 1rem 2rem;
+  background: #b4e3ea;
+}

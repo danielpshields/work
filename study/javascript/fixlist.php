@@ -13,28 +13,13 @@
   </ul>
 
 
-  <h2><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_switch" target="_blank">Switch</a></h2>
+  <h2>Switch</h2>
   <p><i>check <a href="switch/index.php">study notes</a></i></p>
 
-  <pre>
-    <script type="text/javascript">
+  <h2>incrementers</h2>
+  <script type="text/javascript">
+    let x = 1;
+    x++;
+    document.write(x);
 
-    switch (variable) {
-      case "some value":
-    		//statement;
-    		//statement;
-     		//statement;
-  		break;
-      case "another value":
-    		//statement
-    		//statement
-    		//statement
-  		break;
-      default:
-      	//statement
-      	//statement
-      	//statement
-    	break;
-    }
-    </script>
-  </pre>
+  </script>
