@@ -1,8 +1,16 @@
+  <h2>Head</h2>
+
+  <ul>
+    <li>@bottom, because it loads in order</li>
+    <li>async</li>
+    <li>defer</li>
+  </ul>
+
 
   <h2>Variables</h2>
 
   <ul>
-    <li>`const` is a signal that the identifier won’t be reassigned.</li>
+    <li>`const` is a signal that the identifier won’t be reassigned. (typically all caps)</li>
     <li>`let`, is a signal that the variable may be reassigned, such as a counter in a loop, or a value swap in an algorithm. It also signals that the variable will be used only in the block it’s defined in, which is not always the entire containing function.</li>
   </ul>
 
@@ -21,5 +29,9 @@
     let x = 1;
     x++;
     document.write(x);
-
   </script>
+
+    <h2>Foreach</h2>
+    <ul>
+      <li> array.forEach(function(key) { }); </li>
+    </ul>

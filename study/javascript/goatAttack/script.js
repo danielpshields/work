@@ -16,10 +16,6 @@ let m4 = "Oh, snap! You are too exhausted to continue.";
 let m5 = "Congratulations! You've reached the summit!";
 let m6 = "You must select an option before you click Go.";
 let m7 = "You are climbing the mountain!";
-let food_good = "Chewing... Chewing... feeling better. You're feeling better and happily wag a little as a result.";
-let food_whoa = "You are too full and now weaker because of it!";
-let food_low  = "You are out of food! Being reminded of this mentally and emotionally wounded you enough to affect your overall health.";
-let food_no   = "You have tried to eat food that isn't there. You're descended into madness and must be airlifted off of the mountain. The medics note the correlation between the helicopter blades and you circling in madness. The game is over.";
 //can add new messages
 
 // the value of message will be changed depending on player actions
@@ -65,35 +61,24 @@ function climberResult() {
 // more functions
 
 function climbAction() {
-  position     += 100;
-  health       -= 10;
-  message       = m7;
+  position += 100;
+  health   -= 10;
+  message   = m7;
   climb.checked = false; /* keep */
 }
 
 function eatAction() {
-  position   += 0;
-  if (food >= 10) {
-    if (health <= 90) {
-      health += 10;
-      food   -= 10;
-      message = food_good;
-    } else {
-      health -= 10;
-      food   -= 10;
-      message = food_whoa;
-    }
-  } else if (food === 10) {
-    message = food_low;
-    health -= 10;
-    food   -= 10;
-  } else if (food < 0) {
-    message = food_no;
-  }
+  position += 0;
+  health   += 10;
+  food     -= 10;
+  message   = m7;
   eat.checked = false; /* keep */
 }
 
 function restAction() {
+  position += 0;
+  health   += 20;
+  food     -= 0;
   rest.checked = false; /* keep */
 }
 
