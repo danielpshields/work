@@ -1,40 +1,32 @@
 // Alex Catalano
-
-// global variables
-const height = 6000;
-let position = 0;
-let health   = 100;
-let food     = 50;
-let goat     = 0;
-let distance = height;
-
-// blue box messages
-let m1 = "You're at the base of a mountain that is " + height + " feet high. Your goal is to climb it. Watch out for mountain goats.";
-let m2 = "A large mountain goat with gigantic horns blocks your path.";
-let m3 = "Oh, no! A mountain goat has knocked you down!";
-let m4 = "Oh, snap! You are too exhausted to continue.";
-let m5 = "Congratulations! You've reached the summit!";
-let m6 = "You must select an option before you click Go.";
-let m7 = "You are climbing the mountain!";
-//can add new messages
-
-// the value of message will be changed depending on player actions
-// m1 is the starting message value
+const height   = 6000;
+let position   = 0;
+let health     = 100;
+let food       = 50;
+let goat       = 0;
+let nap        = 0;
+let sleepCycle = 0;
+let distance   = height;
+let m1  = "You're at the base of a mountain that is " + height + " feet high. Your goal is to climb it. Watch out for mountain goats.";
+let m2  = "A large mountain goat with gigantic horns blocks your path.";
+let m3  = "Oh, no! A mountain goat has knocked you down!";
+let m4  = "Oh, snap! You are too exhausted to continue.";
+let m5  = "Congratulations! You've reached the summit!";
+let m6  = "You must select an option before you click Go.";
+let m7  = "You are climbing the mountain!";
+let m8  = "You are out of food. This hurts your stomach and lowers your health.";
+let m9  = "You have too much energy to rest!";
+let m10 = "You are already full!";
+let m11 = "Zzzz...";
+let m12 = "You're awoken by a disturbance. Some of your food is missing.";
+let m13 = "Chewing... Chewing...";
 let message = m1;
 
-// this function executes immediately when the page loads
 writeResults();
 
-// two lines of code make the Go button work:
-// first we identify the button and assign it to a variable
-const goButton = document.querySelector('#go');
-// then we "listen" for any click on it; when a click happens,
-// the function climberResult() will run.
-// Note, no parentheses after the function name in this case
-goButton.addEventListener('click', climberResult);
+const GOBUTTON = document.querySelector('#go');
+GOBUTTON.addEventListener('click', climberResult);
 
-// the main function - runs each time the Go button is clicked
-// it calls the other functions
 function climberResult() {
   if (health <= 0) {
     message = m4;
@@ -48,17 +40,11 @@ function climberResult() {
   } else if (rest.checked) {
     restAction();
   } else {
-    // if nothing is checked
     message = m6;
   }
-  // calculate the remaining distance
   distance = height - position;
-
-  // write out the new values for all the vars
   writeResults();
 }
-
-// more functions
 
 function climbAction() {
   position += 100;
@@ -68,17 +54,44 @@ function climbAction() {
 }
 
 function eatAction() {
+  if (food === 0) {
+    health -= 10;
+    message = m8;
+  } else if (health > 90) {
+    message = m10;
+  } else {
+      food -= 10;
+      health += 10;
+      message = m13;
+  }
   eat.checked = false; /* keep */
 }
 
 function restAction() {
+  if (health <= 90) {
+    // return sleepCycle = Math.round(nap / 4);
+    nap++;
+    health += 10;
+    if (nap === 4) {
+      food   -= 10;
+      message = m12;
+      return sleepCycle++;
+      nap = 0;
+    } else {
+      message = m11;
+    }
+  } else {
+    message = m9;
+  }
   rest.checked = false; /* keep */
 }
 
-function goatAttack() {}
+if (sleepCycle > 1) {
+  function goatAttack() {
+    console.log("its on amigo!");
+  }
+}
 
-// at end of climberResult() function, this runs
-// it updates everything on the HTML page
 function writeResults() {
   document.querySelector("#position").textContent  = position;
   document.querySelector("#health").textContent    = health;

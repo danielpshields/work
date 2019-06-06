@@ -4,7 +4,16 @@
       <li><b>Method</b>: function that belongs to the object</li>
     </ul>
 
-    <h2><a href="object/index.html"><b>Object</b></a></h2>  
+    <h2>Targeting DOM</h2>
+    <ul>
+      <li>document.querySelector(".main a");</li>
+      <li>document.querySelectorAll(".post a");</li>
+      <li>document.querySelector(".class").className;</li>
+      <li>document.querySelector(".class").classList;</li>
+    </ul>
+
+
+    <h2><a href="object/index.html"><b>Object</b></a></h2>
 
     <h2>Head</h2>
     <ul>
