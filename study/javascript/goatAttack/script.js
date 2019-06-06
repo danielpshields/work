@@ -1,6 +1,6 @@
 // Alex Catalano
 
-// global variables May Add
+// global variables
 const height = 6000;
 let position = 0;
 let health   = 100;
@@ -62,23 +62,16 @@ function climberResult() {
 
 function climbAction() {
   position += 100;
-  health   -= 10;
-  message   = m7;
+  health -= 10;
+  message = m7;
   climb.checked = false; /* keep */
 }
 
 function eatAction() {
-  position += 0;
-  health   += 10;
-  food     -= 10;
-  message   = m7;
   eat.checked = false; /* keep */
 }
 
 function restAction() {
-  position += 0;
-  health   += 20;
-  food     -= 0;
   rest.checked = false; /* keep */
 }
 
