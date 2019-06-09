@@ -19,7 +19,8 @@ let m9  = "You have too much energy to rest!";
 let m10 = "You are already full!";
 let m11 = "Zzzz...";
 let m12 = "You're awoken by a disturbance. Some of your food is missing.";
-let m13 = "Chewing... Chewing...";
+let m13 = "Chewing...";
+let m44 = "You are low on health. You need to rest or eat.";
 let message = m1;
 
 writeResults();
@@ -47,22 +48,26 @@ function climberResult() {
 }
 
 function climbAction() {
-  position += 100;
-  health -= 10;
-  message = m7;
+  if (health === 10) {
+      message = m44; // deathnote
+  } else {
+    position += 100;
+    health -= 10;
+    message = m7;
+  }
   climb.checked = false; /* keep */
 }
 
 function eatAction() {
   if (food === 0) {
     health -= 10;
-    message = m8;
+    message = m8; // you are out of food
   } else if (health > 90) {
-    message = m10;
+    message = m10; // you are already full
   } else {
       food -= 10;
       health += 10;
-      message = m13;
+      message = m13; // chewing
   }
   eat.checked = false; /* keep */
 }
@@ -78,10 +83,10 @@ function restAction() {
       return sleepCycle++;
       nap = 0;
     } else {
-      message = m11;
+      message = m11; // zzz...
     }
   } else {
-    message = m9;
+    message = m9; // too excited to sleep
   }
   rest.checked = false; /* keep */
 }
