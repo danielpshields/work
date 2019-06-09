@@ -23,7 +23,14 @@ let m13 = "Chewing...";
 let m44 = "You are low on health. You need to rest or eat.";
 let message = m1;
 
-writeResults();
+if (sleepCycle > 1) {
+  goatAttack();
+} else {
+  writeResults();
+}
+
+
+
 
 const GOBUTTON = document.querySelector('#go');
 GOBUTTON.addEventListener('click', climberResult);
@@ -73,17 +80,21 @@ function eatAction() {
 }
 
 function restAction() {
+  // return sleepCycle = Math.round(nap / 4);
   if (health <= 90) {
-    // return sleepCycle = Math.round(nap / 4);
-    nap++;
     health += 10;
+    nap++;
     if (nap === 4) {
+      message = m12; // awoken, something stole your food
       food   -= 10;
-      message = m12;
-      return sleepCycle++;
-      nap = 0;
+      nap     = 0;
+      ++sleepCycle;
     } else {
+<<<<<<< HEAD
       message = m11; // zzz...
+=======
+        message = m11 + sleepCycle; //  zzz.zzzz...
+>>>>>>> 1473f3518d89da8c17f539f6b38423fe94f062e0
     }
   } else {
     message = m9; // too excited to sleep
@@ -91,10 +102,8 @@ function restAction() {
   rest.checked = false; /* keep */
 }
 
-if (sleepCycle > 1) {
-  function goatAttack() {
-    console.log("its on amigo!");
-  }
+function goatAttack() {
+  console.log("its on amigo!");
 }
 
 function writeResults() {
