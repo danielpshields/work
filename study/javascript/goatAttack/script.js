@@ -90,11 +90,7 @@ function restAction() {
       nap     = 0;
       ++sleepCycle;
     } else {
-<<<<<<< HEAD
       message = m11; // zzz...
-=======
-        message = m11 + sleepCycle; //  zzz.zzzz...
->>>>>>> 1473f3518d89da8c17f539f6b38423fe94f062e0
     }
   } else {
     message = m9; // too excited to sleep
