@@ -13,7 +13,7 @@
       <li>drives(upload movies)      <a href="">image</a></li>
       <li>wrote names on drive boxes <a href="">image</a></li>
       <li>soldering: in parallel     <a href="">image</a></li>
-      <li>                           <a href="">image</a></li>
+      <li>lnote: fixed header, added social icons, adjusted listcontainer <a href="">image</a></li>
     </ul>
   </body>
 </html>
