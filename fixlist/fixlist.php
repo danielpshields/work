@@ -6,13 +6,15 @@
   </head>
   <body>
     <h1>FixList</h1>
+    <h2>Realm</h2>
+    <p>Emily, Publications, Media Services</p>
 
-header
-body
-footer split into nav top for departments bottom for unchanging clas
-
-
-
+    <ul>
+      <li><a href="http://sites.clas.ufl.edu/" target="_blank">emily (sites [header, footer, features])</a></li>
+      <li><a href="https://clas.ufl.edu/" target="_blank">clas home page</a></li>
+      <li><a href="https://publications.clas.ufl.edu/" target="_blank">publications</a></li>
+      <li><a href="https://mediaservices.clas.ufl.edu/" target="_blank">clas media services</a></li>
+    </ul>
 
 
     <h2>General</h2>

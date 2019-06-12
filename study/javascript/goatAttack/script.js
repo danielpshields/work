@@ -23,14 +23,7 @@ let m13 = "Chewing...";
 let m44 = "You are low on health. You need to rest or eat.";
 let message = m1;
 
-if (sleepCycle > 1) {
-  goatAttack();
-} else {
-  writeResults();
-}
-
-
-
+writeResults();
 
 const GOBUTTON = document.querySelector('#go');
 GOBUTTON.addEventListener('click', climberResult);
