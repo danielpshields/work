@@ -12,7 +12,7 @@
       include("siteList.php");
     ?>
     <div id="container_about_errors">
-    <!--  <h3>Errors:</h3>
+     <!--<h3>Errors:</h3>
       <ul>
         <li>(https://history.ufl.edu/) Slidshow button z-index failure (LIVE mobile and desktop)</li>
         <li>(https://test.clas.ufl.edu/stat-dc/) justify-content: space-between; for two items</li>
@@ -67,8 +67,8 @@ Deprecated: Function create_function() is deprecated in /web/test/wp-content/plu
       <h3>Favorite URL:</h3>
       <ul>
         <li>https://test.clas.ufl.edu/advising/advising/advising-services/</li>
-      </ul>-->
-      <!-- <h3>Disregard:</h3>
+      </ul>
+      <h3>Disregard:</h3>
       <ul>
         <li>https://test.clas.ufl.edu/jonsTestSite/</li>
       </ul>
@@ -77,7 +77,7 @@ Deprecated: Function create_function() is deprecated in /web/test/wp-content/plu
         <li>English (6)</li>
         <li>Physics (6)</li>
       </ul>
-    </div><!- - container errors -->
+    </div><!-- container errors -->
 
     <div id="container_lists">
       <div class="">

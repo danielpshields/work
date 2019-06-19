@@ -23,14 +23,7 @@ let m13 = "Chewing...";
 let m44 = "You are low on health. You need to rest or eat.";
 let message = m1;
 
-if (sleepCycle > 1) {
-  goatAttack();
-} else {
-  writeResults();
-}
-
-
-
+writeResults();
 
 const GOBUTTON = document.querySelector('#go');
 GOBUTTON.addEventListener('click', climberResult);
@@ -90,11 +83,7 @@ function restAction() {
       nap     = 0;
       ++sleepCycle;
     } else {
-<<<<<<< HEAD
       message = m11; // zzz...
-=======
-        message = m11 + sleepCycle; //  zzz.zzzz...
->>>>>>> 1473f3518d89da8c17f539f6b38423fe94f062e0
     }
   } else {
     message = m9; // too excited to sleep

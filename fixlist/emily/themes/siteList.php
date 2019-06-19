@@ -53,6 +53,7 @@ $sites_clasTheme_test = array(
   foreach ($sites_clasTheme_test as $key => $value) {
     //math for total number of Sites
     $siteCount_test++;
+    // echo $key . " " . $value . "<br>";
 
     //math for getting average
     if ($value > 0) {

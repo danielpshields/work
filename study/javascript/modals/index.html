@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div id="box">
+      <p>hello</p>
+    </div><!-- box -->
+    <h2>Modals</h2>
+    <button id="myBtn">Open Modal</button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <!-- <iframe src="https://google.com"></iframe> -->
+        <object id="lightBox" height="900"><span id="innerObject"></span></object>
+      </div><!-- modal content -->
+    </div>
+    <p id="height"></p>
+  </body>
+  <script type="text/javascript">
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("myBtn");
+    var span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+    let objectHeight = querySelector("#innerObject").innerHeight;
+    let windowHeight = window.innerHeight;
+    let setHeight    = document.querySelector(".lightBox");
+
+    // windowHeight -= 105;
+    // setHeight.setAttribute("height", windowHeight);
+    // setHeight.id =
+
+
+    document.querySelector("#height").innerHTML = windowHeight;
+    document.querySelector("#innerObject").innerHTML = objectHeight;
+
+  </script>
+</html>
