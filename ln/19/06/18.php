@@ -10,10 +10,14 @@
     <h2>2</h2>
     <ul>
       <li>drives(upload movies)</li>
-      <li>designed bike ligh</li>
+      <li>steps</li>
+      <li>designed bike light</li>
       <li>printing bike light</li>
       <li>charging drone batteries for potential biven arms</li>
-      <li>lnote: </li>
+      <li>lnote: rewrote item.php / .css</li>
+      <li>printed nice bike light</li>
+      <li>wired bike light</li>
+      <li>published highGround blogpost</li>
     </ul>
   </body>
 </html>
