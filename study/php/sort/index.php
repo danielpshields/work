@@ -1,43 +1,16 @@
 <?php
-function cmp($a, $b) {
-    if ($a == $b) {
-        return 0;
-    }
-    return ($a < $b) ? -1 : 1;
+function cmp($a, $b)
+{
+    return strcmp($a["fruit"], $b["fruit"]);
 }
 
-$a = array(
-    array(
-      "id" => 1250,
-      "item" => "one, it's not mobile, two PROCESSOR is exposed"
-    ),
-    array(
-      "id" => 1500,
-      "item" => "test 2 no mobile"
-    ),
-    array(
-      "id" => 500,
-      "item" => "test three"
-    )
-  );
+$fruits[0]["fruit"] = "lemons";
+$fruits[1]["fruit"] = "apples";
+$fruits[2]["fruit"] = "grapes";
 
-foreach ($a as $firstKey => $firstValue) {
-  foreach ($firstValue as $key => $value) {
-    if ($key == "id") {
-    $list[] = $value;
-    }
-  }
+usort($fruits, "cmp");
+
+while (list($key, $value) = each($fruits)) {
+    echo "\$fruits[$key]: " . $value["fruit"] . "<br>";
 }
-
-echo "<pre>";
-print_r($a);
-echo "</pre>";
-
-usort($list, "cmp");
-
-
-echo "<pre>";
-print_r($list);
-echo "</pre>";
-
 ?>
