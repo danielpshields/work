@@ -28,8 +28,8 @@ Edited from article originally published on UF News.
     [post_name] => biology-student-wins-goldwater-scholarship
     [to_ping] =>
     [pinged] =>
-    [post_modified] => 2018-04-26 11:40:19
-    [post_modified_gmt] => 2018-04-26 15:40:19
+    [post_modified] => 2019-07-10 15:03:52
+    [post_modified_gmt] => 2019-07-10 19:03:52
     [post_content_filtered] =>
     [post_parent] => 0
     [guid] => https://publications.clas.ufl.edu/?p=7478
