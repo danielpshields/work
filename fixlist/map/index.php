@@ -19,7 +19,7 @@
 
     <hr>
 
-      <?php include("include/media.php"); ?>
+      <?php include("include/feature/top-media.php"); ?>
 
     <hr>
 
