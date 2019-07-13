@@ -1,0 +1,23 @@
+.highlight_separate {
+  background: #c2d9ff;
+  border: 1px solid #a0a0a0;
+  width: 100%;
+  max-width: 400px;
+}
+
+.red {
+  background: #ffb8c2;
+}
+
+.green {
+  background: #dfffde;
+}
+
+.black {
+  background: #383838;
+  color: #fff;
+}
+
+.notes p {
+  font-style: italic;
+}
