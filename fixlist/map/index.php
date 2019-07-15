@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
+
     <nav>
       <ul>
         <li>Achilles</li>
@@ -19,14 +20,10 @@
         <li class="black">outside</li>
       </ul>
     </nav>
-    <h1>CLAS Map</h1>
+
+    <h1>CLAS Media Services Style Guide</h1>
 
       <?php include("include/header.php"); ?>
-
-      <!--
-        college:
-        department: search / links is connected through departmental div
-      -->
 
     <hr>
 

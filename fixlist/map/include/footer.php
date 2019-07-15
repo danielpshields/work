@@ -1,4 +1,4 @@
-<p>footer</p>
+<h2>Footer</h2>
 <ul>
   <li>&nbsp;</li>
   <li>&nbsp;</li>

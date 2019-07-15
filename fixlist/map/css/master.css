@@ -1,6 +1,33 @@
 * {
   font-family: monospace, monospace;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  width: 100%;
+  max-width: 1025px;
+  margin: auto;
+}
+
+a {
+  color: #2A5DB0;
+}
+
+i {
+  color: #575757;
+  font-size: .9rem;
+}
+
+h1, hr {
+  margin: 1.5rem 0;
+}
+
+h2, h3 {
+  margin: .8rem 0;
+}
+
 
 .highlight_separate {
   border: 1px solid #a0a0a0;
@@ -68,4 +95,13 @@ nav li {
   color: #444;
   width: 84%;
   margin: auto;
+}
+
+#navUL {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navUL li {
+  list-style: none;
 }
