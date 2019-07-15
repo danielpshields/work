@@ -1,5 +1,5 @@
 <?php
-  $title = "CLAS Map";
+  $title = "CMS Map";
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -10,18 +10,9 @@
   </head>
   <body>
 
-    <nav>
-      <ul>
-        <li>Achilles</li>
-        <li class="red">Deans</li>
-        <li class="green">Advising</li>
-        <li class="orange">Publications</li>
-        <li class="blue">clas</li>
-        <li class="black">outside</li>
-      </ul>
-    </nav>
+      <?php include("include/colors.php"); ?>
 
-    <h1>CLAS Media Services Style Guide</h1>
+    <h1>CMS Map</h1>
 
       <?php include("include/header.php"); ?>
 
@@ -40,17 +31,6 @@
     <hr>
 
       <?php include("include/feature/bigNumbers.php"); ?>
-
-      <!--
-        $bigNumbers = array(
-          "773 FACULTY"                             => "",
-          "43 MAJORS"                               => "majors",
-          "11 NATIONAL ACADEMY OF SCIENCES MEMBERS" => "profiles",
-          "11,000 UNDERGRADUATES"                   => "",
-          "3,500 DEGREES AWARDED ANNUALLY"          => "",
-          "1,500 GRADUATES"                         => ""
-        );
-      -->
 
     <hr>
 
