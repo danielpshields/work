@@ -1,9 +1,9 @@
 <p>footer</p>
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>&nbsp;</li>
+  <li>&nbsp;</li>
+  <li>&nbsp;</li>
 </ul>
 <ul>
-  <li>slamBanner</li>
+  <li>banner</li>
 </ul>

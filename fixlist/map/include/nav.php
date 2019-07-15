@@ -1,7 +1,7 @@
 <h2>Nav</h2>
   <ul>
-    <div class="highlight_separate green">
-    <li>ACADEMICS</li>
+    <div class="highlight_separate">
+    <li><s>ACADEMICS</s></li>
     <ul>
       <li>Departments</li>
       <li>Centers and Institutes</li>
@@ -9,7 +9,7 @@
       <li>Undergraduate</li>
       <ul>
         <li>Majors</li>
-        <li>Interdisciplinary Studies</li>
+        <li class="red">Interdisciplinary Studies</li>
         <li>Study Abroad</li>
         <li>Exchange Programs</li>
         <li>Anderson Scholars</li>
@@ -28,21 +28,21 @@
         <li>Associate Deans</li>
         <li>Search Committees</li>
       </ul>
-      <li>About</li>
+      <li><s>About</s></li>
       <ul>
-        <li>Governance</li>
+        <li class="blue">Governance</a></li>
       </ul>
-      <li>Offices</li>
+      <li><s>Offices</s></li>
       <ul>
         <li>Administrative Staff</li>
         <li>Budget And Finance</li>
         <li>Human Resources</li>
         <li>Recruitment</li>
-        <li>CLAS IT</li>
-        <li>Media Services</li>
-        <li>Research Office</li>
-        <li>Advancement Office</li>
-        <li>Shared Service Center</li>
+        <li class="blue">CLAS IT</li>
+        <li class="blue">Media Services</li>
+        <li class="blue">Research Office</li>
+        <li class="blue">Advancement Office</li>
+        <li class="blue">Shared Service Center</li>
       </ul>
       <li>Dean’s Leadership Council</li>
       <li>Faculty Resources</li>
@@ -67,10 +67,10 @@
 
   <div class="highlight_separate">
     <li>ADVISING</li>
-    <ul>
+    <ul class="green">
       <li>Academic Advising Center</li>
       <li>Beyond120</li>
-      <li>Deans’ Medal</li>
+      <li class="highlight_separate white">Deans’ Medal</li>
       <li>Exploratory</li>
       <li>Pre-Health</li>
       <li>Pre-Law</li>
@@ -78,33 +78,31 @@
     </ul>
   </div><!-- highlight separate -->
 
-  <li>ALUMNI</li>
+  <li><s>ALUMNI</s></li>
   <ul>
     <li>Stories</li>
-    <div class="highlight_separate black">
-      <li>Giving</li>
-      <li>Office of Advancement</li>
-    </div><!-- hightlight black -->
+    <li class="blue">Giving</li>
+    <li class="blue">Office of Advancement</li>
   </ul>
-  <li>NEWS AND EVENTS</li>
+  <li><s>NEWS AND EVENTS</s></li>
   <ul>
-    <li>News</li>
-    <li>Alumni Notes</li>
+    <li class="orange">News</li>
+    <li>Alumni Notes <i>(empty page)</i></li>
     <li>Awards & Recognition</li>
   </ul>
   <li>RESEARCH</li>
   <ul>
     <li>Achievements</li>
-    <li>Research News</li>
+    <li class="orange">Research News</li>
     <li>Undergraduate Research</li>
     <li>Faculty Research</li>
-    <li>CLAS Research Office</li>
+    <li class="blue">CLAS Research Office</li>
   </ul>
   <li>ABOUT US</li>
   <ul>
     <li>Diversity and Inclusion</li>
-    <li>College History</li>
+    <li>College History <i>(broken link / empty page)</i></li>
     <li>Outreach</li>
-    <li>Governance</li>
+    <li class="blue">Governance</li>
   </ul>
 </ul>
