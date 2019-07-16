@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   width: 100%;
   max-width: 1025px;
@@ -70,6 +74,10 @@ nav {
   width: 100%;
 }
 
+ul, ol {
+  margin-left: 30px;
+}
+
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -77,6 +85,7 @@ nav ul {
   padding: 0;
   width: 100%;
 }
+
 
 nav li {
   margin: 0;
